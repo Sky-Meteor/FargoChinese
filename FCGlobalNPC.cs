@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
+using System.Text.RegularExpressions;
 using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
@@ -74,8 +75,64 @@ namespace FargoChinese
                     chat = "我已经杀了一千人了……卧槽？你还是人？你手上的鲜血有那么多……";
                 if (chat == "I hope all these graves lying around don't belong to you.")
                     chat = "我希望周围所有的这些墓碑不是你的。";
-                if (chat == $"Can you please ask {Main.npc[mechanic].GivenName} to stop touching my laser arm please.")
-                    chat = $"你能去找{Main.npc[mechanic].GivenName}吗？请让她别碰我的激光胳膊了。";
+                if (mechanic != -1)
+                {
+                    if (chat == $"Can you please ask {Main.npc[mechanic].GivenName} to stop touching my laser arm please.")
+                        chat = $"你能去找{Main.npc[mechanic].GivenName}吗？请让她别碰我的激光胳膊了。";
+                }
+                #endregion
+                #region deviantt
+                if (chat == "This world looks tougher than usual, so you can have these on the house just this once! Talk to me if you need any tips, yeah?")
+                    chat = "这个世界看起来比平时更艰难，所以我免费给你提供这些，仅此一次！如果你需要任何提示，请告诉我，好吗？";
+                if (npc.type == ModContent.NPCType<Deviantt>() && chat.Contains("HA"))
+                {
+                    string c1 = chat.Replace("HA", "哈");
+                    string c2 = c1.Replace("HEE", "嘻");
+                    string c3 = c2.Replace("HOO", "呼");
+                    string c4 = c3.Replace("HEH", "嘿");
+                    string c5 = c4.Replace(" ", "");//去空格
+                    chat = c5.Replace("!", "！");
+                }
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
+                if (chat == "")
+                    chat = "";
                 #endregion
             }
         }
@@ -83,6 +140,7 @@ namespace FargoChinese
         {
             if (IsChinese())
             {
+                #region abominationn
                 if (npc.type == ModContent.NPCType<Abominationn>())
                 {
                     if (Main.npcChatText == "Hocus pocus, the event is over")
@@ -98,6 +156,7 @@ namespace FargoChinese
                     if (Main.npcChatText == "I don't think there's an event right now.")
                         Main.npcChatText = "我认为现在没有事件。";
                 }
+                #endregion
             }
         }
     }
