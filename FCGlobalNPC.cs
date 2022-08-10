@@ -22,6 +22,8 @@ namespace FargoChinese
             if (IsChinese())
             {
                 int mechanic = NPC.FindFirstNPC(NPCID.Mechanic);
+                int mutant = NPC.FindFirstNPC(ModContent.NPCType<Mutant>());
+                int lumberjack = NPC.FindFirstNPC(ModContent.NPCType<LumberJack>());
                 #region abominationn
                 if (chat == "You really defeated me... not bad. Now do it again without getting hit. Oh, and Copper Shortsword only.")
                     chat = "你真的打败了我……不错。现在来试试无伤我吧。哦对了，只能用铜短剑。";
@@ -93,22 +95,58 @@ namespace FargoChinese
                     string c5 = c4.Replace(" ", "");//去空格
                     chat = c5.Replace("!", "！");
                 }
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
+                if (chat == "UWAH! Please don't hurt... wait, it's just you. Don't scare me like that! And why is that THING following you?!")
+                    chat = "呜哇！别伤害我……等等，是你啊……不要这样吓我！还有，为什么那东西在跟着你？！";
+                if (chat == "Good work getting one over on me! Hope I didn't make you sweat too much. Keep at the grind - I wanna see how far you can go!")
+                    chat = "不错，你战胜了我！希望我没有让你太辛苦。坚持到底吧——我想要看看你能前行多远！";
+                if (chat == "The blood moon's effects? I'm not human anymore, so nope!")
+                    chat = "血月的影响？我不再是人类了，所以没有！";
+                if (chat == "Did you know? The only real music genres are death metal and artcore.")
+                    chat = "你知道吗？唯一真正的音乐类型是死亡金属和艺术核心。";
+                if (chat == "I'll have you know I'm over a hundred Fargo years old! Don't ask me how long a Fargo year is.")
+                    chat = "我要让你知道我已经度过了一百多Fargo年了！别问我一Fargo年有多长。";
+                if (chat == "I might be able to afford a taller body if you keep buying!")
+                    chat = "如果你继续买，我可能承担得起更高的身体！";
+                if (chat == "Where's that screm cat?")
+                    chat = "那只尖叫猫呢？";
+                if (chat == $"{Main.LocalPlayer.name}!I saw something rodent - y just now!You don't have a hamster infestation, right? Right!?")
+                    chat = $"{Main.LocalPlayer.name}！我刚才看到了一些啮齿类动物！你没有感染仓鼠吧？对吧！？";
+                if (chat == "You're the Terrarian? Honestly, I was expecting someone a little... taller.")
+                    chat = "你就是泰拉瑞亚人？老实说，我在期待一个稍微……高一点的人。";
+                if (chat == "Don't look at me like that! The only thing I've deviated from is my humanity.")
+                    chat = "别用那种眼神看我！我唯一背离的就是我的人性。";
+                if (chat == "Rip and tear and buy from me for more things to rip and tear!")
+                    chat = "撕裂并流下眼泪，再从我这买点东西，再流下眼泪，这是个轮回。";
+                if (chat == "What's a chee-bee doe-goe?")
+                    chat = "什么是 chee-bee doe-goe？";
+                if (chat == "Wait a second. Are you sure this house isn't what they call 'prison?'")
+                    chat = "等一下。你确定这房子不是他们所说的“监狱”？";
+                if (chat == "Deviantt has awoken! Quick, give her all your money to defeat her!")
+                    chat = "戴薇安已苏醒！快，把你所有的钱给她来打败她！";
+                if (chat == "One day, I'll sell a summon for myself! ...Just kidding.")
+                    chat = "总有一天我会卖自己的召唤物！……开玩笑的。";
+                if (chat == "Hmm, I can tell! You've killed a lot, but you haven't killed enough!")
+                    chat = "嗯，我看得出来！你杀了很多，但你杀的还不够！";
+                if (chat == "Why the extra letter, you ask? Only the strongest sibling is allowed to remove their own!")
+                    chat = "你问我为什么要多出一个字母？只有我们中的最强者才被允许删除他们多出来的字母！";
+                if (chat == "The more rare things you kill, the more stuff I sell! Simple, right?")
+                    chat = "你杀的稀有的东西越多，我卖的东西就越多！很简单吧？";
+                if (mutant != -1)
+                {
+                    if (chat == $"Can you tell {Main.npc[mutant].GivenName} to put some clothes on?")
+                        chat = $"你能让{Main.npc[mutant].GivenName}穿上衣服吗？";
+                    if (chat == $"One day, I'll sell a summon for myself! ...Just kidding. That's {Main.npc[mutant].GivenName}'s job.")
+                        chat = $"总有一天，我会卖自己的召唤物！……开玩笑的。那是{Main.npc[mutant].GivenName}的工作。";
+                }
+                if (lumberjack != -1)
+                {
+                    if (chat == $"What's that? You want to fight {Main.npc[lumberjack].GivenName}? ...even I know better than to try.")
+                        chat = $"啥？你想和{Main.npc[lumberjack].GivenName}打？……最好不要尝试。";
+                }
+                if (chat == "Embrace suffering... and while you're at it, embrace another purchase!")
+                    chat = "拥抱痛苦吧……受虐时别忘了来我这买新东西！";
+                #endregion
+                #region lumberjack
                 if (chat == "")
                     chat = "";
                 if (chat == "")
