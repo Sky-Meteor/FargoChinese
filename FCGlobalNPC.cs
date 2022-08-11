@@ -16,10 +16,10 @@ namespace FargoChinese
 {
     public class FCGlobalNPC : GlobalNPC
     {
-        public static bool IsChinese() => LanguageManager.Instance.ActiveCulture == GameCulture.FromCultureName(GameCulture.CultureName.Chinese);
+        public static bool IsChinese => LanguageManager.Instance.ActiveCulture == GameCulture.FromCultureName(GameCulture.CultureName.Chinese);
         public override void GetChat(NPC npc, ref string chat)
         {
-            if (IsChinese())
+            if (IsChinese)
             {
                 int mechanic = NPC.FindFirstNPC(NPCID.Mechanic);
                 int mutant = NPC.FindFirstNPC(ModContent.NPCType<Mutant>());
@@ -176,7 +176,7 @@ namespace FargoChinese
         }
         public override void OnChatButtonClicked(NPC npc, bool firstButton)
         {
-            if (IsChinese())
+            if (IsChinese)
             {
                 #region abominationn
                 if (npc.type == ModContent.NPCType<Abominationn>())
