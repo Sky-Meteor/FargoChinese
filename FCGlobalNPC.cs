@@ -16,169 +16,163 @@ namespace FargoChinese
 {
     public class FCGlobalNPC : GlobalNPC
     {
-        public static bool IsChinese => LanguageManager.Instance.ActiveCulture == GameCulture.FromCultureName(GameCulture.CultureName.Chinese);
         public override void GetChat(NPC npc, ref string chat)
         {
-            if (IsChinese)
+            int mechanic = NPC.FindFirstNPC(NPCID.Mechanic);
+            int mutant = NPC.FindFirstNPC(ModContent.NPCType<Mutant>());
+            int lumberjack = NPC.FindFirstNPC(ModContent.NPCType<LumberJack>());
+            #region abominationn
+            if (chat == "You really defeated me... not bad. Now do it again without getting hit. Oh, and Copper Shortsword only.")
+                chat = "你真的打败了我……不错。现在来试试无伤我吧。哦对了，只能用铜短剑。";
+            if (chat == "Where'd I get my scythe from? Ask me later.")
+                chat = "我的镰刀是从哪里弄来的？稍后问我吧。";
+            if (chat == "Where'd I get my scythe from? You'll figure it out.")
+                chat = "我的镰刀是从哪里弄来的？你会明白的。";
+            if (chat == "I have defeated everything in this land... nothing can beat me.")
+                chat = "我已经打败了这片土地上的一切……没有什么能打败我。";
+            if (chat == "Have you ever had a weapon stuck to your hand? It's not very handy.")
+                chat = "你可曾有一把粘在你手上的武器？它不是很方便。";
+            if (chat == "What happened to Yoramur? No idea who you're talking about.")
+                chat = "Yoramur怎么了？不知道你在说谁。";
+            if (chat == "You wish you could dress like me? Ha! Actually yea.. you can.")
+                chat = "你想穿得像我一样吗？哈！实际上……你可以。";
+            if (chat == "You ever read the ancient classics, I love all the fighting in them.")
+                chat = "你曾经读过古代经典，我喜欢里面所有的战斗。";
+            if (chat == "I'm a world class poet, ever read my piece about impending doom?")
+                chat = "我是世界级的诗人，有没有读过我关于即将到来的末日的诗作？";
+            if (chat == "You want swarm summons? Maybe next year.")
+                chat = "你想要集群召唤物？也许明年吧。";
+            if (chat == "Like my wings? Thanks, the thing I got them from didn't like it much.")
+                chat = "喜欢我的翅膀？谢谢，我从一个不太喜欢它的人那得到的。";
+            if (chat == "Heroism has no place in this world, instead let's just play ping pong.")
+                chat = "这个世界没有英雄主义的容身之处，不如打乒乓球吧。";
+            if (chat == "Why are you looking at me like that? Your fashion sense isn't going to be winning you any awards either.")
+                chat = "你为什么那样看着我？你的时尚感也不会为你赢得任何奖项。";
+            if (chat == "No, you can't have my hat.")
+                chat = "不，你不能有我的帽子。";
+            if (chat == "Embrace suffering... Wait what do you mean that's already taken?")
+                chat = "拥抱痛苦……等等，你的意思是已经被占用了？";
+            if (chat == "Your attempt to exploit my anger is admirable, but I cannot be angered.")
+                chat = "你利用我的愤怒的企图令人钦佩，但我不会被激怒。";
+            if (chat == "Is it really a crime if everyone else does it.")
+                chat = "如果其他人都这样做，这真的是犯罪吗？";
+            if (chat == "Inflicting suffering upon others is the most amusing thing there is.")
+                chat = "让别人受苦是最有趣的事情。";
+            if (chat == "Irony is the best kind of humor, isn't that ironic?")
+                chat = "讽刺是最好的幽默，这不是讽刺吗？";
+            if (chat == "I like Cat... What do you mean who's Cat?")
+                chat = "我喜欢猫……什么？你问我谁是猫？";
+            if (chat == "Check the wiki if you need anything, the kirb is slowly getting it up to par.")
+                chat = "如果您需要任何指导，请查看wiki，kirb正在慢慢达到标准。";
+            if (chat == "I've heard tales of a legendary Diver... Anyway what was that about a giant jellyfish?")
+                chat = "我听说过一位传奇潜水员的故事……但无论如何，巨型水母是什么？？";
+            if (chat == "Overloaded events...? Yeah, they're pretty cool.")
+                chat = "过载事件？那可太酷了。";
+            if (chat == "It's not like I don't enjoy your company, but can you buy something?")
+                chat = "我不是不喜欢你的陪伴，但你能买点东西吗！？";
+            if (chat == "I have slain one thousand humans! Huh? You're a human? There's so much blood on your hands..")
+                chat = "我已经杀了一千人了……卧槽？你还是人？你手上的鲜血有那么多……";
+            if (chat == "I hope all these graves lying around don't belong to you.")
+                chat = "我希望周围所有的这些墓碑不是你的。";
+            if (mechanic != -1)
             {
-                int mechanic = NPC.FindFirstNPC(NPCID.Mechanic);
-                int mutant = NPC.FindFirstNPC(ModContent.NPCType<Mutant>());
-                int lumberjack = NPC.FindFirstNPC(ModContent.NPCType<LumberJack>());
-                #region abominationn
-                if (chat == "You really defeated me... not bad. Now do it again without getting hit. Oh, and Copper Shortsword only.")
-                    chat = "你真的打败了我……不错。现在来试试无伤我吧。哦对了，只能用铜短剑。";
-                if (chat == "Where'd I get my scythe from? Ask me later.")
-                    chat = "我的镰刀是从哪里弄来的？稍后问我吧。";
-                if (chat == "Where'd I get my scythe from? You'll figure it out.")
-                    chat = "我的镰刀是从哪里弄来的？你会明白的。";
-                if (chat == "I have defeated everything in this land... nothing can beat me.")
-                    chat = "我已经打败了这片土地上的一切……没有什么能打败我。";
-                if (chat == "Have you ever had a weapon stuck to your hand? It's not very handy.")
-                    chat = "你可曾有一把粘在你手上的武器？它不是很方便。";
-                if (chat == "What happened to Yoramur? No idea who you're talking about.")
-                    chat = "Yoramur怎么了？不知道你在说谁。";
-                if (chat == "You wish you could dress like me? Ha! Actually yea.. you can.")
-                    chat = "你想穿得像我一样吗？哈！实际上……你可以。";
-                if (chat == "You ever read the ancient classics, I love all the fighting in them.")
-                    chat = "你曾经读过古代经典，我喜欢里面所有的战斗。";
-                if (chat == "I'm a world class poet, ever read my piece about impending doom?")
-                    chat = "我是世界级的诗人，有没有读过我关于即将到来的末日的诗作？";
-                if (chat == "You want swarm summons? Maybe next year.")
-                    chat = "你想要集群召唤物？也许明年吧。";
-                if (chat == "Like my wings? Thanks, the thing I got them from didn't like it much.")
-                    chat = "喜欢我的翅膀？谢谢，我从一个不太喜欢它的人那得到的。";
-                if (chat == "Heroism has no place in this world, instead let's just play ping pong.")
-                    chat = "这个世界没有英雄主义的容身之处，不如打乒乓球吧。";
-                if (chat == "Why are you looking at me like that? Your fashion sense isn't going to be winning you any awards either.")
-                    chat = "你为什么那样看着我？你的时尚感也不会为你赢得任何奖项。";
-                if (chat == "No, you can't have my hat.")
-                    chat = "不，你不能有我的帽子。";
-                if (chat == "Embrace suffering... Wait what do you mean that's already taken?")
-                    chat = "拥抱痛苦……等等，你的意思是已经被占用了？";
-                if (chat == "Your attempt to exploit my anger is admirable, but I cannot be angered.")
-                    chat = "你利用我的愤怒的企图令人钦佩，但我不会被激怒。";
-                if (chat == "Is it really a crime if everyone else does it.")
-                    chat = "如果其他人都这样做，这真的是犯罪吗？";
-                if (chat == "Inflicting suffering upon others is the most amusing thing there is.")
-                    chat = "让别人受苦是最有趣的事情。";
-                if (chat == "Irony is the best kind of humor, isn't that ironic?")
-                    chat = "讽刺是最好的幽默，这不是讽刺吗？";
-                if (chat == "I like Cat... What do you mean who's Cat?")
-                    chat = "我喜欢猫……什么？你问我谁是猫？";
-                if (chat == "Check the wiki if you need anything, the kirb is slowly getting it up to par.")
-                    chat = "如果您需要任何指导，请查看wiki，kirb正在慢慢达到标准。";
-                if (chat == "I've heard tales of a legendary Diver... Anyway what was that about a giant jellyfish?")
-                    chat = "我听说过一位传奇潜水员的故事……但无论如何，巨型水母是什么？？";
-                if (chat == "Overloaded events...? Yeah, they're pretty cool.")
-                    chat = "过载事件？那可太酷了。";
-                if (chat == "It's not like I don't enjoy your company, but can you buy something?")
-                    chat = "我不是不喜欢你的陪伴，但你能买点东西吗！？";
-                if (chat == "I have slain one thousand humans! Huh? You're a human? There's so much blood on your hands..")
-                    chat = "我已经杀了一千人了……卧槽？你还是人？你手上的鲜血有那么多……";
-                if (chat == "I hope all these graves lying around don't belong to you.")
-                    chat = "我希望周围所有的这些墓碑不是你的。";
-                if (mechanic != -1)
-                {
-                    if (chat == $"Can you please ask {Main.npc[mechanic].GivenName} to stop touching my laser arm please.")
-                        chat = $"你能去找{Main.npc[mechanic].GivenName}吗？请让她别碰我的激光胳膊了。";
-                }
-                #endregion
-                #region deviantt
-                if (chat == "This world looks tougher than usual, so you can have these on the house just this once! Talk to me if you need any tips, yeah?")
-                    chat = "这个世界看起来比平时更艰难，所以我免费给你提供这些，仅此一次！如果你需要任何提示，请告诉我，好吗？";
-                if (npc.type == ModContent.NPCType<Deviantt>() && chat.Contains("HA"))
-                {
-                    string c1 = chat.Replace("HA", "哈");
-                    string c2 = c1.Replace("HEE", "嘻");
-                    string c3 = c2.Replace("HOO", "呼");
-                    string c4 = c3.Replace("HEH", "嘿");
-                    string c5 = c4.Replace(" ", "");//去空格
-                    chat = c5.Replace("!", "！");
-                }
-                if (chat == "UWAH! Please don't hurt... wait, it's just you. Don't scare me like that! And why is that THING following you?!")
-                    chat = "呜哇！别伤害我……等等，是你啊……不要这样吓我！还有，为什么那东西在跟着你？！";
-                if (chat == "Good work getting one over on me! Hope I didn't make you sweat too much. Keep at the grind - I wanna see how far you can go!")
-                    chat = "不错，你战胜了我！希望我没有让你太辛苦。坚持到底吧——我想要看看你能前行多远！";
-                if (chat == "The blood moon's effects? I'm not human anymore, so nope!")
-                    chat = "血月的影响？我不再是人类了，所以没有！";
-                if (chat == "Did you know? The only real music genres are death metal and artcore.")
-                    chat = "你知道吗？唯一真正的音乐类型是死亡金属和艺术核心。";
-                if (chat == "I'll have you know I'm over a hundred Fargo years old! Don't ask me how long a Fargo year is.")
-                    chat = "我要让你知道我已经度过了一百多Fargo年了！别问我一Fargo年有多长。";
-                if (chat == "I might be able to afford a taller body if you keep buying!")
-                    chat = "如果你继续买，我可能承担得起更高的身体！";
-                if (chat == "Where's that screm cat?")
-                    chat = "那只尖叫猫呢？";
-                if (chat == $"{Main.LocalPlayer.name}!I saw something rodent - y just now!You don't have a hamster infestation, right? Right!?")
-                    chat = $"{Main.LocalPlayer.name}！我刚才看到了一些啮齿类动物！你没有感染仓鼠吧？对吧！？";
-                if (chat == "You're the Terrarian? Honestly, I was expecting someone a little... taller.")
-                    chat = "你就是泰拉瑞亚人？老实说，我在期待一个稍微……高一点的人。";
-                if (chat == "Don't look at me like that! The only thing I've deviated from is my humanity.")
-                    chat = "别用那种眼神看我！我唯一背离的就是我的人性。";
-                if (chat == "Rip and tear and buy from me for more things to rip and tear!")
-                    chat = "撕裂并流下眼泪，再从我这买点东西，再流下眼泪，这是个轮回。";
-                if (chat == "What's a chee-bee doe-goe?")
-                    chat = "什么是 chee-bee doe-goe？";
-                if (chat == "Wait a second. Are you sure this house isn't what they call 'prison?'")
-                    chat = "等一下。你确定这房子不是他们所说的“监狱”？";
-                if (chat == "Deviantt has awoken! Quick, give her all your money to defeat her!")
-                    chat = "戴薇安已苏醒！快，把你所有的钱给她来打败她！";
-                if (chat == "One day, I'll sell a summon for myself! ...Just kidding.")
-                    chat = "总有一天我会卖自己的召唤物！……开玩笑的。";
-                if (chat == "Hmm, I can tell! You've killed a lot, but you haven't killed enough!")
-                    chat = "嗯，我看得出来！你杀了很多，但你杀的还不够！";
-                if (chat == "Why the extra letter, you ask? Only the strongest sibling is allowed to remove their own!")
-                    chat = "你问我为什么要多出一个字母？只有我们中的最强者才被允许删除他们多出来的字母！";
-                if (chat == "The more rare things you kill, the more stuff I sell! Simple, right?")
-                    chat = "你杀的稀有的东西越多，我卖的东西就越多！很简单吧？";
-                if (mutant != -1)
-                {
-                    if (chat == $"Can you tell {Main.npc[mutant].GivenName} to put some clothes on?")
-                        chat = $"你能让{Main.npc[mutant].GivenName}穿上衣服吗？";
-                    if (chat == $"One day, I'll sell a summon for myself! ...Just kidding. That's {Main.npc[mutant].GivenName}'s job.")
-                        chat = $"总有一天，我会卖自己的召唤物！……开玩笑的。那是{Main.npc[mutant].GivenName}的工作。";
-                }
-                if (lumberjack != -1)
-                {
-                    if (chat == $"What's that? You want to fight {Main.npc[lumberjack].GivenName}? ...even I know better than to try.")
-                        chat = $"啥？你想和{Main.npc[lumberjack].GivenName}打？……最好不要尝试。";
-                }
-                if (chat == "Embrace suffering... and while you're at it, embrace another purchase!")
-                    chat = "拥抱痛苦吧……受虐时别忘了来我这买新东西！";
-                #endregion
-                #region lumberjack
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                if (chat == "")
-                    chat = "";
-                #endregion
+                if (chat == $"Can you please ask {Main.npc[mechanic].GivenName} to stop touching my laser arm please.")
+                    chat = $"你能去找{Main.npc[mechanic].GivenName}吗？请让她别碰我的激光胳膊了。";
             }
+            #endregion
+            #region deviantt
+            if (chat == "This world looks tougher than usual, so you can have these on the house just this once! Talk to me if you need any tips, yeah?")
+                chat = "这个世界看起来比平时更艰难，所以我免费给你提供这些，仅此一次！如果你需要任何提示，请告诉我，好吗？";
+            if (npc.type == ModContent.NPCType<Deviantt>() && chat.Contains("HA"))
+            {
+                string c1 = chat.Replace("HA", "哈");
+                string c2 = c1.Replace("HEE", "嘻");
+                string c3 = c2.Replace("HOO", "呼");
+                string c4 = c3.Replace("HEH", "嘿");
+                string c5 = c4.Replace(" ", "");//去空格
+                chat = c5.Replace("!", "！");
+            }
+            if (chat == "UWAH! Please don't hurt... wait, it's just you. Don't scare me like that! And why is that THING following you?!")
+                chat = "呜哇！别伤害我……等等，是你啊……不要这样吓我！还有，为什么那东西在跟着你？！";
+            if (chat == "Good work getting one over on me! Hope I didn't make you sweat too much. Keep at the grind - I wanna see how far you can go!")
+                chat = "不错，你战胜了我！希望我没有让你太辛苦。坚持到底吧——我想要看看你能前行多远！";
+            if (chat == "The blood moon's effects? I'm not human anymore, so nope!")
+                chat = "血月的影响？我不再是人类了，所以没有！";
+            if (chat == "Did you know? The only real music genres are death metal and artcore.")
+                chat = "你知道吗？唯一真正的音乐类型是死亡金属和艺术核心。";
+            if (chat == "I'll have you know I'm over a hundred Fargo years old! Don't ask me how long a Fargo year is.")
+                chat = "我要让你知道我已经度过了一百多Fargo年了！别问我一Fargo年有多长。";
+            if (chat == "I might be able to afford a taller body if you keep buying!")
+                chat = "如果你继续买，我可能承担得起更高的身体！";
+            if (chat == "Where's that screm cat?")
+                chat = "那只尖叫猫呢？";
+            if (chat == $"{Main.LocalPlayer.name}!I saw something rodent - y just now!You don't have a hamster infestation, right? Right!?")
+                chat = $"{Main.LocalPlayer.name}！我刚才看到了一些啮齿类动物！你没有感染仓鼠吧？对吧！？";
+            if (chat == "You're the Terrarian? Honestly, I was expecting someone a little... taller.")
+                chat = "你就是泰拉瑞亚人？老实说，我在期待一个稍微……高一点的人。";
+            if (chat == "Don't look at me like that! The only thing I've deviated from is my humanity.")
+                chat = "别用那种眼神看我！我唯一背离的就是我的人性。";
+            if (chat == "Rip and tear and buy from me for more things to rip and tear!")
+                chat = "撕裂并流下眼泪，再从我这买点东西，再流下眼泪，这是个轮回。";
+            if (chat == "What's a chee-bee doe-goe?")
+                chat = "什么是 chee-bee doe-goe？";
+            if (chat == "Wait a second. Are you sure this house isn't what they call 'prison?'")
+                chat = "等一下。你确定这房子不是他们所说的“监狱”？";
+            if (chat == "Deviantt has awoken! Quick, give her all your money to defeat her!")
+                chat = "戴薇安已苏醒！快，把你所有的钱给她来打败她！";
+            if (chat == "One day, I'll sell a summon for myself! ...Just kidding.")
+                chat = "总有一天我会卖自己的召唤物！……开玩笑的。";
+            if (chat == "Hmm, I can tell! You've killed a lot, but you haven't killed enough!")
+                chat = "嗯，我看得出来！你杀了很多，但你杀的还不够！";
+            if (chat == "Why the extra letter, you ask? Only the strongest sibling is allowed to remove their own!")
+                chat = "你问我为什么要多出一个字母？只有我们中的最强者才被允许删除他们多出来的字母！";
+            if (chat == "The more rare things you kill, the more stuff I sell! Simple, right?")
+                chat = "你杀的稀有的东西越多，我卖的东西就越多！很简单吧？";
+            if (mutant != -1)
+            {
+                if (chat == $"Can you tell {Main.npc[mutant].GivenName} to put some clothes on?")
+                    chat = $"你能让{Main.npc[mutant].GivenName}穿上衣服吗？";
+                if (chat == $"One day, I'll sell a summon for myself! ...Just kidding. That's {Main.npc[mutant].GivenName}'s job.")
+                    chat = $"总有一天，我会卖自己的召唤物！……开玩笑的。那是{Main.npc[mutant].GivenName}的工作。";
+            }
+            if (lumberjack != -1)
+            {
+                if (chat == $"What's that? You want to fight {Main.npc[lumberjack].GivenName}? ...even I know better than to try.")
+                    chat = $"啥？你想和{Main.npc[lumberjack].GivenName}打？……最好不要尝试。";
+            }
+            if (chat == "Embrace suffering... and while you're at it, embrace another purchase!")
+                chat = "拥抱痛苦吧……受虐时别忘了来我这买新东西！";
+            #endregion
+            #region lumberjack
+            if (chat == "")
+                chat = "";
+            if (chat == "")
+                chat = "";
+            if (chat == "")
+                chat = "";
+            if (chat == "")
+                chat = "";
+            if (chat == "")
+                chat = "";
+            if (chat == "")
+                chat = "";
+            if (chat == "")
+                chat = "";
+            if (chat == "")
+                chat = "";
+            if (chat == "")
+                chat = "";
+            if (chat == "")
+                chat = "";
+            if (chat == "")
+                chat = "";
+            if (chat == "")
+                chat = "";
+            #endregion
         }
         public override void OnChatButtonClicked(NPC npc, bool firstButton)
         {
-            if (IsChinese)
-            {
-                #region abominationn
+            #region abominationn
                 if (npc.type == ModContent.NPCType<Abominationn>())
                 {
                     if (Main.npcChatText == "Hocus pocus, the event is over")
@@ -195,7 +189,7 @@ namespace FargoChinese
                         Main.npcChatText = "我认为现在没有事件。";
                 }
                 #endregion
-                #region deviantt
+            #region deviantt
                 if (npc.type == ModContent.NPCType<Deviantt>())
                 {
                     if (Main.npcChatText == "What's that? You want to fight me for real? ...nah, I can't put up a good fight on my own.")
@@ -266,7 +260,6 @@ namespace FargoChinese
                         Main.npcChatText = "你要是问我的话，世纪之花实在是太放纵自己了。叶绿矿和生命果并不是一套那么好的饮食！为什么你不帮帮她减肥？";
                 }
                 #endregion
-            }
         }
     }
 }
