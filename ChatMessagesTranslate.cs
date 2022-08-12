@@ -7,7 +7,7 @@ using Terraria.Chat;
 using Microsoft.Xna.Framework;
 using Terraria.Audio;
 using static System.Net.Mime.MediaTypeNames;
-using Terraria.GameContent.UI.Chat;
+using Microsoft.Xna.Framework;
 
 namespace FargoChinese
 {
@@ -46,7 +46,7 @@ namespace FargoChinese
                     }
                 }
             }
-            else if (newText == "Expert mode is now enabled!" && R==175 && G == 75 && B == 255)
+            else if (newText == "Expert mode is now enabled!" && R == 175 && G == 75 && B == 255)
                 Main.chatMonitor.NewText("专家模式已开启！", R, G, B);
             else if (newText == "Master mode is now enabled!" && R == 175 && G == 75 && B == 255)
                 Main.chatMonitor.NewText("大师模式已开启！", R, G, B);
@@ -73,6 +73,10 @@ namespace FargoChinese
                 Main.chatMonitor.NewText("这群怪物已被打败！", R, G, B);
             }
             #endregion
+            else if (newText == $"A new item has been unlocked in Deviantt's shop!" && R == Color.HotPink.R && G == Color.HotPink.G && B == Color.HotPink.B)
+                Main.chatMonitor.NewText("戴薇安解锁了新商品！", R, G, B);
+            else if (newText == $"A new item has been unlocked in Abominationn's shop!" && R == Color.Orange.R && G == Color.Orange.G && B == Color.Orange.B)
+                Main.chatMonitor.NewText("憎恶解锁了新商品！", R, G, B);
             else
                 Main.chatMonitor.NewText(newText, R, G, B);
             SoundEngine.PlaySound(SoundID.MenuTick);
@@ -131,6 +135,10 @@ namespace FargoChinese
             else if (text == "The swarm has been defeated!" && c == new Color(206, 12, 15))
                 Main.chatMonitor.NewTextMultiline("这群怪物已被打败！", force, c, WidthLimit);
             #endregion
+            else if (text == $"A new item has been unlocked in Deviantt's shop!" && c == Color.HotPink)
+                Main.chatMonitor.NewTextMultiline("戴薇安解锁了新商品！", force, c, WidthLimit);
+            else if (text == $"A new item has been unlocked in Abominationn's shop!" && c == Color.Orange)
+                Main.chatMonitor.NewTextMultiline("憎恶解锁了新商品！", force, c, WidthLimit);
             else
                 Main.chatMonitor.NewTextMultiline(text, force, c, WidthLimit);
             SoundEngine.PlaySound(SoundID.MenuTick);

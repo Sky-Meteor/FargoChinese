@@ -12,16 +12,6 @@ namespace FargoChinese
 {
     public class FCPlayer : ModPlayer
     {
-        public override void PostUpdateMiscEffects()
-        {
-            if (ModLoader.TryGetMod("Fargowiltas", out Mod fargo))
-            {
-                int chinese = (int)GameCulture.CultureName.Chinese;
-                if (Main.netMode != NetmodeID.MultiplayerClient)
-                    fargo.Find<ModItem>("MapViewer").Tooltip.AddTranslation(chinese, "显示整个地图");
-                else
-                    fargo.Find<ModItem>("MapViewer").Tooltip.AddTranslation(chinese, "显示你周围的地图区域");
-            }
-        }
+
     }
 }
