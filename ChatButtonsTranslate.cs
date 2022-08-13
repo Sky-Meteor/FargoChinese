@@ -1,10 +1,13 @@
 ﻿using Fargowiltas.NPCs;
+using Fargowiltas.UI;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using Microsoft.Xna.Framework;
 
 namespace FargoChinese
 {

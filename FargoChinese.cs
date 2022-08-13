@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using Fargowiltas.NPCs;
+using Fargowiltas.UI;
 using System.Reflection;
 
 namespace FargoChinese
@@ -12,6 +12,6 @@ namespace FargoChinese
 		public override void PostSetupContent()
 		{
 
-		}
+        }
 	}
 }

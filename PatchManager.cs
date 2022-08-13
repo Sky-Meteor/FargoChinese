@@ -7,10 +7,12 @@ namespace FargoChinese
         public override void Load()
         {
             ChatButtonsTranslate.Load();
+            //StatSheetTranslate.Load();
         }
         public override void Unload()
         {
             ChatButtonsTranslate.Unload();
+            //StatSheetTranslate.Unload();
         }
     }
 }

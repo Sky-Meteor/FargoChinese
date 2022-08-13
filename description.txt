@@ -1,3 +1,5 @@
+Fargo突变汉化补丁
+Chinese Patch for Fargo's Mutant Mod
 使用时请将游戏语言设置为中文
 战争号角在多人模式下聊天栏提示有错误，为Fargo本身的问题，实际效果以属性统计表为准
 持续更新中
