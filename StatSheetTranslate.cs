@@ -21,6 +21,9 @@ using Fargowilta;
 using Microsoft.CodeAnalysis.Text;
 using Terraria.UI;
 using Terraria.GameInput;
+using ReLogic.Graphics;
+using Terraria.GameContent;
+using Terraria.UI.Chat;
 
 namespace FargoChinese
 {
@@ -29,6 +32,8 @@ namespace FargoChinese
         private static List<Hook> hooks;
         public static void Load()
         {
+            On.Terraria.Main.DrawInterface_33_MouseText += Main_DrawInterface_33_MouseText;
+            On.Terraria.Utils.DrawBorderString += Utils_DrawBorderString;
             MonoModHooks.RequestNativeAccess();
             hooks = new List<Hook>();
             hooks.Add(new Hook(typeof(StatSheetUI).GetMethod("RebuildStatList"), RebuildStatList));
@@ -38,8 +43,34 @@ namespace FargoChinese
                     hook.Apply();
             }
         }
+
+        private static Vector2 Utils_DrawBorderString(On.Terraria.Utils.orig_DrawBorderString orig, SpriteBatch sb, string text, Vector2 pos, Color color, float scale, float anchorx, float anchory, int maxCharactersDisplayed)
+        {
+            if (text == "Search...")
+                text = "搜索……";
+
+            if (maxCharactersDisplayed != -1 && text.Length > maxCharactersDisplayed)
+            {
+                text.Substring(0, maxCharactersDisplayed);
+            }
+
+            DynamicSpriteFont value = FontAssets.MouseText.Value;
+            Vector2 vector = value.MeasureString(text);
+            ChatManager.DrawColorCodedStringWithShadow(sb, value, text, pos, color, 0f, new Vector2(anchorx, anchory) * vector, new Vector2(scale), -1f, 1.5f);
+            return vector * scale;
+        }
+
+        private static void Main_DrawInterface_33_MouseText(On.Terraria.Main.orig_DrawInterface_33_MouseText orig, Main self)
+        {
+            if (Main.hoverItemName == "Stat Sheet")
+                Main.hoverItemName = "属性统计表";
+            orig.Invoke(self);
+        }
+
         public static void Unload()
         {
+            On.Terraria.Main.DrawInterface_33_MouseText -= Main_DrawInterface_33_MouseText;
+            On.Terraria.Utils.DrawBorderString -= Utils_DrawBorderString;
             foreach (Hook hook in hooks)
             {
                 if (hook is not null)
