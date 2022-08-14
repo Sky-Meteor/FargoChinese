@@ -18,6 +18,7 @@ namespace FargoChinese
     {
         public override void GetChat(NPC npc, ref string chat)
         {
+            int nurse = NPC.FindFirstNPC(NPCID.Nurse);
             int mechanic = NPC.FindFirstNPC(NPCID.Mechanic);
             int mutant = NPC.FindFirstNPC(ModContent.NPCType<Mutant>());
             int lumberjack = NPC.FindFirstNPC(ModContent.NPCType<LumberJack>());
@@ -144,30 +145,79 @@ namespace FargoChinese
                 chat = "拥抱痛苦吧……受虐时别忘了来我这买新东西！";
             #endregion
             #region lumberjack
-            if (chat == "")
-                chat = "";
-            if (chat == "")
-                chat = "";
-            if (chat == "")
-                chat = "";
-            if (chat == "")
-                chat = "";
-            if (chat == "")
-                chat = "";
-            if (chat == "")
-                chat = "";
-            if (chat == "")
-                chat = "";
-            if (chat == "")
-                chat = "";
-            if (chat == "")
-                chat = "";
-            if (chat == "")
-                chat = "";
-            if (chat == "")
-                chat = "";
-            if (chat == "")
-                chat = "";
+            if (chat == "Dynasty wood? Between you and me, that stuff ain't real wood!")
+                chat = "王朝木？我就跟你说，那东西不是真木头！";
+            if (chat == "Sure cactus isn't wood, but I can still chop it with me trusty axe.")
+                chat = "仙人掌当然不是木头，但我仍然可以用我可靠的斧头砍了它。";
+            if (chat == "You wouldn't by chance have any fantasies about me... right?")
+                chat = "你对我不会有任何幻想……对吧？";
+            if (chat == "I eat a bowl of woodchips for breakfast... without any milk.")
+                chat = "我早餐吃了一碗木片……不带牛奶。";
+            if (chat == "TIIIIIIIIIMMMBEEEEEEEERRR!")
+                chat = "砍木木木木木木木木木木木木木木木木木木木头！";
+            if (chat == "I'm a lumberjack and I'm okay, I sleep all night and I work all day!")
+                chat = "我是伐木工，我没事，我整夜睡觉，整天工作！";
+            if (chat == "You won't ever need an axe again with me around.")
+                chat = "有我在，你再也不需要斧头了。";
+            if (chat == "I have heard of people cutting trees with fish, who does that?")
+                chat = "我听说有人用鱼砍树，那是谁干的？";
+            if (chat == "You wanna see me work without my shirt on? Maybe in 2030.")
+                chat = "你想看我不穿衬衫工作吗？也许在2030年可以。";
+            if (chat == "You ever seen the world tree?")
+                chat = "你见过世界树吗？";
+            if (chat == "You want what? ...Sorry that's not the kind of wood I'm selling.")
+                chat = "你想要什么？……对不起，那种木材不是我卖的。";
+            if (chat == "Why don't I sell acorns? ...I replant all the trees I chop, don't you?")
+                chat = "我为什么不卖橡实？……我每次都重新种植所有我砍的树，你说呢？";
+            if (chat == "What's the best kind of tree? ... Any if I can chop it.")
+                chat = "最好的树是什么树？……任何我砍得掉的树。";
+            if (chat == "Can I axe you a question?")
+                chat = "我可以问你个问题吗？";
+            if (chat == "Might take a nap under a tree later, care to join me?")
+                chat = "我待会儿也许会在树下小睡一会儿，愿意和我一起吗？";
+            if (chat == "I'm an expert in all wood types.")
+                chat = "我是所有木材类型的专家。";
+            if (chat == "I'm glad there's more trees to chop here at journey's end.")
+                chat = "我很高兴在旅途的终点，又有更多树可以砍了。";
+            if (chat == "Red is one of my favourite colors, right after wood.")
+                chat = "红色是我最喜欢的颜色之一，仅次于木材色。";
+            if (chat == "It's always flannel season.")
+                chat = "这儿一直是法兰绒的季节。";
+            if (chat == "I'm glad my wood put such a big smile on your face.")
+                chat = "我很高兴我的木头让你脸上露出如此灿烂的笑容。";
+            if (nurse != -1)
+            {
+                if (chat == $"I always see {Main.npc[nurse].GivenName} looking at my biceps when I'm working. Wonder if she wants some of my wood.")
+                    chat = $"我总是看见{Main.npc[nurse].GivenName}在我工作的时候看着我的二头肌。不知道她想不想要一些我的木头。";
+            }
+            if (chat == "Lucy from that universe.. Interesting things await you.")
+                chat = "来自那个宇宙的露西……有趣的东西正等着你呢。";
+            if (chat == "While I was chopping down a cactus these things leaped at me, why don't you take care of them?")
+                chat = "我在砍仙人掌的时候，这些东西向我扑过来，你为什么不好好处理它们？";
+            if (chat == "These mahogany trees are full of life, but a tree only has one purpose: to be chopped. Oh yea these fell out of the last one.")
+                chat = "这些红木树充满了生机，但一棵树只有一个意义：被砍掉。哦，是的，这些是从上一棵树上掉下来的。";
+            if (chat == "This place is a bit fanciful for my tastes, but the wood's as choppable as any. Nighttime has these cool bugs though, take a few.")
+                chat = "这个地方对我的口味来说有点异想天开，但这里的木头和其他任何地方一样砍得动。 不过，夜间有这些很酷的虫子，拿一点吧。";
+            if (chat == "Whatever causes these to glow is beyond me, you're probably gonna eat them anyway so have this while you're at it.")
+                chat = "无论是什么使这些东西发光，我都无法理解，反正你可能会吃掉它们，所以你要吃的时候就吃这个吧。";
+            if (chat == "The trees here are probably the toughest in this branch of reality.. Sorry, just tree puns. I found these for you here.")
+                chat = "这里的树可能是这个现实分支中最坚固的……抱歉，只是些树的双关语。我在这里找到了这些东西给你。";
+            if (chat == "This neck of the woods is pretty eh? Here I've got some of my favorite wood for you.")
+                chat = "这个树林的脖子很漂亮吧？在这里，我给你搞了些我最喜欢的木头。";
+            if (chat == "Even on vacation, I always fit in a little chopping. A couple annoying birds fell out of a palm tree. Take them off my hands.. maybe cook them up?")
+                chat = "即使在度假，我也总会抽出时间来砍一小点树。几对恼人的鸟从一棵棕榈树上掉了下来，把它们从我手中拿走……也许可以把它们煮了吃？";
+            if (chat == "I looked around here for a while and didn't find any trees. I did find these little guys though. Maybe you'll want them?")
+                chat = "我在这里看了一会儿，什么树都没找到。不过我确实找到了这些小家伙。也许你会想要它们？";
+            if (chat == "I certainly didn't expect to find such wonderful trees down here. Check this out.")
+                chat = "我真没想到我能在这里找到这么牛逼的树。看看这个。";
+            if (chat == "Back in the day, people used to forge butterflies into powerful gear. We try to forget those days... but here have one.")
+                chat = "过去的日子里，人们常常将蝴蝶锻造成强大的装备。我们试图忘记那些日子……但这里有一只。";
+            if (chat == "These little critters are always falling out of the trees I cut down. Maybe you can find a use for them?")
+                chat = "这些小动物总是从我砍倒的树上掉下来。也许你可以找到它们的用途？";
+            if (chat == "Chopping trees at night is always relaxing... well except for the flying eyeballs. Have one of these little guys to keep you company.")
+                chat = "晚上砍树总是很放松的……好吧，除了这些飞来飞去的眼球。让这些小家伙中的一个陪陪你。";
+            if (chat == "I'm resting after a good day of chopping, come back tomorrow and maybe I'll have something else for you.")
+                chat = "我砍了一天的好东西，现在正在休息呢。明天再来，也许我会给你点别的东西。";
             #endregion
         }
         public override void OnChatButtonClicked(NPC npc, bool firstButton)
