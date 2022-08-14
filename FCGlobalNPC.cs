@@ -192,32 +192,103 @@ namespace FargoChinese
             }
             if (chat == "Lucy from that universe.. Interesting things await you.")
                 chat = "来自那个宇宙的露西……有趣的东西正等着你呢。";
-            if (chat == "While I was chopping down a cactus these things leaped at me, why don't you take care of them?")
-                chat = "我在砍仙人掌的时候，这些东西向我扑过来，你为什么不好好处理它们？";
-            if (chat == "These mahogany trees are full of life, but a tree only has one purpose: to be chopped. Oh yea these fell out of the last one.")
-                chat = "这些红木树充满了生机，但一棵树只有一个意义：被砍掉。哦，是的，这些是从上一棵树上掉下来的。";
-            if (chat == "This place is a bit fanciful for my tastes, but the wood's as choppable as any. Nighttime has these cool bugs though, take a few.")
-                chat = "这个地方对我的口味来说有点异想天开，但这里的木头和其他任何地方一样砍得动。 不过，夜间有这些很酷的虫子，拿一点吧。";
-            if (chat == "Whatever causes these to glow is beyond me, you're probably gonna eat them anyway so have this while you're at it.")
-                chat = "无论是什么使这些东西发光，我都无法理解，反正你可能会吃掉它们，所以你要吃的时候就吃这个吧。";
-            if (chat == "The trees here are probably the toughest in this branch of reality.. Sorry, just tree puns. I found these for you here.")
-                chat = "这里的树可能是这个现实分支中最坚固的……抱歉，只是些树的双关语。我在这里找到了这些东西给你。";
-            if (chat == "This neck of the woods is pretty eh? Here I've got some of my favorite wood for you.")
-                chat = "这个树林的脖子很漂亮吧？在这里，我给你搞了些我最喜欢的木头。";
-            if (chat == "Even on vacation, I always fit in a little chopping. A couple annoying birds fell out of a palm tree. Take them off my hands.. maybe cook them up?")
-                chat = "即使在度假，我也总会抽出时间来砍一小点树。几对恼人的鸟从一棵棕榈树上掉了下来，把它们从我手中拿走……也许可以把它们煮了吃？";
-            if (chat == "I looked around here for a while and didn't find any trees. I did find these little guys though. Maybe you'll want them?")
-                chat = "我在这里看了一会儿，什么树都没找到。不过我确实找到了这些小家伙。也许你会想要它们？";
-            if (chat == "I certainly didn't expect to find such wonderful trees down here. Check this out.")
-                chat = "我真没想到我能在这里找到这么牛逼的树。看看这个。";
-            if (chat == "Back in the day, people used to forge butterflies into powerful gear. We try to forget those days... but here have one.")
-                chat = "过去的日子里，人们常常将蝴蝶锻造成强大的装备。我们试图忘记那些日子……但这里有一只。";
-            if (chat == "These little critters are always falling out of the trees I cut down. Maybe you can find a use for them?")
-                chat = "这些小动物总是从我砍倒的树上掉下来。也许你可以找到它们的用途？";
-            if (chat == "Chopping trees at night is always relaxing... well except for the flying eyeballs. Have one of these little guys to keep you company.")
-                chat = "晚上砍树总是很放松的……好吧，除了这些飞来飞去的眼球。让这些小家伙中的一个陪陪你。";
-            if (chat == "I'm resting after a good day of chopping, come back tomorrow and maybe I'll have something else for you.")
-                chat = "我砍了一天的好东西，现在正在休息呢。明天再来，也许我会给你点别的东西。";
+            #endregion
+            #region mutant
+            if (chat == "Congratulations. You truly embraced eternity... at least, I think you did? So what happens next? Ascend from this plane of existence? Fight a transcendant cat-like entity? Destroy the world? All the power's in your hands now.")
+                chat = "恭喜。你真正地拥抱了永恒……至少，我认为你做到过？那么之后会发生什么？从这种无聊的境界飞升？与一只超凡的猫形生物战斗？毁灭世界？所有力量现在都掌握在你的手里。";
+            if (chat == "Good work beating me, I guess. I still feel like stretching my wings... Why don't we go at it for real next time?")
+                chat = "我想，打得不错。我仍然想要伸展我的翅膀……我们下次认真战斗吧？";
+            if (chat == "Savagery, barbarism, bloodthirst, that's what I like seeing in people.")
+                chat = "残暴、野蛮、嗜血，这就是我喜欢在人们身上看到的。";
+            if (chat == "The stronger you get, the more stuff I sell. Makes sense, right?")
+                chat = "你越强大，我卖的东西就越多。不难理解，对吧？";
+            if (chat == "There's something all of you have that I don't... Death perception, I think it's called?")
+                chat = "你们所有人都有一些我没有的东西……死亡感知，是叫这个来着吧？";
+            if (chat == "It would be pretty cool if I sold a summon for myself...")
+                chat = "我觉得卖个自己的召唤物是个挺酷的事儿……";
+            if (chat == "The only way to get stronger is to keep buying from me and in bulk too!")
+                chat = "变得更强大的唯一方法是继续从我这里购买东西，大量地购买东西！";
+            if (chat == "Why are you looking at me like that, all I did was eat an apple.")
+                chat = "你为什么那样看着我，我只是吃了一个苹果。";
+            if (chat == "Don't bother with anyone else, all you'll ever need is right here.")
+                chat = "不要打扰其他人，你所需要的就在这里。";
+            if (chat == "You're lucky I'm on your side.")
+                chat = "你很幸运，我站在你这边。";
+            if (chat == "Why yes I would love a ham and swiss sandwich.")
+                chat = "我在想为什么我会喜欢火腿和瑞士三明治。";
+            if (chat == "Should I start wearing clothes? ...Nah.")
+                chat = "我应该开始穿衣服吗？啊这……";
+            if (chat == "It's not like I can actually use all the gold you're spending.")
+                chat = "你花的所有金币我其实用不完。";
+            if (chat == "Violence for violence is the law of the beast.")
+                chat = "以暴制暴是野兽的法则。";
+            if (chat == "Those guys really need to get more creative. All of their first bosses are desert themed!")
+                chat = "那些家伙真的需要变得更有创意。他们所有的第一个Boss都是沙漠主题！";
+            if (chat == "You say you want to know how a Mutant and Abominationn are brothers? You're better off not knowing.")
+                chat = "你说你想知道突变体和憎恶是怎样的兄弟关系？你最好别问。";
+            if (chat == "I'm all you need for a calamity.")
+                chat = "我是你在灾难中所需要的一切。";
+            if (chat == "Everything shall bow before me! ...after you make this purchase.")
+                chat = "我将拥有整个世界！……在你购买我东西之后。";
+            if (chat == "It's clear that I'm helping you out, but uh.. what's in this for me? A house you say? I eat zombies for breakfast.")
+                chat = "很明显我是在帮助你，但是呃……这对我有什么好处？你认为是房子？我早餐吃僵尸。";
+            if (chat == "Can I jump? No, I don't have something called a 'spacebar'.")
+                chat = "我可以跳吗？不，我没有叫做“空格键”的东西。";
+            if (chat == "Got your nose, I needed one to replace mine.")
+                chat = "摸到你的鼻子了，我需要一个东西把我的鼻子换掉。";
+            if (chat == "What's a Terry?")
+                chat = "什么是Terry？";
+            if (chat == "Why do so many creatures carry around a weird looking blue doll? The world may never know.")
+                chat = "为什么这么多生物带着一个看起来很奇怪的蓝色娃娃？这个问题的答案可能永远不会被知晓。";
+            if (chat == "Impending doom approaches. ...If you don't buy anything of course.")
+                chat = "末日即将来临……如果你不买我东西的话。";
+            if (chat == "I've heard of a '3rd dimension', I wonder what that looks like.")
+                chat = "我听说过“三维”，我想知道它是什么样子的。";
+            if (chat == "Boy don't I look fabulous today.")
+                chat = "小子，我今天看起来不是很好。";
+            if (chat == "You have fewer friends than I do eyes.")
+                chat = "你的朋友比我的眼睛还少。";
+            if (chat == "The ocean is a dangerous place, I wonder where Diver is?")
+                chat = "海洋是一个危险的地方，我想知道潜水员在哪里？";
+            if (chat == "Do you know what an Ee-arth is?")
+                chat = "你知道Ee-arth是什么吗？";
+            if (chat == "I can't even spell 'apotheosis', do you expect me to know what it is?")
+                chat = "我连“巅峰”都不会拼写，你希望我知道它是什么吗？";
+            if (chat == "Where do monsters get their gold from? ...I don't have pockets you know.")
+                chat = "怪物从哪里得到的金币？……你知道我没有口袋。";
+            if (chat == "Dogs are cool and all, but cats don't try to bite my brain.")
+                chat = "狗很酷，但猫不会试图咬我的大脑。";
+            if (chat == "Beware the green dragon... What's that face mean?")
+                chat = "小心绿龙……你这张脸是什么意思？";
+            if (chat == "Where is this O-hi-o I keep hearing about.")
+                chat = "我一直听说的O-hi-o在哪？";
+            if (chat == "I've told you 56 times already, I'm busy... Oh wait you want to buy something, I suppose I have time.")
+                chat = "我已经跟你说过56次了，我很忙……哦，等等你想买东西？我想我有时间。";
+            if (chat == "I've heard of a 'Soul of Souls' that only exists in 2015.")
+                chat = "我听说过一个只存在于2015年的“灵魂之魂”。";
+            if (chat == "Adding EX after everything makes it way more difficult.")
+                chat = "在事物之后添加EX会让它变得更加困难。";
+            if (chat == "I think that all modern art looks great, especially the bloody stuff.")
+                chat = "我认为所有现代艺术看起来都很棒，尤其是血腥的东西。";
+            if (chat == "How many guides does it take to change a lightbulb? ... I don't know, how about you ask him.")
+                chat = "换一个灯泡需要几个向导？……我不知道，你问问他怎么样。";
+            if (chat == "Good thing I don't have a bed, I'd probably never leave it.")
+                chat = "还好我没有床，有的话我可能永远不会离开它。";
+            if (chat == "What's this about an update? Sounds rare.")
+                chat = "这更新的是什么？听起来很罕见。";
+            if (chat == "If you need me I'll be slacking off somewhere.")
+                chat = "如果你需要我，我会在某个地方偷懒。";
+            if (chat == "What do you mean who is Fargo!")
+                chat = "你是什么意思，谁是Fargo！";
+            if (chat == "Have you seen the ech cat?")
+                chat = "你见过Ech猫吗？";
+            if (chat == "I don't understand music nowadays, I prefer some smooth jazz... or the dying screams of monsters.")
+                chat = "我不懂现在的音乐，我更喜欢一些流畅的爵士乐……或者怪物垂死的尖叫声。";
+            if (chat == "Cthulhu's got nothing on me!")
+                chat = "克苏鲁在我身上得不到任何东西！";
+            if (chat == "I heard of a rumor of infinite use boss summons. Makes me sick..")
+                chat = "我听到一个关于无限召唤物的传言。这让我很难受……";
+            // todo: (MoonLord -> Dye Trader) chats, finished: (DefeatE -> 45)
             #endregion
         }
         public override void OnChatButtonClicked(NPC npc, bool firstButton)
@@ -309,7 +380,38 @@ namespace FargoChinese
                     if (Main.npcChatText == "If you ask me, Plantera is really letting herself go. A diet of Chlorophyte Ore and Life Fruit isn't THAT healthy! Why don't you help her slim down?")
                         Main.npcChatText = "你要是问我的话，世纪之花实在是太放纵自己了。叶绿矿和生命果并不是一套那么好的饮食！为什么你不帮帮她减肥？";
                 }
-                #endregion
+            #endregion
+            #region lumberjack
+                if (npc.type == ModContent.NPCType<LumberJack>())
+                {
+                    if (Main.npcChatText == "While I was chopping down a cactus these things leaped at me, why don't you take care of them?")
+                        Main.npcChatText = "我在砍仙人掌的时候，这些东西向我扑过来，你为什么不好好处理它们？";
+                    if (Main.npcChatText == "These mahogany trees are full of life, but a tree only has one purpose: to be chopped. Oh yea these fell out of the last one.")
+                        Main.npcChatText = "这些红木树充满了生机，但一棵树只有一个意义：被砍掉。哦，是的，这些是从上一棵树上掉下来的。";
+                    if (Main.npcChatText == "This place is a bit fanciful for my tastes, but the wood's as choppable as any. Nighttime has these cool bugs though, take a few.")
+                        Main.npcChatText = "这个地方对我的口味来说有点异想天开，但这里的木头和其他任何地方一样砍得动。 不过，夜间有这些很酷的虫子，拿一点吧。";
+                    if (Main.npcChatText == "Whatever causes these to glow is beyond me, you're probably gonna eat them anyway so have this while you're at it.")
+                        Main.npcChatText = "无论是什么使这些东西发光，我都无法理解，反正你可能会吃掉它们，所以你要吃的时候就吃这个吧。";
+                    if (Main.npcChatText == "The trees here are probably the toughest in this branch of reality.. Sorry, just tree puns. I found these for you here.")
+                        Main.npcChatText = "这里的树可能是这个现实分支中最坚固的……抱歉，只是些树的双关语。我在这里找到了这些东西给你。";
+                    if (Main.npcChatText == "This neck of the woods is pretty eh? Here I've got some of my favorite wood for you.")
+                        Main.npcChatText = "这个树林的脖子很漂亮吧？在这里，我给你搞了些我最喜欢的木头。";
+                    if (Main.npcChatText == "Even on vacation, I always fit in a little chopping. A couple annoying birds fell out of a palm tree. Take them off my hands.. maybe cook them up?")
+                        Main.npcChatText = "即使在度假，我也总会抽出时间来砍一小点树。几对恼人的鸟从一棵棕榈树上掉了下来，把它们从我手中拿走……也许可以把它们煮了吃？";
+                    if (Main.npcChatText == "I looked around here for a while and didn't find any trees. I did find these little guys though. Maybe you'll want them?")
+                        Main.npcChatText = "我在这里看了一会儿，什么树都没找到。不过我确实找到了这些小家伙。也许你会想要它们？";
+                    if (Main.npcChatText == "I certainly didn't expect to find such wonderful trees down here. Check this out.")
+                        Main.npcChatText = "我真没想到我能在这里找到这么牛逼的树。看看这个。";
+                    if (Main.npcChatText == "Back in the day, people used to forge butterflies into powerful gear. We try to forget those days... but here have one.")
+                        Main.npcChatText = "过去的日子里，人们常常将蝴蝶锻造成强大的装备。我们试图忘记那些日子……但这里有一只。";
+                    if (Main.npcChatText == "These little critters are always falling out of the trees I cut down. Maybe you can find a use for them?")
+                        Main.npcChatText = "这些小动物总是从我砍倒的树上掉下来。也许你可以找到它们的用途？";
+                    if (Main.npcChatText == "Chopping trees at night is always relaxing... well except for the flying eyeballs. Have one of these little guys to keep you company.")
+                        Main.npcChatText = "晚上砍树总是很放松的……好吧，除了这些飞来飞去的眼球。让这些小家伙中的一个陪陪你。";
+                    if (Main.npcChatText == "I'm resting after a good day of chopping, come back tomorrow and maybe I'll have something else for you.")
+                        Main.npcChatText = "我砍了一天的好东西，现在正在休息呢。明天再来，也许我会给你点别的东西。";
+                }
+            #endregion
         }
     }
 }
