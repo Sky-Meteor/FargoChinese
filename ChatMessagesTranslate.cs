@@ -20,21 +20,21 @@ namespace FargoChinese
         private static void NewText_string_byte_byte_byte(On.Terraria.Main.orig_NewText_string_byte_byte_byte orig, string newText, byte R = byte.MaxValue, byte G = byte.MaxValue, byte B = byte.MaxValue)
         {
             #region Items
-            if (newText.Contains("Battle Cry") && newText.Contains(Main.player[0].name) && newText.Contains("!") && R == 255 && G == 0 && B == 0)
+            if (newText.StartsWith("Battle Cry ") && newText.Contains(Main.player[0].name) && newText.EndsWith("!") && R == 255 && G == 0 && B == 0)
             {
                 if (!newText.Contains("deactivated"))
                     orig.Invoke($"战争号角已对{Main.player[0].name}生效！", R, G, B);
                 else
                     orig.Invoke($"战争号角已对{Main.player[0].name}停止生效！", R, G, B);
             }
-            else if (newText.Contains("Calming Cry") && newText.Contains(Main.player[0].name) && newText.Contains(".") && R == 0 && G == 255 && B == 255)
+            else if (newText.StartsWith("Calming Cry ") && newText.Contains(Main.player[0].name) && newText.EndsWith(".") && R == 0 && G == 255 && B == 255)
             {
                 if (!newText.Contains("deactivated"))
                     orig.Invoke($"镇静号角已对{Main.player[0].name}生效！", R, G, B);
                 else
                     orig.Invoke($"镇静号角已对{Main.player[0].name}停止生效！", R, G, B);
             }
-            else if (newText.Contains("researched ") && newText.Contains(" items"))
+            else if (newText.StartsWith("researched ") && newText.EndsWith(" items"))
             {
                 for (int i = 0; i < int.MaxValue; i++)
                 {
@@ -53,16 +53,39 @@ namespace FargoChinese
                 orig.Invoke("旅行模式已开启！", R, G, B);
             else if (newText == "Normal mode is now enabled!" && R == 175 && G == 75 && B == 255)
                 orig.Invoke("经典模式已开启！", R, G, B);
+            else if ((newText.EndsWith(" has awoken!") || newText.EndsWith(" have awoken!")) && R == 175 && G == 75 && B == 255)
+            {
+                string awoken1 = newText.Replace(" has awoken!", "已苏醒！");
+                string awoken2 = awoken1.Replace(" have awoken!", "已苏醒！");
+
+                void Replace(string en, string zh)
+                {
+                    if (newText.StartsWith(en))
+                    {
+                        string boss = awoken2.Replace(en, zh);
+                        orig.Invoke(boss, R, G, B);
+                    }
+                }
+                Replace("Ogre", "食人魔");
+                Replace("Betsy", "双足翼龙");
+                Replace("Everscream", "常绿尖叫怪");
+                Replace("Dark Mage", "黑暗魔法师");
+                Replace("Headless Horseman", "无头骑士");
+            }
+            else if (newText == "The wind begins howling." && R == 175 && G == 75 && B == 255)
+                orig.Invoke("狂风开始怒号。", R, G, B);
+            else if (newText == "A sandstorm has begun." && R == 175 && G == 75 && B == 255)
+                orig.Invoke("沙尘暴开始了。", R, G, B);
             #endregion
             #region NPCs
             else if (newText == "Betsy has been defeated!" && R == 175 && G == 75 && B == 0)
                 orig.Invoke("双足翼龙已被打败！", R, G, B);
-            else if (newText.Contains("Killed: ") && R == 206 && G == 12 && B == 15)
+            else if (newText.StartsWith("Killed: ") && R == 206 && G == 12 && B == 15)
             {
                 string text = newText.Replace("Killed: ", "击杀数：");
                 orig.Invoke(text, R, G, B);
             }
-            else if (newText.Contains("Total: ") && R == 206 && G == 12 && B == 15)
+            else if (newText.StartsWith("Total: ") && R == 206 && G == 12 && B == 15)
             {
                 string text = newText.Replace("Total: ", "总计：");
                 orig.Invoke(text, R, G, B);
@@ -72,17 +95,19 @@ namespace FargoChinese
                 orig.Invoke("这群怪物已被打败！", R, G, B);
             }
             #endregion
+            #region Utils
             else if (newText == $"A new item has been unlocked in Deviantt's shop!" && R == Color.HotPink.R && G == Color.HotPink.G && B == Color.HotPink.B)
                 orig.Invoke("戴薇安解锁了新商品！", R, G, B);
             else if (newText == $"A new item has been unlocked in Abominationn's shop!" && R == Color.Orange.R && G == Color.Orange.G && B == Color.Orange.B)
                 orig.Invoke("憎恶解锁了新商品！", R, G, B);
+            #endregion
             else
                 orig.Invoke(newText, R, G, B);
         }
         private static void NewTextMultiline(On.Terraria.Main.orig_NewTextMultiline orig, string text, bool force = false, Color c = default(Color), int WidthLimit = -1)
         {
             #region Items
-            if (text.Contains("Battle Cry") && text.Contains("!") && c == new Color (255, 0, 0))
+            if (text.StartsWith("Battle Cry ") && text.EndsWith("!") && c == new Color (255, 0, 0))
             {
                 if (!text.Contains("deactivated"))
                 {
@@ -97,7 +122,7 @@ namespace FargoChinese
                     orig.Invoke(realtext2, force, c, WidthLimit);
                 }
             }
-            else if (text.Contains("researched ") && text.Contains(" items"))
+            else if (text.StartsWith("researched ") && text.EndsWith(" items"))
             {
                 for (int i = 0; i < int.MaxValue; i++)
                 {
@@ -120,12 +145,12 @@ namespace FargoChinese
             #region NPCs
             else if (text == "Betsy has been defeated!" && c == new Color(175, 75, 0))
                 orig.Invoke("双足翼龙已被打败！", force, c, WidthLimit);
-            else if (text.Contains("Killed: ") && c == new Color(206, 12, 15))
+            else if (text.StartsWith("Killed: ") && c == new Color(206, 12, 15))
             {
                 string realtext = text.Replace("Killed: ", "击杀数：");
                 orig.Invoke(realtext, force, c, WidthLimit);
             }
-            else if (text.Contains("Total: ") && c == new Color(206, 12, 15))
+            else if (text.StartsWith("Total: ") && c == new Color(206, 12, 15))
             {
                 string realtext = text.Replace("Total: ", "总计：");
                 orig.Invoke(realtext, force, c, WidthLimit);
@@ -133,10 +158,12 @@ namespace FargoChinese
             else if (text == "The swarm has been defeated!" && c == new Color(206, 12, 15))
                 orig.Invoke("这群怪物已被打败！", force, c, WidthLimit);
             #endregion
+            #region Utils
             else if (text == $"A new item has been unlocked in Deviantt's shop!" && c == Color.HotPink)
                 orig.Invoke("戴薇安解锁了新商品！", force, c, WidthLimit);
             else if (text == $"A new item has been unlocked in Abominationn's shop!" && c == Color.Orange)
                 orig.Invoke("憎恶解锁了新商品！", force, c, WidthLimit);
+            #endregion
             else
                 orig.Invoke(text, force, c, WidthLimit);
             SoundEngine.PlaySound(SoundID.MenuTick);
