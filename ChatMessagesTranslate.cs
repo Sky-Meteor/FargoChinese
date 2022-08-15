@@ -53,6 +53,7 @@ namespace FargoChinese
                 orig.Invoke("旅行模式已开启！", R, G, B);
             else if (newText == "Normal mode is now enabled!" && R == 175 && G == 75 && B == 255)
                 orig.Invoke("经典模式已开启！", R, G, B);
+            #region Summons
             else if ((newText.EndsWith(" has awoken!") || newText.EndsWith(" have awoken!")) && R == 175 && G == 75 && B == 255)
             {
                 string awoken1 = newText.Replace(" has awoken!", "已苏醒！");
@@ -62,6 +63,7 @@ namespace FargoChinese
 
                 switch (awoken2.Replace("已苏醒！", ""))
                 {
+                    #region Abom
                     case "Ogre":
                         Replace("Ogre", "食人魔");
                         break;
@@ -95,6 +97,8 @@ namespace FargoChinese
                     case "Pumpking":
                         Replace("Pumpking", "南瓜王");
                         break;
+                    #endregion
+                    #region Devi
                     case "Medusa":
                         Replace("Medusa", "蛇发女妖");
                         break;
@@ -164,12 +168,76 @@ namespace FargoChinese
                     case "Bone Lee":
                         Replace("Bone Lee", "骷髅李小龙");
                         break;
+                    case "Moth":
+                        Replace("Moth", "蛾");
+                        break;
+                    case "Mothron":
+                        Replace("Mothron", "蛾怪");
+                        break;
+                    case "Nailhead":
+                        Replace("Nailhead", "钉头");
+                        break;
+                    case "Pinky":
+                        Replace("Pinky", "粉史莱姆");
+                        break;
+                    case "Pirate Captain":
+                        Replace("Pirate Captain", "海盗船长");
+                        break;
+                    case "Flying Dutchman":
+                        Replace("Flying Dutchman", "荷兰飞盗船");
+                        break;
+                    case "Rune Wizard":
+                        Replace("Rune Wizard", "符文巫师");
+                        break;
+                    case "Goblin Summoner":
+                        Replace("Goblin Summoner", "哥布林召唤师");
+                        break;
+                    case "Dungeon Slime":
+                        Replace("Dungeon Slime", "地牢史莱姆");
+                        break;
+                    case "Mimic":
+                        Replace("Mimic", "宝箱怪");
+                        break;
+                    case "Digger":
+                        Replace("Digger", "挖掘怪");
+                        break;
+                    case "Giant Worm":
+                        Replace("Giant Worm", "巨型蠕虫");
+                        break;
+                    #endregion
+                    #region Mutant
+                    case "Every boss":
+                        Replace("Every boss", "所有boss");
+                        break;
+                    case "Lunatic Cultist":
+                        Replace("Lunatic Cultist", "拜月教邪教徒");
+                        break;
+                    case "Several bosses":
+                        Replace("Several bosses", "数个boss");
+                        break;
+                    case "Queen Slime":
+                        Replace("Queen Slime", "史莱姆皇后");
+                        break;
+                    case "Plantera":
+                        Replace("Plantera", "世纪之花");
+                        break;
+                    case "Empress of Light":
+                        Replace("Empress of Light", "光之女皇");
+                        break;
+                    case "Dungeon Guardian":
+                        Replace("Dungeon Guardian", "地牢守卫");
+                        break;
+                    case "Skeletron":
+                        Replace("Skeletron", "骷髅王");
+                        break;
+                    #endregion
                     default:
-                        orig.Invoke(newText, R, G, B);
+                        orig.Invoke(awoken2, R, G, B);
                         break;
                 }
 
             }
+
             else if (newText == "The wind begins howling." && R == 175 && G == 75 && B == 255)
                 orig.Invoke("狂风开始怒号。", R, G, B);
             else if (newText == "A sandstorm has begun." && R == 175 && G == 75 && B == 255)
@@ -181,6 +249,7 @@ namespace FargoChinese
                 orig.Invoke("出现灯笼夜的概率恢复正常。", R, G, B);
             else if (newText == "Rain clouds cover the sky.")
                 orig.Invoke("雨云遮住了天空。", R, G, B);
+            #endregion
             #endregion
             #region NPCs
             else if (newText == "Betsy has been defeated!" && R == 175 && G == 75 && B == 0)
@@ -205,6 +274,28 @@ namespace FargoChinese
                 orig.Invoke("戴薇安解锁了新商品！", R, G, B);
             else if (newText == $"A new item has been unlocked in Abominationn's shop!" && R == Color.Orange.R && G == Color.Orange.G && B == Color.Orange.B)
                 orig.Invoke("憎恶解锁了新商品！", R, G, B);
+            #endregion
+            #region Fargowiltas
+            else if (newText == "The invaders have left!" && R == 175 && G == 75 && B == 255)
+                orig.Invoke("入侵者已离开！", R, G, B);
+            else if (newText == "The Pumpkin Moon is lowering..." && R == 175 && G == 75 && B == 255)
+                orig.Invoke("南瓜月正在降下……", R, G, B);
+            else if (newText == "The Frost Moon is lowering..." && R == 175 && G == 75 && B == 255)
+                orig.Invoke("霜月正在降下……", R, G, B);
+            else if (newText == "A solar eclipse is not happening!" && R == 175 && G == 75 && B == 255)
+                orig.Invoke("日食停止发生！", R, G, B);
+            else if (newText == "The blood moon is descending..." && R == 175 && G == 75 && B == 255)
+                orig.Invoke("血月正在降下……", R, G, B);
+            else if (newText == "The wind has ended!" && R == 175 && G == 75 && B == 255)
+                orig.Invoke("狂风已经平息！", R, G, B);
+            else if (newText == "The Old One's Army is leaving!" && R == 175 && G == 75 && B == 255)
+                orig.Invoke("旧日军团正在离开！", R, G, B);
+            else if (newText == "The sandstorm has ended!" && R == 175 && G == 75 && B == 255)
+                orig.Invoke("沙尘暴已结束！", R, G, B);
+            else if (newText == "Celestial creatures are not invading!" && R == 175 && G == 75 && B == 255)
+                orig.Invoke("天界生物停止入侵！", R, G, B);
+            else if (newText == "The rain has ended!" && R == 175 && G == 75 && B == 255)
+                orig.Invoke("雨停了！", R, G, B);
             #endregion
             else
                 orig.Invoke(newText, R, G, B);
