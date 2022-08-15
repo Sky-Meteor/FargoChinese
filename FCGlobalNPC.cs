@@ -20,6 +20,17 @@ namespace FargoChinese
         {
             int nurse = NPC.FindFirstNPC(NPCID.Nurse);
             int mechanic = NPC.FindFirstNPC(NPCID.Mechanic);
+            int partyGirl = NPC.FindFirstNPC(NPCID.PartyGirl);
+            int witchDoctor = NPC.FindFirstNPC(NPCID.WitchDoctor);
+            int dryad = NPC.FindFirstNPC(NPCID.Dryad);
+            int stylist = NPC.FindFirstNPC(NPCID.Stylist);
+            int truffle = NPC.FindFirstNPC(NPCID.Truffle);
+            int tax = NPC.FindFirstNPC(NPCID.TaxCollector);
+            int guide = NPC.FindFirstNPC(NPCID.Guide);
+            int cyborg = NPC.FindFirstNPC(NPCID.Cyborg);
+            int demoman = NPC.FindFirstNPC(NPCID.Demolitionist);
+            int tavernkeep = NPC.FindFirstNPC(NPCID.DD2Bartender);
+            int dyeTrader = NPC.FindFirstNPC(NPCID.DyeTrader);
             int mutant = NPC.FindFirstNPC(ModContent.NPCType<Mutant>());
             int lumberjack = NPC.FindFirstNPC(ModContent.NPCType<LumberJack>());
             #region abominationn
@@ -288,8 +299,86 @@ namespace FargoChinese
                 chat = "克苏鲁在我身上得不到任何东西！";
             if (chat == "I heard of a rumor of infinite use boss summons. Makes me sick..")
                 chat = "我听到一个关于无限召唤物的传言。这让我很难受……";
-            // todo: (MoonLord -> Dye Trader) chats, finished: (DefeatE -> 45)
-            #endregion
+            if (chat == "Now that you've defeated the big guy, I'd say it's time to start collecting those materials!")
+                chat = "既然打败了那个大家伙，是时候开始收集那些材料了！";
+            if (chat == "What's that? You want to fight me? ...sure, I guess.")
+                chat = "啥？你想和我战斗？……好吧。";
+            if (chat == "What's that? You want to fight me? ...maybe if I had a reason.")
+                chat = "啥？你想和我战斗？……我得有足够的理由。";
+            if (chat == "What's that? You want to fight me? ...you're not worthy you rat.")
+                chat = "啥？你想和我战斗？……你这个老鼠不配。";
+            if (chat == "A bit spooky tonight, isn't it.")
+                chat = "今晚有点吓人，不是吗？";
+            if (chat == "I'd ask for a coat, but I don't think you have any my size.")
+                chat = "我想要一件外套，但我认为你没有我的尺码。";
+            if (chat == "Weather seems odd today, wouldn't you agree?")
+                chat = "今天的天气似乎很奇怪，你同意吗？";
+            if (chat == "Lovely night, isn't it?")
+                chat = "美好的夜晚，不是吗？";
+            if (chat == "I hope the constant arguing I'm hearing isn't my fault.")
+                chat = "我希望我听到的不断争论不是我的错。";
+            if (chat == "I'd follow and help, but I'd much rather sit around right now.")
+                chat = "我会跟随并提供帮助，但我现在更愿意坐在那里。";
+            if (partyGirl != -1)
+            {
+                if (chat == $"{Main.npc[partyGirl].GivenName} is the one who invited me, I don't understand why though.")
+                    chat = $"{Main.npc[partyGirl].GivenName}是邀请我的人，但我不明白为什么。";
+                if (chat == $"Man, {Main.npc[partyGirl].GivenName}'s confetti keeps getting stuck to my wings.")
+                    chat = $"兄弟，{Main.npc[partyGirl].GivenName}的五彩纸屑总是粘在我的翅膀上。";
+            }
+            if (nurse != -1)
+            {
+                if (chat == $"Whenever we're alone, {Main.npc[nurse].GivenName} keeps throwing syringes at me, no matter how many times I tell her to stop!")
+                    chat = $"每当我们独自一人时，{Main.npc[nurse].GivenName}都一直向我扔注射器！无论我叫她停下多少次！";
+            }
+            if (witchDoctor != -1)
+            {
+                if (chat == $"Please go tell {Main.npc[witchDoctor].GivenName} to drop the 'mystical' shtick, I mean, come on! I get it, you make tainted water or something.")
+                    chat = $"请让{Main.npc[witchDoctor].GivenName}放弃“神秘”的技巧，我的意思是，哦！我明白了，你也制造了被污染的水什么的。";
+            }
+            if (dryad != -1)
+            {
+                if (chat == $"Why does {Main.npc[dryad].GivenName}'s outfit make my wings flutter?")
+                    chat = $"为什么{Main.npc[dryad].GivenName}的装扮让我的翅膀颤动？";
+            }
+            if (stylist != -1)
+            {
+                if (chat == $"{Main.npc[stylist].GivenName} once gave me a wig... I look hideous with long hair.")
+                    chat = $"{Main.npc[stylist].GivenName}曾经给了我一顶假发……我的长发看起来很丑。";
+            }
+            if (chat == $"That mutated mushroom seems like my type of fella.")
+                chat = $"那个变异蘑菇似乎是我喜欢的类型。";
+            if (tax != -1)
+            {
+                if (chat == $"{Main.npc[tax].GivenName} keeps asking me for money, but he won't accept my spawners!")
+                    chat = $"{Main.npc[tax].GivenName}一直向我要钱，但他不接受我用召唤物！";
+            }
+            if (guide != -1)
+            {
+                if (chat == $"Any idea why {Main.npc[guide].GivenName} is always cowering in fear when I get near him?")
+                    chat = $"为什么当我靠近{Main.npc[guide].GivenName}时他总是害怕？";
+            }
+            if (truffle != -1 && witchDoctor != -1 && cyborg != -1)
+            {
+                if (chat == $"If any of us could play instruments, I'd totally start a band with {Main.npc[witchDoctor].GivenName}, {Main.npc[truffle].GivenName}, and {Main.npc[cyborg].GivenName}.")
+                    chat = $"如果我们中有人会演奏乐器，我会叫上{Main.npc[witchDoctor].GivenName}，{Main.npc[truffle].GivenName}和{Main.npc[cyborg].GivenName}来组建一支乐队。";
+            }
+            if (demoman != -1)
+            {
+                if (chat == $"I'm surprised {Main.npc[demoman].GivenName} hasn't blown a hole in the floor yet, on second thought that sounds fun.")
+                    chat = $"我很惊讶{Main.npc[demoman].GivenName}还没有在地板上炸个洞，不过仔细想想这听起来很有趣。";
+            }
+            if (tavernkeep != -1)
+            {
+                if (chat == $"{Main.npc[tavernkeep].GivenName} keeps suggesting I drink some beer, something tells me he wouldn't like me when I'm drunk though.")
+                    chat = $"{Main.npc[tavernkeep].GivenName}一直建议我喝啤酒，但我喝醉了他也不会喜欢我。";
+            }
+            if (dyeTrader != -1)
+            {
+                if (chat == $"{Main.npc[dyeTrader].GivenName} wants to see what I would look like in blue... I don't know how to feel.")
+                    chat = $"{Main.npc[dyeTrader].GivenName}想看看我穿蓝色衣服会是什么样子……我不知道什么感觉。";
+            }
+                #endregion
         }
         public override void OnChatButtonClicked(NPC npc, bool firstButton)
         {
