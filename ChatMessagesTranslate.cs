@@ -58,24 +58,39 @@ namespace FargoChinese
                 string awoken1 = newText.Replace(" has awoken!", "已苏醒！");
                 string awoken2 = awoken1.Replace(" have awoken!", "已苏醒！");
 
-                void Replace(string en, string zh)
+                void Replace(string en, string zh) => orig.Invoke(awoken2.Replace(en, zh), R, G, B);
+
+                switch (awoken2.Replace("已苏醒！", ""))
                 {
-                    if (newText.StartsWith(en))
-                    {
-                        string boss = awoken2.Replace(en, zh);
-                        orig.Invoke(boss, R, G, B);
-                    }
+                    case "Ogre":
+                        orig.Invoke(awoken2.Replace("Ogre", "食人魔"), R, G, B);
+                        break;
+                    case "Betsy":
+                        Replace("Betsy", "双足翼龙");
+                        break;
+                    default:
+                        orig.Invoke(newText, R, G, B);
+                        break;
                 }
-                Replace("Ogre", "食人魔");
+
+                /*Replace("Ogre", "食人魔");
                 Replace("Betsy", "双足翼龙");
                 Replace("Everscream", "常绿尖叫怪");
                 Replace("Dark Mage", "黑暗魔法师");
                 Replace("Headless Horseman", "无头骑士");
+                Replace("Ice Queen", "冰雪女王");
+                Replace("Martian Saucer", "火星飞碟");
+                Replace("Santa-NK1", "圣诞坦克");
+                Replace()*/
             }
             else if (newText == "The wind begins howling." && R == 175 && G == 75 && B == 255)
                 orig.Invoke("狂风开始怒号。", R, G, B);
             else if (newText == "A sandstorm has begun." && R == 175 && G == 75 && B == 255)
                 orig.Invoke("沙尘暴开始了。", R, G, B);
+            else if (newText == "Lantern Night rate increased!" && R == 175 && G == 75 && B == 255)
+                orig.Invoke("出现灯笼夜的概率提高了！", R, G, B);
+            //else if (newText == "The Celestial Pillars have awoken!" && R == 175 && G == 75 && B == 255)
+                //orig.Invoke("天界柱已苏醒！")
             #endregion
             #region NPCs
             else if (newText == "Betsy has been defeated!" && R == 175 && G == 75 && B == 0)
