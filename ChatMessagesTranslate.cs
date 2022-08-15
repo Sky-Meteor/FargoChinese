@@ -63,25 +63,112 @@ namespace FargoChinese
                 switch (awoken2.Replace("已苏醒！", ""))
                 {
                     case "Ogre":
-                        orig.Invoke(awoken2.Replace("Ogre", "食人魔"), R, G, B);
+                        Replace("Ogre", "食人魔");
                         break;
                     case "Betsy":
                         Replace("Betsy", "双足翼龙");
+                        break;
+                    case "Everscream":
+                        Replace("Everscream", "常绿尖叫怪");
+                        break;
+                    case "Dark Mage":
+                        Replace("Dark Mage", "黑暗魔法师");
+                        break;
+                    case "Headless Horseman":
+                        Replace("Headless Horseman", "无头骑士");
+                        break;
+                    case "Ice Queen":
+                        Replace("Ice Queen", "冰雪女王");
+                        break;
+                    case "Martian Saucer":
+                        Replace("Martian Saucer", "火星飞碟");
+                        break;
+                    case "Santa-NK1":
+                        Replace("Santa-NK1", "圣诞坦克");
+                        break;
+                    case "The Celestial Pillars":
+                        Replace("The Celestial Pillars", "天界柱");
+                        break;
+                    case "Mourning Wood":
+                        Replace("Mourning Wood", "哀木");
+                        break;
+                    case "Pumpking":
+                        Replace("Pumpking", "南瓜王");
+                        break;
+                    case "Medusa":
+                        Replace("Medusa", "蛇发女妖");
+                        break;
+                    case "Undead Miner":
+                        Replace("Undead Miner", "不死矿工");
+                        break;
+                    case "Dreadnautilus":
+                        Replace("Dreadnautilus", "恐惧鹦鹉螺");
+                        break;
+                    case "Blood Eel":
+                        Replace("Blood Eel", "血鳗鱼");
+                        break;
+                    case "Wyvern":
+                        Replace("Wyvern", "飞龙");
+                        break;
+                    case "Clown":
+                        Replace("Clown", "小丑");
+                        break;
+                    case "Ice Golem":
+                        Replace("Ice Golem", "冰雪巨人");
+                        break;
+                    case "Corrupt Mimic":
+                        Replace("Corrupt Mimic", "腐化宝箱怪");
+                        break;
+                    case "Crimson Mimic":
+                        Replace("Crimson Mimic", "猩红宝箱怪");
+                        break;
+                    case "Red Devil":
+                        Replace("Red Devil", "红魔鬼");
+                        break;
+                    case "Rainbow Slime":
+                        Replace("Rainbow Slime", "彩虹史莱姆");
+                        break;
+                    case "Doctor Bones":
+                        Replace("Doctor Bones", "骷髅博士");
+                        break;
+                    case "Sand Elemental":
+                        Replace("Sand Elemental", "沙尘精");
+                        break;
+                    case "Gnome":
+                        Replace("Gnome", "侏儒");
+                        break;
+                    case "Goblin Scout":
+                        Replace("Goblin Scout", "哥布林侦察兵");
+                        break;
+                    case "Golden Slime":
+                        Replace("Golden Slime", "金史莱姆");
+                        break;
+                    case "Paladin":
+                        Replace("Paladin", "圣骑士");
+                        break;
+                    case "Hallowed Mimic":
+                        Replace("Hallowed Mimic", "神圣宝箱怪");
+                        break;
+                    case "Nymph":
+                        Replace("Nymph", "宁芙");
+                        break;
+                    case "Hemogoblin Shark":
+                        Replace("Hemogoblin Shark", "血浆哥布林鲨鱼");
+                        break;
+                    case "Tim":
+                        Replace("Tim", "蒂姆");
+                        break;
+                    case "Jungle Mimic":
+                        Replace("Jungle Mimic", "丛林宝箱怪");
+                        break;
+                    case "Bone Lee":
+                        Replace("Bone Lee", "骷髅李小龙");
                         break;
                     default:
                         orig.Invoke(newText, R, G, B);
                         break;
                 }
 
-                /*Replace("Ogre", "食人魔");
-                Replace("Betsy", "双足翼龙");
-                Replace("Everscream", "常绿尖叫怪");
-                Replace("Dark Mage", "黑暗魔法师");
-                Replace("Headless Horseman", "无头骑士");
-                Replace("Ice Queen", "冰雪女王");
-                Replace("Martian Saucer", "火星飞碟");
-                Replace("Santa-NK1", "圣诞坦克");
-                Replace()*/
             }
             else if (newText == "The wind begins howling." && R == 175 && G == 75 && B == 255)
                 orig.Invoke("狂风开始怒号。", R, G, B);
@@ -89,8 +176,11 @@ namespace FargoChinese
                 orig.Invoke("沙尘暴开始了。", R, G, B);
             else if (newText == "Lantern Night rate increased!" && R == 175 && G == 75 && B == 255)
                 orig.Invoke("出现灯笼夜的概率提高了！", R, G, B);
-            //else if (newText == "The Celestial Pillars have awoken!" && R == 175 && G == 75 && B == 255)
-                //orig.Invoke("天界柱已苏醒！")
+            //The Celestial Pillars have awoken!
+            else if (newText == "Lantern Night rate restored to default." && R == 175 && G == 75 && B == 255)
+                orig.Invoke("出现灯笼夜的概率恢复正常。", R, G, B);
+            else if (newText == "Rain clouds cover the sky.")
+                orig.Invoke("雨云遮住了天空。", R, G, B);
             #endregion
             #region NPCs
             else if (newText == "Betsy has been defeated!" && R == 175 && G == 75 && B == 0)
