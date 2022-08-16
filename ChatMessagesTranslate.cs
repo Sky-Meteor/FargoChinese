@@ -3,10 +3,8 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using Fargowiltas.NPCs;
-using Terraria.Chat;
 using Microsoft.Xna.Framework;
 using Terraria.Audio;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace FargoChinese
 {

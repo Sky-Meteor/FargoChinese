@@ -1,39 +1,38 @@
-﻿using Fargowiltas.NPCs;
-using Fargowiltas.UI;
+﻿using Fargowiltas.UI;
 using Fargowiltas;
 using MonoMod.RuntimeDetour;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
 using Terraria;
-using Terraria.Localization;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using ReLogic.Content;
 using MonoMod.Cil;
 using Mono.Cecil.Cil;
 using Fargowiltas.Items.Misc;
-using System.Linq;
-using Terraria.GameContent.UI.Elements;
 using Terraria.ID;
-using Fargowilta;
-using Microsoft.CodeAnalysis.Text;
-using Terraria.UI;
-using Terraria.GameInput;
-using ReLogic.Graphics;
-using Terraria.GameContent;
-using Terraria.UI.Chat;
 
 namespace FargoChinese
 {
     public static class StatSheetTranslate
     {
+        private static ILHook hintText;
+
         private static List<Hook> hooks;
         public static void Load()
         {
+            hintText = new ILHook(typeof(UISearchBar).GetMethod("DrawChildren", BindingFlags.NonPublic | BindingFlags.Instance), new ILContext.Manipulator(il =>
+            {
+                var c = new ILCursor(il);
+                if (!c.TryGotoNext(i => i.MatchLdstr("Search...")))
+                    return;
+                c.Index++;
+                c.Emit(OpCodes.Pop);
+                c.Emit(OpCodes.Ldstr, "搜索……");
+            }));
+
+            hintText.Apply();
+
             On.Terraria.Main.DrawInterface_33_MouseText += Main_DrawInterface_33_MouseText;
-            On.Terraria.Utils.DrawBorderString += Utils_DrawBorderString;
             MonoModHooks.RequestNativeAccess();
             hooks = new List<Hook>();
             hooks.Add(new Hook(typeof(StatSheetUI).GetMethod("RebuildStatList"), RebuildStatList));
@@ -43,38 +42,26 @@ namespace FargoChinese
                     hook.Apply();
             }
         }
-
-        private static Vector2 Utils_DrawBorderString(On.Terraria.Utils.orig_DrawBorderString orig, SpriteBatch sb, string text, Vector2 pos, Color color, float scale, float anchorx, float anchory, int maxCharactersDisplayed)
-        {
-            if (text == "Search...")
-                text = "搜索……";
-
-            if (maxCharactersDisplayed != -1 && text.Length > maxCharactersDisplayed)
-            {
-                text.Substring(0, maxCharactersDisplayed);
-            }
-
-            DynamicSpriteFont value = FontAssets.MouseText.Value;
-            Vector2 vector = value.MeasureString(text);
-            ChatManager.DrawColorCodedStringWithShadow(sb, value, text, pos, color, 0f, new Vector2(anchorx, anchory) * vector, new Vector2(scale), -1f, 1.5f);
-            return vector * scale;
-        }
         private static void Main_DrawInterface_33_MouseText(On.Terraria.Main.orig_DrawInterface_33_MouseText orig, Main self)
         {
             if (Main.hoverItemName == "Stat Sheet")
                 Main.hoverItemName = "属性统计表";
             orig.Invoke(self);
         }
+
         public static void Unload()
         {
             On.Terraria.Main.DrawInterface_33_MouseText -= Main_DrawInterface_33_MouseText;
-            On.Terraria.Utils.DrawBorderString -= Utils_DrawBorderString;
             foreach (Hook hook in hooks)
             {
                 if (hook is not null)
                     hook.Dispose();
             }
             hooks = null;
+
+            if (hintText is not null)
+                hintText.Dispose();
+            hintText = null;
         }
         private static void RebuildStatList(StatSheetUI orig)
         {
