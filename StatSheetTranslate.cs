@@ -59,14 +59,12 @@ namespace FargoChinese
             ChatManager.DrawColorCodedStringWithShadow(sb, value, text, pos, color, 0f, new Vector2(anchorx, anchory) * vector, new Vector2(scale), -1f, 1.5f);
             return vector * scale;
         }
-
         private static void Main_DrawInterface_33_MouseText(On.Terraria.Main.orig_DrawInterface_33_MouseText orig, Main self)
         {
             if (Main.hoverItemName == "Stat Sheet")
                 Main.hoverItemName = "属性统计表";
             orig.Invoke(self);
         }
-
         public static void Unload()
         {
             On.Terraria.Main.DrawInterface_33_MouseText -= Main_DrawInterface_33_MouseText;
