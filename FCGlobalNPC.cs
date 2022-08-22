@@ -378,7 +378,17 @@ namespace FargoChinese
                 if (chat == $"{Main.npc[dyeTrader].GivenName} wants to see what I would look like in blue... I don't know how to feel.")
                     chat = $"{Main.npc[dyeTrader].GivenName}想看看我穿蓝色衣服会是什么样子……我不知道什么感觉。";
             }
-                #endregion
+            #endregion
+            #region squirrel
+            if (chat == "*squeak*")
+                chat = "*吱吱*";
+            if (chat == "*chitter*")
+                chat = "*啾啾*";
+            if (chat == "*crunch crunch*")
+                chat = "*嘎吱嘎吱*";
+            if (chat == "[c/FF0000:You will suffer.]")
+                chat = "[c/FF0000:你会受苦的。]";
+            #endregion
         }
         public override void OnChatButtonClicked(NPC npc, bool firstButton)
         {
