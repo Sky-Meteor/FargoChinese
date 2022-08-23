@@ -147,7 +147,8 @@ Mods: {
 			FasterLavaFishing: "[i:4881] 岩浆中钓鱼速度加快"
 			DebuffOpacity: "[i:1612] 减益显示不透明度"
 			DebuffFaderRatio: "[i:1612] 减益持续时间显示衰减强度"
-			TransparentMinions: "[i:1309] 仆从和协同攻击的不透明度"
+			TransparentFriendlyProjectiles: "[i:1309] 友好弹幕的不透明度"
+			TransparentFriendlyProjectilesTooltip: "与原版设置中的中或低质量一起使用以达到最佳效果"
 		}
 
 		RecipeGroups: {
