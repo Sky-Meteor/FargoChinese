@@ -95,7 +95,7 @@ namespace FargoChinese
             #region deviantt
             if (chat == "This world looks tougher than usual, so you can have these on the house just this once! Talk to me if you need any tips, yeah?")
                 chat = "这个世界看起来比平时更艰难，所以我免费给你提供这些，仅此一次！如果你需要任何提示，请告诉我，好吗？";
-            if (npc.type == ModContent.NPCType<Deviantt>() && chat.Contains("HA"))
+            if (npc.type == ModContent.NPCType<Deviantt>() && chat.StartsWith("HA"))
             {
                 string c1 = chat.Replace("HA", "哈");
                 string c2 = c1.Replace("HEE", "嘻");
@@ -107,7 +107,7 @@ namespace FargoChinese
             if (chat == "UWAH! Please don't hurt... wait, it's just you. Don't scare me like that! And why is that THING following you?!")
                 chat = "呜哇！别伤害我……等等，是你啊……不要这样吓我！还有，为什么那东西在跟着你？！";
             if (chat == "Ooh, that's my hoodie! So how is it? Comfy and great for gaming, right? Maybe you'll even go beat a boss without taking damage!")
-                chat = "哦，那是我的连帽衫！所以感觉如何？舒适、很适合打游戏，对吧？也许你甚至会去无伤击败一个Boss！";
+                chat = "哦，那是我的连帽衫！所以感觉如何？舒适、很适合打游戏，对吧？也许你甚至能无伤打败一个boss！";
             if (chat == "Good work getting one over on me! Hope I didn't make you sweat too much. Keep at the grind - I wanna see how far you can go!")
                 chat = "不错，你战胜了我！希望我没有让你太辛苦。坚持到底吧——我想要看看你能前行多远！";
             if (chat == "The blood moon's effects? I'm not human anymore, so nope!")

@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.ID;
-using Terraria.Localization;
-using Terraria.ModLoader;
-using static Terraria.ModLoader.ModContent;
-using Fargowiltas;
+﻿using Fargowiltas;
+using Fargowiltas.Items.CaughtNPCs;
 using Fargowiltas.Items.Summons;
 using Fargowiltas.NPCs;
-using Microsoft.VisualBasic;
-using Fargowiltas.Items.CaughtNPCs;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+using static Terraria.ModLoader.ModContent;
 
 namespace FargoChinese
 {
@@ -154,13 +150,13 @@ namespace FargoChinese
                 if (GetInstance<FargoConfig>().UnlimitedPotionBuffsOn120 && item.maxStack > 1)
                 {
                     if (item.buffType != 0)
-                        ModifyTooltip("[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠30个时获得无尽增益]", "[i:87] [c/AAAAAA:Unlimited buff at thirty stack in inventory, Piggy Bank, or Safe]");
+                        ModifyTooltip("[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠30个时获得无尽增益]", "[i:87] [c/AAAAAA:Unlimited buff at 30 stack in inventory, Piggy Bank, or Safe]");
                     else if (item.type == ItemID.SharpeningStation
                             || item.type == ItemID.AmmoBox
                             || item.type == ItemID.CrystalBall
                             || item.type == ItemID.BewitchingTable
                             || item.type == ItemID.SliceOfCake)
-                        ModifyTooltip("[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠15个时获得无尽增益]", "[i:87] [c/AAAAAA:Unlimited buff at thirty stack in inventory, Piggy Bank, or Safe]");
+                        ModifyTooltip("[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠15个时获得无尽增益]", "[i:87] [c/AAAAAA:Unlimited buff at 15 stack in inventory, Piggy Bank, or Safe]");
                 }
 
                 if (GetInstance<FargoConfig>().PiggyBankAcc)
@@ -172,7 +168,7 @@ namespace FargoChinese
                         ModifyTooltip("[i:87] [c/AAAAAA:在猪猪存钱罐和保险箱中同样生效]", "[i:87] [c/AAAAAA:Works from Piggy Bank and Safe]");
                 }
 
-                if (Squirrel.SquirrelSells(item, out Squirrel.SquirrelSellType sellType) != Squirrel.ShopGroup.None)
+                if (Squirrel.SquirrelSells(item, out Squirrel.SquirrelSellType sellType) != Squirrel.ShopGroup.End)
                 {
                     string text = Regex.Replace(sellType.ToString(), "([a-z])([A-Z])", "$1 $2");
                     switch(text)

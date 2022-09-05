@@ -28,9 +28,9 @@ namespace FargoChinese
             else if (newText.StartsWith("Calming Cry ") && newText.Contains(Main.player[0].name) && newText.EndsWith(".") && R == 0 && G == 255 && B == 255)
             {
                 if (!newText.Contains("deactivated"))
-                    orig.Invoke($"镇静号角已对{Main.player[0].name}生效！", R, G, B);
+                    orig.Invoke($"镇静号角已对{Main.player[0].name}生效。", R, G, B);
                 else
-                    orig.Invoke($"镇静号角已对{Main.player[0].name}停止生效！", R, G, B);
+                    orig.Invoke($"镇静号角已对{Main.player[0].name}停止生效。", R, G, B);
             }
             else if (newText.StartsWith("researched ") && newText.EndsWith(" items"))
             {
@@ -407,6 +407,21 @@ namespace FargoChinese
                 {
                     string realtext = text.Replace("Battle Cry deactivated for ", "战争号角已对");
                     string realtext2 = realtext.Replace("!", "停止生效！");
+                    orig.Invoke(realtext2, force, c, WidthLimit);
+                }
+            }
+            else if (text.StartsWith("Calming Cry ") && text.EndsWith(".") && c == new Color(0, 255, 255))
+            {
+                if (!text.Contains("deactivated"))
+                {
+                    string realtext = text.Replace("Calming Cry activated for ", "镇静号角已对");
+                    string realtext1 = realtext.Replace(".", "生效。");
+                    orig.Invoke(realtext1, force, c, WidthLimit);
+                }
+                else
+                {
+                    string realtext = text.Replace("Calming Cry deactivated for ", "镇静号角已对");
+                    string realtext2 = realtext.Replace(".", "停止生效。");
                     orig.Invoke(realtext2, force, c, WidthLimit);
                 }
             }

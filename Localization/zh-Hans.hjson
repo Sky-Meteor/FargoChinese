@@ -148,7 +148,7 @@ Mods: {
 			DebuffOpacity: "[i:1612] 减益显示不透明度"
 			DebuffFaderRatio: "[i:1612] 减益持续时间显示衰减强度"
 			TransparentFriendlyProjectiles: "[i:1309] 友好弹幕的不透明度"
-			TransparentFriendlyProjectilesTooltip: "与原版设置中的中或低质量一起使用以达到最佳效果"
+			TransparentFriendlyProjectilesTooltip: "把原版的视频质量设置为中/低以获得最佳体验"
 		}
 
 		RecipeGroups: {
