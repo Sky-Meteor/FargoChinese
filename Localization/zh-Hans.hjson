@@ -283,6 +283,7 @@ Mods: {
 			MapViewer: 失落的王之地图
 			ModeToggle: 世界令牌
 			PortableSundial: 便携式日晷
+			PylonCleaner: 晶塔清洁器
 			SuperDummy: 超级假人
 
 			CorruptRenewal: 腐化领域
@@ -603,9 +604,15 @@ Mods: {
 			ModeToggle: 切换世界难度
 			PortableSundial: 
 				'''
-				左键单击可立即从白天切换到黑夜
+				左键单击可立即切换时间
+				可以在黎明，中午，黄昏和午夜之间切换时间
 				右键点击可激活魔法日晷效果
-				这会重置旅行商人的商店
+				切换到黎明会重置旅行商人的商店
+				'''
+			PylonCleaner: 
+				'''
+				净化所有晶塔周围的区域
+				在神圣晶塔处使用蓝溶液，在其他晶塔处使用绿溶液
 				'''
 			SuperDummy: 
 				'''

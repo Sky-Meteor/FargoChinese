@@ -36,6 +36,8 @@ namespace FargoChinese
             #region abominationn
             if (chat == "You really defeated me... not bad. Now do it again without getting hit. Oh, and Copper Shortsword only.")
                 chat = "你真的打败了我……不错。现在来试试无伤我吧。哦对了，只能用铜短剑。";
+            if (chat == "What nostalgic armor you're wearing... No, it doesn't fit on me anymore. And its battery takes too long to charge.")
+                chat = "你穿的这套盔甲可真是怀旧……不，它不再合我身了。并且它的电池需要充电太长时间。";
             if (chat == "Where'd I get my scythe from? Ask me later.")
                 chat = "我的镰刀是从哪里弄来的？稍后问我吧。";
             if (chat == "Where'd I get my scythe from? You'll figure it out.")
@@ -211,6 +213,8 @@ namespace FargoChinese
                 chat = "恭喜。你真正地拥抱了永恒……至少，我认为你做到过？那么之后会发生什么？从这种无聊的境界飞升？与一只超凡的猫形生物战斗？毁灭世界？所有力量现在都掌握在你的手里。";
             if (chat == "Good work beating me, I guess. I still feel like stretching my wings... Why don't we go at it for real next time?")
                 chat = "我想，打得不错。我仍然想要伸展我的翅膀……我们下次认真战斗吧？";
+            if (chat == "Nice armor you have, very realistic skin. As a matter of fact, mind if I borrow it? Your skin, that is.")
+                chat = "你这套盔甲很好，有非常逼真的皮肤。事实上，你介意我借用一下吗？我说的是你的皮肤。";
             if (chat == "Savagery, barbarism, bloodthirst, that's what I like seeing in people.")
                 chat = "残暴、野蛮、嗜血，这就是我喜欢在人们身上看到的。";
             if (chat == "The stronger you get, the more stuff I sell. Makes sense, right?")
