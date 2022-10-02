@@ -37,7 +37,7 @@ namespace FargoChinese
             if (chat == "You really defeated me... not bad. Now do it again without getting hit. Oh, and Copper Shortsword only.")
                 chat = "你真的打败了我……不错。现在来试试无伤我吧。哦对了，只能用铜短剑。";
             if (chat == "What nostalgic armor you're wearing... No, it doesn't fit on me anymore. And its battery takes too long to charge.")
-                chat = "你穿的这套盔甲可真是怀旧……不，它不再合我身了。并且它的电池需要充电太长时间。";
+                chat = "你穿的这套盔甲可真是怀旧……不，它不再合我身了。而且充满它的电池需要太长时间。";
             if (chat == "Where'd I get my scythe from? Ask me later.")
                 chat = "我的镰刀是从哪里弄来的？稍后问我吧。";
             if (chat == "Where'd I get my scythe from? You'll figure it out.")
@@ -65,11 +65,11 @@ namespace FargoChinese
             if (chat == "No, you can't have my hat.")
                 chat = "不，你不能有我的帽子。";
             if (chat == "Embrace suffering... Wait what do you mean that's already taken?")
-                chat = "拥抱痛苦……等等，你的意思是已经被占用了？";
+                chat = "拥抱痛苦……等等，你说这句话已经被占用了是什么意思？";
             if (chat == "Your attempt to exploit my anger is admirable, but I cannot be angered.")
                 chat = "你利用我的愤怒的企图令人钦佩，但我不会被激怒。";
             if (chat == "Is it really a crime if everyone else does it.")
-                chat = "如果其他人都这样做，这真的是犯罪吗？";
+                chat = "如果每个人都这样做，这真的是犯罪吗？";
             if (chat == "Inflicting suffering upon others is the most amusing thing there is.")
                 chat = "让别人受苦是最有趣的事情。";
             if (chat == "Irony is the best kind of humor, isn't that ironic?")
@@ -85,7 +85,7 @@ namespace FargoChinese
             if (chat == "It's not like I don't enjoy your company, but can you buy something?")
                 chat = "我不是不喜欢你的陪伴，但你能买点东西吗！？";
             if (chat == "I have slain one thousand humans! Huh? You're a human? There's so much blood on your hands..")
-                chat = "我已经杀了一千人了……卧槽？你还是人？你手上的鲜血有那么多……";
+                chat = "我已经杀了一千人了……什么？？你还是人？你手上的鲜血有那么多……";
             if (chat == "I hope all these graves lying around don't belong to you.")
                 chat = "我希望周围所有的这些墓碑不是你的。";
             if (mechanic != -1)
@@ -109,7 +109,7 @@ namespace FargoChinese
             if (chat == "UWAH! Please don't hurt... wait, it's just you. Don't scare me like that! And why is that THING following you?!")
                 chat = "呜哇！别伤害我……等等，是你啊……不要这样吓我！还有，为什么那东西在跟着你？！";
             if (chat == "Ooh, that's my hoodie! So how is it? Comfy and great for gaming, right? Maybe you'll even go beat a boss without taking damage!")
-                chat = "哦，那是我的连帽衫！所以感觉如何？舒适、很适合打游戏，对吧？也许你甚至能无伤打败一个boss！";
+                chat = "哦，那是我的连帽衫！所以感觉如何？舒适、很适合打游戏，对吧？也许你甚至能无伤打败一个Boss！";
             if (chat == "Good work getting one over on me! Hope I didn't make you sweat too much. Keep at the grind - I wanna see how far you can go!")
                 chat = "不错，你战胜了我！希望我没有让你太辛苦。坚持到底吧——我想要看看你能前行多远！";
             if (chat == "The blood moon's effects? I'm not human anymore, so nope!")
@@ -133,7 +133,7 @@ namespace FargoChinese
             if (chat == "What's a chee-bee doe-goe?")
                 chat = "什么是 chee-bee doe-goe？";
             if (chat == "Wait a second. Are you sure this house isn't what they call 'prison?'")
-                chat = "等一下。你确定这房子不是他们所说的“监狱”？";
+                chat = "等一下，你确定这房子不是他们所说的“监狱”？";
             if (chat == "Deviantt has awoken! Quick, give her all your money to defeat her!")
                 chat = "戴薇安已苏醒！快，把你所有的钱给她来打败她！";
             if (chat == "One day, I'll sell a summon for myself! ...Just kidding.")
@@ -328,7 +328,7 @@ namespace FargoChinese
             if (partyGirl != -1)
             {
                 if (chat == $"{Main.npc[partyGirl].GivenName} is the one who invited me, I don't understand why though.")
-                    chat = $"{Main.npc[partyGirl].GivenName}是邀请我的人，但我不明白为什么。";
+                    chat = $"{Main.npc[partyGirl].GivenName}邀请了我，但我不明白为什么。";
                 if (chat == $"Man, {Main.npc[partyGirl].GivenName}'s confetti keeps getting stuck to my wings.")
                     chat = $"兄弟，{Main.npc[partyGirl].GivenName}的五彩纸屑总是粘在我的翅膀上。";
             }
@@ -350,7 +350,7 @@ namespace FargoChinese
             if (stylist != -1)
             {
                 if (chat == $"{Main.npc[stylist].GivenName} once gave me a wig... I look hideous with long hair.")
-                    chat = $"{Main.npc[stylist].GivenName}曾经给了我一顶假发……我的长发看起来很丑。";
+                    chat = $"{Main.npc[stylist].GivenName}曾经给了我一顶假发……我戴长发看起来很丑。";
             }
             if (chat == $"That mutated mushroom seems like my type of fella.")
                 chat = $"那个变异蘑菇似乎是我喜欢的类型。";
@@ -402,12 +402,12 @@ namespace FargoChinese
                 if (npc.type == ModContent.NPCType<Abominationn>())
                 {
                     if (Main.npcChatText == "Hocus pocus, the event is over")
-                        Main.npcChatText = "吼吼嘿哈，事件结束了！";
+                        Main.npcChatText = "天灵灵地灵灵，事件结束了！";
                     for (int abomclearcd = 120; abomclearcd >= 0; abomclearcd--)
                     {
                         if (Main.npcChatText == $"I'm not feeling it right now, come back in {abomclearcd} seconds.")
                         {
-                            Main.npcChatText = $"我现在感觉不到，{abomclearcd}秒之后再来吧。";
+                            Main.npcChatText = $"我现在没有力气，{abomclearcd}秒之后再来吧。";
                             break;
                         }
                     }
