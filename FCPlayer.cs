@@ -1,13 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
+﻿using Terraria;
 using Terraria.ModLoader;
-using Terraria.ID;
-using Terraria.Localization;
-using Terraria.Chat;
 using Microsoft.Xna.Framework;
 
 namespace FargoChinese
@@ -16,7 +8,14 @@ namespace FargoChinese
     {
         public override void OnEnterWorld(Player player)
         {
-            Main.NewText("感谢使用Fargo汉化补丁！不出意外的话，下个月Fargo汉化将会合并到Fargo本体，届时如果没有需要将停止更新汉化补丁！", Color.LightGreen);
+            if (Main.rand.NextBool(1000))
+            {
+                Main.NewText("恭喜你中了千分之一几率的大奖，这是你的奖品（", Color.Gold);
+                int[] items = { ModContent.ItemType<Items.EchBeGone>(), ModContent.ItemType<Fargowiltas.Items.Tiles.EchPainting>() };
+                player.QuickSpawnItem(player.GetSource_Misc("FCEchOnEnterWorld"), Main.rand.Next(items));
+            }
+            else
+                Main.NewText("感谢使用Fargo汉化补丁！因为Fargo那边有点忙鸽了，所以以后需要继续用一段时间汉化补丁（", Color.LightGreen);
         }
     }
 }

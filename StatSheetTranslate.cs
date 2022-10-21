@@ -33,7 +33,6 @@ namespace FargoChinese
             hintText.Apply();
 
             On.Terraria.Main.DrawInterface_33_MouseText += Main_DrawInterface_33_MouseText;
-            MonoModHooks.RequestNativeAccess();
             hooks = new List<Hook>();
             hooks.Add(new Hook(typeof(StatSheetUI).GetMethod("RebuildStatList"), RebuildStatList));
             foreach (Hook hook in hooks)
