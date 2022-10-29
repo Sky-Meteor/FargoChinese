@@ -16,7 +16,6 @@ namespace FargoChinese
         private static List<Hook> chatButton;
         public static void Load()
         {
-            MonoModHooks.RequestNativeAccess();
             chatButton = new List<Hook>();
             chatButton.Add(new Hook(typeof(Abominationn).GetMethod("SetChatButtons"), AbomButton));
             chatButton.Add(new Hook(typeof(Deviantt).GetMethod("SetChatButtons"), DeviButton));

@@ -259,11 +259,13 @@ Mods: {
 
 		BuffName: {
 			Omnistation: 万用增益站
+			Semistation: 多功能增益站
 			WoodDrop: 掉落木头
 		}
 
 		BuffDescription: {
-			Omnistation: 拥有所有原版增益站的效果
+			Omnistation: 拥有部分原版增益站的效果
+			Semistation: 拥有部分原版增益站的效果
 		}
 
 		ItemName: {
@@ -535,6 +537,7 @@ Mods: {
 			Omnistation: 万用增益站
 			Omnistation2: 万用增益站
 			RegalStatue: 富豪雕像
+			Semistation: 多功能增益站
 			SiblingPylon: 血亲晶塔
 			UnsafeBlueSlabWall: 危险蓝板墙
 			UnsafeBlueTileWall: 危险蓝瓷砖墙
@@ -1224,18 +1227,23 @@ Mods: {
 			Omnistation: 
 				'''
 				可以被无限次重复使用
-				拥有所有原版增益站的效果
-				接触时给予蜂蜜和糖果冲刺增益
-				拿着武器的同时右键单击以获得对应增益
+				拥有部分原版增益站的效果
+				接触时给予蜂蜜增益
+				在附近时大幅提高运气
 				'''
 			Omnistation2: 
 				'''
 				可以被无限次重复使用
-				拥有所有原版增益站的效果
-				接触时给予蜂蜜和糖果冲刺增益
-				拿着武器的同时右键单击以获得对应增益
+				拥有部分原版增益站的效果
+				接触时给予蜂蜜增益
+				在附近时大幅提高运气
 				'''
 			RegalStatue: 在附近时城镇NPC会极快地重生
+			Semistation:
+				'''
+				可以被无限次重复使用
+				拥有部分原版增益站的效果
+				'''
 			SiblingPylon: 
 				'''
 				当附近有突变体，憎恶和戴薇安时可以传送至另一个晶塔
@@ -1273,6 +1281,7 @@ Mods: {
 			OmnistationSheet: 万用增益站
 			OmnistationSheet2: 万用增益站
 			RegalStatueSheet: 富豪雕像
+			SemistationSheet: 多功能增益站
 			SiblingPylonTile: 血亲晶塔
 		}
 
@@ -1407,7 +1416,7 @@ Mods: {
 				20: 我听说过一位传奇潜水员的故事……但无论如何，巨型水母是什么？？
 				21: 过载事件？那可太酷了。
 				22: 我不是不喜欢你的陪伴，但你能买点东西吗！？
-				23: 我已经杀了一千人了……什么？？你还是人？你手上的鲜血比我还多……
+				23: 我已经杀了一千人了……什么？？你还是人？你手上的鲜血有那么多……
 				Graveyard: 我希望周围所有的这些墓碑不是你的。
 				Mechanic: "你能去找{0}吗？请让她别碰我的激光胳膊了。"
 				EventOver: 天灵灵地灵灵，事件结束了！
