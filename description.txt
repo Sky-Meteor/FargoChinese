@@ -1,7 +1,7 @@
-Fargo突变汉化补丁
-Chinese Patch for Fargo's Mutant Mod
+Fargo突变&魂汉化补丁
+Chinese Patch for Fargo's Mutant Mod & Fargo's Souls Mod
 使用时请将游戏语言设置为中文
 游戏中尤其是多人模式可能会出现一些异常，如果关闭此mod重启游戏不能解决（基本确定是此mod问题），请留言上报
 目前汉化已完工，如果有没汉化或汉化错误的部分也请留言指出
 特别感谢：灾厄维基汉化组，@SweelLong
-不出意外下个月就要有官汉了（
+Fargo太鸽了，先用着这个罢（
