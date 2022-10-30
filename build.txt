@@ -1,5 +1,5 @@
-displayName = Fargo突变汉化补丁
+displayName = Fargo突变&魂汉化补丁
 author = Furgo_
-version = 2.8.6
+version = 286.1409
 modReferences = Fargowiltas
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, lib\*, .git\*, *.sln
