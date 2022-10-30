@@ -12,7 +12,10 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Fargowiltas">
-      <HintPath>..\..\ModReader\Fargowiltas\Fargowiltas.dll</HintPath>
+      <HintPath>..\Fargowiltas.dll</HintPath>
+    </Reference>
+    <Reference Include="FargowiltasSouls">
+      <HintPath>..\FargowiltasSouls.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

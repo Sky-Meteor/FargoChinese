@@ -196,6 +196,48 @@ namespace FargoChinese
                     }
                 }
             }
+            #region FargoSouls
+            if (ModLoader.TryGetMod("FargowiltasSouls", out _))
+            {
+
+                void ReplaceForceTooltip(string old, string New)
+                {
+                    for (int i = 0; i < tooltips.Count; i++)
+                    {
+                        if (tooltips[i].Text.Contains(old))
+                        {
+                            tooltips.Remove(tooltips[i]);
+                            tooltips.Insert(i, new TooltipLine(Mod, "tooltip_zh", New));
+                            break;
+                        }
+                    }
+                }
+                
+                if (item.type == "NatureForce".Type())
+                    ReplaceForceTooltip("按下“冻结”键后将一切冻结15秒", $"[i:{"SnowEnchant".Type()}] 按下“冻结”键后暂时冻结一切");
+                else if (item.type == "TerraForce".Type())
+                    tooltips.InsertAfter("攻击有几率造成铅中毒减益", new TooltipLine(Mod, "tooltip_zh", $"[i:{"LeadEnchant".Type()}] 受到的持续伤害降低50%"));
+                else if (item.type == "WillForce".Type())
+                    tooltips.InsertAfter("长矛将倾泄在被攻击的敌人身上", new TooltipLine(Mod, "tooltip_zh", $"[i:{"GladiatorEnchant".Type()}] 当你面向攻击时免疫击退"));
+            }
+            #endregion
+        }
+    }
+    public static class TooltipsUtil
+    {
+        public static void InsertAfter(this List<TooltipLine> tooltips, string text, TooltipLine line)
+        {
+            for (int i = 0; i < tooltips.Count; i++)
+            {
+                if (tooltips[i].Text.Contains(text))
+                    tooltips.Insert(i + 1, line);
+            }
+        }
+        public static int Type(this string className)
+        {
+            ModLoader.TryGetMod("FargowiltasSouls", out Mod fargoSouls);
+            fargoSouls.TryFind(className, out ModItem modItem);
+            return modItem.Type;
         }
     }
 }
