@@ -33,6 +33,12 @@ namespace FargoChinese
 -重绘了墓碑克星
 Fargo魂内容过多，不便展示，详情见Bilibili@小小法师的大决心&@Furgo_", Color.Orange);
             Main.NewText("感谢使用Fargo汉化补丁！因为Fargo那边有点忙鸽了，所以以后需要继续用一段时间汉化补丁（", Color.LightGreen);
+            if (Main.rand.NextBool(1000))
+            {
+                Main.NewText("恭喜你中了千分之一几率的大奖，这是你的奖品（", Color.Gold);
+                int[] items = { ModContent.ItemType<Items.EchBeGone>(), ModContent.ItemType<Fargowiltas.Items.Tiles.EchPainting>() };
+                player.QuickSpawnItem(player.GetSource_Misc("FCEchOnEnterWorld"), Main.rand.Next(items));
+            }
         }
     }
 }
