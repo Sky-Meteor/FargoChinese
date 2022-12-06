@@ -153,13 +153,13 @@ t -> 使用预设饰品效果（用法：/souls t [关键词1] [关键词2]）";
                             int numF = 0;
                             foreach (KeyValuePair<string, bool> pair in Toggles)
                             {
-                                if (numT > 9)
+                                if (numT > GetInstance<FCConfig>().CommandTogglePerLine - 1)
                                 {
                                     numT = 0;
                                     Main.NewText($"{nameCollectionT[..(nameCollectionT.Length - 1)]} 已开启");
                                     nameCollectionT = default;
                                 }
-                                if (numF > 9)
+                                if (numF > GetInstance<FCConfig>().CommandTogglePerLine - 1)
                                 {
                                     numF = 0;
                                     Main.NewText($"{nameCollectionF[..(nameCollectionF.Length - 1)]} 已关闭");
