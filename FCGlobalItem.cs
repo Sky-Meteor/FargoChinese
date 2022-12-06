@@ -2,10 +2,6 @@
 using Fargowiltas.Items.CaughtNPCs;
 using Fargowiltas.Items.Summons;
 using Fargowiltas.NPCs;
-using FargowiltasSouls.Items.Accessories.Enchantments;
-using FargowiltasSouls.Items.Accessories.Forces;
-using FargowiltasSouls.Utilities;
-using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
