@@ -1,6 +1,6 @@
 ﻿using Fargowiltas;
 using Fargowiltas.Items.CaughtNPCs;
-using Fargowiltas.Items.Summons;
+using Fargowiltas.Items.Misc;
 using Fargowiltas.NPCs;
 using System;
 using System.Collections.Generic;
@@ -196,10 +196,16 @@ namespace FargoChinese
                     }
                 }
             }
-            #region FargoSouls
+        }
+    }
+
+    [JITWhenModsEnabled("FargowiltasSouls")]
+    public class FCSoulsGlobalItem : GlobalItem
+    {
+        public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
+        {
             if (ModLoader.TryGetMod("FargowiltasSouls", out _))
             {
-
                 void ReplaceForceTooltip(string old, string New)
                 {
                     for (int i = 0; i < tooltips.Count; i++)
@@ -212,7 +218,7 @@ namespace FargoChinese
                         }
                     }
                 }
-                
+
                 if (item.type == "NatureForce".Type())
                     ReplaceForceTooltip("按下“冻结”键后将一切冻结15秒", $"[i:{"SnowEnchant".Type()}] 按下“冻结”键后暂时冻结一切");
                 else if (item.type == "TerraForce".Type())
@@ -220,9 +226,9 @@ namespace FargoChinese
                 else if (item.type == "WillForce".Type())
                     tooltips.InsertAfter("长矛将倾泄在被攻击的敌人身上", new TooltipLine(Mod, "tooltip_zh", $"[i:{"GladiatorEnchant".Type()}] 当你面向攻击时免疫击退"));
             }
-            #endregion
         }
     }
+
     public static class TooltipsUtil
     {
         public static void InsertAfter(this List<TooltipLine> tooltips, string text, TooltipLine line)
