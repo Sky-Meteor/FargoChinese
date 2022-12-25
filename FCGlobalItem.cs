@@ -2,10 +2,6 @@
 using Fargowiltas.Items.CaughtNPCs;
 using Fargowiltas.Items.Summons;
 using Fargowiltas.NPCs;
-using FargowiltasSouls.Items.Accessories.Enchantments;
-using FargowiltasSouls.Items.Accessories.Forces;
-using FargowiltasSouls.Utilities;
-using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,96 +15,6 @@ namespace FargoChinese
 {
     public class FCGlobalItem : GlobalItem
     {
-        public static Dictionary<string, string> enchColors;
-        public override void Load()
-        {
-            #region enchColors
-            enchColors = new Dictionary<string, string>()
-            {
-                { "BorealConfig", "8B7464" },
-                { "MahoganyConfig", "b56c64" },
-                { "EbonConfig", "645a8d" },
-                { "ShadeConfig", "586876" },
-                { "ShadeOnHitConfig", "586876" },
-                { "PalmConfig", "b78d56" },
-                { "PearlConfig", "ad9a5f" },
-
-                { "AdamantiteConfig", "dd557d" },
-                { "CobaltConfig", "3da4c4" },
-                { "AncientCobaltConfig", "354c74" },
-                { "MythrilConfig", "9dd290" },
-                { "OrichalcumConfig", "eb3291" },
-                { "PalladiumConfig", "f5ac28" },
-                { "PalladiumOrbConfig", "f5ac28" },
-                { "TitaniumConfig", "828c88" },
-
-                { "CopperConfig", "d56617" },
-                { "IronMConfig", "988e83" },
-                { "SilverSConfig", "b4b4cc" },
-                { "TinConfig", "a28b4e" },
-                { "TungstenConfig", "b0d2b2" },
-                { "TungstenProjConfig", "b0d2b2" },
-                { "ObsidianConfig", "453e73" },
-
-                { "GladiatorConfig", "9c924e" },
-                { "GoldConfig", "e7b21c" },
-                { "GoldToPiggyConfig", "e7b21c" },
-                { "HuntressConfig", "7ac04c" },
-                { "RedRidingRainConfig", "c01b3c" },
-                { "ValhallaConfig", "93651e" },
-                { "SquirePanicConfig", "948f8c" },
-
-                { "BeeConfig", "FEF625" },
-                { "BeetleConfig", "6D5C85" },
-                { "CactusConfig", "799e1d" },
-                { "PumpkinConfig", "e3651c" },
-                { "SpiderConfig", "6d4e45" },
-                { "TurtleConfig", "f89c5c" },
-
-                { "ChlorophyteConfig", "248900" },
-                { "CrimsonConfig", "C8364B" },
-                { "RainConfig", "ffec00" },
-                { "RainInnerTubeConfig", "ffec00" },
-                { "FrostConfig", "7abdb9" },
-                { "JungleConfig", "71971f" },
-                { "JungleDashConfig", "71971f" },
-                { "MoltenConfig", "c12b2b" },
-                { "MoltenEConfig", "c12b2b" },
-                { "ShroomiteConfig", "008cf4" },
-                { "ShroomiteShroomConfig", "008cf4" },
-
-                { "DarkArtConfig", "9b5cb0" },
-                { "ApprenticeConfig", "5d86a6" },
-                { "NecroConfig", "565643" },
-                { "NecroGloveConfig", "565643" },
-                { "ShadowConfig", "42356f" },
-                { "AncientShadowConfig", "42356f" },
-                { "MonkConfig", "920520" },
-                { "ShinobiDashConfig", "935b18" },
-                { "ShinobiConfig", "935b18" },
-                { "SpookyConfig", "644e74" },
-                { "NinjaSpeedConfig", "565643" },
-                { "CrystalDashConfig", "249dcf" },
-
-                { "FossilConfig", "8c5c3b" },
-                { "ForbiddenConfig", "e7b21c" },
-                { "HallowDodgeConfig", "968564" },
-                { "HallowedConfig", "968564" },
-                { "HallowSConfig", "968564" },
-                { "SpectreConfig", "accdfc" },
-                { "TikiConfig", "56A52B" },
-
-                { "MeteorConfig", "5f4752" },
-                { "NebulaConfig", "fe7ee5" },
-                { "SolarConfig", "fe9e23" },
-                { "SolarFlareConfig", "fe9e23" },
-                { "StardustConfig", "00aeee" },
-                { "VortexSConfig", "00f2aa" },
-                { "VortexVConfig", "00f2aa" }
-            };
-            #endregion
-        }
-
         TooltipLine FountainTooltip(string biome) => new TooltipLine(Mod, "Tooltip_zh", $"[i:909] [c/AAAAAA:激活时使周围的生物群落变为{biome}]");
         string FountainTooltipEN(string biome) => $"[i:909] [c/AAAAAA:Forces surrounding biome state to {biome} upon activation]";
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
@@ -290,11 +196,6 @@ namespace FargoChinese
                     }
                 }
             }
-        }
-
-        public override void Unload()
-        {
-            enchColors = null;
         }
     }
 }
