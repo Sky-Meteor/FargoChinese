@@ -199,7 +199,7 @@ namespace FargoChinese
         }
     }
 
-    [JITWhenModsEnabled("FargowiltasSouls")]
+    /*[JITWhenModsEnabled("FargowiltasSouls")]
     public class FCSoulsGlobalItem : GlobalItem
     {
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
@@ -218,16 +218,9 @@ namespace FargoChinese
                         }
                     }
                 }
-
-                if (item.type == "NatureForce".Type())
-                    ReplaceForceTooltip("按下“冻结”键后将一切冻结15秒", $"[i:{"SnowEnchant".Type()}] 按下“冻结”键后暂时冻结一切");
-                else if (item.type == "TerraForce".Type())
-                    tooltips.InsertAfter("攻击有几率造成铅中毒减益", new TooltipLine(Mod, "tooltip_zh", $"[i:{"LeadEnchant".Type()}] 受到的持续伤害降低50%"));
-                else if (item.type == "WillForce".Type())
-                    tooltips.InsertAfter("长矛将倾泄在被攻击的敌人身上", new TooltipLine(Mod, "tooltip_zh", $"[i:{"GladiatorEnchant".Type()}] 当你面向攻击时免疫击退"));
             }
         }
-    }
+    }*/
 
     public static class TooltipsUtil
     {
