@@ -8,8 +8,9 @@ namespace FargoChinese
     {
         public override void OnEnterWorld(Player player)
         {
-            Main.NewText(@"- Fargo突变 V 2.8.6 更新 -
--添加了多功能增益站
+            Color c = Color.Orange;
+            Main.NewText("- Fargo突变 V 2.8.6 更新 -", c);
+string text = @"-添加了多功能增益站
 -添加了万用平台转化器
 -添加了洁晶灵的贴图
 -添加了祭坛终结者的贴图
@@ -29,8 +30,11 @@ namespace FargoChinese
 -修复了即使在配置关闭时无限时长的buff还能生效的bug
 -万用增益站的职业站和蛋糕块增益被移除，因为他们可以在背包里堆叠获得无限时长
 -无尽职业增益站/蛋糕块增益的数量需求从15减少到3
--把商人做成旅商的合成表变简单了
-Fargo魂内容过多，不便展示，详情见Bilibili@小小法师的大决心&@Furgo_", Color.Orange);
+-把商人做成旅商的合成表变简单了";
+            string[] textlines = text.Split("-");
+            for(int i = 1; i < textlines.Length; i++)
+                Main.NewText("-" + textlines[i].Trim(), c);
+            Main.NewText("Fargo魂内容过多，不便展示，详情见Bilibili@小小法师的大决心&@Furgo_", c);
             Main.NewText("感谢使用Fargo汉化补丁！因为Fargo那边有点忙鸽了，所以以后需要继续用一段时间汉化补丁（", Color.LightGreen);
             if (Main.rand.NextBool(1000))
             {

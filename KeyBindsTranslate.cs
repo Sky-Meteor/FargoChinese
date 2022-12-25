@@ -22,6 +22,13 @@ namespace FargoChinese
                 return "Fargo突变：快捷使用背包左下角物品";
             else if (keybindName == "Fargowiltas: Open Stat Sheet")
                 return "Fargo突变：打开属性统计表";
+            else if (keybindName.Contains("FargowiltasSouls: "))
+            {
+                string retVal = keybindName.Replace("FargowiltasSouls: ", "Fargo魂石：");
+                if (retVal == "Fargo魂石：突变炸弹")
+                    return "Fargo魂石：炸弹";
+                return retVal;
+            }
             return orig.Invoke(item);
         }
         public override void Unload()
