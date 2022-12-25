@@ -1,4 +1,4 @@
-﻿/*using Terraria.ModLoader;
+﻿using Terraria.ModLoader;
 using On.Terraria.GameContent.UI.Elements;
 using System.Reflection;
 
@@ -22,11 +22,6 @@ namespace FargoChinese
                 return "Fargo突变：快捷使用背包左下角物品";
             else if (keybindName == "Fargowiltas: Open Stat Sheet")
                 return "Fargo突变：打开属性统计表";
-            if (ModLoader.TryGetMod("FargowiltasSouls", out _))
-            {
-                if (keybindName == "FargowiltasSouls: Ammo Cycle")
-                    return "FargowiltasSouls: 弹药切换";
-            }
             return orig.Invoke(item);
         }
         public override void Unload()
@@ -34,4 +29,4 @@ namespace FargoChinese
             UIKeybindingListItem.GetFriendlyName -= UIKeybindingListItem_GetFriendlyName;
         }
     }
-}*/
+}
