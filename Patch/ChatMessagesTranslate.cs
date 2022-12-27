@@ -8,15 +8,16 @@ using Terraria.Audio;
 
 namespace FargoChinese.Patch
 {
-    public class ChatMessagesTranslate : ModSystem
+    public static class ChatMessagesTranslate
     {
-        public override void Load()
+        public static void Load()
         {
             On.Terraria.Main.NewText_string_byte_byte_byte += NewText_string_byte_byte_byte;
             On.Terraria.Main.NewTextMultiline += NewTextMultiline;
         }
         private static void NewText_string_byte_byte_byte(On.Terraria.Main.orig_NewText_string_byte_byte_byte orig, string newText, byte R = byte.MaxValue, byte G = byte.MaxValue, byte B = byte.MaxValue)
         {
+            #region Fargowiltas
             #region Items
             if (newText.StartsWith("Battle Cry ") && newText.Contains(Main.player[0].name) && newText.EndsWith("!") && R == 255 && G == 0 && B == 0)
             {
@@ -389,11 +390,27 @@ namespace FargoChinese.Patch
             else if (newText == "The rain has ended!" && R == 175 && G == 75 && B == 255)
                 orig.Invoke("雨停了！", R, G, B);
             #endregion
+            #endregion
+            #region FargowiltasSouls
+            else if (newText == "Toggles saved to custom set 1!")
+                orig.Invoke("已将饰品效果设置保存至自定义效果配置1！", R, G, B);
+            else if (newText == "Toggles saved to custom set 2!")
+                orig.Invoke("已将饰品效果设置保存至自定义效果配置2！", R, G, B);
+            else if (newText == "Toggles saved to custom set 3!")
+                orig.Invoke("已将饰品效果设置保存至自定义效果配置3！", R, G, B);
+            else if (newText == "No toggles found in custom set 1.")
+                orig.Invoke("在自定义效果配置1中未找到饰品效果设置。", R, G, B);
+            else if (newText == "No toggles found in custom set 2.")
+                orig.Invoke("在自定义效果配置2中未找到饰品效果设置。", R, G, B);
+            else if (newText == "No toggles found in custom set 3.")
+                orig.Invoke("在自定义效果配置3中未找到饰品效果设置。", R, G, B);
+            #endregion
             else
                 orig.Invoke(newText, R, G, B);
         }
         private static void NewTextMultiline(On.Terraria.Main.orig_NewTextMultiline orig, string text, bool force = false, Color c = default, int WidthLimit = -1)
         {
+            #region Fargowiltas
             #region Items
             if (text.StartsWith("Battle Cry ") && text.EndsWith("!") && c == new Color(255, 0, 0))
             {
@@ -780,11 +797,13 @@ namespace FargoChinese.Patch
             else if (text == "The rain has ended!" && c == new Color(175, 75, 255))
                 orig.Invoke("雨停了！", force, c, WidthLimit);
             #endregion
+            #endregion
+            #region FargowiltasSouls
+            #endregion
             else
-                orig.Invoke(text, force, c, WidthLimit);
-            SoundEngine.PlaySound(SoundID.MenuTick);
+                        orig.Invoke(text, force, c, WidthLimit);
         }
-        public override void Unload()
+        public static void Unload()
         {
             On.Terraria.Main.NewText_string_byte_byte_byte -= NewText_string_byte_byte_byte;
             On.Terraria.Main.NewTextMultiline -= NewTextMultiline;

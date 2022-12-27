@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Terraria.ModLoader;
+
+namespace FargoChinese.Patch.FargowiltasSouls
+{
+    [JITWhenModsEnabled("FargowiltasSouls")]
+    public class UITranslate
+    {
+        public static void Load()
+        {
+            On.Terraria.UI.Chat.ChatManager.ParseMessage += ChatManager_ParseMessage;
+        }
+
+        private static List<Terraria.UI.Chat.TextSnippet> ChatManager_ParseMessage(On.Terraria.UI.Chat.ChatManager.orig_ParseMessage orig, string text, Microsoft.Xna.Framework.Color baseColor)
+        {
+            if (text == "Custom preset 1 (right click to save)")
+                text = "自定义效果配置1（右键点击以保存）";
+            if (text == "Custom preset 2 (right click to save)")
+                text = "自定义效果配置2（右键点击以保存）";
+            if (text == "Custom preset 3 (right click to save)")
+                text = "自定义效果配置3（右键点击以保存）";
+            return orig.Invoke(text, baseColor);
+        }
+
+        public static void Unload()
+        {
+            On.Terraria.UI.Chat.ChatManager.ParseMessage -= ChatManager_ParseMessage;
+        }
+    }
+}

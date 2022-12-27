@@ -4,14 +4,14 @@ using System.Reflection;
 
 namespace FargoChinese.Patch
 {
-    public class KeyBindsTranslate : ModSystem
+    public static class KeyBindsTranslate
     {
-        public override void Load()
+        public static void Load()
         {
             UIKeybindingListItem.GetFriendlyName += UIKeybindingListItem_GetFriendlyName;
         }
 
-        private string UIKeybindingListItem_GetFriendlyName(UIKeybindingListItem.orig_GetFriendlyName orig, Terraria.GameContent.UI.Elements.UIKeybindingListItem item)
+        private static string UIKeybindingListItem_GetFriendlyName(UIKeybindingListItem.orig_GetFriendlyName orig, Terraria.GameContent.UI.Elements.UIKeybindingListItem item)
         {
             string keybindName = item.GetType().GetField("_keybind", (BindingFlags)60).GetValue(item) as string;
             if (keybindName == "Fargowiltas: Quick Recall/Mirror")
@@ -31,7 +31,7 @@ namespace FargoChinese.Patch
             }
             return orig.Invoke(item);
         }
-        public override void Unload()
+        public static void Unload()
         {
             UIKeybindingListItem.GetFriendlyName -= UIKeybindingListItem_GetFriendlyName;
         }
