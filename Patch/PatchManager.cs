@@ -13,6 +13,7 @@ namespace FargoChinese.Patch
 
             if (ModLoader.TryGetMod("FargowiltasSouls", out _))
             {
+                BossChecklistTranslate.Load();
                 DropConditionsTranslate.Load();
             }
         }
