@@ -1,6 +1,8 @@
-﻿using Terraria.ModLoader;
+﻿using FargoChinese.Patch.Fargowiltas;
+using FargoChinese.Patch.FargowiltasSouls;
+using Terraria.ModLoader;
 
-namespace FargoChinese
+namespace FargoChinese.Patch
 {
     public class PatchManager : ModSystem
     {

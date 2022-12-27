@@ -2,7 +2,7 @@
 using On.Terraria.GameContent.UI.Elements;
 using System.Reflection;
 
-namespace FargoChinese
+namespace FargoChinese.Patch
 {
     public class KeyBindsTranslate : ModSystem
     {

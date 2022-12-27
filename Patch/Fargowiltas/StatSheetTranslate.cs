@@ -11,7 +11,7 @@ using Mono.Cecil.Cil;
 using Fargowiltas.Items.Misc;
 using Terraria.ID;
 
-namespace FargoChinese
+namespace FargoChinese.Patch.Fargowiltas
 {
     public static class StatSheetTranslate
     {
@@ -106,7 +106,7 @@ namespace FargoChinese
             bool battleCry = (bool)BattleCry.GetValue(modPlayer);
             var CalmingCry = modPlayer.GetType().GetField("CalmingCry", BindingFlags.Instance | BindingFlags.NonPublic);
             bool calmingCry = (bool)CalmingCry.GetValue(modPlayer);
-            orig.AddStat($"战争号角效果：{(battleCry ? "[c/ff0000:战争]" : (calmingCry ? "[c/00ffff:镇静]" : "无"))}", ModContent.ItemType<BattleCry>());
+            orig.AddStat($"战争号角效果：{(battleCry ? "[c/ff0000:战争]" : calmingCry ? "[c/00ffff:镇静]" : "无")}", ModContent.ItemType<BattleCry>());
 
             orig.AddStat($"最大速度：{(int)((player.accRunSpeed + player.maxRunSpeed) / 2f * player.moveSpeed * 6)}英里每小时", ItemID.HermesBoots);
 
@@ -114,7 +114,7 @@ namespace FargoChinese
             orig.AddStat(player.wingTimeMax / 60 > 60 || player.empressBrooch ? "飞行时间：接近无限" : $"飞行时间：{RenderWingStat(Math.Round(player.wingTimeMax / 60.0, 2))}秒", ItemID.AngelWings);
             orig.AddStat($"最大飞行速度：{RenderWingStat(Math.Round(modPlayer.StatSheetWingSpeed * 32 / 6.25))}英里每小时", ItemID.AngelWings);
             orig.AddStat($"翅膀上升速度：{RenderWingStat(Math.Round(modPlayer.StatSheetMaxAscentMultiplier * 100))}%", ItemID.AngelWings);
-            orig.AddStat($"翅膀是否可水平悬停：{(modPlayer.CanHover == null ? "无翅膀" : ((bool)modPlayer.CanHover ? "是" : "否"))}", ItemID.AngelWings);
+            orig.AddStat($"翅膀是否可水平悬停：{(modPlayer.CanHover == null ? "无翅膀" : (bool)modPlayer.CanHover ? "是" : "否")}", ItemID.AngelWings);
         }
     }
 }

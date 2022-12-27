@@ -9,7 +9,7 @@ using Terraria;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ModLoader;
 
-namespace FargoChinese
+namespace FargoChinese.Patch.FargowiltasSouls
 {
     [JITWhenModsEnabled("FargowiltasSouls")]
     public static class DropConditionsTranslate

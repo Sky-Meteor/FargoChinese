@@ -9,7 +9,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 
-namespace FargoChinese
+namespace FargoChinese.Patch.Fargowiltas
 {
     public static class ChatButtonsTranslate
     {

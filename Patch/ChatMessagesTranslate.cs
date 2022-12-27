@@ -6,10 +6,10 @@ using Fargowiltas.NPCs;
 using Microsoft.Xna.Framework;
 using Terraria.Audio;
 
-namespace FargoChinese
+namespace FargoChinese.Patch
 {
-	public class ChatMessagesTranslate : ModSystem
-	{
+    public class ChatMessagesTranslate : ModSystem
+    {
         public override void Load()
         {
             On.Terraria.Main.NewText_string_byte_byte_byte += NewText_string_byte_byte_byte;
@@ -392,10 +392,10 @@ namespace FargoChinese
             else
                 orig.Invoke(newText, R, G, B);
         }
-        private static void NewTextMultiline(On.Terraria.Main.orig_NewTextMultiline orig, string text, bool force = false, Color c = default(Color), int WidthLimit = -1)
+        private static void NewTextMultiline(On.Terraria.Main.orig_NewTextMultiline orig, string text, bool force = false, Color c = default, int WidthLimit = -1)
         {
             #region Items
-            if (text.StartsWith("Battle Cry ") && text.EndsWith("!") && c == new Color (255, 0, 0))
+            if (text.StartsWith("Battle Cry ") && text.EndsWith("!") && c == new Color(255, 0, 0))
             {
                 if (!text.Contains("deactivated"))
                 {
