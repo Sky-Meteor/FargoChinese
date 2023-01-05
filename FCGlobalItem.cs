@@ -23,7 +23,7 @@ namespace FargoChinese
             {
                 for (int i = 0; i < tooltips.Count; i++)
                 {
-                    if (tooltips[i].Text == "Reveals the whole map")
+                    if (tooltips[i].Text == "Reveals the map")
                     {
                         tooltips.Remove(tooltips[i]);
                         if (Main.netMode != NetmodeID.MultiplayerClient)
