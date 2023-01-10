@@ -126,8 +126,8 @@ namespace FargoChinese
                     chat = "如果你继续买，我可能承担得起更高的身体！";
                 else if (chat == "Where's that screm cat?")
                     chat = "那只尖叫猫呢？";
-                else if (chat.EndsWith("! I saw something rodent - y just now!You don't have a hamster infestation, right? Right!?"))
-                    chat = chat.Replace("! I saw something rodent - y just now!You don't have a hamster infestation, right? Right!?", "！我刚才看到了一些啮齿类动物！你没有被仓鼠感染吧？对吧！？");
+                else if (chat.EndsWith("! I saw something rodent-y just now! You don't have a hamster infestation, right? Right!?"))
+                    chat = chat.Replace("! I saw something rodent-y just now! You don't have a hamster infestation, right? Right!?", "！我刚才看到了一些啮齿类动物！你没有被仓鼠感染吧？对吧！？");
                 else if (chat == "You're the Terrarian? Honestly, I was expecting someone a little... taller.")
                     chat = "你就是泰拉瑞亚人？老实说，我在期待一个稍微……高一点的人。";
                 else if (chat == "Don't look at me like that! The only thing I've deviated from is my humanity.")
