@@ -200,7 +200,7 @@ namespace FargoChinese
                 else if (chat == "What's the best kind of tree? ... Any if I can chop it.")
                     chat = "最好的树是什么树？……任何我砍得掉的树。";
                 else if (chat == "Can I axe you a question?")
-                    chat = "我可以问你个问题吗？";
+                    chat = "能让你砍砍我的问题吗？";
                 else if (chat == "Might take a nap under a tree later, care to join me?")
                     chat = "我待会儿也许会在树下小睡一会儿，愿意和我一起吗？";
                 else if (chat == "I'm an expert in all wood types.")
