@@ -164,7 +164,7 @@ namespace FargoChinese
                             || item.type == ItemID.CrystalBall
                             || item.type == ItemID.BewitchingTable
                             || item.type == ItemID.SliceOfCake)
-                        ModifyTooltip("[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠15个时获得无尽增益]", "[i:87] [c/AAAAAA:Unlimited buff at 15 stack in inventory, Piggy Bank, or Safe]");
+                        ModifyTooltip("[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠3个时获得无尽增益]", "[i:87] [c/AAAAAA:Unlimited buff at 3 stack in inventory, Piggy Bank, or Safe]");
                 }
 
                 if (fargoConfig.PiggyBankAcc)
