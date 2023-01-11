@@ -6,6 +6,10 @@ namespace FargoChinese.Items
 {
     public class EchBeGone : EchPainting
     {
+        public override bool IsLoadingEnabled(Mod mod)
+        {
+            return false;
+        }
         public override void SetDefaults()
         {
             base.SetDefaults();
