@@ -2,6 +2,8 @@
 using Fargowiltas.Items.CaughtNPCs;
 using Fargowiltas.Items.Misc;
 using Fargowiltas.NPCs;
+using FargowiltasSouls.Items.Accessories.Enchantments;
+using FargowiltasSouls.Items.Accessories.Forces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -199,14 +201,38 @@ namespace FargoChinese
         }
     }
 
-    /*[JITWhenModsEnabled("FargowiltasSouls")]
+    [JITWhenModsEnabled("FargowiltasSouls")]
     public class FCSoulsGlobalItem : GlobalItem
     {
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
             if (ModLoader.TryGetMod("FargowiltasSouls", out _))
             {
-                void ReplaceForceTooltip(string old, string New)
+                if (item.type == ItemType<CosmoForce>())
+                {
+                    int startIndex = default;
+                    for (int i = 0; i < tooltips.Count; i++)
+                    {
+                        if (tooltips[i].Name == "Tooltip1")
+                            startIndex = i;
+                    }
+                    if (startIndex != default)
+                    {
+                        int wizard = ItemType<WizardEnchant>();
+                        int solar = ItemType<SolarEnchant>();
+                        int vortex = ItemType<VortexEnchant>();
+                        int nebula = ItemType<NebulaEnchant>();
+                        int stardust = ItemType<StardustEnchant>();
+
+                        tooltips[startIndex].Replace(wizard, solar);
+                        tooltips[startIndex + 1].Replace(wizard, solar);
+                        tooltips[startIndex + 2].Replace(solar, vortex);
+                        tooltips[startIndex + 3].Replace(vortex, nebula);
+                        tooltips[startIndex + 4].Replace(nebula, stardust);
+                        tooltips[startIndex + 5].Replace(nebula, stardust);
+                    }
+                }
+                /*void ReplaceForceTooltip(string old, string New)
                 {
                     for (int i = 0; i < tooltips.Count; i++)
                     {
@@ -217,10 +243,10 @@ namespace FargoChinese
                             break;
                         }
                     }
-                }
+                }*/
             }
         }
-    }*/
+    }
 
     public static class TooltipsUtil
     {
@@ -232,11 +258,15 @@ namespace FargoChinese
                     tooltips.Insert(i + 1, line);
             }
         }
-        public static int Type(this string className)
+        /*public static int Type(this string className)
         {
             ModLoader.TryGetMod("FargowiltasSouls", out Mod fargoSouls);
             fargoSouls.TryFind(className, out ModItem modItem);
             return modItem.Type;
+        }*/
+        public static void Replace(this TooltipLine tooltip, object Old, object New)
+        {
+            tooltip.Text = tooltip.Text.Replace(Old.ToString(), New.ToString());
         }
     }
 }
