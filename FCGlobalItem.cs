@@ -204,48 +204,48 @@ namespace FargoChinese
     [JITWhenModsEnabled("FargowiltasSouls")]
     public class FCSoulsGlobalItem : GlobalItem
     {
+        public override bool IsLoadingEnabled(Mod mod) => ModLoader.TryGetMod("FargowiltasSouls", out _);
+
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
-            if (ModLoader.TryGetMod("FargowiltasSouls", out _))
+            if (item.type == ItemType<CosmoForce>())
             {
-                if (item.type == ItemType<CosmoForce>())
+                int startIndex = default;
+                for (int i = 0; i < tooltips.Count; i++)
                 {
-                    int startIndex = default;
-                    for (int i = 0; i < tooltips.Count; i++)
-                    {
-                        if (tooltips[i].Name == "Tooltip1")
-                            startIndex = i;
-                    }
-                    if (startIndex != default)
-                    {
-                        int wizard = ItemType<WizardEnchant>();
-                        int solar = ItemType<SolarEnchant>();
-                        int vortex = ItemType<VortexEnchant>();
-                        int nebula = ItemType<NebulaEnchant>();
-                        int stardust = ItemType<StardustEnchant>();
+                    if (tooltips[i].Name == "Tooltip1")
+                        startIndex = i;
+                }
+                if (startIndex != default)
+                {
+                    int wizard = ItemType<WizardEnchant>();
+                    int solar = ItemType<SolarEnchant>();
+                    int vortex = ItemType<VortexEnchant>();
+                    int nebula = ItemType<NebulaEnchant>();
+                    int stardust = ItemType<StardustEnchant>();
 
-                        tooltips[startIndex].Replace(wizard, solar);
-                        tooltips[startIndex + 1].Replace(wizard, solar);
-                        tooltips[startIndex + 2].Replace(solar, vortex);
-                        tooltips[startIndex + 3].Replace(vortex, nebula);
-                        tooltips[startIndex + 4].Replace(nebula, stardust);
-                        tooltips[startIndex + 5].Replace(nebula, stardust);
+                    tooltips[startIndex].Replace(wizard, solar);
+                    tooltips[startIndex + 1].Replace(wizard, solar);
+                    tooltips[startIndex + 2].Replace(solar, vortex);
+                    tooltips[startIndex + 3].Replace(vortex, nebula);
+                    tooltips[startIndex + 4].Replace(nebula, stardust);
+                    tooltips[startIndex + 5].Replace(nebula, stardust);
+                }
+            }
+            /*void ReplaceForceTooltip(string old, string New)
+            {
+                for (int i = 0; i < tooltips.Count; i++)
+                {
+                    if (tooltips[i].Text.Contains(old))
+                    {
+                        tooltips.Remove(tooltips[i]);
+                        tooltips.Insert(i, new TooltipLine(Mod, "tooltip_zh", New));
+                        break;
                     }
                 }
-                /*void ReplaceForceTooltip(string old, string New)
-                {
-                    for (int i = 0; i < tooltips.Count; i++)
-                    {
-                        if (tooltips[i].Text.Contains(old))
-                        {
-                            tooltips.Remove(tooltips[i]);
-                            tooltips.Insert(i, new TooltipLine(Mod, "tooltip_zh", New));
-                            break;
-                        }
-                    }
-                }*/
-            }
+            }*/
         }
+
     }
 
     public static class TooltipsUtil
