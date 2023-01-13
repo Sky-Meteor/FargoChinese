@@ -805,7 +805,7 @@ Mods: {
 			TimberTreeAcorn: 橡实
 			WillBomb: 意志英灵炸弹
 			WillDeathray: 意志死亡射线
-			WillDeathray2: 意志死亡射线
+			WillDeathrayBig: 意志死亡射线
 			WillDeathraySmall: 意志死亡射线
 			WillFireball: 火球
 			WireFireball2: 火球
@@ -1019,7 +1019,7 @@ Mods: {
 			FlameburstMinion: 爆炸烈焰仆从
 			FriendRay: 爱心射线
 			HallowSword: 泰拉棱镜
-			KamikazePixie: 神风妖精
+			KamikazePixie: 妖精
 			KamikazeSquirrel: 神风松鼠
 			LunarCultist: 拜月教邪教徒
 			LunarCultistFireball: 火球
@@ -1275,8 +1275,8 @@ Mods: {
 			SkeletronPrimeRegrow: "{$NPCName.SkeletronPrime}的手臂又长出来了！"
 			SkeletronGuardian: "{$NPCName.SkeletronHead}进入了地牢守卫阶段！"
 			SkeletronPrimeGuardian: "{$NPCName.SkeletronPrime}进入了地牢守卫阶段！"
-			TwinsEndure: 挺住了致命攻击，它还能帮着它的兄弟打三百回合！
-			TwinsRevive: 复活了！
+			TwinsEndure: "{0}挺住了致命攻击，它还能帮着它的兄弟打三百回合！"
+			TwinsRevive: "{0}复活了！"
 			GelatinSubjects: 圣凝史莱姆已苏醒！
 			RoyalSubject: 皇家工蜂已苏醒！
 			QueenBeeEnrage: "{$NPCName.QueenBee}在地下丛林之外变得异常愤怒！"
@@ -1289,17 +1289,18 @@ Mods: {
 		}
 
 		DeathMessage: {
-			Rotting: 烂了。
-			Infested: 控制不住感染。
-			Anticoagulation: 出血过多。
-			DivineWrath: 湮灭于神明的忿怒中。
-			Shadowflame: 被暗影焰包裹着，控制不住火势。
-			NanoInjection: 被纳米机器人从内部吞噬。
+			Rotting: "{0}烂了。"
+			Infested: "{0}控制不住感染。"
+			Anticoagulation: "{0}出血过多。"
+			DivineWrath: "{0}湮灭于神明的忿怒中。"
+			Shadowflame: "{0}被暗影焰包裹着，控制不住火势。"
+			NanoInjection: "{0}被纳米机器人从内部吞噬。"
 
 			Fused:"{0}被炸成了碎片。"
 			Nutcracker: "{0}的“坚果”裂开了。"
 			Derpling: "{0}被吸干了。"
 			Snatchers: "{0}被食人怪咬成了“被吃掉”的男人。"
+			FakeHeart: "{0}感到了心碎。"
 		}
 
 		DeviChatter: {
@@ -1712,12 +1713,6 @@ Mods: {
 			PatreonCrimetroid: 血水母的蛋
 			PatreonNanoCore: 纳米核心
 		}
-
-		UI: {
-			SoulTogglerButton: 设置饰品效果
-			EternityEnabled: 永恒模式已开启
-			MasochistEnabled: 受虐模式已开启
-			}
 
 		ItemExtra: {
 			WoodenDiscount: 当前折扣：{0}%
@@ -2251,7 +2246,7 @@ Mods: {
 
 			CrystallineCongregation: 魔引凝晶
 			EnchantedLifeblade: 附魔蕴生之剑
-			KamikazePixieStaff: 神风妖精杖
+			KamikazePixieStaff: 爆炸妖精杖
 			Lightslinger: 曙光投射器
 			KamikazeSquirrelStaff: 神风松鼠杖
 			MountedAcornGun: 安装好的橡实枪
@@ -2468,7 +2463,7 @@ Mods: {
 			ForgorGift:
 			'''
 			[c/ff0000:调 试 用 物 品]
-			重置原版和魂石Mod中的事件与Boss进度，包括困难模式（击败血肉墙）
+			左键重置原版和魂石Mod中的事件与Boss进度，包括困难模式（击败血肉墙）
 			右键允许从戴薇安处再拿一次新手礼包，重置突变体的信用卡/优惠卡、你的永恒模式饰品栏、狂犬病疫苗、鹿筋冲刺等等
 			在物品栏内对物品右键来重置突变体的一阶段跳过机制
 			我忘啦！
@@ -2486,8 +2481,8 @@ Mods: {
 			MasochistReal:
 			'''
 			[c/ff0000:调 试 用 物 品]
-			左键：给予剥夺个人角色开启受虐模式的权力
-			右键：给予剥夺世界开启受虐模式的权力
+			左键：给予剥夺该客户端开启受虐模式的能力
+			右键：给予剥夺世界开启受虐模式的能力
 			'''
 
 			// == Materials ==
@@ -3062,12 +3057,12 @@ Mods: {
 				某些敌人在死亡时会掉落药水
 				手动点击攻击时，增加30%非召唤伤害
 				[c/00FFFF:当该饰品放在背包中或时装栏时，下列效果也会生效：]
-					免疫强风、窒息、冷冻减益
-					允许所有武器自动攻击、获得夜视效果，需要时自动使用治疗和魔力药水
-					你会以更高的生命值重生，没有Boss在场时加快重生速度
-					按下“寒霜咒语”键放置冰雪魔杖之冰
-					右键可改变视野范围，减少50%重铸价格
-					在太空和液体中恢复正常重力作用
+				    免疫强风、窒息、冷冻减益
+				    允许所有武器自动攻击、获得夜视效果，需要时自动使用治疗和魔力药水
+				    你会以满生命值重生，没有Boss在场时加快重生速度
+				    按下“寒霜咒语”键放置冰雪魔杖之冰
+				    右键可改变视野范围，减少50%重铸价格
+				    在太空和液体中恢复正常重力作用
 				“由上千普通敌人融合而成”
 				'''
 			CelestialRune:
@@ -3143,6 +3138,7 @@ Mods: {
 				放在物品栏中即可生效
 				免疫霜冻和冷冻减益
 				按下“寒霜咒语”键放置冰雪魔杖之冰
+				你的冰块会造成霜冻减益
 				“一块古老的魔法冰碎片”
 				'''
 			FusedLens:
@@ -3281,7 +3277,7 @@ Mods: {
 			NymphsPerfume:
 				'''
 				免疫热恋、恶臭和着魔减益
-				你会以更高的生命值重生
+				你会以满生命值重生
 				你的攻击偶尔会生成心
 				“气味有点太浓了”
 				'''
@@ -4125,7 +4121,7 @@ Mods: {
 			按下“减益负载”键对自己造成减益并加强自己
 			按下“特殊冲刺”键后会进行短距离无敌冲刺，右键缩放视域
 			按下“弹药切换”键循环切换弹药
-			大多敌人在死亡时会掉落随机的药水，大幅改善重铸结果，你在重生时以更多生命重生
+			大多敌人在死亡时会掉落随机的药水，大幅改善重铸结果，你会以满生命值重生
 			重生速度翻倍，增强夜视效果，受到伤害时进行超级充能并释放各种攻击
 			阻止Boss自然生成，增加刷怪率，敌人死亡后会掉落更多战利品，你在受到伤害时有几率发出吱吱声，并使这次受到的伤害降至1点
 			缩小你对于敌对弹幕的碰撞判定，按下“玲珑圣印”键禁用冲刺和二段跳
@@ -4259,20 +4255,31 @@ Mods: {
 
 		}
 
-		//Keybind: {
-			//Freeze: 冻结
-			//Gold: 金身
-			//SmokeBomb: 投掷烟雾弹
-			//SpecialDash: 特殊冲刺
-			//MutantBomb: 突变炸弹
-			//SoulToggle: 打开魂石效果设置
-			//PrecisionSeal: 玲珑圣印精确模式
-			//MagicalBulb: 魔法净化
-			//FrigidSpell: 寒霜咒语
-			//DebuffInstall: 减益负载
-			//AmmoCycle: 弹药切换
-		//}
-		// 下一次tml更新去掉注释，FargowiltasSousl.cs里改好
+		UI: {
+			SetAllOff: "关闭所有饰品效果"
+			SetAllOn: "开启所有饰品效果"
+			SomeEffects: "部分效果预设"
+			MinimalEffects: "最小化影响预设"
+			PresetCustom: "自定义效果配置{0}（右键点击以保存）"
+			AccessoryEffects: "设置饰品效果"
+			OncomingMutantE: "永恒模式已开启"
+			OncomingMutantM: "受虐模式已开启"
+			SearchHintText: "搜索……"
+		}
+
+		Keybind: {
+			Freeze: 冻结
+			Gold: 金身
+			SmokeBomb: 投掷烟雾弹
+			SpecialDash: 特殊冲刺
+			Bomb: 炸弹
+			SoulToggle: 打开魂石效果设置
+			PrecisionSeal: 玲珑圣印精确模式
+			MagicalBulb: 魔法净化
+			FrigidSpell: 寒霜咒语
+			DebuffInstall: 减益负载
+			AmmoCycle: 弹药切换
+		}
 
 		DropRate: {
 			Eternity: "[i:{0}] 在永恒模式下的掉落率"
