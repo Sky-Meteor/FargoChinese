@@ -231,19 +231,17 @@ namespace FargoChinese
                     tooltips[startIndex + 4].Replace(nebula, stardust);
                     tooltips[startIndex + 5].Replace(nebula, stardust);
                 }
+                return;
             }
-            /*void ReplaceForceTooltip(string old, string New)
+            else if (item.type == ItemType<EarthForce>())
             {
-                for (int i = 0; i < tooltips.Count; i++)
-                {
-                    if (tooltips[i].Text.Contains(old))
-                    {
-                        tooltips.Remove(tooltips[i]);
-                        tooltips.Insert(i, new TooltipLine(Mod, "tooltip_zh", New));
-                        break;
-                    }
-                }
-            }*/
+                tooltips.FindAndReplace("你发射的所有弹幕都会分裂成三个，造成50%伤害且伤害频率翻倍，弹幕增加与其一半伤害相等的护甲穿透", "你发射的所有弹幕都会分裂成三个，造成33%伤害且伤害频率提升到3倍，增加与其一半伤害相等的护甲穿透");
+                return;
+            }
+            else if (item.type == ItemType<SpiritForce>())
+            {
+                tooltips.FindAndReplace("召唤栏位用光后你仍可以召唤临时的哨兵和仆从", "鞭打你的召唤物可以让它们更勤奋");
+            }
         }
 
     }
@@ -267,6 +265,10 @@ namespace FargoChinese
         public static void Replace(this TooltipLine tooltip, object Old, object New)
         {
             tooltip.Text = tooltip.Text.Replace(Old.ToString(), New.ToString());
+        }
+        public static void FindAndReplace(this List<TooltipLine> tooltips, object Old, object New)
+        {
+            tooltips.Find(l => l.Text.Contains(Old.ToString())).Replace(Old.ToString(), New.ToString());
         }
     }
 }

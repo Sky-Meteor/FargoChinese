@@ -9,7 +9,7 @@
 Mods: {
 	FargowiltasSouls: {
 		WizardEffect:{
-			Adamantite: 弹幕现在会分裂成三个
+			Adamantite: 弹幕现在会分裂成三个，造成33%伤害，造成伤害的频率提升到3倍
 			AncientHallow: ""
 			AncientShadow: ""
 			Angler: ""
@@ -87,7 +87,7 @@ Mods: {
 				双击{0}键以开关进攻模式，进攻模式具有如下效果：
 				增加30%手持武器职业的伤害和15%该职业暴击率
 				增加20点护甲穿透
-				降低20点防御、10%最大生命值和15%伤害减免
+				降低20点防御力、10%最大生命值和15%伤害减免
 				'''
 
 			EridanusOff:
@@ -203,7 +203,7 @@ Mods: {
 			BrainIllusion: 克苏鲁之脑
 			BrainIllusion2: 克苏鲁之脑
 			BrainIllusionAttack: 克苏鲁之脑
-			CreeperGutted: 爬行者
+			CreeperGutted: 飞眼怪
 			DetonatingBubble: 爆炸泡泡
 			DetonatingBubbleEX: 爆炸泡泡
 			CrystalLeaf: 叶绿水晶
@@ -280,7 +280,7 @@ Mods: {
 			BloodDrinker: 饮血者
 			Bloodthirsty: 嗜血
 			BrainOfConfusionDebuff: 理智崩溃
-			ClippedWings: 剪除羽翼
+			ClippedWings: 折翼
 			Crippled: 跛足
 			CurseoftheMoon: 月之诅咒
 			Defenseless: 毫无防御
@@ -407,16 +407,16 @@ Mods: {
 			Supercharged: '''增加20%移动速度和10%攻击速度，你的攻击会造成带电和避雷针'''
 			TwinsInstall: '''诅咒狱火和灵液的效果'''
 			TribalCharmClickBuff: '''当你单击鼠标攻击时获得一瞬间的伤害加成'''
-			WretchedHex: '''释放暗影焰触手并极大提高伤害，但大幅度削减移动速度'''
+			WretchedHex: '''释放暗影焰触手并极大提高伤害，但大幅度削减移动速度和伤害减免'''
 
 			// == BossDebuffs ==
 			
 			AbomFang: '''永恒模式的力量压迫着你'''
-			AbomPresence: '''减少防御、伤害减免和生命恢复速度，附带月蛭凝块效果'''
+			AbomPresence: '''减少防御力、伤害减免和生命恢复速度，附带月蛭凝块效果'''
 			DeviPresence: '''大幅增加友方NPC受到的伤害'''
 			Grabbed: '''狂敲你的移动键来逃离！'''
 			MutantFang: '''永恒模式的力量压迫着你'''
-			MutantPresence: '''减少防御、伤害减免和生命恢复速度，关闭几乎所有魂的效果，减小擦弹范围'''
+			MutantPresence: '''减少防御力、伤害减免和生命恢复速度，关闭几乎所有魂的效果，减小擦弹范围'''
 
 			// == Masomode ==
 			AbomCooldown: '''还不能承受另一次攻击'''
@@ -424,7 +424,7 @@ Mods: {
 			Anticoagulation: '''生命流失，受伤时鲜血四溅，敌怪会吸收你溅出的鲜血并变得更强'''
 			Antisocial: '''你没有朋友，也无法造成召唤伤害'''
 			Atrophied: '''你的肌肉正在退化'''
-			Berserked: '''攻势增强，防御减少，但你控几不住你记己'''
+			Berserked: '''攻击欲望增强，防御力减少，你控几不住你记己'''
 			BloodDrinker: '''增加30%伤害'''
 			Bloodthirsty: '''极大提高刷怪速率'''
 			BrainOfConfusionDebuff: '''造成的伤害降低30%'''
@@ -769,7 +769,7 @@ Mods: {
 			NatureBullet: 自然子弹
 			NatureCloudMoving: 自然雨云
 			NatureCloudRaining: 自然雨云
-			NatureCrystalLeaf: 叶状水晶
+			NatureCrystalLeaf: 叶绿水晶
 			NatureDeathray: 自然死亡射线
 			NatureDeathraySmall: 自然死亡射线
 			NatureExplosion: 自然爆炸
@@ -895,7 +895,7 @@ Mods: {
 			CelestialRuneLightningArc: 闪电弧
 			ClingerFlame: 诅咒焰
 			ClownBomb: 小丑炸弹
-			CrystalLeafShot: 叶状水晶
+			CrystalLeafShot: 叶绿水晶
 			CultistArrow: 教徒之箭
 			CultistFireball: 火球
 			CultistRitual: 教徒仪式
@@ -963,7 +963,7 @@ Mods: {
 			PhantasmalBolt2: 幻影矢
 			PhantasmalSphereDeathray: 幻影死亡射线
 			PhantasmalSphereRing: 幻影球
-			PlanteraCrystalLeafRing: 叶状水晶
+			PlanteraCrystalLeafRing: 叶绿水晶
 			PlanteraTentacle: 植物触手
 			PrimeGuardian: 机械地牢守卫
 			PrimeTrail: 轨迹
@@ -1016,7 +1016,7 @@ Mods: {
 			EridanusFist: 厄里达诺斯之拳
 			EridanusMinion: 厄里达诺斯
 			EridanusRitual: 月之仪式
-			FlameburstMinion: 爆炸烈焰仆从
+			FlameburstMinion: 爆炸烈焰召唤物
 			FriendRay: 爱心射线
 			HallowSword: 泰拉棱镜
 			KamikazePixie: 妖精
@@ -1070,7 +1070,7 @@ Mods: {
 			MutantBomb: 幻象爆炸
 			MutantBombSmall: 幻象爆炸
 			MutantBoss: 突变体
-			MutantCrystalLeaf: 叶状水晶
+			MutantCrystalLeaf: 叶绿水晶
 			MutantDeathray1: 幻影死亡射线
 			MutantDeathray2: 幻影死亡射线
 			MutantDeathray3: 烈焰死亡射线
@@ -1091,7 +1091,7 @@ Mods: {
 			MutantGuardian: 机械骷髅王
 			MutantHeal: 突变治疗
 			MutantMark1: 幻影球
-			MutantMark2: 叶状水晶
+			MutantMark2: 叶绿水晶
 			MutantNuke: 猪鲨核弹
 			MutantPillar: 天界柱
 			MutantReticle: 突变瞄准点
@@ -1196,6 +1196,7 @@ Mods: {
 			DevisCurse: "{$Mods.FargowiltasSouls.NPCName.DeviBoss}{$Mods.FargowiltasSouls.Message.HasAwoken}"
 			AbomsCurse: "{$Mods.FargowiltasSouls.NPCName.AbomBoss}{$Mods.FargowiltasSouls.Message.HasAwoken}"
 			MutantsCurse: "{$Mods.FargowiltasSouls.NPCName.MutantBoss}{$Mods.FargowiltasSouls.Message.HasAwoken}"
+			SpawnFishronEX: "猪龙鱼公爵EX{$Mods.FargowiltasSouls.Message.HasAwoken}"
 			
 			AbominationnVoodooDoll: "突变体的兄弟死了，突变体被激怒了！"
 			AbominationnVoodooDollFail: "娃娃传送回了你的手中。也许不应该在地下使用它..."
@@ -1385,6 +1386,11 @@ Mods: {
 			Count1: 嘘……你能听到我说话吗？这是一个秘密消息！嗨！
 		}
 
+		Dialogues:{
+			GiveDevianttGifts: 这个世界看起来比平时更艰难，所以我免费给你提供这些，仅此一次！如果你需要任何提示，请告诉我，好吗？
+			NurseCantHeal: 我已经在这有限的时间内尽我所能了！
+		}
+
 		Config: {
 			HideToggler: 只在开启物品栏时，才会显示饰品效果菜单
 			HideTogglerDescription: 如果开启，饰品效果菜单会在你关闭物品栏时自动隐藏
@@ -1405,7 +1411,7 @@ Mods: {
 			EbonConfig: 乌木 暗影焰光环
 			ShadeConfig: 阴影木 鲜血喷溅
 			ShadeOnHitConfig: 敌怪接近你时，你就会触发受伤效果
-			PalmConfig: 棕榈木 仆从
+			PalmConfig: 棕榈木 召唤物
 			PearlConfig: 珍珠木 星星雨
 
 			EarthHeader: "{$Mods.FargowiltasSouls.ItemName.EarthForce}"
@@ -1458,7 +1464,7 @@ Mods: {
 			ShroomiteShroomConfig: 蘑菇 蘑菇尾迹
 
 			ShadowHeader: "{$Mods.FargowiltasSouls.ItemName.ShadowForce}"
-			DarkArtConfig: 暗黑艺术家 爆炸烈焰仆从
+			DarkArtConfig: 暗黑艺术家 爆炸烈焰召唤物
 			ApprenticeConfig: 学徒 相关效果
 			NecroConfig: 死灵 骨堆
 			NecroGloveConfig: 死灵 骨头手套
@@ -1479,7 +1485,7 @@ Mods: {
 			HallowSConfig: 远古神圣 护盾
 			NinjaSpeedConfig: 忍者 弹幕速度加成
 			SpectreConfig: 幽魂 幽魂珠
-			TikiConfig: 提基 额外仆从
+			TikiConfig: 提基 鞭打召唤物
 
 			CosmoHeader: "{$Mods.FargowiltasSouls.ItemName.CosmoForce}"
 			MeteorConfig: 流星 流星雨
@@ -1517,7 +1523,7 @@ Mods: {
 			BionomicHeader: "{$Mods.FargowiltasSouls.ItemName.BionomicCluster}"
 			MasoConcoctionConfig: 蒂姆的秘药
 			MasoCarrotConfig: 狙击镜效果
-			MasoRainbowConfig: 彩虹史莱姆仆从
+			MasoRainbowConfig: 彩虹史莱姆召唤物
 			MasoHealingPotionConfig: 自动使用治疗药水
 			MasoNymphConfig: 攻击生成心
 			MasoSqueakConfig: 击中发出吱吱声
@@ -1529,7 +1535,7 @@ Mods: {
 			DubiousHeader: "{$Mods.FargowiltasSouls.ItemName.DubiousCircuitry}"
 			FusedLensInstallConfig: 双子负载
 			MasoLightningConfig: 受击超级充能
-			MasoProbeConfig: 探测器仆从
+			MasoProbeConfig: 探测器召唤物
 
 			PureHeartHeader: "{$Mods.FargowiltasSouls.ItemName.PureHeart}"
 			MasoEaterConfig: 迷你噬魂者
@@ -1537,13 +1543,13 @@ Mods: {
 
 			LumpofFleshHeader: "{$Mods.FargowiltasSouls.ItemName.LumpOfFlesh}"
 			MasoPungentCursorConfig: 易伤区域光标
-			MasoPugentConfig: 眼球仆从
+			MasoPugentConfig: 眼球召唤物
 			DeerclawpsConfig: 冲刺留下冰刺
 			DreadShellParryConfig: 恐惧螺壳格挡
 
 			ChaliceHeader: "{$Mods.FargowiltasSouls.ItemName.ChaliceoftheMoon}"
-			MasoCultistConfig: 拜月教徒仆从
-			MasoPlantConfig: 世纪之花仆从
+			MasoCultistConfig: 拜月教徒召唤物
+			MasoPlantConfig: 世纪之花召唤物
 			MasoGolemConfig: 蜥蜴快速下落
 			MasoBoulderConfig: 下落坠地火焰
 			MasoCelestConfig: 天界符文额外攻击
@@ -1552,17 +1558,17 @@ Mods: {
 			HeartHeader: "{$Mods.FargowiltasSouls.ItemName.HeartoftheMasochist}"
 			MasoPumpConfig: 南瓜王披肩格挡
 			IceQueensCrownConfig: 擦弹
-			MasoUfoConfig: 迷你飞碟仆从
+			MasoUfoConfig: 迷你飞碟召唤物
 			MasoGravConfig: 重力控制
 			MasoGrav2Config: 重力稳定
-			MasoTrueEyeConfig: 克苏鲁真眼仆从
+			MasoTrueEyeConfig: 克苏鲁真眼召唤物
 
 			CyclonicHeader: "{$Mods.FargowiltasSouls.ItemName.AbominableWand}"
 			MasoFishronConfig: 幽灵憎恶
 
 			MutantArmorHeader: 真·突变体套装
 			MasoAbomConfig: 幽灵憎恶
-			MasoRingConfig: 幻影球仆从
+			MasoRingConfig: 幻影球召唤物
 			MasoReviveDeathrayConfig: 复活死亡射线
 
 
@@ -1745,7 +1751,7 @@ Mods: {
 					在你周围召唤火球
 					在你周围召唤暗影珠
 					在你周围召唤冰锥
-					在你周围召唤叶状水晶
+					在你周围召唤叶绿水晶
 					在你周围召唤神圣剑和神圣盾
 					召唤甲虫保护你
 					召唤爆炸烈焰哨兵
@@ -1772,8 +1778,8 @@ Mods: {
 					增加物品和弹幕的尺寸
 					你的身后会留下一条火痕
 					引燃你附近的敌人
-					仆从会释放镰刀
-					召唤栏位用光后你仍可以召唤临时的哨兵和仆从
+					召唤物会释放镰刀
+					鞭打你的召唤物可以让它们更勤奋
 					将某些小动物转化为武器
 					敌人死亡时会爆裂出针刺
 					大幅强化旧日军团的塔防哨兵
@@ -1804,7 +1810,7 @@ Mods: {
 					免疫大多数减益
 					药草收获翻倍
 					普通蜜蜂有50%几率变成超级蜜蜂
-					仆从和哨兵有30%基础暴击率
+					召唤物和哨兵有30%基础暴击率
 					敌人死亡时有20%几率掉落更多战利品
 					你能超音速奔跑
 					你能无限飞行
@@ -2461,29 +2467,30 @@ Mods: {
 		ItemTooltip: {
 
 			ForgorGift:
-			'''
-			[c/ff0000:调 试 用 物 品]
-			左键重置原版和魂石Mod中的事件与Boss进度，包括困难模式（击败血肉墙）
-			右键允许从戴薇安处再拿一次新手礼包，重置突变体的信用卡/优惠卡、你的永恒模式饰品栏、狂犬病疫苗、鹿筋冲刺等等
-			在物品栏内对物品右键来重置突变体的一阶段跳过机制
-			我忘啦！
-			'''
+				'''
+				[c/ff0000:调 试 用 物 品]
+				左键重置原版和魂石Mod中的事件与Boss进度，包括困难模式（击败血肉墙）
+				右键允许从戴薇安处再拿一次新手礼包，重置突变体的信用卡/优惠卡、你的永恒模式饰品栏、狂犬病疫苗、鹿筋冲刺等等
+				在物品栏内对物品右键来重置突变体的一阶段跳过机制
+				我忘啦！
+				'''
 			Masochist:
-			'''
-			世界必须是专家模式
-			开关永恒模式
-			戴薇安会给予你一个新手礼包，并提供一些基于进度的建议
-			增强玩家的基础属性
-			不能在任意Boss存活时使用
-			[i:1612][c/00ff00:推荐与Fargo突变模组的减益显示一起使用（在config里打开）]
-			[c/ff0000:不被预期可以和其他内容型模组以及其他模组难度一起使用！！！]
-			'''
+				'''
+				世界必须是专家模式
+				开关永恒模式
+				在永恒模式下可以获得大师模式的掉落物
+				戴薇安会给予你一个新手礼包，并提供一些基于进度的建议
+				增强玩家的基础属性
+				不能在任意Boss存活时使用
+				[i:1612][c/00ff00:推荐与Fargo突变模组的减益显示一起使用（在模组配置里打开）]
+				[c/ff0000:不推荐与其他内容型模组及其他模组难度同时开启！！！]
+				'''
 			MasochistReal:
-			'''
-			[c/ff0000:调 试 用 物 品]
-			左键：给予剥夺该客户端开启受虐模式的能力
-			右键：给予剥夺世界开启受虐模式的能力
-			'''
+				'''
+				[c/ff0000:调 试 用 物 品]
+				左键：给予剥夺该客户端开启受虐模式的能力
+				右键：给予剥夺世界开启受虐模式的能力
+				'''
 
 			// == Materials ==
 
@@ -2580,7 +2587,7 @@ Mods: {
 				'''
 			ChlorophyteEnchant:
 				'''
-				召唤一圈叶状水晶攻击附近的敌人
+				召唤一圈叶绿水晶攻击附近的敌人
 				使你获得孢子二段跳能力
 				使用翅膀进行飞行时，你周围会不断生成孢子
 				你能进行短程冲刺
@@ -2613,9 +2620,9 @@ Mods: {
 				'''
 			DarkArtistEnchant:
 				'''
-				召唤一个爆炸烈焰仆从，在充能完毕后会移动至光标位置
+				召唤一个爆炸烈焰召唤物，在充能完毕后会移动至光标位置
 				然后它会如同一个哨兵，固定在该位置并发射爆炸火球
-				持续攻击会使你被火焰包裹并为仆从充能，持续攻击两秒后完成充能
+				持续攻击会使你被火焰包裹并为召唤物充能，持续攻击两秒后完成充能
 				切换武器后，下次攻击的伤害增加50%，并造成地狱爆炸
 				大幅增加爆炸烈焰哨兵的索敌范围和攻击距离
 				“阴影蕴含之物远超其表象”
@@ -2671,8 +2678,8 @@ Mods: {
 				'''
 			HuntressEnchant:
 				'''
-				攻击忽略10点敌怪防御并造成5点额外伤害
-				每次连续攻击会额外忽略10点防御并多造成5点伤害
+				攻击忽略10点敌怪防御力并造成5点额外伤害
+				每次连续攻击会额外忽略10点防御力并多造成5点伤害
 				追踪武器和召唤物不会增加这些加成
 				任何一次攻击没有击中都会重置这些加成
 				“精确带来力量”
@@ -2748,7 +2755,7 @@ Mods: {
 				'''
 				大幅提升弹幕和召唤物速度
 				为了平衡加速度，伤害会降低
-				增加10点护甲穿透
+				增加15点护甲穿透
 				“比肉眼所及更快”
 				'''
 			ObsidianEnchant:
@@ -2803,8 +2810,8 @@ Mods: {
 				'''
 			RedRidingEnchant:
 				'''
-				攻击忽略10点敌怪防御并额外造成5点伤害
-				每次连续攻击会额外忽略10点防御并多造成5点伤害
+				攻击忽略10点敌怪防御力并额外造成5点伤害
+				每次连续攻击会额外忽略10点防御力并多造成5点伤害
 				在累计10次攻击后，生成一阵箭雨
 				箭的种类默认是毒液箭，如果背包内有箭那么选择物品栏中的第一个箭
 				追踪武器和召唤物不会增加这些加成
@@ -2851,6 +2858,7 @@ Mods: {
 				'''	
 			SnowEnchant:
 				'''
+				你的攻击造成短暂的霜冻减益
 				按下“冻结”键后将一切冻结15秒
 				效果有60秒的冷却时间
 				“冷的要死”
@@ -2870,7 +2878,7 @@ Mods: {
 				'''
 			SpiderEnchant:
 				'''
-				你的仆从和哨兵可以造成暴击
+				你的召唤物和哨兵可以造成暴击
 				召唤暴击造成1.5倍伤害而不是2倍
 				“蜘蛛恐惧者？作为惩罚，让他被蜘蛛干掉吧！”
 				'''
@@ -2895,8 +2903,8 @@ Mods: {
 				'''
 			TikiEnchant:
 				'''
-				召唤栏位用光后你仍可以召唤临时的哨兵和仆从
-				效果激活时，降低召唤武器的攻击速度
+				鞭子范围增加20%
+				鞭打你的召唤物可以让它们更勤奋
 				“Aku Aku!”
 				'''
 			TinEnchant:
@@ -3032,7 +3040,7 @@ Mods: {
 				'''
 				免疫狂暴减益
 				冲刺或奔跑时会在身后留下一串鲜血镰刀
-				按下“减益负载”键进入狂暴状态
+				按住“上”“下”的同时按下“减益负载”键进入狂暴状态
 				狂暴时，大幅提升进攻能力，大幅降低防御能力，且你无法停止攻击或移动
 				狂暴状态持续7.5秒，结束后会被昏迷2.5秒
 				“被打败的敌人的躁动残渣”
@@ -3052,7 +3060,7 @@ Mods: {
 				使用以传送到你上一次死亡的地点
 				攻击会造成折翼减益，并生成红心
 				你受到伤害时有几率发出吱吱声，并使这次受到的伤害降至1点
-				攻击时获得巨量伤害加成并释放暗影焰触手，但移动速度更慢，受到的攻速加成更少
+				攻击时获得120%伤害加成并释放暗影焰触手，但降低20%伤害减免且大幅降低移动速度，受到的攻速加成更少
 				召唤一只友好的彩虹史莱姆
 				某些敌人在死亡时会掉落药水
 				手动点击攻击时，增加30%非召唤伤害
@@ -3425,7 +3433,7 @@ Mods: {
 			WretchedPouch:
 				'''
 				免疫暗影焰减益
-				攻击时获得巨量伤害加成并释放暗影焰触手，但大幅降低移动速度
+				攻击时获得120%伤害加成并释放暗影焰触手，但降低20%伤害减免且大幅降低移动速度
 				攻击时会向周围的敌怪发射暗影焰触手
 				攻击速度加成只有一半生效
 				“被打败的敌人的诅咒燃烧火药”
@@ -3713,7 +3721,7 @@ Mods: {
 
 			MedallionoftheFallenKing:
 			'''
-			召唤一个史莱姆王仆从，其伤害接受召唤伤害加成
+			召唤一个史莱姆王召唤物，其伤害接受召唤伤害加成
 			'''
 			ComputationOrb:
 			'''
@@ -3724,7 +3732,7 @@ Mods: {
 			StaffOfUnleashedOcean:
 			'''
 			召唤猪龙鱼公爵来为你战斗
-			猪龙鱼公爵至多无视敌人400的防御
+			猪龙鱼公爵至多无视敌人400的防御力
 			“现在，发泄你海涛一般的愤怒对抗他们吧！”
 			'''
 			DeviousAestheticus:
@@ -3873,7 +3881,7 @@ Mods: {
 			Lightslinger: 
 				'''
 				把子弹转化为神圣曙光子弹
-				击中20次后可以按右键发射一颗光之炸弹
+				射击25次后可以按右键发射一颗光之炸弹
 				25%的几率不消耗弹药
 				'''
 			KamikazeSquirrelStaff:
@@ -4153,21 +4161,21 @@ Mods: {
 			'''
 			TerrariaSoul:
 			'''
-			召唤火球、暗影珠、冰锥、叶状水晶、爆炸烈焰哨兵、神圣剑盾和甲虫
+			召唤火球、暗影珠、冰锥、叶绿水晶、爆炸烈焰哨兵、神圣剑盾和甲虫
 			右键进行盾牌格挡
 			双击“下”键后会召唤一个哨兵、传送门、风暴并切换至隐形状态
 			按下“金身”键后会将你包裹在一个黄金壳中，按下“冻结”键后会冻结9秒时间，召唤物会释放镰刀
 			允许你使用日耀护盾进行冲刺，冲进墙壁时会直接穿过去
 			扔出烟雾弹后会将你传送至其落点的位置并使你获得先发制人增益
 			攻击有几率生成闪电、风暴云、花瓣、幽魂珠、地牢守卫、雪球、长矛或强化增益
-			攻击额外发射爆炸烈焰火球且会使流星雨从天而降，攻击敌人会降低其防御、增加你的生命恢复速度并使你获得暗影闪避增益
+			攻击额外发射爆炸烈焰火球且会使流星雨从天而降，攻击敌人会降低其防御力、增加你的生命恢复速度并使你获得暗影闪避增益
 			将你的基础暴击率设为25%，每次暴击时都会增加5%暴击率，暴击率达到100%后每攻击10次会汲取4%生命值
 			被击中后会降低暴击率、喷出血液并反弹伤害
 			弹幕有几率分裂或爆裂成碎片并生成星星，增加物品和弹幕的尺寸，扩大你的物品拾取范围
 			引燃你附近的敌人，你的身后会留下一条火痕，跳跃会释放孢子爆炸
 			给予你猩红魔石的恢复效果，免疫岩浆、火和摔落伤害并使药草收获翻倍
-			普通蜜蜂有50%几率变成大蜜蜂，你的仆从和哨兵现在可以造成暴击且有15%基础暴击率并增加30点护甲穿透，敌人死亡时有20%几率掉落更多战利品
-			增加小动物的防御，小动物死亡后会释放它们的灵魂来帮助你，在召唤栏用光后你仍可以召唤临时的哨兵和仆从
+			普通蜜蜂有50%几率变成大蜜蜂，你的召唤物和哨兵现在可以造成暴击且有15%基础暴击率并增加30点护甲穿透，敌人死亡时有20%几率掉落更多战利品
+			增加小动物的防御力，小动物死亡后会释放它们的灵魂来帮助你，鞭打你的召唤物可以让它们更勤奋
 			强化钩爪的效果，钩爪会发射追踪弹幕，大幅强化旧日军团的塔防哨兵
 			你的攻击会造成迈达斯减益，敌人在死亡时会爆裂出针刺
 			你受到伤害时会剧烈爆炸并伤害附近的敌人，你在重生时以200点生命值重生
@@ -4180,7 +4188,7 @@ Mods: {
 			钓竿会额外扔出10根鱼线
 			你几乎能立刻就钓到鱼
 			拥有声纳和宝匣效果
-			拥有渔夫渔具袋、挥发明胶和孢子囊效果
+			拥有熔岩渔具袋、挥发明胶和孢子囊效果
 			拥有粉马掌气球和北极潜水装备效果
 			“愿者上钩”
 			'''
@@ -4207,8 +4215,9 @@ Mods: {
 			自动刷漆和放置促动器
 			你会散发光芒
 			你能够开启“建筑师模式”：
-			大幅增加放置速度
-			大幅增加放置和挖掘距离
+			    放置物块和墙时不消耗物品
+			    大幅增加放置速度
+			    大幅增加放置和挖掘距离
 			可以在魂石开关选项菜单中禁用此效果
 			拥有手机和皇家凝胶效果
 			召唤一个魔法灯笼
