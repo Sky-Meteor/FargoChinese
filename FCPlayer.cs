@@ -1,6 +1,9 @@
 ﻿using Terraria;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
+using Terraria.ID;
+using Terraria.Chat;
+using Terraria.Localization;
 
 namespace FargoChinese
 {
@@ -9,39 +12,28 @@ namespace FargoChinese
         public override void OnEnterWorld(Player player)
         {
             Color c = Color.Orange;
-            Main.NewText("- Fargo突变 V 2.8.6 更新 -", c);
-string text = @"-添加了多功能增益站
--添加了万用平台转化器
--添加了洁晶灵的贴图
--添加了祭坛终结者的贴图
--为吸引人的矿物（不死矿工召唤物）添加了合成表
--为茄子（骷髅博士召唤物）添加了合成表
--添加了几条在憎恶商店解锁南瓜月/霜月敌怪的召唤物时显示的通知
--蜂王在场时强制把周围环境设为丛林，就像世纪之花一样
--城市克星不会滚动了
--炸弹商会以略高于材料售价的价格售卖爆炸手里剑
--巫医在骷髅王后会卖施法桌
--更新了爆炸手里剑的物品信息
--更新了半程地狱直通车的物品信息，阐明它在一定深度以下不会生效
--调整了圣杯（蒂姆召唤物）合成表
--调整了伐木工的树木宝藏让其可以提供更多小动物
--丛林神庙炸弹现在在你与祭坛有一定距离时也能使用
--宇宙坩埚包含了金染缸
--修复了即使在配置关闭时无限时长的buff还能生效的bug
--万用增益站的职业站和蛋糕块增益被移除，因为他们可以在背包里堆叠获得无限时长
--无尽职业增益站/蛋糕块增益的数量需求从15减少到3
--把商人做成旅商的合成表变简单了";
+            Main.NewText("- Fargo突变 V 2.8.7 更新 -", c);
+string text = @"-节日和种子配置添加了一个额外的选项。它可以被设定为正常，意味着对其没有任何改动。
+-将突变躯体时装配方中的史莱姆王面具替换为猪龙鱼公爵面具
+-祭坛终结者现在在任意砧处合成
+-在褴褛蜜蜂之翼、火之羽、邪恶三叉戟的配方中添加了一个神圣锭
+-在宇宙坩埚的配方中添加了腐变室
+-伐木工现在售卖竹子";
             string[] textlines = text.Split("-");
             for(int i = 1; i < textlines.Length; i++)
                 Main.NewText("-" + textlines[i].Trim(), c);
             Main.NewText("Fargo魂内容过多，不便展示，详情见Bilibili@小小法师的大决心&@Furgo_", c);
             Main.NewText("感谢使用Fargo汉化补丁！因为Fargo那边有点忙鸽了，所以以后需要继续用一段时间汉化补丁（", Color.LightGreen);
-            if (Main.rand.NextBool(1000))
+            if (Main.netMode == NetmodeID.MultiplayerClient)
+            {
+                ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral("注意，现在的Fargo汉化是客户端模组，不会参与服务器的自动同步，若需要开启汉化需要在模组列表自行开启！"), Color.LightGreen);
+            }
+            /*if (Main.rand.NextBool(1000))
             {
                 Main.NewText("恭喜你中了千分之一几率的大奖，这是你的奖品（", Color.Gold);
                 int[] items = { ModContent.ItemType<Items.EchBeGone>(), ModContent.ItemType<Fargowiltas.Items.Tiles.EchPainting>() };
                 player.QuickSpawnItem(player.GetSource_Misc("FCEchOnEnterWorld"), Main.rand.Next(items));
-            }
+            }*/
         }
     }
 }
