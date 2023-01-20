@@ -300,7 +300,7 @@ namespace FargoChinese.Patch
             else if (newText == "The planet trembles from the core!" && R == 175 && G == 75 && B == 255)
                 orig.Invoke("整颗星球从核心开始颤抖！", R, G, B);
             else if (newText == "Bullet heaven is descending!" && R == 175 && G == 75 && B == 255)
-                orig.Invoke("子弹天堂正在来临！", R, G, B);
+                orig.Invoke("弹幕天堂正在降临！", R, G, B);
             else if (newText == "Countless eyes pierce the veil staring in your direction!" && R == 175 && G == 75 && B == 255)
                 orig.Invoke("无数眼睛刺破面纱看透了你！", R, G, B);
             else if (newText == "The ocean swells with ferocious pigs!" && R == 175 && G == 75 && B == 255)
@@ -709,7 +709,7 @@ namespace FargoChinese.Patch
             else if (text == "The planet trembles from the core!" && c == new Color(175, 75, 255))
                 orig.Invoke("整颗星球从核心开始颤抖！", force, c, WidthLimit);
             else if (text == "Bullet heaven is descending!" && c == new Color(175, 75, 255))
-                orig.Invoke("子弹天堂正在来临！", force, c, WidthLimit);
+                orig.Invoke("弹幕天堂正在降临！", force, c, WidthLimit);
             else if (text == "Countless eyes pierce the veil staring in your direction!" && c == new Color(175, 75, 255))
                 orig.Invoke("无数眼睛刺破面纱看透了你！", force, c, WidthLimit);
             else if (text == "The ocean swells with ferocious pigs!" && c == new Color(175, 75, 255))

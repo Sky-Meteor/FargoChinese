@@ -120,16 +120,20 @@ Mods: {
 			NPCSales: "[i:267] NPC卖额外商品"
 			SaferBoundNPCs: "[i:1274] 可救援的NPC不会受到接触伤害"
 
+			SeasonSelectionNormal: 正常
+			SeasonSelectionAlwaysOn: 常开
+			SeasonSelectionAlwaysOff: 常关
+
 			SeasonsHeader: 季节性事件
-			Halloween: "[i:1774] 开启万圣节"
-			Christmas: "[i:1869] 开启圣诞节"
+			Halloween: "[i:1774] 万圣节"
+			Christmas: "[i:1869] 圣诞节"
 
 			SeedsHeader: 秘密世界种子
-			DrunkWorld: "[i:353] 开启醉酒世界：05162020"
-			BeeWorld: "[i:1133] 开启Not the bees"
-			WorthyWorld: "[i:2107] 开启For the worthy"
-			CelebrationWorld: "[i:3732] 开启庆典世界：Celebrationmk10/05162021/05162011"
-			ConstantWorld: "[i:5109] 开启永恒领域：The constant"
+			DrunkWorld: "[i:353] 醉酒世界（05162020）"
+			BeeWorld: "[i:1133] 蜜蜂世界（Not the bees）"
+			WorthyWorld: "[i:2107] For the worthy"
+			CelebrationWorld: "[i:3732] 庆典世界（Celebrationmk10/05162021/05162011）"
+			ConstantWorld: "[i:5109] 永恒领域（The constant）"
 
 			UnlimitedHeader: 无限效果
 			UnlimitedAmmo: "[i:771] 在困难模式中，背包中的某种弹药多于3996时不消耗"
@@ -228,7 +232,7 @@ Mods: {
 				ForbiddenTome: 你感觉你身在图书馆！
 				DeerThing2: 永恒领域的生物大肆入侵！
 				MechWorm: 整颗星球从核心开始颤抖！
-				PrismaticPrimrose: 弹幕天堂正在来临！
+				PrismaticPrimrose: 弹幕天堂正在降临！
 				SuspiciousEye: 无数眼睛刺破面纱看透了你！
 				TruffleWorm2: 海洋被凶猛的猪们搅的天翻地覆！
 				LihzahrdPowerCell2: 古老的机器人接连从天上落下！
@@ -242,8 +246,8 @@ Mods: {
 				FleshyDoll: 一个血肉堡垒从深处升起！
 				WormyFood: 地面以公式化的精度颤动！
 			}
-			SwarmKilled: "击杀数："
-			SwarmTotal: "总计："
+			SwarmKilled: "击杀数：{0}"
+			SwarmTotal: "总计：{0}"
 			SwarmDefeated: 这群怪物已被打败！
 
 			ItemUnlocked: "{0}解锁了新商品！"
@@ -576,25 +580,6 @@ Mods: {
 		}
 
 		ItemTooltip: {
-			FountainTooltip: "[c/AAAAAA:激活时使周围的生物群落变为{0}]"
-			Ocean: 海洋
-			Desert: 沙漠
-			Jungle: 丛林
-			Snow: 雪原
-			Corruption: 腐化之地
-			Crimson: 猩红之地
-			Hallow: 神圣之地（在困难模式中生效）
-			CatchNPCs: "[i:1991] [c/AAAAAA:可以抓城镇NPC]"
-			Lure1: "[i:2373] [c/AAAAAA:让你多抛出一条鱼线]"
-			Lure2: "[i:2373] [c/AAAAAA:能抛出两条鱼线]"
-			Lure3: "[i:2373] [c/AAAAAA:能抛出三条鱼线]"
-			Lure5: "[i:2373] [c/AAAAAA:能抛出五条鱼线]"
-			TorchGod1: "[i:5043] [c/AAAAAA:自动替换已放置的火把来增加运气]"
-			TorchGod2: "[i:5043] [c/AAAAAA:替换火把遵循火把运气，可能会与默认的选择有不同]"
-			Unlimited30: "[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠30个时获得无尽增益]"
-			Unlimited3: "[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠3个时获得无尽增益]"
-			PiggyBankAcc: "[i:87] [c/AAAAAA:在猪猪存钱罐和保险箱中同样生效]"
-
 			ChlorophyteQuiver: 撞墙后弹回
 			HolyQuiver: 碰撞时召唤陨星
 			IchorQuiver: 降低目标的防御力
@@ -728,11 +713,11 @@ Mods: {
 				左键使用使刷怪率提高 10 倍
 				右键使用使刷怪率降低 10 倍
 				'''
-            DeathFruit: 
-                '''
-                永久性地降低20点最大生命值
-                对于用过其他模组中一次性的、增加最大生命值的物品的角色，效果不可逆
-                '''
+			DeathFruit: 
+				'''
+				永久性地降低20点最大生命值
+				对于用过其他模组中一次性的、增加最大生命值的物品的角色，效果不可逆
+				'''
 			InstantResearch: 
 				'''
 				调 试 用 物 品
@@ -1284,6 +1269,32 @@ Mods: {
 				“挥舞斧头的真正英雄的武器”
 				'''
 		}
+
+		ExpandedTooltips: {
+			FountainTooltip: "[c/AAAAAA:激活时使周围的生物群落变为{0}]"
+			Ocean: 海洋
+			Desert: 沙漠
+			Jungle: 丛林
+			Snow: 雪原
+			Corruption: 腐化之地
+			Crimson: 猩红之地
+			Hallow: 神圣之地（在困难模式中生效）
+			CatchNPCs: "[i:1991] [c/AAAAAA:可以抓城镇NPC]"
+			Lure1: "[i:2373] [c/AAAAAA:让你多抛出一条鱼线]"
+			Lure2: "[i:2373] [c/AAAAAA:能抛出两条鱼线]"
+			Lure3: "[i:2373] [c/AAAAAA:能抛出三条鱼线]"
+			Lure5: "[i:2373] [c/AAAAAA:能抛出五条鱼线]"
+			TorchGod1: "[i:5043] [c/AAAAAA:自动替换已放置的火把来增加运气]"
+			TorchGod2: "[i:5043] [c/AAAAAA:替换火把遵循火把运气，可能会与默认的选择有不同]"
+			Unlimited30: "[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠30个时获得无尽增益]"
+			Unlimited3: "[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠3个时获得无尽增益]"
+			PiggyBankAcc: "[i:87] [c/AAAAAA:在猪猪存钱罐和保险箱中同样生效]"
+
+			SoldBySquirrel: "高帽松鼠售卖"
+			SomeMaterialsSold: "售卖部分材料"
+			CraftableMaterialsSold: "售卖可合成材料"
+			SoldAtThirtyStack: "堆叠30个时售卖"
+		}
 		
 		MapObject: {
 			CrucibleCosmosSheet: 宇宙坩埚
@@ -1456,7 +1467,7 @@ Mods: {
 				2: 我要让你知道我已经度过了一百多Fargo年了！别问我一Fargo年有多长。
 				3: 如果你继续买，我可能承担得起更高的身体！
 				4: 那只尖叫猫呢？
-				5: "{0}！我刚才看到了一些啮齿类动物！你没有感染仓鼠吧？对吧！？"
+				5: "{0}！我刚才看到了一些啮齿类动物！你没有被仓鼠感染吧？对吧！？"
 				6: 你就是泰拉瑞亚人？老实说，我在期待一个稍微……高一点的人。
 				7: 别用那种眼神看我！我唯一背离的就是我的人性。
 				8: 撕裂并流下眼泪，再从我这买点东西，再流下眼泪，这是个轮回。
@@ -1500,7 +1511,7 @@ Mods: {
 				SuggestionMisc1: 看起来每个人这几天都在学习如何发出光环。如果你细看那些粒子，你可以看出它会在圈内还是圈外生效！
 				SuggestionMisc2: 可能有上千件物品来免疫这些减益。可惜你并没有一千只手来把它们一次全带上！
 				SuggestionMisc3: 不要忘记你可以关闭你的魂石开关！它们都在你物品栏右下角的小扳手里。列表最底部的那些小按钮包含了一套推荐的低卡顿预设！
-				SuggestionMaxLife: 我没有更多的生命水晶给你了，但我想我大哥在那只肥胖的史莱姆王里留了一些。如果你击败了它，它也许会分享这些水晶！
+				SuggestionMaxLife: 我没有更多的生命水晶给你了，但我想我大哥在那只肥胖的史莱姆王里留了一些。如果你击败了它，他也许会分享这些水晶！
 				SuggestionFish: 小心那些鱼！鲨鱼会在你离开它们时离开你，但食人鱼一旦闻到血腥味就会立刻变得狂野。它们可以跳出水面来抓你！
 				SuggestionWater: 水让你陷入了困境？就我而言，从来没遇到过这个问题……你试过在水里呼吸而不是在空气里吗？
 				SuggestionOnFire: 较我上次参观，地狱变得更热了。不过，我听说黑曜石骷髅头是个防止被活活烧死的好运符！
@@ -1510,7 +1521,7 @@ Mods: {
 			}
 
 			Lumber: {
-				1: 王朝木？我就跟你说，那东西不是真木头！
+				1: 王朝木？这话我就跟你说，那东西不是真木头！
 				2: 仙人掌当然不是木头，但我仍然可以用我可靠的斧头砍了它。
 				3: 你对我不会有任何幻想……对吧？
 				4: 我早餐吃了一碗木片……不带牛奶。
@@ -1521,9 +1532,9 @@ Mods: {
 				9: 你想看我不穿衬衫工作吗？也许在2030年可以。
 				10: 你见过世界树吗？
 				11: 你想要什么？……对不起，那种木材不是我卖的。
-				12: 我为什么不卖橡实？……我每次都重新种植所有我砍的树，你说呢？
+				12: 我为什么不卖橡实？……我每次都重新种植所有我砍的树，难道你不是吗？
 				13: 最好的树是什么树？……任何我砍得掉的树。
-				14: 我可以问你个问题吗？
+				14: 能让你砍砍我的问题吗？
 				15: 我待会儿也许会在树下小睡一会儿，愿意和我一起吗？
 				16: 我是所有木材类型的专家。
 				17: 我很高兴在旅途的终点，又有更多树可以砍了。
