@@ -1,5 +1,5 @@
 [h1]这是[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2570931073]Fargo突变[/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2815540735]Fargo魂[/url]的汉化补丁，使用时必须开启Fargo突变，Fargo魂为可选开启
-适用版本：Fargo突变v2.8.6，Fargo魂石v1.4.1（均为最新版）[/h1]
+适用版本：Fargo突变v2.8.7，Fargo魂石v1.4.1.2（均为最新版）[/h1]
 
 Fargo突变&魂汉化补丁
 Chinese Patch for Fargo's Mutant Mod & Fargo's Souls Mod
