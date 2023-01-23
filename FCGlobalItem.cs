@@ -242,6 +242,12 @@ namespace FargoChinese
             {
                 tooltips.FindAndReplace("召唤栏位用光后你仍可以召唤临时的哨兵和仆从", "鞭打你的召唤物可以让它们更勤奋");
             }
+            else if (item.type == ItemType<ShadowForce>())
+            {
+                tooltips.InsertAfter("击杀敌人时有几率爆出一个骨堆，拥有骨头手套的效果", new TooltipLine(Mod, "ShadowForceNinjaTooltip", $"[i:{ItemType<NinjaEnchant>()}] 大幅提升弹幕和召唤物速度以及攻击速度，但降低伤害"));
+                tooltips.FindAndReplace("你可以扔出烟雾弹、传送至烟雾弹的位置获得先发制人增益，获得水晶刺客冲刺", "你可以扔出烟雾弹、传送至烟雾弹的位置获得先发制人增益；获得水晶刺客冲刺");
+                tooltips.FindAndReplace("持续攻击两秒后你将被火焰包裹，切换武器后，下次攻击的伤害增加150%", "持续攻击两秒后你将被火焰包裹；切换武器后，下次攻击的伤害增加150%");
+            }
         }
 
     }
