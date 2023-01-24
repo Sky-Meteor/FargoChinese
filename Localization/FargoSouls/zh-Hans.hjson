@@ -8,7 +8,7 @@
 
 Mods: {
 	FargowiltasSouls: {
-		WizardEffecCactus: ""
+		WizardEffectCactus: ""
 		//Terry收了魂石官汉后把这个删了
 		WizardEffect:{
 			Adamantite: 弹幕现在会分裂成三个，造成33%伤害，造成伤害的频率提升到3倍
