@@ -17,6 +17,7 @@ namespace FargoChinese.Patch
             {
                 BossChecklistTranslate.Load();
                 DropConditionsTranslate.Load();
+                NurseCantHealTranslate.Load();
                 UITranslate.Load();
             }
         }
@@ -30,6 +31,7 @@ namespace FargoChinese.Patch
             if (ModLoader.TryGetMod("FargowiltasSouls", out _))
             {
                 DropConditionsTranslate.Unload();
+                NurseCantHealTranslate.Unload();
                 UITranslate.Unload();
             }
         }

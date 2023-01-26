@@ -12,9 +12,9 @@ using Terraria.ModLoader;
 using Fargowiltas;
 using Fargowiltas.NPCs;
 
-namespace FargoChinese
+namespace FargoChinese.UnmanagedTranslations
 {
-    public class FCGlobalNPC : GlobalNPC
+    public class GlobalNPCTranslation : GlobalNPC
     {
         public override void GetChat(NPC npc, ref string chat)
         {
@@ -427,7 +427,7 @@ namespace FargoChinese
                     Main.npcChatText = "天灵灵地灵灵，事件结束了！";
                     return;
                 }
-                
+
                 for (int abomclearcd = 120; abomclearcd >= 0; abomclearcd--)
                 {
                     if (Main.npcChatText == $"I'm not feeling it right now, come back in {abomclearcd} seconds.")

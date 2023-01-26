@@ -13,7 +13,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace FargoChinese
+namespace FargoChinese.UnmanagedTranslations
 {
     public class FCGlobalItem : GlobalItem
     {
@@ -181,7 +181,7 @@ namespace FargoChinese
                 if (Squirrel.SquirrelSells(item, out Squirrel.SquirrelSellType sellType) != Squirrel.ShopGroup.End)
                 {
                     string text = Regex.Replace(sellType.ToString(), "([a-z])([A-Z])", "$1 $2");
-                    switch(text)
+                    switch (text)
                     {
                         case "Craftable Materials Sold":
                             ModifyTooltip($"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:售卖可合成材料]", $"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:{text}]");
