@@ -5,7 +5,7 @@ using System.Reflection;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace FargoMemeChinese.Patch.FargowiltasSouls
+namespace FargoChinese.Patch.FargowiltasSouls
 {
     [JITWhenModsEnabled("FargowiltasSouls")]
     public static class NurseCantHealTranslate
