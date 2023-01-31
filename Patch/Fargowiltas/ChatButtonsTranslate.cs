@@ -1,43 +1,53 @@
 ﻿using Fargowiltas.NPCs;
-using Fargowiltas.UI;
-using MonoMod.RuntimeDetour;
+using MonoMod.RuntimeDetour.HookGen;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
 
 namespace FargoChinese.Patch.Fargowiltas
 {
     public static class ChatButtonsTranslate
     {
-        private static List<Hook> chatButton;
+        private static List<MethodBase> _methods;
         public static void Load()
         {
-            MonoModHooks.RequestNativeAccess();
-            chatButton = new List<Hook>();
-            chatButton.Add(new Hook(typeof(Abominationn).GetMethod("SetChatButtons"), AbomButton));
-            chatButton.Add(new Hook(typeof(Deviantt).GetMethod("SetChatButtons"), DeviButton));
-            chatButton.Add(new Hook(typeof(LumberJack).GetMethod("SetChatButtons"), LumberButton));
-            chatButton.Add(new Hook(typeof(Mutant).GetMethod("SetChatButtons"), MutantButton));
-            chatButton.Add(new Hook(typeof(Squirrel).GetMethod("SetChatButtons"), SquirrelButton));
-            foreach (Hook hook in chatButton)
+            _methods = new List<MethodBase>()
             {
-                if (hook is not null)
-                    hook.Apply();
+                typeof(Abominationn).GetMethod("SetChatButtons"),
+                typeof(Deviantt).GetMethod("SetChatButtons"),
+                typeof(LumberJack).GetMethod("SetChatButtons"),
+                typeof(Mutant).GetMethod("SetChatButtons"),
+                typeof(Squirrel).GetMethod("SetChatButtons")
+            };
+            static void AddNotNull(MethodBase method, Delegate hookDelegate)
+            {
+                if (method is not null)
+                    HookEndpointManager.Add(method, hookDelegate);
             }
+            AddNotNull(_methods[0], AbomButton);
+            AddNotNull(_methods[1], DeviButton);
+            AddNotNull(_methods[2], LumberButton);
+            AddNotNull(_methods[3], MutantButton);
+            AddNotNull(_methods[4], SquirrelButton);
         }
         public static void Unload()
         {
-            foreach (Hook hook in chatButton)
+            static void RemoveNotNull(MethodBase method, Delegate hookDelegate)
             {
-                if (hook is not null)
-                    hook.Dispose();
+                if (method is not null)
+                    HookEndpointManager.Remove(method, hookDelegate);
             }
-            chatButton = null;
+            RemoveNotNull(_methods[0], AbomButton);
+            RemoveNotNull(_methods[1], DeviButton);
+            RemoveNotNull(_methods[2], LumberButton);
+            RemoveNotNull(_methods[3], MutantButton);
+            RemoveNotNull(_methods[4], SquirrelButton);
+            _methods = null;
         }
+
         private static void AbomButton(Abominationn orig, ref string button, ref string button2)
         {
             button = Language.GetTextValue("LegacyInterface.28");

@@ -1,5 +1,4 @@
-﻿using Terraria.ModLoader;
-using On.Terraria.GameContent.UI.Elements;
+﻿using On.Terraria.GameContent.UI.Elements;
 using System.Reflection;
 
 namespace FargoChinese.Patch

@@ -1,9 +1,9 @@
-﻿using Terraria;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using Terraria.ID;
+﻿using Microsoft.Xna.Framework;
+using Terraria;
 using Terraria.Chat;
+using Terraria.ID;
 using Terraria.Localization;
+using Terraria.ModLoader;
 
 namespace FargoChinese
 {
@@ -13,14 +13,14 @@ namespace FargoChinese
         {
             Color c = Color.Orange;
             Main.NewText("- Fargo突变 V 2.8.7 更新 -", c);
-string text = @"-节日和种子配置添加了一个额外的选项。它可以被设定为正常，意味着对其没有任何改动。
+            string text = @"-节日和种子配置添加了一个额外的选项。它可以被设定为正常，意味着对其没有任何改动。
 -将突变躯体时装配方中的史莱姆王面具替换为猪龙鱼公爵面具
 -祭坛终结者现在在任意砧处合成
 -在褴褛蜜蜂之翼、火之羽、邪恶三叉戟的配方中添加了一个神圣锭
 -在宇宙坩埚的配方中添加了腐变室
 -伐木工现在售卖竹子";
             string[] textlines = text.Split("-");
-            for(int i = 1; i < textlines.Length; i++)
+            for (int i = 1; i < textlines.Length; i++)
                 Main.NewText("-" + textlines[i].Trim(), c);
             Main.NewText("Fargo魂内容过多，不便展示，详情见Bilibili@小小法师的大决心&@Furgo_", c);
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);

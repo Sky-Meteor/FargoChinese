@@ -1,9 +1,7 @@
+using Fargowiltas.Items.Tiles;
 using Terraria;
 using Terraria.DataStructures;
-using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.ObjectData;
-using Fargowiltas.Items.Tiles;
 
 namespace FargoChinese.Items
 {

@@ -3,20 +3,19 @@ using FargowiltasSouls.Buffs.Masomode;
 using MonoMod.RuntimeDetour.HookGen;
 using System.Reflection;
 using Terraria;
-using Terraria.Localization;
 using Terraria.ModLoader;
 
-namespace FargoChinese.Patch.FargowiltasSouls
+namespace FargoMemeChinese.Patch.FargowiltasSouls
 {
     [JITWhenModsEnabled("FargowiltasSouls")]
     public static class NurseCantHealTranslate
     {
-        private static MethodBase method = typeof(EModePlayer).GetMethod("ModifyNurseHeal");
+        private static MethodBase _nurseHealMethod;
         public static void Load()
         {
-            if (method is null)
-                return;
-            HookEndpointManager.Add(method, ModifyNurseHeal);
+            _nurseHealMethod = typeof(EModePlayer).GetMethod("ModifyNurseHeal");
+            if (_nurseHealMethod is not null)
+                HookEndpointManager.Add(_nurseHealMethod, ModifyNurseHeal);
         }
 
         public delegate bool ModifyNurseHealDelegate(EModePlayer eModePlayer, NPC nurse, ref int health, ref bool removeDebuffs, ref string chatText);
@@ -35,9 +34,9 @@ namespace FargoChinese.Patch.FargowiltasSouls
 
         public static void Unload()
         {
-            if (method is not null)
-                HookEndpointManager.Remove(method, ModifyNurseHeal);
-            method = null;
+            if (_nurseHealMethod is not null)
+                HookEndpointManager.Remove(_nurseHealMethod, ModifyNurseHeal);
+            _nurseHealMethod = null;
         }
     }
 }

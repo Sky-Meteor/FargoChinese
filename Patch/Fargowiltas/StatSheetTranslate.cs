@@ -1,66 +1,50 @@
-﻿using Fargowiltas.UI;
-using Fargowiltas;
-using MonoMod.RuntimeDetour;
+﻿using Fargowiltas;
+using Fargowiltas.Items.Misc;
+using Fargowiltas.UI;
+using MonoMod.Cil;
+using MonoMod.RuntimeDetour.HookGen;
 using System;
-using System.Collections.Generic;
 using System.Reflection;
 using Terraria;
-using Terraria.ModLoader;
-using MonoMod.Cil;
-using Mono.Cecil.Cil;
-using Fargowiltas.Items.Misc;
 using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace FargoChinese.Patch.Fargowiltas
 {
     public static class StatSheetTranslate
     {
-        private static ILHook hintText;
-
-        private static List<Hook> hooks;
+        private static MethodBase _drawChildren;
+        private static MethodBase _rebuildStatList;
         public static void Load()
         {
-            hintText = new ILHook(typeof(UISearchBar).GetMethod("DrawChildren", BindingFlags.NonPublic | BindingFlags.Instance), new ILContext.Manipulator(il =>
-            {
-                var c = new ILCursor(il);
-                if (!c.TryGotoNext(i => i.MatchLdstr("Search...")))
-                    return;
-                c.Index++;
-                c.Emit(OpCodes.Pop);
-                c.Emit(OpCodes.Ldstr, "搜索……");
-            }));
-
-            hintText.Apply();
-
             On.Terraria.Main.DrawInterface_33_MouseText += Main_DrawInterface_33_MouseText;
-            hooks = new List<Hook>();
-            hooks.Add(new Hook(typeof(StatSheetUI).GetMethod("RebuildStatList"), RebuildStatList));
-            foreach (Hook hook in hooks)
-            {
-                if (hook is not null)
-                    hook.Apply();
-            }
+
+            _rebuildStatList = typeof(StatSheetUI).GetMethod("RebuildStatList");
+            if (_rebuildStatList is not null)
+                HookEndpointManager.Add(_rebuildStatList, RebuildStatList);
+
+            _drawChildren = typeof(UISearchBar).GetMethod("DrawChildren", BindingFlags.NonPublic | BindingFlags.Instance);
+            if (_drawChildren is not null)
+                HookEndpointManager.Modify(_drawChildren, ILModifyHintText);
         }
+        public static void Unload()
+        {
+            On.Terraria.Main.DrawInterface_33_MouseText -= Main_DrawInterface_33_MouseText;
+
+            if (_rebuildStatList is not null)
+                HookEndpointManager.Remove(_rebuildStatList, RebuildStatList);
+            _rebuildStatList = null;
+
+            if (_drawChildren is not null)
+                HookEndpointManager.Unmodify(_drawChildren, ILModifyHintText);
+            _drawChildren = null;
+        }
+
         private static void Main_DrawInterface_33_MouseText(On.Terraria.Main.orig_DrawInterface_33_MouseText orig, Main self)
         {
             if (Main.hoverItemName == "Stat Sheet")
                 Main.hoverItemName = "属性统计表";
             orig.Invoke(self);
-        }
-
-        public static void Unload()
-        {
-            On.Terraria.Main.DrawInterface_33_MouseText -= Main_DrawInterface_33_MouseText;
-            foreach (Hook hook in hooks)
-            {
-                if (hook is not null)
-                    hook.Dispose();
-            }
-            hooks = null;
-
-            if (hintText is not null)
-                hintText.Dispose();
-            hintText = null;
         }
         private static void RebuildStatList(StatSheetUI orig)
         {
@@ -116,5 +100,6 @@ namespace FargoChinese.Patch.Fargowiltas
             orig.AddStat($"翅膀上升速度：{RenderWingStat(Math.Round(modPlayer.StatSheetMaxAscentMultiplier * 100))}%", ItemID.AngelWings);
             orig.AddStat($"翅膀是否可水平悬停：{(modPlayer.CanHover == null ? "无翅膀" : (bool)modPlayer.CanHover ? "是" : "否")}", ItemID.AngelWings);
         }
+        private static void ILModifyHintText(ILContext il) => il.ILTranslate("Search...", "搜索……");
     }
 }
