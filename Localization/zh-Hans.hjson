@@ -635,7 +635,7 @@ Mods: {
 			AltarExterminator: 
 				'''
 				破坏所有自然生成的恶魔祭坛和猩红祭坛
-				会导致新三矿大量生成和扩散邪恶/神圣地形等后果
+				会导致新三矿大量生成和幻灵大量生成等后果
 				'''
 			AutoHouse: 快速建造一间NPC房屋
 			BoomShuriken: 
