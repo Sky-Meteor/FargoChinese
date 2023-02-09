@@ -24,6 +24,7 @@ namespace FargoChinese
                 Main.NewText("-" + textlines[i].Trim(), c);
             Main.NewText("Fargo魂内容过多，不便展示，详情见Bilibili@小小法师的大决心&@Furgo_", c);
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
+            Main.NewText("287.1412.9更新：添加了永恒与受虐难度在地图选择界面的显示的功能，其可以在模组配置中开关（默认开启）", new Color(0, 255, 255));
             if (Main.netMode == NetmodeID.MultiplayerClient)
             {
                 ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral("注意，现在的Fargo汉化是客户端模组，不会参与服务器的自动同步，若需要开启汉化需要在模组列表自行开启！"), Color.LightGreen);
