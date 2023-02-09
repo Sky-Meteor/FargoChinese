@@ -26,15 +26,15 @@ namespace FargoChinese.ModSystems
 
         public override void SaveWorldData(TagCompound tag)
         {
-                int difficulty = 0;
-                if (FargoSoulsWorld.EternityMode)
-                    difficulty = 1;
-                if (FargoSoulsWorld.MasochistModeReal)
-                    difficulty = 2;
-                if (_worldMode.ContainsKey(Main.ActiveWorldFileData.UniqueId))
-                    _worldMode[Main.ActiveWorldFileData.UniqueId] = difficulty;
-                else
-                    _worldMode.Add(Main.ActiveWorldFileData.UniqueId, difficulty);
+            int difficulty = 0;
+            if (FargoSoulsWorld.EternityMode)
+                difficulty = 1;
+            if (FargoSoulsWorld.MasochistModeReal)
+                difficulty = 2;
+            if (_worldMode.ContainsKey(Main.ActiveWorldFileData.UniqueId))
+                _worldMode[Main.ActiveWorldFileData.UniqueId] = difficulty;
+            else
+                _worldMode.Add(Main.ActiveWorldFileData.UniqueId, difficulty);
         }
         public override void Load()
         {
