@@ -69,23 +69,15 @@ namespace FargoChinese.Patch.Fargowiltas
         private static void MutantButton(Mutant orig, ref string button, ref string button2)
         {
             ModNPC mutant = ModContent.GetModNPC(ModContent.NPCType<Mutant>());
-            var shopnum = mutant.GetType().GetField("shopNum", BindingFlags.NonPublic | BindingFlags.Static);
-            int shopNum = (int)shopnum.GetValue(shopnum);
+            FieldInfo shopNumField = mutant.GetType().GetField("shopNum", BindingFlags.NonPublic | BindingFlags.Static);
+            int shopNum = (int)(shopNumField?.GetValue(mutant) ?? 1);
 
-            switch (shopNum)
+            button = shopNum switch
             {
-                case 1:
-                    button = "困难模式前";
-                    break;
-
-                case 2:
-                    button = "困难模式";
-                    break;
-
-                default:
-                    button = "月亮领主后";
-                    break;
-            }
+                1 => "困难模式前",
+                2 => "困难模式",
+                _ => "月亮领主后"
+            };
 
             if (Main.hardMode)
             {
@@ -96,24 +88,24 @@ namespace FargoChinese.Patch.Fargowiltas
             {
                 if (shopNum >= 4)
                 {
-                    shopnum.SetValue(mutant, 1);
+                    shopNumField?.SetValue(mutant, 1);
                 }
             }
             else
             {
                 if (shopNum >= 3)
                 {
-                    shopnum.SetValue(mutant, 1);
+                    shopNumField?.SetValue(mutant, 1);
                 }
             }
         }
         private static void SquirrelButton(Squirrel orig, ref string button, ref string button2)
         {
             ModNPC squirrel = ModContent.GetModNPC(ModContent.NPCType<Squirrel>());
-            var showcycleshop = squirrel.GetType().GetField("showCycleShop", BindingFlags.Static | BindingFlags.NonPublic);
-            bool showCycleShop = (bool)showcycleshop.GetValue(showcycleshop);
-            var shopnum = squirrel.GetType().GetField("shopNum", BindingFlags.NonPublic | BindingFlags.Static);
-            int shopNum = (int)shopnum.GetValue(shopnum);
+            FieldInfo showCycleShopField = squirrel.GetType().GetField("showCycleShop", BindingFlags.Static | BindingFlags.NonPublic);
+            bool showCycleShop = (bool)(showCycleShopField?.GetValue(squirrel) ?? false);
+            FieldInfo shopNumField = squirrel.GetType().GetField("shopNum", BindingFlags.NonPublic | BindingFlags.Static);
+            int shopNum = (int)(shopNumField?.GetValue(squirrel) ?? 0);
 
             button = Language.GetTextValue("LegacyInterface.28");
             if (showCycleShop)

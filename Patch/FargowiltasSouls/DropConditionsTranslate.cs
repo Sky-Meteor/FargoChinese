@@ -44,8 +44,8 @@ namespace FargoChinese.Patch.FargowiltasSouls
             }
 
             FieldInfo fi = typeof(Terraria.GameContent.UI.Elements.UIBestiaryInfoItemLine).GetField("_infoDisplayItem", BindingFlags.Instance | BindingFlags.NonPublic);
-            Item _infoDisplayItem = fi.GetValue(self) as Item;
-            _infoDisplayItem.BestiaryNotes = string.Join("\n", list);
+            if (fi?.GetValue(self) is Item infoDisplayItem)
+                infoDisplayItem.BestiaryNotes = string.Join("\n", list);
         }
 
         public static void Unload()

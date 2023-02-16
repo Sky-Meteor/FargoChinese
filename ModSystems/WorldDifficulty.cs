@@ -1,17 +1,16 @@
-﻿using Terraria.ModLoader;
-using Terraria.GameContent.UI.Elements;
-using System.Reflection;
-using MonoMod.Cil;
-using Terraria;
+﻿using FargowiltasSouls;
 using Microsoft.Xna.Framework;
-using System;
-using Terraria.IO;
-using System.Collections.Generic;
-using Terraria.ModLoader.IO;
-using MonoMod.Utils;
 using Mono.Cecil.Cil;
-using FargowiltasSouls;
+using MonoMod.Cil;
+using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
+using Terraria;
+using Terraria.GameContent.UI.Elements;
+using Terraria.IO;
+using Terraria.ModLoader;
+using Terraria.ModLoader.IO;
 
 namespace FargoChinese.ModSystems
 {
@@ -20,8 +19,8 @@ namespace FargoChinese.ModSystems
     {
         public override bool IsLoadingEnabled(Mod mod) => ModLoader.TryGetMod("FargowiltasSouls", out _) && ModContent.GetInstance<FCConfig>().EnableWorldDifficultyChange;
 
-        Preferences SaveWorldDifficulty;
-        static string path = Path.Combine(Main.SavePath, "ModConfigs", "FargoChinese_WorldDifficulty.json");
+        private Preferences _saveWorldDifficulty;
+        private static readonly string path = Path.Combine(Main.SavePath, "ModConfigs", "FargoChinese_WorldDifficulty.json");
         private Dictionary<Guid, int> _worldMode;
 
         public override void SaveWorldData(TagCompound tag)
@@ -38,13 +37,13 @@ namespace FargoChinese.ModSystems
         }
         public override void Load()
         {
-            SaveWorldDifficulty = new Preferences(path);
-            SaveWorldDifficulty.Load();
-            _worldMode = SaveWorldDifficulty.Get<Dictionary<Guid, int>>("WorldDifficulty", new());
-            SaveWorldDifficulty.Put("WorldDifficulty", _worldMode);
-            SaveWorldDifficulty.Save();
+            _saveWorldDifficulty = new Preferences(path);
+            _saveWorldDifficulty.Load();
+            _worldMode = _saveWorldDifficulty.Get("WorldDifficulty", new Dictionary<Guid, int>());
+            _saveWorldDifficulty.Put("WorldDifficulty", _worldMode);
+            _saveWorldDifficulty.Save();
             //On.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf += On_UIWorldListItem_DrawSelf;
-            IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf; ;
+            IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf;
         }
 
         /*private void On_UIWorldListItem_DrawSelf(On.Terraria.GameContent.UI.Elements.UIWorldListItem.orig_DrawSelf orig, UIWorldListItem self, SpriteBatch spriteBatch)
@@ -59,7 +58,7 @@ namespace FargoChinese.ModSystems
 
         private void UIWorldListItem_DrawSelf(ILContext il)
         {
-            ILCursor c = new ILCursor(il);
+            var c = new ILCursor(il);
             if (!c.TryGotoNext(i => i.MatchLdstr("UI.Expert")))
                 return;
             c.Index++;
@@ -67,7 +66,7 @@ namespace FargoChinese.ModSystems
             c.EmitDelegate<Func<string, UIWorldListItem, string>>((difficultyKey, self) =>
             {
                 FieldInfo data = self.GetType().GetField("_data", BindingFlags.NonPublic | BindingFlags.Instance);
-                if (data.GetValue(self) is WorldFileData worldFileData && _worldMode.TryGetValue(worldFileData.UniqueId, out int difficulty) && difficulty == 1)
+                if (data?.GetValue(self) is WorldFileData worldFileData && _worldMode.TryGetValue(worldFileData.UniqueId, out int difficulty) && difficulty == 1)
                 {
                     return "永恒";
                 }
@@ -81,7 +80,7 @@ namespace FargoChinese.ModSystems
             c.EmitDelegate<Func<string, UIWorldListItem, string>>((difficultyKey, self) =>
             {
                 FieldInfo data = self.GetType().GetField("_data", BindingFlags.NonPublic | BindingFlags.Instance);
-                if (data.GetValue(self) is WorldFileData worldFileData && _worldMode.TryGetValue(worldFileData.UniqueId, out int difficulty))
+                if (data?.GetValue(self) is WorldFileData worldFileData && _worldMode.TryGetValue(worldFileData.UniqueId, out int difficulty))
                 {
                     return difficulty switch
                     {
@@ -100,7 +99,7 @@ namespace FargoChinese.ModSystems
             c.EmitDelegate<Func<Color, UIWorldListItem, Color>>((hcColor, self) =>
             {
                 FieldInfo data = self.GetType().GetField("_data", BindingFlags.NonPublic | BindingFlags.Instance);
-                if (data.GetValue(self) is WorldFileData worldFileData && _worldMode.TryGetValue(worldFileData.UniqueId, out int difficulty) && difficulty == 2)
+                if (data?.GetValue(self) is WorldFileData worldFileData && _worldMode.TryGetValue(worldFileData.UniqueId, out int difficulty) && difficulty == 2)
                 {
                     return new Color(0, byte.MaxValue, byte.MaxValue);
                 }
@@ -110,9 +109,9 @@ namespace FargoChinese.ModSystems
 
         public override void Unload()
         {
-            SaveWorldDifficulty.Put("WorldDifficulty", _worldMode);
-            SaveWorldDifficulty.Save();
-            SaveWorldDifficulty = null;
+            _saveWorldDifficulty.Put("WorldDifficulty", _worldMode);
+            _saveWorldDifficulty.Save();
+            _saveWorldDifficulty = null;
             _worldMode = null;
             IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf;
         }

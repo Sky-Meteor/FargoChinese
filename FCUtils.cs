@@ -1,5 +1,5 @@
-﻿using Mono.Cecil.Cil;
-using MonoMod.Cil;
+﻿using MonoMod.Cil;
+using System;
 
 namespace FargoChinese
 {
@@ -11,8 +11,7 @@ namespace FargoChinese
             if (!c.TryGotoNext(i => i.MatchLdstr(en)))
                 return;
             c.Index++;
-            c.Emit(OpCodes.Pop);
-            c.Emit(OpCodes.Ldstr, zh);
+            c.EmitDelegate<Func<string, string>>(_ => zh);
         }
     }
 }

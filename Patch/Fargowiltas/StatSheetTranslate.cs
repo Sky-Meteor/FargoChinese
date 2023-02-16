@@ -86,10 +86,10 @@ namespace FargoChinese.Patch.Fargowiltas
             orig.AddStat($"运气：{Math.Round(player.luck, 2)}", ItemID.Torch);
             orig.AddStat($"已完成钓鱼任务：{player.anglerQuestsFinished}", ItemID.AnglerEarring);
 
-            var BattleCry = modPlayer.GetType().GetField("BattleCry", BindingFlags.Instance | BindingFlags.NonPublic);
-            bool battleCry = (bool)BattleCry.GetValue(modPlayer);
-            var CalmingCry = modPlayer.GetType().GetField("CalmingCry", BindingFlags.Instance | BindingFlags.NonPublic);
-            bool calmingCry = (bool)CalmingCry.GetValue(modPlayer);
+            FieldInfo battleCryField = modPlayer.GetType().GetField("BattleCry", BindingFlags.Instance | BindingFlags.NonPublic);
+            bool battleCry = (bool)(battleCryField?.GetValue(modPlayer) ?? false);
+            FieldInfo calmingCryField = modPlayer.GetType().GetField("CalmingCry", BindingFlags.Instance | BindingFlags.NonPublic);
+            bool calmingCry = (bool)(calmingCryField?.GetValue(modPlayer) ?? false);
             orig.AddStat($"战争号角效果：{(battleCry ? "[c/ff0000:战争]" : calmingCry ? "[c/00ffff:镇静]" : "无")}", ModContent.ItemType<BattleCry>());
 
             orig.AddStat($"最大速度：{(int)((player.accRunSpeed + player.maxRunSpeed) / 2f * player.moveSpeed * 6)}英里每小时", ItemID.HermesBoots);

@@ -19,9 +19,9 @@ namespace FargoChinese
 -在褴褛蜜蜂之翼、火之羽、邪恶三叉戟的配方中添加了一个神圣锭
 -在宇宙坩埚的配方中添加了腐变室
 -伐木工现在售卖竹子";
-            string[] textlines = text.Split("-");
-            for (int i = 1; i < textlines.Length; i++)
-                Main.NewText("-" + textlines[i].Trim(), c);
+            string[] textLines = text.Split("-");
+            for (int i = 1; i < textLines.Length; i++)
+                Main.NewText("-" + textLines[i].Trim(), c);
             Main.NewText("Fargo魂内容过多，不便展示，详情见Bilibili@小小法师的大决心&@Furgo_", c);
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
             Main.NewText("287.1412.9更新：添加了永恒与受虐难度在地图选择界面的显示的功能，可以在模组配置中开关（默认开启），若遇到bug可考虑关闭此功能", new Color(0, 255, 255));

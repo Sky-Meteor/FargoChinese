@@ -4,7 +4,6 @@ using Fargowiltas.Items.Misc;
 using Fargowiltas.NPCs;
 using FargowiltasSouls.Items.Accessories.Enchantments;
 using FargowiltasSouls.Items.Accessories.Forces;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -17,8 +16,8 @@ namespace FargoChinese.UnmanagedTranslations
 {
     public class FCGlobalItem : GlobalItem
     {
-        TooltipLine FountainTooltip(string biome) => new TooltipLine(Mod, "Tooltip_zh", $"[i:909] [c/AAAAAA:激活时使周围的生物群落变为{biome}]");
-        string FountainTooltipEN(string biome) => $"[i:909] [c/AAAAAA:Forces surrounding biome state to {biome} upon activation]";
+        private TooltipLine FountainTooltip(string biome) => new(Mod, "Tooltip_zh", $"[i:909] [c/AAAAAA:激活时使周围的生物群落变为{biome}]");
+        private static string FountainTooltipEN(string biome) => $"[i:909] [c/AAAAAA:Forces surrounding biome state to {biome} upon activation]";
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
             if (item.type == ItemType<MapViewer>())
@@ -42,12 +41,12 @@ namespace FargoChinese.UnmanagedTranslations
                 }
             }
 
-            void ModifyTooltip(string zh, string en, bool add = true, int insertline = 3)
+            void ModifyTooltip(string zh, string en, bool add = true, int insertLine = 3)
             {
                 if (add)
                     tooltips.Add(new TooltipLine(Mod, "Tooltip_zh", zh));
                 else
-                    tooltips.Insert(insertline, new TooltipLine(Mod, "Tooltip_zh", zh));
+                    tooltips.Insert(insertLine, new TooltipLine(Mod, "Tooltip_zh", zh));
                 for (int i = 0; i < tooltips.Count; i++)
                 {
                     if (tooltips[i].Text == en)
@@ -58,17 +57,17 @@ namespace FargoChinese.UnmanagedTranslations
                 }
             }
 
-            FargoConfig fargoConfig = GetInstance<FargoConfig>();
+            var fargoConfig = GetInstance<FargoConfig>();
 
             if (fargoConfig.ExpandedTooltips)
             {
-                void ModifyFountainTooltip(string zhbiome, string enbiome)
+                void ModifyFountainTooltip(string zhBiome, string enBiome)
                 {
-                    tooltips.Add(FountainTooltip(zhbiome));
                     for (int i = 0; i < tooltips.Count; i++)
                     {
-                        if (tooltips[i].Text == FountainTooltipEN(enbiome))
+                        if (tooltips[i].Text == FountainTooltipEN(enBiome))
                         {
+                            tooltips.Add(FountainTooltip(zhBiome));
                             tooltips.Remove(tooltips[i]);
                             break;
                         }
@@ -171,10 +170,10 @@ namespace FargoChinese.UnmanagedTranslations
 
                 if (fargoConfig.PiggyBankAcc)
                 {
-                    int[] Informational = { ItemID.CopperWatch, ItemID.TinWatch, ItemID.TungstenWatch, ItemID.SilverWatch, ItemID.GoldWatch, ItemID.PlatinumWatch, ItemID.DepthMeter, ItemID.Compass, ItemID.Radar, ItemID.LifeformAnalyzer, ItemID.TallyCounter, ItemID.MetalDetector, ItemID.Stopwatch, ItemID.Ruler, ItemID.FishermansGuide, ItemID.Sextant, ItemID.WeatherRadio, ItemID.GPS, ItemID.REK, ItemID.GoblinTech, ItemID.FishFinder, ItemID.PDA, ItemID.CellPhone };
-                    int[] Construction = { ItemID.Toolbelt, ItemID.Toolbox, ItemID.ExtendoGrip, ItemID.PaintSprayer, ItemID.BrickLayer, ItemID.PortableCementMixer, ItemID.ActuationAccessory, ItemID.ArchitectGizmoPack };
+                    int[] informational = { ItemID.CopperWatch, ItemID.TinWatch, ItemID.TungstenWatch, ItemID.SilverWatch, ItemID.GoldWatch, ItemID.PlatinumWatch, ItemID.DepthMeter, ItemID.Compass, ItemID.Radar, ItemID.LifeformAnalyzer, ItemID.TallyCounter, ItemID.MetalDetector, ItemID.Stopwatch, ItemID.Ruler, ItemID.FishermansGuide, ItemID.Sextant, ItemID.WeatherRadio, ItemID.GPS, ItemID.REK, ItemID.GoblinTech, ItemID.FishFinder, ItemID.PDA, ItemID.CellPhone };
+                    int[] construction = { ItemID.Toolbelt, ItemID.Toolbox, ItemID.ExtendoGrip, ItemID.PaintSprayer, ItemID.BrickLayer, ItemID.PortableCementMixer, ItemID.ActuationAccessory, ItemID.ArchitectGizmoPack };
 
-                    if (Informational.Contains(item.type) || Construction.Contains(item.type))
+                    if (informational.Contains(item.type) || construction.Contains(item.type))
                         ModifyTooltip("[i:87] [c/AAAAAA:在猪猪存钱罐和保险箱中同样生效]", "[i:87] [c/AAAAAA:Works from Piggy Bank and Safe]");
                 }
 
@@ -231,12 +230,10 @@ namespace FargoChinese.UnmanagedTranslations
                     tooltips[startIndex + 4].Replace(nebula, stardust);
                     tooltips[startIndex + 5].Replace(nebula, stardust);
                 }
-                return;
             }
             else if (item.type == ItemType<EarthForce>())
             {
                 tooltips.FindAndReplace("你发射的所有弹幕都会分裂成三个，造成50%伤害且伤害频率翻倍，弹幕增加与其一半伤害相等的护甲穿透", "你发射的所有弹幕都会分裂成三个，造成33%伤害且伤害频率提升到3倍，增加与其一半伤害相等的护甲穿透");
-                return;
             }
             else if (item.type == ItemType<SpiritForce>())
             {
@@ -268,13 +265,13 @@ namespace FargoChinese.UnmanagedTranslations
             fargoSouls.TryFind(className, out ModItem modItem);
             return modItem.Type;
         }*/
-        public static void Replace(this TooltipLine tooltip, object Old, object New)
+        public static void Replace(this TooltipLine tooltip, object old, object @new)
         {
-            tooltip.Text = tooltip.Text.Replace(Old.ToString(), New.ToString());
+            tooltip.Text = tooltip.Text.Replace(old.ToString()!, @new.ToString());
         }
-        public static void FindAndReplace(this List<TooltipLine> tooltips, object Old, object New)
+        public static void FindAndReplace(this List<TooltipLine> tooltips, object old, object @new)
         {
-            tooltips.Find(l => l.Text.Contains(Old.ToString())).Replace(Old.ToString(), New.ToString());
+            tooltips.Find(l => l.Text.Contains(old.ToString()!)).Replace(old.ToString(), @new.ToString());
         }
     }
 }

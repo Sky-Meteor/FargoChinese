@@ -359,8 +359,8 @@ namespace FargoChinese.UnmanagedTranslations
                     if (chat == $"{Main.npc[stylist].GivenName} once gave me a wig... I look hideous with long hair.")
                         chat = $"{Main.npc[stylist].GivenName}曾经给了我一顶假发……我戴长发看起来很丑。";
                 }
-                else if (chat == $"That mutated mushroom seems like my type of fella.")
-                    chat = $"那个变异蘑菇似乎是我喜欢的类型。";
+                else if (chat == "That mutated mushroom seems like my type of fella.")
+                    chat = "那个变异蘑菇似乎是我喜欢的类型。";
                 else if (tax != -1)
                 {
                     if (chat == $"{Main.npc[tax].GivenName} keeps asking me for money, but he won't accept my spawners!")
@@ -371,7 +371,8 @@ namespace FargoChinese.UnmanagedTranslations
                     if (chat == $"Any idea why {Main.npc[guide].GivenName} is always cowering in fear when I get near him?")
                         chat = $"为什么当我靠近{Main.npc[guide].GivenName}时他总是害怕？";
                 }
-                else if (truffle != -1 && witchDoctor != -1 && cyborg != -1)
+                // ReSharper disable once ConditionIsAlwaysTrueOrFalse
+                else if (truffle != -1 && witchDoctor != 1 && cyborg != -1)
                 {
                     if (chat == $"If any of us could play instruments, I'd totally start a band with {Main.npc[witchDoctor].GivenName}, {Main.npc[truffle].GivenName}, and {Main.npc[cyborg].GivenName}.")
                         chat = $"如果我们中有人会演奏乐器，我会叫上{Main.npc[witchDoctor].GivenName}，{Main.npc[truffle].GivenName}和{Main.npc[cyborg].GivenName}来组建一支乐队。";
@@ -419,18 +420,17 @@ namespace FargoChinese.UnmanagedTranslations
                     return;
                 }
 
-                for (int abomclearcd = 120; abomclearcd >= 0; abomclearcd--)
+                for (int abomClearCD = 120; abomClearCD >= 0; abomClearCD--)
                 {
-                    if (Main.npcChatText == $"I'm not feeling it right now, come back in {abomclearcd} seconds.")
+                    if (Main.npcChatText == $"I'm not feeling it right now, come back in {abomClearCD} seconds.")
                     {
-                        Main.npcChatText = $"我现在没有力气，{abomclearcd}秒之后再来吧。";
+                        Main.npcChatText = $"我现在没有力气，{abomClearCD}秒之后再来吧。";
                         return;
                     }
                 }
                 if (Main.npcChatText == "I don't think there's an event right now.")
                 {
                     Main.npcChatText = "我认为现在没有事件。";
-                    return;
                 }
             }
             #endregion
@@ -513,7 +513,7 @@ namespace FargoChinese.UnmanagedTranslations
                 else if (Main.npcChatText == "These mahogany trees are full of life, but a tree only has one purpose: to be chopped. Oh yea these fell out of the last one.")
                     Main.npcChatText = "这些红木树充满了生机，但一棵树只有一个意义：被砍掉。哦，是的，这些是从上一棵树上掉下来的。";
                 else if (Main.npcChatText == "This place is a bit fanciful for my tastes, but the wood's as choppable as any. Nighttime has these cool bugs though, take a few.")
-                    Main.npcChatText = "这个地方对我的口味来说有点异想天开，但这里的木头和其他任何地方一样砍得动。 不过，夜间有这些很酷的虫子，拿一点吧。";
+                    Main.npcChatText = "这个地方对我的口味来说有点异想天开，但这里的木头和其他任何地方一样砍得动。不过，夜间有这些很酷的虫子，拿一点吧。";
                 else if (Main.npcChatText == "Whatever causes these to glow is beyond me, you're probably gonna eat them anyway so have this while you're at it.")
                     Main.npcChatText = "无论是什么使这些东西发光，我都无法理解，反正你可能会吃掉它们，所以你要吃的时候就吃这个吧。";
                 else if (Main.npcChatText == "The trees here are probably the toughest in this branch of reality.. Sorry, just tree puns. I found these for you here.")
