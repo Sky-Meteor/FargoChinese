@@ -2,8 +2,8 @@
 using Fargowiltas.Items.Misc;
 using Fargowiltas.UI;
 using MonoMod.Cil;
-using MonoMod.RuntimeDetour.HookGen;
 using System;
+using System.Collections.Generic;
 using System.Reflection;
 using Terraria;
 using Terraria.ID;
@@ -11,34 +11,15 @@ using Terraria.ModLoader;
 
 namespace FargoChinese.Patch.Fargowiltas
 {
-    public static class StatSheetTranslate
+    public class StatSheetTranslate : PatchBase
     {
-        private static MethodBase _drawChildren;
-        private static MethodBase _rebuildStatList;
-        public static void Load()
-        {
-            On.Terraria.Main.DrawInterface_33_MouseText += Main_DrawInterface_33_MouseText;
-
-            _rebuildStatList = typeof(StatSheetUI).GetMethod("RebuildStatList");
-            if (_rebuildStatList is not null)
-                HookEndpointManager.Add(_rebuildStatList, RebuildStatList);
-
-            _drawChildren = typeof(UISearchBar).GetMethod("DrawChildren", BindingFlags.NonPublic | BindingFlags.Instance);
-            if (_drawChildren is not null)
-                HookEndpointManager.Modify(_drawChildren, ILModifyHintText);
-        }
-        public static void Unload()
-        {
-            On.Terraria.Main.DrawInterface_33_MouseText -= Main_DrawInterface_33_MouseText;
-
-            if (_rebuildStatList is not null)
-                HookEndpointManager.Remove(_rebuildStatList, RebuildStatList);
-            _rebuildStatList = null;
-
-            if (_drawChildren is not null)
-                HookEndpointManager.Unmodify(_drawChildren, ILModifyHintText);
-            _drawChildren = null;
-        }
+        protected override Dictionary<Type, Tuple<string, BindingFlags, bool, Delegate>> MethodInfos =>
+            new()
+            {
+                {typeof(Main), new Tuple<string, BindingFlags, bool, Delegate>("DrawInterface_33_MouseText", BindingFlags.NonPublic | BindingFlags.Instance, true, Main_DrawInterface_33_MouseText)},
+                {typeof(StatSheetUI), new Tuple<string, BindingFlags, bool, Delegate>("RebuildStatList", BindingFlags.Public | BindingFlags.Instance, true, RebuildStatList)},
+                {typeof(UISearchBar), new Tuple<string, BindingFlags, bool, Delegate>("DrawChildren", BindingFlags.NonPublic | BindingFlags.Instance, false, ILModifyHintText)}
+            };
 
         private static void Main_DrawInterface_33_MouseText(On.Terraria.Main.orig_DrawInterface_33_MouseText orig, Main self)
         {
@@ -46,6 +27,7 @@ namespace FargoChinese.Patch.Fargowiltas
                 Main.hoverItemName = "属性统计表";
             orig.Invoke(self);
         }
+
         private static void RebuildStatList(StatSheetUI orig)
         {
             Player player = Main.LocalPlayer;
@@ -100,6 +82,7 @@ namespace FargoChinese.Patch.Fargowiltas
             orig.AddStat($"翅膀上升速度：{RenderWingStat(Math.Round(modPlayer.StatSheetMaxAscentMultiplier * 100))}%", ItemID.AngelWings);
             orig.AddStat($"翅膀是否可水平悬停：{(modPlayer.CanHover == null ? "无翅膀" : (bool)modPlayer.CanHover ? "是" : "否")}", ItemID.AngelWings);
         }
+
         private static void ILModifyHintText(ILContext il) => il.ILTranslate("Search...", "搜索……");
     }
 }

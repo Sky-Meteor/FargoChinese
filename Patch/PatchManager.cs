@@ -11,7 +11,6 @@ namespace FargoChinese.Patch
             ChatButtonsTranslate.Load();
             ChatMessagesTranslate.Load();
             KeyBindsTranslate.Load();
-            StatSheetTranslate.Load();
 
             if (ModLoader.TryGetMod("FargowiltasSouls", out _))
             {
@@ -26,7 +25,6 @@ namespace FargoChinese.Patch
             ChatButtonsTranslate.Unload();
             ChatMessagesTranslate.Load();
             KeyBindsTranslate.Unload();
-            StatSheetTranslate.Unload();
 
             if (ModLoader.TryGetMod("FargowiltasSouls", out _))
             {
