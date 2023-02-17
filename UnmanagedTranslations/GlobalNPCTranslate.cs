@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 
 namespace FargoChinese.UnmanagedTranslations
 {
-    public class GlobalNPCTranslation : GlobalNPC
+    public class GlobalNPCTranslate : GlobalNPC
     {
         public override void GetChat(NPC npc, ref string chat)
         {

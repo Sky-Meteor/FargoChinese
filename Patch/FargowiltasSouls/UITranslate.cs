@@ -4,9 +4,11 @@ using Terraria.ModLoader;
 namespace FargoChinese.Patch.FargowiltasSouls
 {
     [JITWhenModsEnabled("FargowiltasSouls")]
-    public class UITranslate
+    public class UITranslate : PatchBase
     {
-        public static void Load()
+        protected override bool LoadWithFargoSouls => true;
+
+        public override void Load()
         {
             On.Terraria.UI.Chat.ChatManager.ParseMessage += ChatManager_ParseMessage;
         }
@@ -22,7 +24,7 @@ namespace FargoChinese.Patch.FargowiltasSouls
             return orig.Invoke(text, baseColor);
         }
 
-        public static void Unload()
+        public override void Unload()
         {
             On.Terraria.UI.Chat.ChatManager.ParseMessage -= ChatManager_ParseMessage;
         }

@@ -9,9 +9,14 @@ namespace FargoChinese.Patch
     public abstract class PatchBase : ModSystem
     {
         /// <summary>
-        /// Type: 反射方法所在类的类型；string: 方法名；BindingFlags: 方法的筛选标志；bool: true为OnPatch，false为ILPatch；Delegate: 修改的方法
+        /// <see cref="Type" />: 反射方法所在类的类型；<see cref="string" />: 方法名；<see cref="BindingFlags" />: 方法的筛选标志；<see cref="bool" />: true为OnPatch，false为ILPatch；<see cref="Delegate" />: 修改的方法
         /// </summary>
-        protected abstract Dictionary<Type, Tuple<string, BindingFlags, bool, Delegate>> MethodInfos { get; }
+        protected virtual Dictionary<Type, Tuple<string, BindingFlags, bool, Delegate>> MethodInfos => null;
+
+        protected virtual bool LoadWithFargoSouls => false;
+
+        public override bool IsLoadingEnabled(Mod mod) =>
+            LoadWithFargoSouls ? ModLoader.TryGetMod("FargowiltasSouls", out _) : base.IsLoadingEnabled(mod);
 
         private Dictionary<Delegate, MethodBase> _onMethods;
         private Dictionary<Delegate, MethodBase> _ilMethods;

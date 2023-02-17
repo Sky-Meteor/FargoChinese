@@ -7,9 +7,11 @@ using Terraria.ModLoader;
 namespace FargoChinese.Patch.FargowiltasSouls
 {
     [JITWhenModsEnabled("FargowiltasSouls")]
-    public static class DropConditionsTranslate
+    public class DropConditionsTranslate : PatchBase
     {
-        public static void Load()
+        protected override bool LoadWithFargoSouls => true;
+
+        public override void Load()
         {
             On.Terraria.GameContent.UI.Elements.UIBestiaryInfoItemLine.SetBestiaryNotesOnItemCache += UIBestiaryInfoItemLine_SetBestiaryNotesOnItemCache;
         }
@@ -48,7 +50,7 @@ namespace FargoChinese.Patch.FargowiltasSouls
                 infoDisplayItem.BestiaryNotes = string.Join("\n", list);
         }
 
-        public static void Unload()
+        public override void Unload()
         {
             On.Terraria.GameContent.UI.Elements.UIBestiaryInfoItemLine.SetBestiaryNotesOnItemCache -= UIBestiaryInfoItemLine_SetBestiaryNotesOnItemCache;
         }

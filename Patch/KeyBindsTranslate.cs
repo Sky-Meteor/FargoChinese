@@ -3,9 +3,9 @@ using System.Reflection;
 
 namespace FargoChinese.Patch
 {
-    public static class KeyBindsTranslate
+    public class KeyBindsTranslate : PatchBase
     {
-        public static void Load()
+        public override void Load()
         {
             UIKeybindingListItem.GetFriendlyName += UIKeybindingListItem_GetFriendlyName;
         }
@@ -34,7 +34,7 @@ namespace FargoChinese.Patch
                     return orig.Invoke(item);
             }
         }
-        public static void Unload()
+        public override void Unload()
         {
             UIKeybindingListItem.GetFriendlyName -= UIKeybindingListItem_GetFriendlyName;
         }

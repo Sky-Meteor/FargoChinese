@@ -14,7 +14,7 @@ using static Terraria.ModLoader.ModContent;
 
 namespace FargoChinese.UnmanagedTranslations
 {
-    public class FCGlobalItem : GlobalItem
+    public class GlobalItemTranslate : GlobalItem
     {
         private TooltipLine FountainTooltip(string biome) => new(Mod, "Tooltip_zh", $"[i:909] [c/AAAAAA:激活时使周围的生物群落变为{biome}]");
         private static string FountainTooltipEN(string biome) => $"[i:909] [c/AAAAAA:Forces surrounding biome state to {biome} upon activation]";

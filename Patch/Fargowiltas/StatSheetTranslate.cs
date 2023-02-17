@@ -16,10 +16,21 @@ namespace FargoChinese.Patch.Fargowiltas
         protected override Dictionary<Type, Tuple<string, BindingFlags, bool, Delegate>> MethodInfos =>
             new()
             {
-                {typeof(Main), new Tuple<string, BindingFlags, bool, Delegate>("DrawInterface_33_MouseText", BindingFlags.NonPublic | BindingFlags.Instance, true, Main_DrawInterface_33_MouseText)},
                 {typeof(StatSheetUI), new Tuple<string, BindingFlags, bool, Delegate>("RebuildStatList", BindingFlags.Public | BindingFlags.Instance, true, RebuildStatList)},
                 {typeof(UISearchBar), new Tuple<string, BindingFlags, bool, Delegate>("DrawChildren", BindingFlags.NonPublic | BindingFlags.Instance, false, ILModifyHintText)}
             };
+
+        public override void Load()
+        {
+            base.Load();
+            On.Terraria.Main.DrawInterface_33_MouseText += Main_DrawInterface_33_MouseText;
+        }
+
+        public override void Unload()
+        {
+            base.Unload();
+            On.Terraria.Main.DrawInterface_33_MouseText -= Main_DrawInterface_33_MouseText;
+        }
 
         private static void Main_DrawInterface_33_MouseText(On.Terraria.Main.orig_DrawInterface_33_MouseText orig, Main self)
         {

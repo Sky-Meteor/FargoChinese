@@ -3,9 +3,9 @@ using Terraria;
 
 namespace FargoChinese.Patch
 {
-    public static class ChatMessagesTranslate
+    public class ChatMessagesTranslate : PatchBase
     {
-        public static void Load()
+        public override void Load()
         {
             On.Terraria.Main.NewText_string_byte_byte_byte += NewText_string_byte_byte_byte;
             On.Terraria.Main.NewTextMultiline += NewTextMultiline;
@@ -798,7 +798,7 @@ namespace FargoChinese.Patch
             else
                 orig.Invoke(text, force, c, WidthLimit);
         }
-        public static void Unload()
+        public override void Unload()
         {
             On.Terraria.Main.NewText_string_byte_byte_byte -= NewText_string_byte_byte_byte;
             On.Terraria.Main.NewTextMultiline -= NewTextMultiline;
