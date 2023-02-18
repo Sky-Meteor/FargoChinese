@@ -1,7 +1,7 @@
-﻿using System;
+﻿using MonoMod.RuntimeDetour.HookGen;
+using System;
 using System.Collections.Generic;
 using System.Reflection;
-using MonoMod.RuntimeDetour.HookGen;
 using Terraria.ModLoader;
 
 namespace FargoChinese.Patch
@@ -20,6 +20,10 @@ namespace FargoChinese.Patch
 
         private Dictionary<Delegate, MethodBase> _onMethods;
         private Dictionary<Delegate, MethodBase> _ilMethods;
+
+        /// <summary>
+        /// 使用时若不希望覆盖记得 <see cref="Load()"/>
+        /// </summary>
         public override void Load()
         {
             if (MethodInfos == null)
@@ -56,6 +60,9 @@ namespace FargoChinese.Patch
             }
         }
 
+        /// <summary>
+        /// 使用时若不希望覆盖记得 <see cref="Unload()"/>
+        /// </summary>
         public override void Unload()
         {
             if (MethodInfos == null)

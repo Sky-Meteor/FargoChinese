@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Reflection;
-using FargowiltasSouls.Items.Summons;
+﻿using FargowiltasSouls.Items.Summons;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
@@ -16,6 +13,11 @@ namespace FargoChinese.Patch.FargowiltasSouls
         {
             ModTranslation translation = LocalizationLoader.GetOrCreateTranslation("Mods.FargowiltasSouls.BossChecklist.LifeChallengerSpawnInfo");
             translation.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.Chinese), $"白天时在神圣之地使用[i:{ModContent.ItemType<FragilePixieLamp>()}]召唤。");
+        }
+
+        public override void Unload()
+        {
+
         }
     }
 }

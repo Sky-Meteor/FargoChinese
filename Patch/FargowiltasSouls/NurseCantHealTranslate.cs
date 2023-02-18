@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using FargowiltasSouls;
+﻿using FargowiltasSouls;
 using FargowiltasSouls.Buffs.Masomode;
+using System;
+using System.Collections.Generic;
 using System.Reflection;
 using Terraria;
 using Terraria.ModLoader;
