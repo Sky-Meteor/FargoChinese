@@ -50,6 +50,10 @@ namespace FargoChinese.Patch
                     HookEndpointManager.Add(method.Value, method.Key);
                 }
             }
+            else
+            {
+                _onMethods = null;
+            }
 
             if (_ilMethods.Count != 0)
             {
@@ -57,6 +61,10 @@ namespace FargoChinese.Patch
                 {
                     HookEndpointManager.Modify(method.Value, method.Key);
                 }
+            }
+            else
+            {
+                _ilMethods = null;
             }
         }
 
@@ -68,24 +76,23 @@ namespace FargoChinese.Patch
             if (MethodInfos == null)
                 return;
 
-            if (_onMethods.Count != 0)
+            if (_onMethods != null)
             {
                 foreach (var method in _onMethods)
                 {
                     HookEndpointManager.Remove(method.Value, method.Key);
                 }
+                _onMethods = null;
             }
 
-            if (_ilMethods.Count != 0)
+            if (_ilMethods != null)
             {
                 foreach (var method in _ilMethods)
                 {
                     HookEndpointManager.Unmodify(method.Value, method.Key);
                 }
+                _ilMethods = null;
             }
-
-            _onMethods = null;
-            _ilMethods = null;
         }
     }
 }
