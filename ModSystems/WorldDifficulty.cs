@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using FargoChinese.Patch;
 using Terraria;
 using Terraria.GameContent.UI.Elements;
 using Terraria.IO;
@@ -15,9 +16,9 @@ using Terraria.ModLoader.IO;
 namespace FargoChinese.ModSystems
 {
     [JITWhenModsEnabled("FargowiltasSouls")]
-    public class WorldDifficulty : ModSystem
+    public class WorldDifficulty : PatchBase
     {
-        public override bool IsLoadingEnabled(Mod mod) => ModLoader.TryGetMod("FargowiltasSouls", out _) && ModContent.GetInstance<FCConfig>().EnableWorldDifficultyChange;
+        protected override bool LoadWithFargoSouls => true;
 
         private Preferences _saveWorldDifficulty;
         private static readonly string path = Path.Combine(Main.SavePath, "ModConfigs", "FargoChinese_WorldDifficulty.json");
@@ -30,11 +31,19 @@ namespace FargoChinese.ModSystems
                 difficulty = 1;
             if (FargoSoulsWorld.MasochistModeReal)
                 difficulty = 2;
+
+            if (difficulty == 0)
+            {
+                _worldMode.Remove(Main.ActiveWorldFileData.UniqueId);
+                return;
+            }
+
             if (_worldMode.ContainsKey(Main.ActiveWorldFileData.UniqueId))
                 _worldMode[Main.ActiveWorldFileData.UniqueId] = difficulty;
             else
                 _worldMode.Add(Main.ActiveWorldFileData.UniqueId, difficulty);
         }
+
         public override void Load()
         {
             _saveWorldDifficulty = new Preferences(path);
@@ -42,19 +51,16 @@ namespace FargoChinese.ModSystems
             _worldMode = _saveWorldDifficulty.Get("WorldDifficulty", new Dictionary<Guid, int>());
             _saveWorldDifficulty.Put("WorldDifficulty", _worldMode);
             _saveWorldDifficulty.Save();
-            //On.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf += On_UIWorldListItem_DrawSelf;
+
+            On.Terraria.Main.EraseWorld += Main_EraseWorld;
             IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf;
         }
 
-        /*private void On_UIWorldListItem_DrawSelf(On.Terraria.GameContent.UI.Elements.UIWorldListItem.orig_DrawSelf orig, UIWorldListItem self, SpriteBatch spriteBatch)
+        private void Main_EraseWorld(On.Terraria.Main.orig_EraseWorld orig, int i)
         {
-            FieldInfo data = self.GetType().GetField("_data", BindingFlags.NonPublic | BindingFlags.Instance);
-            if (data.GetValue(self) is WorldFileData worldFileData)
-            {
-                _worldMode.Add(worldFileData.UniqueId, 0);
-            }
-            orig.Invoke(self, spriteBatch);
-        }*/
+            _worldMode.Remove(Main.WorldList[i].UniqueId);
+            orig.Invoke(i);
+        }
 
         private void UIWorldListItem_DrawSelf(ILContext il)
         {
@@ -113,6 +119,8 @@ namespace FargoChinese.ModSystems
             _saveWorldDifficulty.Save();
             _saveWorldDifficulty = null;
             _worldMode = null;
+
+            On.Terraria.Main.EraseWorld -= Main_EraseWorld;
             IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf;
         }
     }
