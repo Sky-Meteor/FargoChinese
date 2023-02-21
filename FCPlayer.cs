@@ -1,4 +1,7 @@
-﻿using Microsoft.Xna.Framework;
+﻿using FargoChinese.UnmanagedTranslations;
+using Fargowiltas;
+using Fargowiltas.Items.Weapons;
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.Chat;
 using Terraria.ID;
@@ -24,7 +27,8 @@ namespace FargoChinese
                 Main.NewText("-" + textLines[i].Trim(), c);
             Main.NewText("Fargo魂内容过多，不便展示，详情见Bilibili@小小法师的大决心&@Furgo_", c);
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
-            Main.NewText("287.1412.9更新：添加了永恒与受虐难度在地图选择界面的显示的功能，可以在模组配置中开关（默认开启），若遇到bug可考虑关闭此功能", new Color(0, 255, 255));
+            Main.NewText($"[i:{ModContent.ItemType<LumberJaxe>()}] 287.1412.11更新：添加了永恒与受虐难度在地图选择界面显示的功能及动画效果，可以分别在模组配置中开关（默认开启），若遇到bug或卡顿可考虑关闭此功能", new Color(0, 255, 255));
+            Main.NewText($"[i:{ItemID.ArchitectGizmoPack}] 287.1412.11更新：修复了Fargo突变的配置：建筑饰品在猪猪存钱罐/保险箱中生效开启，但实际无效果的bug", Main.mouseTextColor);
             if (Main.netMode == NetmodeID.MultiplayerClient)
             {
                 ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral("注意，现在的Fargo汉化是客户端模组，不会参与服务器的自动同步，若需要开启汉化需要在模组列表自行开启！"), Color.LightGreen);
@@ -35,6 +39,22 @@ namespace FargoChinese
                 int[] items = { ModContent.ItemType<Items.EchBeGone>(), ModContent.ItemType<Fargowiltas.Items.Tiles.EchPainting>() };
                 player.QuickSpawnItem(player.GetSource_Misc("FCEchOnEnterWorld"), Main.rand.Next(items));
             }*/
+        }
+
+        public override void UpdateEquips()
+        {
+            if (ModContent.GetInstance<FargoConfig>().PiggyBankAcc)
+            {
+                foreach (Item item in Player.bank.item)
+                {
+                    GlobalItemTranslate.TryPiggyBankAcc(item, Player);
+                }
+
+                foreach (Item item in Player.bank2.item)
+                {
+                    GlobalItemTranslate.TryPiggyBankAcc(item, Player);
+                }
+            }
         }
     }
 }
