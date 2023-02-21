@@ -12,6 +12,8 @@ using Terraria.GameContent.UI.Elements;
 using Terraria.IO;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria.Graphics.Shaders;
 
 namespace FargoChinese.ModSystems
 {
@@ -26,6 +28,12 @@ namespace FargoChinese.ModSystems
 
         public override void SaveWorldData(TagCompound tag)
         {
+            if (Main.ActiveWorldFileData.GameMode == 3)
+            {
+                _worldMode.Remove(Main.ActiveWorldFileData.UniqueId);
+                return;
+            }
+
             int difficulty = 0;
             if (FargoSoulsWorld.EternityMode)
                 difficulty = 1;
@@ -37,7 +45,6 @@ namespace FargoChinese.ModSystems
                 _worldMode.Remove(Main.ActiveWorldFileData.UniqueId);
                 return;
             }
-
             if (_worldMode.ContainsKey(Main.ActiveWorldFileData.UniqueId))
                 _worldMode[Main.ActiveWorldFileData.UniqueId] = difficulty;
             else
@@ -107,9 +114,54 @@ namespace FargoChinese.ModSystems
                 FieldInfo data = self.GetType().GetField("_data", BindingFlags.NonPublic | BindingFlags.Instance);
                 if (data?.GetValue(self) is WorldFileData worldFileData && _worldMode.TryGetValue(worldFileData.UniqueId, out int difficulty) && difficulty == 2)
                 {
-                    return new Color(0, byte.MaxValue, byte.MaxValue);
+                    return Main.MouseTextColorReal;
                 }
                 return hcColor;
+            });
+
+            if (!c.TryGotoNext(i => i.MatchCall(typeof(Utils).GetMethod("DrawBorderString"))))
+                return;
+            c.Index -= 12;
+            c.Emit(OpCodes.Ldarg_0);
+            c.Emit(OpCodes.Ldarg_1);
+            c.EmitDelegate<Action<UIWorldListItem, SpriteBatch>>((self, spriteBatch) =>
+            {
+                FieldInfo data = self.GetType().GetField("_data", BindingFlags.NonPublic | BindingFlags.Instance);
+                if (data?.GetValue(self) is WorldFileData worldFileData && _worldMode.TryGetValue(worldFileData.UniqueId, out int difficulty))
+                {
+                    if (difficulty < 1)
+                        return;
+
+                    MiscShaderData shader = difficulty switch
+                    {
+                        1 => GameShaders.Misc["PulseDiagonal"].UseColor(new Color(255, 170, 12)).UseSecondaryColor(new Color(210, 69, 203)),
+                        2 => GameShaders.Misc["PulseUpwards"].UseColor(new Color(28, 222, 152)).UseSecondaryColor(new Color(168, 245, 228)),
+                        _ => null
+                    };
+                    if (shader == null)
+                        return;
+
+                    spriteBatch.End();
+                    spriteBatch.Begin(SpriteSortMode.Immediate, spriteBatch.GraphicsDevice.BlendState, spriteBatch.GraphicsDevice.SamplerStates[0],
+                        spriteBatch.GraphicsDevice.DepthStencilState, spriteBatch.GraphicsDevice.RasterizerState, shader.Shader, Main.UIScaleMatrix);
+                    shader.Apply();
+                }
+            });
+
+            if (!c.TryGotoNext(i => i.MatchCall(typeof(Utils).GetMethod("DrawBorderString"))))
+                return;
+            c.Index += 2;
+            c.Emit(OpCodes.Ldarg_0);
+            c.Emit(OpCodes.Ldarg_1);
+            c.EmitDelegate<Action<UIWorldListItem, SpriteBatch>>((self, spriteBatch) =>
+            {
+                FieldInfo data = self.GetType().GetField("_data", BindingFlags.NonPublic | BindingFlags.Instance);
+                if (data?.GetValue(self) is WorldFileData worldFileData && _worldMode.TryGetValue(worldFileData.UniqueId, out int difficulty) && difficulty >= 1)
+                {
+                    spriteBatch.End();
+                    spriteBatch.Begin(SpriteSortMode.Deferred, spriteBatch.GraphicsDevice.BlendState, spriteBatch.GraphicsDevice.SamplerStates[0],
+                        spriteBatch.GraphicsDevice.DepthStencilState, spriteBatch.GraphicsDevice.RasterizerState, null, Main.UIScaleMatrix);
+                }
             });
         }
 
