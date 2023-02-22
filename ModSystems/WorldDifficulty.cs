@@ -25,6 +25,7 @@ namespace FargoChinese.ModSystems
 
         protected Dictionary<Guid, int> WorldMode;
         protected FieldInfo Data;
+        private bool _enableWorldDifficultyShader;
 
         public override void SaveWorldData(TagCompound tag)
         {
@@ -60,6 +61,8 @@ namespace FargoChinese.ModSystems
             _saveWorldDifficulty.Save();
 
             Data = typeof(UIWorldListItem).GetField("_data", BindingFlags.NonPublic | BindingFlags.Instance);
+            _enableWorldDifficultyShader = ModContent.GetInstance<FCConfig>().EnableWorldDifficultyShader;
+
             On.Terraria.Main.EraseWorld += Main_EraseWorld;
             IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf;
         }
@@ -101,7 +104,7 @@ namespace FargoChinese.ModSystems
                 return;
             c.Index++;
             c.Emit(OpCodes.Ldarg_0);
-            c.EmitDelegate<Func<Color, UIWorldListItem, Color>>((hcColor, self) => WorldMode.TryGetValue(((WorldFileData)Data.GetValue(self))!.UniqueId, out int difficulty) && difficulty == 2 ? new Color(0, 255, 255) : hcColor);
+            c.EmitDelegate<Func<Color, UIWorldListItem, Color>>((hcColor, self) => !_enableWorldDifficultyShader && WorldMode.TryGetValue(((WorldFileData)Data.GetValue(self))!.UniqueId, out int difficulty) && difficulty == 2 ? new Color(0, 255, 255) : hcColor);
         }
 
         public override void Unload()
