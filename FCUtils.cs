@@ -1,5 +1,6 @@
 ﻿using MonoMod.Cil;
 using System;
+using Terraria.Localization;
 
 namespace FargoChinese
 {
@@ -13,5 +14,7 @@ namespace FargoChinese
             c.Index++;
             c.EmitDelegate<Func<string, string>>(_ => zh);
         }
+
+        public static bool IsChinese => Language.ActiveCulture.LegacyId == (int)GameCulture.CultureName.Chinese;
     }
 }
