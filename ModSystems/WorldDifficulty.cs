@@ -173,9 +173,9 @@ namespace FargoChinese.ModSystems
             _saveWorldDifficulty.Put("WorldDifficulty", _worldMode);
             _saveWorldDifficulty.Save();
             _saveWorldDifficulty = null;
-            _worldMode = null;
+            // _worldMode = null;
 
-            _data = null;
+            // _data = null;
             On.Terraria.Main.EraseWorld -= Main_EraseWorld;
             IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf;
             IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf_Shader;
