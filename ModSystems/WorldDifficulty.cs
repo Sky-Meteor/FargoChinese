@@ -53,11 +53,15 @@ namespace FargoChinese.ModSystems
                 _worldMode[Main.ActiveWorldFileData.UniqueId] = difficulty;
             else
                 _worldMode.Add(Main.ActiveWorldFileData.UniqueId, difficulty);
+            _saveWorldDifficulty.Put("WorldDifficulty", _worldMode);
+            _saveWorldDifficulty.Save();
         }
         private void Main_EraseWorld(On.Terraria.Main.orig_EraseWorld orig, int i)
         {
             _worldMode.Remove(Main.WorldList[i].UniqueId);
             orig.Invoke(i);
+            _saveWorldDifficulty.Put("WorldDifficulty", _worldMode);
+            _saveWorldDifficulty.Save();
         }
         #endregion
         #region Difficulty names
@@ -174,6 +178,7 @@ namespace FargoChinese.ModSystems
             _data = null;
             On.Terraria.Main.EraseWorld -= Main_EraseWorld;
             IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf;
+            IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf_Shader;
         }
         #endregion
     }

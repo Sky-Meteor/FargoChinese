@@ -19,10 +19,10 @@ namespace FargoChinese
         // ReSharper disable once UnassignedField.Global
         public bool EnableWorldDifficultyShader;
 
-        [Label("更改游戏标题")]
+        /*[Label("更改游戏标题")]
         [DefaultValue(true)]
         [ReloadRequired]
         // ReSharper disable once UnassignedField.Global
-        public bool EnableGameTitleChange;
+        public bool EnableGameTitleChange;*/
     }
 }

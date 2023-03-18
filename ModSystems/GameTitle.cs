@@ -5,7 +5,7 @@ namespace FargoChinese.ModSystems
 {
     public class GameTitle : PatchBase
     {
-        public override bool IsLoadingEnabled(Mod mod) => ModContent.GetInstance<FCConfig>().EnableGameTitleChange;
+        public override bool IsLoadingEnabled(Mod mod) => false;// ModContent.GetInstance<FCConfig>().EnableGameTitleChange;
 
         public override void Load()
         {
