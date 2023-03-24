@@ -178,7 +178,7 @@ namespace FargoChinese.ModSystems
             // _data = null;
             On.Terraria.Main.EraseWorld -= Main_EraseWorld;
             IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf;
-            IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf_Shader;
+            IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf_Shader;
         }
         #endregion
     }
