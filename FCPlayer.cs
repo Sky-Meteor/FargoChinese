@@ -16,12 +16,12 @@ namespace FargoChinese
         {
             Color c = Color.Orange;
             Main.NewText("- Fargo V 1.4.2 -", c);
-            string text = @"-在各个方面都极大改进了Mod！
+            string text = @"-极大地改善了Mod的各个方面！
 -通过一系列极具吸引力的新机制，彻底改变游戏玩法！
--再增加200小时的润色内容！
+-增加了再多200小时的精雕细琢的内容
 -充分地充实了令人感动和富有哲理的传说！
 -永远修复每个漏洞！
--实现了完美的平衡，再也不需要改变平衡了！";
+-实现了完美的平衡，再也不需要调整平衡了！";
             string[] textLines = text.Split("-");
             for (int i = 1; i < textLines.Length; i++)
                 Main.NewText("-" + textLines[i].Trim(), c);
@@ -31,7 +31,7 @@ namespace FargoChinese
             Main.NewText($"[i:{ItemID.ArchitectGizmoPack}] 287.1412.11更新：修复了Fargo突变的配置：建筑饰品在猪猪存钱罐/保险箱中生效开启，但实际无效果的bug", Main.mouseTextColor);
             if (Main.netMode == NetmodeID.MultiplayerClient)
             {
-                ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral("注意，现在的Fargo汉化是客户端模组，不会参与服务器的自动同步，若需要开启汉化需要在模组列表自行开启！"), Color.LightGreen);
+                ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral("注意，现在的Fargo汉化是客户端模组，不会参与服务器的自动同步，若需要开启汉化需要在模组列表自行开启！！！"), Color.LightGreen);
             }
             /*if (Main.rand.NextBool(1000))
             {
