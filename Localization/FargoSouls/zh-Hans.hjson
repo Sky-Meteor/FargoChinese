@@ -8,8 +8,6 @@
 
 Mods: {
 	FargowiltasSouls: {
-		WizardEffectCactus: ""
-		//Terry收了魂石官汉后把这个删了
 		WizardEffect:{
 			Adamantite: 弹幕现在会分裂成三个，造成33%伤害，造成伤害的频率提升到3倍
 			AncientHallow: ""
@@ -36,7 +34,7 @@ Mods: {
 			Lead: 增加铅中毒伤害，持续伤害减免提升到60%
 			Meteor: ""
 			Miner: ""
-			Molten: ""
+			Molten: 易伤效果增加到50%，生效范围增加1.5倍
 			Mythril: 增加最大攻速加成，持续时间更长
 			Nebula: ""
 			Necro: ""
@@ -62,7 +60,7 @@ Mods: {
 			Stardust: ""
 			Tiki: ""
 			Tin: 最小暴击率提高到10%，最大暴击率至少有50%，减少了增加暴击过程的冷却时间
-			Titanium: 碎片伤害增加，钛金护盾持续时间提高到5秒，伤害减免提高至75%
+			Titanium: 碎片会但只会受到最高的职业伤害加成，伤害减免提高至75%
 			Tungsten: 将武器大小提升到300%，伤害加成提升到20%，冷却时间减少
 			Turtle: ""
 			ValhallaKnight: ""
@@ -354,6 +352,7 @@ Mods: {
 			// == Pets ==
 			AccursedSarcophagusBuff: 被诅咒的石棺
 			BabyAbomBuff: 憎恶宝宝
+			BabyLifelightBuff: 照明圣光
 			BabySilhouetteBuff: 黑雾宝宝
 			BiteSizeBaronBuff: 小小公爵
 			ChibiDeviBuff: 小不点德薇
@@ -372,6 +371,7 @@ Mods: {
 			HuntressBleed: 女猎人流血
 			HuntressCD: 箭雨冷却
 			LeadPoison: 铅中毒
+			MoltenAmplify: 熔岩易伤
 			MonkBuff: 冥想
 			ObsidianLavaWetBuff: 熔岩之润
 			OriPoison: 山铜中毒
@@ -500,6 +500,7 @@ Mods: {
 			// == Pets ==
 			AccursedSarcophagusBuff: '''它会把手拿开的'''
 			BabyAbomBuff: '''在镰刀上踢翻镰刀'''
+			BabyLifelightBuff: '''看哪，那天使的圣光'''
 			BabySilhouetteBuff: '''见不到一点亮光，直到它成长完全'''
 			BiteSizeBaronBuff: '''不包括EX阶段'''
 			ChibiDeviBuff: '''她对“你”很感兴趣'''
@@ -544,6 +545,7 @@ Mods: {
 			AbomScytheFriendly: 憎恶镰刀
 			BeeDash: 冲刺
 			BetsyDash: 冲刺
+			BloomLine: 预警光线
 			CirnoBomb: 琪露诺炸弹
 			CreeperHitbox: 飞眼怪
 			Explosion: 爆炸
@@ -661,6 +663,7 @@ Mods: {
 			PhantasmalSphere2: 幻影球
 			PrimeDeathray: 烈焰死亡射线
 			PrimeLaser: 机械激光
+			PrismaRegaliaProj: 七彩棱晶之御枪
 			RazorbladeTyphoonFriendly: 利刃台风
 			RefractorBlaster2Held: 衍射暗星炮
 			RetiDeathray: 烈焰死亡射线
@@ -707,8 +710,6 @@ Mods: {
 
 			// == Challengers ==
 			JevilScar: 附魔光之剑
-			LifeBee: 小妖精
-			LifeBee2: 小妖精
 			LifeBlaster: 生命湮灭炮
 			LifeBomb: 生命雷
 			LifeBombExplosion: 生命雷
@@ -719,16 +720,16 @@ Mods: {
 			LifeChalDeathray: 神圣死亡射线
 			LifeCrosshair: 生命瞄准点
 			LifeHomingProj: 小妖精
-			LifeNeggravProj: 水晶刺球
+			LifeNeggravProj: 水晶十字
 			LifeNuke: 生命炸弹
-			LifeProjLarge: 水晶刺球
+			LifeProjLarge: 水晶十字
 			LifeProjSmall: 曙光子弹
 			LifeScar: 生命雷
-			LifeSlurp: 水晶刺球
+			LifeSlurp: 水晶宝石
 			LifeSplittingProjSmall: 曙光子弹
 			LifeTpTelegraph: 传送预警
 			LifeWave: 生命涌波
-			TargetCrosshair: 瞄准点
+			LifeRuneHitbox: 生命符文
 			TrojanAcorn: 橡实
 			TrojanHook: 松鼠钩
 			TrojanSnowball: 雪球
@@ -1129,6 +1130,7 @@ Mods: {
 			// == Pets ==
 			AccursedSarcophagus: 被诅咒的石棺
 			BabyAbom: 憎恶宝宝
+			BabyLifelight: 照明圣光
 			BabySilhouette: 黑雾宝宝
 			BiteSizeBaron: 小小公爵
 			ChibiDevi: 小不点德薇
@@ -1278,8 +1280,8 @@ Mods: {
 			SkeletronPrimeRegrow: "{$NPCName.SkeletronPrime}的手臂又长出来了！"
 			SkeletronGuardian: "{$NPCName.SkeletronHead}进入了地牢守卫阶段！"
 			SkeletronPrimeGuardian: "{$NPCName.SkeletronPrime}进入了地牢守卫阶段！"
-			TwinsEndure: "挺住了致命攻击，它还能帮着它的兄弟打三百回合！"
-			TwinsRevive: "复活了！"
+			TwinsEndure: "{0}挺住了致命攻击，它还能帮着它的兄弟打三百回合！"
+			TwinsRevive: "{0}复活了！"
 			GelatinSubjects: 圣凝史莱姆已苏醒！
 			RoyalSubject: 皇家工蜂已苏醒！
 			QueenBeeEnrage: "{$NPCName.QueenBee}在地下丛林之外变得异常愤怒！"
@@ -1292,12 +1294,12 @@ Mods: {
 		}
 
 		DeathMessage: {
-			Rotting: "烂了。"
-			Infested: "控制不住感染。"
-			Anticoagulation: "出血过多。"
-			DivineWrath: "湮灭于神明的忿怒中。"
-			Shadowflame: "被暗影焰包裹着，控制不住火势。"
-			NanoInjection: "被纳米机器人从内部吞噬。"
+			Rotting: "{0}烂了。"
+			Infested: "{0}控制不住感染。"
+			Anticoagulation: "{0}出血过多。"
+			DivineWrath: "{0}湮灭于神明的忿怒中。"
+			Shadowflame: "{0}被暗影焰包裹着，控制不住火势。"
+			NanoInjection: "{0}被纳米机器人从内部吞噬。"
 
 			Fused:"{0}被炸成了碎片。"
 			Nutcracker: "{0}的“坚果”裂开了。"
@@ -1398,6 +1400,7 @@ Mods: {
 			HideTogglerDescription: 如果开启，饰品效果菜单会在你关闭物品栏时自动隐藏
 			DeviChatter: 迷你戴薇安会和你聊天
 			ToggleSearchReset: 魂石效果开关界面被关闭时重置搜索栏
+			BigTossMode: 乱扔瞎甩模式，所有敌怪和弹幕都会把你撞飞
 			MasoHeader: 永恒模式
 			MasoBossRecolors: Boss贴图替换
 			OncomingMutantX: 永恒模式图标水平位置
@@ -2087,6 +2090,11 @@ Mods: {
 
 			ShadowDodge: 永恒模式：闪避会降低你的攻击速度
 			IceBarrier: 永恒模式：你造成的伤害减少10%
+			SpearRework: 重做长矛挥舞动画
+			PalladiumPikeRework: 暴击敌人后大幅增加生命恢复速度
+			CobaltNaginataRework: 暴击敌人会造成小范围爆炸
+			MythrilHalberdRework: 一段时间不攻击后造成更多伤害
+			TitaniumTridentRework: 长按左键蓄力以投掷长矛而非挥舞
 		}
 
 		ItemName: {
@@ -2179,6 +2187,7 @@ Mods: {
 			EarthChampionRelic: 大地英灵圣物
 			EridanusRelic: 宇宙英灵圣物
 			LifeChampionRelic: 生命英灵圣物
+			LifeChallengerRelic: 飘渺游光圣物
 			MutantRelic: 突变体圣物
 			NatureChampionRelic: 自然英灵圣物
 			ShadowChampionRelic: 暗影英灵圣物
@@ -2208,6 +2217,7 @@ Mods: {
 			BabyScythe: 小镰刀
 			ChibiHat: 小不点帽子
 			EnerGear: 能量齿轮
+			LifelightMasterPet: 金铃之羽
 			MostlyOrdinaryRock: 最普通的岩石
 			PortableFogMachine: 便携式烟雾机
 			SpawnSack: 卵袋
@@ -2244,6 +2254,7 @@ Mods: {
 			FishStick: 鱼杖
 			FleshHand: 血肉之手
 			LeashOfCthulhu: 克苏鲁连枷
+			PrismaRegalia: 七彩棱晶之御枪
 			RefractorBlaster: 变轨激光炮
 			RockSlide: 山崩
 			SlimeKingsSlasher: 史莱姆王屠戮者
@@ -2479,6 +2490,7 @@ Mods: {
 			Masochist:
 				'''
 				世界必须是专家模式
+				[c/ff0000:不]推荐在大师模式下开启！！！
 				开关永恒模式
 				在永恒模式下可以获得大师模式的掉落物
 				戴薇安会给予你一个新手礼包，并提供一些基于进度的建议
@@ -2735,7 +2747,7 @@ Mods: {
 			MythrilEnchant:
 				'''
 				在一段时间不攻击后开始攻击会短暂地提高武器使用速度
-				使用速度加成会在攻击后3秒消失，并在3秒不攻击后恢复
+				使用速度加成会在攻击后3秒消失，并在5秒不攻击后恢复
 				“你感觉武器的知识渗透进你的脑海中”
 				'''
 			NebulaEnchant:
@@ -2756,7 +2768,7 @@ Mods: {
 			NinjaEnchant:
 				'''
 				大幅提升弹幕和召唤物速度以及攻击速度
-				为了平衡加速度，伤害会降低
+				为了平衡加速度，伤害会降低，但魔力消耗减少50%
 				增加15点护甲穿透
 				“比肉眼所及更快”
 				'''
@@ -2919,8 +2931,9 @@ Mods: {
 			TitaniumEnchant:
 				'''
 				攻击生成钛金碎片防御屏障，最多有20个碎片
-				当你的碎片个数达到最大时，你会获得3秒50%伤害减免，但你自身的减伤会被削减
-				该效果有10秒冷却时间
+				当你的碎片个数达到最大时，你会获得50%伤害减免，但你自身的减伤会被削减
+				效果生效时受击会导致该效果进入10秒冷却时间，在此期间你无法获得钛金碎片
+				“钛金之力握于手心”
 				'''
 			TungstenEnchant:
 				'''
@@ -3412,7 +3425,7 @@ Mods: {
 				增加下落速度
 				落地时召唤从天而降的凝胶球，掉落至光标位置
 				冲刺或奔跑时会在身后留下一串鲜血镰刀
-				按下“减益负载”键进入狂暴状态
+				按住“上”“下”的同时按下“减益负载”键进入狂暴状态
 				按下“特殊冲刺”键后会进行短距离的快速蜜蜂冲刺
 				增加50%冲刺速度
 				冲刺时只会受到25%接触伤害，并且会对攻击者反弹全部接触伤害
@@ -3703,6 +3716,10 @@ Mods: {
 			召唤一位小小的公爵
 			“100%防锈，不然就拿回你的钱”
 			'''
+			LifelightMasterPet:
+			'''
+			召唤一位小天使提供光照
+			'''
 			MostlyOrdinaryRock:
 			'''
 			召唤一位宝藏探索者
@@ -3847,6 +3864,12 @@ Mods: {
 			'''
 			“被击败的敌人的残尸...”
 			'''
+			PrismaRegalia:
+			'''
+			长按左键蓄力以造成更多伤害
+			蓄力完成后，松开左键以冲向光标处并攻击沿途敌人
+			“大概是某个敌人的某部分...”
+			'''
 			RefractorBlaster:
 			'''
 			“由一个被击败的敌人的手臂改装而来..”
@@ -3915,7 +3938,7 @@ Mods: {
 			SpiritLongbow:
 				'''
 				把箭矢转换为心灵之箭，在箭飞过的路径上释放心灵能量
-				按住左键来蓄力射击，蓄力造成更多的伤害以及更快的箭矢速度
+				长按左键来蓄力射击，蓄力造成更多的伤害以及更快的箭矢速度
 				'''
 
 			// === Final Upgrades
@@ -4216,7 +4239,7 @@ Mods: {
 			高亮标记敌人、陷阱和宝藏
 			自动刷漆和放置促动器
 			你会散发光芒
-			你能够开启“建筑师模式”：
+			给予可开关的“建筑师模式”：
 			    放置物块和墙时不消耗物品
 			    大幅增加放置速度
 			    大幅增加放置和挖掘距离
