@@ -1,4 +1,4 @@
-displayName = Fargo突变&魂汉化补丁
+displayName = Fargo突变&魂石汉化补丁
 author = Furgo_ & FallingLeaf落叶（B站同名）
 version = 288.142.1
 modReferences = Fargowiltas

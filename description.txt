@@ -1,4 +1,4 @@
-Fargo突变&魂汉化补丁
+Fargo突变&魂石汉化补丁
 Chinese Patch for Fargo's Mutant Mod & Fargo's Souls Mod
 使用时请将游戏语言设置为中文
 游戏中尤其是多人模式可能会出现一些异常，如果关闭此mod重启游戏不能解决（基本确定是此mod问题），请留言上报

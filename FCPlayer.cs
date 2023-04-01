@@ -39,6 +39,8 @@ namespace FargoChinese
                 int[] items = { ModContent.ItemType<Items.EchBeGone>(), ModContent.ItemType<Fargowiltas.Items.Tiles.EchPainting>() };
                 player.QuickSpawnItem(player.GetSource_Misc("FCEchOnEnterWorld"), Main.rand.Next(items));
             }*/
+            // april fools
+            Main.changeTheTitle = true;
         }
 
         public override void UpdateEquips()
