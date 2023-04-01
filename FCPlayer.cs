@@ -15,17 +15,17 @@ namespace FargoChinese
         public override void OnEnterWorld(Player player)
         {
             Color c = Color.Orange;
-            Main.NewText("- Fargo突变 V 2.8.7 更新 -", c);
-            string text = @"-节日和种子配置添加了一个额外的选项。它可以被设定为正常，意味着对其没有任何改动。
--将突变躯体时装配方中的史莱姆王面具替换为猪龙鱼公爵面具
--祭坛终结者现在在任意砧处合成
--在褴褛蜜蜂之翼、火之羽、邪恶三叉戟的配方中添加了一个神圣锭
--在宇宙坩埚的配方中添加了腐变室
--伐木工现在售卖竹子";
+            Main.NewText("- Fargo V 1.4.2 -", c);
+            string text = @"-在各个方面都极大改进了Mod！
+-通过一系列极具吸引力的新机制，彻底改变游戏玩法！
+-再增加200小时的润色内容！
+-充分地充实了令人感动和富有哲理的传说！
+-永远修复每个漏洞！
+-实现了完美的平衡，再也不需要改变平衡了！";
             string[] textLines = text.Split("-");
             for (int i = 1; i < textLines.Length; i++)
                 Main.NewText("-" + textLines[i].Trim(), c);
-            Main.NewText("Fargo魂内容过多，不便展示，详情见Bilibili@小小法师的大决心&@Furgo_", c);
+            Main.NewText("详细更新见Bilibili @小小法师的大决心 & @Furgo_", c);
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
             Main.NewText($"[i:{ModContent.ItemType<LumberJaxe>()}] 287.1412.11更新：添加了永恒与受虐难度在地图选择界面显示的功能及动画效果，可以分别在模组配置中开关（默认开启），若遇到bug或卡顿可考虑关闭此功能", new Color(0, 255, 255));
             Main.NewText($"[i:{ItemID.ArchitectGizmoPack}] 287.1412.11更新：修复了Fargo突变的配置：建筑饰品在猪猪存钱罐/保险箱中生效开启，但实际无效果的bug", Main.mouseTextColor);
