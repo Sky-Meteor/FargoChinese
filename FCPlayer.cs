@@ -16,12 +16,12 @@ namespace FargoChinese
         {
             Color c = Color.Orange;
             Main.NewText("- Fargo V 1.4.2 -", c);
-            string text = @"-极大地改善了Mod的各个方面！
--通过一系列极具吸引力的新机制，彻底改变游戏玩法！
--增加了再多200小时的精雕细琢的内容
--充分地充实了令人感动和富有哲理的传说！
--永远修复每个漏洞！
--实现了完美的平衡，再也不需要调整平衡了！";
+            string text = @"-在各个方面都极大改进了模组！
+-通过一系列极具吸引力的新机制，彻底改革了游戏玩法！
+-额外添加了可供游玩200小时的精雕细琢的内容！
+-充分丰满了令人感动万分且富有哲思的刺激传说！
+-永久性修复了所有漏洞！
+-实现了完美的平衡，再也不需要任何平衡调整了！";
             string[] textLines = text.Split("-");
             for (int i = 1; i < textLines.Length; i++)
                 Main.NewText("-" + textLines[i].Trim(), c);
