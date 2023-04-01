@@ -183,7 +183,7 @@ namespace FargoChinese.UnmanagedTranslations
                             ModifyTooltip($"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:售卖可合成材料]", $"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:{text}]");
                             break;
                         case "Sold By Squirrel":
-                            ModifyTooltip($"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:高帽松鼠售卖]", $"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:{text}]");
+                            ModifyTooltip($"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:高顶礼帽松鼠售卖]", $"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:{text}]");
                             break;
                         case "Some Materials Sold":
                             ModifyTooltip($"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:售卖部分材料]", $"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:{text}]");
@@ -245,15 +245,19 @@ namespace FargoChinese.UnmanagedTranslations
             {
                 tooltips.FindAndReplace("你发射的所有弹幕都会分裂成三个，造成50%伤害且伤害频率翻倍，弹幕增加与其一半伤害相等的护甲穿透", "你发射的所有弹幕都会分裂成三个，造成33%伤害且伤害频率提升到3倍，增加与其一半伤害相等的护甲穿透");
             }
-            else if (item.type == ItemType<SpiritForce>())
+            else if (item.type == ItemType<NatureForce>())
             {
-                tooltips.FindAndReplace("召唤栏位用光后你仍可以召唤临时的哨兵和仆从", "鞭打你的召唤物可以让它们更勤奋");
+                tooltips.FindAndReplace("引燃你附近的敌人", "引燃你附近较大范围内的敌人");
             }
             else if (item.type == ItemType<ShadowForce>())
             {
                 tooltips.InsertAfter("击杀敌人时有几率爆出一个骨堆，拥有骨头手套的效果", new TooltipLine(Mod, "ShadowForceNinjaTooltip", $"[i:{ItemType<NinjaEnchant>()}] 大幅提升弹幕和召唤物速度以及攻击速度，但降低伤害"));
                 tooltips.FindAndReplace("你可以扔出烟雾弹、传送至烟雾弹的位置获得先发制人增益，获得水晶刺客冲刺", "你可以扔出烟雾弹、传送至烟雾弹的位置获得先发制人增益；获得水晶刺客冲刺");
                 tooltips.FindAndReplace("持续攻击两秒后你将被火焰包裹，切换武器后，下次攻击的伤害增加150%", "持续攻击两秒后你将被火焰包裹；切换武器后，下次攻击的伤害增加150%");
+            }
+            else if (item.type == ItemType<SpiritForce>())
+            {
+                tooltips.FindAndReplace("召唤栏位用光后你仍可以召唤临时的哨兵和仆从", "鞭打你的召唤物可以让它们更勤奋");
             }
         }
 
