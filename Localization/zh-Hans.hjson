@@ -542,7 +542,7 @@ Mods: {
 			MultitaskCenter: 多功能合成桌
 			Omnistation: 万用增益站
 			Omnistation2: 万用增益站
-			RegalStatue: 富豪雕像
+			RegalStatue: 帝王雕像
 			Semistation: 多功能增益站
 			SiblingPylon: 血亲晶塔
 			UnsafeBlueSlabWall: 危险蓝板墙
@@ -1305,7 +1305,7 @@ Mods: {
 			MultitaskCenterSheet: 多功能合成桌
 			OmnistationSheet: 万能增益站
 			OmnistationSheet2: 万能增益站
-			RegalStatueSheet: 富豪雕像
+			RegalStatueSheet: 帝王雕像
 			SemistationSheet: 多功能增益站
 			SiblingPylonTile: 血亲晶塔
 		}
