@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
-using Mono.Cecil.Cil;
+﻿using Mono.Cecil.Cil;
 using MonoMod.Cil;
+using System.Collections.Generic;
 using Terraria.ModLoader;
 
 namespace FargoChinese.Patch.FargowiltasSouls

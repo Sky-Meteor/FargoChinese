@@ -1,19 +1,19 @@
-﻿using FargowiltasSouls;
+﻿using FargoChinese.Patch;
+using FargowiltasSouls;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Mono.Cecil.Cil;
 using MonoMod.Cil;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
-using FargoChinese.Patch;
 using Terraria;
 using Terraria.GameContent.UI.Elements;
+using Terraria.Graphics.Shaders;
 using Terraria.IO;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria.Graphics.Shaders;
 
 namespace FargoChinese.ModSystems
 {

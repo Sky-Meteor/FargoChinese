@@ -1,8 +1,8 @@
 displayName = Fargo突变&魂石汉化补丁
 author = Furgo_ & FallingLeaf落叶（B站同名）
-version = 288.142.3
+version = 288.142.4
 modReferences = Fargowiltas
 weakReferences = FargowiltasSouls
 includeSource = true
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, lib\*, .git\*, *.sln
-side=client
+side = client
