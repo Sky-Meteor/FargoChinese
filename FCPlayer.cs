@@ -15,17 +15,18 @@ namespace FargoChinese
         public override void OnEnterWorld(Player player)
         {
             Color c = Color.Orange;
-            Main.NewText("- Fargo V 1.4.2 -", c);
-            string text = @"-在各个方面都极大改进了模组！
--通过一系列极具吸引力的新机制，彻底改革了游戏玩法！
--额外添加了可供游玩200小时的精雕细琢的内容！
--充分丰满了令人感动万分且富有哲思的刺激传说！
--永久性修复了所有漏洞！
--实现了完美的平衡，再也不需要任何平衡调整了！";
+            Main.NewText("- Fargo突变 V 2.8.8 更新 -", c);
+            string text = @"-调整了Boss权重，再次使其适配Boss列表
+-修复了环境领域在多人模式未加载的区块中使用有时会删除方块
+-修复了使用物品热键相关问题，例如混沌传送杖在不应当能使用的时候可以使用
+-添加了多功能平台转化器
+-修复了用蠕虫食物召唤世界吞噬者、用某种金属蠕虫召唤毁灭者时的体节丢失问题
+-修复了敌怪召唤物多人模式不同步的问题
+-告死精灵和古代符章注明只能在晚上使用";
             string[] textLines = text.Split("-");
             for (int i = 1; i < textLines.Length; i++)
                 Main.NewText("-" + textLines[i].Trim(), c);
-            Main.NewText("详细更新见Bilibili @小小法师的大决心 & @Furgo_", c);
+            Main.NewText("Fargo魂石的内容以及更详细的更新见Bilibili @小小法师的大决心 & @Furgo_", c);
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
             Main.NewText($"[i:{ModContent.ItemType<LumberJaxe>()}] 287.1412.11更新：添加了永恒与受虐难度在地图选择界面显示的功能及动画效果，可以分别在模组配置中开关（默认开启），若遇到bug或卡顿可考虑关闭此功能", new Color(0, 255, 255));
             Main.NewText($"[i:{ItemID.ArchitectGizmoPack}] 287.1412.11更新：修复了Fargo突变的配置：建筑饰品在猪猪存钱罐/保险箱中生效开启，但实际无效果的bug", Main.mouseTextColor);
