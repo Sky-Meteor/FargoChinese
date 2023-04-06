@@ -159,7 +159,7 @@ Mods: {
 			TorchGodEXTooltip: "替换遵循火把运气，可能会和火把神的恩宠的默认选择有所不同"
 			DebuffOpacity: "[i:1612] 减益显示不透明度"
 			DebuffFaderRatio: "[i:1612] 减益持续时间显示衰减强度"
-			TransparentFriendlyProjectiles: "[i:1309] 友好弹幕的不透明度"
+			TransparentFriendlyProjectiles: "[i:1309] 友好弹幕不透明度"
 			TransparentFriendlyProjectilesTooltip: "把原版的视频质量设置为中/低以获得最佳体验"
 		}
 
@@ -263,7 +263,7 @@ Mods: {
 		}
 
 		BuffName: {
-			Omnistation: 万用增益站
+			Omnistation: 万能增益站
 			Semistation: 多功能增益站
 			WoodDrop: 掉落木头
 		}
@@ -380,6 +380,7 @@ Mods: {
 			MiniInstaBridge: 迷你速建平台
 			ObsidianInstaBridge: 黑曜石速建平台
 			OmniBridgifier: 万用平台转化器
+			SemiBridgifier: 多功能平台转化器
 			
 			BattleCry: 战争号角
 			DeathFruit: 死亡果实
@@ -540,8 +541,8 @@ Mods: {
 			ElementalAssembler: 元素装配台
 			GoldenDippingVat: 金染缸
 			MultitaskCenter: 多功能合成桌
-			Omnistation: 万用增益站
-			Omnistation2: 万用增益站
+			Omnistation: 万能增益站
+			Omnistation2: 万能增益站
 			RegalStatue: 帝王雕像
 			Semistation: 多功能增益站
 			SiblingPylon: 血亲晶塔
@@ -705,6 +706,12 @@ Mods: {
 				'''
 				可以被无限次重复使用
 				把你所站的平台升级为带有万能增益站的平台
+				不会建造平台
+				'''
+			SemiBridgifier: 
+				'''
+				可以被无限次重复使用
+				把你所站的平台升级为带有多功能增益站的平台
 				不会建造平台
 				'''
 
@@ -932,6 +939,7 @@ Mods: {
 			AncientSeal: 
 				'''
 				召唤所有Boss，包括其他Mod中的
+				只能在晚上使用
 				“后果自负”
 				'''
 			CultistSummon: 
@@ -942,7 +950,8 @@ Mods: {
 			DeathBringerFairy: 
 				'''
 				召唤所有困难模式前的Boss
-				你在特定的生物群落中时，某些Boss才会生成
+				只能在晚上使用
+				某些Boss只有在特定的生物群落中才会被召唤
 				'''
 			FleshyDoll: 
 				'''
@@ -1333,6 +1342,8 @@ Mods: {
 			LihzahrdInstactuationBombProj: 丛林蜥蜴炸弹
 			MiniInstabridgeProj: 迷你速建平台
 			ObsInstabridgeProj: 黑曜石速建平台
+			OmniBridgifierProj: 万能平台转化器
+			SemiBridgifierProj: 多功能平台转化器
 			ShurikenProj: 手里剑
 			//其它弹幕
 			DeathScythe: 憎恶之镰
