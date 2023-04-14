@@ -1,4 +1,4 @@
-# 力系物品的物品说明翻译在原文件中
+﻿# 力系物品的物品说明翻译在原文件中
 
 
 
@@ -159,7 +159,7 @@ Mods: {
 			CosmosChampion: 这位高贵的战士曾经周游星辰，寻找有价值的对手。遇到某个奇异的三人组合后，它就在他们附近安顿下来了。
 			
 			DeviBoss: 使用由邪恶制成的活的斧头，施展光明和爱的咒语。她对死亡之事一定十分怠慢，因为她从不为保护城镇而拼命战斗。
-			AbomBoss: 他的剑刃撕裂了灵魂本身。他精于控制一切的超自然现象，但出于对突变体的尊重，他不会使用天界级别的攻击。
+			AbomBoss: 他的剑刃撕裂了灵魂本身。他精于控制一切的超自然现象，但出于对寻神者的尊重，他不会使用天界级别的攻击。
 			MutantBoss: 永恒的守护者。终极力量的化身。支配一切，主宰着战斗的方方面面。也许它来自那个维度裂缝之外的世界……
 		}
 
@@ -169,11 +169,11 @@ Mods: {
 			DeviBossDespawn: 戴薇安对战斗感到厌倦了……
 			DeviBossKilledAll: 戴薇安对于她所展示的爱的表演感到很满意。
 			
-			AbomBossDespawn: 憎恶找不到有价值的对手……
-			AbomBossKilledAll: 憎恶摧毁了所有人。
+			AbomBossDespawn: 神级玩家伊里米尔找不到有价值的对手……
+			AbomBossKilledAll: 神级玩家伊里米尔摧毁了所有人。
 			
-			MutantBossDespawn: 突变体再次将自己的力量封印起来……
-			MutantBossKilledAll: 突变体肃清了他周围的每一个生灵。
+			MutantBossDespawn: 寻神者亚利姆再次将自己的力量封印起来……
+			MutantBossKilledAll: 寻神者亚利姆肃清了他周围的每一个生灵。
 
 			TimberChampionDespawn: 森林英灵回到了它的松鼠聚落中……
 			TerraChampionDespawn: 泰拉英灵消失在洞穴深处……
@@ -195,7 +195,7 @@ Mods: {
 			AbomBoss: 神级玩家，伊里米尔
 			DeviBoss: 戴薇安
 			MutantBoss: 寻神者，亚利姆
-			MutantIllusion: 突变体
+			MutantIllusion: 寻神者，亚利姆
 			GelatinSubject: 圣凝史莱姆
 			RoyalSubject: 皇家工蜂
 			TophatSquirrelCritter: 高顶礼帽松鼠
@@ -255,7 +255,7 @@ Mods: {
 			BetsyDash: 冲刺
 			HellFire: 狱火
 			MagicalCleanseCD: 魔法净化冷却
-			MutantRebirth: 突变重生
+			MutantRebirth: 寻神者之重生
 			Supercharged: 超级充能
 			TwinsInstall: 双子负载
 			TribalCharmClickBuff: 部落挂坠
@@ -263,12 +263,12 @@ Mods: {
 			
 			// == BossDebuffs ==
 			
-			AbomFang: 憎恶毒牙
-			AbomPresence: 憎恶驾到
+			AbomFang: 神级玩家之怒火
+			AbomPresence: 神级玩家之到来
 			DeviPresence: 戴薇安驾到
 			Grabbed: 抓住你了！
-			MutantFang: 突变毒牙
-			MutantPresence: 突变驾到
+			MutantFang: 寻神者之怒火
+			MutantPresence: 寻神者之到来
 
 			// == Masomode ==
 			AbomCooldown: 憎恶冷却
@@ -306,7 +306,7 @@ Mods: {
 			LowGround: 下陷
 			MarkedforDeath: 死亡标记
 			Midas: 迈达斯
-			MutantNibble: 突变啃啄
+			MutantNibble: 寻神者之利刃
 			NanoInjection: 纳米灌注
 			Neurotoxin: 神经毒素
 			NullificationCurse: 无效诅咒
@@ -337,7 +337,7 @@ Mods: {
 			EaterMinion: 世界吞噬者
 			JungleMimicSummonBuff: 丛林宝箱怪
 			LunarCultist: 拜月教徒
-			MutantPower: 突变之力
+			MutantPower: 寻神者之力
 			PlanterasChild: 世纪之花的孩子
 			Probes: 探测器
 			PungentEyeball: 尖刻眼球
@@ -486,7 +486,7 @@ Mods: {
 			EaterMinion: '''迷你世界吞噬者将为你而战'''
 			JungleMimicSummonBuff: '''丛林宝箱怪将为你而战'''
 			LunarCultist: '''拜月教徒将会保护你'''
-			MutantPower: '''突变之力与你同在'''
+			MutantPower: '''寻神者之力与你同在'''
 			PlanterasChild: '''世纪之花的孩子将会保护你'''
 			Probes: '''探测器将会保护你'''
 			PungentEyeball: '''尖刻眼球将会保护你'''
@@ -952,6 +952,9 @@ Mods: {
 			LihzahrdBoulderFriendly: 巨石
 			LunarRitual: 月亮仪式
 			MimicCoin: 钱币
+			MimicDagger: 魔法飞刀
+			MimicHallowStar: 神圣之星
+			MimicTitanGlove: 泰坦手套
 			MoonLordFireball: 火球
 			MoonLordMoon: 月亮
 			MoonLordMoonBlast: 月光爆炸
@@ -1069,63 +1072,63 @@ Mods: {
 			TrueEyeS: 克苏鲁真眼
 
 			// == MutantBoss ==
-			BossRush: 突变结界
+			BossRush: 寻神者之结界
 			MutantBomb: 幻象爆炸
 			MutantBombSmall: 幻象爆炸
-			MutantBoss: 突变体
+			MutantBoss: 寻神者，亚利姆
 			MutantCrystalLeaf: 叶绿水晶
 			MutantDeathray1: 幻影死亡射线
 			MutantDeathray2: 幻影死亡射线
 			MutantDeathray3: 烈焰死亡射线
 			MutantDeathrayAim: 幻影死亡射线
 			MutantDeathraySmall: 幻影死亡射线
-			MutantDestroyerBody: 毁灭者
-			MutantDestroyerHead: 毁灭者
-			MutantDestroyerTail: 毁灭者
-			MutantEye: 幻影眼
-			MutantEyeHoming: 幻影眼
-			MutantEyeOfCthulhu: 克苏鲁之眼
-			MutantEyeWavy: 幻影眼
-			MutantFishron: 幽灵猪龙鱼
+			MutantDestroyerBody: 神明吞噬者
+			MutantDestroyerHead: 神明吞噬者
+			MutantDestroyerTail: 神明吞噬者
+			MutantEye: 硫火飞弹
+			MutantEyeHoming: 硫火飞弹
+			MutantEyeOfCthulhu: 至尊灾厄眼
+			MutantEyeWavy: 硫火飞弹
+			MutantFishron: 重生之龙，犽戎
 			MutantFishronRitual: 猪鲨核弹
-			MutantFragment: 天界碎片
+			MutantFragment: 幻星史莱姆
 			MutantGiantDeathray2: 幻影死亡射线
 			MutantGlowything: 魔眼激光预警
-			MutantGuardian: 机械骷髅王
-			MutantHeal: 突变治疗
-			MutantMark1: 幻影球
-			MutantMark2: 叶绿水晶
-			MutantNuke: 猪鲨核弹
-			MutantPillar: 天界柱
+			MutantGuardian: XF-09 阿瑞斯
+			MutantHeal: 寻神者之治愈
+			MutantMark1: 猩红圆月
+			MutantMark2: 圣洁水晶
+			MutantNuke: XP-00 修普诺斯
+			MutantPillar: 末世星史莱姆
 			MutantReticle: 突变瞄准点
 			MutantReticle2: 突变瞄准点
-			MutantRetirang: 激光回旋镖
-			MutantRitual: 突变结界
-			MutantRitual2: 突变结界
-			MutantRitual3: 突变结界
-			MutantRitual4: 突变结界
-			MutantRitual5: 突变结界
-			MutantScythe1: 突变镰刀
-			MutantScythe2: 突变镰刀
-			MutantSlimeBall: 史莱姆雨
-			MutantSlimeBall2: 史莱姆雨
-			MutantSlimeRain: 史莱姆雨
-			MutantSpazmarang: 魔焰回旋镖
-			MutantSpearAim: 洞察者
-			MutantSpearDash: 洞察者
-			MutantSpearMagical: 洞察者
-			MutantSpearSpin: 洞察者
-			MutantSpearThrown: 洞察者
-			MutantSpearThrownFriendly: 洞察者
-			MutantSphereRing: 幻影球
-			MutantSphereSmall: 幻影球
-			MutantSword: 幻影球
+			MutantRetirang: 真·泰阿克提斯之圣骑士魔锤
+			MutantRitual: 寻神者之结界
+			MutantRitual2: 寻神者之结界
+			MutantRitual3: 寻神者之结界
+			MutantRitual4: 寻神者之结界
+			MutantRitual5: 寻神者之结界
+			MutantScythe1: 猩红圆月
+			MutantScythe2: 猩红圆月
+			MutantSlimeBall: 无限大地流星
+			MutantSlimeBall2: 无限大地流星
+			MutantSlimeRain: 无限大地
+			MutantSpazmarang: 真·泰阿克提斯之圣骑士魔锤
+			MutantSpearAim: 魔君之刃
+			MutantSpearDash: 魔君之刃
+			MutantSpearMagical: 魔君之刃
+			MutantSpearSpin: 魔君之刃
+			MutantSpearThrown: 魔君之刃
+			MutantSpearThrownFriendly: 魔君之刃
+			MutantSphereRing: 灼焱余烬
+			MutantSphereSmall: 灼焱余烬
+			MutantSword: 灼焱余烬
 			MutantTrueEyeDeathray: 幻影死亡射线
-			MutantTrueEyeL: 突变真眼
-			MutantTrueEyeR: 突变真眼
-			MutantTrueEyeS: 突变真眼
-			MutantTrueEyeSphere: 幻影球
-			MutantTyphoon: 利刃台风
+			MutantTrueEyeL: 至尊女巫，灾厄
+			MutantTrueEyeR: 至尊女巫，灾厄
+			MutantTrueEyeS: 至尊女巫，灾厄
+			MutantTrueEyeSphere: 灼焱余烬
+			MutantTyphoon: 火焰龙卷
 
 			// == Pets ==
 			AccursedSarcophagus: 被诅咒的石棺
@@ -1202,7 +1205,7 @@ Mods: {
 			MutantsCurse: "{$Mods.FargowiltasSouls.NPCName.MutantBoss}{$Mods.FargowiltasSouls.Message.HasAwoken}"
 			SpawnFishronEX: "猪龙鱼公爵EX{$Mods.FargowiltasSouls.Message.HasAwoken}"
 			
-			AbominationnVoodooDoll: "突变体的兄弟死了，突变体被激怒了！"
+			AbominationnVoodooDoll: "寻神者的兄弟死了，寻神者被激怒了！"
 			AbominationnVoodooDollFail: "娃娃传送回了你的手中。也许不应该在地下使用它..."
 			
 			SigilOfChampions: {
@@ -1218,8 +1221,8 @@ Mods: {
 				Nothing: 八方默然，万籁俱寂……看来没有英灵回应你的召唤……
 			}
 
-			MutantsFuryOn: 突变体被激怒了！
-			MutantsFuryOff: 突变体冷静下来了。
+			MutantsFuryOn: 寻神者被激怒了！
+			MutantsFuryOff: 寻神者冷静下来了。
 
 			PiranhaPlantVoodooDollOn: 苦难开始了……
 			PiranhaPlantVoodooDollOff: 苦难结束了……
@@ -1241,7 +1244,7 @@ Mods: {
 				BloodMoonCancel: 血月改变了主意，溜了溜了……
 			}
 
-			MutantSkipP1: 突变体不想再伪装下去了……
+			MutantSkipP1: 寻神者亚利姆不想再伪装下去了……
 
 			MutantSpawnMutantBoss: "{$Mods.FargowiltasSouls.Message.MutantsCurse}"
 			MutantSpawnNotSafe: 你以为你安全了？
@@ -1571,7 +1574,7 @@ Mods: {
 			CyclonicHeader: "{$Mods.FargowiltasSouls.ItemName.AbominableWand}"
 			MasoFishronConfig: 幽灵憎恶
 
-			MutantArmorHeader: 真·突变体套装
+			MutantArmorHeader: 寻神者套装
 			MasoAbomConfig: 幽灵憎恶
 			MasoRingConfig: 幻影球召唤物
 			MasoReviveDeathrayConfig: 复活死亡射线
@@ -2125,9 +2128,9 @@ Mods: {
 			GaiaGreaves: 盖亚护胫
 			GaiaHelmet: 盖亚头盔
 			GaiaPlate: 盖亚护板
-			MutantBody: 真·突变之躯
-			MutantMask: 真·突变之颅
-			MutantPants: 真·突变之靴
+			MutantBody: 寻神者之躯
+			MutantMask: 寻神者之颅
+			MutantPants: 寻神者之靴
 			NekomiHood: 猫猫睡衣兜帽
 			NekomiHoodie: 猫猫睡衣连帽衫
 			NekomiLeggings: 猫猫睡衣紧身裤
@@ -2152,7 +2155,7 @@ Mods: {
 			ChampionySigil: 英灵证章
 			DevisCurse: 戴薇安的诅咒
 			FragilePixieLamp: 水晶圣像
-			MutantsCurse: 突变体的诅咒
+			MutantsCurse: 寻神者之诅咒
 			SigilOfChampions: 唤灵魔符
 			SquirrelCoatofArms: 松鼠盾徽
 
@@ -2167,7 +2170,7 @@ Mods: {
 			AbomMusicBox: 音乐盒（憎恶）
 			ChampionMusicBox: 音乐盒（英灵）
 			DeviMusicBox: 音乐盒（戴薇安）
-			MutantMusicBox: 音乐盒（突变体）
+			MutantMusicBox: 音乐盒（寻神者亚利姆）
 			RePrologueMusicBox: 音乐盒（？？？）
 			StoriaMusicBox: 音乐盒（？？？）
 			
@@ -2177,7 +2180,7 @@ Mods: {
 			DeviTrophy: 戴薇安纪念章
 			EridanusTrophy: 宇宙英灵纪念章
 			LifeChallengerTrophy: 飘渺游光纪念章
-			MutantTrophy: 突变体纪念章
+			MutantTrophy: 寻神者纪念章
 			TrojanSquirrelTrophy: 特洛伊松鼠纪念章
 
 			// === Relics ===
@@ -2188,7 +2191,7 @@ Mods: {
 			EridanusRelic: 宇宙英灵圣物
 			LifeChampionRelic: 生命英灵圣物
 			LifeChallengerRelic: 飘渺游光圣物
-			MutantRelic: 突变体圣物
+			MutantRelic: 寻神者圣物
 			NatureChampionRelic: 自然英灵圣物
 			ShadowChampionRelic: 暗影英灵圣物
 			SpiritChampionRelic: 心灵英灵圣物
@@ -2207,7 +2210,7 @@ Mods: {
 			
 			EternityAdvisor: 永恒顾问
 			GalacticReformer: 银河重构器
-			MutantsFury: 突变之狂怒
+			MutantsFury: “魔君”之狂怒
 			TopHatSquirrelCaught: 高顶礼帽松鼠
 			UniversalCollapse: 宇宙坍缩
 
@@ -2278,7 +2281,7 @@ Mods: {
 			
 			HentaiSpear: 洞察者
 			PhantasmalLeashOfCthulhu: 幻影克苏鲁连枷
-			SlimeRain: 史莱姆雨
+			SlimeRain: 无限大地（史莱姆雨）
 			SparklingLove: 闪闪发光的爱
 			StyxGazer: 冥河凝视
 
@@ -2446,7 +2449,7 @@ Mods: {
 			LumpOfFlesh: 血肉团
 			MagicalBulb: 魔法球茎
 			MutantAntibodies: 突变抗体
-			MutantEye: 突变之眼
+			MutantEye: 寻神者之眼
 			MysticSkull: 神秘头骨
 			NecromanticBrew: 死灵密酿
 			NymphsPerfume: 宁芙的香水
@@ -2484,7 +2487,7 @@ Mods: {
 				[c/ff0000:调 试 用 物 品]
 				左键重置原版和魂石Mod中的事件与Boss进度，包括困难模式（击败血肉墙）
 				右键允许从戴薇安处再拿一次新手礼包，重置突变体的信用卡/优惠卡、你的永恒模式饰品栏、狂犬病疫苗、鹿筋冲刺等等
-				在物品栏内对物品右键来重置突变体的一阶段跳过机制
+				在物品栏内对物品右键来重置寻神者亚利姆的一阶段跳过机制
 				我忘啦！
 				'''
 			Masochist:
@@ -3209,7 +3212,7 @@ Mods: {
 			HeartoftheMasochist:
 				'''
 				免疫人形废土、霜冻、恐寒症、分泌物、枯萎武器和枯萎盔甲减益
-				免疫野性咬噬、突变啃啄、翻转、不稳定、扭曲和月之诅咒减益
+				免疫野性咬噬、寻神者之利刃、翻转、不稳定、扭曲和月之诅咒减益
 				免疫潮湿、带电、海洋重击、月蛭、失效诅咒和由水造成的减益
 				攻击力和暴击率增加10%，伤害减免增加5%
 				增加100%飞行时间
@@ -3262,7 +3265,7 @@ Mods: {
 				'''
 			MutantAntibodies:
 				'''
-				免疫潮湿、野性咬噬、突变啃啄和海洋重击减益
+				免疫潮湿、野性咬噬、寻神者之利刃和海洋重击减益
 				免疫大多数由水造成的减益
 				骑乘猪龙鱼坐骑时获得潮湿状态效果
 				增加20%你手持武器职业的伤害，但是降低生命恢复速度
@@ -3271,13 +3274,13 @@ Mods: {
 				'''
 			MutantEye:
 				'''
-				免疫突变毒牙减益
+				免疫寻神者之怒火减益
 				闪烁崇心的擦弹伤害加成上限增加25%
 				将闪烁崇心的心攻击加强为爱之射线
 				增加闪烁崇心的擦弹伤害加成
 				提升幽灵憎恶的出现频率和攻击力
 				按下“炸弹”键时施放一圈幻影眼球，摧毁大多数敌对弹幕
-				突变炸弹有60秒的冷却时间
+				寻神者炸弹有60秒的冷却时间
 				“有点可疑”
 				'''
 			MysticSkull:
@@ -3625,8 +3628,9 @@ Mods: {
 			FragilePixieLamp: 在白天的神圣之地中拿出它并打碎以激怒妖精之主
 			MutantsCurse:
 				'''
-				必须在地表使用
-				“至少不需要用娃娃了”
+				须于地上用之
+				（必须在地表使用）
+				“我静候你的挑战。”
 				'''
 			SigilOfChampions:
 				'''
@@ -3686,7 +3690,7 @@ Mods: {
 			'''
 			MutantsFury:
 			'''
-			“真 正 激怒突变体...也许并不”
+			“真 正 激怒寻神者...也许并不”
 			'''
 			UniversalCollapse:
 			'''

@@ -4,5 +4,5 @@ version = 288.142.7
 modReferences = Fargowiltas
 weakReferences = FargowiltasSouls
 includeSource = true
-buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, lib\*, .git\*, *.sln
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, lib\*, .git\*, *.sln, BuildIgnore\*
 side = client
