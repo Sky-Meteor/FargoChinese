@@ -543,6 +543,7 @@ Mods: {
 
 		ProjectileName: {
 			AbomScytheFriendly: 憎恶镰刀
+			ArcTelegraph: Arc Telegraph
 			BeeDash: 冲刺
 			BetsyDash: 冲刺
 			BloomLine: 预警光线
@@ -555,7 +556,7 @@ Mods: {
 			GiantDeathray: 幻影死亡射线
 			GlowLine: 预警光线
 			GlowRing: 预警光环
-			GlowRingHallow: 预警光环
+			GlowRingHollow: 预警光环
 			GrazeRing: 擦弹光环
 			HostileLightning: 闪电弧
 			LightningArc: 闪电弧
@@ -624,6 +625,7 @@ Mods: {
 			FishNuke: 猪鲨核弹
 			FishNukeExplosion: 猪鲨核弹
 			FishStickProj: 鱼杖
+			FishStickProjTornado: 鱼杖
 			FishStickShark: 鲨鱼
 			FleshLaser: 红色激光
 			GibExplosion: 爆炸
@@ -648,7 +650,7 @@ Mods: {
 			HentaiSpearSpinThrown: 洞察者
 			HentaiSpearThrown: 洞察者
 			HentaiSpearWand: 洞察者
-			HentaiSpearRing: 洞察者
+			HentaiSphereRing: 幻影球
 			Hungry: 饿鬼
 			Hungry2: 饿鬼
 			LeashFlail: 克苏鲁连枷
@@ -663,6 +665,7 @@ Mods: {
 			PhantasmalSphere2: 幻影球
 			PrimeDeathray: 烈焰死亡射线
 			PrimeLaser: 机械激光
+			PrismaRegaliaStar: 追踪之星
 			PrismaRegaliaProj: 晶霞华枪
 			RazorbladeTyphoonFriendly: 利刃台风
 			RefractorBlaster2Held: 衍射暗星炮
@@ -761,7 +764,7 @@ Mods: {
 			EarthChainBlast: 连锁爆炸
 			EarthChainBlast2: 连锁爆炸
 			EarthGeyser: 喷泉
-			EatrhPalladOrb: 钯金治疗珠
+			EarthPalladOrb: 钯金治疗珠
 			FlowerPetal: 花瓣
 			LifeDeathray: 神圣死亡射线
 			LifeDeathray2: 神圣死亡射线
@@ -801,7 +804,7 @@ Mods: {
 			TimberJumpMark: 森林爆炸
 			TimberLaser: 激光
 			TimberLightningOrb: 闪电珠
-			TimerPalmTree: 棕榈树
+			TimberPalmTree: 棕榈树
 			TimberSnowball: 雪球
 			TimberSnowball2: 雪球
 			TimberTree: 树
@@ -1171,10 +1174,14 @@ Mods: {
 			Void: 虚空
 
 			// == Patreons ==
+			KingSlimeBallPiercing: 粘液球
 			KingSlimeMinion: 史莱姆王
+			KingSlimeSpike: 史莱姆尖刺
 			DukeFishronMinion: 猪龙鱼公爵
+			RazorbladeTyphoonFriendly2: 利刃台风
 			DevRocket: 艳岚火箭
 			RailgunBlast: 电磁炮爆炸
+			VortexBolt: 闪电弧
 			VortexRitualProj: 星旋圣仪
 			WolfDashProj: 狼魂冲刺
 			ChibiiRemii: 小蕾米
@@ -1283,8 +1290,8 @@ Mods: {
 			SkeletronPrimeRegrow: "{$NPCName.SkeletronPrime}的手臂又长出来了！"
 			SkeletronGuardian: "{$NPCName.SkeletronHead}进入了地牢守卫阶段！"
 			SkeletronPrimeGuardian: "{$NPCName.SkeletronPrime}进入了地牢守卫阶段！"
-			TwinsEndure: "挺住了致命攻击，它还能帮着它的兄弟打三百回合！"
-			TwinsRevive: "复活了！"
+			TwinsEndure: "{0}挺住了致命攻击，它还能帮着它的兄弟打三百回合！"
+			TwinsRevive: "{0}复活了！"
 			GelatinSubjects: 圣凝史莱姆已苏醒！
 			RoyalSubject: 皇家工蜂已苏醒！
 			QueenBeeEnrage: "{$NPCName.QueenBee}在地下丛林之外变得异常愤怒！"
@@ -1297,14 +1304,15 @@ Mods: {
 		}
 
 		DeathMessage: {
-			Rotting: "烂了。"
-			Infested: "控制不住感染。"
-			Anticoagulation: "出血过多。"
-			DivineWrath: "湮灭于神明的忿怒中。"
-			Shadowflame: "被暗影焰包裹着，控制不住火势。"
-			NanoInjection: "被纳米机器人从内部吞噬。"
+			Rotting: "{0}烂了。"
+			Infested: "{0}控制不住感染。"
+			Anticoagulation: "{0}出血过多。"
+			DivineWrath: "{0}湮灭于神明的忿怒中。"
+			Shadowflame: "{0}被暗影焰包裹着，控制不住火势。"
+			NanoInjection: "{0}被纳米机器人从内部吞噬。"
 
 			Fused:"{0}被炸成了碎片。"
+			ReverseManaFlow: "{0}被自己的魔法摧毁了。"
 			Nutcracker: "{0}的“坚果”裂开了。"
 			Derpling: "{0}被吸干了。"
 			Snatchers: "{0}被食人怪咬成了“被吃掉”的男人。"
@@ -3869,9 +3877,10 @@ Mods: {
 			'''
 			PrismaRegalia:
 			'''
+			长矛顶端击中敌人会释放追踪之星
 			长按左键蓄力以造成更多伤害
-			蓄力完成后，松开左键以冲向光标处并攻击沿途敌人
-			“大概是某个敌人的某部分……”
+			蓄力完成后，顶端击中会释放两倍数量的追踪之星
+			“一个敌人的纯粹精华，淬炼出的辐辉之力……”
 			'''
 			RefractorBlaster:
 			'''
@@ -3909,7 +3918,7 @@ Mods: {
 			Lightslinger: 
 				'''
 				把子弹转化为神圣曙光子弹
-				射击25次后可以按右键发射一颗光之炸弹
+				射击40次后可以按右键发射一颗光之炸弹
 				25%的几率不消耗弹药
 				'''
 			KamikazeSquirrelStaff:
