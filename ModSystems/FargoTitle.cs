@@ -8,7 +8,7 @@ namespace FargoChinese.ModSystems
     [JITWhenModsEnabled("FargowiltasSouls")]
     public class FargoTitle : PatchBase
     {
-        public override bool IsLoadingEnabled(Mod mod) => ModLoader.TryGetMod("FargowiltasSouls", out _);// ModContent.GetInstance<FCConfig>().EnableGameTitleChange;
+        public override bool IsLoadingEnabled(Mod mod) => false;//ModLoader.TryGetMod("FargowiltasSouls", out _);// ModContent.GetInstance<FCConfig>().EnableGameTitleChange;
 
         public override void Load()
         {
