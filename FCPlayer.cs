@@ -28,8 +28,7 @@ namespace FargoChinese
                 Main.NewText("-" + textLines[i].Trim(), c);
             Main.NewText("Fargo魂石的内容以及更详细的更新见Bilibili @小小法师的大决心 & @Furgo_", c);
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
-            Main.NewText($"[i:{ModContent.ItemType<LumberJaxe>()}] 287.1412.11更新：添加了永恒与受虐难度在地图选择界面显示的功能及动画效果，可以分别在模组配置中开关（默认开启），若遇到bug或卡顿可考虑关闭此功能", new Color(0, 255, 255));
-            Main.NewText($"[i:{ItemID.ArchitectGizmoPack}] 287.1412.11更新：修复了Fargo突变的配置：建筑饰品在猪猪存钱罐/保险箱中生效开启，但实际无效果的bug", Main.mouseTextColor);
+            Main.NewText($"[i:Fargowiltas/Painter] 288.1424.4更新：添加了一系列游戏内物品来源的提示，详情见模组配置", new Color(255, 71, 119));
             if (Main.netMode == NetmodeID.MultiplayerClient)
             {
                 ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral("注意，现在的Fargo汉化是客户端模组，不会参与服务器的自动同步，若需要开启汉化需要在模组列表自行开启！！！"), Color.LightGreen);

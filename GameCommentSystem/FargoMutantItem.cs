@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection;
 using Fargowiltas;
 using Terraria;
 using Terraria.ID;
@@ -9,6 +10,7 @@ namespace FargoChinese.GameCommentSystem
 {
     public class FargoMutantItem : GlobalItem
     {
+        #region Terms
         private const string Graveyard = "墓地";
         private const string Crimson = "猩红之地";
         private const string Corruption = "腐化之地";
@@ -22,12 +24,28 @@ namespace FargoChinese.GameCommentSystem
         private const string Dungeon = "地牢";
         private const string Underground = "地下";
         private const string Underworld = "地狱";
+        private const string Forest = "森林";
+        private const string Ocean = "海洋";
+        private const string EvilBiome = "邪恶生物群落";
 
+        private const string ForestTree = "森林树";
+        private const string BorealTree = "针叶树";
+        private const string MahoganyTree = "红木树";
+        private const string EbonwoodTree = "乌木树";
+        private const string ShadewoodTree = "暗影木树";
+        private const string PearlwoodTree = "珍珠木树";
+        private const string PalmTree = "棕榈树";
+        private const string A = "";
+
+        private const string EnableFargosNPCSale = "开启Fargo突变的配置（NPC卖额外商品）时，";
+        #endregion
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
             Player player = Main.LocalPlayer;
-
+            var fargoPlayer = player.GetModPlayer<FargoPlayer>();
             #region Painter
+            if (!ModContent.GetInstance<FCConfig>().PainterTip)
+                goto Fruit;
             switch (item.type)
             {
                 #region Vanilla
@@ -108,7 +126,7 @@ namespace FargoChinese.GameCommentSystem
                 case ItemID.TrioSuperHeroes:
                 case ItemID.TheTwinsHaveAwoken:
                 case ItemID.UnicornCrossingtheHallows:
-                    AddPaintingTip(In(Dungeon), player.ZoneDungeon);
+                    AddFargoPaintingTip(In(Dungeon), player.ZoneDungeon);
                     break;
                 case ItemID.AmericanExplosive:
                 case ItemID.CrownoDevoursHisLunch:
@@ -125,7 +143,7 @@ namespace FargoChinese.GameCommentSystem
                 case ItemID.Sunflowers:
                 case ItemID.TerrarianGothic:
                 case ItemID.Waldo:
-                    AddPaintingTip(Underground, player.ZoneRockLayerHeight || player.ZoneDirtLayerHeight);
+                    AddFargoPaintingTip(Underground, player.ZoneRockLayerHeight || player.ZoneDirtLayerHeight);
                     break;
                 case ItemID.DarkSoulReaper:
                 case ItemID.Darkness:
@@ -139,7 +157,7 @@ namespace FargoChinese.GameCommentSystem
                 case ItemID.ShiningMoon:
                 case ItemID.Skelehead:
                 case ItemID.TrappedGhost:
-                    AddPaintingTip(Underworld, player.ZoneUnderworldHeight);
+                    AddFargoPaintingTip(Underworld, player.ZoneUnderworldHeight);
                     break;
                     #endregion
             }
@@ -153,20 +171,219 @@ namespace FargoChinese.GameCommentSystem
                 if (condition && ModContent.GetInstance<FargoConfig>().NPCSales && (player.ZoneDungeon || player.ZoneRockLayerHeight || player.ZoneDirtLayerHeight || player.ZoneUnderworldHeight))
                     tooltips.Add(new TooltipLine(Mod, "FCPaintingTipExtra", $"[i:Fargowiltas/Painter] [c/{defaultColor}:如果没有找到预期的画作，可能是因为Fargo突变的配置（NPC卖额外商品）导致原画作被覆盖]"));
             }
+            void AddFargoPaintingTip(string tip, bool condition)
+            {
+                const string defaultColor = "FF4777";
+                const string achievedColor = "0BDA51";
+                string color = condition ? achievedColor : defaultColor;
+                tooltips.Add(new TooltipLine(Mod, "FCPaintingTip", $"[i:Fargowiltas/Painter] [c/{color}:{EnableFargosNPCSale}在{tip}售卖]"));
+                if (condition && ModContent.GetInstance<FargoConfig>().NPCSales && (player.ZoneDungeon || player.ZoneRockLayerHeight || player.ZoneDirtLayerHeight || player.ZoneUnderworldHeight))
+                    tooltips.Add(new TooltipLine(Mod, "FCPaintingTipExtra", $"[i:Fargowiltas/Painter] [c/{defaultColor}:如果没有找到预期的画作，可能是因为Fargo突变的配置（NPC卖额外商品）导致原画作被覆盖]"));
+            }
+            #endregion
+            #region Fruit
+            Fruit:
+            if (!ModContent.GetInstance<FCConfig>().FruitTip)
+                goto Fishing;
+            bool condition;
+            switch (item.type)
+            {
+                case ItemID.Apple:
+                    AddFruitTip(ForestTree);
+                    break;
+                case ItemID.Peach:
+                case ItemID.Apricot:
+                case ItemID.Grapefruit:
+                case ItemID.Lemon:
+                    AddFruitTip(ForestTree);
+                    condition = !(player.ZoneDesert || player.ZoneJungle || player.ZoneHallow ||
+                                  (player.ZoneGlowshroom && Main.hardMode) || player.ZoneCorrupt || player.ZoneCrimson
+                                  || player.ZoneSnow || player.ZoneBeach || player.ZoneUnderworldHeight ||
+                                  player.ZoneRockLayerHeight || player.ZoneDirtLayerHeight);
+                    AddLumberTip(Forest);
+                    break;
+                case ItemID.Plum:
+                case ItemID.Cherry:
+                    AddFruitTip(BorealTree);
+                    condition = !(player.ZoneDesert || player.ZoneJungle || player.ZoneHallow ||
+                                  (player.ZoneGlowshroom && Main.hardMode) || player.ZoneCorrupt ||
+                                  player.ZoneCrimson) && player.ZoneSnow;
+                    AddLumberTip(Snow);
+                    break;
+                case ItemID.Mango:
+                case ItemID.Pineapple:
+                    AddFruitTip(MahoganyTree);
+                    condition = !player.ZoneDesert && player.ZoneJungle;
+                    AddLumberTip(Jungle);
+                    break;
+                case ItemID.Coconut:
+                case ItemID.Banana:
+                    AddFruitTip(Of(Ocean) + PalmTree);
+                    condition = !(player.ZoneDesert || player.ZoneJungle || player.ZoneHallow ||
+                                  (player.ZoneGlowshroom && Main.hardMode) || player.ZoneCorrupt || player.ZoneCrimson
+                                  || player.ZoneSnow) && player.ZoneBeach;
+                    AddLumberTip(Ocean);
+                    break;
+                case ItemID.Elderberry:
+                case ItemID.BlackCurrant:
+                    AddFruitTip(EbonwoodTree);
+                    condition = !(player.ZoneDesert || player.ZoneJungle || player.ZoneHallow ||
+                                  (player.ZoneGlowshroom && Main.hardMode)) &&
+                                (player.ZoneCorrupt || player.ZoneCrimson);
+                    AddLumberTip(EvilBiome);
+                    break;
+                case ItemID.BloodOrange:
+                case ItemID.Rambutan:
+                    AddFruitTip(ShadewoodTree);
+                    condition = !(player.ZoneDesert || player.ZoneJungle || player.ZoneHallow ||
+                                  (player.ZoneGlowshroom && Main.hardMode)) &&
+                                (player.ZoneCorrupt || player.ZoneCrimson);
+                    AddLumberTip(EvilBiome);
+                    break;
+                case ItemID.Dragonfruit:
+                case ItemID.Starfruit:
+                    AddFruitTip(PearlwoodTree);
+                    condition = !(player.ZoneDesert || player.ZoneJungle) && player.ZoneHallow;
+                    AddLumberTip(Hallow);
+                    break;
+            }
 
-            string Not(string tip) => $"非{tip}";
+            void AddFruitTip(string tree) => tooltips.Add(new TooltipLine(Mod, "FCFruitTip", $"[i:{item.type}] [c/DE7D2C:通过摇晃{tree}获得]"));
 
-            string And(string tip) => $"且{tip}";
+            void AddLumberTip(string biome)
+            {
+                const string defaultColor = "FF4777";
+                const string achievedColor = "0BDA51";
+                string color = condition ? achievedColor : defaultColor;
+                tooltips.Add(new TooltipLine(Mod, "FCLumberTip", $"[i:Fargowiltas/LumberJack] [c/{color}:在{biome}通过树木宝藏概率获得]"));
+            }
+            #endregion
+            #region Fishing
+            Fishing:
+            if (!ModContent.GetInstance<FCConfig>().FishingTip)
+                goto Dye;
+            switch (item.type)
+            {
+                #region Clothier
+                case ItemID.AnglerHat:
+                    AddFishingTip(10, true);
+                    break;
+                case ItemID.AnglerVest:
+                    AddFishingTip(15, true);
+                    break;
+                case ItemID.AnglerPants:
+                    AddFishingTip(20, true);
+                    break;
+                #endregion
+                #region Merchant
+                case ItemID.FuzzyCarrot:
+                    AddFishingTip(5);
+                    break;
+                case ItemID.AnglerEarring:
+                case ItemID.HighTestFishingLine:
+                case ItemID.TackleBox:
+                case ItemID.GoldenBugNet:
+                case ItemID.FishHook:
+                    AddFishingTip(10);
+                    break;
+                case ItemID.FinWings:
+                case ItemID.SuperAbsorbantSponge:
+                case ItemID.BottomlessBucket:
+                    AddFishingTip(10, hardMode: true);
+                    break;
+                case ItemID.HotlineFishingHook:
+                    AddFishingTip(25, hardMode: true);
+                    break;
+                case ItemID.GoldenFishingRod:
+                    AddFishingTip(30, hardMode: true);
+                    break;
+                #endregion
+            }
 
-            string Or(string tip) => $"或{tip}";
+            void AddFishingTip(int need, bool clothier = false, bool hardMode = false)
+            {
+                const string defaultColor = "717D6D";
+                const string achievedColor = "0BDA51";
+                string color = player.anglerQuestsFinished >= need ? achievedColor : defaultColor;
+                tooltips.Add(new TooltipLine(Mod, "FCFishingTip", $"[i:Fargowiltas/{(clothier ? "Clothier" : "Merchant")}] [c/{color}:完成{need}个渔夫任务后由{(clothier ? "服装商" : "商人")}{(hardMode ? "在困难模式中" : "")}售卖]"));
+            }
+            #endregion
+            #region Dye
+            Dye:
+            if (!ModContent.GetInstance<FCConfig>().DyeTip)
+                goto NextTip;
+            if (fargoPlayer.GetType().GetField("FirstDyeIngredients", BindingFlags.Instance | BindingFlags.NonPublic)?.GetValue(fargoPlayer) is not Dictionary<string, bool> firstDyeIngredients)
+                goto NextTip;
+            switch (item.type)
+            {
+                case ItemID.RedHusk:
+                    AddDyeTip("RedHusk");
+                    break;
+                case ItemID.OrangeBloodroot:
+                    AddDyeTip("OrangeBloodroot");
+                    break;
+                case ItemID.YellowMarigold:
+                    AddDyeTip("YellowMarigold");
+                    break;
+                case ItemID.LimeKelp:
+                    AddDyeTip("LimeKelp");
+                    break;
+                case ItemID.GreenMushroom:
+                    AddDyeTip("GreenMushroom");
+                    break;
+                case ItemID.TealMushroom:
+                    AddDyeTip("TealMushroom");
+                    break;
+                case ItemID.CyanHusk:
+                    AddDyeTip("CyanHusk"); 
+                    break;
+                case ItemID.SkyBlueFlower:
+                    AddDyeTip("SkyBlueFlower");
+                    break;
+                case ItemID.BlueBerries:
+                    AddDyeTip("BlueBerries");
+                    break;
+                case ItemID.PurpleMucos:
+                    AddDyeTip("PurpleMucos");
+                    break;
+                case ItemID.VioletHusk:
+                    AddDyeTip("VioletHusk");
+                    break;
+                case ItemID.PinkPricklyPear:
+                    AddDyeTip("PinkPricklyPear");
+                    break;
+                case ItemID.BlackInk:
+                    AddDyeTip("BlackInk");
+                    break; 
+            }
+            void AddDyeTip(string dye)
+            {
+                const string defaultColor = "2C3C72";
+                const string achievedColor = "0BDA51";
+                string color = firstDyeIngredients[dye] ? achievedColor : defaultColor;
+                tooltips.Add(new TooltipLine(Mod, "FCDyeTip", $"[i:Fargowiltas/DyeTrader] [c/{color}:获得一次后，在染料商处售卖]"));
+            }
+            #endregion
+            NextTip:
+                
+            #region Other
+            if (item.useAmmo == ItemID.Bone)
+                tooltips.Add(new TooltipLine(Mod, "FCBoneAmmoTip", "[i:Fargowiltas/Clothier] [c/808080:裁缝在骷髅王后售卖弹药]"));
+            #endregion
+            #region  Utils
+            static string Not(string tip) => $"非{tip}";
 
-            string In(string tip) => $"{tip}中";
+            static string And(string tip) => $"且{tip}";
 
-            string When(string tip) => $"{tip}时";
+            static string Or(string tip) => $"或{tip}";
 
-            string Of(string tip) => $"{tip}的";
+            static string In(string tip) => $"{tip}中";
 
-            string Moon(params int[] id)
+            static string When(string tip) => $"{tip}时";
+
+            static string Of(string tip) => $"{tip}的";
+
+            static string Moon(params int[] id)
             {
                 string ret = "";
                 foreach (int i in id)
@@ -179,7 +396,7 @@ namespace FargoChinese.GameCommentSystem
                 return $"{When($"月相为{ret}")}";
             }
 
-            string MoonToName(int id)
+            static string MoonToName(int id)
             {
                 return id switch
                 {
