@@ -373,7 +373,7 @@ Mods: {
 			LihzahrdInstactuationBomb: 丛林神庙炸弹
 			MiniInstaBridge: 迷你速建平台
 			ObsidianInstaBridge: 黑曜石速建平台
-			OmniBridgifier: 万用平台转化器
+			OmniBridgifier: 万能平台转化器
 			SemiBridgifier: 多功能平台转化器
 			
 			BattleCry: 战争号角
@@ -537,6 +537,7 @@ Mods: {
 			MultitaskCenter: 多功能合成桌
 			Omnistation: 万能增益站
 			Omnistation2: 万能增益站
+			PurityTotem: 纯净图腾
 			RegalStatue: 帝王雕像
 			Semistation: 多功能增益站
 			SiblingPylon: 血亲晶塔
@@ -1205,10 +1206,10 @@ Mods: {
 				只会掉落宝藏袋
 				'''
 
-			Abeemination2: 在任何生物群系中召唤蜂后
+			Abeemination2: 在任何生物群落中召唤蜂后
 			CelestialSigil2: 立即召唤月亮领主
-			DeerThing2: 在任何生物群系中召唤独眼巨鹿
-			GoreySpine: 在任何生物群系中召唤克苏鲁之脑
+			DeerThing2: 在任何生物群落中召唤独眼巨鹿
+			GoreySpine: 在任何生物群落中召唤克苏鲁之脑
 			LihzahrdPowerCell2: 在没有祭坛的情况下召唤石巨人
 			MechEye: 召唤双子魔眼
 			MechSkull: 召唤机械骷髅王
@@ -1216,7 +1217,7 @@ Mods: {
 			SlimyCrown: 召唤史莱姆王
 			SuspiciousEye: 召唤克苏鲁之眼
 			TruffleWorm2: 不钓鱼就召唤猪龙鱼公爵
-			WormyFood: 在任何生物群系中召唤世界吞噬怪
+			WormyFood: 在任何生物群落中召唤世界吞噬怪
 
 			CrucibleCosmos: 
 				'''
@@ -1239,6 +1240,13 @@ Mods: {
 				拥有部分原版增益站的效果
 				接触时给予蜂蜜增益
 				在附近时大幅提高运气
+				'''
+			PurityTotem: 
+				'''
+				可以被无限次重复使用
+				允许城镇NPC居住在邪恶生物群落中
+				防止邪恶物块形成邪恶生物群落
+				防止墓碑形成墓地生物群落
 				'''
 			RegalStatue: 在附近时城镇NPC会极快地重生
 			Semistation:
@@ -1308,6 +1316,7 @@ Mods: {
 			MultitaskCenterSheet: 多功能合成桌
 			OmnistationSheet: 万能增益站
 			OmnistationSheet2: 万能增益站
+			PurityTotemSheet: 纯净图腾
 			RegalStatueSheet: 帝王雕像
 			SemistationSheet: 多功能增益站
 			SiblingPylonTile: 血亲晶塔
