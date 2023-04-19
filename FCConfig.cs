@@ -45,12 +45,27 @@ namespace FargoChinese
         // ReSharper disable once UnassignedField.Global
         public bool DyeTip;
 
+        [Label("显示Fargo突变键位绑定提示")]
+        [DefaultValue(true)]
+        // ReSharper disable once UnassignedField.Global
+        public bool KeyBindTip;
+
+        [Label("显示“快捷使用背包左下角物品”键位绑定提示")]
+        [Tooltip("单独添加了一个配置选项，避免觉得左下角物品总多一行物品信息烦人")]
+        [DefaultValue(true)]
+        // ReSharper disable once UnassignedField.Global
+        public bool CustomKeyBindTip;
+
+        [Label("显示Fargo魂石键位绑定提示")]
+        [DefaultValue(true)]
+        // ReSharper disable once UnassignedField.Global
+        public bool SoulsKeyBindTip;
+
         [Label("开启全部")]
         [DefaultValue(false)]
-        // ReSharper disable once UnassignedField.Global
         public bool AllTipsOn
         {
-            get => PainterTip && FruitTip && FishingTip && DyeTip;
+            get => PainterTip && FruitTip && FishingTip && DyeTip && KeyBindTip && CustomKeyBindTip && SoulsKeyBindTip;
             set
             {
                 if (value)
@@ -59,6 +74,9 @@ namespace FargoChinese
                     FruitTip = true;
                     FishingTip = true;
                     DyeTip = true;
+                    KeyBindTip = true;
+                    CustomKeyBindTip = true;
+                    SoulsKeyBindTip = true;
                     AllTipsOff = false;
                 }
             }
@@ -66,10 +84,9 @@ namespace FargoChinese
 
         [Label("关闭全部")]
         [DefaultValue(false)]
-        // ReSharper disable once UnassignedField.Global
         public bool AllTipsOff
         {
-            get => !PainterTip && !FruitTip && !FishingTip && !DyeTip;
+            get => !PainterTip && !FruitTip && !FishingTip && !DyeTip && !KeyBindTip && !CustomKeyBindTip && !SoulsKeyBindTip;
             set
             {
                 if (value)
@@ -78,6 +95,9 @@ namespace FargoChinese
                     FruitTip = false;
                     FishingTip = false;
                     DyeTip = false;
+                    KeyBindTip = false;
+                    CustomKeyBindTip =false;
+                    SoulsKeyBindTip = false;
                     AllTipsOn = false;
                 }
             }

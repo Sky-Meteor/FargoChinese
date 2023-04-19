@@ -12,6 +12,8 @@ namespace FargoChinese.Patch
         }
         private static void NewText_string_byte_byte_byte(On.Terraria.Main.orig_NewText_string_byte_byte_byte orig, string newText, byte R = byte.MaxValue, byte G = byte.MaxValue, byte B = byte.MaxValue)
         {
+            if (newText == null)
+                return;
             #region Fargowiltas
             #region Items
             if (newText.StartsWith("Battle Cry ") && newText.Contains(Main.player[0].name) && newText.EndsWith("!") && R == 255 && G == 0 && B == 0)
@@ -405,6 +407,8 @@ namespace FargoChinese.Patch
         }
         private static void NewTextMultiline(On.Terraria.Main.orig_NewTextMultiline orig, string text, bool force = false, Color c = default, int WidthLimit = -1)
         {
+            if (text == null)
+                return;
             #region Fargowiltas
             #region Items
             if (text.StartsWith("Battle Cry ") && text.EndsWith("!") && c == new Color(255, 0, 0))

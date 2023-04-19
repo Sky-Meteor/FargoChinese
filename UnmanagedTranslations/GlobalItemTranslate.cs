@@ -262,30 +262,4 @@ namespace FargoChinese.UnmanagedTranslations
         }
 
     }
-
-    public static class TooltipsUtil
-    {
-        public static void InsertAfter(this List<TooltipLine> tooltips, string text, TooltipLine line)
-        {
-            for (int i = 0; i < tooltips.Count; i++)
-            {
-                if (tooltips[i].Text.Contains(text))
-                    tooltips.Insert(i + 1, line);
-            }
-        }
-        /*public static int Type(this string className)
-        {
-            ModLoader.TryGetMod("FargowiltasSouls", out Mod fargoSouls);
-            fargoSouls.TryFind(className, out ModItem modItem);
-            return modItem.Type;
-        }*/
-        public static void Replace(this TooltipLine tooltip, object old, object @new)
-        {
-            tooltip.Text = tooltip.Text.Replace(old.ToString()!, @new.ToString());
-        }
-        public static void FindAndReplace(this List<TooltipLine> tooltips, object old, object @new)
-        {
-            tooltips.Find(l => l.Text.Contains(old.ToString()!)).Replace(old.ToString(), @new.ToString());
-        }
-    }
 }

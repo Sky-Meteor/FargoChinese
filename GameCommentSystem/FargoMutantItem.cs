@@ -1,44 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Reflection;
+using Newtonsoft.Json;
 using Fargowiltas;
 using Terraria;
+using Terraria.GameInput;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.UI;
+using static FargoChinese.GameCommentSystem.CommentSystemUtils;
 
 namespace FargoChinese.GameCommentSystem
 {
     public class FargoMutantItem : GlobalItem
     {
-        #region Terms
-        private const string Graveyard = "墓地";
-        private const string Crimson = "猩红之地";
-        private const string Corruption = "腐化之地";
-        private const string Hallow = "神圣之地";
-        private const string Jungle = "丛林";
-        private const string Snow = "雪原";
-        private const string Desert = "沙漠";
-        private const string BloodMoon = "血月";
-        private const string Space = "太空";
-        private const string HardMode = "困难模式";
-        private const string Dungeon = "地牢";
-        private const string Underground = "地下";
-        private const string Underworld = "地狱";
-        private const string Forest = "森林";
-        private const string Ocean = "海洋";
-        private const string EvilBiome = "邪恶生物群落";
-
-        private const string ForestTree = "森林树";
-        private const string BorealTree = "针叶树";
-        private const string MahoganyTree = "红木树";
-        private const string EbonwoodTree = "乌木树";
-        private const string ShadewoodTree = "暗影木树";
-        private const string PearlwoodTree = "珍珠木树";
-        private const string PalmTree = "棕榈树";
-        private const string A = "";
-
-        private const string EnableFargosNPCSale = "开启Fargo突变的配置（NPC卖额外商品）时，";
-        #endregion
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
             Player player = Main.LocalPlayer;
@@ -311,9 +287,7 @@ namespace FargoChinese.GameCommentSystem
             #region Dye
             Dye:
             if (!ModContent.GetInstance<FCConfig>().DyeTip)
-                goto NextTip;
-            if (fargoPlayer.GetType().GetField("FirstDyeIngredients", BindingFlags.Instance | BindingFlags.NonPublic)?.GetValue(fargoPlayer) is not Dictionary<string, bool> firstDyeIngredients)
-                goto NextTip;
+                goto KeyBind;
             switch (item.type)
             {
                 case ItemID.RedHusk:
@@ -360,58 +334,53 @@ namespace FargoChinese.GameCommentSystem
             {
                 const string defaultColor = "2C3C72";
                 const string achievedColor = "0BDA51";
+                if (fargoPlayer.GetType().GetField("FirstDyeIngredients", BindingFlags.Instance | BindingFlags.NonPublic)?.GetValue(fargoPlayer) is not Dictionary<string, bool> firstDyeIngredients)
+                    return;
                 string color = firstDyeIngredients[dye] ? achievedColor : defaultColor;
                 tooltips.Add(new TooltipLine(Mod, "FCDyeTip", $"[i:Fargowiltas/DyeTrader] [c/{color}:获得一次后，在染料商处售卖]"));
             }
             #endregion
+            #region KeyBind
+            KeyBind:
+            if (!ModContent.GetInstance<FCConfig>().KeyBindTip)
+                goto NextTip;
+            switch (item.type)
+            {
+                case ItemID.PotionOfReturn:
+                case ItemID.RecallPotion:
+                case ItemID.MagicMirror:
+                case ItemID.IceMirror:
+                case ItemID.CellPhone:
+                    AddKeyBindTip("快速回家", "Fargowiltas: Quick Recall/Mirror", "0CA3C0");
+                    break;
+                case ItemID.RodofDiscord:
+                    AddKeyBindTip("快捷使用混沌传送杖", "Fargowiltas: Quick Rod of Discord", "D95C97", "快捷混沌传送杖");
+                    break;
+                default:
+                    if (ModContent.GetInstance<FCConfig>().CustomKeyBindTip && item.tooltipContext == ItemSlot.Context.InventoryItem && MouseHoveringOnInventory41)
+                        AddKeyBindTip("快捷使用背包左下角物品", "Fargowiltas: Quick Use Custom (Bottom Left Inventory Slot)", "E3F49D");
+                    break;
+            }
+
+            void AddKeyBindTip(string tip, string uniqueName, string color, string tipWhenDisabled = "")
+            {
+                if (tipWhenDisabled == "")
+                    tipWhenDisabled = tip;
+                var key = PlayerInput.CurrentProfile.InputModes[InputMode.Keyboard].KeyStatus[uniqueName];
+                tooltips.Add(key.Count > 0
+                    ? new TooltipLine(Mod, "FCKeyBindTip", $"[i:{item.type}] [c/{color}:按下“{key[0]}”键{tip}]")
+                    : new TooltipLine(Mod, "FCKeyBindTip", $"[i:{item.type}] [c/{color}:“{tipWhenDisabled}”键未绑定]"));
+            }
+            #endregion
+
             NextTip:
                 
             #region Other
             if (item.useAmmo == ItemID.Bone)
                 tooltips.Add(new TooltipLine(Mod, "FCBoneAmmoTip", "[i:Fargowiltas/Clothier] [c/808080:裁缝在骷髅王后售卖弹药]"));
             #endregion
-            #region  Utils
-            static string Not(string tip) => $"非{tip}";
-
-            static string And(string tip) => $"且{tip}";
-
-            static string Or(string tip) => $"或{tip}";
-
-            static string In(string tip) => $"{tip}中";
-
-            static string When(string tip) => $"{tip}时";
-
-            static string Of(string tip) => $"{tip}的";
-
-            static string Moon(params int[] id)
-            {
-                string ret = "";
-                foreach (int i in id)
-                {
-                    if (ret == "")
-                        ret += MoonToName(i);
-                    else
-                        ret += Or(MoonToName(i));
-                }
-                return $"{When($"月相为{ret}")}";
-            }
-
-            static string MoonToName(int id)
-            {
-                return id switch
-                {
-                    0 => "满月",
-                    1 => "亏凸月",
-                    2 => "下弦月",
-                    3 => "残月",
-                    4 => "新月",
-                    5 => "娥眉月",
-                    6 => "上弦月",
-                    7 => "盈凸月",
-                    _ => throw new Exception($"不存在id为{id}的月相")
-                };
-            }
-            #endregion
         }
+
+        public static bool MouseHoveringOnInventory41;
     }
 }
