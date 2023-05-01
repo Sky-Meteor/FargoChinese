@@ -466,11 +466,11 @@ Mods: {
 			SuspiciousSkull: 可疑头骨
 
 			EnergizerBee: 蜂王强化剂
-			EnergizerBetsy: 双足翼龙强化剂
-			EnergizerBrain: 克苏鲁之脑强化剂
-			EnergizerCultist: 邪教徒强化剂
+			EnergizerBetsy: 翼龙强化剂
+			EnergizerBrain: 大脑强化剂
+			EnergizerCultist: 教徒强化剂
 			EnergizerDarkMage: 神秘强化剂
-			EnergizerDeer: 独眼巨鹿强化剂
+			EnergizerDeer: 巨鹿强化剂
 			EnergizerDestroy: 毁灭强化剂
 			EnergizerDG: 骸骨强化剂
 			EnergizerEmpress: 仙灵强化剂
@@ -966,107 +966,107 @@ Mods: {
 
 			EnergizerBee: 
 				'''
-				击败十轮过载幼虫后获得
+				击败十轮[i:Fargowiltas/OverloadBee]过载幼虫后获得
 				“闻起来像蜂蜜”
 				'''
 			EnergizerBetsy: 
 				'''
-				击败十轮龙蛋盒后获得
+				击败十轮[i:Fargowiltas/OverloadBetsy]龙蛋盒后获得
 				“你感觉你已经等了三千年”
 				'''
 			EnergizerBrain: 
 				'''
-				击败十轮头脑风暴后获得
+				击败十轮[i:Fargowiltas/OverloadBrain]头脑风暴后获得
 				“你仍然觉得自己很傻”
 				'''
 			EnergizerCultist: 
 				'''
-				击败十轮狂热者暴动后获得
+				击败十轮[i:Fargowiltas/OverloadCultist]狂热者暴动后获得
 				“你可能疯了”
 				'''
 			EnergizerDarkMage: 
 				'''
-				击败十轮绝对禁忌之书后获得
+				击败十轮[i:Fargowiltas/OverloadDarkMage]绝对禁忌之书后获得
 				“你感觉你已经等了一千年”
 				'''
 			EnergizerDeer: 
 				'''
-				击败十轮融合巨鹿后获得
+				击败十轮[i:Fargowiltas/OverloadDeer]融合巨鹿后获得
 				“它使你饥饿”
 				'''
 			EnergizerDestroy: 
 				'''
-				击败十轮地震触发器后获得
+				击败十轮[i:Fargowiltas/OverloadDestroyer]地震触发器后获得
 				“它让你有了一种想毁灭东西的冲动”
 				'''
 			EnergizerDG: 
 				'''
-				击败十轮白天的头骨项链后获得
+				击败十轮白天的[i:Fargowiltas/OverloadSkele]骷髅项链后获得
 				“让你想起一头卑鄙的母牛”
 				'''
 			EnergizerEmpress: 
 				'''
-				击败十轮草蛉罐后获得
+				击败十轮[i:Fargowiltas/OverloadEmpress]草蛉罐后获得
 				“观察它的时候佩戴护目镜”
 				'''
 			EnergizerEye: 
 				'''
-				击败十轮融合眼球后获得
+				击败十轮[i:Fargowiltas/OverloadEye]融合眼球后获得
 				“它似乎在看着你”
 				'''
 			EnergizerFish: 
 				'''
-				击败十轮松露虫堆后获得
+				击败十轮[i:Fargowiltas/OverloadFish]松露虫堆后获得
 				“你很满意”
 				'''
 			EnergizerGolem: 
 				'''
-				击败十轮符文能量电池后获得
+				击败十轮[i:Fargowiltas/OverloadGolem]符文能量电池后获得
 				“你希望它拼写为‘TechDirito’”
 				'''
 			EnergizerMoon: 
 				'''
-				击败十轮符文铭文后形成
+				击败十轮[i:Fargowiltas/OverloadMoon]符文铭文后形成
 				“你在享受奶酪”
 				'''
 			EnergizerPlant: 
 				'''
-				击败十轮丛林之心后获得
+				击败十轮[i:Fargowiltas/OverloadPlant]丛林之心后获得
 				“变成一片叶子？听起来很不错”
 				'''
 			EnergizerPrime: 
 				'''
-				击败十轮统帅控制芯片后获得
+				击败十轮[i:Fargowiltas/OverloadPrime]统帅控制芯片后获得
 				“感觉就像一个全新的自己”
 				'''
 			EnergizerQueenSlime: 
 				'''
-				击败十轮集群水晶后获得
+				击败十轮[i:Fargowiltas/OverloadQueenSlime]集群水晶后获得
 				“感觉非常粘”
 				'''
 			EnergizerSkele: 
 				'''
-				击败十轮骷髅项链后获得
+				击败十轮[i:Fargowiltas/OverloadSkele]骷髅项链后获得
 				“让你想起一头牛”
 				'''
 			EnergizerSlime: 
 				'''
-				击败十轮群冠后获得
+				击败十轮[i:Fargowiltas/OverloadSlimeCrown]集群王冠后获得
 				“感觉有点粘”
 				'''
 			EnergizerTwins: 
 				'''
-				击败十轮全焦距晶状体后获得
+				击败十轮[i:Fargowiltas/OverloadTwins]全焦距晶状体后获得
 				“你希望你拥有更多”
 				'''
 			EnergizerWall: 
 				'''
-				击败十轮人偶包后获得
+				击败十轮[i:Fargowiltas/OverloadWall]人偶包后获得
 				“你感到幽闭恐惧”
 				'''
 			EnergizerWorm: 
 				'''
-				击败十轮蠕虫串烧后获得
+				击败十轮[i:Fargowiltas/OverloadWorm]蠕虫串烧后获得
 				“有点黏”
 				'''
 

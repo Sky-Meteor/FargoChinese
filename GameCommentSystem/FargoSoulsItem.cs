@@ -44,7 +44,7 @@ namespace FargoChinese.GameCommentSystem
                 AddKeyBindTip("按下“魔法净化”键", "FargowiltasSouls: 魔法净化", "EAA8DD");
             else if (item.type == ItemType<FrigidGemstone>() || item.type == ItemType<BionomicCluster>())
                 AddKeyBindTip("按下“寒霜咒语”键", "FargowiltasSouls: 寒霜咒语", "5680BA");
-            else if (item.type == ItemType<AgitatingLens>() || item.type == ItemType<FusedLens>())
+            else if (item.type == ItemType<AgitatingLens>() || item.type == ItemType<FusedLens>() || item.type == ItemType<DubiousCircuitry>())
                 AddKeyBindTip("按下“减益负载”键", "FargowiltasSouls: 减益负载", "F6664D");
             else if (item.type == ItemType<SaucerControlConsole>())
                 AddKeyBindTip("按下“弹药切换”键", "FargowiltasSouls: 弹药切换", "7FB3C6");
