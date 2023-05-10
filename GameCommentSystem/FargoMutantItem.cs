@@ -356,11 +356,9 @@ namespace FargoChinese.GameCommentSystem
                 case ItemID.RodofDiscord:
                     AddKeyBindTip("快捷使用混沌传送杖", "Fargowiltas: Quick Rod of Discord", "D95C97", "快捷混沌传送杖");
                     break;
-                default:
-                    if (ModContent.GetInstance<FCConfig>().CustomKeyBindTip && item.tooltipContext == ItemSlot.Context.InventoryItem && MouseHoveringOnInventory41)
-                        AddKeyBindTip("快捷使用背包左下角物品", "Fargowiltas: Quick Use Custom (Bottom Left Inventory Slot)", "E3F49D");
-                    break;
             }
+            if (ModContent.GetInstance<FCConfig>().CustomKeyBindTip && item.tooltipContext == ItemSlot.Context.InventoryItem && MouseHoveringOnInventory41)
+                AddKeyBindTip("快捷使用背包左下角物品", "Fargowiltas: Quick Use Custom (Bottom Left Inventory Slot)", "E3F49D");
 
             void AddKeyBindTip(string tip, string uniqueName, string color, string tipWhenDisabled = "")
             {
