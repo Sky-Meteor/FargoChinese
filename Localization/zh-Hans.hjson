@@ -151,8 +151,8 @@ Mods: {
 			FasterLavaFishing: "[i:4881] 岩浆中钓鱼速度加快"
 			TorchGodEX: "[i:5043] 火把神的恩宠自动替换放置的火把和已放置的火把"
 			TorchGodEXTooltip: "替换遵循火把运气，可能会和火把神的恩宠的默认选择有所不同"
-			DebuffOpacity: "[i:1612] 减益显示不透明度"
-			DebuffFaderRatio: "[i:1612] 减益持续时间显示衰减强度"
+			DebuffOpacity: "[i:1612] 头顶显示减益的最大不透明度"
+			DebuffFaderRatio: "[i:1612] 头顶显示减益随时间衰减的强度"
 			TransparentFriendlyProjectiles: "[i:1309] 友好弹幕不透明度"
 			TransparentFriendlyProjectilesTooltip: "把原版的视频质量设置为中/低以获得最佳体验"
 		}
