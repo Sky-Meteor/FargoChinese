@@ -30,7 +30,7 @@ namespace FargoChinese
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
             Main.NewText($"[i:Fargowiltas/Painter] 288.1424.4更新：添加了一系列游戏内物品来源的提示，详情见模组配置", new Color(255, 71, 119));
             Main.NewText($"[i:Fargowiltas/Deviantt] 288.1425.1更新：调整了三条死亡消息的汉化（Nycro模组会使这些失效）", new Color(255, 102, 255));
-            Main.NewText($"[i:1483] 记得去看看模组设置中该模组的配置文件（Config）！", new Color(255, 51, 51)); //画是“地下馈赠”
+            Main.NewText("[i:3596] 记得去看看模组设置中该模组的配置文件（Config）！", new Color(0, 255, 255)); //画是“不是小孩，也不是乌贼”
             if (Main.netMode == NetmodeID.MultiplayerClient)
             {
                 ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral("注意，现在的Fargo汉化是客户端模组，不会参与服务器的自动同步，若需要开启汉化需要在模组列表自行开启！！！"), Color.LightGreen);
