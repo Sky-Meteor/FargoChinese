@@ -28,11 +28,11 @@ namespace FargoChinese
                 Main.NewText("-" + textLines[i].Trim(), c);
             Main.NewText("Fargo魂石的内容以及更详细的更新见Bilibili @小小法师的大决心 & @Furgo_", c);
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
-            Main.NewText($"[i:Fargowiltas/Deviantt] 288.1425.1更新：调整了三条死亡消息的汉化（Nycro模组会使这些失效）", new Color(255, 102, 255));
-            Main.NewText("[i:3596] 记得去看看模组配置(FCConfig）！", new Color(0, 255, 255)); //画是“不是小孩，也不是乌贼”
+            Main.NewText($"[i:Fargowiltas/Deviantt] 288.1425.1更新：调整了三条死亡消息的汉化（Nycro无伤模组会使这些失效）", new Color(255, 102, 255));
+            Main.NewText($"[i:{ItemID.UndergroundReward}] 查看模组配置（FCConfig）以调整部分内容！", new Color(255, 51, 51));
             if (Main.netMode == NetmodeID.MultiplayerClient)
             {
-                ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral("注意，现在的Fargo汉化是客户端模组，不会参与服务器的自动同步，若需要开启汉化需要在模组列表自行开启！！！"), Color.LightGreen);
+                ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral("注意，现在的Fargo汉化是客户端模组，不会参与服务器的自动同步，若需要开启汉化请提醒你的朋友订阅并在模组列表自行开启！！！"), Color.LightGreen);
             }
             /*if (Main.rand.NextBool(1000))
             {
