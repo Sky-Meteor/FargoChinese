@@ -11,11 +11,11 @@
     <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
   </ItemGroup>
   <ItemGroup>
-	  <Reference Include="Fargowiltas">
-	    <HintPath>..\..\ModReader\Fargowiltas\Fargowiltas.dll</HintPath>
-	  </Reference>
-	  <Reference Include="FargowiltasSouls">
-      <HintPath>..\FargowiltasSouls.dll</HintPath>
+    <Reference Include="Fargowiltas">
+      <HintPath>BuildIgnore\Fargowiltas.dll</HintPath>
+    </Reference>
+    <Reference Include="FargowiltasSouls">
+      <HintPath>BuildIgnore\FargowiltasSouls.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
