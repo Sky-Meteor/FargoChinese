@@ -544,9 +544,9 @@ Mods: {
 			UnsafeBlueSlabWall: 危险蓝板墙
 			UnsafeBlueTileWall: 危险蓝瓷砖墙
 			UnsafeBlueBrickWall: 危险蓝砖墙
-			UnsafeGreenSlabWall: 危险蓝板墙
-			UnsafeGreenTileWall: 危险蓝瓷砖墙
-			UnsafeGreenBrickWall: 危险蓝砖墙
+			UnsafeGreenSlabWall: 危险绿板墙
+			UnsafeGreenTileWall: 危险绿瓷砖墙
+			UnsafeGreenBrickWall: 危险绿砖墙
 			UnsafePinkSlabWall: 危险粉板墙
 			UnsafePinkTileWall: 危险粉瓷砖墙
 			UnsafePinkBrickWall: 危险粉砖墙

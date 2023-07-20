@@ -28,7 +28,7 @@ namespace FargoChinese
                 Main.NewText("-" + textLines[i].Trim(), c);
             Main.NewText("Fargo魂石的内容以及更详细的更新见Bilibili @小小法师的大决心 & @Furgo_", c);
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
-            Main.NewText($"[i:Fargowiltas/Deviantt] 288.1425.1更新：调整了三条死亡消息的汉化（Nycro无伤模组会使这些失效）", new Color(255, 102, 255));
+            Main.NewText($"[i:Fargowiltas/WitchDoctor] 288.1425.2更新：纠正了三种地牢绿墙的汉化", new Color(0, 255, 0));
             Main.NewText($"[i:{ItemID.UndergroundReward}] 查看模组配置（FCConfig）以调整部分内容！", new Color(255, 51, 51));
             if (Main.netMode == NetmodeID.MultiplayerClient)
             {
