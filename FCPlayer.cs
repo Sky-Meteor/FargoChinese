@@ -28,7 +28,10 @@ namespace FargoChinese
                 Main.NewText("-" + textLines[i].Trim(), c);
             Main.NewText("Fargo魂石的内容以及更详细的更新见Bilibili @小小法师的大决心 & @Furgo_", c);
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
-            Main.NewText($"[i:Fargowiltas/WitchDoctor] 288.1425.2更新：纠正了三种地牢绿墙和飞碟控制台的汉化", new Color(0, 255, 0));
+            Main.NewText($"[i:Fargowiltas/Wizard] 288.1425.3更新：调整了三条汉化：", new Color(255, 0, 255));
+            Main.NewText("-“山崩EX”译名改为“山崩”，原“山崩”(The Rockslide)译名改为“岩倾”", new Color(255, 0, 255));
+            Main.NewText("-为了与“森林之力”对齐，“木英灵”译名改为“森林英灵”", new Color(255, 0, 255));
+            Main.NewText("-“双子座飞轮刃”译名改为“双生旋刃”", new Color(255, 0, 255));
             Main.NewText($"[i:{ItemID.UndergroundReward}] 查看模组配置（FCConfig）以调整部分内容！", new Color(255, 51, 51));
             if (Main.netMode == NetmodeID.MultiplayerClient)
             {
