@@ -345,7 +345,7 @@ Mods: {
 			Pirate: 海盗
 			SantaClaus: 圣诞老人
 			SkeletonMerchant: 骷髅商人
-			Squirrel: 高顶礼帽松鼠
+			Squirrel: 松鼠
 			Steampunker: 蒸汽朋克人
 			Stylist: 发型师
 			Tavernkeep: 酒馆老板
@@ -1301,7 +1301,7 @@ Mods: {
 			Unlimited3: "[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠3个时获得无尽增益]"
 			PiggyBankAcc: "[i:87] [c/AAAAAA:在猪猪存钱罐和保险箱中同样生效]"
 
-			SoldBySquirrel: "高顶礼帽松鼠售卖"
+			SoldBySquirrel: "松鼠售卖"
 			SomeMaterialsSold: "售卖部分材料"
 			CraftableMaterialsSold: "售卖可合成材料"
 			SoldAtThirtyStack: "堆叠30个时售卖"
@@ -1328,7 +1328,7 @@ Mods: {
 			Deviantt: 戴薇安
 			LumberJack: 伐木工
 			Mutant: 突变体
-			Squirrel: 高顶礼帽松鼠
+			Squirrel: 松鼠
 			SuperDummy: 超级假人
 		}
 
