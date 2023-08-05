@@ -32,6 +32,7 @@ namespace FargoChinese
             Main.NewText("-“山崩EX”译名改为“山崩”，原“山崩”(The Rockslide)译名改为“岩倾”", new Color(255, 0, 255));
             Main.NewText("-为了与“森林之力”对齐，“木英灵”译名改为“森林英灵”", new Color(255, 0, 255));
             Main.NewText("-“双子座飞轮刃”译名改为“双生旋刃”", new Color(255, 0, 255));
+            Main.NewText($"[i:Fargowiltas/Squirrel] 288.1425.4更新：把“高顶礼帽松鼠”城镇NPC改名为“松鼠”（与英文对齐，减少歧义）", Color.LightGray);
             Main.NewText($"[i:{ItemID.UndergroundReward}] 查看模组配置（FCConfig）以调整部分内容！", new Color(255, 51, 51));
             if (Main.netMode == NetmodeID.MultiplayerClient)
             {
