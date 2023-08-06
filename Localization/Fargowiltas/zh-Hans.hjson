@@ -149,11 +149,11 @@ Mods: {
 			DebuffFaderRatio: "[i:1612] 头顶显示减益随时间衰减的强度"
 			TransparentFriendlyProjectiles: "[i:1309] 友好弹幕不透明度"
 			TransparentFriendlyProjectilesTooltip: 把原版的视频质量设置为中/低以获得最佳体验
-			// Mutant: "[i:Fargowiltas/MutantMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Mutant.DisplayName} {$Mods.Fargowiltas.Config.CanSpawn}]"
-			// Abom: "[i:Fargowiltas/AbominationnMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Abominationn.DisplayName} {$Mods.Fargowiltas.Config.CanSpawn}]"
-			// Devi: "[i:Fargowiltas/DevianttMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Deviantt.DisplayName} {$Mods.Fargowiltas.Config.CanSpawn}]"
-			// Lumber: "[i:Fargowiltas/LumberjackMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.LumberJack.DisplayName} {$Mods.Fargowiltas.Config.CanSpawn}]"
-			// Squirrel: "[i:239] [c/ffffff:{$Mods.Fargowiltas.NPCs.Squirrel.DisplayName} {$Mods.Fargowiltas.Config.CanSpawn}]"
+			Mutant: "[i:Fargowiltas/MutantMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Mutant.DisplayName}{$Mods.Fargowiltas.Config.CanSpawn}]"
+			Abom: "[i:Fargowiltas/AbominationnMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Abominationn.DisplayName}{$Mods.Fargowiltas.Config.CanSpawn}]"
+			Devi: "[i:Fargowiltas/DevianttMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Deviantt.DisplayName}{$Mods.Fargowiltas.Config.CanSpawn}]"
+			Lumber: "[i:Fargowiltas/LumberjackMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.LumberJack.DisplayName}{$Mods.Fargowiltas.Config.CanSpawn}]"
+			Squirrel: "[i:239] [c/ffffff:{$Mods.Fargowiltas.NPCs.Squirrel.DisplayName}{$Mods.Fargowiltas.Config.CanSpawn}]"
 		}
 
 		RecipeGroups: {
@@ -2482,10 +2482,10 @@ Mods: {
 		}
 
 		Keybinds: {
-			// "Quick Recall/Mirror.DisplayName": Quick Recall/Mirror
-			// "Quick Rod of Discord.DisplayName": Quick Rod of Discord
-			// "Quick Use Custom (Bottom Left Inventory Slot).DisplayName": Custom Quickuse (Bottom Left Inventory Slot)
-			// "Open Stat Sheet.DisplayName": Open Stat Sheet
+			"Quick Recall/Mirror.DisplayName": 快速回家
+			"Quick Rod of Discord.DisplayName": 快捷混沌传送杖
+			"Quick Use Custom (Bottom Left Inventory Slot).DisplayName": 快捷使用背包左下角物品
+			"Open Stat Sheet.DisplayName": 打开属性统计表
 		}
 	}
 }

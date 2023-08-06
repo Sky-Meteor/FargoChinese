@@ -15,12 +15,13 @@ namespace FargoChinese
         public override void OnEnterWorld()
         {
             Color c = Color.Orange;
-            Main.NewText("- Fargo突变 V 2.8.8 更新 -", c);
-            string text = @"";
+            Main.NewText("- Fargo突变 V 3.0 更新 -", c);
+            string text = @"-添加了[i:Fargowiltas/PurityTotem] 纯净图腾
+-更新到tModLoader 1.4.4";
             string[] textLines = text.Split("-");
             for (int i = 1; i < textLines.Length; i++)
                 Main.NewText("-" + textLines[i].Trim(), c);
-            Main.NewText("Fargo魂石的内容以及更详细的更新见Bilibili @小小法师的大决心 & @Furgo_", c);
+            Main.NewText("更详细的消息见Bilibili @小小法师的大决心 & @Furgo_", c);
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
             Main.NewText($"[i:{ItemID.UndergroundReward}] 查看模组配置（FCConfig）以调整部分内容！", new Color(255, 51, 51));
             if (Main.netMode == NetmodeID.MultiplayerClient)

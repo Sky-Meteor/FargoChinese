@@ -19,22 +19,22 @@ Configs: {
 
 		PainterTip: {
 			Label: 显示油漆工卖画条件提示
-			Tooltip: 当提示行变为绿色，表明你满足了条件
+			Tooltip: 提示行变为绿色，表明你满足了条件
 		}
 
 		FruitTip: {
 			Label: 显示摇树及伐木工树木宝藏掉落水果提示
-			Tooltip: 当提示行变为绿色，表明你满足了条件
+			Tooltip: 提示行变为绿色，表明你满足了条件
 		}
 
 		FishingTip: {
 			Label: 显示钓鱼装备饰品获取提示
-			Tooltip: 当提示行变为绿色，表明你满足了条件
+			Tooltip: 提示行变为绿色，表明你满足了条件
 		}
 
 		DyeTip: {
 			Label: 显示染料原料获取提示
-			Tooltip: 当提示行变为绿色，表明你满足了条件
+			Tooltip: 提示行变为绿色，表明你满足了条件
 		}
 
 		KeyBindTip: {
