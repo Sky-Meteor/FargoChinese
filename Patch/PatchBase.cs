@@ -1,7 +1,8 @@
-﻿using MonoMod.RuntimeDetour.HookGen;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
+using MonoMod.Cil;
+using MonoMod.RuntimeDetour;
 using Terraria.ModLoader;
 
 namespace FargoChinese.Patch
@@ -18,18 +19,20 @@ namespace FargoChinese.Patch
         public override bool IsLoadingEnabled(Mod mod) =>
             LoadWithFargoSouls ? ModLoader.TryGetMod("FargowiltasSouls", out _) : base.IsLoadingEnabled(mod);
 
-        private Dictionary<Delegate, MethodBase> _onMethods;
-        private Dictionary<Delegate, MethodBase> _ilMethods;
+        private List<Hook> _onHooks;
+        private List<ILHook> _ilHooks;
 
         /// <summary>
         /// 使用时若不希望覆盖记得 <see cref="Load()"/>
         /// </summary>
         public override void Load()
         {
-            /*if (MethodInfos == null)
+            if (MethodInfos == null)
                 return;
-            _onMethods = new Dictionary<Delegate, MethodBase>();
-            _ilMethods = new Dictionary<Delegate, MethodBase>();
+            Dictionary<Delegate, MethodBase> _onMethods = new Dictionary<Delegate, MethodBase>();
+            Dictionary<Delegate, MethodBase> _ilMethods = new Dictionary<Delegate, MethodBase>();
+            _onHooks = new List<Hook>();
+            _ilHooks = new List<ILHook>();
 
             foreach (var methodInfo in MethodInfos)
             {
@@ -47,25 +50,29 @@ namespace FargoChinese.Patch
             {
                 foreach (var method in _onMethods)
                 {
-                    HookEndpointManager.Add(method.Value, method.Key);
+                    Hook hook = new Hook(method.Value, method.Key);
+                    hook.Apply();
+                    _onHooks.Add(hook);
                 }
             }
             else
             {
-                _onMethods = null;
+                _onHooks = null;
             }
 
             if (_ilMethods.Count != 0)
             {
                 foreach (var method in _ilMethods)
                 {
-                    HookEndpointManager.Modify(method.Value, method.Key);
+                    ILHook ilHook = new ILHook(method.Value, new ILContext.Manipulator(i => { method.Key.DynamicInvoke(i); }));
+                    ilHook.Apply();
+                    _ilHooks.Add(ilHook);
                 }
             }
             else
             {
-                _ilMethods = null;
-            }*/
+                _ilHooks = null;
+            }
         }
 
         /// <summary>
@@ -73,26 +80,26 @@ namespace FargoChinese.Patch
         /// </summary>
         public override void Unload()
         {
-            /*if (MethodInfos == null)
+            if (MethodInfos == null)
                 return;
 
-            if (_onMethods != null)
+            if (_onHooks != null)
             {
-                foreach (var method in _onMethods)
+                foreach (var onHook in _onHooks)
                 {
-                    HookEndpointManager.Remove(method.Value, method.Key);
+                    onHook.Dispose();
                 }
-                _onMethods = null;
+                _onHooks = null;
             }
 
-            if (_ilMethods != null)
+            if (_ilHooks != null)
             {
-                foreach (var method in _ilMethods)
+                foreach (var ilHook in _ilHooks)
                 {
-                    HookEndpointManager.Unmodify(method.Value, method.Key);
+                    ilHook.Dispose();
                 }
-                _ilMethods = null;
-            }*/
+                _ilHooks = null;
+            }
         }
     }
 }
