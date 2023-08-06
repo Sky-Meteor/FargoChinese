@@ -8,6 +8,10 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <AdditionalFiles Include="Localization\FargoSouls\zh-Hans.hjson.disabled" />
+    <AdditionalFiles Include="Localization\zh-Hans.hjson.old" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
   </ItemGroup>
   <ItemGroup>
