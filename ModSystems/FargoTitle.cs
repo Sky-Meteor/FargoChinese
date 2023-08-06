@@ -12,10 +12,10 @@ namespace FargoChinese.ModSystems
 
         public override void Load()
         {
-            On.Terraria.Lang.GetRandomGameTitle += Lang_GetRandomGameTitle;
+            Terraria.On_Lang.GetRandomGameTitle += Lang_GetRandomGameTitle;
         }
 
-        private static string Lang_GetRandomGameTitle(On.Terraria.Lang.orig_GetRandomGameTitle orig)
+        private static string Lang_GetRandomGameTitle(Terraria.On_Lang.orig_GetRandomGameTitle orig)
         {
             if (FargoSoulsWorld.MasochistModeReal)
             {
@@ -57,7 +57,7 @@ namespace FargoChinese.ModSystems
 
         public override void Unload()
         {
-            On.Terraria.Lang.GetRandomGameTitle -= Lang_GetRandomGameTitle;
+            Terraria.On_Lang.GetRandomGameTitle -= Lang_GetRandomGameTitle;
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿using On.Terraria.GameContent.UI.Elements;
+﻿using Terraria.GameContent.UI.Elements;
 using System.Reflection;
 
 namespace FargoChinese.Patch
@@ -7,10 +7,10 @@ namespace FargoChinese.Patch
     {
         public override void Load()
         {
-            UIKeybindingListItem.GetFriendlyName += UIKeybindingListItem_GetFriendlyName;
+            On_UIKeybindingListItem.GetFriendlyName += UIKeybindingListItem_GetFriendlyName;
         }
 
-        private static string UIKeybindingListItem_GetFriendlyName(UIKeybindingListItem.orig_GetFriendlyName orig, Terraria.GameContent.UI.Elements.UIKeybindingListItem item)
+        private static string UIKeybindingListItem_GetFriendlyName(On_UIKeybindingListItem.orig_GetFriendlyName orig, Terraria.GameContent.UI.Elements.UIKeybindingListItem item)
         {
             if (item.GetType().GetField("_keybind", (BindingFlags)60)?.GetValue(item) is not string keybindName)
                 return orig.Invoke(item);
@@ -36,7 +36,7 @@ namespace FargoChinese.Patch
         }
         public override void Unload()
         {
-            UIKeybindingListItem.GetFriendlyName -= UIKeybindingListItem_GetFriendlyName;
+            On_UIKeybindingListItem.GetFriendlyName -= UIKeybindingListItem_GetFriendlyName;
         }
     }
 }

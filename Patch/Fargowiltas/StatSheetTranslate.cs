@@ -23,16 +23,16 @@ namespace FargoChinese.Patch.Fargowiltas
         public override void Load()
         {
             base.Load();
-            On.Terraria.Main.DrawInterface_33_MouseText += Main_DrawInterface_33_MouseText;
+            Terraria.On_Main.DrawInterface_33_MouseText += Main_DrawInterface_33_MouseText;
         }
 
         public override void Unload()
         {
             base.Unload();
-            On.Terraria.Main.DrawInterface_33_MouseText -= Main_DrawInterface_33_MouseText;
+            Terraria.On_Main.DrawInterface_33_MouseText -= Main_DrawInterface_33_MouseText;
         }
 
-        private static void Main_DrawInterface_33_MouseText(On.Terraria.Main.orig_DrawInterface_33_MouseText orig, Main self)
+        private static void Main_DrawInterface_33_MouseText(Terraria.On_Main.orig_DrawInterface_33_MouseText orig, Main self)
         {
             if (Main.hoverItemName == "Stat Sheet")
                 Main.hoverItemName = "属性统计表";

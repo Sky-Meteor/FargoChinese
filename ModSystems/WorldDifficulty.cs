@@ -56,7 +56,7 @@ namespace FargoChinese.ModSystems
             _saveWorldDifficulty.Put("WorldDifficulty", _worldMode);
             _saveWorldDifficulty.Save();
         }
-        private void Main_EraseWorld(On.Terraria.Main.orig_EraseWorld orig, int i)
+        private void Main_EraseWorld(Terraria.On_Main.orig_EraseWorld orig, int i)
         {
             _worldMode.Remove(Main.WorldList[i].UniqueId);
             orig.Invoke(i);
@@ -162,10 +162,10 @@ namespace FargoChinese.ModSystems
             _data = typeof(UIWorldListItem).GetField("_data", BindingFlags.NonPublic | BindingFlags.Instance);
             _enableWorldDifficultyShader = ModContent.GetInstance<FCConfig>().EnableWorldDifficultyShader;
 
-            On.Terraria.Main.EraseWorld += Main_EraseWorld;
-            IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf;
+            Terraria.On_Main.EraseWorld += Main_EraseWorld;
+            Terraria.GameContent.UI.Elements.IL_UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf;
             if (ModContent.GetInstance<FCConfig>().EnableWorldDifficultyShader)
-                IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf_Shader;
+                Terraria.GameContent.UI.Elements.IL_UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf_Shader;
         }
 
         public override void Unload()
@@ -176,9 +176,9 @@ namespace FargoChinese.ModSystems
             // _worldMode = null;
 
             // _data = null;
-            On.Terraria.Main.EraseWorld -= Main_EraseWorld;
-            IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf;
-            IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf_Shader;
+            Terraria.On_Main.EraseWorld -= Main_EraseWorld;
+            Terraria.GameContent.UI.Elements.IL_UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf;
+            Terraria.GameContent.UI.Elements.IL_UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf_Shader;
         }
         #endregion
     }

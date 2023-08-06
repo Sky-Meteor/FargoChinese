@@ -26,7 +26,7 @@ namespace FargoChinese.Patch
         /// </summary>
         public override void Load()
         {
-            if (MethodInfos == null)
+            /*if (MethodInfos == null)
                 return;
             _onMethods = new Dictionary<Delegate, MethodBase>();
             _ilMethods = new Dictionary<Delegate, MethodBase>();
@@ -65,7 +65,7 @@ namespace FargoChinese.Patch
             else
             {
                 _ilMethods = null;
-            }
+            }*/
         }
 
         /// <summary>
@@ -73,7 +73,7 @@ namespace FargoChinese.Patch
         /// </summary>
         public override void Unload()
         {
-            if (MethodInfos == null)
+            /*if (MethodInfos == null)
                 return;
 
             if (_onMethods != null)
@@ -92,7 +92,7 @@ namespace FargoChinese.Patch
                     HookEndpointManager.Unmodify(method.Value, method.Key);
                 }
                 _ilMethods = null;
-            }
+            }*/
         }
     }
 }

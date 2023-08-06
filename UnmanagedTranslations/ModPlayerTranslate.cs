@@ -1,4 +1,4 @@
-﻿using Terraria;
+﻿/*using Terraria;
 using Terraria.DataStructures;
 using Terraria.ModLoader;
 
@@ -18,4 +18,4 @@ namespace FargoChinese.UnmanagedTranslations
             return base.PreHurt(pvp, quiet, ref damage, ref hitDirection, ref crit, ref customDamage, ref playSound, ref genGore, ref damageSource, ref cooldownCounter);
         }
     }
-}
+}*/

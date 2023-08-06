@@ -12,7 +12,7 @@ namespace FargoChinese.Patch.FargowiltasSouls
 
         public override void Load()
         {
-            IL.Terraria.GameContent.UI.Elements.UIBestiaryInfoItemLine.SetBestiaryNotesOnItemCache += UIBestiaryInfoItemLine_SetBestiaryNotesOnItemCache;
+            Terraria.GameContent.UI.Elements.IL_UIBestiaryInfoItemLine.SetBestiaryNotesOnItemCache += UIBestiaryInfoItemLine_SetBestiaryNotesOnItemCache;
         }
 
         private static void UIBestiaryInfoItemLine_SetBestiaryNotesOnItemCache(ILContext il)
@@ -40,7 +40,7 @@ namespace FargoChinese.Patch.FargowiltasSouls
 
         public override void Unload()
         {
-            IL.Terraria.GameContent.UI.Elements.UIBestiaryInfoItemLine.SetBestiaryNotesOnItemCache += UIBestiaryInfoItemLine_SetBestiaryNotesOnItemCache;
+            Terraria.GameContent.UI.Elements.IL_UIBestiaryInfoItemLine.SetBestiaryNotesOnItemCache += UIBestiaryInfoItemLine_SetBestiaryNotesOnItemCache;
         }
     }
 }
