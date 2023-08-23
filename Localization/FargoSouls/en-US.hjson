@@ -6383,6 +6383,17 @@ Mods: {
 			"Frigid Spell.DisplayName": Frigid  Spell
 			"Debuff Install.DisplayName": Debuff  Install
 			"Ammo Cycle.DisplayName": Ammo  Cycle
+			弹药切换.DisplayName: 弹药切换
+			减益负载.DisplayName: 减益负载
+			寒霜咒语.DisplayName: 寒霜咒语
+			魔法净化.DisplayName: 魔法净化
+			玲珑圣印精确模式.DisplayName: 玲珑圣印精确模式
+			打开魂石效果设置.DisplayName: 打开魂石效果设置
+			突变炸弹.DisplayName: 突变炸弹
+			特殊冲刺.DisplayName: 特殊冲刺
+			投掷烟雾弹.DisplayName: 投掷烟雾弹
+			金身.DisplayName: 金身
+			冻结.DisplayName: 冻结
 		}
 
 		Configs: {
