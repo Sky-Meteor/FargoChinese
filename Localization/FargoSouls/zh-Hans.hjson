@@ -2440,6 +2440,7 @@ Mods: {
 					'''
 					双击“下”键会在光标位置召唤远古风暴
 					穿过风暴的弹幕会额外造成30%伤害
+					接触风暴可以恢复飞行时间
 					“走路像个埃及人”
 					'''
 			}
@@ -3027,144 +3028,143 @@ Mods: {
 
 			CosmoForce: {
 				DisplayName: 宇宙之力
-				/* Tooltip:
+				Tooltip:
 					'''
-					[i:FargowiltasSouls/MeteorEnchant] A meteor shower initiates every few seconds while attacking
-					[i:FargowiltasSouls/SolarEnchant] Solar shield allows you to dash through enemies
-					[i:FargowiltasSouls/SolarEnchant] Attacks may inflict the Solar Flare debuff
-					[i:FargowiltasSouls/VortexEnchant] Double tap down to toggle stealth and spawn a vortex
-					[i:FargowiltasSouls/NebulaEnchant] Hurting enemies has a chance to spawn buff boosters
-					[i:FargowiltasSouls/StardustEnchant] A stardust guardian will protect you from nearby enemies
-					[i:FargowiltasSouls/StardustEnchant] Press the Freeze Key to freeze time for 9 seconds, 60 second cooldown
-					'Been around since the Big Bang'
-					''' */
+					[i:FargowiltasSouls/MeteorEnchant] 攻击时每过几秒便会召唤一次流星雨
+					[i:FargowiltasSouls/SolarEnchant] 允许你使用日耀护盾进行冲刺
+					[i:FargowiltasSouls/SolarEnchant] 攻击有几率造成太阳耀斑减益
+					[i:FargowiltasSouls/VortexEnchant] 双击“下”键切换至隐形模式，生成一个旋涡
+					[i:FargowiltasSouls/NebulaEnchant] 对敌人造成伤害时有几率生成强化焰
+					[i:FargowiltasSouls/StardustEnchant] 星尘守卫将保护你不受附近敌人的伤害
+					[i:FargowiltasSouls/StardustEnchant] 按下“冻结”键后会冻结时间，持续9秒，有60秒冷却时间
+					“自宇宙大爆炸以来就一直存在”
+					'''
 			}
 
 			EarthForce: {
 				DisplayName: 大地之力
-				/* Tooltip:
+				Tooltip:
 					'''
-					[i:FargowiltasSouls/CobaltEnchant] Grants an explosion jump and you explode on hit
-					[i:FargowiltasSouls/PalladiumEnchant] Stop attacking to gradually increase attack speed for up to 5 seconds
-					[i:FargowiltasSouls/MythrilEnchant] Grants Rapid Healing after striking an enemy and spawn life orbs based on healing
-					[i:FargowiltasSouls/OrichalcumEnchant] Attacks spawn flower petals and damaging debuffs deal 4x damage
-					[i:FargowiltasSouls/AdamantiteEnchant] Every weapon shot will split into 3, deal 33% damage and have 66% less iframes
-					[i:FargowiltasSouls/TitaniumEnchant] Attacks generate titanium shards, reaching max grants Titanium Shield
-					'Gaia's blessing shines upon you'
-					''' */
+					[i:FargowiltasSouls/CobaltEnchant] 额外获得一次爆炸二段跳，受击时你会剧烈爆炸（译者注：大地之力只有受击爆炸效果，没有爆炸跳跃效果）
+					[i:FargowiltasSouls/PalladiumEnchant] 停止攻击以逐渐增加攻击速度，最多持续5秒
+					[i:FargowiltasSouls/MythrilEnchant] 暴击敌人会快速治疗，基于回复的血量放出生命能量球
+					[i:FargowiltasSouls/OrichalcumEnchant] 攻击生成花瓣，伤害性减益造成4倍伤害
+					[i:FargowiltasSouls/AdamantiteEnchant] 你发射的所有弹幕都会分裂成三个，造成33%伤害且伤害频率提升到3倍，增加与其一半伤害相等的护甲穿透
+					[i:FargowiltasSouls/TitaniumEnchant] 攻击生成钛金碎片防御屏障，达到最大个数获得钛金护盾
+					“盖亚的祝福照耀着你”
+					'''
 			}
 
 			LifeForce: {
 				DisplayName: 生命之力
-				/* Tooltip:
+				Tooltip:
 					'''
-					[i:FargowiltasSouls/PumpkinEnchant] You will grow pumpkins while walking on the ground
-					[i:FargowiltasSouls/CactusEnchant] Enemies may explode into needles on death
-					[i:FargowiltasSouls/BeeEnchant] Melee hits and most piercing attacks spawn bees
-					[i:FargowiltasSouls/SpiderEnchant] 30% chance for minions and sentries to crit for x1.5 damage instead of x2
-					[i:FargowiltasSouls/TurtleEnchant] When standing still and not attacking, you will enter your shell
-					[i:FargowiltasSouls/BeetleEnchant] Beetles aid both offense and defense
-					'Rare is a living thing that dare disobey your will'
-					''' */
+					[i:FargowiltasSouls/PumpkinEnchant] 你在地上行走时会种下南瓜
+					[i:FargowiltasSouls/CactusEnchant] 敌人死亡时有几率爆裂出针刺
+					[i:FargowiltasSouls/BeeEnchant] 近战攻击和大多数穿透类弹幕击中敌人时会生成蜜蜂
+					[i:FargowiltasSouls/SpiderEnchant] 仆从和哨兵可以造成暴击，且有30%基础暴击率，但暴击伤害只有1.5倍而不是2倍
+					[i:FargowiltasSouls/TurtleEnchant] 站定不动时且不攻击时你会缩进壳里
+					[i:FargowiltasSouls/BeetleEnchant] 甲虫会提高你的攻击能力和防御能力
+					“罕有生灵敢违背你的意愿”
+					'''
 			}
 
 			NatureForce: {
 				DisplayName: 自然之力
-				/* Tooltip:
+				Tooltip:
 					'''
-					[i:FargowiltasSouls/CrimsonEnchant] After taking a hit, regen is greatly increased until the hit is healed off
-					[i:FargowiltasSouls/MoltenEnchant] Nearby enemies are ignited in a greater radius
-					[i:FargowiltasSouls/MoltenEnchant] When you are hurt, you violently explode to damage nearby enemies
-					[i:FargowiltasSouls/RainEnchant] Spawns a miniature storm to follow you around
-					[i:FargowiltasSouls/FrostEnchant] Icicles will start to appear around you
-					[i:FargowiltasSouls/SnowEnchant] Press the Freeze Key to temporarily chill everything
-					[i:FargowiltasSouls/ChlorophyteEnchant] Summons a ring of leaf crystals to shoot at nearby enemies
-					[i:FargowiltasSouls/JungleEnchant] Grants a double spore jump
-					[i:FargowiltasSouls/ShroomiteEnchant] Not moving puts you in stealth
-					[i:FargowiltasSouls/ShroomiteEnchant] All attacks gain trails of mushrooms
-					'Tapped into every secret of the wilds'
-					''' */
+					[i:FargowiltasSouls/CrimsonEnchant] 在你受到伤害后大幅增加你的生命恢复速度，直至你恢复的生命量等同于这次受到的伤害量
+					[i:FargowiltasSouls/MoltenEnchant] 引燃你附近较大范围内的敌人
+					[i:FargowiltasSouls/MoltenEnchant] 所有敌怪在狱火圈内时多受到50%伤害
+					[i:FargowiltasSouls/RainEnchant] 召唤一个微型雨云跟着你的光标
+					[i:FargowiltasSouls/SnowEnchant] 你的周围会出现冰锥
+					[i:FargowiltasSouls/ChlorophyteEnchant] 召唤一圈叶绿水晶攻击附近的敌人
+					[i:FargowiltasSouls/JungleEnchant] 使你获得孢子二段跳能力
+					[i:FargowiltasSouls/ShroomiteEnchant] 站定不动时使你进入隐身状态
+					[i:FargowiltasSouls/ShroomiteEnchant] 所有攻击都会留下蘑菇尾迹
+					“走遍荒野的每一个秘密角落”
+					'''
 			}
 
 			ShadowForce: {
 				DisplayName: 暗影之力
-				/* Tooltip:
+				Tooltip:
 					'''
-					[i:FargowiltasSouls/ShadowEnchant] Four Shadow Orbs will orbit around you
-					[i:FargowiltasSouls/AncientShadowEnchant] Your attacks may inflict Darkness on enemies
-					[i:FargowiltasSouls/NecroEnchant] Slain enemies may drop a pile of bones
-					[i:FargowiltasSouls/NinjaEnchant] Drastically increases projectile and attack speed but reduces damage
-					[i:FargowiltasSouls/CrystalAssassinEnchant] Throw a smoke bomb to teleport to it and gain the First Strike Buff
-					[i:FargowiltasSouls/CrystalAssassinEnchant] Effects of Volatile Gel
-					[i:FargowiltasSouls/SpookyEnchant] All of your minions gain an extra scythe attack
-					[i:FargowiltasSouls/MonkEnchant] Don't attack to gain a single use monk dash
-					[i:FargowiltasSouls/ShinobiEnchant] Dash into any walls, to teleport through them to the next opening
-					[i:FargowiltasSouls/ApprenticeEnchant] After attacking for 2 seconds you will be enveloped in flames
-					[i:FargowiltasSouls/ApprenticeEnchant] Switching weapons will increase the next attack's damage by 150%
-					[i:FargowiltasSouls/DarkArtistEnchant] Summons a Flameburst minion that will travel to your mouse after charging
+					[i:FargowiltasSouls/ShadowEnchant] 四颗暗影珠绕着你旋转
+					[i:FargowiltasSouls/AncientShadowEnchant] 攻击有几率造成黑暗减益
+					[i:FargowiltasSouls/NecroEnchant] 击杀敌人时有几率爆出一个骨堆，拥有骨头手套的效果
+					[i:FargowiltasSouls/NinjaEnchant] 大幅提升弹幕和召唤物速度以及攻击速度，但降低伤害
+					[i:FargowiltasSouls/CrystalAssassinEnchant] 你可以扔出烟雾弹、传送至烟雾弹的位置获得先发制人增益
+					[i:FargowiltasSouls/CrystalAssassinEnchant] 获得水晶刺客冲刺
+					[i:FargowiltasSouls/SpookyEnchant] 你的召唤物能进行额外的镰刀攻击
+					[i:FargowiltasSouls/MonkEnchant] 不攻击可以进行一次武僧冲刺
+					[i:FargowiltasSouls/ShinobiEnchant] 朝墙壁冲刺时会直接穿过去
+					[i:FargowiltasSouls/ApprenticeEnchant] 持续攻击两秒后你将被火焰包裹
+					[i:FargowiltasSouls/ApprenticeEnchant] 切换武器后，下次攻击的伤害增加150%
+					[i:FargowiltasSouls/DarkArtistEnchant] 召唤一个爆炸烈焰仆从，在充能完毕后会移动至光标位置
 					'Dark, Darker, Yet Darker'
-					''' */
+					'''
 			}
 
 			SpiritForce: {
 				DisplayName: 心灵之力
-				/* Tooltip:
+				Tooltip:
 					'''
-					[i:FargowiltasSouls/FossilEnchant] If you reach zero HP you will revive with 50 HP and spawn several bones
-					[i:FargowiltasSouls/FossilEnchant] Collect the bones once they stop moving to heal for 15 HP each
-					[i:FargowiltasSouls/ForbiddenEnchant] Double tap down to call an ancient storm to the cursor location
-					[i:FargowiltasSouls/ForbiddenEnchant] Any projectiles shot through your storm gain 60% damage
-					[i:FargowiltasSouls/AncientHallowEnchant] You gain a shield that can reflect projectiles
-					[i:FargowiltasSouls/AncientHallowEnchant] Summons a Terraprisma familiar
-					[i:FargowiltasSouls/HallowEnchant] Become immune after striking an enemy
-					[i:FargowiltasSouls/TikiEnchant] Whip your summons to make them work harder
-					[i:FargowiltasSouls/SpectreEnchant] Damage has a chance to spawn damaging and healing orbs
-					'Ascend from this mortal realm'
-					''' */
+					[i:FargowiltasSouls/FossilEnchant] 受到致死伤害时会以200生命值重生并爆出几根骨头
+					[i:FargowiltasSouls/FossilEnchant] 接触停止移动的骨头时会回复20点生命值
+					[i:FargowiltasSouls/ForbiddenEnchant] 双击“下”键会在光标位置召唤远古风暴
+					[i:FargowiltasSouls/ForbiddenEnchant] 穿过远古风暴的弹幕会额外获得60%伤害
+					[i:FargowiltasSouls/AncientHallowEnchant] 使你获得一面可以反弹弹幕的盾牌
+					[i:FargowiltasSouls/AncientHallowEnchant] 召唤一柄泰拉棱镜，其伤害接受召唤伤害加成
+					[i:FargowiltasSouls/HallowEnchant] 攻击敌人后会使你无敌一小段时间
+					[i:FargowiltasSouls/TikiEnchant] 鞭打你的召唤物可以让它们更勤奋
+					[i:FargowiltasSouls/SpectreEnchant] 对敌人造成伤害时有几率生成幽灵珠
+					“飘飘乎如遗世独立，羽化而登仙”
+					'''
 			}
 
 			TerraForce: {
 				DisplayName: 泰拉之力
-				/* Tooltip:
+				Tooltip:
 					'''
-					[i:FargowiltasSouls/CopperEnchant][i:FargowiltasSouls/ObsidianEnchant][i:FargowiltasSouls/LeadEnchant] Attacks spawn lightning, explosions, and inflict Lead Poisoning
-					[i:FargowiltasSouls/TinEnchant] Sets Tin crit chance to 10%, increasing up to double your current crit chance or 50%
-					[i:FargowiltasSouls/IronEnchant] You attract items from further away, 33% chance to not consume items at an Anvil
-					[i:FargowiltasSouls/LeadEnchant] You take 60% less from damage over time
-					[i:FargowiltasSouls/SilverEnchant] Right Click to guard with your shield
-					[i:FargowiltasSouls/TungstenEnchant] 300% increased sword size and projectile size every quarter second
-					[i:FargowiltasSouls/ObsidianEnchant] Grants immunity to fire and lava
-					'The land lends its strength'
-					''' */
+					[i:FargowiltasSouls/CopperEnchant][i:FargowiltasSouls/ObsidianEnchant][i:FargowiltasSouls/LeadEnchant] 攻击释放闪电，引发爆炸，造成铅中毒
+					[i:FargowiltasSouls/TinEnchant] 将你的基础暴击率设为10%，暴击率最多提升至你目前暴击率的两倍（至少50%）
+					[i:FargowiltasSouls/IronEnchant] 你能在更远处拾取物品，在砧处合成物品时33%的几率不消耗制作材料
+					[i:FargowiltasSouls/LeadEnchant] 受到的持续伤害降低60%
+					[i:FargowiltasSouls/SilverEnchant] 右键进行盾牌格挡
+					[i:FargowiltasSouls/TungstenEnchant] 每过0.25秒剑和弹幕的大小增加300%
+					[i:FargowiltasSouls/ObsidianEnchant] 使你免疫火块与熔岩
+					“大地赐予它力量”
+					'''
 			}
 
 			TimberForce: {
 				DisplayName: 森林之力
-				/* Tooltip:
+				Tooltip:
 					'''
-					[i:FargowiltasSouls/WoodEnchant] You gain a shop discount based on bestiary completion
-					[i:FargowiltasSouls/BorealWoodEnchant] Attacks will periodically be accompanied by several snowballs
-					[i:FargowiltasSouls/RichMahoganyEnchant] All grappling hooks shoot, pull, and retract 2.5x as fast
-					[i:FargowiltasSouls/EbonwoodEnchant][i:FargowiltasSouls/ShadewoodEnchant] You have an aura of Corruption and Bleeding
-					[i:FargowiltasSouls/PalmWoodEnchant] Double tap down to spawn up to 3 palm tree sentries
-					[i:FargowiltasSouls/PearlwoodEnchant] Projectiles may spawn a star when they hit something
-					'Extremely rigid'
-					''' */
+					[i:FargowiltasSouls/WoodEnchant] 商店价格会依据你的图鉴解锁度降低
+					[i:FargowiltasSouls/BorealWoodEnchant] 攻击时定期释放几个雪球
+					[i:FargowiltasSouls/RichMahoganyEnchant] 所有钩爪的抛出速度×2，牵引速度×2.5，回收速度×3
+					[i:FargowiltasSouls/EbonwoodEnchant][i:FargowiltasSouls/ShadewoodEnchant] 暗影焰、诅咒焰和鲜血光环环绕着你
+					[i:FargowiltasSouls/PalmWoodEnchant] 双击“下”键召唤一个会向敌人扔橡实的棕榈树哨兵
+					[i:FargowiltasSouls/PearlwoodEnchant] 弹幕击中敌人或物块时有几率生成一颗星星
+					“很硬”
+					'''
 			}
 
 			WillForce: {
 				DisplayName: 意志之力
-				/* Tooltip:
+				Tooltip:
 					'''
-					[i:FargowiltasSouls/GoldEnchant] Press the Gold hotkey to be encased in a Golden Shell
-					[i:FargowiltasSouls/GoldEnchant] Automatically sends coins to your piggy bank when picked up
-					[i:FargowiltasSouls/PlatinumEnchant] 20% chance for enemies to drop 5x loot
-					[i:FargowiltasSouls/GladiatorEnchant] Spears will rain down on struck enemies
-					[i:FargowiltasSouls/GladiatorEnchant] Grants knockback immunity when you are facing the attack
-					[i:FargowiltasSouls/RedRidingEnchant] Successive attack gain bonus damage 
-					[i:FargowiltasSouls/ValhallaKnightEnchant] Increases the effectiveness of healing sources by 50%
-					'A mind of unbreakable determination'
-					''' */
+					[i:FargowiltasSouls/GoldEnchant] 按下“金身”键会将你包裹在一个黄金壳中
+					[i:FargowiltasSouls/GoldEnchant] 捡起钱币时，自动将它们存进猪猪存钱罐中
+					[i:FargowiltasSouls/PlatinumEnchant] 敌人死亡时有20%的几率获得五倍的战利品
+					[i:FargowiltasSouls/GladiatorEnchant] 长矛将倾泄在被攻击的敌人身上
+					[i:FargowiltasSouls/GladiatorEnchant] 当你面向攻击时免疫击退
+					[i:FargowiltasSouls/RedRidingEnchant] 连续攻击命中会获得额外伤害加成
+					[i:FargowiltasSouls/ValhallaKnightEnchant] 回复生命值时，治疗量增加50%
+					“坚不可摧的决心”
+					'''
 			}
 
 			AbominableWand: {
