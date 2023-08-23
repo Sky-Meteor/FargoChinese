@@ -15,7 +15,7 @@ namespace FargoChinese
         public override void OnEnterWorld()
         {
             Color c = Color.Orange;
-            Main.NewText("Fargo更新后，鉴于代码内和游戏内的诸多问题，汉化的制作遇到更多困难，Fargo汉化也需要一定时间来修补错误，因此，短时间内，Fargo汉化不会更新\n更多解释查看B站 @FallingLeaf落叶 的动态 https://www.bilibili.com/opus/832914516570275889\n注：Fargo突变内容大体没有错误，但Fargo包括突变和魂对于1.4.4及其新种子适配极差，尤其不推荐在新种子中游玩", c);
+            Main.NewText("Fargo更新后，鉴于代码内和游戏内的诸多问题，汉化的制作遇到更多困难，Fargo汉化也需要一定时间来修补错误，因此，短时间内，Fargo汉化不会更新\n更多解释查看B站 @FallingLeaf落叶 的动态 https://www.bilibili.com/opus/832914516570275889\n注：Fargo突变内容的汉化大体没有错误，但Fargo包括突变和魂对于1.4.4及其新种子适配极差，尤其不推荐在新种子中游玩", c);
             /*Main.NewText("- Fargo突变 V 3.0.0 更新 -", c);
             string text = @"-添加了[i:Fargowiltas/PurityTotem] 纯净图腾
 -更新到tModLoader 1.4.4";
