@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using FargowiltasSouls.Core.Systems;
 using Terraria;
 using Terraria.GameContent.UI.Elements;
 using Terraria.Graphics.Shaders;
@@ -39,9 +40,9 @@ namespace FargoChinese.ModSystems
             }
 
             int difficulty = 0;
-            if (FargoSoulsWorld.EternityMode)
+            if (WorldSavingSystem.EternityMode)
                 difficulty = 1;
-            if (FargoSoulsWorld.MasochistModeReal)
+            if (WorldSavingSystem.MasochistModeReal)
                 difficulty = 2;
 
             if (difficulty == 0)
@@ -56,6 +57,11 @@ namespace FargoChinese.ModSystems
             _saveWorldDifficulty.Put("WorldDifficulty", _worldMode);
             _saveWorldDifficulty.Save();
         }
+        public override void LoadWorldData(TagCompound tag)
+        {
+            base.LoadWorldData(tag);
+        }
+
         private void Main_EraseWorld(Terraria.On_Main.orig_EraseWorld orig, int i)
         {
             _worldMode.Remove(Main.WorldList[i].UniqueId);

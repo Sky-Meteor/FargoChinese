@@ -1,4 +1,4 @@
-﻿using FargoChinese.Patch;
+﻿/*using FargoChinese.Patch;
 using FargowiltasSouls;
 using Terraria;
 using Terraria.ModLoader;
@@ -31,7 +31,7 @@ namespace FargoChinese.ModSystems
                 };
             }
 
-            if (FargoSoulsWorld.EternityMode)
+            if (WorldSavingSystem.EternityMode)
             {
                 return Main.rand.Next(8) switch
                 {
@@ -60,4 +60,4 @@ namespace FargoChinese.ModSystems
             Terraria.On_Lang.GetRandomGameTitle -= Lang_GetRandomGameTitle;
         }
     }
-}
+}*/

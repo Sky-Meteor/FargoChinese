@@ -2,11 +2,11 @@
 using Fargowiltas.Items.CaughtNPCs;
 using Fargowiltas.Items.Misc;
 using Fargowiltas.NPCs;
-using FargowiltasSouls.Items.Accessories.Enchantments;
-using FargowiltasSouls.Items.Accessories.Forces;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+using FargowiltasSouls.Content.Items.Accessories.Enchantments;
+using FargowiltasSouls.Content.Items.Accessories.Forces;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -174,7 +174,7 @@ namespace FargoChinese.UnmanagedTranslations
                         ModifyTooltip("[i:87] [c/AAAAAA:在猪猪存钱罐和保险箱中同样生效]", "[i:87] [c/AAAAAA:Works from Piggy Bank and Safe]");
                 }
 
-                if (Squirrel.SquirrelSells(item, out Squirrel.SquirrelSellType sellType) != Squirrel.ShopGroup.End)
+                if (Squirrel.SquirrelSells(item, out SquirrelSellType sellType) != SquirrelShopGroup.End)
                 {
                     string text = Regex.Replace(sellType.ToString(), "([a-z])([A-Z])", "$1 $2");
                     switch (text)

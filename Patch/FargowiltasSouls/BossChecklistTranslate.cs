@@ -1,5 +1,4 @@
-﻿using FargowiltasSouls.Items.Summons;
-using Terraria.Localization;
+﻿/*using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace FargoChinese.Patch.FargowiltasSouls
@@ -25,4 +24,4 @@ namespace FargoChinese.Patch.FargowiltasSouls
 
         }
     }
-}
+}*/
