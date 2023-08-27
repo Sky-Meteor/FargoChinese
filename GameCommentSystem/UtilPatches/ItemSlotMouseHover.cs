@@ -1,4 +1,4 @@
-﻿using FargoChinese.Patch;
+﻿/*using FargoChinese.Patch;
 using Terraria;
 
 namespace FargoChinese.GameCommentSystem.UtilPatches
@@ -21,4 +21,4 @@ namespace FargoChinese.GameCommentSystem.UtilPatches
             Terraria.UI.On_ItemSlot.MouseHover_ItemArray_int_int -= ItemSlot_MouseHover_ItemArray_int_int;
         }
     }
-}
+}*/

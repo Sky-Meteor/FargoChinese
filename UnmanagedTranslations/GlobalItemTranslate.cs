@@ -4,7 +4,9 @@ using Fargowiltas.Items.Misc;
 using Fargowiltas.NPCs;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text.RegularExpressions;
+using Fargowiltas.Common.Configs;
 using FargowiltasSouls.Content.Items.Accessories.Enchantments;
 using FargowiltasSouls.Content.Items.Accessories.Forces;
 using Terraria;
@@ -57,9 +59,10 @@ namespace FargoChinese.UnmanagedTranslations
                 }
             }
 
-            var fargoConfig = GetInstance<FargoConfig>();
+            var fargoClientConfig = GetInstance<FargoClientConfig>();
+            var fargoServerConfig = GetInstance<FargoServerConfig>();
 
-            if (fargoConfig.ExpandedTooltips)
+            if (fargoClientConfig.ExpandedTooltips)
             {
                 void ModifyFountainTooltip(string zhBiome, string enBiome)
                 {
@@ -77,52 +80,52 @@ namespace FargoChinese.UnmanagedTranslations
                 switch (item.type)
                 {
                     case ItemID.PureWaterFountain:
-                        if (fargoConfig.Fountains)
+                        if (fargoServerConfig.Fountains)
                             ModifyFountainTooltip("海洋", "Ocean");
                         break;
 
                     case ItemID.OasisFountain:
                     case ItemID.DesertWaterFountain:
-                        if (fargoConfig.Fountains)
+                        if (fargoServerConfig.Fountains)
                             ModifyFountainTooltip("沙漠", "Desert");
                         break;
 
                     case ItemID.JungleWaterFountain:
-                        if (fargoConfig.Fountains)
+                        if (fargoServerConfig.Fountains)
                             ModifyFountainTooltip("丛林", "Jungle");
                         break;
 
                     case ItemID.IcyWaterFountain:
-                        if (fargoConfig.Fountains)
+                        if (fargoServerConfig.Fountains)
                             ModifyFountainTooltip("雪原", "Snow");
                         break;
 
                     case ItemID.CorruptWaterFountain:
-                        if (fargoConfig.Fountains)
+                        if (fargoServerConfig.Fountains)
                             ModifyFountainTooltip("腐化之地", "Corruption");
                         break;
 
                     case ItemID.CrimsonWaterFountain:
-                        if (fargoConfig.Fountains)
+                        if (fargoServerConfig.Fountains)
                             ModifyFountainTooltip("猩红之地", "Crimson");
                         break;
 
                     case ItemID.HallowedWaterFountain:
-                        if (fargoConfig.Fountains)
+                        if (fargoServerConfig.Fountains)
                             ModifyFountainTooltip("神圣之地（在困难模式中生效）", "Hallow (in hardmode only)");
                         break;
 
                     case ItemID.BugNet:
                     case ItemID.GoldenBugNet:
                     case ItemID.FireproofBugNet:
-                        if (fargoConfig.CatchNPCs)
+                        if (fargoServerConfig.CatchNPCs)
                         {
                             ModifyTooltip("[i:1991] [c/AAAAAA:可以抓城镇NPC]", "[i:1991] [c/AAAAAA:Can also catch townsfolk]");
                         }
                         break;
                 }
 
-                if (fargoConfig.ExtraLures)
+                if (fargoServerConfig.ExtraLures)
                 {
                     switch (item.type)
                     {
@@ -150,13 +153,13 @@ namespace FargoChinese.UnmanagedTranslations
                     }
                 }
 
-                if (fargoConfig.TorchGodEX && item.type == ItemID.TorchGodsFavor)
+                if (fargoServerConfig.TorchGodEX && item.type == ItemID.TorchGodsFavor)
                 {
                     ModifyTooltip("[i:5043] [c/AAAAAA:自动替换已放置的火把来增加运气]", "[i:5043] [c/AAAAAA:Automatically swaps placed torches to boost luck]");
                     ModifyTooltip("[i:5043] [c/AAAAAA:替换火把遵循火把运气，可能会与默认的选择有不同]", "[i:5043] [c/AAAAAA:Obeys true torch luck when replacing torches, which may differ from default choices]");
                 }
 
-                if (fargoConfig.UnlimitedPotionBuffsOn120 && item.maxStack > 1)
+                if (fargoServerConfig.UnlimitedPotionBuffsOn120 && item.maxStack > 1)
                 {
                     if (item.buffType != 0)
                         ModifyTooltip("[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠30个时获得无尽增益]", "[i:87] [c/AAAAAA:Unlimited buff at 30 stack in inventory, Piggy Bank, or Safe]");
@@ -168,7 +171,7 @@ namespace FargoChinese.UnmanagedTranslations
                         ModifyTooltip("[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠3个时获得无尽增益]", "[i:87] [c/AAAAAA:Unlimited buff at 3 stack in inventory, Piggy Bank, or Safe]");
                 }
 
-                if (fargoConfig.PiggyBankAcc)
+                if (fargoServerConfig.PiggyBankAcc)
                 {
                     if (informational.Contains(item.type) || construction.Contains(item.type))
                         ModifyTooltip("[i:87] [c/AAAAAA:在猪猪存钱罐和保险箱中同样生效]", "[i:87] [c/AAAAAA:Works from Piggy Bank and Safe]");
@@ -177,19 +180,20 @@ namespace FargoChinese.UnmanagedTranslations
                 if (Squirrel.SquirrelSells(item, out SquirrelSellType sellType) != SquirrelShopGroup.End)
                 {
                     string text = Regex.Replace(sellType.ToString(), "([a-z])([A-Z])", "$1 $2");
+                    var caughtSquirrelItem = (typeof(CaughtNPCItem).GetField("CaughtTownies", BindingFlags.NonPublic | BindingFlags.Static)!.GetValue(null) as Dictionary<int, int>)![NPCType<Squirrel>()];
                     switch (text)
                     {
                         case "Craftable Materials Sold":
-                            ModifyTooltip($"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:售卖可合成材料]", $"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:{text}]");
+                            ModifyTooltip($"[i:{caughtSquirrelItem}] [c/AAAAAA:售卖可合成材料]", $"[i:{caughtSquirrelItem}] [c/AAAAAA:{text}]");
                             break;
                         case "Sold By Squirrel":
-                            ModifyTooltip($"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:高顶礼帽松鼠售卖]", $"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:{text}]");
+                            ModifyTooltip($"[i:{caughtSquirrelItem}] [c/AAAAAA:高顶礼帽松鼠售卖]", $"[i:{caughtSquirrelItem}] [c/AAAAAA:{text}]");
                             break;
                         case "Some Materials Sold":
-                            ModifyTooltip($"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:售卖部分材料]", $"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:{text}]");
+                            ModifyTooltip($"[i:{caughtSquirrelItem}] [c/AAAAAA:售卖部分材料]", $"[i:{caughtSquirrelItem}] [c/AAAAAA:{text}]");
                             break;
                         case "Sold At Thirty Stack":
-                            ModifyTooltip($"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:堆叠30个时售卖]", $"[i:{CaughtNPCItem.CaughtTownies[NPCType<Squirrel>()]}] [c/AAAAAA:{text}]");
+                            ModifyTooltip($"[i:{caughtSquirrelItem}] [c/AAAAAA:堆叠30个时售卖]", $"[i:{caughtSquirrelItem}] [c/AAAAAA:{text}]");
                             break;
                     }
                 }

@@ -168,10 +168,10 @@ namespace FargoChinese.ModSystems
             _data = typeof(UIWorldListItem).GetField("_data", BindingFlags.NonPublic | BindingFlags.Instance);
             _enableWorldDifficultyShader = ModContent.GetInstance<FCConfig>().EnableWorldDifficultyShader;
 
-            Terraria.On_Main.EraseWorld += Main_EraseWorld;
-            Terraria.GameContent.UI.Elements.IL_UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf;
+            On_Main.EraseWorld += Main_EraseWorld;
+            IL_UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf;
             if (ModContent.GetInstance<FCConfig>().EnableWorldDifficultyShader)
-                Terraria.GameContent.UI.Elements.IL_UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf_Shader;
+                IL_UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf_Shader;
         }
 
         public override void Unload()
@@ -182,9 +182,9 @@ namespace FargoChinese.ModSystems
             // _worldMode = null;
 
             // _data = null;
-            Terraria.On_Main.EraseWorld -= Main_EraseWorld;
-            Terraria.GameContent.UI.Elements.IL_UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf;
-            Terraria.GameContent.UI.Elements.IL_UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf_Shader;
+            On_Main.EraseWorld -= Main_EraseWorld;
+            IL_UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf;
+            IL_UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf_Shader;
         }
         #endregion
     }
