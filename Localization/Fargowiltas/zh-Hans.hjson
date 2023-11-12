@@ -108,63 +108,214 @@ Mods: {
 				HateNPC: *对{NPCName}非常愤怒的吱吱声*
 			}
 		}
+		
+		Configs: {
+			FargoServerConfig: {
+				DisplayName: 服务器端配置
 
-		Config: {
-			CanSpawn: 可以生成
-			TownNPCsHeader: 城镇NPC
-			CatchNPCs: "[i:267] 可以抓城镇NPC"
-			NPCSales: "[i:267] NPC卖额外商品"
-			SaferBoundNPCs: "[i:1274] 可救援的NPC不会受到接触伤害"
-			SeasonsHeader: 季节性事件
-			Halloween: "[i:1774] 万圣节"
-			Christmas: "[i:1869] 圣诞节"
-			SeedsHeader: 秘密世界种子
-			DrunkWorld: "[i:353] 醉酒世界（05162020）"
-			BeeWorld: "[i:1133] 蜜蜂世界（Not the bees）"
-			WorthyWorld: "[i:2107] For the worthy"
-			CelebrationWorld: "[i:3732] 庆典世界（Celebrationmk10/05162021/05162011）"
-			ConstantWorld: "[i:5109] 永恒领域（The constant）"
-			UnlimitedHeader: 无限效果
-			UnlimitedAmmo: "[i:771] 在困难模式中，背包中的某种弹药多于3996时不消耗"
-			UnlimitedConsumableWeapons: "[i:42] 在困难模式中，某种消耗品武器多于3996时不消耗"
-			UnlimitedPotionBuffsOn120: "[i:292] 携带一定数量以上增益物品时获得无尽时长的增益"
-			UnlimitedPotionBuffsOn120Tooltip: 对于药水需要30瓶，对于职业增益站（如利器站）与蛋糕块需要3个
-			MiscHeader: 杂项
-			ExtraBuffSlots: "[i:3000] 额外增益栏上限"
-			ExpandedTooltips: "[i:171] 更多说明模组改动的物品信息"
-			AnglerQuestInstantReset: "[i:2374] 渔夫任务提交后立即重置"
-			ExtraLures: "[i:2373] 钓鱼竿有额外鱼线"
-			StalkerMoneyTrough: "[i:3213] 钱币槽跟踪玩家"
-			RottenEggs: "[i:1809] 强力臭蛋（秒杀NPC）"
-			BannerRecipes: "[i:1683] 旗帜合成表"
-			IncreaseMaxStack: "[i:2] 增加最大堆叠"
-			ExtractSpeed: "[i:997] 增加提炼机速度"
-			Fountains: "[i:909] 喷泉改变生物群落"
-			BossZen: "[i:3117] Boss战不刷新敌怪"
-			PiggyBankAcc: "[i:87] 信息饰品和建筑饰品在猪猪存钱罐中生效"
-			FasterLavaFishing: "[i:4881] 岩浆中钓鱼速度加快"
-			TorchGodEX: "[i:5043] 火把神的恩宠自动替换放置的火把和已放置的火把"
-			TorchGodEXTooltip: 替换遵循火把运气，可能会和火把神的恩宠的默认选择有所不同
-			DebuffOpacity: "[i:1612] 头顶显示减益的最大不透明度"
-			DebuffFaderRatio: "[i:1612] 头顶显示减益随时间衰减的强度"
-			TransparentFriendlyProjectiles: "[i:1309] 友好弹幕不透明度"
-			TransparentFriendlyProjectilesTooltip: 把原版的视频质量设置为中/低以获得最佳体验
-			Mutant: "[i:Fargowiltas/MutantMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Mutant.DisplayName}{$Mods.Fargowiltas.Config.CanSpawn}]"
-			Abom: "[i:Fargowiltas/AbominationnMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Abominationn.DisplayName}{$Mods.Fargowiltas.Config.CanSpawn}]"
-			Devi: "[i:Fargowiltas/DevianttMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Deviantt.DisplayName}{$Mods.Fargowiltas.Config.CanSpawn}]"
-			Lumber: "[i:Fargowiltas/LumberjackMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.LumberJack.DisplayName}{$Mods.Fargowiltas.Config.CanSpawn}]"
-			Squirrel: "[i:239] [c/ffffff:{$Mods.Fargowiltas.NPCs.Squirrel.DisplayName}{$Mods.Fargowiltas.Config.CanSpawn}]"
+				Mutant: {
+					Label: "[i:Fargowiltas/MutantMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Mutant.DisplayName}{$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+					Tooltip: ""
+				}
+
+				Abom: {
+					Label: "[i:Fargowiltas/AbominationnMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Abominationn.DisplayName}{$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+					Tooltip: ""
+				}
+
+				Devi: {
+					Label: "[i:Fargowiltas/DevianttMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Deviantt.DisplayName}{$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+					Tooltip: ""
+				}
+
+				Lumber: {
+					Label: "[i:Fargowiltas/LumberjackMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.LumberJack.DisplayName}{$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+					Tooltip: ""
+				}
+
+				Squirrel: {
+					Label: "[i:239] [c/ffffff:{$Mods.Fargowiltas.NPCs.Squirrel.DisplayName}{$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+					Tooltip: ""
+				}
+
+				CatchNPCs: {
+					Label: "[i:267] 可以抓城镇NPC"
+					Tooltip: ""
+				}
+
+				NPCSales: {
+					Label: "[i:267] NPC卖额外商品"
+					Tooltip: ""
+				}
+
+				SaferBoundNPCs: {
+					Label: "[i:1274] 可救援的NPC不会受到接触伤害"
+					Tooltip: ""
+				}
+
+				Halloween: {
+					Label: "[i:1774] 万圣节"
+					Tooltip: ""
+				}
+
+				Christmas: {
+					Label: "[i:1869] 圣诞节"
+					Tooltip: ""
+				}
+
+				DrunkWorld: {
+					Label: "[i:353] 醉酒世界（05162020）"
+					Tooltip: ""
+				}
+
+				BeeWorld: {
+					Label: "[i:1133] 蜜蜂世界（Not the bees）"
+					Tooltip: ""
+				}
+
+				WorthyWorld: {
+					Label: "[i:2107] For the worthy"
+					Tooltip: ""
+				}
+
+				CelebrationWorld: {
+					Label: "[i:3732] 庆典世界（Celebrationmk10/05162021/05162011）"
+					Tooltip: ""
+				}
+
+				ConstantWorld: {
+					Label: "[i:5109] 永恒领域（The constant）"
+					Tooltip: ""
+				}
+
+				UnlimitedAmmo: {
+					Label: "[i:771] 在困难模式中，背包中的某种弹药堆叠多于3996时不消耗"
+					Tooltip: ""
+				}
+
+				UnlimitedConsumableWeapons: {
+					Label: "[i:42] 在困难模式中，某种消耗品武器堆叠多于3996时不消耗"
+					Tooltip: ""
+				}
+
+				UnlimitedPotionBuffsOn120: {
+					Label: "[i:292] 携带一定数量时获得无限增益和无限鱼饵"
+					Tooltip: 堆叠30以上获得无限药水效果和无限鱼饵
+				}
+
+				ExtraBuffSlots: {
+					Label: "[i:3000] 额外增益栏上限"
+					Tooltip: ""
+				}
+
+				AnglerQuestInstantReset: {
+					Label: "[i:2374] 渔夫任务提交后立即重置"
+					Tooltip: ""
+				}
+
+				ExtraLures: {
+					Label: "[i:2373] 钓鱼竿有额外鱼线"
+					Tooltip: ""
+				}
+
+				StalkerMoneyTrough: {
+					Label: "[i:3213] 钱币槽跟随玩家"
+					Tooltip: ""
+				}
+
+				RottenEggs: {
+					Label: "[i:1809] 强力臭蛋（秒杀城镇NPC）"
+					Tooltip: ""
+				}
+
+				BannerRecipes: {
+					Label: "[i:1683] 旗帜合成表"
+					Tooltip: ""
+				}
+
+				IncreaseMaxStack: {
+					Label: "[i:2] 增加最大堆叠"
+					Tooltip: ""
+				}
+
+				ExtractSpeed: {
+					Label: "[i:997] 增加提炼机速度"
+					Tooltip: ""
+				}
+
+				Fountains: {
+					Label: "[i:909] 喷泉改变生物群落"
+					Tooltip: ""
+				}
+
+				BossZen: {
+					Label: "[i:3117] Boss战不刷新敌怪"
+					Tooltip: ""
+				}
+
+				PiggyBankAcc: {
+					Label: "[i:87] 信息饰品和建筑饰品在猪猪存钱罐中生效"
+					Tooltip: ""
+				}
+
+				FasterLavaFishing: {
+					Label: "[i:4881] 岩浆中钓鱼速度加快"
+					Tooltip: ""
+				}
+
+				TorchGodEX: {
+					Label: "[i:5043] 火把神的恩宠自动替换放置的火把和已放置的火把"
+					Tooltip: 替换遵循火把运气，可能会和火把神的恩宠的默认选择有所不同
+				}
+
+				Headers: {
+					TownNPCs: 城镇NPC
+					Seasons: 季节性事件
+					Seeds: 秘密世界种子
+					Unlimited: 无限效果
+					Misc: 杂项
+				}
+			}
+
+			FargoClientConfig: {
+				DisplayName: 客户端配置
+
+				ExpandedTooltips: {
+					Label: "[i:171] 更多说明模组改动的物品信息"
+					Tooltip: ""
+				}
+
+				DebuffOpacity: {
+					Label: "[i:1612] 头顶显示减益的最大不透明度"
+					Tooltip: ""
+				}
+
+				DebuffFaderRatio: {
+					Label: "[i:1612] 头顶显示减益随时间衰减的强度"
+					Tooltip: ""
+				}
+
+				TransparentFriendlyProjectiles: {
+					Label: "[i:1309] 友好弹幕不透明度"
+					Tooltip: 把原版的视频质量设置为中/低以获得最佳体验
+				}
+			}
+
+			SeasonSelections: {
+				Tooltip: ""
+				Normal.Label: 正常
+				AlwaysOn.Label: 常开
+				AlwaysOff.Label: 常关
+			}
+
+			Common.CanSpawn: 可以生成
 		}
 
 		RecipeGroups: {
 			EvilWood: 邪恶木头
 			CommonFish: 普通鱼
-			Dragonfly: 蜻蜓
-			Butterfly: 蝴蝶
 			CaughtNPC: 被抓捕的城镇NPC
-			Banner: 旗帜
-			ArmoredBones: 装甲骷髅旗帜
-			PirateBanner: 海盗旗帜
+			// ArmoredBonesBanner: Armored Bones Banner
 		}
 
 		MessageInfo: {
@@ -683,6 +834,36 @@ Mods: {
 			PurityRenewalSupreme: {
 				DisplayName: 纯净维度
 				Tooltip: 净化整个世界
+			}
+
+			SnowRenewal: {
+				// DisplayName: Snow Renewal
+				// Tooltip: Snows a large radius
+			}
+
+			SnowRenewalSupreme: {
+				// DisplayName: Snow Renewal Supreme
+				// Tooltip: Snows the entire world
+			}
+
+			SandRenewal: {
+				// DisplayName: Desert Renewal
+				// Tooltip: Sands a large radius
+			}
+
+			SandRenewalSupreme: {
+				// DisplayName: Desert Renewal Supreme
+				// Tooltip: Sands the entire world
+			}
+
+			DirtRenewal: {
+				// DisplayName: Forest Renewal
+				// Tooltip: Dirts a large radius
+			}
+
+			DirtRenewalSupreme: {
+				// DisplayName: Forest Renewal Supreme
+				// Tooltip: Dirts the entire world
 			}
 
 			Abeemination2: {
@@ -2085,6 +2266,75 @@ Mods: {
 					防止墓碑形成墓地生物群落
 					'''
 			}
+
+			HoneyRocketBox: {
+				// Tooltip: ""
+				// DisplayName: Endless Honey Rocket Box
+			}
+
+			DryRocketBox: {
+				// Tooltip: ""
+				// DisplayName: Endless Dry Rocket Box
+			}
+
+			ClusterRocket2Box: {
+				// Tooltip: ""
+				// DisplayName: Endless Cluster Rocket II Box
+			}
+
+			ClusterRocket1Box: {
+				// Tooltip: ""
+				// DisplayName: Endless Cluster Rocket I Box
+			}
+
+			LavaRocketBox: {
+				// DisplayName: Endless Lava Rocket Box
+				// Tooltip: ""
+			}
+
+			MiniNuke1Box: {
+				// DisplayName: Endless Mini Nuke I Box
+				// Tooltip: ""
+			}
+
+			MiniNuke2Box: {
+				// DisplayName: Endless Mini Nuke II Box
+				// Tooltip: ""
+			}
+
+			Rocket1Box: {
+				// DisplayName: Endless Rocket I Box
+				// Tooltip: ""
+			}
+
+			Rocket2Box: {
+				// DisplayName: Endless Rocket II Box
+				// Tooltip: ""
+			}
+
+			Rocket3Box: {
+				// DisplayName: Endless Rocket III Box
+				// Tooltip: ""
+			}
+
+			Rocket4Box: {
+				// DisplayName: Endless Rocket IV Box
+				// Tooltip: ""
+			}
+
+			WetRocketBox: {
+				// DisplayName: Endless Wet Rocket Box
+				// Tooltip: ""
+			}
+
+			InstaPond: {
+				// DisplayName: Instalake
+				/* Tooltip:
+					'''
+					Drops a bomb that creates a 150x50 body of water below it
+					Do not use if any important building is below
+					''' */
+			}
 		}
 
 		NPCs: {
@@ -2101,6 +2351,7 @@ Mods: {
 					// LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LoveBiome}"
 					// LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LikeBiome}"
 					// DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.DislikeBiome}"
+					// HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.HateBiome}"
 					// LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LoveNPC}"
 					// LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LikeNPC}"
 					// HateNPC: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.HateNPC}"
@@ -2143,6 +2394,7 @@ Mods: {
 					// DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.DislikeCrowded}"
 					// HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateCrowded}"
 					// LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LoveBiome}"
+					// HateBiome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateBiome}"
 					// LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LikeNPC}"
 					// DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.DislikeNPC}"
 					// HateNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateNPC}"
@@ -2164,6 +2416,7 @@ Mods: {
 					// LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveBiome}"
 					// LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeBiome}"
 					// DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeBiome}"
+					// HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.HateBiome}"
 					// LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveNPC}"
 					// LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeNPC}"
 					// DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeNPC}"
@@ -2230,6 +2483,14 @@ Mods: {
 			PurityNukeSupremeProj.DisplayName: 纯净维度
 			SpawnProj.DisplayName: 生成
 			SemiBridgifierProj.DisplayName: 多功能平台转化器
+			// DirtNukeProj.DisplayName: DirtRenewal
+			// DirtNukeSupremeProj.DisplayName: DirtRenewalSupreme
+			// SandNukeProj.DisplayName: SandRenewal
+			// SandNukeSupremeProj.DisplayName: SandRenewalSupreme
+			// SnowNukeProj.DisplayName: SnowRenewal
+			// SnowNukeSupremeProj.DisplayName: SnowRenewalSupreme
+			// WorldTokenProj.DisplayName: World Token Proj
+			// InstaPondProj.DisplayName: Insta Pond Proj
 		}
 
 		Tiles: {
@@ -2293,198 +2554,8 @@ Mods: {
 			// SiblingPylon: Mods.Fargowiltas.Conditions.SiblingPylon
 		}
 
-		Configs: {
-			FargoConfig: {
-				// DisplayName: Fargo Config
-
-				Mutant: {
-					// Label: "{$Mods.Fargowiltas.Config.Mutant}"
-					// Tooltip: ""
-				}
-
-				Abom: {
-					// Label: "{$Mods.Fargowiltas.Config.Abom}"
-					// Tooltip: ""
-				}
-
-				Devi: {
-					// Label: "{$Mods.Fargowiltas.Config.Devi}"
-					// Tooltip: ""
-				}
-
-				Lumber: {
-					// Label: "{$Mods.Fargowiltas.Config.Lumber}"
-					// Tooltip: ""
-				}
-
-				Squirrel: {
-					// Label: "{$Mods.Fargowiltas.Config.Squirrel}"
-					// Tooltip: ""
-				}
-
-				CatchNPCs: {
-					// Label: "{$Mods.Fargowiltas.Config.CatchNPCs}"
-					// Tooltip: ""
-				}
-
-				NPCSales: {
-					// Label: "{$Mods.Fargowiltas.Config.NPCSales}"
-					// Tooltip: ""
-				}
-
-				SaferBoundNPCs: {
-					// Label: "{$Mods.Fargowiltas.Config.SaferBoundNPCs}"
-					// Tooltip: ""
-				}
-
-				Halloween: {
-					// Label: "{$Mods.Fargowiltas.Config.Halloween}"
-					// Tooltip: ""
-				}
-
-				Christmas: {
-					// Label: "{$Mods.Fargowiltas.Config.Christmas}"
-					// Tooltip: ""
-				}
-
-				DrunkWorld: {
-					// Label: "{$Mods.Fargowiltas.Config.DrunkWorld}"
-					// Tooltip: ""
-				}
-
-				BeeWorld: {
-					// Label: "{$Mods.Fargowiltas.Config.BeeWorld}"
-					// Tooltip: ""
-				}
-
-				WorthyWorld: {
-					// Label: "{$Mods.Fargowiltas.Config.WorthyWorld}"
-					// Tooltip: ""
-				}
-
-				CelebrationWorld: {
-					// Label: "{$Mods.Fargowiltas.Config.CelebrationWorld}"
-					// Tooltip: ""
-				}
-
-				ConstantWorld: {
-					// Label: "{$Mods.Fargowiltas.Config.ConstantWorld}"
-					// Tooltip: ""
-				}
-
-				UnlimitedAmmo: {
-					// Label: "{$Mods.Fargowiltas.Config.UnlimitedAmmo}"
-					// Tooltip: ""
-				}
-
-				UnlimitedConsumableWeapons: {
-					// Label: "{$Mods.Fargowiltas.Config.UnlimitedConsumableWeapons}"
-					// Tooltip: ""
-				}
-
-				UnlimitedPotionBuffsOn120: {
-					// Label: "{$Mods.Fargowiltas.Config.UnlimitedPotionBuffsOn120}"
-					// Tooltip: "{$Mods.Fargowiltas.Config.UnlimitedPotionBuffsOn120Tooltip}"
-				}
-
-				ExtraBuffSlots: {
-					// Label: "{$Mods.Fargowiltas.Config.ExtraBuffSlots}"
-					// Tooltip: ""
-				}
-
-				ExpandedTooltips: {
-					// Label: "{$Mods.Fargowiltas.Config.ExpandedTooltips}"
-					// Tooltip: ""
-				}
-
-				AnglerQuestInstantReset: {
-					// Label: "{$Mods.Fargowiltas.Config.AnglerQuestInstantReset}"
-					// Tooltip: ""
-				}
-
-				ExtraLures: {
-					// Label: "{$Mods.Fargowiltas.Config.ExtraLures}"
-					// Tooltip: ""
-				}
-
-				StalkerMoneyTrough: {
-					// Label: "{$Mods.Fargowiltas.Config.StalkerMoneyTrough}"
-					// Tooltip: ""
-				}
-
-				RottenEggs: {
-					// Label: "{$Mods.Fargowiltas.Config.RottenEggs}"
-					// Tooltip: ""
-				}
-
-				BannerRecipes: {
-					// Label: "{$Mods.Fargowiltas.Config.BannerRecipes}"
-					// Tooltip: ""
-				}
-
-				IncreaseMaxStack: {
-					// Label: "{$Mods.Fargowiltas.Config.IncreaseMaxStack}"
-					// Tooltip: ""
-				}
-
-				ExtractSpeed: {
-					// Label: "{$Mods.Fargowiltas.Config.ExtractSpeed}"
-					// Tooltip: ""
-				}
-
-				Fountains: {
-					// Label: "{$Mods.Fargowiltas.Config.Fountains}"
-					// Tooltip: ""
-				}
-
-				BossZen: {
-					// Label: "{$Mods.Fargowiltas.Config.BossZen}"
-					// Tooltip: ""
-				}
-
-				PiggyBankAcc: {
-					// Label: "{$Mods.Fargowiltas.Config.PiggyBankAcc}"
-					// Tooltip: ""
-				}
-
-				FasterLavaFishing: {
-					// Label: "{$Mods.Fargowiltas.Config.FasterLavaFishing}"
-					// Tooltip: ""
-				}
-
-				TorchGodEX: {
-					// Label: "{$Mods.Fargowiltas.Config.TorchGodEX}"
-					// Tooltip: "{$Mods.Fargowiltas.Config.TorchGodEXTooltip}"
-				}
-
-				DebuffOpacity: {
-					// Label: "{$Mods.Fargowiltas.Config.DebuffOpacity}"
-					// Tooltip: ""
-				}
-
-				DebuffFaderRatio: {
-					// Label: "{$Mods.Fargowiltas.Config.DebuffFaderRatio}"
-					// Tooltip: ""
-				}
-
-				TransparentFriendlyProjectiles: {
-					// Label: "{$Mods.Fargowiltas.Config.TransparentFriendlyProjectiles}"
-					// Tooltip: "{$Mods.Fargowiltas.Config.TransparentFriendlyProjectilesTooltip}"
-				}
-			}
-
-			SeasonSelections: {
-				Tooltip: ""
-				Normal.Label: 正常
-				AlwaysOn.Label: 常开
-				AlwaysOff.Label: 常关
-			}
-		}
-
 		Keybinds: {
 			"Quick Recall/Mirror.DisplayName": 快速回家
-			"Quick Rod of Discord.DisplayName": 快捷混沌传送杖
-			"Quick Use Custom (Bottom Left Inventory Slot).DisplayName": 快捷使用背包左下角物品
 			"Open Stat Sheet.DisplayName": 打开属性统计表
 		}
 	}

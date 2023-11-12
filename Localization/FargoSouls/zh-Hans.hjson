@@ -10,12 +10,14 @@ Mods: {
 	FargowiltasSouls: {
 		WizardEffect: {
 			Adamantite: 弹幕现在会分裂成三个，造成33%伤害，造成伤害的频率提升到3倍
+			// Apprentice: The next 2 weapons are used instead of 1
 			AncientHallow: 剑的伤害增加，可反射的弹幕伤害上限提升至200
 			AncientShadow: 暗影珠数量增加
+			// AncientCobalt: No upgrade
 			Angler: ""
 			Bee: 增强翅膀的各项数据与蜜蜂的伤害
 			Beetle: ""
-			// Boreal: Fires more snowballs more often
+			// BorealWood: Fires more snowballs more often
 			Cactus: 增加针刺的数量和伤害
 			Chlorophyte: 叶绿水晶和孢子的伤害增加，冷却时间缩短
 			Cobalt: 增加受击爆炸伤害
@@ -30,11 +32,14 @@ Mods: {
 			Gladiator: 增加旗子生效范围，缩短长矛雨的冷却时间
 			Gold: ""
 			Hallow: 药水治疗量加成从40%提升至70%
+			// Huntress: Armor penetration and flat damage increased to 10 and 5 respectively
 			Iron: 不消耗物品的概率增加至50%
+			// Jungle: Spore damage increased, cooldown decreased
 			Lead: 增加铅中毒伤害，持续伤害减免提升到60%
 			Meteor: 攻击时每过几秒便会召唤一次流星雨
 			Miner: 挖掘速度提升
 			Molten: 狱火圈伤害翻倍，易伤生效范围增加1.5倍 //for patch
+			// Monk: No upgrade
 			Mythril: 增加最大攻速加成，延长持续时间 //for patch
 			Nebula: 增益堆叠上限增加至3层
 			Necro: ""
@@ -58,6 +63,9 @@ Mods: {
 			Spider: ""
 			Spooky: ""
 			Stardust: ""
+			// Snow: No upgrade
+			// Shadow: Number of Shadow Orbs increased
+			// Squire: Mount defense increased from 10 to 15, speed and acceleration from 1.25x to 1.5x, heal bonus from 25% to 33%
 			Tiki: 鞭子攻击距离增加20%
 			Tin: 最小暴击率提高到10%，最大暴击率至少有50%，减少增加暴击过程的冷却时间 //for patch
 			Titanium: 碎片会但只会受到最高的职业伤害加成；伤害减免提高至75% //for patch
@@ -66,6 +74,7 @@ Mods: {
 			ValhallaKnight: 使用坐骑时增加20点防御，坐骑加速度从1.5倍提升至2倍，治疗增加量从33%提升至50%
 			Vortex: ""
 			Wood: 怪物图鉴和旗帜解锁速度增加到5倍 //for patch
+			// AshWood: Fires balls of fire more often
 		}
 
 		SetBonus: {
@@ -125,7 +134,6 @@ Mods: {
 		}
 
 		Bestiary: {
-			// == Mobs ==
 			TophatSquirrelCritter: 这只松鼠为自己找到了一顶小巧的帽子！它会用得到的全新力量做什么呢？事实上，或许它能做到的事情并不多。 //for patch
 			GuttedCreeper: 就算被装到某人的口袋里，它们仍然一直保护着猩红之心。它们过去很讨嫌，但现在表现不错！ //for patch
 			RoyalSubject: 如果成长不受阻碍，它们本来也可成长为蜂群之后。蜂后释放着信息素，召唤着它们前去保护它们的皇后。 //for patch
@@ -134,7 +142,7 @@ Mods: {
 			LesserFairy: 这些小精灵被生命英灵的光辉所吸引，它们只关心如何实现它的命令。
 			LesserSquirrel: 这些小动物帮助造出了特洛伊松鼠，但没注意到自己的身上多出了一些小爆炸物。
 			ShadowOrb: 凝聚着黑暗力量的能量球。它们散发的能量使夜幕低垂，唯一的目的是为主人服务。 //for patch
-			// == Challengers ==
+			// ShadowOrbNPC: Clusters of darkness that focus its power. They keep the curtain of night drawn low in service of their master.
 			TrojanSquirrel: 由松鼠建造，由松鼠拥有！从广阔土地上搜集的木头构成了它的身体。它比外观看起来更适合松鼠。
 			GuardianOfAncientTreasures: 潜伏在地底深处，小心翼翼地守护着成堆的珠宝和贵金属。它的鳞片坚硬如石。
 			CursedCoffin: 一百多个邪恶灵魂的无意识的融合体。它以迷路旅行者的尸体为食，并吸收他们的灵魂。
@@ -143,7 +151,6 @@ Mods: {
 			FrigidHydrangaea: 这只龙形野兽在冰封的洞穴中冬眠，只有在被激怒时才会醒来。它真的应该生活在这寒冷中吗？
 			BanishedBaron: 被驱逐出群落后，它一边隐藏着，一边试图自我修复。效果并不好，这给它的力量和速度拖了后腿。
 			MagmaConstruct: 行星核心的监督者。在这片地狱的前任主人消失时，它接管了这块土地。它全身都由无机物组成。
-			// == Champions ==
 			TimberChampion: 森林之力赋予了这个木制装置神奇的力量。但驾驶舱里的那只松鼠是不是很眼熟？
 			TerraChampion: 这条巨蛇只剩大脑是有机体。其化身为附魔岩石和金属的聚合体，它的身体无法受到攻击。
 			SpiritChampion: 吸收了心灵之力后，这些迷失的灵魂获得了更高的智慧。这并不是说它会停止吃人。
@@ -153,7 +160,6 @@ Mods: {
 			WillChampion: 怒火满腔。以强大的力量进行攻击，并仅通过纯粹的愤怒抵御攻击。这位无名的流放者究竟是谁？
 			EarthChampion: 与大地之力融合，获得了强大的力量。这位英灵从岩浆中喷涌而出，横扫所有挡住它的人。
 			CosmosChampion: 这位高贵的战士曾经周游星辰，寻找有价值的对手。遇到某个奇异的三人组合后，它就在他们附近安顿下来了。
-			// == Siblings ==
 			DeviBoss: 使用由邪恶制成的活的斧头，施展光明和爱的咒语。她对死亡之事一定十分怠慢，因为她从不为保护城镇而拼命战斗。
 			AbomBoss: 他的剑刃撕裂了灵魂本身。他精于控制一切的超自然现象，但出于对突变体的尊重，他不会使用天界级别的攻击。
 			MutantBoss: 永恒的守护者。终极力量的化身。支配一切，主宰着战斗的方方面面。也许它来自那个维度裂缝之外的世界……
@@ -196,6 +202,7 @@ Mods: {
 			CosmosChampionSpawnInfo: 在太空使用[i:FargowiltasSouls/SigilOfChampions]召唤
 			TrojanSquirrelSpawnInfo: 通过使用 [i:FargowiltasSouls/SquirrelCoatofArms]召唤
 			LifeChallengerSpawnInfo: 白天在神圣环境使用[i:FargowiltasSouls/SigilOfChampions]召唤
+			// BanishedBaronSpawnInfo: Spawn by using [i:FargowiltasSouls/MechLure] underwater at the Ocean.
 		}
 
 		Message: {
@@ -235,6 +242,7 @@ Mods: {
 				EternityOff: 永恒模式已关闭。
 				EternityWrongDifficulty: 难度过低，永恒模式已关闭...
 				MasochistOn: 大师模式与永恒模式结合：受虐模式已开启！！
+				// MasochistOnZenith: Master and Zenith seed combined: Masochist Mode activated!!
 				MasochistOff: 受虐模式已关闭。
 				BloodMoonCancel: 血月改变了主意，溜了溜了...
 			}
@@ -406,6 +414,7 @@ Mods: {
 			TungstenConfig: 钨 物品变大
 			TungstenProjConfig: 钨 弹幕变大
 			ObsidianConfig: 黑曜石 爆炸
+			// AshWoodConfig: Ash Fireballs
 			WillHeader: "{$Mods.FargowiltasSouls.Items.WillForce.DisplayName}"
 			GladiatorConfig: 角斗士 长矛雨
 			GoldConfig: 金 幸运币
@@ -413,6 +422,8 @@ Mods: {
 			HuntressConfig: 女猎人 相关效果
 			RedRidingRainConfig: 红色骑术 箭雨
 			ValhallaConfig: 英灵殿骑士 坐骑冲刺
+			// SquireMountJumpConfig: Squire Mount Jump
+			// SquireMountSpeedConfig: Squire Mount Speed
 			SquirePanicConfig: “弩车恐慌！”效果
 			LifeHeader: "{$Mods.FargowiltasSouls.Items.LifeForce.DisplayName}"
 			BeeConfig: 蜜蜂 花朵
@@ -430,7 +441,6 @@ Mods: {
 			JungleConfig: 丛林 跳跃孢子
 			JungleDashConfig: 丛林 冲刺
 			MoltenConfig: 熔岩 狱火增益
-			// MoltenEConfig: Molten Explosion On Hit
 			ShroomiteConfig: 蘑菇 潜行
 			ShroomiteShroomConfig: 蘑菇 蘑菇尾迹
 			ShadowHeader: "{$Mods.FargowiltasSouls.Items.ShadowForce.DisplayName}"
@@ -449,12 +459,12 @@ Mods: {
 			FossilConfig: 化石 受击释放骨头
 			ForbiddenConfig: 禁戒 远古风暴
 			HallowDodgeConfig: 神圣 治疗药水
-			// HallowedConfig: Ancient Hallowed Terraprisma familiar
-			// HallowSConfig: Ancient Hallowed Shield
+			// AHallowedConfig: Ancient Hallowed Terraprisma familiar
 			NinjaSpeedConfig: 忍者 弹幕、攻击速度加成
 			SpectreConfig: 幽魂 幽魂珠
 			TikiConfig: 提基 鞭打召唤物
 			CosmoHeader: "{$Mods.FargowiltasSouls.Items.CosmoForce.DisplayName}"
+			// MeteorMomentumConfig: Meteor Speed
 			MeteorConfig: 流星 流星雨
 			NebulaConfig: 星云 强化焰
 			SolarConfig: 耀斑 护盾
@@ -469,6 +479,7 @@ Mods: {
 			DeerSinewDashConfig: 鹿筋冲刺
 			MasoAeolusConfig: 风神跳跃
 			MasoAeolusFlowerConfig: 花靴
+			// MasoAeolusFrogConfig: Frog Jump
 			MasoIconConfig: 刷怪率提升
 			MasoIconDropsConfig: 战利品掉落
 			MasoGrazeConfig: 擦弹
@@ -491,7 +502,6 @@ Mods: {
 			MasoSqueakConfig: 击中发出吱吱声
 			MasoPouchConfig: 更强更慢的暗影焰攻击
 			MasoClippedConfig: 造成折翼减益
-			// TribalCharmConfig: Tribal Charm Auto Swing
 			TribalCharmClickBonusConfig: 部落挂坠点击加成
 			DubiousHeader: "{$Mods.FargowiltasSouls.Items.DubiousCircuitry.DisplayName}"
 			FusedLensInstallConfig: 双子负载
@@ -548,6 +558,7 @@ Mods: {
 			DefenseFleshKnuckleConfig: 血肉指虎仇恨
 			DefensePaladinConfig: 圣骑士护盾
 			DefenseFrozenConfig: 冰冻海龟壳
+			// ShimmerImmunityConfig: Shimmer Immunity
 			FlightMasteryHeader: "{$Mods.FargowiltasSouls.Items.FlightMasterySoul.DisplayName}"
 			FlightMasteryInsigniaConfig: 翱翔徽章加速
 			FlightMasteryGravityConfig: 增加重力
@@ -658,6 +669,7 @@ Mods: {
 			PatreonPrime: 机械骷髅王法杖
 			PatreonCrimetroid: 血水母的蛋
 			PatreonNanoCore: 纳米核心
+			// PatreonROB: R.O.B
 			SilverS: Mods.FargowiltasSouls.Toggler.SilverS
 			CrystalGelatinConfig: 挥发明胶效果
 			SilverConfig: Mods.FargowiltasSouls.Toggler.SilverConfig //for patch
@@ -675,6 +687,8 @@ Mods: {
 			WoodenTooltip: “卑微的开始……”
 			TinCritUp: +5%暴击率
 			TinCritReset: -{0}%暴击率
+			// ROBPatreon: The friend you've never left since Brawl
+			// ROBNonPatreon: He's finally a top tier!
 
 			EternitySoul: {
 				Additional: 额外加成：
@@ -1000,7 +1014,9 @@ Mods: {
 			Buff: "[c/00ff00:永恒模式：]"
 			Neutral: "[c/ffff00:永恒模式：]"
 			Damage: 伤害降低{0}%
+			// DamagePositive: Increased damage by {0}%
 			Speed: 攻击速度降低{0}%
+			// SpeedPositive: Increased speed by {0}%
 			RodofDiscord: 在Boss战中，每次使用都会消耗生命
 			Split: 降低分裂频率
 			ChlorophyteBullet: 速度减慢，存在时间降低
@@ -1012,12 +1028,14 @@ Mods: {
 			ZenithHitRate: "造成伤害的频率大幅降低，通过击败下列Boss可提高其输出能力: "
 			VampireKnives: 生命值高于50%时削弱吸血能力
 			Zapinator: 无法堆叠弹幕伤害
+			// CoinGun: Damage of Platinum and Gold Coins heavily reduced, damage of Silver Coins slightly reduced, and damage of Copper Coins increased
 			OOASet: 当你使用其他职业的武器攻击时，抵消部分召唤伤害降低惩罚
 			MiningHelmet: 提高不死矿工的刷新率
 			MoonsDrops: Boss和迷你Boss在{0}波前不会掉落物品
 			MoonsWaves: 死亡会降低当前波数
 			WhipSpeed: 不接受近战攻速加成
 			WhipStack: 鞭子的增益/减益不能堆叠
+			// ManaPots: Cannot be used during Mana Sickness, but 50% increased restoration
 			MinionStack: 同时召唤超过3个相同召唤物时，它们的伤害会降低（超过12个后不再降低）
 			SummonMulticlass: 当你使用其他职业的武器攻击时，召唤伤害降低（在撒旦军队中除外）
 			ShadowDodge: 永恒模式：闪避会降低你的攻击速度
@@ -1027,6 +1045,7 @@ Mods: {
 			CobaltNaginataRework: 击中敌人会造成小范围爆炸
 			MythrilHalberdRework: 不攻击持续2秒后下一击造成三倍伤害
 			OrichalcumHalberdRework: 挥舞时矛的顶端会释放花瓣
+			// SuperStarCannon: Decreased maximum pierce to 7
 		}
 
 		EternityMode: {
@@ -1061,428 +1080,6 @@ Mods: {
 		}
 
 		Buffs: {
-			AbomFang: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.AbomFang
-				// Description: Mods.FargowiltasSouls.BuffDescription.AbomFang
-			}
-
-			AbomPresence: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.AbomPresence
-				// Description: Mods.FargowiltasSouls.BuffDescription.AbomPresence
-			}
-
-			DeviPresence: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.DeviPresence
-				// Description: Mods.FargowiltasSouls.BuffDescription.DeviPresence
-			}
-
-			Grabbed: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Grabbed
-				// Description: Mods.FargowiltasSouls.BuffDescription.Grabbed
-			}
-
-			MutantFang: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.MutantFang
-				// Description: Mods.FargowiltasSouls.BuffDescription.MutantFang
-			}
-
-			MutantPresence: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.MutantPresence
-				// Description: Mods.FargowiltasSouls.BuffDescription.MutantPresence
-			}
-
-			AbomCooldown: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.AbomCooldown
-				// Description: Mods.FargowiltasSouls.BuffDescription.AbomCooldown
-			}
-
-			AbomRebirth: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.AbomRebirth
-				// Description: Mods.FargowiltasSouls.BuffDescription.AbomRebirth
-			}
-
-			Anticoagulation: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Anticoagulation
-				// Description: Mods.FargowiltasSouls.BuffDescription.Anticoagulation
-			}
-
-			Antisocial: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Antisocial
-				// Description: Mods.FargowiltasSouls.BuffDescription.Antisocial
-			}
-
-			Atrophied: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Atrophied
-				// Description: Mods.FargowiltasSouls.BuffDescription.Atrophied
-			}
-
-			Berserked: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Berserked
-				// Description: Mods.FargowiltasSouls.BuffDescription.Berserked
-			}
-
-			BerserkerInstall: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.BerserkerInstall
-				// Description: Mods.FargowiltasSouls.BuffDescription.BerserkerInstall
-			}
-
-			BerserkerInstallCD: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.BerserkerInstallCD
-				// Description: Mods.FargowiltasSouls.BuffDescription.BerserkerInstallCD
-			}
-
-			BloodDrinker: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.BloodDrinker
-				// Description: Mods.FargowiltasSouls.BuffDescription.BloodDrinker
-			}
-
-			Bloodthirsty: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Bloodthirsty
-				// Description: Mods.FargowiltasSouls.BuffDescription.Bloodthirsty
-			}
-
-			BrainOfConfusionDebuff: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.BrainOfConfusionDebuff
-				// Description: Mods.FargowiltasSouls.BuffDescription.BrainOfConfusionDebuff
-			}
-
-			ChaosLife: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.ChaosLife
-				// Description: Mods.FargowiltasSouls.BuffDescription.ChaosLife
-			}
-
-			ClippedWings: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.ClippedWings
-				// Description: Mods.FargowiltasSouls.BuffDescription.ClippedWings
-			}
-
-			Coldheart: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Coldheart
-				// Description: Mods.FargowiltasSouls.BuffDescription.Coldheart
-			}
-
-			Crippled: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Crippled
-				// Description: Mods.FargowiltasSouls.BuffDescription.Crippled
-			}
-
-			CurseoftheMoon: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.CurseoftheMoon
-				// Description: Mods.FargowiltasSouls.BuffDescription.CurseoftheMoon
-			}
-
-			Defenseless: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Defenseless
-				// Description: Mods.FargowiltasSouls.BuffDescription.Defenseless
-			}
-
-			FlamesoftheUniverse: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.FlamesoftheUniverse
-				// Description: Mods.FargowiltasSouls.BuffDescription.FlamesoftheUniverse
-			}
-
-			Flipped: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Flipped
-				// Description: Mods.FargowiltasSouls.BuffDescription.Flipped
-			}
-
-			Fused: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Fused
-				// Description: Mods.FargowiltasSouls.BuffDescription.Fused
-			}
-
-			GodEater: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.GodEater
-				// Description: Mods.FargowiltasSouls.BuffDescription.GodEater
-			}
-
-			Guilty: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Guilty
-				// Description: Mods.FargowiltasSouls.BuffDescription.Guilty
-			}
-
-			Hexed: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Hexed
-				// Description: Mods.FargowiltasSouls.BuffDescription.Hexed
-			}
-
-			HolyPrice: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.HolyPrice
-				// Description: Mods.FargowiltasSouls.BuffDescription.HolyPrice
-			}
-
-			Hypothermia: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Hypothermia
-				// Description: Mods.FargowiltasSouls.BuffDescription.Hypothermia
-			}
-
-			Infested: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Infested
-				// Description: Mods.FargowiltasSouls.BuffDescription.Infested
-			}
-
-			IvyVenom: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.IvyVenom
-				// Description: Mods.FargowiltasSouls.BuffDescription.IvyVenom
-			}
-
-			Jammed: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Jammed
-				// Description: Mods.FargowiltasSouls.BuffDescription.Jammed
-			}
-
-			Lethargic: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Lethargic
-				// Description: Mods.FargowiltasSouls.BuffDescription.Lethargic
-			}
-
-			LightningRod: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.LightningRod
-				// Description: Mods.FargowiltasSouls.BuffDescription.LightningRod
-			}
-
-			LihzahrdBlessing: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.LihzahrdBlessing
-				// Description: Mods.FargowiltasSouls.BuffDescription.LihzahrdBlessing
-			}
-
-			LihzahrdCurse: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.LihzahrdCurse
-				// Description: Mods.FargowiltasSouls.BuffDescription.LihzahrdCurse
-			}
-
-			LivingWasteland: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.LivingWasteland
-				// Description: Mods.FargowiltasSouls.BuffDescription.LivingWasteland
-			}
-
-			LoosePockets: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.LoosePockets
-				// Description: Mods.FargowiltasSouls.BuffDescription.LoosePockets
-			}
-
-			Lovestruck: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Lovestruck
-				// Description: Mods.FargowiltasSouls.BuffDescription.Lovestruck
-			}
-
-			LowGround: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.LowGround
-				// Description: Mods.FargowiltasSouls.BuffDescription.LowGround
-			}
-
-			MagicalCleanseCD: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.MagicalCleanseCD
-				// Description: Mods.FargowiltasSouls.BuffDescription.MagicalCleanseCD
-			}
-
-			MarkedforDeath: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.MarkedforDeath
-				// Description: Mods.FargowiltasSouls.BuffDescription.MarkedforDeath
-			}
-
-			Midas: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Midas
-				// Description: Mods.FargowiltasSouls.BuffDescription.Midas
-			}
-
-			MutantNibble: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.MutantNibble
-				// Description: Mods.FargowiltasSouls.BuffDescription.MutantNibble
-			}
-
-			NanoInjection: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.NanoInjection
-				// Description: Mods.FargowiltasSouls.BuffDescription.NanoInjection
-			}
-
-			Neurotoxin: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Neurotoxin
-				// Description: Mods.FargowiltasSouls.BuffDescription.Neurotoxin
-			}
-
-			NullificationCurse: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.NullificationCurse
-				// Description: Mods.FargowiltasSouls.BuffDescription.NullificationCurse
-			}
-
-			OceanicMaul: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.OceanicMaul
-				// Description: Mods.FargowiltasSouls.BuffDescription.OceanicMaul
-			}
-
-			OceanicSeal: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.OceanicSeal
-				// Description: Mods.FargowiltasSouls.BuffDescription.OceanicSeal
-			}
-
-			Oiled: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Oiled
-				// Description: Mods.FargowiltasSouls.BuffDescription.Oiled
-			}
-
-			// PungentGaze.DisplayName: Mods.FargowiltasSouls.BuffName.PungentGaze
-
-			Purged: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Purged
-				// Description: Mods.FargowiltasSouls.BuffDescription.Purged
-			}
-
-			Purified: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Purified
-				// Description: Mods.FargowiltasSouls.BuffDescription.Purified
-			}
-
-			ReverseManaFlow: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.ReverseManaFlow
-				// Description: Mods.FargowiltasSouls.BuffDescription.ReverseManaFlow
-			}
-
-			Rotting: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Rotting
-				// Description: Mods.FargowiltasSouls.BuffDescription.Rotting
-			}
-
-			RushJob: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.RushJob
-				// Description: Mods.FargowiltasSouls.BuffDescription.RushJob
-			}
-
-			Sadism: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Sadism
-				// Description: Mods.FargowiltasSouls.BuffDescription.Sadism
-			}
-
-			Shadowflame: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Shadowflame
-				// Description: Mods.FargowiltasSouls.BuffDescription.Shadowflame
-			}
-
-			Smite: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Smite
-				// Description: Mods.FargowiltasSouls.BuffDescription.Smite
-			}
-
-			SqueakyToy: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.SqueakyToy
-				// Description: Mods.FargowiltasSouls.BuffDescription.SqueakyToy
-			}
-
-			Stunned: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Stunned
-				// Description: Mods.FargowiltasSouls.BuffDescription.Stunned
-			}
-
-			Supercharged: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Supercharged
-				// Description: Mods.FargowiltasSouls.BuffDescription.Supercharged
-			}
-
-			Swarming: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Swarming
-				// Description: Mods.FargowiltasSouls.BuffDescription.Swarming
-			}
-
-			ThiefCD: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.ThiefCD
-				// Description: Mods.FargowiltasSouls.BuffDescription.ThiefCD
-			}
-
-			TwinsInstall: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.TwinsInstall
-				// Description: Mods.FargowiltasSouls.BuffDescription.TwinsInstall
-			}
-
-			Unlucky: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Unlucky
-				// Description: Mods.FargowiltasSouls.BuffDescription.Unlucky
-			}
-
-			Unstable: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Unstable
-				// Description: Mods.FargowiltasSouls.BuffDescription.Unstable
-			}
-
-			BigBrainMinion: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.BigBrainMinion
-				// Description: Mods.FargowiltasSouls.BuffDescription.BigBrainMinion
-			}
-
-			BrainMinion: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.BrainMinion
-				// Description: Mods.FargowiltasSouls.BuffDescription.BrainMinion
-			}
-
-			CrystalSkull: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.CrystalSkull
-				// Description: Mods.FargowiltasSouls.BuffDescription.CrystalSkull
-			}
-
-			EaterMinion: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.EaterMinion
-				// Description: Mods.FargowiltasSouls.BuffDescription.EaterMinion
-			}
-
-			JungleMimicSummonBuff: {
-				DisplayName: 丛林宝箱怪
-				Description: 丛林宝箱怪将为你而战
-			}
-
-			LunarCultist: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.LunarCultist
-				// Description: Mods.FargowiltasSouls.BuffDescription.LunarCultist
-			}
-
-			MutantPower: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.MutantPower
-				// Description: Mods.FargowiltasSouls.BuffDescription.MutantPower
-			}
-
-			PlanterasChild: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.PlanterasChild
-				// Description: Mods.FargowiltasSouls.BuffDescription.PlanterasChild
-			}
-
-			Probes: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.Probes
-				// Description: Mods.FargowiltasSouls.BuffDescription.Probes
-			}
-
-			PungentEyeball: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.PungentEyeball
-				// Description: Mods.FargowiltasSouls.BuffDescription.PungentEyeball
-			}
-
-			RainbowSlime: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.RainbowSlime
-				// Description: Mods.FargowiltasSouls.BuffDescription.RainbowSlime
-			}
-
-			SaucerMinion: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.SaucerMinion
-				// Description: Mods.FargowiltasSouls.BuffDescription.SaucerMinion
-			}
-
-			SkeletronArms: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.SkeletronArms
-				// Description: Mods.FargowiltasSouls.BuffDescription.SkeletronArms
-			}
-
-			SouloftheMasochist: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.SouloftheMasochist
-				// Description: Mods.FargowiltasSouls.BuffDescription.SouloftheMasochist
-			}
-
-			TrueEyes: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.TrueEyes
-				// Description: Mods.FargowiltasSouls.BuffDescription.TrueEyes
-			}
-
-			TwinsEX: {
-				// DisplayName: Mods.FargowiltasSouls.BuffName.TwinsEX
-				// Description: Mods.FargowiltasSouls.BuffDescription.TwinsEX
-			}
-
 			TrojanSquirrelMountBuff: {
 				DisplayName: 特洛伊松鼠
 				Description: 你正驾驶着一架松鼠机甲
@@ -1521,6 +1118,11 @@ Mods: {
 			SeekerOfTreasuresBuff: {
 				DisplayName: 宝藏探索者
 				Description: 再给它几千年时间来长大
+			}
+
+			NibbleBuff: {
+				// DisplayName: Nibble
+				// Description: Just one tiny bite (please)
 			}
 
 			BrokenShell: {
@@ -2190,11 +1792,6 @@ Mods: {
 				Description: Mods.FargowiltasSouls.BuffDescription.MoltenAmplifyBuff
 			}
 
-			MonkBuffBuff: {
-				// DisplayName: Meditation
-				// Description: Your Monk Dash is ready
-			}
-
 			OriPoisonBuff: {
 				DisplayName: 山铜中毒
 				Description: Mods.FargowiltasSouls.BuffDescription.OriPoisonBuff
@@ -2218,6 +1815,11 @@ Mods: {
 			SuperBleedBuff: {
 				DisplayName: 血如泉涌
 				Description: Mods.FargowiltasSouls.BuffDescription.SuperBleedBuff
+			}
+
+			CorruptingBuff: {
+				// DisplayName: Corrupting
+				// Description: You are becoming corrupted
 			}
 
 			TimeFrozenBuff: {
@@ -2262,6 +1864,36 @@ Mods: {
 
 			Recovering.Description: Mods.FargowiltasSouls.BuffDescription.Recovering
 			Shadwoflame.Description: 流失生命
+
+			CorruptedBuff: {
+				// DisplayName: Corrupted Buff
+				// Description: Mods.FargowiltasSouls.Buffs.CorruptedBuff.Description
+			}
+
+			CorruptedBuffForce: {
+				// DisplayName: Corrupted Buff Force
+				// Description: Mods.FargowiltasSouls.Buffs.CorruptedBuffForce.Description
+			}
+
+			JungleMimicSummonBuff: {
+				DisplayName: 丛林宝箱怪
+				Description: 丛林宝箱怪将为你而战
+			}
+
+			GladiatorBuff: {
+				// DisplayName: Gladiator Strength
+				// Description: +10 defense, +5% damage, knockback immunity, improved spear rain
+			}
+
+			ROBBuff: {
+				// Description: ""
+				// DisplayName: R.O.B
+			}
+
+			RainCDBuff: {
+				// DisplayName: Rain Umbrella Cooldown
+				// Description: Your umbrella isn't ready yet
+			}
 		}
 
 		Items: {
@@ -2325,6 +1957,18 @@ Mods: {
 					大幅增加爆炸烈焰哨兵的索敌范围和攻击距离
 					“追求完美的漫漫长路”
 					'''
+			}
+
+			AshWoodEnchant: {
+				// DisplayName: Ash Wood Enchantment
+				/* Tooltip:
+					'''
+					Fire debuffs don't damage you
+					Above effect works for town NPCs while equipped or in your inventory
+					While you're burning, attacks are accompanied by balls of fire
+					Grants immunity to Oiled
+					Reduces damage from touching lava
+					''' */
 			}
 
 			BeeEnchant: {
@@ -3270,6 +2914,32 @@ Mods: {
 					'''
 			}
 
+			BionomicClusterInactive: {
+				// DisplayName: Bionomic Cluster (Inactive)
+				/* Tooltip:
+					'''
+					Grants immunity to Frostburn, Shadowflame, and Squeaky Toy
+					Grants immunity to Flames of the Universe, Clipped Wings, Crippled, Webbed, and Purified
+					Grants immunity to Lovestruck, Stinky, Midas, and Hexed
+					Use to teleport to your last death point
+					Your attacks can inflict Clipped Wings and produce hearts
+					Attacks have a chance to squeak and deal 1 damage to you
+					While attacking, gain massively increased damage and shadowflame, but less move and defenses and attack speed bonuses
+					Summons a friendly rainbow slime
+					Certain enemies will drop potions when defeated
+					When attacking by manually clicking, increases non-summon damage by 30%
+					[c/00FFFF:Following effects work passively in vanity slots (right click to enable in inventory):]
+					    Grants immunity to Mighty Wind, Suffocation, Chilled, and Guilty
+					    You have improved night vision
+					    Automatically uses healing & mana potions when needed and increases pickup range for mana stars
+					    You respawn with more life and when no boss is alive, respawn faster
+					    Press the Frigid Spell key to cast Ice Rod
+					    Right click to zoom and drastically improves reforges
+					    Stabilizes gravity in space and in liquids
+					'The amalgamate born of a thousand common enemies'
+					''' */
+			}
+
 			CelestialRune: {
 				DisplayName: 天界符文
 				Tooltip:
@@ -3378,6 +3048,18 @@ Mods: {
 					你的冰块会造成霜冻减益
 					“一块古老的魔法冰碎片”
 					'''
+			}
+
+			FrigidGemstoneInactive: {
+				// DisplayName: Frigid Gemstone (Inactive)
+				/* Tooltip:
+					'''
+					Currently inactive, Right click to activate
+					Grants immunity to Frostburn and Chilled
+					Press the Frigid Spell key to cast Ice Rod
+					Your ice blocks inflict Frostburn
+					'A shard of ancient magical ice'
+					''' */
 			}
 
 			FusedLens: {
@@ -3557,6 +3239,19 @@ Mods: {
 					扩大魔力星的拾取范围
 					“被打败敌人的喃喃自语的脑袋”
 					'''
+			}
+
+			MysticSkullInactive: {
+				// DisplayName: Mystic Skull (Inactive)
+				/* Tooltip:
+					'''
+					Currently inactive, Right click to activate
+					Grants immunity to Suffocation
+					10% reduced magic damage
+					Automatically use mana potions when needed
+					Increases pickup range for mana stars
+					'The quietly muttering head of a defeated foe'
+					''' */
 			}
 
 			NecromanticBrew: {
@@ -4474,6 +4169,15 @@ Mods: {
 					'''
 			}
 
+			HokeyBall: {
+				// DisplayName: Hokey Ball
+				/* Tooltip:
+					'''
+					Summons Nibble
+					'Show Nibble'
+					''' */
+			}
+
 			AbomRelic: {
 				DisplayName: 憎恶圣物
 				// Tooltip: ""
@@ -5157,7 +4861,7 @@ Mods: {
 
 			PinkEskimoEnchant.DisplayName: 粉爱斯基摩魔石
 
-			LifeChallengerBag: {
+			LifelightBag: {
 				// DisplayName: Treasure Bag
 				// Tooltip: Right click to open
 			}
@@ -5206,13 +4910,13 @@ Mods: {
 				Tooltip: 削除/xi - 《STORIA》
 			}
 
-			LifeChallengerRelic: {
-				// DisplayName: Lieflight Relic
+			LifelightRelic: {
+				// DisplayName: Lifelight Relic
 				// Tooltip: ""
 			}
 
-			LifeChallengerTrophy: {
-				// DisplayName: Lieflight Trophy
+			LifelightTrophy: {
+				// DisplayName: Lifelight Trophy
 				// Tooltip: ""
 			}
 
@@ -5251,6 +4955,128 @@ Mods: {
 			}
 
 			// MostlyOrdinaryrock.Tooltip: Mods.FargowiltasSouls.ItemTooltip.MostlyOrdinaryrock
+
+			WiresPainting: {
+				// DisplayName: Wires Painting
+				// Tooltip: Look inside
+			}
+
+			PrismaRegalia: {
+				// DisplayName: Prisma Regalia
+				/* Tooltip:
+					'''
+					Hitting with the tip of the spear releases homing stars
+					Hold to charge for more damage
+					While fully charged, all hits release additional stars
+					'The radiant power of a foe's pure essence...'
+					''' */
+			}
+
+			MechLure: {
+				// DisplayName: Mechanical Lure
+				// Tooltip: Throw underwater at the Ocean to lure out a shrouded creature
+			}
+
+			TheBaronsTusk: {
+				// DisplayName: The Baron's Tusk
+				/* Tooltip:
+					'''
+					Swings emit flying shrapnel, that can embed in enemies
+					Hitting enemies that have more than 15 embedded shrapnel with the tusk rips it out
+					The rip deals a large chunk of damage and is guaranteed to critically strike
+					Shrapnel is also ripped out when the enemy dies
+					''' */
+			}
+
+			NavalRustrifle: {
+				// DisplayName: Naval Rustrifle
+				/* Tooltip:
+					'''
+					Manually reload after each shot
+					Time the reload correctly to empower your next shot
+					Empowered shots deal double damage and are guaranteed to critically strike
+					''' */
+			}
+
+			DecrepitAirstrikeRemote: {
+				// DisplayName: Decrepit Airstrike Remote
+				/* Tooltip:
+					'''
+					Marks a location with a reticle, consuming all your sentry slots
+					In a few seconds, a massive airstrike explosion will hit it, dealing damage depending on sentry slots consumed
+					All your minions hit by the explosion are blown up into homing splinters
+					Splinters can critically strike
+					''' */
+			}
+
+			BanishedBaronBag: {
+				// DisplayName: Treasure Bag
+				// Tooltip: Right click to open
+			}
+
+			RustedOxygenTank: {
+				// DisplayName: Rusted Oxygen Tank
+				/* Tooltip:
+					'''
+					Works from your inventory
+					Right click to disable
+					You count as wet outside water
+					Grants floaty water movement outside of liquid
+					Increased movement speed while in any liquid
+					'Nobody knows how it works'
+					''' */
+			}
+
+			RoseTintedVisor: {
+				// DisplayName: Rose Tinted Visor
+				/* Tooltip:
+					'''
+					Fires up to 6 lasers on release, depending on charge time
+					Has extra critical strike chance depending on lasers charged, up to 100%
+					''' */
+			}
+
+			BaronTrophy: {
+				// DisplayName: Banished Baron Trophy
+				// Tooltip: ""
+			}
+
+			BaronRelic: {
+				// Tooltip: ""
+				// DisplayName: Banished Baron Relic
+			}
+
+			HiveStaff: {
+				// DisplayName: Hive Staff
+				// Tooltip: "'The enslaved minions of a defeated foe..'"
+			}
+
+			ROBGyro: {
+				// DisplayName: Sentient Gyro
+				/* Tooltip:
+					'''
+					'Has a mind of its own'
+					Summons a powerful robot that doesn't fight
+					''' */
+			}
+
+			EulogistsDoomsdayScenario: {
+				// DisplayName: Eulogist's Doomsday Scenario
+				// Tooltip: Blow up a small area around you, killing all town npcs and yourself
+			}
+
+			RustedOxygenTankInactive: {
+				// DisplayName: Rusted Oxygen Tank (Inactive)
+				/* Tooltip:
+					'''
+					Works from your inventory
+					Currently inactive, Right click to reactivate
+					You count as wet outside water
+					Grants floaty water movement outside of liquid
+					Increased movement speed while in any liquid
+					'Nobody knows how it works'
+					''' */
+			}
 		}
 
 		NPCs: {
@@ -5431,7 +5257,18 @@ Mods: {
 				}
 			}
 
+			BanishedBaron: {
+				// DisplayName: Banished Baron
+
+				BossChecklistIntegration: {
+					// EntryName: "{$Mods.FargowiltasSouls.NPCs.BanishedBaron.DisplayName}"
+					// SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.BanishedBaronSpawnInfo}"
+					// DespawnMessage: Mods.FargowiltasSouls.BossChecklist.BanishedBaronDespawn
+				}
+			}
+
 			// DetonatingBubbleNPC.DisplayName: Detonating Bubble
+			// StardustMinion.DisplayName: Stardust Minion
 		}
 
 		Tiles: {
@@ -6115,14 +5952,44 @@ Mods: {
 			MimicTitanGlove.DisplayName: 泰坦手套
 			KamikazePixie.DisplayName: 妖精
 			BabyLifelight.DisplayName: 照明圣光
+			// Nibble.DisplayName: Nibble
+			// SolarMeteor.DisplayName: Solar Meteor
+			// SolarFlamePillarSpawner.DisplayName: Solar Flame Pillar Spawner
+			// SolarFlamePillar.DisplayName: Solar Flame Pillar
+			// LightningTelegraph.DisplayName: Lightning Telegraph
+			// PillarSpawner.DisplayName: Pillar Spawner
+			// VortexVortex.DisplayName: Vortex Vortex
+			// VortexVortexProjectile.DisplayName: Vortex Vortex Projectile
+			// PillarNebulaBlaze.DisplayName: Pillar Nebula Blaze
+			// NebulaDeathray.DisplayName: Nebula Deathray
+			// NebulaPillarProj.DisplayName: Nebula Pillar Proj
+			// NebulaTelegraph.DisplayName: Nebula Telegraph
+			// PillarArcanum.DisplayName: Pillar Arcanum
+			// BaronWhirlpool.DisplayName: Baron Whirlpool
+			// BaronWhirlpoolBolt.DisplayName: Baron Whirlpool Bolt
+			// BaronArenaWhirlpool.DisplayName: Baron Arena Whirlpool
+			// BaronDeathray.DisplayName: Baron Deathray
+			// BaronEyeFlash.DisplayName: Baron Eye Flash
+			// BaronTuskShrapnel.DisplayName: Baron Tusk Shrapnel
+			// DecrepitAirstrike.DisplayName: Decrepit Airstrike
+			// DecrepitAirstrikeNuke.DisplayName: Decrepit Airstrike Nuke
+			// DecrepitAirstrikeNukeSplinter.DisplayName: Decrepit Airstrike Nuke Splinter
+			// MechLureProjectile.DisplayName: Mech Lure Projectile
+			// RoseTintedVisorDeathray.DisplayName: Rose Tinted Visor Deathray
+			// GladiatorStandard.DisplayName: Gladiator Standard
+			// HiveSentry.DisplayName: Hive
+			// ROB.DisplayName: R.O.B
+			// MeteorFlame.DisplayName: Meteor Flame
+			// RainUmbrella.DisplayName: Rain Umbrella
+			// BeeFlower.DisplayName: Bee Flower
 		}
 
-		// WoodHeader: "[i:FargowiltasSouls/TimberForce] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.WoodHeader}]"
-		// BorealConfig: "[i:FargowiltasSouls/BorealWoodEnchant] [c/8B7464:{$Mods.FargowiltasSouls.Toggler.BorealConfig}]"
-		// MahoganyConfig: "[i:FargowiltasSouls/RichMahoganyEnchant] [c/b56c64:{$Mods.FargowiltasSouls.Toggler.MahoganyConfig}]"
-		// EbonConfig: "[i:FargowiltasSouls/EbonwoodEnchant] [c/645a8d:{$Mods.FargowiltasSouls.Toggler.EbonConfig}]"
-		// ShadeConfig: "[i:FargowiltasSouls/ShadewoodEnchant] [c/586876:{$Mods.FargowiltasSouls.Toggler.ShadeConfig}]"
-		// ShadeOnHitConfig: "[i:FargowiltasSouls/ShadewoodEnchant] [c/586876:{$Mods.FargowiltasSouls.Toggler.ShadeOnHitConfig}]"
+		// WoodHeader: "[i:FargowiltasSouls/TimberForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WoodHeader}]"
+		// BorealConfig: "[i:FargowiltasSouls/BorealWoodEnchant][c/8B7464:{$Mods.FargowiltasSouls.Toggler.BorealConfig}]"
+		// MahoganyConfig: "[i:FargowiltasSouls/RichMahoganyEnchant][c/b56c64:{$Mods.FargowiltasSouls.Toggler.MahoganyConfig}]"
+		// EbonConfig: "[i:FargowiltasSouls/EbonwoodEnchant][c/645a8d:{$Mods.FargowiltasSouls.Toggler.EbonConfig}]"
+		// ShadeConfig: "[i:FargowiltasSouls/ShadewoodEnchant][c/586876:{$Mods.FargowiltasSouls.Toggler.ShadeConfig}]"
+		// ShadeOnHitConfig: "[i:FargowiltasSouls/ShadewoodEnchant][c/586876:{$Mods.FargowiltasSouls.Toggler.ShadeOnHitConfig}]"
 		// PalmConfig: "[i:FargowiltasSouls/PalmWoodEnchant][c/b78d56:{$Mods.FargowiltasSouls.Toggler.PalmConfig}]"
 		// PearlConfig: "[i:FargowiltasSouls/PearlwoodEnchant][c/ad9a5f:{$Mods.FargowiltasSouls.Toggler.PearlConfig}]"
 		// EarthHeader: "[i:FargowiltasSouls/EarthForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.EarthHeader}]"
@@ -6142,6 +6009,7 @@ Mods: {
 		// TungstenConfig: "[i:FargowiltasSouls/TungstenEnchant][c/b0d2b2:{$Mods.FargowiltasSouls.Toggler.TungstenConfig}]"
 		// TungstenProjConfig: "[i:FargowiltasSouls/TungstenEnchant][c/b0d2b2:{$Mods.FargowiltasSouls.Toggler.TungstenProjConfig}]"
 		// ObsidianConfig: "[i:FargowiltasSouls/ObsidianEnchant][c/453e73:{$Mods.FargowiltasSouls.Toggler.ObsidianConfig}]"
+		// AshWoodConfig: "[i:FargowiltasSouls/AshWoodEnchant][c/958083:{$Mods.FargowiltasSouls.Toggler.AshWoodConfig}]"
 		// WillHeader: "[i:FargowiltasSouls/WillForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WillHeader}]"
 		// GladiatorConfig: "[i:FargowiltasSouls/GladiatorEnchant][c/9c924e:{$Mods.FargowiltasSouls.Toggler.GladiatorConfig}]"
 		// GoldConfig: "[i:FargowiltasSouls/GoldEnchant][c/e7b21c:{$Mods.FargowiltasSouls.Toggler.GoldConfig}]"
@@ -6149,6 +6017,8 @@ Mods: {
 		// HuntressConfig: "[i:FargowiltasSouls/HuntressEnchant][c/7ac04c:{$Mods.FargowiltasSouls.Toggler.HuntressConfig}]"
 		// RedRidingRainConfig: "[i:FargowiltasSouls/RedRidingEnchant][c/c01b3c:{$Mods.FargowiltasSouls.Toggler.RedRidingRainConfig}]"
 		// ValhallaConfig: "[i:FargowiltasSouls/ValhallaKnightEnchant][c/93651e:{$Mods.FargowiltasSouls.Toggler.ValhallaConfig}]"
+		// SquireMountSpeedConfig: "[i:FargowiltasSouls/SquireEnchant][c/948f8c:{$Mods.FargowiltasSouls.Toggler.SquireMountSpeedConfig}]"
+		// SquireMountJumpConfig: "[i:FargowiltasSouls/SquireEnchant][c/948f8c:{$Mods.FargowiltasSouls.Toggler.SquireMountJumpConfig}]"
 		// SquirePanicConfig: "[i:FargowiltasSouls/SquireEnchant][c/948f8c:{$Mods.FargowiltasSouls.Toggler.SquirePanicConfig}]"
 		// LifeHeader: "[i:FargowiltasSouls/LifeForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.LifeHeader}]"
 		// BeeConfig: "[i:FargowiltasSouls/BeeEnchant][c/FEF625:{$Mods.FargowiltasSouls.Toggler.BeeConfig}]"
@@ -6166,7 +6036,6 @@ Mods: {
 		// JungleConfig: "[i:FargowiltasSouls/JungleEnchant][c/71971f:{$Mods.FargowiltasSouls.Toggler.JungleConfig}]"
 		// JungleDashConfig: "[i:FargowiltasSouls/JungleEnchant][c/71971f:{$Mods.FargowiltasSouls.Toggler.JungleDashConfig}]"
 		// MoltenConfig: "[i:FargowiltasSouls/MoltenEnchant][c/c12b2b:{$Mods.FargowiltasSouls.Toggler.MoltenConfig}]"
-		// MoltenEConfig: "[i:FargowiltasSouls/MoltenEnchant][c/c12b2b:{$Mods.FargowiltasSouls.Toggler.MoltenEConfig}]"
 		// ShroomiteConfig: "[i:FargowiltasSouls/ShroomiteEnchant][c/008cf4:{$Mods.FargowiltasSouls.Toggler.ShroomiteConfig}]"
 		// ShroomiteShroomConfig: "[i:FargowiltasSouls/ShroomiteEnchant][c/008cf4:{$Mods.FargowiltasSouls.Toggler.ShroomiteShroomConfig}]"
 		// ShadowHeader: "[i:FargowiltasSouls/ShadowEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ShadowHeader}]"
@@ -6186,11 +6055,11 @@ Mods: {
 		// FossilConfig: "[i:FargowiltasSouls/FossilEnchant][c/8c5c3b:{$Mods.FargowiltasSouls.Toggler.FossilConfig}]"
 		// ForbiddenConfig: "[i:FargowiltasSouls/ForbiddenEnchant][c/e7b21c:{$Mods.FargowiltasSouls.Toggler.ForbiddenConfig}]"
 		// HallowDodgeConfig: "[i:FargowiltasSouls/HallowEnchant][c/968564:{$Mods.FargowiltasSouls.Toggler.HallowDodgeConfig}]"
-		// HallowedConfig: "[i:FargowiltasSouls/HallowEnchant][c/968564:{$Mods.FargowiltasSouls.Toggler.HallowedConfig}]"
-		// HallowSConfig: "[i:FargowiltasSouls/HallowEnchant][c/968564:{$Mods.FargowiltasSouls.Toggler.HallowSConfig}]"
+		// AHallowedConfig: "[i:FargowiltasSouls/AncientHallowEnchant][c/968564:{$Mods.FargowiltasSouls.Toggler.AHallowedConfig}]"
 		// SpectreConfig: "[i:FargowiltasSouls/SpectreEnchant][c/accdfc:{$Mods.FargowiltasSouls.Toggler.SpectreConfig}]"
 		// TikiConfig: "[i:FargowiltasSouls/TikiEnchant][c/56A52B:{$Mods.FargowiltasSouls.Toggler.TikiConfig}]"
 		// CosmoHeader: "[i:FargowiltasSouls/CosmoForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.CosmoHeader}]"
+		// MeteorMomentumConfig: "[i:FargowiltasSouls/MeteorEnchant][c/5f4752:{$Mods.FargowiltasSouls.Toggler.MeteorMomentumConfig}]"
 		// MeteorConfig: "[i:FargowiltasSouls/MeteorEnchant][c/5f4752:{$Mods.FargowiltasSouls.Toggler.MeteorConfig}]"
 		// NebulaConfig: "[i:FargowiltasSouls/NebulaEnchant][c/fe7ee5:{$Mods.FargowiltasSouls.Toggler.NebulaConfig}]"
 		// SolarConfig: "[i:FargowiltasSouls/SolarEnchant][c/fe9e23:{$Mods.FargowiltasSouls.Toggler.SolarConfig}]"
@@ -6205,6 +6074,7 @@ Mods: {
 		// DeerSinewDashConfig: "[i:FargowiltasSouls/DeerSinew][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DeerSinewDashConfig}]"
 		// MasoAeolusConfig: "[i:FargowiltasSouls/AeolusBoots][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAeolusConfig}]"
 		// MasoAeolusFlowerConfig: "[i:FargowiltasSouls/AeolusBoots][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAeolusFlowerConfig}]"
+		// MasoAeolusFrogConfig: "[i:FargowiltasSouls/AeolusBoots][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAeolusFrogConfig}]"
 		// MasoIconConfig: "[i:FargowiltasSouls/SinisterIcon][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoIconConfig}]"
 		// MasoIconDropsConfig: "[i:FargowiltasSouls/SinisterIcon][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoIconDropsConfig}]"
 		// MasoGrazeConfig: "[i:FargowiltasSouls/SparklingAdoration][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGrazeConfig}]"
@@ -6228,7 +6098,6 @@ Mods: {
 		// MasoPouchConfig: "[i:FargowiltasSouls/WretchedPouch][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPouchConfig}]"
 		// MasoClippedConfig: "[i:FargowiltasSouls/WyvernFeather][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoClippedConfig}]"
 		// MasoGrav2Config: "[i:FargowiltasSouls/WyvernFeather][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGrav2Config}]"
-		// TribalCharmConfig: "[i:FargowiltasSouls/TribalCharm][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TribalCharmConfig}]"
 		// TribalCharmClickBonusConfig: "[i:FargowiltasSouls/TribalCharm][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TribalCharmClickBonusConfig}]"
 		// DubiousHeader: "[i:FargowiltasSouls/DubiousCircuitry][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DubiousHeader}]"
 		// FusedLensInstallConfig: "[i:FargowiltasSouls/FusedLens][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FusedLensInstallConfig}]"
@@ -6268,7 +6137,7 @@ Mods: {
 		// MoonCharmConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MoonCharmConfig}]"
 		// NeptuneShellConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.NeptuneShellConfig}]"
 		// SniperConfig: "[i:FargowiltasSouls/SnipersSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SniperConfig}]"
-		// ManaFlowerConfig: "[i:FargowiltasSouls/SnipersSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ManaFlowerConfig}]"
+		// ManaFlowerConfig: "[i:FargowiltasSouls/ArchWizardsSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ManaFlowerConfig}]"
 		// UniverseConfig: "[i:FargowiltasSouls/UniverseSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.UniverseConfig}]"
 		// WorldShaperHeader: "[i:FargowiltasSouls/WorldShaperSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WorldShaperHeader}]"
 		// MiningHuntConfig: "[i:FargowiltasSouls/MinerEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MiningHuntConfig}]"
@@ -6284,6 +6153,7 @@ Mods: {
 		// DefenseFleshKnuckleConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseFleshKnuckleConfig}]"
 		// DefensePaladinConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefensePaladinConfig}]"
 		// DefenseFrozenConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseFrozenConfig}]"
+		// ShimmerImmunityConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ShimmerImmunityConfig}]"
 		// FlightMasteryHeader: "[i:FargowiltasSouls/FlightMasterySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FlightMasteryHeader}]"
 		// FlightMasteryInsigniaConfig: "[i:FargowiltasSouls/FlightMasterySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FlightMasteryInsigniaConfig}]"
 		// FlightMasteryGravityConfig: "[i:FargowiltasSouls/FlightMasterySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FlightMasteryGravityConfig}]"
@@ -6306,79 +6176,79 @@ Mods: {
 		// TrawlerGelConfig: "[i:FargowiltasSouls/TrawlerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TrawlerGelConfig}]"
 		// EternityHeader: "[i:FargowiltasSouls/EternitySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.EternityHeader}]"
 		// EternityConfig: "[i:FargowiltasSouls/EternitySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.EternityConfig}]"
-		// PetHeader: "[i:2420] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeader}]"
-		// PetDinoConfig: "[i:1242] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDinoConfig}]"
-		// PetEaterConfig: "[i:994] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEaterConfig}]"
-		// PetFaceMonsterConfig: "[i:3060] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetFaceMonsterConfig}]"
-		// PetGrinchConfig: "[i:1959] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGrinchConfig}]"
-		// PetHornetConfig: "[i:1170] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHornetConfig}]"
-		// PetImpConfig: "[i:4551] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetImpConfig}]"
-		// PetPenguinConfig: "[i:669] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPenguinConfig}]"
-		// PetPandaConfig: "[i:4550] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPandaConfig}]"
-		// PetDGConfig: "[i:1169] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDGConfig}]"
-		// PetSnowmanConfig: "[i:1312] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSnowmanConfig}]"
-		// PetShroomConfig: "[i:1181] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetShroomConfig}]"
-		// PetWerewolfConfig: "[i:4736] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetWerewolfConfig}]"
-		// PetBernieConfig: "[i:5088] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBernieConfig}]"
-		// PetBlackCatConfig: "[i:1810] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBlackCatConfig}]"
-		// PetChesterConfig: "[i:5098] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetChesterConfig}]"
-		// PetCompanionCubeConfig: "[i:3628] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetCompanionCubeConfig}]"
-		// PetCursedSaplingConfig: "[i:1837] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetCursedSaplingConfig}]"
-		// PetKittenConfig: "[i:4735] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetKittenConfig}]"
-		// PetEsteeConfig: "[i:4365] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEsteeConfig}]"
-		// PetEyeSpringConfig: "[i:1311] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEyeSpringConfig}]"
-		// PetFoxConfig: "[i:4604] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetFoxConfig}]"
-		// PetButterflyConfig: "[i:4605] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetButterflyConfig}]"
-		// PetGlommerConfig: "[i:5089] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGlommerConfig}]"
-		// PetDragonConfig: "[i:3857] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDragonConfig}]"
-		// PetHarpyConfig: "[i:4603] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHarpyConfig}]"
-		// PetLizardConfig: "[i:1172] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetLizardConfig}]"
-		// PetMinitaurConfig: "[i:2587] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMinitaurConfig}]"
-		// PetParrotConfig: "[i:1180] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetParrotConfig}]"
-		// PetPigmanConfig: "[i:5091] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPigmanConfig}]"
-		// PetPlanteroConfig: "[i:4701] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPlanteroConfig}]"
-		// PetGatoConfig: "[i:3855] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGatoConfig}]"
-		// PetPupConfig: "[i:1927] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPupConfig}]"
-		// PetSeedConfig: "[i:1182] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSeedConfig}]"
-		// PetSpiderConfig: "[i:1798] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSpiderConfig}]"
-		// PetMimicConfig: "[i:4737] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMimicConfig}]"
-		// PetSharkConfig: "[i:4425] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSharkConfig}]"
-		// PetSquashConfig: "[i:1799] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSquashConfig}]"
-		// PetGliderConfig: "[i:4366] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGliderConfig}]"
-		// PetTikiConfig: "[i:1171] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetTikiConfig}]"
-		// PetTurtleConfig: "[i:753] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetTurtleConfig}]"
-		// PetVoltConfig: "[i:4777] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetVoltConfig}]"
-		// PetZephyrConfig: "[i:2420] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetZephyrConfig}]"
-		// PetOrbConfig: "[i:115] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetOrbConfig}]"
-		// PetHeartConfig: "[i:3062] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeartConfig}]"
-		// PetLanternConfig: "[i:3043] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetLanternConfig}]"
-		// PetNaviConfig: "[i:425] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetNaviConfig}]"
-		// PetFlickerConfig: "[i:4816] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetFlickerConfig}]"
-		// PetWispConfig: "[i:1183] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetWispConfig}]"
-		// PetSuspEyeConfig: "[i:3577] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSuspEyeConfig}]"
-		// PetKSConfig: "[i:4797] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetKSConfig}]"
-		// PetEoCConfig: "[i:4798] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEoCConfig}]"
-		// PetEoWConfig: "[i:4799] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEoWConfig}]"
-		// PetBoCConfig: "[i:4800] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBoCConfig}]"
-		// PetDeerConfig: "[i:5090] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDeerConfig}]"
-		// PetQBConfig: "[i:4802] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetQBConfig}]"
-		// PetSkeleConfig: "[i:4801] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSkeleConfig}]"
-		// PetQSConfig: "[i:4960] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetQSConfig}]"
-		// PetDestroyerConfig: "[i:4803] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDestroyerConfig}]"
-		// PetTwinsConfig: "[i:4804] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetTwinsConfig}]"
-		// PetSkelePrimeConfig: "[i:4805] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSkelePrimeConfig}]"
-		// PetOgreConfig: "[i:4816] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetOgreConfig}]"
-		// PetPlanteraConfig: "[i:4806] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPlanteraConfig}]"
-		// PetPumpkingConfig: "[i:4812] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPumpkingConfig}]"
-		// PetEverscreamConfig: "[i:4813] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEverscreamConfig}]"
-		// PetIceQueenConfig: "[i:4814] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetIceQueenConfig}]"
-		// PetDukeConfig: "[i:4808] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDukeConfig}]"
-		// PetGolemConfig: "[i:4807] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGolemConfig}]"
-		// PetEoLConfig: "[i:4811] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEoLConfig}]"
-		// PetBetsyConfig: "[i:4817] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBetsyConfig}]"
-		// PetMartianConfig: "[i:4815] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMartianConfig}]"
-		// PetLCConfig: "[i:4809] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetLCConfig}]"
-		// PetMLConfig: "[i:4810] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMLConfig}]"
+		// PetHeader: "[i:2420][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeader}]"
+		// PetDinoConfig: "[i:1242][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDinoConfig}]"
+		// PetEaterConfig: "[i:994][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEaterConfig}]"
+		// PetFaceMonsterConfig: "[i:3060][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetFaceMonsterConfig}]"
+		// PetGrinchConfig: "[i:1959][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGrinchConfig}]"
+		// PetHornetConfig: "[i:1170][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHornetConfig}]"
+		// PetImpConfig: "[i:4551][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetImpConfig}]"
+		// PetPenguinConfig: "[i:669][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPenguinConfig}]"
+		// PetPandaConfig: "[i:4550][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPandaConfig}]"
+		// PetDGConfig: "[i:1169][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDGConfig}]"
+		// PetSnowmanConfig: "[i:1312][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSnowmanConfig}]"
+		// PetShroomConfig: "[i:1181][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetShroomConfig}]"
+		// PetWerewolfConfig: "[i:4736][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetWerewolfConfig}]"
+		// PetBernieConfig: "[i:5088][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBernieConfig}]"
+		// PetBlackCatConfig: "[i:1810][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBlackCatConfig}]"
+		// PetChesterConfig: "[i:5098][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetChesterConfig}]"
+		// PetCompanionCubeConfig: "[i:3628][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetCompanionCubeConfig}]"
+		// PetCursedSaplingConfig: "[i:1837][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetCursedSaplingConfig}]"
+		// PetKittenConfig: "[i:4735][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetKittenConfig}]"
+		// PetEsteeConfig: "[i:4365][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEsteeConfig}]"
+		// PetEyeSpringConfig: "[i:1311][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEyeSpringConfig}]"
+		// PetFoxConfig: "[i:4604][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetFoxConfig}]"
+		// PetButterflyConfig: "[i:4605][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetButterflyConfig}]"
+		// PetGlommerConfig: "[i:5089][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGlommerConfig}]"
+		// PetDragonConfig: "[i:3857][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDragonConfig}]"
+		// PetHarpyConfig: "[i:4603][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHarpyConfig}]"
+		// PetLizardConfig: "[i:1172][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetLizardConfig}]"
+		// PetMinitaurConfig: "[i:2587][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMinitaurConfig}]"
+		// PetParrotConfig: "[i:1180][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetParrotConfig}]"
+		// PetPigmanConfig: "[i:5091][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPigmanConfig}]"
+		// PetPlanteroConfig: "[i:4701][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPlanteroConfig}]"
+		// PetGatoConfig: "[i:3855][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGatoConfig}]"
+		// PetPupConfig: "[i:1927][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPupConfig}]"
+		// PetSeedConfig: "[i:1182][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSeedConfig}]"
+		// PetSpiderConfig: "[i:1798][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSpiderConfig}]"
+		// PetMimicConfig: "[i:4737][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMimicConfig}]"
+		// PetSharkConfig: "[i:4425][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSharkConfig}]"
+		// PetSquashConfig: "[i:1799][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSquashConfig}]"
+		// PetGliderConfig: "[i:4366][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGliderConfig}]"
+		// PetTikiConfig: "[i:1171][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetTikiConfig}]"
+		// PetTurtleConfig: "[i:753][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetTurtleConfig}]"
+		// PetVoltConfig: "[i:4777][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetVoltConfig}]"
+		// PetZephyrConfig: "[i:2420][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetZephyrConfig}]"
+		// PetOrbConfig: "[i:115][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetOrbConfig}]"
+		// PetHeartConfig: "[i:3062][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeartConfig}]"
+		// PetLanternConfig: "[i:3043][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetLanternConfig}]"
+		// PetNaviConfig: "[i:425][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetNaviConfig}]"
+		// PetFlickerConfig: "[i:4816][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetFlickerConfig}]"
+		// PetWispConfig: "[i:1183][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetWispConfig}]"
+		// PetSuspEyeConfig: "[i:3577][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSuspEyeConfig}]"
+		// PetKSConfig: "[i:4797][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetKSConfig}]"
+		// PetEoCConfig: "[i:4798][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEoCConfig}]"
+		// PetEoWConfig: "[i:4799][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEoWConfig}]"
+		// PetBoCConfig: "[i:4800][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBoCConfig}]"
+		// PetDeerConfig: "[i:5090][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDeerConfig}]"
+		// PetQBConfig: "[i:4802][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetQBConfig}]"
+		// PetSkeleConfig: "[i:4801][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSkeleConfig}]"
+		// PetQSConfig: "[i:4960][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetQSConfig}]"
+		// PetDestroyerConfig: "[i:4803][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDestroyerConfig}]"
+		// PetTwinsConfig: "[i:4804][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetTwinsConfig}]"
+		// PetSkelePrimeConfig: "[i:4805][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSkelePrimeConfig}]"
+		// PetOgreConfig: "[i:4816][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetOgreConfig}]"
+		// PetPlanteraConfig: "[i:4806][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPlanteraConfig}]"
+		// PetPumpkingConfig: "[i:4812][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPumpkingConfig}]"
+		// PetEverscreamConfig: "[i:4813][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEverscreamConfig}]"
+		// PetIceQueenConfig: "[i:4814][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetIceQueenConfig}]"
+		// PetDukeConfig: "[i:4808][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDukeConfig}]"
+		// PetGolemConfig: "[i:4807][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGolemConfig}]"
+		// PetEoLConfig: "[i:4811][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEoLConfig}]"
+		// PetBetsyConfig: "[i:4817][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBetsyConfig}]"
+		// PetMartianConfig: "[i:4815][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMartianConfig}]"
+		// PetLCConfig: "[i:4809][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetLCConfig}]"
+		// PetMLConfig: "[i:4810][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMLConfig}]"
 		// PatreonHeader: "[i:FargowiltasSouls/RoombaPet][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonHeader}]"
 		// PatreonRoomba: "[i:FargowiltasSouls/RoombaPet][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonRoomba}]"
 		// PatreonOrb: "[i:FargowiltasSouls/ComputationOrb][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonOrb}]"
@@ -6394,6 +6264,7 @@ Mods: {
 		// PatreonPrime: "[i:FargowiltasSouls/PrimeStaff][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonPrime}]"
 		// PatreonCrimetroid: "[i:FargowiltasSouls/CrimetroidEgg][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonCrimetroid}]"
 		// PatreonNanoCore: "[i:FargowiltasSouls/NanoCore][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonNanoCore}]"
+		// PatreonROB: "[i:FargowiltasSouls/ROBGyro][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonROB}]"
 
 		Keybinds: {
 			Freeze.DisplayName: 冻结
@@ -6407,17 +6278,6 @@ Mods: {
 			"Frigid Spell.DisplayName": 寒霜咒语
 			"Debuff Install.DisplayName": 减益负载
 			"Ammo Cycle.DisplayName": 弹药切换
-			弹药切换.DisplayName: 弹药切换
-			减益负载.DisplayName: 减益负载
-			寒霜咒语.DisplayName: 寒霜咒语
-			魔法净化.DisplayName: 魔法净化
-			玲珑圣印精确模式.DisplayName: 玲珑圣印精确模式
-			打开魂石效果设置.DisplayName: 打开魂石效果设置
-			突变炸弹.DisplayName: 炸弹
-			特殊冲刺.DisplayName: 特殊冲刺
-			投掷烟雾弹.DisplayName: 投掷烟雾弹
-			金身.DisplayName: 金身
-			冻结.DisplayName: 冻结
 		}
 
 		Configs: {
@@ -6533,9 +6393,42 @@ Mods: {
 					// Label: "{$Mods.FargowiltasSouls.PatreonNanoCore}"
 					// Tooltip: ""
 				}
+
+				PatreonROB: {
+					// Label: "{$Mods.FargowiltasSouls.PatreonROB}"
+					// Tooltip: ""
+				}
+
+				DisplayTogglesRegardless: {
+					// Label: Display Soul Toggles Always
+					// Tooltip: Disable to only show soul toggles when you have the effect's accessory equipped. Enable to always show them.
+				}
 			}
 		}
 
 		// Conditions.RoombaPetSold: Mods.FargowiltasSouls.Conditions.RoombaPetSold
+		// AbyssalDivingSuitConfig: "[i:CalamityMod/AbyssalDivingSuit] Abyssal Diving Suit"
+		// CalamityTrawlerHeader: "[i:FargowiltasSouls/TrawlerSoul] Calamity Trawler's Soul Toggles"
+		// NucleogenesisConfig: "[i:CalamityMod/Nucleogenesis] Nucleogenesis"
+		// CalamityConjuristHeader: "[i:FargowiltasSouls/ConjuristsSoul] Calamity Conjurist's Soul Toggles"
+		// DynamoStemCellsConfig: "[i:CalamityMod/DynamoStemCells] Dynamo Stem Cells"
+		// DaawnlightSpiritOriginConfig: "[i:CalamityMod/DaawnlightSpiritOrigin] Daawnlight Spirit Origin"
+		// QuiverofNihilityConfig: "[i:CalamityMod/QuiverofNihility] Quiver of Nihility"
+		// ElementalQuiverConfig: "[i:CalamityMod/ElementalQuiver] Elemental Quiver"
+		// CalamitySniperHeader: "[i:FargowiltasSouls/SnipersSoul] Calamity Sniper's Soul Toggles"
+		// EtherealTalismanConfig: "[i:CalamityMod/EtherealTalisman] Ethereal Talisman"
+		// CalamityWizardHeader: "[i:FargowiltasSouls/ArchWizardsSoul] Calamity Arch Wizard's Soul Toggles"
+		// ElementalGauntletConfig: "[i:CalamityMod/ElementalGauntlet] Elemental Gauntlet"
+		// CalamityBerserkerHeader: "[i:FargowiltasSouls/BerserkerSoul] Calamity Berserker Soul Toggles"
+		// PurityConfig: "[i:CalamityMod/Purity] Purity"
+		// RampartofDeitiesConfig: "[i:CalamityMod/RampartofDeities] Rampart of Deities"
+		// AsgardianAegisConfig: "[i:CalamityMod/AsgardianAegis] Asgardian Aegis"
+		// AmalgamConfig: "[i:CalamityMod/TheAmalgam] The Amalgam"
+		// CalamityColossusHeader: "[i:FargowiltasSouls/ColossusSoul] Calamity Colossus Soul Toggles"
+		// VeneratedLocketConfig: "[i:CalamityMod/VeneratedLocket] Venerated Locket"
+		// DragonScalesConfig: "[i:CalamityMod/DragonScales] Dragon Scales"
+		// EclipseMirrorConfig: "[i:CalamityMod/EclipseMirror] Eclipse Mirror"
+		// NanotechConfig: "[i:CalamityMod/Nanotech] Nanotech"
+		// VagabondsSoulHeader: "[i:FargowiltasCrossmod/VagabondsSoul] Vagabond's Soul"
 	}
 }
