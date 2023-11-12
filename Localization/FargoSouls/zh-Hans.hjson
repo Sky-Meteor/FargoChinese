@@ -10,60 +10,60 @@ Mods: {
 	FargowiltasSouls: {
 		WizardEffect: {
 			Adamantite: 弹幕现在会分裂成三个，造成33%伤害，造成伤害的频率提升到3倍
-			AncientHallow: ""
-			AncientShadow: ""
+			AncientHallow: 剑的伤害增加，可反射的弹幕伤害上限提升至200
+			AncientShadow: 暗影珠数量增加
 			Angler: ""
-			Bee: ""
+			Bee: 增强翅膀的各项数据与蜜蜂的伤害
 			Beetle: ""
-			Boreal: 更频繁的释放更多雪球
+			// Boreal: Fires more snowballs more often
 			Cactus: 增加针刺的数量和伤害
-			Chlorophyte: ""
-			Cobalt: 增加爆炸伤害
+			Chlorophyte: 叶绿水晶和孢子的伤害增加，冷却时间缩短
+			Cobalt: 增加受击爆炸伤害
 			Copper: 增加闪电伤害，减少冷却时间 //for patch
 			Crimson: ""
 			CrystalAssassin: ""
-			DarkArtist: ""
-			Ebonwood: 伤害判定门槛从10提高至25，并且会杀死光环内任何小于200血量的生物
-			Forbidden: ""
-			Fossil: ""
-			Frost: ""
-			Gladiator: ""
+			DarkArtist: 辅助武器的数量从2把提升至3把
+			Ebonwood: 光环范围扩大，减少的防御从10增加至30
+			Forbidden: 伤害提升从30%增加至60%
+			Fossil: 复活时的治疗量增加至200，产生的骨头数量翻倍
+			Frost: 冰锥伤害翻倍
+			Gladiator: 增加旗子生效范围，缩短长矛雨的冷却时间
 			Gold: ""
-			Hallow: ""
-			Iron: 物品拾取距离提升到四倍，合成加成现在也对任何秘银砧生效
+			Hallow: 药水治疗量加成从40%提升至70%
+			Iron: 不消耗物品的概率增加至50%
 			Lead: 增加铅中毒伤害，持续伤害减免提升到60%
-			Meteor: ""
-			Miner: ""
+			Meteor: 攻击时每过几秒便会召唤一次流星雨
+			Miner: 挖掘速度提升
 			Molten: 狱火圈伤害翻倍，易伤生效范围增加1.5倍 //for patch
 			Mythril: 增加最大攻速加成，延长持续时间 //for patch
-			Nebula: ""
+			Nebula: 增益堆叠上限增加至3层
 			Necro: ""
-			Ninja: 护甲穿透增加提高到45点
-			Obsidian: 不再需要岩浆来引发爆炸，减少冷却时间 //for patch
+			Ninja: 最大伤害加成增加至30%，当效果激活时玩家的最大速度增加
+			Obsidian: 不再需要岩浆来引发爆炸或火球，减少冷却时间 //for patch
 			Orichalcum: 倍数提高到4
 			Palladium: 快速治疗总是持续5秒，增加钯金珠伤害
-			PalmWood: 增加攻击速度和伤害，可以额外召唤两个棕榈树哨兵
+			PalmWood: 增加攻击速度和伤害，可以额外召唤一个棕榈树哨兵
 			Pearlwood: 增加伤害，减少冷却时间 //for patch
 			Platinum: ""
-			Pumpkin: ""
-			Rain: ""
-			RedRiding: ""
+			Pumpkin: 南瓜在飞行时也可生长，治疗量翻倍，火焰伤害增加至45
+			Rain: 雨伞可抵挡伤害从200增加至1000，反射伤害增加三倍
+			RedRiding: 箭雨冷却时间更短并造成更高伤害
 			RichMahogany: 牵引速度×2.5，伤害减免和荆棘效果大幅提升
 			Shadewood: 增加光环大小和血液伤害，并附加灵液效果 //for patch
 			Shinobi: ""
-			Shroomite: ""
+			Shroomite: 蘑菇生成的频率加快
 			Silver: 格挡可以抵消至多200伤害，且会给予惊人一刻增益
 			Solar: ""
 			Spectre: ""
 			Spider: ""
 			Spooky: ""
 			Stardust: ""
-			Tiki: ""
+			Tiki: 鞭子攻击距离增加20%
 			Tin: 最小暴击率提高到10%，最大暴击率至少有50%，减少增加暴击过程的冷却时间 //for patch
 			Titanium: 碎片会但只会受到最高的职业伤害加成；伤害减免提高至75% //for patch
-			Tungsten: 将武器大小提升到300%，伤害加成提升到20%，减少冷却时间 //for patch
-			Turtle: ""
-			ValhallaKnight: ""
+			Tungsten: 将武器大小提升到200%，伤害加成提升到15%，减少冷却时间 //for patch
+			Turtle: 抵挡弹幕次数可缓慢恢复，针刺的伤害和数量增加
+			ValhallaKnight: 使用坐骑时增加20点防御，坐骑加速度从1.5倍提升至2倍，治疗增加量从33%提升至50%
 			Vortex: ""
 			Wood: 怪物图鉴和旗帜解锁速度增加到5倍 //for patch
 		}
@@ -180,22 +180,22 @@ Mods: {
 			CosmosChampionKilledAll: 宇宙英灵击败了每一个敌人。
 			TrojanSquirrelDespawn: 特洛伊松鼠回到了它的松鼠聚落中……
 			LifeChallengerDespawn: 飘渺游光随辉光消逝……
-			// CursedCoffinDespawn: The Cursed Coffin returns to its slumber...
-			// BanishedBaronDespawn: The Banished Baron dives deeper into the ocean...
-			// DeviBossSpawnInfo: Spawn by using [i:FargowiltasSouls/DevisCurse]
-			// AbomBossSpawnInfo: Spawn by using [i:FargowiltasSouls/AbomsCure]
-			// MutantBossSpawnInfo: Throw [i:FargowiltasSouls/MutantsCurse] into a pool of lava while Abominationn is alive in Mutant's presence.
-			// TimberChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] on the surface during day.
-			// TerraChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] underground.
-			// EarthChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in the underworld.
-			// NatureChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in underground snow.
-			// LifeChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in the Hallow at day.
-			// ShadowChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in the Corruption or Crimson at night.
-			// SpiritChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in the underground desert.
-			// WillChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] at the ocean.
-			// CosmosChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in space.
-			// TrojanSquirrelSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions]
-			// LifeChallengerSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in the Hallow at day.
+			CursedCoffinDespawn: The Cursed Coffin returns to its slumber...//for patch
+			BanishedBaronDespawn: The Banished Baron dives deeper into the ocean...//for patch
+			DeviBossSpawnInfo: 通过使用[i:FargowiltasSouls/DevisCurse]来召唤
+			AbomBossSpawnInfo: 通过使用[i:FargowiltasSouls/AbomsCure]来召唤
+			MutantBossSpawnInfo: 当憎恶在突变体在场的情况下存活时，将[i:FargowiltasSouls/MutantsCurse]扔进岩浆中
+			TimberChampionSpawnInfo: 白天在地表森林环境使用[i:FargowiltasSouls/SigilOfChampions]
+			TerraChampionSpawnInfo: 在地下使用[i:FargowiltasSouls/SigilOfChampions]召唤
+			EarthChampionSpawnInfo: 在地狱中使用[i:FargowiltasSouls/SigilOfChampions]召唤
+			NatureChampionSpawnInfo: 在地下雪原环境使用[i:FargowiltasSouls/SigilOfChampions]召唤
+			LifeChampionSpawnInfo: 白天在神圣环境使用[i:FargowiltasSouls/SigilOfChampions]召唤
+			ShadowChampionSpawnInfo: 夜晚在邪恶环境使用[i:FargowiltasSouls/SigilOfChampions]召唤
+			SpiritChampionSpawnInfo: 在地下沙漠环境使用[i:FargowiltasSouls/SigilOfChampions]召唤
+			WillChampionSpawnInfo: 在海洋使用[i:FargowiltasSouls/SigilOfChampions]召唤
+			CosmosChampionSpawnInfo: 在太空使用[i:FargowiltasSouls/SigilOfChampions]召唤
+			TrojanSquirrelSpawnInfo: 通过使用 [i:FargowiltasSouls/SquirrelCoatofArms]召唤
+			LifeChallengerSpawnInfo: 白天在神圣环境使用[i:FargowiltasSouls/SigilOfChampions]召唤
 		}
 
 		Message: {
@@ -231,12 +231,12 @@ Mods: {
 			ForgottenGift: 目前世界的受虐模式开关状态：
 
 			WorldUpdatingSystem: {
-				// EternityOn: Eternity Mode activated!
-				// EternityOff: Eternity Mode deactivated.
-				// EternityWrongDifficulty: Difficulty too low, Eternity Mode deactivated...
-				// MasochistOn: Master and Eternity combined: Masochist Mode activated!!
-				// MasochistOff: Masochist Mode deactivated.
-				// BloodMoonCancel: The Blood Moon changed its mind and left...
+				EternityOn: 永恒模式已开启!
+				EternityOff: 永恒模式已关闭。
+				EternityWrongDifficulty: 难度过低，永恒模式已关闭...
+				MasochistOn: 大师模式与永恒模式结合：受虐模式已开启！！
+				MasochistOff: 受虐模式已关闭。
+				BloodMoonCancel: 血月改变了主意，溜了溜了...
 			}
 
 			MutantSkipP1: 突变体不想再伪装下去了……
@@ -277,7 +277,7 @@ Mods: {
 			QueenBeeEnrage: "{$NPCName.QueenBee}在地下丛林之外变得异常愤怒！"
 			MoonsDeathPenalty: 事件回溯，波数倒退！
 			FatherOfLies: 你来到这里真是个致命错误。
-			// MasochistExtraTooltip: "[i:FargowiltasSouls/MutantsPact] {$Mods.FargowiltasSouls.Message.MasochistPreTooltip}"
+			MasochistExtraTooltip: "[i:FargowiltasSouls/MutantsPact] {$Mods.FargowiltasSouls.Message.MasochistPreTooltip}"
 		}
 
 		DeathMessage: {
@@ -377,7 +377,7 @@ Mods: {
 			OncomingMutantY: 永恒模式图标竖直位置
 			Precision: 按住“精确模式”键时开启精确模式
 			PrecisionTooltip: 如果关闭，你不再需要一直按住热键以开启精度模式。不在精度模式时，按下热键可以激活，再按一次即可取消。
-			// HideTogglerTooltip: Mods.FargowiltasSouls.Config.HideTogglerTooltip
+			HideTogglerTooltip: Mods.FargowiltasSouls.Config.HideTogglerTooltip //for patch
 		}
 
 		Toggler: {
@@ -412,10 +412,10 @@ Mods: {
 			GoldToPiggyConfig: 金 自动将钱存进储蓄罐
 			HuntressConfig: 女猎人 相关效果
 			RedRidingRainConfig: 红色骑术 箭雨
-			ValhallaConfig: 侍卫/英灵殿骑士 治疗提升
+			ValhallaConfig: 英灵殿骑士 坐骑冲刺
 			SquirePanicConfig: “弩车恐慌！”效果
 			LifeHeader: "{$Mods.FargowiltasSouls.Items.LifeForce.DisplayName}"
-			BeeConfig: 蜜蜂 相关效果
+			BeeConfig: 蜜蜂 花朵
 			BeetleConfig: 甲虫 相关效果
 			CactusConfig: 仙人掌 针刺
 			PumpkinConfig: 南瓜 种植南瓜
@@ -424,13 +424,13 @@ Mods: {
 			NatureHeader: "{$Mods.FargowiltasSouls.Items.NatureForce.DisplayName}"
 			ChlorophyteConfig: 叶绿 水晶
 			CrimsonConfig: 猩红 生命恢复
-			RainConfig: 雨云 相关效果
+			RainConfig: 雨云 雨伞
 			RainInnerTubeConfig: 游泳圈效果
 			FrostConfig: 寒霜 冰锥
 			JungleConfig: 丛林 跳跃孢子
 			JungleDashConfig: 丛林 冲刺
 			MoltenConfig: 熔岩 狱火增益
-			MoltenEConfig: 熔岩 受击爆炸（现效果被移动到钴蓝魔石）
+			// MoltenEConfig: Molten Explosion On Hit
 			ShroomiteConfig: 蘑菇 潜行
 			ShroomiteShroomConfig: 蘑菇 蘑菇尾迹
 			ShadowHeader: "{$Mods.FargowiltasSouls.Items.ShadowForce.DisplayName}"
@@ -448,9 +448,9 @@ Mods: {
 			SpiritHeader: "{$Mods.FargowiltasSouls.Items.SpiritForce.DisplayName}"
 			FossilConfig: 化石 受击释放骨头
 			ForbiddenConfig: 禁戒 远古风暴
-			HallowDodgeConfig: 神圣 神圣防护
-			HallowedConfig: 远古神圣 泰拉棱镜
-			HallowSConfig: 远古神圣 护盾
+			HallowDodgeConfig: 神圣 治疗药水
+			// HallowedConfig: Ancient Hallowed Terraprisma familiar
+			// HallowSConfig: Ancient Hallowed Shield
 			NinjaSpeedConfig: 忍者 弹幕、攻击速度加成
 			SpectreConfig: 幽魂 幽魂珠
 			TikiConfig: 提基 鞭打召唤物
@@ -491,7 +491,7 @@ Mods: {
 			MasoSqueakConfig: 击中发出吱吱声
 			MasoPouchConfig: 更强更慢的暗影焰攻击
 			MasoClippedConfig: 造成折翼减益
-			TribalCharmConfig: 武器自动攻击（此效果无视配置常开）
+			// TribalCharmConfig: Tribal Charm Auto Swing
 			TribalCharmClickBonusConfig: 部落挂坠点击加成
 			DubiousHeader: "{$Mods.FargowiltasSouls.Items.DubiousCircuitry.DisplayName}"
 			FusedLensInstallConfig: 双子负载
@@ -658,16 +658,16 @@ Mods: {
 			PatreonPrime: 机械骷髅王法杖
 			PatreonCrimetroid: 血水母的蛋
 			PatreonNanoCore: 纳米核心
-			// SilverS: Mods.FargowiltasSouls.Toggler.SilverS
+			SilverS: Mods.FargowiltasSouls.Toggler.SilverS
 			CrystalGelatinConfig: 挥发明胶效果
-			// SilverConfig: Mods.FargowiltasSouls.Toggler.SilverConfig
-			// MasoHoneyConfig: Mods.FargowiltasSouls.Toggler.MasoHoneyConfig
+			SilverConfig: Mods.FargowiltasSouls.Toggler.SilverConfig //for patch
+			MasoHoneyConfig: Mods.FargowiltasSouls.Toggler.MasoHoneyConfig //for patch
 		}
 
 		UI: {
-			// SoulTogglerButton: Configure Accessory Effects
-			// EternityEnabled: Eternity Mode is enabled
-			// MasochistEnabled: Masochist Mode is enabled
+			SoulTogglerButton: 设置饰品效果
+			EternityEnabled: 永恒模式已开启
+			MasochistEnabled: 受虐模式已开启
 		}
 
 		ItemExtra: {
@@ -1010,7 +1010,7 @@ Mods: {
 			BrainOfConfusion: 成功躲避后，你的伤害会降低
 			ZenithNone: 无削弱
 			ZenithHitRate: "造成伤害的频率大幅降低，通过击败下列Boss可提高其输出能力: "
-			VampireKnives: 生命值高于33%时削弱吸血能力
+			VampireKnives: 生命值高于50%时削弱吸血能力
 			Zapinator: 无法堆叠弹幕伤害
 			OOASet: 当你使用其他职业的武器攻击时，抵消部分召唤伤害降低惩罚
 			MiningHelmet: 提高不死矿工的刷新率
@@ -1062,88 +1062,88 @@ Mods: {
 
 		Buffs: {
 			AbomFang: {
-				DisplayName: 憎恶毒牙
-				Description: 永恒模式的力量压迫着你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.AbomFang
+				// Description: Mods.FargowiltasSouls.BuffDescription.AbomFang
 			}
 
 			AbomPresence: {
-				DisplayName: 憎恶驾到
-				Description: 减少防御力、伤害减免和生命恢复速度，附带月蛭凝块效果
+				// DisplayName: Mods.FargowiltasSouls.BuffName.AbomPresence
+				// Description: Mods.FargowiltasSouls.BuffDescription.AbomPresence
 			}
 
 			DeviPresence: {
-				DisplayName: 戴薇安驾到
-				Description: 大幅增加友方NPC受到的伤害
+				// DisplayName: Mods.FargowiltasSouls.BuffName.DeviPresence
+				// Description: Mods.FargowiltasSouls.BuffDescription.DeviPresence
 			}
 
 			Grabbed: {
-				DisplayName: 抓住你了！
-				Description: 狂敲你的移动键来逃离！
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Grabbed
+				// Description: Mods.FargowiltasSouls.BuffDescription.Grabbed
 			}
 
 			MutantFang: {
-				DisplayName: 突变毒牙
-				Description: 永恒模式的力量压迫着你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.MutantFang
+				// Description: Mods.FargowiltasSouls.BuffDescription.MutantFang
 			}
 
 			MutantPresence: {
-				DisplayName: 突变驾到
-				Description: 减少防御力、伤害减免和生命恢复速度，关闭几乎所有魂的效果，减小擦弹范围
+				// DisplayName: Mods.FargowiltasSouls.BuffName.MutantPresence
+				// Description: Mods.FargowiltasSouls.BuffDescription.MutantPresence
 			}
 
 			AbomCooldown: {
-				DisplayName: 憎恶冷却
-				Description: 还不能承受另一次攻击
+				// DisplayName: Mods.FargowiltasSouls.BuffName.AbomCooldown
+				// Description: Mods.FargowiltasSouls.BuffDescription.AbomCooldown
 			}
 
 			AbomRebirth: {
-				DisplayName: 憎恶重生
-				Description: 除非受击，你无法死亡
+				// DisplayName: Mods.FargowiltasSouls.BuffName.AbomRebirth
+				// Description: Mods.FargowiltasSouls.BuffDescription.AbomRebirth
 			}
 
 			Anticoagulation: {
-				DisplayName: 凝血失效
-				Description: 生命流失，受伤时鲜血四溅，敌怪会吸收你溅出的鲜血并变得更强
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Anticoagulation
+				// Description: Mods.FargowiltasSouls.BuffDescription.Anticoagulation
 			}
 
 			Antisocial: {
-				DisplayName: 社恐
-				Description: 你没有朋友，也无法造成召唤伤害
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Antisocial
+				// Description: Mods.FargowiltasSouls.BuffDescription.Antisocial
 			}
 
 			Atrophied: {
-				DisplayName: 萎缩
-				Description: 你的肌肉正在退化
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Atrophied
+				// Description: Mods.FargowiltasSouls.BuffDescription.Atrophied
 			}
 
 			Berserked: {
-				DisplayName: 狂暴
-				Description: 攻击欲望增强，防御力减少，你控几不住你记己
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Berserked
+				// Description: Mods.FargowiltasSouls.BuffDescription.Berserked
 			}
 
 			BerserkerInstall: {
-				DisplayName: 狂暴负载
-				Description: “狂战士！干掉他们！”
+				// DisplayName: Mods.FargowiltasSouls.BuffName.BerserkerInstall
+				// Description: Mods.FargowiltasSouls.BuffDescription.BerserkerInstall
 			}
 
 			BerserkerInstallCD: {
-				DisplayName: 狂暴冷却
-				Description: 你还不能进入狂暴状态
+				// DisplayName: Mods.FargowiltasSouls.BuffName.BerserkerInstallCD
+				// Description: Mods.FargowiltasSouls.BuffDescription.BerserkerInstallCD
 			}
 
 			BloodDrinker: {
-				DisplayName: 饮血者
-				Description: 增加30%伤害
+				// DisplayName: Mods.FargowiltasSouls.BuffName.BloodDrinker
+				// Description: Mods.FargowiltasSouls.BuffDescription.BloodDrinker
 			}
 
 			Bloodthirsty: {
-				DisplayName: 嗜血
-				Description: 极大提高刷怪速率
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Bloodthirsty
+				// Description: Mods.FargowiltasSouls.BuffDescription.Bloodthirsty
 			}
 
 			BrainOfConfusionDebuff: {
-				DisplayName: 理智崩溃
-				Description: 造成的伤害降低30%
+				// DisplayName: Mods.FargowiltasSouls.BuffName.BrainOfConfusionDebuff
+				// Description: Mods.FargowiltasSouls.BuffDescription.BrainOfConfusionDebuff
 			}
 
 			ChaosLife: {
@@ -1152,8 +1152,8 @@ Mods: {
 			}
 
 			ClippedWings: {
-				DisplayName: 折翼
-				Description: 无法飞行或使用火箭靴
+				// DisplayName: Mods.FargowiltasSouls.BuffName.ClippedWings
+				// Description: Mods.FargowiltasSouls.BuffDescription.ClippedWings
 			}
 
 			Coldheart: {
@@ -1162,265 +1162,265 @@ Mods: {
 			}
 
 			Crippled: {
-				DisplayName: 跛足
-				Description: 你无法奔跑
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Crippled
+				// Description: Mods.FargowiltasSouls.BuffDescription.Crippled
 			}
 
 			CurseoftheMoon: {
-				DisplayName: 月之诅咒
-				Description: 月亮的愤怒正在吞噬你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.CurseoftheMoon
+				// Description: Mods.FargowiltasSouls.BuffDescription.CurseoftheMoon
 			}
 
 			Defenseless: {
-				DisplayName: 毫无防御
-				Description: 你的防御完全崩溃了
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Defenseless
+				// Description: Mods.FargowiltasSouls.BuffDescription.Defenseless
 			}
 
 			FlamesoftheUniverse: {
-				DisplayName: 宇宙之火
-				Description: 来自诸天的亲自审判
+				// DisplayName: Mods.FargowiltasSouls.BuffName.FlamesoftheUniverse
+				// Description: Mods.FargowiltasSouls.BuffDescription.FlamesoftheUniverse
 			}
 
 			Flipped: {
-				DisplayName: 翻转
-				Description: 你的重力被颠倒了
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Flipped
+				// Description: Mods.FargowiltasSouls.BuffDescription.Flipped
 			}
 
 			Fused: {
-				DisplayName: 导火线
-				Description: 你和爆炸有个约会
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Fused
+				// Description: Mods.FargowiltasSouls.BuffDescription.Fused
 			}
 
 			GodEater: {
-				DisplayName: 噬神者
-				Description: 你的灵魂被神明的忿怒所诅咒
+				// DisplayName: Mods.FargowiltasSouls.BuffName.GodEater
+				// Description: Mods.FargowiltasSouls.BuffDescription.GodEater
 			}
 
 			Guilty: {
-				DisplayName: 内疚
-				Description: 杀害无辜动物产生的内疚使你的武器变得迟钝
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Guilty
+				// Description: Mods.FargowiltasSouls.BuffDescription.Guilty
 			}
 
 			Hexed: {
-				DisplayName: 着魔
-				Description: 你的攻击会治愈敌人
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Hexed
+				// Description: Mods.FargowiltasSouls.BuffDescription.Hexed
 			}
 
 			HolyPrice: {
-				DisplayName: 神圣代价
-				Description: 减少30%攻击速度
+				// DisplayName: Mods.FargowiltasSouls.BuffName.HolyPrice
+				// Description: Mods.FargowiltasSouls.BuffDescription.HolyPrice
 			}
 
 			Hypothermia: {
-				DisplayName: 恐寒症
-				Description: 你会多承受10%来自冷系攻击的伤害
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Hypothermia
+				// Description: Mods.FargowiltasSouls.BuffDescription.Hypothermia
 			}
 
 			Infested: {
-				DisplayName: 感染
-				Description: 这只会变得更糟
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Infested
+				// Description: Mods.FargowiltasSouls.BuffDescription.Infested
 			}
 
 			IvyVenom: {
-				DisplayName: 常春藤毒素
-				Description: 流失生命, 持续时间超过20秒时变为神经毒素
+				// DisplayName: Mods.FargowiltasSouls.BuffName.IvyVenom
+				// Description: Mods.FargowiltasSouls.BuffDescription.IvyVenom
 			}
 
 			Jammed: {
-				DisplayName: 卡壳
-				Description: 你的远程武器出故障了
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Jammed
+				// Description: Mods.FargowiltasSouls.BuffDescription.Jammed
 			}
 
 			Lethargic: {
-				DisplayName: 昏昏欲睡
-				Description: 你感觉你的武器变得缓慢
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Lethargic
+				// Description: Mods.FargowiltasSouls.BuffDescription.Lethargic
 			}
 
 			LightningRod: {
-				DisplayName: 避雷针
-				Description: 你会吸引雷电
+				// DisplayName: Mods.FargowiltasSouls.BuffName.LightningRod
+				// Description: Mods.FargowiltasSouls.BuffDescription.LightningRod
 			}
 
 			LihzahrdBlessing: {
-				DisplayName: 蜥蜴祝福
-				Description: 电线重新受你的掌控，降低丛林神庙内的刷怪速率
+				// DisplayName: Mods.FargowiltasSouls.BuffName.LihzahrdBlessing
+				// Description: Mods.FargowiltasSouls.BuffDescription.LihzahrdBlessing
 			}
 
 			LihzahrdCurse: {
-				DisplayName: 蜥蜴诅咒
-				Description: 丛林神庙内，你不能拆除或放置电线
+				// DisplayName: Mods.FargowiltasSouls.BuffName.LihzahrdCurse
+				// Description: Mods.FargowiltasSouls.BuffDescription.LihzahrdCurse
 			}
 
 			LivingWasteland: {
-				DisplayName: 人形废土
-				Description: 你周围的每个人都开始腐烂
+				// DisplayName: Mods.FargowiltasSouls.BuffName.LivingWasteland
+				// Description: Mods.FargowiltasSouls.BuffDescription.LivingWasteland
 			}
 
 			LoosePockets: {
-				DisplayName: 晃动衣袋
-				Description: 你身上的一件物品也许会被拿走
+				// DisplayName: Mods.FargowiltasSouls.BuffName.LoosePockets
+				// Description: Mods.FargowiltasSouls.BuffDescription.LoosePockets
 			}
 
 			Lovestruck: {
-				DisplayName: 热恋
-				Description: 坠入爱河！
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Lovestruck
+				// Description: Mods.FargowiltasSouls.BuffDescription.Lovestruck
 			}
 
 			LowGround: {
-				DisplayName: 下陷
-				Description: 钩爪被禁止，不能站在平台或液体上
+				// DisplayName: Mods.FargowiltasSouls.BuffName.LowGround
+				// Description: Mods.FargowiltasSouls.BuffDescription.LowGround
 			}
 
 			MagicalCleanseCD: {
-				DisplayName: 魔法净化冷却
-				Description: 你还不能净化减益
+				// DisplayName: Mods.FargowiltasSouls.BuffName.MagicalCleanseCD
+				// Description: Mods.FargowiltasSouls.BuffDescription.MagicalCleanseCD
 			}
 
 			MarkedforDeath: {
-				DisplayName: 死亡标记
-				Description: 别被打到
+				// DisplayName: Mods.FargowiltasSouls.BuffName.MarkedforDeath
+				// Description: Mods.FargowiltasSouls.BuffDescription.MarkedforDeath
 			}
 
 			Midas: {
-				DisplayName: 迈达斯
-				Description: 受击时掉落钱币
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Midas
+				// Description: Mods.FargowiltasSouls.BuffDescription.Midas
 			}
 
 			MutantNibble: {
-				DisplayName: 突变啃啄
-				Description: 无法恢复生命
+				// DisplayName: Mods.FargowiltasSouls.BuffName.MutantNibble
+				// Description: Mods.FargowiltasSouls.BuffDescription.MutantNibble
 			}
 
 			NanoInjection: {
-				DisplayName: 纳米灌注
-				Description: 降低生命恢复速度和综合属性
+				// DisplayName: Mods.FargowiltasSouls.BuffName.NanoInjection
+				// Description: Mods.FargowiltasSouls.BuffDescription.NanoInjection
 			}
 
 			Neurotoxin: {
-				DisplayName: 神经毒素
-				Description: 你的身体正在停歇关闭
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Neurotoxin
+				// Description: Mods.FargowiltasSouls.BuffDescription.Neurotoxin
 			}
 
 			NullificationCurse: {
-				DisplayName: 无效诅咒
-				Description: 月亮领主正在循环他的伤害免疫类型！
+				// DisplayName: Mods.FargowiltasSouls.BuffName.NullificationCurse
+				// Description: Mods.FargowiltasSouls.BuffDescription.NullificationCurse
 			}
 
 			OceanicMaul: {
-				DisplayName: 海洋重击
-				Description: 防御力和最大生命值被大幅降低
+				// DisplayName: Mods.FargowiltasSouls.BuffName.OceanicMaul
+				// Description: Mods.FargowiltasSouls.BuffDescription.OceanicMaul
 			}
 
 			OceanicSeal: {
-				DisplayName: 海洋印记
-				Description: 无法闪避，无法吸血，无法使用超音速之魂快速移动，无法逃脱
+				// DisplayName: Mods.FargowiltasSouls.BuffName.OceanicSeal
+				// Description: Mods.FargowiltasSouls.BuffDescription.OceanicSeal
 			}
 
 			Oiled: {
-				DisplayName: 浸油
-				Description: 着火时受到更多伤害
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Oiled
+				// Description: Mods.FargowiltasSouls.BuffDescription.Oiled
 			}
 
-			PungentGaze.DisplayName: 尖刻注视
+			// PungentGaze.DisplayName: Mods.FargowiltasSouls.BuffName.PungentGaze
 
 			Purged: {
-				DisplayName: 涤荡
-				Description: 闪避效果不会生效
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Purged
+				// Description: Mods.FargowiltasSouls.BuffDescription.Purged
 			}
 
 			Purified: {
-				DisplayName: 净化
-				Description: 你被净化了
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Purified
+				// Description: Mods.FargowiltasSouls.BuffDescription.Purified
 			}
 
 			ReverseManaFlow: {
-				DisplayName: 魔力逆流
-				Description: 你的魔法武器消耗生命而不是魔力
+				// DisplayName: Mods.FargowiltasSouls.BuffName.ReverseManaFlow
+				// Description: Mods.FargowiltasSouls.BuffDescription.ReverseManaFlow
 			}
 
 			Rotting: {
-				DisplayName: 腐败
-				Description: 你的身体逐渐衰弱
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Rotting
+				// Description: Mods.FargowiltasSouls.BuffDescription.Rotting
 			}
 
 			RushJob: {
-				DisplayName: 急活
-				Description: 护士现在还不能再次治疗你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.RushJob
+				// Description: Mods.FargowiltasSouls.BuffDescription.RushJob
 			}
 
 			Sadism: {
-				DisplayName: 永恒
-				Description: 永恒模式的力量与你同在
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Sadism
+				// Description: Mods.FargowiltasSouls.BuffDescription.Sadism
 			}
 
 			Shadowflame: {
-				DisplayName: 暗影焰
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Shadowflame
 				// Description: Mods.FargowiltasSouls.BuffDescription.Shadowflame
 			}
 
 			Smite: {
-				DisplayName: 惩戒
-				Description: 降低生命恢复速度，受到的伤害增加10%
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Smite
+				// Description: Mods.FargowiltasSouls.BuffDescription.Smite
 			}
 
 			SqueakyToy: {
-				DisplayName: 吱吱响的玩具
-				Description: 你的攻击如同玩具一般作响！
+				// DisplayName: Mods.FargowiltasSouls.BuffName.SqueakyToy
+				// Description: Mods.FargowiltasSouls.BuffDescription.SqueakyToy
 			}
 
 			Stunned: {
-				DisplayName: 昏迷
-				Description: 你头晕目眩，动弹不得
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Stunned
+				// Description: Mods.FargowiltasSouls.BuffDescription.Stunned
 			}
 
 			Supercharged: {
-				DisplayName: 超级充能
-				Description: 增加20%移动速度和10%攻击速度，你的攻击会造成带电和避雷针
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Supercharged
+				// Description: Mods.FargowiltasSouls.BuffDescription.Supercharged
 			}
 
 			Swarming: {
-				DisplayName: 蜂群
-				Description: 蜂群正从四面八方向你发起进攻！
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Swarming
+				// Description: Mods.FargowiltasSouls.BuffDescription.Swarming
 			}
 
 			ThiefCD: {
-				DisplayName: 偷窃冷却
-				Description: 你的物品现在不会再次被偷了
+				// DisplayName: Mods.FargowiltasSouls.BuffName.ThiefCD
+				// Description: Mods.FargowiltasSouls.BuffDescription.ThiefCD
 			}
 
 			TwinsInstall: {
-				DisplayName: 双子负载
-				Description: 诅咒狱火和灵液的效果
+				// DisplayName: Mods.FargowiltasSouls.BuffName.TwinsInstall
+				// Description: Mods.FargowiltasSouls.BuffDescription.TwinsInstall
 			}
 
 			Unlucky: {
-				DisplayName: 霉运
-				Description: 你感觉你现在相当倒霉
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Unlucky
+				// Description: Mods.FargowiltasSouls.BuffDescription.Unlucky
 			}
 
 			Unstable: {
-				DisplayName: 不稳定
-				Description: 现实似乎在排斥你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Unstable
+				// Description: Mods.FargowiltasSouls.BuffDescription.Unstable
 			}
 
 			BigBrainMinion: {
-				DisplayName: 克苏鲁大脑
-				Description: 克苏鲁的大脑将为你而战
+				// DisplayName: Mods.FargowiltasSouls.BuffName.BigBrainMinion
+				// Description: Mods.FargowiltasSouls.BuffDescription.BigBrainMinion
 			}
 
 			BrainMinion: {
-				DisplayName: 克苏鲁之脑
-				Description: 迷你克苏鲁之脑将为你而战
+				// DisplayName: Mods.FargowiltasSouls.BuffName.BrainMinion
+				// Description: Mods.FargowiltasSouls.BuffDescription.BrainMinion
 			}
 
 			CrystalSkull: {
-				DisplayName: 水晶头骨
-				Description: 尖刻眼球将会保护你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.CrystalSkull
+				// Description: Mods.FargowiltasSouls.BuffDescription.CrystalSkull
 			}
 
 			EaterMinion: {
-				DisplayName: 世界吞噬者
-				Description: 迷你世界吞噬者将为你而战
+				// DisplayName: Mods.FargowiltasSouls.BuffName.EaterMinion
+				// Description: Mods.FargowiltasSouls.BuffDescription.EaterMinion
 			}
 
 			JungleMimicSummonBuff: {
@@ -1429,58 +1429,58 @@ Mods: {
 			}
 
 			LunarCultist: {
-				DisplayName: 拜月教徒
-				Description: 拜月教徒将会保护你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.LunarCultist
+				// Description: Mods.FargowiltasSouls.BuffDescription.LunarCultist
 			}
 
 			MutantPower: {
-				DisplayName: 突变之力
-				Description: 突变之力与你同在
+				// DisplayName: Mods.FargowiltasSouls.BuffName.MutantPower
+				// Description: Mods.FargowiltasSouls.BuffDescription.MutantPower
 			}
 
 			PlanterasChild: {
-				DisplayName: 世纪之花的孩子
-				Description: 世纪之花的孩子将会保护你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.PlanterasChild
+				// Description: Mods.FargowiltasSouls.BuffDescription.PlanterasChild
 			}
 
 			Probes: {
-				DisplayName: 探测器
-				Description: 探测器将会保护你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Probes
+				// Description: Mods.FargowiltasSouls.BuffDescription.Probes
 			}
 
 			PungentEyeball: {
-				DisplayName: 尖刻眼球
-				Description: 尖刻眼球将会保护你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.PungentEyeball
+				// Description: Mods.FargowiltasSouls.BuffDescription.PungentEyeball
 			}
 
 			RainbowSlime: {
-				DisplayName: 彩虹史莱姆
-				Description: 彩虹史莱姆将会保护你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.RainbowSlime
+				// Description: Mods.FargowiltasSouls.BuffDescription.RainbowSlime
 			}
 
 			SaucerMinion: {
-				DisplayName: 迷你飞碟
-				Description: 迷你飞碟将会保护你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.SaucerMinion
+				// Description: Mods.FargowiltasSouls.BuffDescription.SaucerMinion
 			}
 
 			SkeletronArms: {
-				DisplayName: 骷髅王之手
-				Description: 骷髅王之手将会保护你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.SkeletronArms
+				// Description: Mods.FargowiltasSouls.BuffDescription.SkeletronArms
 			}
 
 			SouloftheMasochist: {
-				DisplayName: 大师之魂
-				Description: 永恒模式的力量与你同在
+				// DisplayName: Mods.FargowiltasSouls.BuffName.SouloftheMasochist
+				// Description: Mods.FargowiltasSouls.BuffDescription.SouloftheMasochist
 			}
 
 			TrueEyes: {
-				DisplayName: 克苏鲁真眼
-				Description: 克苏鲁的几只眼睛将会保护你
+				// DisplayName: Mods.FargowiltasSouls.BuffName.TrueEyes
+				// Description: Mods.FargowiltasSouls.BuffDescription.TrueEyes
 			}
 
 			TwinsEX: {
-				DisplayName: 双子EX
-				Description: 真正的双子魔眼将为你而战
+				// DisplayName: Mods.FargowiltasSouls.BuffName.TwinsEX
+				// Description: Mods.FargowiltasSouls.BuffDescription.TwinsEX
 			}
 
 			TrojanSquirrelMountBuff: {
@@ -1524,13 +1524,13 @@ Mods: {
 			}
 
 			BrokenShell: {
-				DisplayName: 破损龟壳
-				Description: 暂时无法缩壳
+				// DisplayName: Mods.FargowiltasSouls.BuffName.BrokenShell
+				// Description: Mods.FargowiltasSouls.BuffDescription.BrokenShell
 			}
 
 			CrimsonRegen: {
-				DisplayName: 猩红再生
-				Description: 你正在自愈你上次的伤口
+				// DisplayName: Mods.FargowiltasSouls.BuffName.CrimsonRegen
+				// Description: Mods.FargowiltasSouls.BuffDescription.CrimsonRegen
 			}
 
 			DisruptedFocus: {
@@ -1539,41 +1539,41 @@ Mods: {
 			}
 
 			FirstStrike: {
-				DisplayName: 先发制人
-				Description: 你的下一次攻击将会得到增强
+				// DisplayName: Mods.FargowiltasSouls.BuffName.FirstStrike
+				// Description: Mods.FargowiltasSouls.BuffDescription.FirstStrike
 			}
 
 			FossilReviveCD: {
-				DisplayName: 已复活
-				Description: 你无法再次复活
+				// DisplayName: Mods.FargowiltasSouls.BuffName.FossilReviveCD
+				// Description: Mods.FargowiltasSouls.BuffDescription.FossilReviveCD
 			}
 
 			Frozen: {
-				DisplayName: 冻结
-				Description: 你无法移动
+				// DisplayName: Mods.FargowiltasSouls.BuffName.Frozen
+				// Description: Mods.FargowiltasSouls.BuffDescription.Frozen
 			}
 
 			GoldenStasis: {
-				DisplayName: 不动金身
-				Description: 免疫所有伤害，但无法移动
+				// DisplayName: Mods.FargowiltasSouls.BuffName.GoldenStasis
+				// Description: Mods.FargowiltasSouls.BuffDescription.GoldenStasis
 			}
 
 			GoldenStasisCD: {
-				DisplayName: 金身冷却
-				Description: 你还不能进入金身
+				// DisplayName: Mods.FargowiltasSouls.BuffName.GoldenStasisCD
+				// Description: Mods.FargowiltasSouls.BuffDescription.GoldenStasisCD
 			}
 
 			HallowCooldown: {
-				DisplayName: 神圣之盾冷却
-				Description: 你的护盾现在无法反弹弹幕
+				// DisplayName: Mods.FargowiltasSouls.BuffName.HallowCooldown
+				// Description: Mods.FargowiltasSouls.BuffDescription.HallowCooldown
 			}
 
 			HuntressCD: {
-				DisplayName: 箭雨冷却
-				Description: 你现在无法触发另一次箭雨
+				// DisplayName: Mods.FargowiltasSouls.BuffName.HuntressCD
+				// Description: Mods.FargowiltasSouls.BuffDescription.HuntressCD
 			}
 
-			LeadPoison.DisplayName: 铅中毒
+			// LeadPoison.DisplayName: Mods.FargowiltasSouls.BuffName.LeadPoison
 
 			MonkBuff: {
 				DisplayName: 冥想
@@ -1585,19 +1585,19 @@ Mods: {
 				Description: 你的身上滴着熔岩
 			}
 
-			OriPoison.DisplayName: 山铜中毒
+			// OriPoison.DisplayName: Mods.FargowiltasSouls.BuffName.OriPoison
 
 			ShellHide: {
-				DisplayName: 缩壳
-				Description: 阻挡弹幕
+				// DisplayName: Mods.FargowiltasSouls.BuffName.ShellHide
+				// Description: Mods.FargowiltasSouls.BuffDescription.ShellHide
 			}
 
-			SolarFlare.DisplayName: 耀斑
-			SuperBleed.DisplayName: 血如泉涌
+			// SolarFlare.DisplayName: Mods.FargowiltasSouls.BuffName.SolarFlare
+			// SuperBleed.DisplayName: Mods.FargowiltasSouls.BuffName.SuperBleed
 
 			TimeFrozen: {
-				DisplayName: 时间冻结
-				Description: 你停止了时间
+				// DisplayName: Mods.FargowiltasSouls.BuffName.TimeFrozen
+				// Description: Mods.FargowiltasSouls.BuffDescription.TimeFrozen
 			}
 
 			TimeStopCooldown: {
@@ -1606,8 +1606,8 @@ Mods: {
 			}
 
 			TitaniumCD: {
-				DisplayName: 钛金护盾冷却
-				Description: 你正在为钛金护盾蓄力
+				// DisplayName: Mods.FargowiltasSouls.BuffName.TitaniumCD
+				// Description: Mods.FargowiltasSouls.BuffDescription.TitaniumCD
 			}
 
 			TitaniumDRBuff: {
@@ -1616,8 +1616,8 @@ Mods: {
 			}
 
 			VortexCD: {
-				DisplayName: 星旋冷却
-				Description: 你现在不能生成另一个星旋旋涡
+				// DisplayName: Mods.FargowiltasSouls.BuffName.VortexCD
+				// Description: Mods.FargowiltasSouls.BuffDescription.VortexCD
 			}
 
 			KingSlimeMinionBuff: {
@@ -1642,7 +1642,7 @@ Mods: {
 
 			ChibiiRemiiBuff: {
 				DisplayName: 小不点蕾米
-				Description: 恶魔「蕾米莉亚·斯特睐赤」
+				Description: 恶魔「蕾米莉亚·斯卡蕾特」
 			}
 
 			PrimeMinionBuff: {
@@ -1656,473 +1656,473 @@ Mods: {
 			}
 
 			BetsyDash: {
-				DisplayName: 冲刺
-				Description: 你正在高速移动！
+				// DisplayName: Mods.FargowiltasSouls.BuffName.BetsyDash
+				// Description: Mods.FargowiltasSouls.BuffDescription.BetsyDash
 			}
 
-			HellFire.DisplayName: 狱火
+			// HellFire.DisplayName: Mods.FargowiltasSouls.BuffName.HellFire
 
 			MutantRebirth: {
-				DisplayName: 突变重生
-				Description: 复活死亡射线蓄力中
+				// DisplayName: Mods.FargowiltasSouls.BuffName.MutantRebirth
+				// Description: Mods.FargowiltasSouls.BuffDescription.MutantRebirth
 			}
 
 			FlippedHallow: {
-				DisplayName: 翻转
-				Description: 你的重力被颠倒了
+				// DisplayName: Mods.FargowiltasSouls.BuffName.FlippedHallow
+				// Description: Mods.FargowiltasSouls.BuffDescription.FlippedHallow
 			}
 
 			SuperFlocko.DisplayName: 超级雪花怪
 			HuntressBleed.DisplayName: 女猎人流血
 
 			SnowstormCD: {
-				DisplayName: 暴雪冷却
-				Description: 你现在不能冻结一切
+				// DisplayName: Mods.FargowiltasSouls.BuffName.SnowstormCD
+				// Description: Mods.FargowiltasSouls.BuffDescription.SnowstormCD
 			}
 
 			TimeStopCD: {
-				DisplayName: 时停冷却
-				Description: 你现在不能停止时间
+				// DisplayName: Mods.FargowiltasSouls.BuffName.TimeStopCD
+				// Description: Mods.FargowiltasSouls.BuffDescription.TimeStopCD
 			}
 
 			CrimetroidBuff: {
-				DisplayName: 宝宝血水母
-				Description: 宝宝血水母在跟着你
+				// DisplayName: Baby Crimetroid
+				// Description: The Baby is following you
 			}
 
 			BerserkerInstallBuff: {
-				// DisplayName: Berserker Install
-				// Description: "'Get them! Berserker!'"
+				DisplayName: 狂暴负载
+				Description: “狂战士！干掉他们！”
 			}
 
 			BerserkerInstallCDBuff: {
-				// DisplayName: Berserker Cooldown
-				// Description: You cannot go berserk yet
+				DisplayName: 狂暴冷却
+				Description: 你还不能进入狂暴状态
 			}
 
 			BetsyDashBuff: {
-				// DisplayName: Dash
-				// Description: You're moving at high speed!
+				DisplayName: 冲刺
+				Description: 你正在高速移动！
 			}
 
 			AbomFangBuff: {
-				// DisplayName: Abominable Fang
-				// Description: The power of Eternity Mode compels you
+				DisplayName: 憎恶毒牙
+				Description: 永恒模式的力量压迫着你
 			}
 
 			AbomPresenceBuff: {
-				// DisplayName: Abominable Presence
-				// Description: Defense, damage reduction, and life regen reduced; Moon Leech effect
+				DisplayName: 憎恶驾到
+				Description: 减少防御力、伤害减免和生命恢复速度，附带月蛭凝块效果
 			}
 
 			BaronsBurdenBuff: {
-				// DisplayName: Baron's Burden
-				/* Description:
+				DisplayName: 遗爵威压
+				Description:
 					'''
-					Gravity heavily increased outside water
-					Breathe water instead of air
-					Get back in!
-					''' */
+					处于空气中时重力急剧增加
+					在空气中无法呼吸，在水中时可自由呼吸
+					快回来！
+					'''
 			}
 
 			DeviPresenceBuff: {
-				// DisplayName: Deviant Presence
-				// Description: Friendly NPCs take massively increased damage
+				DisplayName: 戴薇安驾到
+				Description: 大幅增加友方NPC受到的伤害
 			}
 
 			GrabbedBuff: {
-				// DisplayName: Grabbed
-				// Description: Mash movement keys to escape!
+				DisplayName: 抓住你了！
+				Description: 狂敲你的移动键来逃离！
 			}
 
 			MutantFangBuff: {
-				// DisplayName: Mutant Fang
-				// Description: The power of Eternity Mode compels you
+				DisplayName: 突变毒牙
+				Description: 永恒模式的力量压迫着你
 			}
 
 			MutantPresenceBuff: {
-				// DisplayName: Mutant Presence
-				// Description: Defense, damage reduction, and life regen reduced; almost all soul toggles disabled; reduced graze radius
+				DisplayName: 突变驾到
+				Description: 减少防御力、伤害减免和生命恢复速度，关闭几乎所有魂的效果，减小擦弹范围
 			}
 
 			HellFireBuff: {
-				// DisplayName: Hell Fire
-				// Description: Mods.FargowiltasSouls.BuffDescription.HellFireBuff
+				DisplayName: 狱火
+				Description: Mods.FargowiltasSouls.BuffDescription.HellFireBuff
 			}
 
 			MagicalCleanseCDBuff: {
-				// DisplayName: Magical Cleanse Cooldown
-				// Description: You cannot cleanse debuffs yet
+				DisplayName: 魔法净化冷却
+				Description: 你还不能净化减益
 			}
 
 			AbomCooldownBuff: {
-				// DisplayName: Abominable Cooldown
-				// Description: Cannot endure another attack yet
+				DisplayName: 憎恶冷却
+				Description: 还不能承受另一次攻击
 			}
 
 			AbomRebirthBuff: {
-				// DisplayName: Abominable Rebirth
-				// Description: You cannot die unless struck
+				DisplayName: 憎恶重生
+				Description: 除非受击，你无法死亡
 			}
 
 			AnticoagulationBuff: {
-				// DisplayName: Anticoagulation
-				// Description: Losing life, shed blood when hurt, enemies will drink it and grow stronger
+				DisplayName: 凝血失效
+				Description: 生命流失，受伤时鲜血四溅，敌怪会吸收你溅出的鲜血并变得更强
 			}
 
 			AntisocialBuff: {
-				// DisplayName: Antisocial
-				// Description: You have no friends and no summon damage
+				DisplayName: 社恐
+				Description: 你没有朋友，也无法造成召唤伤害
 			}
 
 			AtrophiedBuff: {
-				// DisplayName: Atrophied
-				// Description: Your muscles are deteriorating
+				DisplayName: 萎缩
+				Description: 你的肌肉正在退化
 			}
 
 			BerserkedBuff: {
-				// DisplayName: Berserked
-				// Description: Increased offense, decreased defense, and you cannot control yourself
+				DisplayName: 狂暴
+				Description: 攻击欲望增强，防御力减少，你控几不住你记己
 			}
 
 			BloodDrinkerBuff: {
-				// DisplayName: Blood Drinker
-				// Description: 30% increased damage
+				DisplayName: 饮血者
+				Description: 增加30%伤害
 			}
 
 			BloodthirstyBuff: {
-				// DisplayName: Bloodthirsty
-				// Description: Hugely increased enemy spawn rate
+				DisplayName: 嗜血
+				Description: 极大提高刷怪速率
 			}
 
 			BrainOfConfusionBuff: {
-				// DisplayName: Cerebral Mindbreak
-				// Description: 30% decreased damage dealt
+				DisplayName: 理智崩溃
+				Description: 造成的伤害降低30%
 			}
 
 			ClippedWingsBuff: {
-				// DisplayName: Clipped Wings
-				// Description: You cannot fly or use rocket boots
+				DisplayName: 折翼
+				Description: 无法飞行或使用火箭靴
 			}
 
 			CrippledBuff: {
-				// DisplayName: Crippled
-				// Description: You cannot run
+				DisplayName: 跛足
+				Description: 你无法奔跑
 			}
 
 			CurseoftheMoonBuff: {
-				// DisplayName: Curse of the Moon
-				// Description: The moon's wrath consumes you
+				DisplayName: 月之诅咒
+				Description: 月亮的愤怒正在吞噬你
 			}
 
 			DefenselessBuff: {
-				// DisplayName: Defenseless
-				// Description: Your guard is completely broken
+				DisplayName: 毫无防御
+				Description: 你的防御完全崩溃了
 			}
 
 			FlamesoftheUniverseBuff: {
-				// DisplayName: Flames of the Universe
-				// Description: The heavens themselves have judged you
+				DisplayName: 宇宙之火
+				Description: 来自诸天的亲自审判
 			}
 
 			FlippedBuff: {
-				// DisplayName: Flipped
-				// Description: Your gravity is reversed
+				DisplayName: 翻转
+				Description: 你的重力被颠倒了
 			}
 
 			FlippedHallowBuff: {
-				// DisplayName: Flipped
-				// Description: Your gravity is reversed
+				DisplayName: 翻转
+				Description: 你的重力被颠倒了
 			}
 
 			FusedBuff: {
-				// DisplayName: Fused
-				// Description: You're going out with a bang
+				DisplayName: 导火线
+				Description: 你和爆炸有个约会
 			}
 
 			GodEaterBuff: {
-				// DisplayName: God Eater
-				// Description: Your soul is cursed by divine wrath
+				DisplayName: 噬神者
+				Description: 你的灵魂被神明的忿怒所诅咒
 			}
 
 			GuiltyBuff: {
-				// DisplayName: Guilty
-				// Description: Weapons dulled by the guilt of slaying innocent critters
+				DisplayName: 内疚
+				Description: 杀害无辜动物产生的内疚使你的武器变得迟钝
 			}
 
 			HexedBuff: {
-				// DisplayName: Hexed
-				// Description: Your attacks heal enemies
+				DisplayName: 着魔
+				Description: 你的攻击会治愈敌人
 			}
 
 			HolyPriceBuff: {
-				// DisplayName: Holy Price
-				// Description: 30% decreased attack speed
+				DisplayName: 神圣代价
+				Description: 减少30%攻击速度
 			}
 
 			HypothermiaBuff: {
-				// DisplayName: Hypothermia
-				// Description: Increased damage taken from cold attacks
+				DisplayName: 恐寒症
+				Description: 你会多承受10%来自冷系攻击的伤害
 			}
 
 			InfestedBuff: {
-				// DisplayName: Infested
-				// Description: This can only get worse
+				DisplayName: 感染
+				Description: 这只会变得更糟
 			}
 
 			IvyVenomBuff: {
-				// DisplayName: Ivy Venom
-				// Description: Losing life, will become Neurotoxin at 20 seconds
+				DisplayName: 常春藤毒素
+				Description: 流失生命, 持续时间超过20秒时变为神经毒素
 			}
 
 			JammedBuff: {
-				// DisplayName: Jammed
-				// Description: Your ranged weapons are faulty
+				DisplayName: 卡壳
+				Description: 你的远程武器出故障了
 			}
 
 			LethargicBuff: {
-				// DisplayName: Lethargic
-				// Description: Your weapons feel sluggish
+				DisplayName: 昏昏欲睡
+				Description: 你感觉你的武器变得缓慢
 			}
 
 			LightningRodBuff: {
-				// DisplayName: Lightning Rod
-				// Description: You attract thunderbolts
+				DisplayName: 避雷针
+				Description: 你会吸引雷电
 			}
 
 			LihzahrdBlessingBuff: {
-				// DisplayName: Lihzahrd Blessing
-				// Description: Wires enabled and reduced spawn rates in Jungle Temple
+				DisplayName: 蜥蜴祝福
+				Description: 电线重新受你的掌控，降低丛林神庙内的刷怪速率
 			}
 
 			LihzahrdCurseBuff: {
-				// DisplayName: Lihzahrd Curse
-				// Description: Wires disabled in Jungle Temple
+				DisplayName: 蜥蜴诅咒
+				Description: 丛林神庙内，你不能拆除或放置电线
 			}
 
 			LivingWastelandBuff: {
-				// DisplayName: Living Wasteland
-				// Description: Everyone around you turns to rot
+				DisplayName: 人形废土
+				Description: 你周围的每个人都开始腐烂
 			}
 
 			LoosePocketsBuff: {
-				// DisplayName: Loose Pockets
-				// Description: An item might be taken from you
+				DisplayName: 晃动衣袋
+				Description: 你身上的一件物品也许会被拿走
 			}
 
 			LovestruckBuff: {
-				// DisplayName: Lovestruck
-				// Description: You are in love!
+				DisplayName: 热恋
+				Description: 坠入爱河！
 			}
 
 			LowGroundBuff: {
-				// DisplayName: Low Ground
-				// Description: No hooks, cannot stand on platforms or liquids
+				DisplayName: 下陷
+				Description: 钩爪被禁止，不能站在平台或液体上
 			}
 
 			MarkedforDeathBuff: {
-				// DisplayName: Marked for Death
-				// Description: Just don't get hit
+				DisplayName: 死亡标记
+				Description: 别被打到
 			}
 
 			MidasBuff: {
-				// DisplayName: Midas
-				// Description: Drop money on hit
+				DisplayName: 迈达斯
+				Description: 受击时掉落钱币
 			}
 
 			MutantNibbleBuff: {
-				// DisplayName: Mutant Nibble
-				// Description: You cannot heal at all
+				DisplayName: 突变啃啄
+				Description: 无法恢复生命
 			}
 
 			NanoInjectionBuff: {
-				// DisplayName: Nano Injection
-				// Description: Life regeneration and stats reduced
+				DisplayName: 纳米灌注
+				Description: 降低生命恢复速度和综合属性
 			}
 
 			NeurotoxinBuff: {
-				// DisplayName: Neurotoxin
-				// Description: Your body is shutting down
+				DisplayName: 神经毒素
+				Description: 你的身体正在停歇关闭
 			}
 
 			NullificationCurseBuff: {
-				// DisplayName: Nullification Curse
-				// Description: Moon Lord has cycling damage type immunities!
+				DisplayName: 无效诅咒
+				Description: 月亮领主正在循环他的伤害免疫类型！
 			}
 
 			OceanicMaulBuff: {
-				// DisplayName: Oceanic Maul
-				// Description: Defensive stats and max life are savaged
+				DisplayName: 海洋重击
+				Description: 防御力和最大生命值被大幅降低
 			}
 
 			OceanicSealBuff: {
-				// DisplayName: Oceanic Seal
-				// Description: No dodging, no lifesteal, no supersonic, no escape
+				DisplayName: 海洋印记
+				Description: 无法闪避，无法吸血，无法使用超音速之魂快速移动，无法逃脱
 			}
 
 			OiledBuff: {
-				// DisplayName: Oiled
-				// Description: Taking more damage from being on fire
+				DisplayName: 浸油
+				Description: 着火时受到更多伤害
 			}
 
 			PungentGazeBuff: {
-				// DisplayName: Pungent Gaze
+				DisplayName: 尖刻注视
 				// Description: Mods.FargowiltasSouls.BuffDescription.PungentGazeBuff
 			}
 
 			PurgedBuff: {
-				// DisplayName: Purged
-				// Description: Dodge effects don't work
+				DisplayName: 涤荡
+				Description: 闪避效果不会生效
 			}
 
 			PurifiedBuff: {
-				// DisplayName: Purified
-				// Description: You are cleansed
+				DisplayName: 净化
+				Description: 你被净化了
 			}
 
 			RefreshedBuff: {
-				// DisplayName: Refreshed
-				// Description: Increased mobility and flight time
+				DisplayName: 焕然一新
+				Description: 机动性提升，飞行时间延长
 			}
 
 			ReverseManaFlowBuff: {
-				// DisplayName: Reverse Mana Flow
-				// Description: Your magic weapons cost life instead of mana
+				DisplayName: 魔力逆流
+				Description: 你的魔法武器消耗生命而不是魔力
 			}
 
 			RottingBuff: {
-				// DisplayName: Rotting
-				// Description: Your body is wasting away
+				DisplayName: 腐败
+				Description: 你的身体逐渐衰弱
 			}
 
 			RushJobBuff: {
-				// DisplayName: Rush Job
-				// Description: The Nurse cannot heal you again yet
+				DisplayName: 急活
+				Description: 护士现在还不能再次治疗你
 			}
 
 			SadismBuff: {
-				// DisplayName: Eternity
-				// Description: The power of Eternity Mode is with you
+				DisplayName: 永恒
+				Description: 永恒模式的力量与你同在
 			}
 
 			ShadowflameBuff: {
-				// DisplayName: Shadowflame
-				// Description: Losing life
+				DisplayName: 暗影焰
+				Description: 你正在失去生命值
 			}
 
 			SmiteBuff: {
-				// DisplayName: Smite
-				// Description: Life regen reduced and 20% more damage taken
+				DisplayName: 惩戒
+				Description: 降低生命恢复速度，受到的伤害增加10%
 			}
 
 			SqueakyToyBuff: {
-				// DisplayName: Squeaky Toy
-				// Description: Your attacks are squeaky toys!
+				DisplayName: 吱吱响的玩具
+				Description: 你的攻击如同玩具一般作响！
 			}
 
 			StunnedBuff: {
-				// DisplayName: Stunned
-				// Description: You're too dizzy to move
+				DisplayName: 昏迷
+				Description: 你头晕目眩，动弹不得
 			}
 
 			SwarmingBuff: {
-				// DisplayName: Swarming
-				// Description: Hornets are attacking from every direction!
+				DisplayName: 蜂群
+				Description: 蜂群正从四面八方向你发起进攻！
 			}
 
 			ThiefCDBuff: {
-				// DisplayName: Thief Cooldown
-				// Description: Your items cannot be stolen again yet
+				DisplayName: 偷窃冷却
+				Description: 你的物品现在不会再次被偷了
 			}
 
 			UnluckyBuff: {
-				// DisplayName: Unlucky
-				// Description: You are feeling pretty unlucky
+				DisplayName: 霉运
+				Description: 你感觉你现在相当倒霉
 			}
 
 			UnstableBuff: {
-				// DisplayName: Unstable
-				// Description: You don't quite fit into reality
+				DisplayName: 不稳定
+				Description: 现实似乎在排斥你
 			}
 
 			BigBrainMinionBuff: {
-				// DisplayName: Big Brain of Cthulhu
-				// Description: The Brain of Cthulhu will fight for you
+				DisplayName: 克苏鲁大脑
+				Description: 克苏鲁的大脑将为你而战
 			}
 
 			BrainMinionBuff: {
-				// DisplayName: Brain of Cthulhu
-				// Description: The mini Brain of Cthulhu will fight for you
+				DisplayName: 克苏鲁之脑
+				Description: 迷你克苏鲁之脑将为你而战
 			}
 
 			CrystalSkullBuff: {
-				// DisplayName: Crystal Skull
-				// Description: The pungent eyeball will protect you
+				DisplayName: 水晶头骨
+				Description: 尖刻眼球将会保护你
 			}
 
 			EaterMinionBuff: {
-				// DisplayName: Eater of Worlds
-				// Description: The mini Eater of Worlds will fight for you
+				DisplayName: 世界吞噬者
+				Description: 迷你世界吞噬者将为你而战
 			}
 
 			LunarCultistBuff: {
-				// DisplayName: Lunar Cultist
-				// Description: The Lunar Cultist will protect you
+				DisplayName: 拜月教徒
+				Description: 拜月教徒将会保护你
 			}
 
 			MutantPowerBuff: {
-				// DisplayName: Mutant Power
-				// Description: The power of Mutant is with you
+				DisplayName: 突变之力
+				Description: 突变之力与你同在
 			}
 
 			PlanterasChildBuff: {
-				// DisplayName: Plantera's Child
-				// Description: The child of Plantera will protect you
+				DisplayName: 世纪之花的孩子
+				Description: 世纪之花的孩子将会保护你
 			}
 
 			ProbesBuff: {
-				// DisplayName: Probes
-				// Description: The probes will protect you
+				DisplayName: 探测器
+				Description: 探测器将会保护你
 			}
 
 			PungentEyeballBuff: {
-				// DisplayName: Pungent Eyeball
-				// Description: The pungent eyeball will protect you
+				DisplayName: 尖刻眼球
+				Description: 尖刻眼球将会保护你
 			}
 
 			RainbowSlimeBuff: {
-				// DisplayName: Rainbow Slime
-				// Description: The Rainbow Slime will protect you
+				DisplayName: 彩虹史莱姆
+				Description: 彩虹史莱姆将会保护你
 			}
 
 			SaucerMinionBuff: {
-				// DisplayName: Mini Saucer
-				// Description: The Mini Saucer will protect you
+				DisplayName: 迷你飞碟
+				Description: 迷你飞碟将会保护你
 			}
 
 			SkeletronArmsBuff: {
-				// DisplayName: Skeletron Arms
-				// Description: The Skeletron arms will protect you
+				DisplayName: 骷髅王之手
+				Description: 骷髅王之手将会保护你
 			}
 
 			SouloftheMasochistBuff: {
-				// DisplayName: Soul of the Master
-				// Description: The power of Eternity Mode is with you
+				DisplayName: 大师之魂
+				Description: 永恒模式的力量与你同在
 			}
 
 			TrueEyesBuff: {
-				// DisplayName: True Eyes of Cthulhu
-				// Description: The eyes of Cthulhu will protect you
+				DisplayName: 克苏鲁真眼
+				Description: 克苏鲁的几只眼睛将会保护你
 			}
 
 			TwinsEXBuff: {
-				// DisplayName: Twins EX
-				// Description: The real Twins will fight for you
+				DisplayName: 双子EX
+				Description: 真正的双子魔眼将为你而战
 			}
 
 			MutantRebirthBuff: {
-				// DisplayName: Mutant Rebirth
-				// Description: Deathray revive is recharging
+				DisplayName: 突变重生
+				Description: 复活死亡射线蓄力中
 			}
 
 			BabyLifelightBuff: {
@@ -2131,43 +2131,43 @@ Mods: {
 			}
 
 			BrokenShellBuff: {
-				// DisplayName: Broken Shell
-				// Description: You cannot enter your shell yet
+				DisplayName: 破损龟壳
+				Description: 暂时无法缩壳
 			}
 
 			CrimsonRegenBuff: {
-				// DisplayName: Crimson Regen
-				// Description: You are regenning your last wound
+				DisplayName: 猩红再生
+				Description: 你正在自愈你上次的伤口
 			}
 
 			FirstStrikeBuff: {
-				// DisplayName: First Strike
-				// Description: Your next attack will be enhanced
+				DisplayName: 先发制人
+				Description: 你的下一次攻击将会得到增强
 			}
 
 			FossilReviveCDBuff: {
-				// DisplayName: Revived
-				// Description: You cannot revive again
+				DisplayName: 已复活
+				Description: 你无法再次复活
 			}
 
 			FrozenBuff: {
-				// DisplayName: Frozen
-				// Description: You cannot move
+				DisplayName: 冻结
+				Description: 你无法移动
 			}
 
 			GoldenStasisBuff: {
-				// DisplayName: Golden Stasis
-				// Description: You are immune to all damage, but cannot move
+				DisplayName: 不动金身
+				Description: 免疫所有伤害，但无法移动
 			}
 
 			GoldenStasisCDBuff: {
-				// DisplayName: Golden Stasis Cooldown
-				// Description: You cannot turn gold yet
+				DisplayName: 金身冷却
+				Description: 你还不能进入金身
 			}
 
 			HallowCooldownBuff: {
-				// DisplayName: Hallowed Shield Cooldown
-				// Description: Your shield cannot reflect projectiles yet
+				DisplayName: 神圣之盾冷却
+				Description: 你的护盾现在无法反弹弹幕
 			}
 
 			HuntressBleedBuff: {
@@ -2176,18 +2176,18 @@ Mods: {
 			}
 
 			HuntressCDBuff: {
-				// DisplayName: Arrow Rain Cooldown
-				// Description: You cannot trigger another rain of arrows yet
+				DisplayName: 箭雨冷却
+				Description: 你现在无法触发另一次箭雨
 			}
 
 			LeadPoisonBuff: {
-				// DisplayName: Lead Poison
-				// Description: Mods.FargowiltasSouls.BuffDescription.LeadPoisonBuff
+				DisplayName: 铅中毒
+				Description: Mods.FargowiltasSouls.BuffDescription.LeadPoisonBuff
 			}
 
 			MoltenAmplifyBuff: {
-				// DisplayName: Molten Amplify
-				// Description: Mods.FargowiltasSouls.BuffDescription.MoltenAmplifyBuff
+				DisplayName: 熔岩增幅
+				Description: Mods.FargowiltasSouls.BuffDescription.MoltenAmplifyBuff
 			}
 
 			MonkBuffBuff: {
@@ -2196,53 +2196,53 @@ Mods: {
 			}
 
 			OriPoisonBuff: {
-				// DisplayName: Orichalcum Poison
-				// Description: Mods.FargowiltasSouls.BuffDescription.OriPoisonBuff
+				DisplayName: 山铜中毒
+				Description: Mods.FargowiltasSouls.BuffDescription.OriPoisonBuff
 			}
 
 			ShellHideBuff: {
-				// DisplayName: Shell Hide
-				// Description: Projectiles are being blocked
+				DisplayName: 缩壳
+				Description: 阻挡弹幕
 			}
 
 			SnowstormCDBuff: {
-				// DisplayName: Snowstorm Cooldown
-				// Description: You cannot chill yet
+				DisplayName: 暴雪冷却
+				Description: 你现在不能冻结一切
 			}
 
 			SolarFlareBuff: {
-				// DisplayName: Solar Flare
-				// Description: Mods.FargowiltasSouls.BuffDescription.SolarFlareBuff
+				DisplayName: 耀斑
+				Description: Mods.FargowiltasSouls.BuffDescription.SolarFlareBuff
 			}
 
 			SuperBleedBuff: {
-				// DisplayName: Blood Geyser
-				// Description: Mods.FargowiltasSouls.BuffDescription.SuperBleedBuff
+				DisplayName: 血如泉涌
+				Description: Mods.FargowiltasSouls.BuffDescription.SuperBleedBuff
 			}
 
 			TimeFrozenBuff: {
-				// DisplayName: Time Frozen
-				// Description: You are stopped in time
+				DisplayName: 时间冻结
+				Description: 你停止了时间
 			}
 
 			TimeStopCDBuff: {
-				// DisplayName: Time Stop Cooldown
-				// Description: You cannot stop time yet
+				DisplayName: 时停冷却
+				Description: 你现在不能停止时间
 			}
 
 			TitaniumCDBuff: {
-				// DisplayName: Titanium Shield Cooldown
-				// Description: You are charging up Titanium Shield
+				DisplayName: 钛金护盾冷却
+				Description: 你正在为钛金护盾蓄力
 			}
 
 			VortexCDBuff: {
-				// DisplayName: Vortex Cooldown
-				// Description: You cannot spawn another vortex yet
+				DisplayName: 星旋冷却
+				Description: 你现在不能生成另一个星旋旋涡
 			}
 
 			SuperchargedBuff: {
-				// DisplayName: Supercharged
-				// Description: 20% increased move speed, 10% increased attack speed, your attacks electrify
+				DisplayName: 超级充能
+				Description: 增加20%移动速度和10%攻击速度，你的攻击会造成带电和避雷针
 			}
 
 			TribalCharmClickBuff: {
@@ -2251,16 +2251,16 @@ Mods: {
 			}
 
 			TwinsInstallBuff: {
-				// DisplayName: Twins Install
-				// Description: Effects of Cursed Inferno and Ichor
+				DisplayName: 双子负载
+				Description: 诅咒狱火和灵液的效果
 			}
 
 			WretchedHexBuff: {
-				// DisplayName: Wretched Hex
-				// Description: Shadowflame tentacles and vastly increased damage, but vastly decreased speed and defenses
+				DisplayName: 诅咒之魔
+				Description: 暗影焰触手伤害大幅提升，但速度和防御大幅下降
 			}
 
-			// Recovering.Description: Mods.FargowiltasSouls.BuffDescription.Recovering
+			Recovering.Description: Mods.FargowiltasSouls.BuffDescription.Recovering
 			Shadwoflame.Description: 流失生命
 		}
 
@@ -2289,8 +2289,11 @@ Mods: {
 				DisplayName: 远古神圣魔石
 				Tooltip:
 					'''
-					使你获得一面可以反弹弹幕的盾牌
 					召唤一柄泰拉棱镜，其伤害接受召唤伤害加成
+					剑会跟随鼠标的方向
+					右键可用剑攻击
+					用剑切割敌对弹幕会将其反射至敌人身上
+					反射有15秒冷却时间，且只能切割造成伤害低于150点的敌对弹幕
 					“你有足够的力量驾驭我吗？”
 					'''
 			}
@@ -2315,8 +2318,10 @@ Mods: {
 				DisplayName: 学徒魔石
 				Tooltip:
 					'''
-					持续攻击两秒后你将被火焰包裹
-					切换武器后，下次攻击的伤害增加50%，并造成地狱爆炸
+					攻击时，发射快捷栏位中的下一把武器的射弹作为辅助攻击
+					辅助武器的攻击频率是正常使用情况下的1/4，伤害为1/2
+					仅适用于快捷栏武器
+					辅助攻击会消耗弹药，魔力等
 					大幅增加爆炸烈焰哨兵的索敌范围和攻击距离
 					“追求完美的漫漫长路”
 					'''
@@ -2327,7 +2332,10 @@ Mods: {
 				Tooltip:
 					'''
 					增加友好蜜蜂的力量
-					近战攻击和大多数穿透类弹幕击中敌人时会生成蜜蜂
+					允许飞行和缓慢下落
+					飞行时会留下花朵，花朵4秒后会开花
+					接触开花的花朵可提供蜂蜜增益，并产生一群蜜蜂
+					花朵被敌怪接触时也会产生蜂群
 					“根据目前所知的所有航空原理，蜜蜂应该根本不可能会飞”
 					'''
 			}
@@ -2389,6 +2397,7 @@ Mods: {
 				Tooltip:
 					'''
 					暴击有几率释放闪电攻击敌人
+					命中有潮湿减益的敌人时不暴击也可能会释放闪电
 					“瞧！”
 					'''
 			}
@@ -2419,10 +2428,8 @@ Mods: {
 				DisplayName: 暗黑艺术家魔石
 				Tooltip:
 					'''
-					召唤一个爆炸烈焰召唤物，在充能完毕后会移动至光标位置
-					然后它会如同一个哨兵，固定在该位置并发射爆炸火球
-					持续攻击会使你被火焰包裹并为召唤物充能，持续攻击两秒后完成充能
-					切换武器后，下次攻击的伤害增加50%，并造成地狱爆炸
+					召唤一个爆炸烈焰召唤物，在玩家攻击时也会随之攻击
+					攻击时，发射快捷栏位中的下两把武器的射弹作为辅助攻击
 					大幅增加爆炸烈焰哨兵的索敌范围和攻击距离
 					“阴影蕴含之物远超其表象”
 					'''
@@ -2432,8 +2439,8 @@ Mods: {
 				DisplayName: 乌木魔石
 				Tooltip:
 					'''
-					你被一圈暗影焰光环环绕
-					任何对你造成10伤害以下的弹幕进入光环会被摧毁
+					你被一圈腐化光环环绕
+					敌人在光环中停留4秒后会发生爆炸，爆炸将降低附近敌人的10点防御和10%的接触伤害
 					“潜力未完全开发”
 					'''
 			}
@@ -2445,6 +2452,7 @@ Mods: {
 					双击“下”键会在光标位置召唤远古风暴
 					穿过风暴的弹幕会额外造成30%伤害
 					接触风暴可以恢复飞行时间
+					落地后才可重新召唤风暴
 					“走路像个埃及人”
 					'''
 			}
@@ -2478,7 +2486,10 @@ Mods: {
 				Tooltip:
 					'''
 					长矛将倾泄在被攻击的敌人身上
-					当你面向攻击时免疫击退
+					双击下键召唤一个持续15秒的旗子
+					靠近旗子会增强长矛雨
+					靠近旗子时可免疫击退，获得10防御和5%伤害加成
+					旗子同时只能存在一个
 					“难道你不高兴吗？”
 					'''
 			}
@@ -2492,7 +2503,6 @@ Mods: {
 					按下“金身”键会将你包裹在一个黄金壳中
 					被包裹时你无法移动或攻击，但你免疫所有伤害
 					再次按下“金身”键会使你提前离开黄金壳
-					拥有贪婪戒指的效果
 					“有钱能使鬼推磨”
 					'''
 			}
@@ -2501,7 +2511,8 @@ Mods: {
 				DisplayName: 神圣魔石
 				Tooltip:
 					'''
-					攻击敌人后会使你无敌一小段时间
+					治疗药水的治疗量增加40%，但是会随时间推移逐渐生效
+					使用治疗药水时会产生冲击波，可击退附近的敌对弹幕
 					《Hit me with your best shot》
 					'''
 			}
@@ -2510,8 +2521,8 @@ Mods: {
 				DisplayName: 女猎人魔石
 				Tooltip:
 					'''
-					攻击忽略10点敌怪防御力并造成5点额外伤害
-					每次连续攻击会额外忽略10点防御力并多造成5点伤害
+					攻击忽略6点敌怪防御力并造成3点额外伤害
+					每次连续攻击会额外忽略6点防御力并多造成3点伤害
 					追踪武器和召唤物不会增加这些加成
 					任何一次攻击没有击中都会重置这些加成
 					“精确带来力量”
@@ -2522,8 +2533,9 @@ Mods: {
 				DisplayName: 铁魔石
 				Tooltip:
 					'''
-					扩大你的拾取范围
-					在任何铁砧处合成物品时33%的几率不消耗制作材料
+					在物品栏中即可生效
+					第一次制作物品时有33%概率不消耗材料
+					不适用于在宇宙坩埚上制作的物品
 					“趁热打铁”
 					'''
 			}
@@ -2553,7 +2565,8 @@ Mods: {
 				DisplayName: 流星魔石
 				Tooltip:
 					'''
-					攻击时每过几秒便会召唤一次流星雨
+					大幅增加移动时的加速度并降低动量影响
+					移动时会产生火焰尾迹
 					《Drop a draco on 'em》
 					'''
 			}
@@ -2629,9 +2642,8 @@ Mods: {
 				DisplayName: 忍者魔石
 				Tooltip:
 					'''
-					大幅提升弹幕和召唤物速度以及攻击速度
-					为了平衡加速度，伤害会降低，但魔力消耗减少50%
-					增加15点护甲穿透
+					弹幕会根据其速度获得增伤，最高可达20%
+					当玩家缓慢移动时弹幕速度大幅增加
 					“比肉眼所及更快”
 					'''
 			}
@@ -2643,7 +2655,8 @@ Mods: {
 					免疫火块与熔岩
 					你可以在熔岩中正常移动和游泳
 					在熔岩中会获得“熔岩之润”增益
-					拥有该增益时，你的攻击会引发爆炸并施加鞭炮效果
+					拥有该增益时，你的攻击会引发爆炸并施加鞭炮效果，且会附带火球
+					获得灰烬木魔石的全部效果
 					“大地在呼唤”
 					'''
 			}
@@ -2672,7 +2685,7 @@ Mods: {
 				DisplayName: 棕榈木魔石
 				Tooltip:
 					'''
-					双击“下”键会召唤一个会向敌人扔橡实的棕榈树哨兵
+					双击“下”键在鼠标处召唤一个会向敌人扔橡实的棕榈树哨兵
 					“出奇的宁静”
 					'''
 			}
@@ -2699,7 +2712,7 @@ Mods: {
 				DisplayName: 南瓜魔石
 				Tooltip:
 					'''
-					你在地上行走时会种下南瓜
+					你在移动时会种下南瓜
 					南瓜成熟时会为你回复25点生命值并产生伤害余烬
 					敌人与南瓜接触时会摧毁南瓜但会受到伤害
 					“你对南瓜的突发渴望永远不会得到满足”
@@ -2710,9 +2723,10 @@ Mods: {
 				DisplayName: 雨云魔石
 				Tooltip:
 					'''
-					免疫潮湿减益
-					召唤一个微型雨云跟着你的光标
-					不会穿墙攻击
+					召唤一把可反射上方射弹的雨伞
+					雨伞反射射弹的伤害合计超过200点后会破裂
+					获得羽落药水的效果
+					免疫潮湿减益，且所有攻击都会造成潮湿减益
 					拥有浮游圈的效果
 					“改日再来”
 					'''
@@ -2849,6 +2863,8 @@ Mods: {
 				DisplayName: 侍卫魔石
 				Tooltip:
 					'''
+					增加坐骑的最大速度、加速度与跳跃高度
+					使用坐骑时会获得10点防御、一次额外的臭屁跳跃并免疫摔落伤害
 					回复生命值时，治疗量增加25%
 					弩车可以穿透更多目标，你受到伤害时会得到弩车恐慌增益
 					“侍卫，你能快点吗？”
@@ -2903,8 +2919,8 @@ Mods: {
 				DisplayName: 钨魔石
 				Tooltip:
 					'''
-					武器大小增加150%
-					每过0.5秒便会有一个随机弹幕的尺寸翻倍
+					武器大小增加100%
+					每过2/3秒便会有一个随机弹幕的尺寸翻倍
 					变大的真近战剑刃和弹幕会额外造成10%伤害并且有更高几率造成暴击
 					“大就是好”
 					'''
@@ -2929,6 +2945,8 @@ Mods: {
 				DisplayName: 英灵殿骑士魔石
 				Tooltip:
 					'''
+					提升坐骑加速度、最高速度和跳跃高度
+					使用坐骑时，获得15点防御、一次额外的臭屁跳跃，免疫坠落伤害并获得冲刺能力
 					回复生命值时，治疗量增加33%
 					大幅强化弩车的效果
 					“瓦尔哈拉的呼唤”
@@ -2940,7 +2958,7 @@ Mods: {
 				Tooltip:
 					'''
 					双击“下”键切换至隐形模式，减少敌人以你为目标的几率，但大幅降低移动速度
-					进入隐形状态时生成一个会吸引敌人和弹幕的旋涡
+					进入隐形状态时生成一个会吸引弹幕的旋涡
 					处于隐形状态时你的弹幕不会被旋涡吸引
 					“撕裂现实”
 					'''
@@ -2950,7 +2968,7 @@ Mods: {
 				DisplayName: 巫师魔石
 				Tooltip:
 					'''
-					强化其它魔石，使它们获得在合成“力”等级饰品后才能获得的效果
+					正下方饰品栏位中的魔石会被强化至“力”等级饰品的效果
 					“我是啥？”
 					'''
 			}
@@ -2961,7 +2979,7 @@ Mods: {
 					'''
 					怪物图鉴和旗帜解锁速度翻倍
 					商店价格会依据你的图鉴解锁度降低
-					在时装栏中，商店价格折扣效果同样生效
+					在物品栏中，商店价格折扣效果同样生效
 					'''
 			}
 
@@ -3014,9 +3032,7 @@ Mods: {
 				Tooltip:
 					'''
 					放在物品栏中即可生效
-					静止不动时显露附近的宝藏
-					使所有物品都可自动使用
-					受影响的物品的使用速度降低20%
+					静止不动时显露附近的宝藏与敌人
 					'''
 			}
 
@@ -3035,12 +3051,13 @@ Mods: {
 				Tooltip:
 					'''
 					[i:FargowiltasSouls/MeteorEnchant] 攻击时每过几秒便会召唤一次流星雨
+					[i:FargowiltasSouls/MeteorEnchant] 移动加速度增加，并且移动时会留下火焰尾迹
 					[i:FargowiltasSouls/SolarEnchant] 允许你使用日耀护盾进行冲刺
 					[i:FargowiltasSouls/SolarEnchant] 攻击有几率造成太阳耀斑减益
 					[i:FargowiltasSouls/VortexEnchant] 双击“下”键切换至隐形模式，生成一个旋涡
 					[i:FargowiltasSouls/NebulaEnchant] 对敌人造成伤害时有几率生成强化焰
 					[i:FargowiltasSouls/StardustEnchant] 星尘守卫将保护你不受附近敌人的伤害
-					[i:FargowiltasSouls/StardustEnchant] 按下“冻结”键后会冻结时间，持续9秒，有60秒冷却时间
+					[i:FargowiltasSouls/StardustEnchant] 按下“冻结”键后会冻结时间，持续9秒，有50秒冷却时间
 					“自宇宙大爆炸以来就一直存在”
 					'''
 			}
@@ -3050,8 +3067,8 @@ Mods: {
 				Tooltip:
 					'''
 					[i:FargowiltasSouls/CobaltEnchant] 额外获得一次爆炸二段跳，受击时你会剧烈爆炸（译者注：大地之力只有受击爆炸效果，没有爆炸跳跃效果）
-					[i:FargowiltasSouls/PalladiumEnchant] 停止攻击以逐渐增加攻击速度，最多持续5秒
-					[i:FargowiltasSouls/MythrilEnchant] 暴击敌人会快速治疗，基于回复的血量放出生命能量球
+					[i:FargowiltasSouls/MythrilEnchant] 停止攻击以逐渐增加攻击速度，最多持续5秒
+					[i:FargowiltasSouls/PalladiumEnchant] 暴击敌人会快速治疗，基于回复的血量放出生命能量球
 					[i:FargowiltasSouls/OrichalcumEnchant] 攻击生成花瓣，伤害性减益造成4倍伤害
 					[i:FargowiltasSouls/AdamantiteEnchant] 你发射的所有弹幕都会分裂成三个，造成33%伤害且伤害频率提升到3倍，增加与其一半伤害相等的护甲穿透
 					[i:FargowiltasSouls/TitaniumEnchant] 攻击生成钛金碎片防御屏障，达到最大个数获得钛金护盾
@@ -3063,9 +3080,10 @@ Mods: {
 				DisplayName: 生命之力
 				Tooltip:
 					'''
-					[i:FargowiltasSouls/PumpkinEnchant] 你在地上行走时会种下南瓜
+					[i:FargowiltasSouls/PumpkinEnchant] 你移动时会种下南瓜
 					[i:FargowiltasSouls/CactusEnchant] 敌人死亡时有几率爆裂出针刺
-					[i:FargowiltasSouls/BeeEnchant] 近战攻击和大多数穿透类弹幕击中敌人时会生成蜜蜂
+					[i:FargowiltasSouls/BeeEnchant] 飞行时在空中留下花朵
+					[i:FargowiltasSouls/BeeEnchant] 获得蜂巢背包的效果
 					[i:FargowiltasSouls/SpiderEnchant] 仆从和哨兵可以造成暴击，且有30%基础暴击率，但暴击伤害只有1.5倍而不是2倍
 					[i:FargowiltasSouls/TurtleEnchant] 站定不动时且不攻击时你会缩进壳里
 					[i:FargowiltasSouls/BeetleEnchant] 甲虫会提高你的攻击能力和防御能力
@@ -3080,10 +3098,10 @@ Mods: {
 					[i:FargowiltasSouls/CrimsonEnchant] 在你受到伤害后大幅增加你的生命恢复速度，直至你恢复的生命量等同于这次受到的伤害量
 					[i:FargowiltasSouls/MoltenEnchant] 引燃你附近较大范围内的敌人
 					[i:FargowiltasSouls/MoltenEnchant] 所有敌怪在狱火圈内时多受到50%伤害
-					[i:FargowiltasSouls/RainEnchant] 召唤一个微型雨云跟着你的光标
+					[i:FargowiltasSouls/RainEnchant] 召唤一把可反射上方弹幕的雨伞
 					[i:FargowiltasSouls/SnowEnchant] 你的周围会出现冰锥
 					[i:FargowiltasSouls/ChlorophyteEnchant] 召唤一圈叶绿水晶攻击附近的敌人
-					[i:FargowiltasSouls/JungleEnchant] 使你获得孢子二段跳能力
+					[i:FargowiltasSouls/JungleEnchant] 使你获得孢子二段跳和孢子冲刺的能力
 					[i:FargowiltasSouls/ShroomiteEnchant] 站定不动时使你进入隐身状态
 					[i:FargowiltasSouls/ShroomiteEnchant] 所有攻击都会留下蘑菇尾迹
 					“走遍荒野的每一个秘密角落”
@@ -3097,16 +3115,16 @@ Mods: {
 					[i:FargowiltasSouls/ShadowEnchant] 四颗暗影珠绕着你旋转
 					[i:FargowiltasSouls/AncientShadowEnchant] 攻击有几率造成黑暗减益
 					[i:FargowiltasSouls/NecroEnchant] 击杀敌人时有几率爆出一个骨堆，拥有骨头手套的效果
-					[i:FargowiltasSouls/NinjaEnchant] 大幅提升弹幕和召唤物速度以及攻击速度，但降低伤害
+					[i:FargowiltasSouls/NinjaEnchant] 根据射弹速度增加其伤害
+					[i:FargowiltasSouls/NinjaEnchant] 缓慢移动时射弹速度增加
 					[i:FargowiltasSouls/CrystalAssassinEnchant] 你可以扔出烟雾弹、传送至烟雾弹的位置获得先发制人增益
 					[i:FargowiltasSouls/CrystalAssassinEnchant] 获得水晶刺客冲刺
 					[i:FargowiltasSouls/SpookyEnchant] 你的召唤物能进行额外的镰刀攻击
 					[i:FargowiltasSouls/MonkEnchant] 不攻击可以进行一次武僧冲刺
 					[i:FargowiltasSouls/ShinobiEnchant] 朝墙壁冲刺时会直接穿过去
-					[i:FargowiltasSouls/ApprenticeEnchant] 持续攻击两秒后你将被火焰包裹
-					[i:FargowiltasSouls/ApprenticeEnchant] 切换武器后，下次攻击的伤害增加150%
-					[i:FargowiltasSouls/DarkArtistEnchant] 召唤一个爆炸烈焰仆从，在充能完毕后会移动至光标位置
-					'Dark, Darker, Yet Darker'
+					[i:FargowiltasSouls/ApprenticeEnchant] 快捷栏中的下三把武器会随玩家攻击发射其弹幕作为辅助攻击
+					[i:FargowiltasSouls/DarkArtistEnchant] 召唤一个爆炸烈焰仆从随玩家的攻击而攻击
+					“黑暗，更黑暗，还是更黑暗”
 					'''
 			}
 
@@ -3118,10 +3136,9 @@ Mods: {
 					[i:FargowiltasSouls/FossilEnchant] 接触停止移动的骨头时会回复20点生命值
 					[i:FargowiltasSouls/ForbiddenEnchant] 双击“下”键会在光标位置召唤远古风暴
 					[i:FargowiltasSouls/ForbiddenEnchant] 穿过远古风暴的弹幕会额外获得60%伤害
-					[i:FargowiltasSouls/AncientHallowEnchant] 使你获得一面可以反弹弹幕的盾牌
-					[i:FargowiltasSouls/AncientHallowEnchant] 召唤一柄泰拉棱镜，其伤害接受召唤伤害加成
-					[i:FargowiltasSouls/HallowEnchant] 攻击敌人后会使你无敌一小段时间
-					[i:FargowiltasSouls/TikiEnchant] 鞭打你的召唤物可以让它们更勤奋
+					[i:FargowiltasSouls/AncientHallowEnchant] 使你获得一柄可以反射敌对弹幕的泰拉棱镜
+					[i:FargowiltasSouls/HallowEnchant] 治疗药水会随时间推移逐渐生效，使用治疗药水时产生推开敌对射弹的冲击波
+					[i:FargowiltasSouls/TikiEnchant] 鞭打你的召唤物可以让它们更勤奋，鞭子范围增加
 					[i:FargowiltasSouls/SpectreEnchant] 对敌人造成伤害时有几率生成幽灵珠
 					“飘飘乎如遗世独立，羽化而登仙”
 					'''
@@ -3133,11 +3150,12 @@ Mods: {
 					'''
 					[i:FargowiltasSouls/CopperEnchant][i:FargowiltasSouls/ObsidianEnchant][i:FargowiltasSouls/LeadEnchant] 攻击释放闪电，引发爆炸，造成铅中毒
 					[i:FargowiltasSouls/TinEnchant] 将你的基础暴击率设为10%，暴击率最多提升至你目前暴击率的两倍（至少50%）
-					[i:FargowiltasSouls/IronEnchant] 你能在更远处拾取物品，在砧处合成物品时33%的几率不消耗制作材料
+					[i:FargowiltasSouls/IronEnchant] 你能在更远处拾取物品，第一次合成物品时50%的几率不消耗制作材料
 					[i:FargowiltasSouls/LeadEnchant] 受到的持续伤害降低60%
 					[i:FargowiltasSouls/SilverEnchant] 右键进行盾牌格挡
 					[i:FargowiltasSouls/TungstenEnchant] 每过0.25秒剑和弹幕的大小增加300%
 					[i:FargowiltasSouls/ObsidianEnchant] 使你免疫火块与熔岩
+					[i:FargowiltasSouls/AshWoodEnchant] 玩家与城镇npc攻击时会附带火球
 					“大地赐予它力量”
 					'''
 			}
@@ -3150,7 +3168,7 @@ Mods: {
 					[i:FargowiltasSouls/BorealWoodEnchant] 攻击时定期释放几个雪球
 					[i:FargowiltasSouls/RichMahoganyEnchant] 所有钩爪的抛出速度×2，牵引速度×2.5，回收速度×3
 					[i:FargowiltasSouls/EbonwoodEnchant][i:FargowiltasSouls/ShadewoodEnchant] 暗影焰、诅咒焰和鲜血光环环绕着你
-					[i:FargowiltasSouls/PalmWoodEnchant] 双击“下”键召唤一个会向敌人扔橡实的棕榈树哨兵
+					[i:FargowiltasSouls/PalmWoodEnchant] 双击“下”键召唤两个会向敌人扔橡实的棕榈树哨兵
 					[i:FargowiltasSouls/PearlwoodEnchant] 弹幕击中敌人或物块时有几率生成一颗星星
 					“很硬”
 					'''
@@ -3163,10 +3181,11 @@ Mods: {
 					[i:FargowiltasSouls/GoldEnchant] 按下“金身”键会将你包裹在一个黄金壳中
 					[i:FargowiltasSouls/GoldEnchant] 捡起钱币时，自动将它们存进猪猪存钱罐中
 					[i:FargowiltasSouls/PlatinumEnchant] 敌人死亡时有20%的几率获得五倍的战利品
+					[i:FargowiltasSouls/GladiatorEnchant] 双击下键召唤一个旗子，靠近旗子时获得增益
 					[i:FargowiltasSouls/GladiatorEnchant] 长矛将倾泄在被攻击的敌人身上
-					[i:FargowiltasSouls/GladiatorEnchant] 当你面向攻击时免疫击退
 					[i:FargowiltasSouls/RedRidingEnchant] 连续攻击命中会获得额外伤害加成
 					[i:FargowiltasSouls/ValhallaKnightEnchant] 回复生命值时，治疗量增加50%
+					[i:FargowiltasSouls/ValhallaKnightEnchant] 提升坐骑的各项数据，坐骑可以进行冲刺
 					“坚不可摧的决心”
 					'''
 			}
@@ -3191,6 +3210,9 @@ Mods: {
 					'''
 					使你获得飞行和快速奔跑的能力，在冰面上提供额外机动性
 					增加8%移动速度
+					获得在水、蜂蜜和熔岩上行走的能力
+					免疫火块，免疫熔岩7秒
+					减少接触熔岩造成的伤害
 					提高跳跃速度，并允许自动跳跃
 					你走过的草地上会生长花朵
 					使你获得二段跳能力
@@ -3237,9 +3259,9 @@ Mods: {
 					召唤一只友好的彩虹史莱姆
 					某些敌人在死亡时会掉落药水
 					手动点击攻击时，增加30%非召唤伤害
-					[c/00FFFF:当该饰品放在背包中或时装栏时，下列效果也会生效：]
+					[c/00FFFF:当该饰品放在背包中或时装栏时，下列效果也会生效（右键点击以禁用）：]
 					    免疫强风、窒息、冷冻减益
-					    允许所有武器自动攻击、获得夜视效果，需要时自动使用治疗和魔力药水
+					    获得夜视效果，需要时自动使用治疗和魔力药水
 					    你会以满生命值重生，没有Boss在场时加快重生速度
 					    按下“寒霜咒语”键放置冰雪魔杖之冰
 					    右键可改变视野范围，减少50%重铸价格
@@ -3350,6 +3372,7 @@ Mods: {
 				Tooltip:
 					'''
 					放在物品栏中即可生效
+					右键点击以禁用
 					免疫霜冻和冷冻减益
 					按下“寒霜咒语”键放置冰雪魔杖之冰
 					你的冰块会造成霜冻减益
@@ -3386,7 +3409,7 @@ Mods: {
 				DisplayName: 明胶羽翼
 				Tooltip:
 					'''
-					作为翅膀使用
+					可以飞行和缓慢下落
 					免疫由地下神圣之地造成的翻转减益
 					可让持有者二连跳
 					落地时向左右发射出史莱姆尖刺
@@ -3527,6 +3550,7 @@ Mods: {
 				Tooltip:
 					'''
 					放在物品栏中即可生效
+					右键点击以禁用
 					免疫窒息减益
 					魔法伤害降低10%
 					需要时自动使用魔力药水
@@ -3552,7 +3576,7 @@ Mods: {
 				Tooltip:
 					'''
 					免疫热恋、恶臭和着魔减益
-					你会以满生命值重生
+					你会以满生命值重生（这个效果放在物品栏中也可生效）
 					你的攻击偶尔会生成心
 					“气味有点太浓了”
 					'''
@@ -3764,7 +3788,6 @@ Mods: {
 					'''
 					手动点击攻击时，增加30%非召唤伤害
 					免疫被网住和净化减益
-					允许所有武器自动攻击（这个效果放在物品栏即可生效）
 					“远古丛林居民的偶像”
 					'''
 			}
@@ -3795,8 +3818,11 @@ Mods: {
 				DisplayName: 和风靴
 				Tooltip:
 					'''
-					使你获得飞行和快速奔跑的能力
+					使你获得飞行和快速奔跑的能力，在冰面上有额外的加速
 					增加8%移动速度
+					获得在水、蜂蜜和熔岩上行走的能力
+					免疫火块，免疫熔岩7秒
+					减少接触熔岩造成的伤害
 					提高跳跃速度，并允许自动跳跃
 					使你获得二段跳能力
 					增加跳跃高度并免疫摔落伤害
@@ -3914,7 +3940,7 @@ Mods: {
 					增加100%最大生命值和10%伤害减免，增加50%你手持武器职业的伤害
 					大幅增加生命恢复速度，你的光标会导致附近的敌怪受到更多伤害
 					允许你控制重力、快速下落，免疫击退、摔落伤害和近乎所有的永恒模式减益
-					允许所有武器自动挥舞且在需要时自动使用魔力药水
+					在需要时自动使用魔力药水
 					你的攻击会进行额外攻击，额外生成心, 并造成混合的永恒模式减益
 					被诅咒狱火或灵液影响时增强属性
 					按下“减益负载”键对自己造成减益并加强自己
@@ -3966,7 +3992,7 @@ Mods: {
 					'''
 					召唤火球、暗影珠、冰锥、叶绿水晶、爆炸烈焰哨兵、神圣剑盾和甲虫
 					右键进行盾牌格挡
-					双击“下”键后会召唤一个哨兵、传送门、风暴并切换至隐形状态
+					双击“下”键后会召唤一个哨兵、旗子、传送门、风暴并切换至隐形状态
 					按下“金身”键后会将你包裹在一个黄金壳中，按下“冻结”键后会冻结9秒时间，召唤物会释放镰刀
 					允许你使用日耀护盾进行冲刺，冲进墙壁时会直接穿过去
 					扔出烟雾弹后会将你传送至其落点的位置并使你获得先发制人增益
@@ -4030,7 +4056,7 @@ Mods: {
 					'''
 					增加50%物块和墙壁的放置速度
 					增加放置和挖掘距离
-					挖掘速度x3
+					挖掘速度x3并获得远古凿子的效果。
 					高亮标记敌人、陷阱和宝藏
 					自动刷漆和放置促动器
 					你会散发光芒
@@ -4039,7 +4065,7 @@ Mods: {
 					    大幅增加放置速度
 					    大幅增加放置和挖掘距离
 					可以在魂石开关选项菜单中禁用此效果
-					拥有手机和皇家凝胶效果
+					拥有手机，宝藏磁铁和皇家凝胶效果
 					召唤一个魔法灯笼
 					“无限的可能性”
 					'''
@@ -4210,28 +4236,28 @@ Mods: {
 			}
 
 			AbomBag: {
-				// DisplayName: Treasure Bag
-				// Tooltip: Right click to open
+				DisplayName: 宝藏袋（憎恶）
+				Tooltip: 右键点击可打开
 			}
 
 			CosmosBag: {
-				// DisplayName: Treasure Bag
-				// Tooltip: Right click to open
+				DisplayName: 宝藏袋（宇宙英灵）
+				Tooltip: 右键点击可打开
 			}
 
 			DeviBag: {
-				// DisplayName: Treasure Bag
-				// Tooltip: Right click to open
+				DisplayName: 宝藏袋（戴薇安）
+				Tooltip: 右键点击可打开
 			}
 
 			MutantBag: {
-				// DisplayName: Treasure Bag
-				// Tooltip: Right click to open
+				DisplayName: 宝藏袋（突变体）
+				Tooltip: 右键点击可打开
 			}
 
 			TrojanSquirrelBag: {
-				// DisplayName: Treasure Bag
-				// Tooltip: Right click to open
+				DisplayName: 宝藏袋（特洛伊松鼠）
+				Tooltip: 右键点击可打开
 			}
 
 			DeerSinew: {
@@ -4267,7 +4293,7 @@ Mods: {
 
 			MutantsPact: {
 				DisplayName: 突变体契约
-				Tooltip: 永久增加配饰栏数量
+				Tooltip: 永久增加一个仅能容纳魔石，力或是魂的饰品栏。
 			}
 
 			OrdinaryCarrot: {
@@ -4348,7 +4374,11 @@ Mods: {
 
 			EternityAdvisor: {
 				DisplayName: 永恒顾问
-				Tooltip: 基于当前进度，为你提供永恒模式的配装建议
+				Tooltip:
+					'''
+					基于当前进度，为你提供永恒模式的配装建议
+					[c/ff0000: 注意，这些建议已经落后于当前版本，请对这些建议持谨慎的态度。]
+					'''
 			}
 
 			GalacticReformer: {
@@ -5177,12 +5207,12 @@ Mods: {
 			}
 
 			LifeChallengerRelic: {
-				DisplayName: 飘渺游光圣物
+				// DisplayName: Lieflight Relic
 				// Tooltip: ""
 			}
 
 			LifeChallengerTrophy: {
-				DisplayName: 飘渺游光纪念章
+				// DisplayName: Lieflight Trophy
 				// Tooltip: ""
 			}
 
@@ -5195,7 +5225,7 @@ Mods: {
 				DisplayName: 魔引凝晶
 				Tooltip:
 					'''
-					在指针处召唤至多20个向你飞来的水晶球 
+					在指针处召唤至多30个向你飞来的水晶球 
 					松开鼠标把水晶球向指针处发射
 					'''
 			}

@@ -401,6 +401,20 @@ namespace FargoChinese.Patch
                 orig.Invoke("在自定义效果配置2中未找到饰品效果设置。", R, G, B);
             else if (newText == "No toggles found in custom set 3.")
                 orig.Invoke("在自定义效果配置3中未找到饰品效果设置。", R, G, B);
+            else if (newText == "Hand it over. That thing, your soul toggles.")
+                orig.Invoke("交出你的灵魂吧。", R, G, B);
+            else if (newText == "I hope you're ready to embrace suffering.")
+                orig.Invoke("希望你已经做好了拥抱痛苦的准备。", R, G, B);
+            else if (newText == "Time to stop playing around.")
+                orig.Invoke("游戏到此结束了。", R, G, B);
+            else if (newText == "You're pretty good...")
+                orig.Invoke("你真的很出色......", R, G, B);
+            else if (newText == "But we're not done yet!")
+                orig.Invoke("但是还没结束！", R, G, B);
+            else if (newText == "I have not a single regret in my existence!")
+                orig.Invoke("毫无遗憾！这就是我存在的意义！", R, G, B);
+            else if (newText == "Oh, right... my revive...")
+                orig.Invoke("期待我的重生吧......", R, G, B);
             #endregion
             else
                 orig.Invoke(newText, R, G, B);
@@ -798,6 +812,20 @@ namespace FargoChinese.Patch
             #endregion
             #endregion
             #region FargowiltasSouls
+            else if (text == "Hand it over. That thing, your soul toggles.")
+                orig.Invoke("交出你的灵魂吧。", force, c, WidthLimit);
+            else if (text == "I hope you're ready to embrace suffering.")
+                orig.Invoke("希望你已经做好了拥抱痛苦的准备。", force, c, WidthLimit);
+            else if (text == "Time to stop playing around.")
+                orig.Invoke("游戏到此结束了。", force, c, WidthLimit);
+            else if (text == "You're pretty good...")
+                orig.Invoke("你真的很出色......", force, c, WidthLimit);
+            else if (text == "But we're not done yet!")
+                orig.Invoke("但是还没结束！", force, c, WidthLimit);
+            else if (text == "I have not a single regret in my existence!")
+                orig.Invoke("毫无遗憾！这就是我存在的意义！", force, c, WidthLimit);
+            else if (text == "Oh, right... my revive...")
+                orig.Invoke("期待我的重生吧......", force, c, WidthLimit);
             #endregion
             else
                 orig.Invoke(text, force, c, WidthLimit);
