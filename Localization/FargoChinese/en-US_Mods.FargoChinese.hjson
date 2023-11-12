@@ -1,0 +1,65 @@
+Configs: {
+	FCConfig: {
+		DisplayName: Fargo汉化补丁配置
+
+		Headers: {
+			地图难度特殊显示效果: 地图难度特殊显示效果
+			额外物品信息: 额外物品信息
+		}
+
+		EnableWorldDifficultyChange: {
+			Label: 开启永恒与受虐难度在地图选择界面的显示
+			Tooltip: ""
+		}
+
+		EnableWorldDifficultyShader: {
+			Label: 开启永恒与受虐难度在地图选择界面的特殊动画（需要开启上一条）
+			Tooltip: ""
+		}
+
+		PainterTip: {
+			Label: 显示油漆工卖画条件提示
+			Tooltip: 当提示行变为绿色，表明你满足了条件
+		}
+
+		FruitTip: {
+			Label: 显示摇树及伐木工树木宝藏掉落水果提示
+			Tooltip: 当提示行变为绿色，表明你满足了条件
+		}
+
+		FishingTip: {
+			Label: 显示钓鱼装备饰品获取提示
+			Tooltip: 当提示行变为绿色，表明你满足了条件
+		}
+
+		DyeTip: {
+			Label: 显示染料原料获取提示
+			Tooltip: 当提示行变为绿色，表明你满足了条件
+		}
+
+		KeyBindTip: {
+			Label: 显示Fargo突变键位绑定提示
+			Tooltip: ""
+		}
+
+		CustomKeyBindTip: {
+			Label: 显示“快捷使用背包左下角物品”键位绑定提示
+			Tooltip: 单独添加了一个配置选项，避免觉得左下角物品总多一行物品信息烦人
+		}
+
+		SoulsKeyBindTip: {
+			Label: 显示Fargo魂石键位绑定提示
+			Tooltip: ""
+		}
+
+		AllTipsOn: {
+			Label: 开启全部
+			Tooltip: ""
+		}
+
+		AllTipsOff: {
+			Label: 关闭全部
+			Tooltip: ""
+		}
+	}
+}

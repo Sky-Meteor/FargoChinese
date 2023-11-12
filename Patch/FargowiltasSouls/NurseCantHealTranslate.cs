@@ -1,8 +1,9 @@
-﻿using FargowiltasSouls;
-using FargowiltasSouls.Buffs.Masomode;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
+using FargowiltasSouls.Content.Buffs.Masomode;
+using FargowiltasSouls.Core.ModPlayers;
+using FargowiltasSouls.Core.Systems;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -22,10 +23,10 @@ namespace FargoChinese.Patch.FargowiltasSouls
         private delegate bool ModifyNurseHealDelegate(EModePlayer eModePlayer, NPC nurse, ref int health, ref bool removeDebuffs, ref string chatText);
         private static bool ModifyNurseHeal(ModifyNurseHealDelegate orig, EModePlayer eModePlayer, NPC nurse, ref int health, ref bool removeDebuffs, ref string chatText)
         {
-            if (!FargoSoulsWorld.EternityMode)
+            if (!WorldSavingSystem.EternityMode)
                 return orig.Invoke(eModePlayer, nurse, ref health, ref removeDebuffs, ref chatText);
 
-            if (Main.LocalPlayer.HasBuff(ModContent.BuffType<RushJob>()))
+            if (Main.LocalPlayer.HasBuff(ModContent.BuffType<RushJobBuff>()))
             {
                 chatText = "我已经在这有限的时间内尽我所能了！";
                 return false;

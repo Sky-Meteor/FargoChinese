@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using FargowiltasSouls.Core.Systems;
 using Terraria;
 using Terraria.GameContent.UI.Elements;
 using Terraria.Graphics.Shaders;
@@ -39,9 +40,9 @@ namespace FargoChinese.ModSystems
             }
 
             int difficulty = 0;
-            if (FargoSoulsWorld.EternityMode)
+            if (WorldSavingSystem.EternityMode)
                 difficulty = 1;
-            if (FargoSoulsWorld.MasochistModeReal)
+            if (WorldSavingSystem.MasochistModeReal)
                 difficulty = 2;
 
             if (difficulty == 0)
@@ -56,7 +57,12 @@ namespace FargoChinese.ModSystems
             _saveWorldDifficulty.Put("WorldDifficulty", _worldMode);
             _saveWorldDifficulty.Save();
         }
-        private void Main_EraseWorld(On.Terraria.Main.orig_EraseWorld orig, int i)
+        public override void LoadWorldData(TagCompound tag)
+        {
+            base.LoadWorldData(tag);
+        }
+
+        private void Main_EraseWorld(Terraria.On_Main.orig_EraseWorld orig, int i)
         {
             _worldMode.Remove(Main.WorldList[i].UniqueId);
             orig.Invoke(i);
@@ -162,10 +168,10 @@ namespace FargoChinese.ModSystems
             _data = typeof(UIWorldListItem).GetField("_data", BindingFlags.NonPublic | BindingFlags.Instance);
             _enableWorldDifficultyShader = ModContent.GetInstance<FCConfig>().EnableWorldDifficultyShader;
 
-            On.Terraria.Main.EraseWorld += Main_EraseWorld;
-            IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf;
+            On_Main.EraseWorld += Main_EraseWorld;
+            IL_UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf;
             if (ModContent.GetInstance<FCConfig>().EnableWorldDifficultyShader)
-                IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf_Shader;
+                IL_UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf_Shader;
         }
 
         public override void Unload()
@@ -176,9 +182,9 @@ namespace FargoChinese.ModSystems
             // _worldMode = null;
 
             // _data = null;
-            On.Terraria.Main.EraseWorld -= Main_EraseWorld;
-            IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf;
-            IL.Terraria.GameContent.UI.Elements.UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf_Shader;
+            On_Main.EraseWorld -= Main_EraseWorld;
+            IL_UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf;
+            IL_UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf_Shader;
         }
         #endregion
     }

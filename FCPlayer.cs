@@ -12,27 +12,18 @@ namespace FargoChinese
 {
     public class FCPlayer : ModPlayer
     {
-        public override void OnEnterWorld(Player player)
+        public override void OnEnterWorld()
         {
             Color c = Color.Orange;
-            Main.NewText("- Fargo突变 V 2.8.8 更新 -", c);
-            string text = @"-调整了Boss权重，再次使其适配Boss列表
--修复了环境领域在多人模式未加载的区块中使用有时会删除方块
--修复了使用物品热键相关问题，例如混沌传送杖在不应当能使用的时候可以使用
--添加了多功能平台转化器
--修复了用蠕虫食物召唤世界吞噬者、用某种金属蠕虫召唤毁灭者时的体节丢失问题
--修复了敌怪召唤物多人模式不同步的问题
--告死精灵和古代符章注明只能在晚上使用";
+            Main.NewText("Fargo更新后，鉴于代码内和游戏内的诸多问题，汉化的制作遇到更多困难，Fargo汉化也需要一定时间来修补错误，因此，短时间内，Fargo汉化不会更新\n更多解释查看B站 @FallingLeaf落叶 的动态 https://www.bilibili.com/opus/832914516570275889\n注：Fargo突变内容的汉化大体没有错误，但Fargo包括突变和魂对于1.4.4及其新种子适配极差，尤其不推荐在新种子中游玩", c);
+            /*Main.NewText("- Fargo突变 V 3.0.0 更新 -", c);
+            string text = @"-添加了[i:Fargowiltas/PurityTotem] 纯净图腾
+-更新到tModLoader 1.4.4";
             string[] textLines = text.Split("-");
             for (int i = 1; i < textLines.Length; i++)
                 Main.NewText("-" + textLines[i].Trim(), c);
-            Main.NewText("Fargo魂石的内容以及更详细的更新见Bilibili @小小法师的大决心 & @Furgo_", c);
+            Main.NewText("更详细的消息见Bilibili @小小法师的大决心 & @Furgo_", c);*/
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
-            Main.NewText($"[i:Fargowiltas/Wizard] 288.1425.3更新：调整了三条汉化：", new Color(255, 0, 255));
-            Main.NewText("-“山崩EX”译名改为“山崩”，原“山崩”(The Rockslide)译名改为“岩倾”", new Color(255, 0, 255));
-            Main.NewText("-为了与“森林之力”对齐，“木英灵”译名改为“森林英灵”", new Color(255, 0, 255));
-            Main.NewText("-“双子座飞轮刃”译名改为“双生旋刃”", new Color(255, 0, 255));
-            Main.NewText($"[i:Fargowiltas/Squirrel] 288.1425.4更新：把“高顶礼帽松鼠”城镇NPC改名为“松鼠”（与英文对齐，减少歧义）", Color.LightGray);
             Main.NewText($"[i:{ItemID.UndergroundReward}] 查看模组配置（FCConfig）以调整部分内容！", new Color(255, 51, 51));
             if (Main.netMode == NetmodeID.MultiplayerClient)
             {
@@ -45,10 +36,10 @@ namespace FargoChinese
                 player.QuickSpawnItem(player.GetSource_Misc("FCEchOnEnterWorld"), Main.rand.Next(items));
             }*/
             // april fools
-            Main.changeTheTitle = true;
+            // Main.changeTheTitle = true;
         }
 
-        public override void UpdateEquips()
+        /*public override void UpdateEquips()
         {
             if (ModContent.GetInstance<FargoConfig>().PiggyBankAcc)
             {
@@ -62,6 +53,6 @@ namespace FargoChinese
                     GlobalItemTranslate.TryPiggyBankAcc(item, Player);
                 }
             }
-        }
+        }*/
     }
 }

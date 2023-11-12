@@ -11,10 +11,10 @@ namespace FargoChinese.Patch.FargowiltasSouls
 
         public override void Load()
         {
-            On.Terraria.UI.Chat.ChatManager.ParseMessage += ChatManager_ParseMessage;
+            Terraria.UI.Chat.On_ChatManager.ParseMessage += ChatManager_ParseMessage;
         }
 
-        private static List<TextSnippet> ChatManager_ParseMessage(On.Terraria.UI.Chat.ChatManager.orig_ParseMessage orig, string text, Microsoft.Xna.Framework.Color baseColor)
+        private static List<TextSnippet> ChatManager_ParseMessage(Terraria.UI.Chat.On_ChatManager.orig_ParseMessage orig, string text, Microsoft.Xna.Framework.Color baseColor)
         {
             if (text == null)
                 return new List<TextSnippet>();
@@ -29,7 +29,7 @@ namespace FargoChinese.Patch.FargowiltasSouls
 
         public override void Unload()
         {
-            On.Terraria.UI.Chat.ChatManager.ParseMessage -= ChatManager_ParseMessage;
+            Terraria.UI.Chat.On_ChatManager.ParseMessage -= ChatManager_ParseMessage;
         }
     }
 }

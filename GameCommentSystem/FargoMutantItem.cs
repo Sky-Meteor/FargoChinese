@@ -4,6 +4,7 @@ using System.IO;
 using System.Reflection;
 using Newtonsoft.Json;
 using Fargowiltas;
+using Fargowiltas.Common.Configs;
 using Terraria;
 using Terraria.GameInput;
 using Terraria.ID;
@@ -144,7 +145,7 @@ namespace FargoChinese.GameCommentSystem
                 const string achievedColor = "0BDA51";
                 string color = condition ? achievedColor : defaultColor;
                 tooltips.Add(new TooltipLine(Mod, "FCPaintingTip", $"[i:Fargowiltas/Painter] [c/{color}:在{tip}售卖]"));
-                if (condition && ModContent.GetInstance<FargoConfig>().NPCSales && (player.ZoneDungeon || player.ZoneRockLayerHeight || player.ZoneDirtLayerHeight || player.ZoneUnderworldHeight))
+                if (condition && ModContent.GetInstance<FargoServerConfig>().NPCSales && (player.ZoneDungeon || player.ZoneRockLayerHeight || player.ZoneDirtLayerHeight || player.ZoneUnderworldHeight))
                     tooltips.Add(new TooltipLine(Mod, "FCPaintingTipExtra", $"[i:Fargowiltas/Painter] [c/{defaultColor}:如果没有找到预期的画作，可能是因为Fargo突变的配置（NPC卖额外商品）导致原画作被覆盖]"));
             }
             void AddFargoPaintingTip(string tip, bool condition)
@@ -153,7 +154,7 @@ namespace FargoChinese.GameCommentSystem
                 const string achievedColor = "0BDA51";
                 string color = condition ? achievedColor : defaultColor;
                 tooltips.Add(new TooltipLine(Mod, "FCPaintingTip", $"[i:Fargowiltas/Painter] [c/{color}:{EnableFargosNPCSale}在{tip}售卖]"));
-                if (condition && ModContent.GetInstance<FargoConfig>().NPCSales && (player.ZoneDungeon || player.ZoneRockLayerHeight || player.ZoneDirtLayerHeight || player.ZoneUnderworldHeight))
+                if (condition && ModContent.GetInstance<FargoServerConfig>().NPCSales && (player.ZoneDungeon || player.ZoneRockLayerHeight || player.ZoneDirtLayerHeight || player.ZoneUnderworldHeight))
                     tooltips.Add(new TooltipLine(Mod, "FCPaintingTipExtra", $"[i:Fargowiltas/Painter] [c/{defaultColor}:如果没有找到预期的画作，可能是因为Fargo突变的配置（NPC卖额外商品）导致原画作被覆盖]"));
             }
             #endregion
@@ -351,14 +352,9 @@ namespace FargoChinese.GameCommentSystem
                 case ItemID.MagicMirror:
                 case ItemID.IceMirror:
                 case ItemID.CellPhone:
-                    AddKeyBindTip("快速回家", "Fargowiltas: Quick Recall/Mirror", "0CA3C0");
-                    break;
-                case ItemID.RodofDiscord:
-                    AddKeyBindTip("快捷使用混沌传送杖", "Fargowiltas: Quick Rod of Discord", "D95C97", "快捷混沌传送杖");
+                    AddKeyBindTip("快速回家", "Fargowiltas/Quick Recall/Mirror", "0CA3C0");
                     break;
             }
-            if (ModContent.GetInstance<FCConfig>().CustomKeyBindTip && item.tooltipContext == ItemSlot.Context.InventoryItem && MouseHoveringOnInventory41)
-                AddKeyBindTip("快捷使用背包左下角物品", "Fargowiltas: Quick Use Custom (Bottom Left Inventory Slot)", "E3F49D");
 
             void AddKeyBindTip(string tip, string uniqueName, string color, string tipWhenDisabled = "")
             {
@@ -378,7 +374,5 @@ namespace FargoChinese.GameCommentSystem
                 tooltips.Add(new TooltipLine(Mod, "FCBoneAmmoTip", "[i:Fargowiltas/Clothier] [c/808080:裁缝在骷髅王后售卖弹药]"));
             #endregion
         }
-
-        public static bool MouseHoveringOnInventory41;
     }
 }
