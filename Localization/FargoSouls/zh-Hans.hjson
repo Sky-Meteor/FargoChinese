@@ -10,14 +10,14 @@ Mods: {
 	FargowiltasSouls: {
 		WizardEffect: {
 			Adamantite: 弹幕现在会分裂成三个，造成33%伤害，造成伤害的频率提升到3倍
-			// Apprentice: The next 2 weapons are used instead of 1
+			Apprentice: 辅助武器的数量从1把提升至2把
 			AncientHallow: 剑的伤害增加，可反射的弹幕伤害上限提升至200
 			AncientShadow: 暗影珠数量增加
 			// AncientCobalt: No upgrade
 			Angler: ""
 			Bee: 增强翅膀的各项数据与蜜蜂的伤害
 			Beetle: ""
-			// BorealWood: Fires more snowballs more often
+			BorealWood: 更频繁的释放更多雪球
 			Cactus: 增加针刺的数量和伤害
 			Chlorophyte: 叶绿水晶和孢子的伤害增加，冷却时间缩短
 			Cobalt: 增加受击爆炸伤害
@@ -32,7 +32,7 @@ Mods: {
 			Gladiator: 增加旗子生效范围，缩短长矛雨的冷却时间
 			Gold: ""
 			Hallow: 药水治疗量加成从40%提升至70%
-			// Huntress: Armor penetration and flat damage increased to 10 and 5 respectively
+			Huntress: 护甲穿透增加量提升至10，伤害增加量提升至5
 			Iron: 不消耗物品的概率增加至50%
 			// Jungle: Spore damage increased, cooldown decreased
 			Lead: 增加铅中毒伤害，持续伤害减免提升到60%
@@ -64,8 +64,8 @@ Mods: {
 			Spooky: ""
 			Stardust: ""
 			// Snow: No upgrade
-			// Shadow: Number of Shadow Orbs increased
-			// Squire: Mount defense increased from 10 to 15, speed and acceleration from 1.25x to 1.5x, heal bonus from 25% to 33%
+			Shadow: 骨堆可漂浮在空中
+			Squire: 使用坐骑时增加15点防御，坐骑速度和加速度从1.25倍提升至1.5倍，治疗增加量从25%提升至33%
 			Tiki: 鞭子攻击距离增加20%
 			Tin: 最小暴击率提高到10%，最大暴击率至少有50%，减少增加暴击过程的冷却时间 //for patch
 			Titanium: 碎片会但只会受到最高的职业伤害加成；伤害减免提高至75% //for patch
@@ -74,7 +74,7 @@ Mods: {
 			ValhallaKnight: 使用坐骑时增加20点防御，坐骑加速度从1.5倍提升至2倍，治疗增加量从33%提升至50%
 			Vortex: ""
 			Wood: 怪物图鉴和旗帜解锁速度增加到5倍 //for patch
-			// AshWood: Fires balls of fire more often
+			AshWood: 火球发射更加频繁
 		}
 
 		SetBonus: {
@@ -142,7 +142,7 @@ Mods: {
 			LesserFairy: 这些小精灵被生命英灵的光辉所吸引，它们只关心如何实现它的命令。
 			LesserSquirrel: 这些小动物帮助造出了特洛伊松鼠，但没注意到自己的身上多出了一些小爆炸物。
 			ShadowOrb: 凝聚着黑暗力量的能量球。它们散发的能量使夜幕低垂，唯一的目的是为主人服务。 //for patch
-			// ShadowOrbNPC: Clusters of darkness that focus its power. They keep the curtain of night drawn low in service of their master.
+			ShadowOrbNPC: 凝聚着黑暗力量的能量球。它们散发的能量使夜幕低垂，唯一的目的是为主人服务。
 			TrojanSquirrel: 由松鼠建造，由松鼠拥有！从广阔土地上搜集的木头构成了它的身体。它比外观看起来更适合松鼠。
 			GuardianOfAncientTreasures: 潜伏在地底深处，小心翼翼地守护着成堆的珠宝和贵金属。它的鳞片坚硬如石。
 			CursedCoffin: 一百多个邪恶灵魂的无意识的融合体。它以迷路旅行者的尸体为食，并吸收他们的灵魂。
@@ -202,7 +202,7 @@ Mods: {
 			CosmosChampionSpawnInfo: 在太空使用[i:FargowiltasSouls/SigilOfChampions]召唤
 			TrojanSquirrelSpawnInfo: 通过使用 [i:FargowiltasSouls/SquirrelCoatofArms]召唤
 			LifeChallengerSpawnInfo: 白天在神圣环境使用[i:FargowiltasSouls/SigilOfChampions]召唤
-			// BanishedBaronSpawnInfo: Spawn by using [i:FargowiltasSouls/MechLure] underwater at the Ocean.
+			BanishedBaronSpawnInfo: 在海洋的水下区域使用[i:FargowiltasSouls/MechLure]召唤
 		}
 
 		Message: {
@@ -242,7 +242,7 @@ Mods: {
 				EternityOff: 永恒模式已关闭。
 				EternityWrongDifficulty: 难度过低，永恒模式已关闭...
 				MasochistOn: 大师模式与永恒模式结合：受虐模式已开启！！
-				// MasochistOnZenith: Master and Zenith seed combined: Masochist Mode activated!!
+				MasochistOnZenith: 大师模式与天顶种子结合：受虐模式已开启！！
 				MasochistOff: 受虐模式已关闭。
 				BloodMoonCancel: 血月改变了主意，溜了溜了...
 			}
@@ -414,16 +414,17 @@ Mods: {
 			TungstenConfig: 钨 物品变大
 			TungstenProjConfig: 钨 弹幕变大
 			ObsidianConfig: 黑曜石 爆炸
-			// AshWoodConfig: Ash Fireballs
+			AshWoodConfig: 灰烬木 火球
 			WillHeader: "{$Mods.FargowiltasSouls.Items.WillForce.DisplayName}"
 			GladiatorConfig: 角斗士 长矛雨
+			GladiatorBannerConfig: 角斗士 旗帜
 			GoldConfig: 金 幸运币
 			GoldToPiggyConfig: 金 自动将钱存进储蓄罐
 			HuntressConfig: 女猎人 相关效果
 			RedRidingRainConfig: 红色骑术 箭雨
 			ValhallaConfig: 英灵殿骑士 坐骑冲刺
-			// SquireMountJumpConfig: Squire Mount Jump
-			// SquireMountSpeedConfig: Squire Mount Speed
+			SquireMountJumpConfig: 侍卫 坐骑跳跃高度
+			SquireMountSpeedConfig: 侍卫 坐骑速度
 			SquirePanicConfig: “弩车恐慌！”效果
 			LifeHeader: "{$Mods.FargowiltasSouls.Items.LifeForce.DisplayName}"
 			BeeConfig: 蜜蜂 花朵
@@ -459,12 +460,12 @@ Mods: {
 			FossilConfig: 化石 受击释放骨头
 			ForbiddenConfig: 禁戒 远古风暴
 			HallowDodgeConfig: 神圣 治疗药水
-			// AHallowedConfig: Ancient Hallowed Terraprisma familiar
+			AHallowedConfig: 远古神圣 泰拉棱镜
 			NinjaSpeedConfig: 忍者 弹幕、攻击速度加成
 			SpectreConfig: 幽魂 幽魂珠
 			TikiConfig: 提基 鞭打召唤物
 			CosmoHeader: "{$Mods.FargowiltasSouls.Items.CosmoForce.DisplayName}"
-			// MeteorMomentumConfig: Meteor Speed
+			MeteorMomentumConfig: 流星 速度
 			MeteorConfig: 流星 流星雨
 			NebulaConfig: 星云 强化焰
 			SolarConfig: 耀斑 护盾
@@ -479,7 +480,7 @@ Mods: {
 			DeerSinewDashConfig: 鹿筋冲刺
 			MasoAeolusConfig: 风神跳跃
 			MasoAeolusFlowerConfig: 花靴
-			// MasoAeolusFrogConfig: Frog Jump
+			MasoAeolusFrogConfig: 水陆两栖靴 跳跃
 			MasoIconConfig: 刷怪率提升
 			MasoIconDropsConfig: 战利品掉落
 			MasoGrazeConfig: 擦弹
@@ -669,7 +670,7 @@ Mods: {
 			PatreonPrime: 机械骷髅王法杖
 			PatreonCrimetroid: 血水母的蛋
 			PatreonNanoCore: 纳米核心
-			// PatreonROB: R.O.B
+			PatreonROB: R.O.B
 			SilverS: Mods.FargowiltasSouls.Toggler.SilverS
 			CrystalGelatinConfig: 挥发明胶效果
 			SilverConfig: Mods.FargowiltasSouls.Toggler.SilverConfig //for patch
@@ -687,8 +688,8 @@ Mods: {
 			WoodenTooltip: “卑微的开始……”
 			TinCritUp: +5%暴击率
 			TinCritReset: -{0}%暴击率
-			// ROBPatreon: The friend you've never left since Brawl
-			// ROBNonPatreon: He's finally a top tier!
+			ROBPatreon: 自从开始战斗以来从未离开你的朋友
+			ROBNonPatreon: 它终于跻身顶级了！
 
 			EternitySoul: {
 				Additional: 额外加成：
@@ -1014,9 +1015,9 @@ Mods: {
 			Buff: "[c/00ff00:永恒模式：]"
 			Neutral: "[c/ffff00:永恒模式：]"
 			Damage: 伤害降低{0}%
-			// DamagePositive: Increased damage by {0}%
+			DamagePositive: 伤害提升{0}%
 			Speed: 攻击速度降低{0}%
-			// SpeedPositive: Increased speed by {0}%
+			SpeedPositive: 攻击速度提升{0}%
 			RodofDiscord: 在Boss战中，每次使用都会消耗生命
 			Split: 降低分裂频率
 			ChlorophyteBullet: 速度减慢，存在时间降低
@@ -1035,7 +1036,7 @@ Mods: {
 			MoonsWaves: 死亡会降低当前波数
 			WhipSpeed: 不接受近战攻速加成
 			WhipStack: 鞭子的增益/减益不能堆叠
-			// ManaPots: Cannot be used during Mana Sickness, but 50% increased restoration
+			ManaPots: 魔力疾病期间无法使用，但是恢复速度提升50%
 			MinionStack: 同时召唤超过3个相同召唤物时，它们的伤害会降低（超过12个后不再降低）
 			SummonMulticlass: 当你使用其他职业的武器攻击时，召唤伤害降低（在撒旦军队中除外）
 			ShadowDodge: 永恒模式：闪避会降低你的攻击速度
@@ -1045,7 +1046,7 @@ Mods: {
 			CobaltNaginataRework: 击中敌人会造成小范围爆炸
 			MythrilHalberdRework: 不攻击持续2秒后下一击造成三倍伤害
 			OrichalcumHalberdRework: 挥舞时矛的顶端会释放花瓣
-			// SuperStarCannon: Decreased maximum pierce to 7
+			SuperStarCannon: 最大穿透次数降低为7次
 		}
 
 		EternityMode: {
@@ -1866,12 +1867,12 @@ Mods: {
 			Shadwoflame.Description: 流失生命
 
 			CorruptedBuff: {
-				// DisplayName: Corrupted Buff
+				DisplayName: 腐化增益
 				// Description: Mods.FargowiltasSouls.Buffs.CorruptedBuff.Description
 			}
 
 			CorruptedBuffForce: {
-				// DisplayName: Corrupted Buff Force
+				DisplayName: 腐化之力
 				// Description: Mods.FargowiltasSouls.Buffs.CorruptedBuffForce.Description
 			}
 
@@ -1881,18 +1882,18 @@ Mods: {
 			}
 
 			GladiatorBuff: {
-				// DisplayName: Gladiator Strength
-				// Description: +10 defense, +5% damage, knockback immunity, improved spear rain
+				DisplayName: 角斗士之力
+				// Description: +10防御，+5%伤害，免疫击退，增强长矛雨
 			}
 
 			ROBBuff: {
-				// Description: ""
-				// DisplayName: R.O.B
+				Description: ""
+				DisplayName: R.O.B
 			}
 
 			RainCDBuff: {
-				// DisplayName: Rain Umbrella Cooldown
-				// Description: Your umbrella isn't ready yet
+				DisplayName: 雨云冷却
+				Description: 你的雨伞还没准备好
 			}
 		}
 
@@ -1960,15 +1961,14 @@ Mods: {
 			}
 
 			AshWoodEnchant: {
-				// DisplayName: Ash Wood Enchantment
-				/* Tooltip:
+				DisplayName: 灰烬木魔石
+				Tooltip:
 					'''
-					Fire debuffs don't damage you
-					Above effect works for town NPCs while equipped or in your inventory
-					While you're burning, attacks are accompanied by balls of fire
-					Grants immunity to Oiled
-					Reduces damage from touching lava
-					''' */
+					“着火了！”减益不再伤害你与城镇NPC
+					对npc生效的效果放在背包中也可生效
+					当玩家身上有“着火了！”减益时，攻击会附带有火球
+					降低岩浆的接触伤害
+					'''
 			}
 
 			BeeEnchant: {
@@ -2915,29 +2915,28 @@ Mods: {
 			}
 
 			BionomicClusterInactive: {
-				// DisplayName: Bionomic Cluster (Inactive)
-				/* Tooltip:
+				DisplayName: 生态球（未启用）
+				Tooltip:
 					'''
-					Grants immunity to Frostburn, Shadowflame, and Squeaky Toy
-					Grants immunity to Flames of the Universe, Clipped Wings, Crippled, Webbed, and Purified
-					Grants immunity to Lovestruck, Stinky, Midas, and Hexed
-					Use to teleport to your last death point
-					Your attacks can inflict Clipped Wings and produce hearts
-					Attacks have a chance to squeak and deal 1 damage to you
-					While attacking, gain massively increased damage and shadowflame, but less move and defenses and attack speed bonuses
-					Summons a friendly rainbow slime
-					Certain enemies will drop potions when defeated
-					When attacking by manually clicking, increases non-summon damage by 30%
-					[c/00FFFF:Following effects work passively in vanity slots (right click to enable in inventory):]
-					    Grants immunity to Mighty Wind, Suffocation, Chilled, and Guilty
-					    You have improved night vision
-					    Automatically uses healing & mana potions when needed and increases pickup range for mana stars
-					    You respawn with more life and when no boss is alive, respawn faster
-					    Press the Frigid Spell key to cast Ice Rod
-					    Right click to zoom and drastically improves reforges
-					    Stabilizes gravity in space and in liquids
-					'The amalgamate born of a thousand common enemies'
-					''' */
+					免疫霜冻、暗影焰、吱吱响的玩具减益
+					免疫宇宙之火、折翼、跛足、被网住和净化减益
+					免疫热恋、恶臭、迈达斯和着魔减益
+					使用以传送到你上一次死亡的地点
+					攻击会造成折翼减益，并生成红心
+					你受到伤害时有几率发出吱吱声，并使这次受到的伤害降至1点
+					攻击时获得120%伤害加成并释放暗影焰触手，但降低20%伤害减免且大幅降低移动速度，受到的攻速加成更少
+					召唤一只友好的彩虹史莱姆
+					某些敌人在死亡时会掉落药水
+					手动点击攻击时，增加30%非召唤伤害
+					[c/00FFFF:当该饰品放在背包中或时装栏时，下列效果也会生效（右键点击以启用）：]
+					    免疫强风、窒息、冷冻减益
+					    获得夜视效果，需要时自动使用治疗和魔力药水
+					    你会以满生命值重生，没有Boss在场时加快重生速度
+					    按下“寒霜咒语”键放置冰雪魔杖之冰
+					    右键可改变视野范围，减少50%重铸价格
+					    在太空和液体中恢复正常重力作用
+					“由上千普通敌人融合而成”
+					'''
 			}
 
 			CelestialRune: {
@@ -3051,15 +3050,15 @@ Mods: {
 			}
 
 			FrigidGemstoneInactive: {
-				// DisplayName: Frigid Gemstone (Inactive)
-				/* Tooltip:
+				DisplayName: 寒玉 (未启用)
+				Tooltip:
 					'''
-					Currently inactive, Right click to activate
-					Grants immunity to Frostburn and Chilled
-					Press the Frigid Spell key to cast Ice Rod
-					Your ice blocks inflict Frostburn
-					'A shard of ancient magical ice'
-					''' */
+					当前未启用，右键点击以启用
+					免疫霜冻和冷冻减益
+					按下“寒霜咒语”键放置冰雪魔杖之冰
+					你的冰块会造成霜冻减益
+					“一块古老的魔法冰碎片”
+					'''
 			}
 
 			FusedLens: {
@@ -3242,16 +3241,16 @@ Mods: {
 			}
 
 			MysticSkullInactive: {
-				// DisplayName: Mystic Skull (Inactive)
-				/* Tooltip:
+				DisplayName: 神秘头骨（未启用）
+				Tooltip:
 					'''
-					Currently inactive, Right click to activate
-					Grants immunity to Suffocation
-					10% reduced magic damage
-					Automatically use mana potions when needed
-					Increases pickup range for mana stars
-					'The quietly muttering head of a defeated foe'
-					''' */
+					当前未启用，右键点击以启用
+					免疫窒息减益
+					魔法伤害降低10%
+					需要时自动使用魔力药水
+					扩大魔力星的拾取范围
+					“被打败敌人的喃喃自语的脑袋”
+					'''
 			}
 
 			NecromanticBrew: {
@@ -4170,12 +4169,12 @@ Mods: {
 			}
 
 			HokeyBall: {
-				// DisplayName: Hokey Ball
-				/* Tooltip:
+				DisplayName: 精灵球
+				Tooltip:
 					'''
-					Summons Nibble
-					'Show Nibble'
-					''' */
+					召唤圆陆鲨
+					“看！圆陆鲨”
+					'''
 			}
 
 			AbomRelic: {
@@ -4862,8 +4861,8 @@ Mods: {
 			PinkEskimoEnchant.DisplayName: 粉爱斯基摩魔石
 
 			LifelightBag: {
-				// DisplayName: Treasure Bag
-				// Tooltip: Right click to open
+				DisplayName: 宝藏袋（飘渺游光）
+				Tooltip: 右键点击可打开
 			}
 
 			LifelightMasterPet: {
@@ -4911,12 +4910,12 @@ Mods: {
 			}
 
 			LifelightRelic: {
-				// DisplayName: Lifelight Relic
+				DisplayName: 飘渺游光圣物
 				// Tooltip: ""
 			}
 
 			LifelightTrophy: {
-				// DisplayName: Lifelight Trophy
+				DisplayName: 飘渺游光纪念章
 				// Tooltip: ""
 			}
 
@@ -4957,125 +4956,126 @@ Mods: {
 			// MostlyOrdinaryrock.Tooltip: Mods.FargowiltasSouls.ItemTooltip.MostlyOrdinaryrock
 
 			WiresPainting: {
-				// DisplayName: Wires Painting
-				// Tooltip: Look inside
+				DisplayName: Wires猫绘画
+				Tooltip: 看那边！
 			}
 
 			PrismaRegalia: {
-				// DisplayName: Prisma Regalia
-				/* Tooltip:
+				DisplayName: 晶霞华枪
+				Tooltip:
 					'''
-					Hitting with the tip of the spear releases homing stars
-					Hold to charge for more damage
-					While fully charged, all hits release additional stars
-					'The radiant power of a foe's pure essence...'
-					''' */
+					长矛顶端击中敌人会释放追踪之星
+					长按左键蓄力以造成更多伤害
+					蓄力完成后，顶端击中会释放两倍数量的追踪之星
+					“一个敌人的纯粹精华，淬炼出的辐辉之力……”
+					'''
 			}
 
 			MechLure: {
-				// DisplayName: Mechanical Lure
-				// Tooltip: Throw underwater at the Ocean to lure out a shrouded creature
+				DisplayName: 机械鱼饵
+				Tooltip: 在海洋区域的水下环境中使用以引诱一个被遗忘的生物
 			}
 
 			TheBaronsTusk: {
-				// DisplayName: The Baron's Tusk
-				/* Tooltip:
+				DisplayName: 遗爵獠牙
+				Tooltip:
 					'''
-					Swings emit flying shrapnel, that can embed in enemies
-					Hitting enemies that have more than 15 embedded shrapnel with the tusk rips it out
-					The rip deals a large chunk of damage and is guaranteed to critically strike
-					Shrapnel is also ripped out when the enemy dies
-					''' */
+					挥舞武器会发射弹片，弹片可扎在敌人身上
+					用剑身击中嵌入的弹片超过15个的敌人时会将其撕裂
+					撕裂会造成大量伤害，并必定暴击
+					当敌人死亡时，其身上的弹片也会消失
+					'''
 			}
 
 			NavalRustrifle: {
-				// DisplayName: Naval Rustrifle
-				/* Tooltip:
+				DisplayName: 锈蚀海军步枪
+				Tooltip: 
 					'''
-					Manually reload after each shot
-					Time the reload correctly to empower your next shot
-					Empowered shots deal double damage and are guaranteed to critically strike
-					''' */
+					每次射击后需要手动重新装填弹药
+					在正确的时机装弹能加强下一次射击
+					被加强的射击将射出特殊子弹，造成双倍伤害并必定暴击
+					'''
 			}
 
 			DecrepitAirstrikeRemote: {
-				// DisplayName: Decrepit Airstrike Remote
-				/* Tooltip:
+				DisplayName: 老旧空袭装置
+				Tooltip: 
 					'''
-					Marks a location with a reticle, consuming all your sentry slots
-					In a few seconds, a massive airstrike explosion will hit it, dealing damage depending on sentry slots consumed
-					All your minions hit by the explosion are blown up into homing splinters
-					Splinters can critically strike
-					''' */
+					消耗所有的哨兵栏位标记光标处
+					几秒后，标记处将会被巨大的空袭爆炸击中
+					爆炸根据消耗的哨兵栏位数量对周围造成伤害
+					所有被爆炸击中的召唤物都会被炸成碎片
+					碎片会自动追踪敌人且可以造成暴击
+					'''	
 			}
 
 			BanishedBaronBag: {
-				// DisplayName: Treasure Bag
-				// Tooltip: Right click to open
+				DisplayName: 宝藏袋（放逐遗爵）
+				Tooltip: 右键点击可打开
 			}
 
 			RustedOxygenTank: {
-				// DisplayName: Rusted Oxygen Tank
-				/* Tooltip:
+				DisplayName: 锈蚀氧气罐
+				Tooltip:
 					'''
-					Works from your inventory
-					Right click to disable
-					You count as wet outside water
-					Grants floaty water movement outside of liquid
-					Increased movement speed while in any liquid
-					'Nobody knows how it works'
-					''' */
+					放置在背包中即可生效
+					不接触水时也会被视为潮湿状态
+					在液体外时也会像在液体中一样移动
+					增加在液体中的移速
+					右键点击以禁用
+					“无人知晓它是如何运作的”
+					'''
 			}
 
 			RoseTintedVisor: {
-				// DisplayName: Rose Tinted Visor
-				/* Tooltip:
+				DisplayName: 玫瑰激光镜
+				Tooltip: 
 					'''
-					Fires up to 6 lasers on release, depending on charge time
-					Has extra critical strike chance depending on lasers charged, up to 100%
-					''' */
+					根据蓄力时间释放出激光，最多释放出六道激光
+					根据蓄力时间获得额外的暴击率，最高可达100%
+					'''
 			}
 
 			BaronTrophy: {
-				// DisplayName: Banished Baron Trophy
-				// Tooltip: ""
+				DisplayName: 放逐遗爵纪念章
+				//Tooltip: ""
 			}
 
 			BaronRelic: {
-				// Tooltip: ""
-				// DisplayName: Banished Baron Relic
+				DisplayName: 放逐遗爵圣物
+				//Tooltip: ""
 			}
 
 			HiveStaff: {
-				// DisplayName: Hive Staff
-				// Tooltip: "'The enslaved minions of a defeated foe..'"
+				DisplayName: 蜂巢法杖
+				Tooltip: “被击败敌人的仆从...”
 			}
 
 			ROBGyro: {
-				// DisplayName: Sentient Gyro
-				/* Tooltip:
+				DisplayName: R.O.B陀螺仪
+				Tooltip:
 					'''
-					'Has a mind of its own'
-					Summons a powerful robot that doesn't fight
-					''' */
+					召唤一个不会战斗的强大机器人
+					“有它自己的思想”
+					'''
 			}
 
 			EulogistsDoomsdayScenario: {
-				// DisplayName: Eulogist's Doomsday Scenario
-				// Tooltip: Blow up a small area around you, killing all town npcs and yourself
+				DisplayName: 末日设想
+				Tooltip: 立刻摧毁周围一片区域的所有方块，并杀死区域内的城镇NPC和玩家自己
 			}
 
 			RustedOxygenTankInactive: {
-				// DisplayName: Rusted Oxygen Tank (Inactive)
-				/* Tooltip:
+				DisplayName: 锈蚀氧气罐（未启用）
+				Tooltip:
 					'''
-					Works from your inventory
-					Currently inactive, Right click to reactivate
-					You count as wet outside water
-					Grants floaty water movement outside of liquid
-					Increased movement speed while in any liquid
-					'Nobody knows how it works'
-					''' */
+					放置在背包中即可生效
+					不接触水时也会被视为潮湿状态
+					在液体外时也会像在液体中一样移动
+					增加在液体中的移速
+					当前未启用，右键点击以启用
+					“无人知晓它是如何运作的”
+					'''
 			}
 		}
 
@@ -5258,7 +5258,7 @@ Mods: {
 			}
 
 			BanishedBaron: {
-				// DisplayName: Banished Baron
+				DisplayName: 放逐遗爵
 
 				BossChecklistIntegration: {
 					// EntryName: "{$Mods.FargowiltasSouls.NPCs.BanishedBaron.DisplayName}"
@@ -6400,8 +6400,8 @@ Mods: {
 				}
 
 				DisplayTogglesRegardless: {
-					// Label: Display Soul Toggles Always
-					// Tooltip: Disable to only show soul toggles when you have the effect's accessory equipped. Enable to always show them.
+					Label: 始终显示魂石饰品效果开关
+					Tooltip: 禁用后仅会在玩家装备了对应饰品后才可开关饰品效果，启用后总是会显示所有饰品效果开关
 				}
 			}
 		}
