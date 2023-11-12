@@ -16,8 +16,8 @@ namespace FargoChinese.Patch
 
         protected virtual bool LoadWithFargoSouls => false;
 
-        public override bool IsLoadingEnabled(Mod mod) =>
-            LoadWithFargoSouls ? ModLoader.TryGetMod("FargowiltasSouls", out _) : base.IsLoadingEnabled(mod);
+        public override bool IsLoadingEnabled(Mod mod) => false;
+            //LoadWithFargoSouls ? ModLoader.TryGetMod("FargowiltasSouls", out _) : base.IsLoadingEnabled(mod);
 
         private List<Hook> _onHooks;
         private List<ILHook> _ilHooks;
