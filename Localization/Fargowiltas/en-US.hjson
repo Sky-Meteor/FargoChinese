@@ -109,62 +109,213 @@ Mods: {
 			}
 		}
 
-		Config: {
-			CanSpawn: Can Spawn
-			TownNPCsHeader: Town NPCs
-			CatchNPCs: "[i:267] Catch Town NPCs"
-			NPCSales: "[i:267] Extra Town NPC sales"
-			SaferBoundNPCs: "[i:1274] Rescuable Town NPCs take no contact damage"
-			SeasonsHeader: Seasons
-			Halloween: "[i:1774] Halloween Season"
-			Christmas: "[i:1869] Christmas Season"
-			SeedsHeader: Secret World Seeds
-			DrunkWorld: "[i:353] Drunk World"
-			BeeWorld: "[i:1133] Bee World"
-			WorthyWorld: "[i:2107] For the Worthy World"
-			CelebrationWorld: "[i:3732] Celebration World"
-			ConstantWorld: "[i:5109] Constant World"
-			UnlimitedHeader: Unlimited
-			UnlimitedAmmo: "[i:771] Unlimited Ammo at 3996+ in Hardmode"
-			UnlimitedConsumableWeapons: "[i:42] Unlimited Consumable Weapons at 3996+ in Hardmode"
-			UnlimitedPotionBuffsOn120: "[i:292] Unlimited Buffs when carried in certain stacks"
-			UnlimitedPotionBuffsOn120Tooltip: 30+ for potions, 3+ for class stations (e.g. Sharpening Table) and Slice of Cake
-			MiscHeader: Miscellaneous
-			ExtraBuffSlots: "[i:3000] Additional Buff Slots"
-			ExpandedTooltips: "[i:171] More tooltips indicate Mutant Mod changes"
-			AnglerQuestInstantReset: "[i:2374] Angler Quest Instant Reset"
-			ExtraLures: "[i:2373] Extra Lures on Fishing Rods"
-			StalkerMoneyTrough: "[i:3213] Stalker Money Trough"
-			RottenEggs: "[i:1809] Powerful Rotten Eggs"
-			BannerRecipes: "[i:1683] Banner Recipes"
-			IncreaseMaxStack: "[i:2] Increased Max Stacks"
-			ExtractSpeed: "[i:997] Increased Extractinator Speed"
-			Fountains: "[i:909] Fountains Cause Biomes"
-			BossZen: "[i:3117] No enemies spawn during boss fights"
-			PiggyBankAcc: "[i:87] Informational and Construction Accessories work in Piggy Bank"
-			FasterLavaFishing: "[i:4881] Faster Fishing in Lava"
-			TorchGodEX: "[i:5043] Torch God's Favor Automatically Swaps Placed Torches"
-			TorchGodEXTooltip: Obeys true torch luck, which may differ from Torch God's Favor
-			DebuffOpacity: "[i:1612] Debuff Display Max Opacity"
-			DebuffFaderRatio: "[i:1612] Debuff Duration Fader Strength"
-			TransparentFriendlyProjectiles: "[i:1309] Transparent Friendly Projectiles"
-			TransparentFriendlyProjectilesTooltip: Use with vanilla setting for Quality at Medium or Low for best results
-			Mutant: "[i:Fargowiltas/MutantMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Mutant.DisplayName} {$Mods.Fargowiltas.Config.CanSpawn}]"
-			Abom: "[i:Fargowiltas/AbominationnMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Abominationn.DisplayName} {$Mods.Fargowiltas.Config.CanSpawn}]"
-			Devi: "[i:Fargowiltas/DevianttMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Deviantt.DisplayName} {$Mods.Fargowiltas.Config.CanSpawn}]"
-			Lumber: "[i:Fargowiltas/LumberjackMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.LumberJack.DisplayName} {$Mods.Fargowiltas.Config.CanSpawn}]"
-			Squirrel: "[i:239] [c/ffffff:{$Mods.Fargowiltas.NPCs.Squirrel.DisplayName} {$Mods.Fargowiltas.Config.CanSpawn}]"
+		Configs: {
+			FargoServerConfig: {
+				DisplayName: Server Config
+
+				Mutant: {
+					Label: "[i:Fargowiltas/MutantMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Mutant.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+					Tooltip: ""
+				}
+
+				Abom: {
+					Label: "[i:Fargowiltas/AbominationnMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Abominationn.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+					Tooltip: ""
+				}
+
+				Devi: {
+					Label: "[i:Fargowiltas/DevianttMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Deviantt.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+					Tooltip: ""
+				}
+
+				Lumber: {
+					Label: "[i:Fargowiltas/LumberjackMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.LumberJack.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+					Tooltip: ""
+				}
+
+				Squirrel: {
+					Label: "[i:239] [c/ffffff:{$Mods.Fargowiltas.NPCs.Squirrel.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+					Tooltip: ""
+				}
+
+				CatchNPCs: {
+					Label: "[i:267] Catch Town NPCs"
+					Tooltip: ""
+				}
+
+				NPCSales: {
+					Label: "[i:267] Extra Town NPC sales"
+					Tooltip: ""
+				}
+
+				SaferBoundNPCs: {
+					Label: "[i:1274] Rescuable Town NPCs take no contact damage"
+					Tooltip: ""
+				}
+
+				Halloween: {
+					Label: "[i:1774] Halloween Season"
+					Tooltip: ""
+				}
+
+				Christmas: {
+					Label: "[i:1869] Christmas Season"
+					Tooltip: ""
+				}
+
+				DrunkWorld: {
+					Label: "[i:353] Drunk World"
+					Tooltip: ""
+				}
+
+				BeeWorld: {
+					Label: "[i:1133] Bee World"
+					Tooltip: ""
+				}
+
+				WorthyWorld: {
+					Label: "[i:2107] For the Worthy World"
+					Tooltip: ""
+				}
+
+				CelebrationWorld: {
+					Label: "[i:3732] Celebration World"
+					Tooltip: ""
+				}
+
+				ConstantWorld: {
+					Label: "[i:5109] Constant World"
+					Tooltip: ""
+				}
+
+				UnlimitedAmmo: {
+					Label: "[i:771] Unlimited Ammo at 3996+ in Hardmode"
+					Tooltip: ""
+				}
+
+				UnlimitedConsumableWeapons: {
+					Label: "[i:42] Unlimited Consumable Weapons at 3996+ in Hardmode"
+					Tooltip: ""
+				}
+
+				UnlimitedPotionBuffsOn120: {
+					Label: "[i:292] Unlimited Buffs and Bait when carried in certain stacks"
+					Tooltip: 30+ for potions and bait
+				}
+
+				ExtraBuffSlots: {
+					Label: "[i:3000] Additional Buff Slots"
+					Tooltip: ""
+				}
+
+				AnglerQuestInstantReset: {
+					Label: "[i:2374] Angler Quest Instant Reset"
+					Tooltip: ""
+				}
+
+				ExtraLures: {
+					Label: "[i:2373] Extra Lures on Fishing Rods"
+					Tooltip: ""
+				}
+
+				StalkerMoneyTrough: {
+					Label: "[i:3213] Stalker Money Trough"
+					Tooltip: ""
+				}
+
+				RottenEggs: {
+					Label: "[i:1809] Powerful Rotten Eggs"
+					Tooltip: ""
+				}
+
+				BannerRecipes: {
+					Label: "[i:1683] Banner Recipes"
+					Tooltip: ""
+				}
+
+				IncreaseMaxStack: {
+					Label: "[i:2] Increased Max Stacks"
+					Tooltip: ""
+				}
+
+				ExtractSpeed: {
+					Label: "[i:997] Increased Extractinator Speed"
+					Tooltip: ""
+				}
+
+				Fountains: {
+					Label: "[i:909] Fountains Cause Biomes"
+					Tooltip: ""
+				}
+
+				BossZen: {
+					Label: "[i:3117] No enemies spawn during boss fights"
+					Tooltip: ""
+				}
+
+				PiggyBankAcc: {
+					Label: "[i:87] Informational and Construction Accessories work in Piggy Bank"
+					Tooltip: ""
+				}
+
+				FasterLavaFishing: {
+					Label: "[i:4881] Faster Fishing in Lava"
+					Tooltip: ""
+				}
+
+				TorchGodEX: {
+					Label: "[i:5043] Torch God's Favor Automatically Swaps Placed Torches"
+					Tooltip: Obeys true torch luck, which may differ from Torch God's Favor
+				}
+
+				Headers: {
+					TownNPCs: Town NPCs
+					Seasons: Seasons
+					Seeds: Seeds
+					Unlimited: Unlimited
+					Misc: Miscellaneous
+				}
+			}
+
+			FargoClientConfig: {
+				DisplayName: Client Config
+
+				ExpandedTooltips: {
+					Label: "[i:171] More tooltips indicate Mutant Mod changes"
+					Tooltip: ""
+				}
+
+				DebuffOpacity: {
+					Label: "[i:1612] Debuff Display Max Opacity"
+					Tooltip: ""
+				}
+
+				DebuffFaderRatio: {
+					Label: "[i:1612] Debuff Duration Fader Strength"
+					Tooltip: ""
+				}
+
+				TransparentFriendlyProjectiles: {
+					Label: "[i:1309] Transparent Friendly Projectiles"
+					Tooltip: Use with vanilla setting for Quality at Medium or Low for best results
+				}
+			}
+
+			SeasonSelections: {
+				Tooltip: ""
+				Normal.Label: Normal
+				AlwaysOn.Label: Always On
+				AlwaysOff.Label: Always Off
+			}
+
+			Common.CanSpawn: Can Spawn
 		}
 
 		RecipeGroups: {
 			EvilWood: Evil Wood
 			CommonFish: Common Fish
-			Dragonfly: Dragonfly
-			Butterfly: Butterfly
 			CaughtNPC: Caught Town NPC
-			Banner: Banner
-			ArmoredBones: Armored Bones Banner
-			PirateBanner: Pirate Banner
+			ArmoredBonesBanner: Armored Bones Banner
 		}
 
 		MessageInfo: {
@@ -437,7 +588,11 @@ Mods: {
 
 			AltarExterminator: {
 				DisplayName: Altar Exterminator
-				Tooltip: Destroys all natural Demon Altars and Crimson Altars
+				Tooltip:
+					'''
+					Destroys all natural Demon Altars and Crimson Altars
+					'Also known as the Wraithmaker 200'
+					'''
 			}
 
 			AutoHouse: {
@@ -575,8 +730,9 @@ Mods: {
 				DisplayName: Death Fruit
 				Tooltip:
 					'''
-					Permanently decreases maximum life by 20
-					Effects may not be reversible for characters that have used modded life-increasing items
+					Left click to decrease the amount of Life Crystals, or Life Fruit if you have any, by 1
+					If both are 0, decreases base maximum health by 20, down to a minimum of 1
+					Right click to reverse 1 use of the latter effect
 					'''
 			}
 
@@ -679,6 +835,36 @@ Mods: {
 			PurityRenewalSupreme: {
 				DisplayName: Purity Renewal Supreme
 				Tooltip: Cleanses the entire world
+			}
+
+			SnowRenewal: {
+				DisplayName: Snow Renewal
+				Tooltip: Snows a large radius
+			}
+
+			SnowRenewalSupreme: {
+				DisplayName: Snow Renewal Supreme
+				Tooltip: Snows the entire world
+			}
+
+			SandRenewal: {
+				DisplayName: Desert Renewal
+				Tooltip: Sands a large radius
+			}
+
+			SandRenewalSupreme: {
+				DisplayName: Desert Renewal Supreme
+				Tooltip: Sands the entire world
+			}
+
+			DirtRenewal: {
+				DisplayName: Forest Renewal
+				Tooltip: Dirts a large radius
+			}
+
+			DirtRenewalSupreme: {
+				DisplayName: Forest Renewal Supreme
+				Tooltip: Dirts the entire world
 			}
 
 			Abeemination2: {
@@ -1159,7 +1345,11 @@ Mods: {
 
 			MutantVoodoo: {
 				DisplayName: Mutant Voodoo Doll
-				Tooltip: Summons ALL the bosses
+				Tooltip:
+					'''
+					Summons ALL the bosses
+					Can only be used at night
+					'''
 			}
 
 			PlanterasFruit: {
@@ -2085,6 +2275,75 @@ Mods: {
 					Prevents tombstones from forming Graveyards
 					'''
 			}
+
+			HoneyRocketBox: {
+				Tooltip: ""
+				DisplayName: Endless Honey Rocket Box
+			}
+
+			DryRocketBox: {
+				Tooltip: ""
+				DisplayName: Endless Dry Rocket Box
+			}
+
+			ClusterRocket2Box: {
+				Tooltip: ""
+				DisplayName: Endless Cluster Rocket II Box
+			}
+
+			ClusterRocket1Box: {
+				Tooltip: ""
+				DisplayName: Endless Cluster Rocket I Box
+			}
+
+			LavaRocketBox: {
+				DisplayName: Endless Lava Rocket Box
+				Tooltip: ""
+			}
+
+			MiniNuke1Box: {
+				DisplayName: Endless Mini Nuke I Box
+				Tooltip: ""
+			}
+
+			MiniNuke2Box: {
+				DisplayName: Endless Mini Nuke II Box
+				Tooltip: ""
+			}
+
+			Rocket1Box: {
+				DisplayName: Endless Rocket I Box
+				Tooltip: ""
+			}
+
+			Rocket2Box: {
+				DisplayName: Endless Rocket II Box
+				Tooltip: ""
+			}
+
+			Rocket3Box: {
+				DisplayName: Endless Rocket III Box
+				Tooltip: ""
+			}
+
+			Rocket4Box: {
+				DisplayName: Endless Rocket IV Box
+				Tooltip: ""
+			}
+
+			WetRocketBox: {
+				DisplayName: Endless Wet Rocket Box
+				Tooltip: ""
+			}
+
+			InstaPond: {
+				DisplayName: Instalake
+				Tooltip:
+					'''
+					Drops a bomb that creates a 150x50 body of water below it
+					Do not use if any important building is below
+					'''
+			}
 		}
 
 		NPCs: {
@@ -2101,6 +2360,7 @@ Mods: {
 					LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LoveBiome}"
 					LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LikeBiome}"
 					DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.DislikeBiome}"
+					HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.HateBiome}"
 					LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LoveNPC}"
 					LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LikeNPC}"
 					HateNPC: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.HateNPC}"
@@ -2143,6 +2403,7 @@ Mods: {
 					DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.DislikeCrowded}"
 					HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateCrowded}"
 					LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LoveBiome}"
+					HateBiome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateBiome}"
 					LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LikeNPC}"
 					DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.DislikeNPC}"
 					HateNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateNPC}"
@@ -2164,6 +2425,7 @@ Mods: {
 					LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveBiome}"
 					LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeBiome}"
 					DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeBiome}"
+					HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.HateBiome}"
 					LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveNPC}"
 					LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeNPC}"
 					DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeNPC}"
@@ -2230,6 +2492,14 @@ Mods: {
 			PurityNukeSupremeProj.DisplayName: PurityRenewalSupreme
 			SpawnProj.DisplayName: Spawn
 			SemiBridgifierProj.DisplayName: Semi-Bridgifier
+			DirtNukeProj.DisplayName: DirtRenewal
+			DirtNukeSupremeProj.DisplayName: DirtRenewalSupreme
+			SandNukeProj.DisplayName: SandRenewal
+			SandNukeSupremeProj.DisplayName: SandRenewalSupreme
+			SnowNukeProj.DisplayName: SnowRenewal
+			SnowNukeSupremeProj.DisplayName: SnowRenewalSupreme
+			WorldTokenProj.DisplayName: World Token Proj
+			InstaPondProj.DisplayName: Insta Pond Proj
 		}
 
 		Tiles: {
@@ -2243,7 +2513,7 @@ Mods: {
 			OmnistationSheet2.MapEntry: Omnistation
 			RegalStatueSheet.MapEntry: Regal Statue
 			SemistationSheet.MapEntry: Semistation
-			SiblingPylonTile.MapEntry: Mods.Fargowiltas.MapObject.SiblingPylonTile
+			SiblingPylonTile.MapEntry: Sibling Pylon
 			PurityTotemSheet.MapEntry: Purity Totem
 		}
 
@@ -2293,198 +2563,8 @@ Mods: {
 			SiblingPylon: Mods.Fargowiltas.Conditions.SiblingPylon
 		}
 
-		Configs: {
-			FargoConfig: {
-				DisplayName: Fargo Config
-
-				Mutant: {
-					Label: "{$Mods.Fargowiltas.Config.Mutant}"
-					Tooltip: ""
-				}
-
-				Abom: {
-					Label: "{$Mods.Fargowiltas.Config.Abom}"
-					Tooltip: ""
-				}
-
-				Devi: {
-					Label: "{$Mods.Fargowiltas.Config.Devi}"
-					Tooltip: ""
-				}
-
-				Lumber: {
-					Label: "{$Mods.Fargowiltas.Config.Lumber}"
-					Tooltip: ""
-				}
-
-				Squirrel: {
-					Label: "{$Mods.Fargowiltas.Config.Squirrel}"
-					Tooltip: ""
-				}
-
-				CatchNPCs: {
-					Label: "{$Mods.Fargowiltas.Config.CatchNPCs}"
-					Tooltip: ""
-				}
-
-				NPCSales: {
-					Label: "{$Mods.Fargowiltas.Config.NPCSales}"
-					Tooltip: ""
-				}
-
-				SaferBoundNPCs: {
-					Label: "{$Mods.Fargowiltas.Config.SaferBoundNPCs}"
-					Tooltip: ""
-				}
-
-				Halloween: {
-					Label: "{$Mods.Fargowiltas.Config.Halloween}"
-					Tooltip: ""
-				}
-
-				Christmas: {
-					Label: "{$Mods.Fargowiltas.Config.Christmas}"
-					Tooltip: ""
-				}
-
-				DrunkWorld: {
-					Label: "{$Mods.Fargowiltas.Config.DrunkWorld}"
-					Tooltip: ""
-				}
-
-				BeeWorld: {
-					Label: "{$Mods.Fargowiltas.Config.BeeWorld}"
-					Tooltip: ""
-				}
-
-				WorthyWorld: {
-					Label: "{$Mods.Fargowiltas.Config.WorthyWorld}"
-					Tooltip: ""
-				}
-
-				CelebrationWorld: {
-					Label: "{$Mods.Fargowiltas.Config.CelebrationWorld}"
-					Tooltip: ""
-				}
-
-				ConstantWorld: {
-					Label: "{$Mods.Fargowiltas.Config.ConstantWorld}"
-					Tooltip: ""
-				}
-
-				UnlimitedAmmo: {
-					Label: "{$Mods.Fargowiltas.Config.UnlimitedAmmo}"
-					Tooltip: ""
-				}
-
-				UnlimitedConsumableWeapons: {
-					Label: "{$Mods.Fargowiltas.Config.UnlimitedConsumableWeapons}"
-					Tooltip: ""
-				}
-
-				UnlimitedPotionBuffsOn120: {
-					Label: "{$Mods.Fargowiltas.Config.UnlimitedPotionBuffsOn120}"
-					Tooltip: "{$Mods.Fargowiltas.Config.UnlimitedPotionBuffsOn120Tooltip}"
-				}
-
-				ExtraBuffSlots: {
-					Label: "{$Mods.Fargowiltas.Config.ExtraBuffSlots}"
-					Tooltip: ""
-				}
-
-				ExpandedTooltips: {
-					Label: "{$Mods.Fargowiltas.Config.ExpandedTooltips}"
-					Tooltip: ""
-				}
-
-				AnglerQuestInstantReset: {
-					Label: "{$Mods.Fargowiltas.Config.AnglerQuestInstantReset}"
-					Tooltip: ""
-				}
-
-				ExtraLures: {
-					Label: "{$Mods.Fargowiltas.Config.ExtraLures}"
-					Tooltip: ""
-				}
-
-				StalkerMoneyTrough: {
-					Label: "{$Mods.Fargowiltas.Config.StalkerMoneyTrough}"
-					Tooltip: ""
-				}
-
-				RottenEggs: {
-					Label: "{$Mods.Fargowiltas.Config.RottenEggs}"
-					Tooltip: ""
-				}
-
-				BannerRecipes: {
-					Label: "{$Mods.Fargowiltas.Config.BannerRecipes}"
-					Tooltip: ""
-				}
-
-				IncreaseMaxStack: {
-					Label: "{$Mods.Fargowiltas.Config.IncreaseMaxStack}"
-					Tooltip: ""
-				}
-
-				ExtractSpeed: {
-					Label: "{$Mods.Fargowiltas.Config.ExtractSpeed}"
-					Tooltip: ""
-				}
-
-				Fountains: {
-					Label: "{$Mods.Fargowiltas.Config.Fountains}"
-					Tooltip: ""
-				}
-
-				BossZen: {
-					Label: "{$Mods.Fargowiltas.Config.BossZen}"
-					Tooltip: ""
-				}
-
-				PiggyBankAcc: {
-					Label: "{$Mods.Fargowiltas.Config.PiggyBankAcc}"
-					Tooltip: ""
-				}
-
-				FasterLavaFishing: {
-					Label: "{$Mods.Fargowiltas.Config.FasterLavaFishing}"
-					Tooltip: ""
-				}
-
-				TorchGodEX: {
-					Label: "{$Mods.Fargowiltas.Config.TorchGodEX}"
-					Tooltip: "{$Mods.Fargowiltas.Config.TorchGodEXTooltip}"
-				}
-
-				DebuffOpacity: {
-					Label: "{$Mods.Fargowiltas.Config.DebuffOpacity}"
-					Tooltip: ""
-				}
-
-				DebuffFaderRatio: {
-					Label: "{$Mods.Fargowiltas.Config.DebuffFaderRatio}"
-					Tooltip: ""
-				}
-
-				TransparentFriendlyProjectiles: {
-					Label: "{$Mods.Fargowiltas.Config.TransparentFriendlyProjectiles}"
-					Tooltip: "{$Mods.Fargowiltas.Config.TransparentFriendlyProjectilesTooltip}"
-				}
-			}
-
-			SeasonSelections: {
-				Tooltip: ""
-				Normal.Label: Normal
-				AlwaysOn.Label: Always On
-				AlwaysOff.Label: Always Off
-			}
-		}
-
 		Keybinds: {
 			"Quick Recall/Mirror.DisplayName": Quick Recall/Mirror
-			"Quick Rod of Discord.DisplayName": Quick Rod of Discord
-			"Quick Use Custom (Bottom Left Inventory Slot).DisplayName": Custom Quickuse (Bottom Left Inventory Slot)
 			"Open Stat Sheet.DisplayName": Open Stat Sheet
 		}
 	}

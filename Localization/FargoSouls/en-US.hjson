@@ -9,63 +9,72 @@
 Mods: {
 	FargowiltasSouls: {
 		WizardEffect: {
-			Adamantite: Projectiles now split into 3
-			AncientHallow: ""
-			AncientShadow: ""
-			Angler: ""
-			Bee: ""
-			Beetle: ""
-			Boreal: Fires more snowballs more often
+			Adamantite: Projectiles now split into 3, further reduces damage accordingly
+			Apprentice: The next 2 weapons are used instead of 1
+			AncientHallow: Sword damage increased, projectile damage cap increased to 200
+			AncientShadow: Number of Shadow Orbs increased
+			AncientCobalt: No upgrade
+			Angler: No upgrade
+			Bee: Increased wing strength and bee swarm damage
+			Beetle: No upgrade
+			BorealWood: Fires more snowballs more often
 			Cactus: Number of needles and damage increased
-			Chlorophyte: ""
-			Cobalt: Explosion damage increased
+			Chlorophyte: Damage of ring and spores increased, cooldown of spores reduced
+			Cobalt: On-hit explosion damage increased
 			Copper: Lightning damage increased, cooldown reduced
-			Crimson: ""
-			CrystalAssassin: ""
-			DarkArtist: ""
-			Ebonwood: Damage threshold increased to 25, additonally kills any npcs with less than 200 HP
-			Forbidden: ""
-			Fossil: ""
-			Frost: ""
-			Gladiator: ""
-			Gold: ""
-			Hallow: ""
-			Iron: Increases item range by 4x, crafting bonus now affects Mythril Anvil
+			Crimson: No upgrade
+			CrystalAssassin: No upgrade
+			DarkArtist: The next 3 weapons are used instead of 2
+			Ebonwood: Aura size increased, defense reduction increased to 30
+			Forbidden: Damage boost increased from 30 to 60%
+			Fossil: Revive heal increased to 200 and revive bone count doubled
+			Frost: Icicle damage doubled
+			Gladiator: Increased banner aura size, decreased spear rain cooldown
+			Gold: No upgrade
+			Hallow: Potion heal bonus increased from 20 to 40%
+			Huntress: Armor penetration and flat damage increased to 10 and 5 respectively
+			Iron: Increases item range by 4x and chance not to consume to 50%
+			Jungle: Spore damage increased, cooldown decreased
 			Lead: Lead Poisoning damage increased, DoT resistance increased to 60%
-			Meteor: ""
-			Miner: ""
+			Meteor: A meteor shower initiates every few seconds while attacking
+			Miner: Increased mining speed
 			Molten: Inferno ring does more damage and can affect enemies in slightly larger range
+			Monk: No upgrade
 			Mythril: Max attack speed bonus increased and lasts longer
-			Nebula: ""
-			Necro: ""
-			Ninja: Armor pen increased to 45
-			Obsidian: You no longer need lava to spawn explosions, cooldown reduced
+			Nebula: Buff booster stack cap increased to 3
+			Necro: Graves float
+			Ninja: Maximum damage bonus increased to 30%, maximum player speed where effect activates increased
+			Obsidian: You no longer need lava to spawn explosions or fireballs, cooldown reduced
 			Orichalcum: Increases multiplier to 4x
 			Palladium: Rapid Healing always lasts 5 seconds, increases orb damage
-			PalmWood: Attack speed and damage increased, 2 more trees can be spawned
+			PalmWood: Attack speed and damage increased, another tree can be spawned
 			Pearlwood: Damage increased and cooldown reduced
-			Platinum: ""
-			Pumpkin: ""
-			Rain: ""
-			RedRiding: ""
+			Platinum: No upgrade
+			Pumpkin: Pumpkins can grow while flying, and heal for twice as much
+			Rain: Umbrella can block up to 1000 damage and reflected damage is tripled
+			RedRiding: Arrow rain has less cooldown and deals more damage
 			RichMahogany: Hooks pull 2.5x as fast, damage resistance and thorns increased greatly
 			Shadewood: Aura size and blood damage increased, additionally applies Ichor
-			Shinobi: ""
-			Shroomite: ""
+			Shinobi: No upgrade
+			Shroomite: Mushrooms are spawned more often
 			Silver: Parrying blocks up to 200 damage and grants the Striking Moment buff
-			Solar: ""
-			Spectre: ""
-			Spider: ""
-			Spooky: ""
-			Stardust: ""
-			Tiki: ""
+			Solar: No upgrade
+			Spectre: Decreased cooldown and always spawns healing orb
+			Spider: No upgrade
+			Spooky: Decreased cooldown
+			Stardust: Timestop cooldown decreased from 60 to 50
+			Snow: No upgrade
+			Shadow: Number of Shadow Orbs increased
+			Squire: Mount defense increased from 10 to 15, speed and acceleration from 1.25x to 1.5x, heal bonus from 25% to 33%
+			Tiki: Increases whip range by 20%
 			Tin: Minimum crit increased to 10%, max crit is at least 50%, reduced proc cooldown
 			Titanium: Shard damage increased, Titanium Shield duration increased to 5 seconds and damage resistance increased to 75%
-			Tungsten: Increased weapon size to 300%, bonus damage to 20%, cooldown reduced
-			Turtle: ""
-			ValhallaKnight: ""
-			Vortex: ""
+			Tungsten: Increased weapon size increase to 200%, bonus damage to 15%, cooldown reduced
+			Turtle: Occasionally recover a projectile block point, number of needles and damage increased
+			ValhallaKnight: Mount defense increased from 15 to 20, acceleration from 1.5x to 2x, and heal bonus from 33% to 50%
+			Vortex: No upgrade
 			Wood: Bestiary and banner multiplier increased to 5
+			AshWood: Fires balls of fire more often
 		}
 
 		SetBonus: {
@@ -125,7 +134,6 @@ Mods: {
 		}
 
 		Bestiary: {
-			// == Mobs ==
 			TophatSquirrelCritter: This squirrel found itself a dapper hat! What will it do with this newfound power? Probably not much, honestly.
 			GuttedCreeper: Continues to defend the heart of the Crimson even when it's stuffed in someone's pocket. They were bad, but now they're good!
 			RoyalSubject: The growth of these would-be queens has been stunted. The pheromones emitted by their liege have summoned them to her aid.
@@ -134,16 +142,15 @@ Mods: {
 			LesserFairy: Drawn to the Champion of Life's radiance, these pixies care for nothing but fulfilling its commands.
 			LesserSquirrel: These little critters helped build the Trojan Squirrel. Not aware of the small explosives attached to them.
 			ShadowOrb: Clusters of darkness that focus its power. They keep the curtain of night drawn low in service of their master.
-			// == Challengers ==
+			ShadowOrbNPC: Clusters of darkness that focus its power. They keep the curtain of night drawn low in service of their master.
 			TrojanSquirrel: Built by squirrels, for squirrels! Made of woods collected from numerous lands. It fits a lot more squirrels than it appears.
 			GuardianOfAncientTreasures: Lurks deep underground, jealously guarding its horde of jewels and precious metals. Its scales are as hard as stone.
 			CursedCoffin: A mindless fusion of over a hundred wicked souls. It feeds on the bodies of lost travellers and adds their spirits to itself.
 			LifeChallenger: The brilliance emitting from its core is soothing but hypnotic. Holds sway over lesser organisms. Its true form cannot be perceived.
 			Silhouette: An elusive being that always travels under cover of a black fog in the night. It feels sensitive when its true form is exposed.
 			FrigidHydrangaea: This draconic beast hibernates in the frozen caverns, only waking when provoked. Should it really be living in the cold?
-			BanishedBaron: Cast out from the hierarchy, it hid itself while it tried to repair itself. Imperfect work left its strength and speed hindered.
+			BanishedBaron: Cast out from the hierarchy, it hid while it tried to repair itself. Imperfect work left its strength and speed hindered.
 			MagmaConstruct: Overseer of the planet's core. It has taken over the underworld in the absence of the land's former master. It has no organic parts.
-			// == Champions ==
 			TimberChampion: Channeling a Force has granted this wooden contraption fantastic power. But doesn't that squirrel in the cockpit look familiar?
 			TerraChampion: Only the brain of this colossal serpent is still organic. Transformed into enchanted rock and metal, its body is impervious to attack.
 			SpiritChampion: These lost souls regained higher intelligence by absorbing a Force. Not that it's going to stop eating humans any time soon.
@@ -153,7 +160,6 @@ Mods: {
 			WillChampion: Overflowing with rage. Strikes with great power and withstands attacks through sheer force of anger alone. Just who is this nameless exile?
 			EarthChampion: Merging with a Force has given it a power high. This Champion erupts from the magma and rampages through all who cross its path.
 			CosmosChampion: This noble warrior once travelled the stars in search of worthy opponents. It settled nearby after encountering a certain mutated trio.
-			// == Siblings ==
 			DeviBoss: Casts spells of light and love using a living axe made of evil. She must be very lax about death, given she never fights that hard to protect a town.
 			AbomBoss: His blade divides the soul itself. All supernatural phenomena are his domain, but he doesn't use celestial attacks out of respect for Mutant.
 			MutantBoss: The keeper of eternity. Ultimate power incarnate. Master of all with dominion over every aspect of combat. Perhaps it came from a world beyond that dimensional rift...
@@ -179,11 +185,11 @@ Mods: {
 			CosmosChampionDespawn: Eridanus, Champion of Cosmos returns to the stars...
 			CosmosChampionKilledAll: Eridanus, Champion of Cosmos has slain every foe.
 			TrojanSquirrelDespawn: Trojan Squirrel returns to its squirrel clan...
-			LifeChallengerDespawn: Lieflight fades away...
+			LifeChallengerDespawn: Lifelight fades away...
 			CursedCoffinDespawn: The Cursed Coffin returns to its slumber...
 			BanishedBaronDespawn: The Banished Baron dives deeper into the ocean...
 			DeviBossSpawnInfo: Spawn by using [i:FargowiltasSouls/DevisCurse]
-			AbomBossSpawnInfo: Spawn by using [i:FargowiltasSouls/AbomsCure]
+			AbomBossSpawnInfo: Spawn by using [i:FargowiltasSouls/AbomsCurse]
 			MutantBossSpawnInfo: Throw [i:FargowiltasSouls/MutantsCurse] into a pool of lava while Abominationn is alive in Mutant's presence.
 			TimberChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] on the surface during day.
 			TerraChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] underground.
@@ -194,8 +200,9 @@ Mods: {
 			SpiritChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in the underground desert.
 			WillChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] at the ocean.
 			CosmosChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in space.
-			TrojanSquirrelSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions]
-			LifeChallengerSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in the Hallow at day.
+			TrojanSquirrelSpawnInfo: Spawn by using [i:FargowiltasSouls/SquirrelCoatOfArms]
+			LifeChallengerSpawnInfo: Spawn by using [i:FargowiltasSouls/FragilePixieLamp] in the Hallow at day.
+			BanishedBaronSpawnInfo: Spawn by using [i:FargowiltasSouls/MechLure] underwater at the Ocean.
 		}
 
 		Message: {
@@ -235,6 +242,7 @@ Mods: {
 				EternityOff: Eternity Mode deactivated.
 				EternityWrongDifficulty: Difficulty too low, Eternity Mode deactivated...
 				MasochistOn: Master and Eternity combined: Masochist Mode activated!!
+				MasochistOnZenith: Master and Zenith seed combined: Masochist Mode activated!!
 				MasochistOff: Masochist Mode deactivated.
 				BloodMoonCancel: The Blood Moon changed its mind and left...
 			}
@@ -391,8 +399,8 @@ Mods: {
 			PearlConfig: Pearlwood Rain
 			EarthHeader: "{$Mods.FargowiltasSouls.Items.EarthForce.DisplayName}"
 			AdamantiteConfig: Adamantite Projectile Splitting
-			CobaltConfig: Cobalt Shards
-			AncientCobaltConfig: Ancient Cobalt Stingers
+			CobaltConfig: Cobalt Hit Explosion
+			AncientCobaltConfig: Ancient Cobalt Explosion Jump
 			MythrilConfig: Mythril Weapon Speed
 			OrichalcumConfig: Orichalcum Petals
 			PalladiumConfig: Palladium Healing
@@ -406,16 +414,19 @@ Mods: {
 			TungstenConfig: Tungsten Item Effect
 			TungstenProjConfig: Tungsten Projectile Effect
 			ObsidianConfig: Obsidian Explosions
+			AshWoodConfig: Ash Fireballs
 			WillHeader: "{$Mods.FargowiltasSouls.Items.WillForce.DisplayName}"
 			GladiatorConfig: Gladiator Rain
 			GoldConfig: Gold Lucky Coin
 			GoldToPiggyConfig: Gold To Piggy Bank
 			HuntressConfig: Huntress Ability
 			RedRidingRainConfig: Red Riding Arrow Rain
-			ValhallaConfig: Squire/Valhalla Healing
+			ValhallaConfig: Valhalla Mount Dash
+			SquireMountJumpConfig: Squire Mount Jump
+			SquireMountSpeedConfig: Squire Mount Speed
 			SquirePanicConfig: Ballista Panic On Hit
 			LifeHeader: "{$Mods.FargowiltasSouls.Items.LifeForce.DisplayName}"
-			BeeConfig: Bees
+			BeeConfig: Bee Flowers
 			BeetleConfig: Beetles
 			CactusConfig: Cactus Needles
 			PumpkinConfig: Grow Pumpkins
@@ -424,13 +435,12 @@ Mods: {
 			NatureHeader: "{$Mods.FargowiltasSouls.Items.NatureForce.DisplayName}"
 			ChlorophyteConfig: Chlorophyte Leaf Crystal
 			CrimsonConfig: Crimson Regen
-			RainConfig: Rain Clouds
+			RainConfig: Rain Umbrella
 			RainInnerTubeConfig: Inner Tube
 			FrostConfig: Frost Icicles
 			JungleConfig: Jungle Spores
 			JungleDashConfig: Jungle Dash
 			MoltenConfig: Molten Inferno Buff
-			MoltenEConfig: Molten Explosion On Hit
 			ShroomiteConfig: Shroomite Stealth
 			ShroomiteShroomConfig: Shroomite Mushrooms
 			ShadowHeader: "{$Mods.FargowiltasSouls.Items.ShadowForce.DisplayName}"
@@ -448,13 +458,13 @@ Mods: {
 			SpiritHeader: "{$Mods.FargowiltasSouls.Items.SpiritForce.DisplayName}"
 			FossilConfig: Fossil Bones On Hit
 			ForbiddenConfig: Forbidden Storm
-			HallowDodgeConfig: Hallowed Dodge
-			HallowedConfig: Ancient Hallowed Terraprisma familiar
-			HallowSConfig: Ancient Hallowed Shield
+			HallowDodgeConfig: Hallowed Healing Potions
+			AHallowedConfig: Ancient Hallowed Terraprisma familiar
 			NinjaSpeedConfig: Ninja Speed
 			SpectreConfig: Spectre Orbs
 			TikiConfig: Tiki Minions
 			CosmoHeader: "{$Mods.FargowiltasSouls.Items.CosmoForce.DisplayName}"
+			MeteorMomentumConfig: Meteor Speed
 			MeteorConfig: Meteor Shower
 			NebulaConfig: Nebula Boosters
 			SolarConfig: Solar Shield
@@ -469,6 +479,7 @@ Mods: {
 			DeerSinewDashConfig: Deer Sinew Dash
 			MasoAeolusConfig: Aeolus Jump
 			MasoAeolusFlowerConfig: Flower Boots
+			MasoAeolusFrogConfig: Frog Jump
 			MasoIconConfig: Sinister Icon Spawn Rates
 			MasoIconDropsConfig: Sinister Icon Drops
 			MasoGrazeConfig: Graze
@@ -491,7 +502,6 @@ Mods: {
 			MasoSqueakConfig: Squeaky Toy On Hit
 			MasoPouchConfig: Stronger Slower Shadowflame Attacks
 			MasoClippedConfig: Inflict Clipped Wings
-			TribalCharmConfig: Tribal Charm Auto Swing
 			TribalCharmClickBonusConfig: Tribal Charm Click Bonus
 			DubiousHeader: "{$Mods.FargowiltasSouls.Items.DubiousCircuitry.DisplayName}"
 			FusedLensInstallConfig: Twins Install
@@ -548,6 +558,7 @@ Mods: {
 			DefenseFleshKnuckleConfig: Flesh Knuckles Aggro
 			DefensePaladinConfig: Paladin's Shield
 			DefenseFrozenConfig: Frozen Turtle Shell
+			ShimmerImmunityConfig: Shimmer Immunity
 			FlightMasteryHeader: "{$Mods.FargowiltasSouls.Items.FlightMasterySoul.DisplayName}"
 			FlightMasteryInsigniaConfig: Soaring Insignia Acceleration
 			FlightMasteryGravityConfig: Amplified Gravity
@@ -658,6 +669,7 @@ Mods: {
 			PatreonPrime: Prime Staff
 			PatreonCrimetroid: Crimetroid
 			PatreonNanoCore: Nano Core
+			PatreonROB: R.O.B
 			SilverS: Mods.FargowiltasSouls.Toggler.SilverS
 			CrystalGelatinConfig: Mods.FargowiltasSouls.Toggler.CrystalGelatinConfig
 			SilverConfig: Mods.FargowiltasSouls.Toggler.SilverConfig
@@ -675,6 +687,8 @@ Mods: {
 			WoodenTooltip: Humble beginnings…
 			TinCritUp: +5% crit
 			TinCritReset: -{0}% crit
+			ROBPatreon: The friend you've never left since Brawl
+			ROBNonPatreon: He's finally a top tier!
 
 			EternitySoul: {
 				Additional: Additionally grants:
@@ -770,7 +784,6 @@ Mods: {
 					Increases spawn rates
 					Reduces skeletons hostility outside of the dungeon
 					Empowers Cute Fishron
-					Grants autofire
 					Grants modifier protection
 					Grants gravity control
 					Grants fast fall
@@ -1000,7 +1013,9 @@ Mods: {
 			Buff: "[c/00ff00:Eternity Mode:]"
 			Neutral: "[c/ffff00:Eternity Mode:]"
 			Damage: Reduced damage by {0}%
+			DamagePositive: Increased damage by {0}%
 			Speed: Reduced speed by {0}%
+			SpeedPositive: Increased speed by {0}%
 			RodofDiscord: During boss fights, every use takes life
 			Split: Reduced split frequency
 			ChlorophyteBullet: Reduced speed and duration
@@ -1010,14 +1025,16 @@ Mods: {
 			BrainOfConfusion: Lowers your damage output on successful dodge
 			ZenithNone: No nerfs in effect
 			ZenithHitRate: Vastly reduced hit rate, improves by defeating:
-			VampireKnives: Reduced lifesteal rate when above 33% life
+			VampireKnives: Reduced lifesteal rate when above 50% lifereturn BalanceTypes.Damage;
 			Zapinator: Cannot stack damage multipliers
+			CoinGun: Damage of Platinum and Gold Coins heavily reduced, damage of Silver Coins slightly reduced, and damage of Copper Coins increased
 			OOASet: Set bonus increases minimum summon damage when you attack using other classes
 			MiningHelmet: Increases Undead Miner spawn rates
 			MoonsDrops: Bosses and minibosses drop no items until wave {0}
 			MoonsWaves: Dying decreases wave progress
 			WhipSpeed: Does not benefit from melee speed bonuses
 			WhipStack: Whip buffs/debuffs can't stack
+			ManaPots: Cannot be used during Mana Sickness, but 50% increased restoration
 			MinionStack: Damage of minions diminishes when summoning over 3 copies (effect caps at 12)
 			SummonMulticlass: Summon damage decreases when you attack using other classes (except in OOA)
 			ShadowDodge: Eternity Mode: Dodging will reduce your attack speed
@@ -1026,7 +1043,8 @@ Mods: {
 			PalladiumPikeRework: Greatly increases life regeneration after striking an enemy
 			CobaltNaginataRework: Causes a small explosion on striking enemies
 			MythrilHalberdRework: After not attacking for 2 seconds, your next attack deals triple damage
-			OrichalcumHalberdRework: Releases flower petals at apex of swing
+			OrichalcumHalberdRework: Releases flower petals on swing
+			SuperStarCannon: Decreased maximum pierce to 7
 		}
 
 		EternityMode: {
@@ -1061,428 +1079,6 @@ Mods: {
 		}
 
 		Buffs: {
-			AbomFang: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.AbomFang
-				Description: Mods.FargowiltasSouls.BuffDescription.AbomFang
-			}
-
-			AbomPresence: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.AbomPresence
-				Description: Mods.FargowiltasSouls.BuffDescription.AbomPresence
-			}
-
-			DeviPresence: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.DeviPresence
-				Description: Mods.FargowiltasSouls.BuffDescription.DeviPresence
-			}
-
-			Grabbed: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Grabbed
-				Description: Mods.FargowiltasSouls.BuffDescription.Grabbed
-			}
-
-			MutantFang: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.MutantFang
-				Description: Mods.FargowiltasSouls.BuffDescription.MutantFang
-			}
-
-			MutantPresence: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.MutantPresence
-				Description: Mods.FargowiltasSouls.BuffDescription.MutantPresence
-			}
-
-			AbomCooldown: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.AbomCooldown
-				Description: Mods.FargowiltasSouls.BuffDescription.AbomCooldown
-			}
-
-			AbomRebirth: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.AbomRebirth
-				Description: Mods.FargowiltasSouls.BuffDescription.AbomRebirth
-			}
-
-			Anticoagulation: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Anticoagulation
-				Description: Mods.FargowiltasSouls.BuffDescription.Anticoagulation
-			}
-
-			Antisocial: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Antisocial
-				Description: Mods.FargowiltasSouls.BuffDescription.Antisocial
-			}
-
-			Atrophied: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Atrophied
-				Description: Mods.FargowiltasSouls.BuffDescription.Atrophied
-			}
-
-			Berserked: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Berserked
-				Description: Mods.FargowiltasSouls.BuffDescription.Berserked
-			}
-
-			BerserkerInstall: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.BerserkerInstall
-				Description: Mods.FargowiltasSouls.BuffDescription.BerserkerInstall
-			}
-
-			BerserkerInstallCD: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.BerserkerInstallCD
-				Description: Mods.FargowiltasSouls.BuffDescription.BerserkerInstallCD
-			}
-
-			BloodDrinker: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.BloodDrinker
-				Description: Mods.FargowiltasSouls.BuffDescription.BloodDrinker
-			}
-
-			Bloodthirsty: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Bloodthirsty
-				Description: Mods.FargowiltasSouls.BuffDescription.Bloodthirsty
-			}
-
-			BrainOfConfusionDebuff: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.BrainOfConfusionDebuff
-				Description: Mods.FargowiltasSouls.BuffDescription.BrainOfConfusionDebuff
-			}
-
-			ChaosLife: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.ChaosLife
-				Description: Mods.FargowiltasSouls.BuffDescription.ChaosLife
-			}
-
-			ClippedWings: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.ClippedWings
-				Description: Mods.FargowiltasSouls.BuffDescription.ClippedWings
-			}
-
-			Coldheart: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Coldheart
-				Description: Mods.FargowiltasSouls.BuffDescription.Coldheart
-			}
-
-			Crippled: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Crippled
-				Description: Mods.FargowiltasSouls.BuffDescription.Crippled
-			}
-
-			CurseoftheMoon: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.CurseoftheMoon
-				Description: Mods.FargowiltasSouls.BuffDescription.CurseoftheMoon
-			}
-
-			Defenseless: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Defenseless
-				Description: Mods.FargowiltasSouls.BuffDescription.Defenseless
-			}
-
-			FlamesoftheUniverse: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.FlamesoftheUniverse
-				Description: Mods.FargowiltasSouls.BuffDescription.FlamesoftheUniverse
-			}
-
-			Flipped: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Flipped
-				Description: Mods.FargowiltasSouls.BuffDescription.Flipped
-			}
-
-			Fused: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Fused
-				Description: Mods.FargowiltasSouls.BuffDescription.Fused
-			}
-
-			GodEater: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.GodEater
-				Description: Mods.FargowiltasSouls.BuffDescription.GodEater
-			}
-
-			Guilty: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Guilty
-				Description: Mods.FargowiltasSouls.BuffDescription.Guilty
-			}
-
-			Hexed: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Hexed
-				Description: Mods.FargowiltasSouls.BuffDescription.Hexed
-			}
-
-			HolyPrice: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.HolyPrice
-				Description: Mods.FargowiltasSouls.BuffDescription.HolyPrice
-			}
-
-			Hypothermia: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Hypothermia
-				Description: Mods.FargowiltasSouls.BuffDescription.Hypothermia
-			}
-
-			Infested: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Infested
-				Description: Mods.FargowiltasSouls.BuffDescription.Infested
-			}
-
-			IvyVenom: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.IvyVenom
-				Description: Mods.FargowiltasSouls.BuffDescription.IvyVenom
-			}
-
-			Jammed: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Jammed
-				Description: Mods.FargowiltasSouls.BuffDescription.Jammed
-			}
-
-			Lethargic: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Lethargic
-				Description: Mods.FargowiltasSouls.BuffDescription.Lethargic
-			}
-
-			LightningRod: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.LightningRod
-				Description: Mods.FargowiltasSouls.BuffDescription.LightningRod
-			}
-
-			LihzahrdBlessing: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.LihzahrdBlessing
-				Description: Mods.FargowiltasSouls.BuffDescription.LihzahrdBlessing
-			}
-
-			LihzahrdCurse: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.LihzahrdCurse
-				Description: Mods.FargowiltasSouls.BuffDescription.LihzahrdCurse
-			}
-
-			LivingWasteland: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.LivingWasteland
-				Description: Mods.FargowiltasSouls.BuffDescription.LivingWasteland
-			}
-
-			LoosePockets: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.LoosePockets
-				Description: Mods.FargowiltasSouls.BuffDescription.LoosePockets
-			}
-
-			Lovestruck: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Lovestruck
-				Description: Mods.FargowiltasSouls.BuffDescription.Lovestruck
-			}
-
-			LowGround: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.LowGround
-				Description: Mods.FargowiltasSouls.BuffDescription.LowGround
-			}
-
-			MagicalCleanseCD: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.MagicalCleanseCD
-				Description: Mods.FargowiltasSouls.BuffDescription.MagicalCleanseCD
-			}
-
-			MarkedforDeath: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.MarkedforDeath
-				Description: Mods.FargowiltasSouls.BuffDescription.MarkedforDeath
-			}
-
-			Midas: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Midas
-				Description: Mods.FargowiltasSouls.BuffDescription.Midas
-			}
-
-			MutantNibble: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.MutantNibble
-				Description: Mods.FargowiltasSouls.BuffDescription.MutantNibble
-			}
-
-			NanoInjection: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.NanoInjection
-				Description: Mods.FargowiltasSouls.BuffDescription.NanoInjection
-			}
-
-			Neurotoxin: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Neurotoxin
-				Description: Mods.FargowiltasSouls.BuffDescription.Neurotoxin
-			}
-
-			NullificationCurse: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.NullificationCurse
-				Description: Mods.FargowiltasSouls.BuffDescription.NullificationCurse
-			}
-
-			OceanicMaul: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.OceanicMaul
-				Description: Mods.FargowiltasSouls.BuffDescription.OceanicMaul
-			}
-
-			OceanicSeal: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.OceanicSeal
-				Description: Mods.FargowiltasSouls.BuffDescription.OceanicSeal
-			}
-
-			Oiled: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Oiled
-				Description: Mods.FargowiltasSouls.BuffDescription.Oiled
-			}
-
-			PungentGaze.DisplayName: Mods.FargowiltasSouls.BuffName.PungentGaze
-
-			Purged: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Purged
-				Description: Mods.FargowiltasSouls.BuffDescription.Purged
-			}
-
-			Purified: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Purified
-				Description: Mods.FargowiltasSouls.BuffDescription.Purified
-			}
-
-			ReverseManaFlow: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.ReverseManaFlow
-				Description: Mods.FargowiltasSouls.BuffDescription.ReverseManaFlow
-			}
-
-			Rotting: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Rotting
-				Description: Mods.FargowiltasSouls.BuffDescription.Rotting
-			}
-
-			RushJob: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.RushJob
-				Description: Mods.FargowiltasSouls.BuffDescription.RushJob
-			}
-
-			Sadism: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Sadism
-				Description: Mods.FargowiltasSouls.BuffDescription.Sadism
-			}
-
-			Shadowflame: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Shadowflame
-				Description: Mods.FargowiltasSouls.BuffDescription.Shadowflame
-			}
-
-			Smite: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Smite
-				Description: Mods.FargowiltasSouls.BuffDescription.Smite
-			}
-
-			SqueakyToy: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.SqueakyToy
-				Description: Mods.FargowiltasSouls.BuffDescription.SqueakyToy
-			}
-
-			Stunned: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Stunned
-				Description: Mods.FargowiltasSouls.BuffDescription.Stunned
-			}
-
-			Supercharged: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Supercharged
-				Description: Mods.FargowiltasSouls.BuffDescription.Supercharged
-			}
-
-			Swarming: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Swarming
-				Description: Mods.FargowiltasSouls.BuffDescription.Swarming
-			}
-
-			ThiefCD: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.ThiefCD
-				Description: Mods.FargowiltasSouls.BuffDescription.ThiefCD
-			}
-
-			TwinsInstall: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.TwinsInstall
-				Description: Mods.FargowiltasSouls.BuffDescription.TwinsInstall
-			}
-
-			Unlucky: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Unlucky
-				Description: Mods.FargowiltasSouls.BuffDescription.Unlucky
-			}
-
-			Unstable: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Unstable
-				Description: Mods.FargowiltasSouls.BuffDescription.Unstable
-			}
-
-			BigBrainMinion: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.BigBrainMinion
-				Description: Mods.FargowiltasSouls.BuffDescription.BigBrainMinion
-			}
-
-			BrainMinion: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.BrainMinion
-				Description: Mods.FargowiltasSouls.BuffDescription.BrainMinion
-			}
-
-			CrystalSkull: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.CrystalSkull
-				Description: Mods.FargowiltasSouls.BuffDescription.CrystalSkull
-			}
-
-			EaterMinion: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.EaterMinion
-				Description: Mods.FargowiltasSouls.BuffDescription.EaterMinion
-			}
-
-			JungleMimicSummonBuff: {
-				DisplayName: Jungle Mimic
-				Description: The Jungle Mimic will fight for you
-			}
-
-			LunarCultist: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.LunarCultist
-				Description: Mods.FargowiltasSouls.BuffDescription.LunarCultist
-			}
-
-			MutantPower: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.MutantPower
-				Description: Mods.FargowiltasSouls.BuffDescription.MutantPower
-			}
-
-			PlanterasChild: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.PlanterasChild
-				Description: Mods.FargowiltasSouls.BuffDescription.PlanterasChild
-			}
-
-			Probes: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.Probes
-				Description: Mods.FargowiltasSouls.BuffDescription.Probes
-			}
-
-			PungentEyeball: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.PungentEyeball
-				Description: Mods.FargowiltasSouls.BuffDescription.PungentEyeball
-			}
-
-			RainbowSlime: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.RainbowSlime
-				Description: Mods.FargowiltasSouls.BuffDescription.RainbowSlime
-			}
-
-			SaucerMinion: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.SaucerMinion
-				Description: Mods.FargowiltasSouls.BuffDescription.SaucerMinion
-			}
-
-			SkeletronArms: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.SkeletronArms
-				Description: Mods.FargowiltasSouls.BuffDescription.SkeletronArms
-			}
-
-			SouloftheMasochist: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.SouloftheMasochist
-				Description: Mods.FargowiltasSouls.BuffDescription.SouloftheMasochist
-			}
-
-			TrueEyes: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.TrueEyes
-				Description: Mods.FargowiltasSouls.BuffDescription.TrueEyes
-			}
-
-			TwinsEX: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.TwinsEX
-				Description: Mods.FargowiltasSouls.BuffDescription.TwinsEX
-			}
-
 			TrojanSquirrelMountBuff: {
 				DisplayName: Trojan Squirrel
 				Description: You are riding a squirrel mech
@@ -1521,6 +1117,11 @@ Mods: {
 			SeekerOfTreasuresBuff: {
 				DisplayName: Seeker of Treasures
 				Description: Give it a few thousand years to grow up
+			}
+
+			NibbleBuff: {
+				DisplayName: Nibble
+				Description: Just one tiny bite (please)
 			}
 
 			BrokenShell: {
@@ -1576,8 +1177,8 @@ Mods: {
 			LeadPoison.DisplayName: Mods.FargowiltasSouls.BuffName.LeadPoison
 
 			MonkBuff: {
-				DisplayName: Mods.FargowiltasSouls.BuffName.MonkBuff
-				Description: Mods.FargowiltasSouls.BuffDescription.MonkBuff
+				DisplayName: Meditation
+				Description: Your Monk Dash is ready
 			}
 
 			ObsidianLavaWetBuff: {
@@ -1720,8 +1321,8 @@ Mods: {
 				Description:
 					'''
 					Gravity heavily increased outside water
-					Breathe water instead of air
-					Get back in!
+					Breathe water but cannot breathe air
+					Improved underwater movement
 					'''
 			}
 
@@ -2166,8 +1767,8 @@ Mods: {
 			}
 
 			HallowCooldownBuff: {
-				DisplayName: Hallowed Shield Cooldown
-				Description: Your shield cannot reflect projectiles yet
+				DisplayName: Hallowed Sword Cooldown
+				Description: Your sword cannot reflect projectiles yet
 			}
 
 			HuntressBleedBuff: {
@@ -2188,11 +1789,6 @@ Mods: {
 			MoltenAmplifyBuff: {
 				DisplayName: Molten Amplify
 				Description: Mods.FargowiltasSouls.BuffDescription.MoltenAmplifyBuff
-			}
-
-			MonkBuffBuff: {
-				DisplayName: Meditation
-				Description: Your Monk Dash is ready
 			}
 
 			OriPoisonBuff: {
@@ -2218,6 +1814,11 @@ Mods: {
 			SuperBleedBuff: {
 				DisplayName: Blood Geyser
 				Description: Mods.FargowiltasSouls.BuffDescription.SuperBleedBuff
+			}
+
+			CorruptingBuff: {
+				DisplayName: Corrupting
+				Description: You are becoming corrupted
 			}
 
 			TimeFrozenBuff: {
@@ -2262,6 +1863,36 @@ Mods: {
 
 			Recovering.Description: Mods.FargowiltasSouls.BuffDescription.Recovering
 			Shadwoflame.Description: Mods.FargowiltasSouls.BuffDescription.Shadwoflame
+
+			CorruptedBuff: {
+				DisplayName: Corrupted Buff
+				Description: Mods.FargowiltasSouls.Buffs.CorruptedBuff.Description
+			}
+
+			CorruptedBuffForce: {
+				DisplayName: Corrupted Buff Force
+				Description: Mods.FargowiltasSouls.Buffs.CorruptedBuffForce.Description
+			}
+
+			JungleMimicSummonBuff: {
+				DisplayName: Jungle Mimic Summon Buff
+				Description: The Jungle Mimic will fight for you
+			}
+
+			GladiatorBuff: {
+				DisplayName: Gladiator Strength
+				Description: +10 defense, +5% damage, knockback immunity, improved spear rain
+			}
+
+			ROBBuff: {
+				Description: ""
+				DisplayName: R.O.B
+			}
+
+			RainCDBuff: {
+				DisplayName: Rain Umbrella Cooldown
+				Description: Your umbrella isn't ready yet
+			}
 		}
 
 		Items: {
@@ -2289,8 +1920,11 @@ Mods: {
 				DisplayName: Ancient Hallowed Enchantment
 				Tooltip:
 					'''
-					You gain a shield that can reflect projectiles
 					Summons a Terraprisma familiar that scales with minion damage
+					The sword follows the direction of your mouse
+					Press Right Click to slash with the sword
+					Slashing enemy projectiles reflects them back at the enemy
+					Reflects has a 15 second cooldown and can only affect projectiles that deal less than 150 damage
 					'Have you power enough to wield me?'
 					'''
 			}
@@ -2315,10 +1949,24 @@ Mods: {
 				DisplayName: Apprentice Enchantment
 				Tooltip:
 					'''
-					After attacking for 2 seconds you will be enveloped in flames
-					Switching weapons will increase the next attack's damage by 50% and spawn an inferno
+					While attacking, fire your next closest weapon's projectile as support
+					The support weapon will fire 1/4 as often as they would normally and deal 1/2 damage
+					Only works on hotbar weapons
+					Consumables are consumed, mana is spent, and ammo is selected
 					Flameburst field of view and range are dramatically increased
 					'A long way to perfection'
+					'''
+			}
+
+			AshWoodEnchant: {
+				DisplayName: Ash Wood Enchantment
+				Tooltip:
+					'''
+					Fire debuffs don't damage you
+					Above effect works for town NPCs while equipped or in your inventory
+					While you're burning, attacks are accompanied by balls of fire
+					Grants immunity to Oiled
+					Reduces damage from touching lava
 					'''
 			}
 
@@ -2326,8 +1974,11 @@ Mods: {
 				DisplayName: Bee Enchantment
 				Tooltip:
 					'''
-					Increases the strength of friendly bees
-					Melee hits and most piercing attacks spawn bees
+					Allows flight and slow fall
+					While flying, leave behind flowers that take 4 seconds to form petals
+					Touching fully formed flowers gives you the Honey buff and creates a swarm of bees
+					Enemies touching the flowers also trigger the bee swarm
+					Effects of Hive Pack
 					'According to all known laws of aviation, there is no way a bee should be able to fly'
 					'''
 			}
@@ -2390,6 +2041,7 @@ Mods: {
 				Tooltip:
 					'''
 					Crits have a chance to shock enemies with chain lightning
+					Wet enemies have a chance to be shocked without a crit
 					'Behold'
 					'''
 			}
@@ -2421,10 +2073,8 @@ Mods: {
 				DisplayName: Dark Artist Enchantment
 				Tooltip:
 					'''
-					Summons a Flameburst minion that will travel to your mouse after charging up
-					It will then act as a sentry
-					After attacking for 2 seconds you will be enveloped in flames
-					Switching weapons will increase the next attack's damage by 50% and spawn an inferno
+					While attacking, fire your next 2 closest weapons' projectiles as support
+					Summons a Flameburst minion that will also fire while you attack
 					Greatly enhances Flameburst effectiveness
 					'The shadows hold more than they seem'
 					'''
@@ -2434,8 +2084,9 @@ Mods: {
 				DisplayName: Ebonwood Enchantment
 				Tooltip:
 					'''
-					You are surrounded by an aura of Shadowflame
-					Any projectiles that would deal less than 10 damage to you are destroyed
+					You are surrounded by an aura that builds up Corruption on enemies
+					After 4 seconds of buildup they burst, Corrupting all nearby enemies
+					Corrupted enemies have 10 less defense and deal 10% less contact damage
 					'Untapped potential'
 					'''
 			}
@@ -2447,6 +2098,7 @@ Mods: {
 					Double tap down to call an ancient storm to the cursor location
 					Any projectiles shot through your storm gain 30% damage
 					Touch it yourself to add back missing wing time
+					Storm can be resummoned after touching the ground
 					'Walk like an Egyptian'
 					'''
 			}
@@ -2480,7 +2132,10 @@ Mods: {
 				Tooltip:
 					'''
 					Spears will rain down on struck enemies
-					Grants knockback immunity when you are facing the attack
+					Double tap down to place a banner that lasts 15 seconds
+					While close to the banner, spear rain is stronger
+					Being close to the banner also grants knockback immunity, 5% increased damage and 10 increased defense
+					Banner can only be resummoned after it runs out
 					'Are you not entertained?'
 					'''
 			}
@@ -2494,7 +2149,6 @@ Mods: {
 					Press the Gold hotkey to be encased in a Golden Shell
 					You will not be able to move or attack, but will be immune to all damage
 					Press again to exit early
-					Effects of Greedy Ring
 					'Gold makes the world go round'
 					'''
 			}
@@ -2503,7 +2157,8 @@ Mods: {
 				DisplayName: Hallowed Enchantment
 				Tooltip:
 					'''
-					Become immune after striking an enemy
+					Healing potions restore 20% more, but take effect over time
+					Using a healing potion creates a shockwave that repels nearby enemy projectiles
 					'Hit me with your best shot'
 					'''
 			}
@@ -2512,8 +2167,8 @@ Mods: {
 				DisplayName: Huntress Enchantment
 				Tooltip:
 					'''
-					Attacks ignore 10 enemy defense and deal 5 flat extra damage
-					Each successive attack ignores an additional 10 defense and deals 5 more damage
+					Attacks ignore 6 enemy defense and deal 3 flat extra damage
+					Each successive attack ignores an additional 6 defense and deals 3 more damage
 					This stacks up to 10 times
 					Homing and minion attacks do not increase these bonuses
 					Missing any attack will reset these bonuses
@@ -2525,8 +2180,10 @@ Mods: {
 				DisplayName: Iron Enchantment
 				Tooltip:
 					'''
+					Works in vanity and inventory slots
 					You attract items from a larger range
-					33% chance to not consume crafting ingredients at an Iron Anvil
+					The first time you craft an item, only 33% of the materials will be consumed
+					Does not work on Crucible of the Cosmos items
 					'Strike while the iron is hot'
 					'''
 			}
@@ -2557,7 +2214,8 @@ Mods: {
 				DisplayName: Meteor Enchantment
 				Tooltip:
 					'''
-					A meteor shower initiates every few seconds while attacking
+					Drastically increases your run acceleration, and decreases your momentum
+					Moving creates a fire trail
 					'Drop a draco on 'em'
 					'''
 			}
@@ -2577,8 +2235,8 @@ Mods: {
 				DisplayName: Molten Enchantment
 				Tooltip:
 					'''
-					Nearby enemies are ignited
-					Enemies take 25% increased damage while inside the inferno ring
+					Ignite yourself while enemies are close
+					Enemies in the inferno ring take 25% more damage and are ignited
 					'They shall know the fury of hell' 
 					'''
 			}
@@ -2633,9 +2291,8 @@ Mods: {
 				DisplayName: Ninja Enchantment
 				Tooltip:
 					'''
-					Drastically increases projectile and attack speed
-					Reduces damage to compensate for increased speed
-					Increases armor pen by 15
+					Your projectiles deal more damage the faster they're moving, up to 20%
+					Drastically increases projectile speed while you're moving slowly
 					'Attack faster than the eye can see'
 					'''
 			}
@@ -2644,9 +2301,10 @@ Mods: {
 				DisplayName: Obsidian Enchantment
 				Tooltip:
 					'''
-					Grants immunity to fire and lava
+					Grants immunity to lava
 					You have normal movement and can swim in lava
-					While standing in lava or lava wet, your attacks spawn explosions and apply Firecracker
+					While standing in lava or lava wet, your attacks spawn explosions and are accompanied by balls of fire
+					Effects of Ash Wood Enchantment
 					'The earth calls'
 					'''
 			}
@@ -2702,7 +2360,7 @@ Mods: {
 				DisplayName: Pumpkin Enchantment
 				Tooltip:
 					'''
-					You will grow pumpkins while walking on the ground
+					You will grow pumpkins while moving
 					When fully grown, they will heal 25 HP and spawn damaging embers
 					Enemies that touch them will destroy them and take damage
 					'Your sudden pumpkin craving will never be satisfied'
@@ -2713,9 +2371,10 @@ Mods: {
 				DisplayName: Rain Enchantment
 				Tooltip:
 					'''
-					Grants immunity to Wet
-					Spawns a miniature storm that follows your cursor
-					It only attacks if there is a clear line of sight between you
+					Spawns an umbrella that reflects projectiles from above
+					It will break after blocking 200 damage
+					While active you have featherfall
+					Grants immunity to Wet and all attacks inflict Wet
 					Effects of Inner Tube
 					'Come again some other day'
 					'''
@@ -2836,7 +2495,7 @@ Mods: {
 				Tooltip:
 					'''
 					Your minions and sentries can crit
-					Summon crits do x1.5 damage instead of x2
+					Minion and sentry crits deal x1.5 damage, instead of 2x
 					'Arachnophobia is punishable by arachnid induced death'
 					'''
 			}
@@ -2854,6 +2513,8 @@ Mods: {
 				DisplayName: Squire Enchantment
 				Tooltip:
 					'''
+					Increases mount acceleration, top speed, and jump height
+					While mounted, grants 10 defense, a fart jump, and fall damage immunity
 					Increases the effectiveness of healing sources by 25%
 					Ballista pierces more targets and panics when you take damage
 					'Squire, will you hurry?'
@@ -2876,7 +2537,6 @@ Mods: {
 				DisplayName: Tiki Enchantment
 				Tooltip:
 					'''
-					Increases whip range by 20%
 					Whip your summons to make them work harder
 					'Aku Aku!'
 					'''
@@ -2887,7 +2547,7 @@ Mods: {
 				Tooltip:
 					'''
 					Sets your critical strike chance to 5%
-					Every crit will increase it by 5% up to double your critical strike chance or 15%
+					Every crit will increase it by 5% up to double your original critical strike chance or 15%
 					Getting hit resets your crit to 5%
 					'Return of the Crit'
 					'''
@@ -2908,8 +2568,8 @@ Mods: {
 				DisplayName: Tungsten Enchantment
 				Tooltip:
 					'''
-					150% increased weapon size but reduces melee speed
-					Every half second a projectile will be doubled in size
+					100% increased weapon size but reduces melee speed
+					Once every 2/3 of a second a projectile will be doubled in size
 					Enlarged projectiles and non-projectile swords deal 10% more damage and have an additional chance to crit
 					'Bigger is always better'
 					'''
@@ -2933,6 +2593,8 @@ Mods: {
 				DisplayName: Valhalla Knight Enchantment
 				Tooltip:
 					'''
+					Increases mount acceleration, top speed, and jump height
+					While mounted, grants 15 defense, a fart jump, fall damage immunity, and dash
 					Increases the effectiveness of healing sources by 33%
 					Greatly enhances Ballista effectiveness
 					'Valhalla calls'
@@ -2954,7 +2616,7 @@ Mods: {
 				DisplayName: Wizard Enchantment
 				Tooltip:
 					'''
-					Enhances the power of all other Enchantments to their Force effects
+					Upgrades the enchantment directly below this accessory to its Force effect
 					'I'm a what?'
 					'''
 			}
@@ -2965,7 +2627,7 @@ Mods: {
 					'''
 					Bestiary and banner entries complete twice as fast
 					You gain a shop discount based on bestiary completion
-					Discount effect works in vanity slots
+					Discount effect works in vanity slots and inventory
 					'''
 			}
 
@@ -3018,9 +2680,7 @@ Mods: {
 				Tooltip:
 					'''
 					Works in your inventory
-					Stand still to expose nearby treasure
-					Grants autofire to all items
-					Slightly reduces use speed of affected items
+					Stand still to expose nearby treasure and enemies
 					'''
 			}
 
@@ -3039,12 +2699,13 @@ Mods: {
 				Tooltip:
 					'''
 					[i:FargowiltasSouls/MeteorEnchant] A meteor shower initiates every few seconds while attacking
+					[i:FargowiltasSouls/MeteorEnchant] Running acceleration increased, you have a fire trail
 					[i:FargowiltasSouls/SolarEnchant] Solar shield allows you to dash through enemies
 					[i:FargowiltasSouls/SolarEnchant] Attacks may inflict the Solar Flare debuff
 					[i:FargowiltasSouls/VortexEnchant] Double tap down to toggle stealth and spawn a vortex
 					[i:FargowiltasSouls/NebulaEnchant] Hurting enemies has a chance to spawn buff boosters
 					[i:FargowiltasSouls/StardustEnchant] A stardust guardian will protect you from nearby enemies
-					[i:FargowiltasSouls/StardustEnchant] Press the Freeze Key to freeze time for 9 seconds, 60 second cooldown
+					[i:FargowiltasSouls/StardustEnchant] Press the Freeze Key to freeze time for 9 seconds, 50 second cooldown
 					'Been around since the Big Bang'
 					'''
 			}
@@ -3054,8 +2715,8 @@ Mods: {
 				Tooltip:
 					'''
 					[i:FargowiltasSouls/CobaltEnchant] Grants an explosion jump and you explode on hit
-					[i:FargowiltasSouls/PalladiumEnchant] Stop attacking to gradually increase attack speed for up to 5 seconds
-					[i:FargowiltasSouls/MythrilEnchant] Grants Rapid Healing after striking an enemy and spawn life orbs based on healing
+					[i:FargowiltasSouls/MythrilEnchant] Stop attacking to gradually increase attack speed for up to 5 seconds
+					[i:FargowiltasSouls/PalladiumEnchant] Grants Rapid Healing after striking an enemy and spawn life orbs based on healing
 					[i:FargowiltasSouls/OrichalcumEnchant] Attacks spawn flower petals and damaging debuffs deal 4x damage
 					[i:FargowiltasSouls/AdamantiteEnchant] Every weapon shot will split into 3, deal 33% damage and have 66% less iframes
 					[i:FargowiltasSouls/TitaniumEnchant] Attacks generate titanium shards, reaching max grants Titanium Shield
@@ -3069,8 +2730,10 @@ Mods: {
 					'''
 					[i:FargowiltasSouls/PumpkinEnchant] You will grow pumpkins while walking on the ground
 					[i:FargowiltasSouls/CactusEnchant] Enemies may explode into needles on death
-					[i:FargowiltasSouls/BeeEnchant] Melee hits and most piercing attacks spawn bees
-					[i:FargowiltasSouls/SpiderEnchant] 30% chance for minions and sentries to crit for x1.5 damage instead of x2
+					[i:FargowiltasSouls/BeeEnchant] Leave behind flowers while flying
+					[i:FargowiltasSouls/BeeEnchant] Effects of Hive Pack
+					[i:FargowiltasSouls/SpiderEnchant] Your minions and sentries can crit
+					[i:FargowiltasSouls/SpiderEnchant] Minion and sentry crits deal 1.5x damage, instead of 2x
 					[i:FargowiltasSouls/TurtleEnchant] When standing still and not attacking, you will enter your shell
 					[i:FargowiltasSouls/BeetleEnchant] Beetles aid both offense and defense
 					'Rare is a living thing that dare disobey your will'
@@ -3083,12 +2746,11 @@ Mods: {
 					'''
 					[i:FargowiltasSouls/CrimsonEnchant] After taking a hit, regen is greatly increased until the hit is healed off
 					[i:FargowiltasSouls/MoltenEnchant] Nearby enemies are ignited in a greater radius
-					[i:FargowiltasSouls/MoltenEnchant] When you are hurt, you violently explode to damage nearby enemies
-					[i:FargowiltasSouls/RainEnchant] Spawns a miniature storm to follow you around
+					[i:FargowiltasSouls/RainEnchant] Spawns an umbrella that blocks projectiles from above
 					[i:FargowiltasSouls/FrostEnchant] Icicles will start to appear around you
 					[i:FargowiltasSouls/SnowEnchant] Press the Freeze Key to temporarily chill everything
 					[i:FargowiltasSouls/ChlorophyteEnchant] Summons a ring of leaf crystals to shoot at nearby enemies
-					[i:FargowiltasSouls/JungleEnchant] Grants a double spore jump
+					[i:FargowiltasSouls/JungleEnchant] Grants a double spore jump and a dash
 					[i:FargowiltasSouls/ShroomiteEnchant] Not moving puts you in stealth
 					[i:FargowiltasSouls/ShroomiteEnchant] All attacks gain trails of mushrooms
 					'Tapped into every secret of the wilds'
@@ -3102,15 +2764,14 @@ Mods: {
 					[i:FargowiltasSouls/ShadowEnchant] Four Shadow Orbs will orbit around you
 					[i:FargowiltasSouls/AncientShadowEnchant] Your attacks may inflict Darkness on enemies
 					[i:FargowiltasSouls/NecroEnchant] Slain enemies may drop a pile of bones
-					[i:FargowiltasSouls/NinjaEnchant] Drastically increases projectile and attack speed but reduces damage
+					[i:FargowiltasSouls/NinjaEnchant] Increases projectile damage based on projectile speed
+					[i:FargowiltasSouls/NinjaEnchant] Increases projectile speed while moving slowly
 					[i:FargowiltasSouls/CrystalAssassinEnchant] Throw a smoke bomb to teleport to it and gain the First Strike Buff
-					[i:FargowiltasSouls/CrystalAssassinEnchant] Effects of Volatile Gel
 					[i:FargowiltasSouls/SpookyEnchant] All of your minions gain an extra scythe attack
 					[i:FargowiltasSouls/MonkEnchant] Don't attack to gain a single use monk dash
 					[i:FargowiltasSouls/ShinobiEnchant] Dash into any walls, to teleport through them to the next opening
-					[i:FargowiltasSouls/ApprenticeEnchant] After attacking for 2 seconds you will be enveloped in flames
-					[i:FargowiltasSouls/ApprenticeEnchant] Switching weapons will increase the next attack's damage by 150%
-					[i:FargowiltasSouls/DarkArtistEnchant] Summons a Flameburst minion that will travel to your mouse after charging
+					[i:FargowiltasSouls/ApprenticeEnchant] While attacking, fire your next 3 closest weapons' projectiles as support
+					[i:FargowiltasSouls/DarkArtistEnchant] Summons a Flameburst minion that will also fire when you attack
 					'Dark, Darker, Yet Darker'
 					'''
 			}
@@ -3119,14 +2780,13 @@ Mods: {
 				DisplayName: Force of Spirit
 				Tooltip:
 					'''
-					[i:FargowiltasSouls/FossilEnchant] If you reach zero HP you will revive with 50 HP and spawn several bones
-					[i:FargowiltasSouls/FossilEnchant] Collect the bones once they stop moving to heal for 15 HP each
+					[i:FargowiltasSouls/FossilEnchant] If you reach zero HP you will revive with 200 HP and spawn several bones
+					[i:FargowiltasSouls/FossilEnchant] Collect the bones once they stop moving to heal for 20 HP each
 					[i:FargowiltasSouls/ForbiddenEnchant] Double tap down to call an ancient storm to the cursor location
 					[i:FargowiltasSouls/ForbiddenEnchant] Any projectiles shot through your storm gain 60% damage
-					[i:FargowiltasSouls/AncientHallowEnchant] You gain a shield that can reflect projectiles
-					[i:FargowiltasSouls/AncientHallowEnchant] Summons a Terraprisma familiar
-					[i:FargowiltasSouls/HallowEnchant] Become immune after striking an enemy
-					[i:FargowiltasSouls/TikiEnchant] Whip your summons to make them work harder
+					[i:FargowiltasSouls/AncientHallowEnchant] You gain a Terraprisma familiar that can reflect projectiles
+					[i:FargowiltasSouls/HallowEnchant] Healing potions take effect over time and create a projectile-repelling shockwave
+					[i:FargowiltasSouls/TikiEnchant] Whip your summons to make them work harder, whip range increased
 					[i:FargowiltasSouls/SpectreEnchant] Damage has a chance to spawn damaging and healing orbs
 					'Ascend from this mortal realm'
 					'''
@@ -3137,12 +2797,13 @@ Mods: {
 				Tooltip:
 					'''
 					[i:FargowiltasSouls/CopperEnchant][i:FargowiltasSouls/ObsidianEnchant][i:FargowiltasSouls/LeadEnchant] Attacks spawn lightning, explosions, and inflict Lead Poisoning
-					[i:FargowiltasSouls/TinEnchant] Sets Tin crit chance to 10%, increasing up to double your current crit chance or 50%
-					[i:FargowiltasSouls/IronEnchant] You attract items from further away, 33% chance to not consume items at an Anvil
+					[i:FargowiltasSouls/TinEnchant] Sets Tin crit chance to 10%, increasing up to double your original crit chance or 50%
+					[i:FargowiltasSouls/IronEnchant] You attract items from further away, 50% chance to not consume items on first craft
 					[i:FargowiltasSouls/LeadEnchant] You take 60% less from damage over time
 					[i:FargowiltasSouls/SilverEnchant] Right Click to guard with your shield
-					[i:FargowiltasSouls/TungstenEnchant] 300% increased sword size and projectile size every quarter second
-					[i:FargowiltasSouls/ObsidianEnchant] Grants immunity to fire and lava
+					[i:FargowiltasSouls/TungstenEnchant] Weapon size increased to 300% and projectile size every quarter second
+					[i:FargowiltasSouls/ObsidianEnchant] Grants immunity to lava
+					[i:FargowiltasSouls/AshWoodEnchant] While burning or in lava, player and town NPC attacks are accompanied by fireballs
 					'The land lends its strength'
 					'''
 			}
@@ -3155,7 +2816,7 @@ Mods: {
 					[i:FargowiltasSouls/BorealWoodEnchant] Attacks will periodically be accompanied by several snowballs
 					[i:FargowiltasSouls/RichMahoganyEnchant] All grappling hooks shoot, pull, and retract 2.5x as fast
 					[i:FargowiltasSouls/EbonwoodEnchant][i:FargowiltasSouls/ShadewoodEnchant] You have an aura of Corruption and Bleeding
-					[i:FargowiltasSouls/PalmWoodEnchant] Double tap down to spawn up to 3 palm tree sentries
+					[i:FargowiltasSouls/PalmWoodEnchant] Double tap down to spawn up to 2 palm tree sentries
 					[i:FargowiltasSouls/PearlwoodEnchant] Projectiles may spawn a star when they hit something
 					'Extremely rigid'
 					'''
@@ -3168,10 +2829,11 @@ Mods: {
 					[i:FargowiltasSouls/GoldEnchant] Press the Gold hotkey to be encased in a Golden Shell
 					[i:FargowiltasSouls/GoldEnchant] Automatically sends coins to your piggy bank when picked up
 					[i:FargowiltasSouls/PlatinumEnchant] 20% chance for enemies to drop 5x loot
+					[i:FargowiltasSouls/GladiatorEnchant] Double tap down to place a banner that buffs you while close
 					[i:FargowiltasSouls/GladiatorEnchant] Spears will rain down on struck enemies
-					[i:FargowiltasSouls/GladiatorEnchant] Grants knockback immunity when you are facing the attack
 					[i:FargowiltasSouls/RedRidingEnchant] Successive attack gain bonus damage 
 					[i:FargowiltasSouls/ValhallaKnightEnchant] Increases the effectiveness of healing sources by 50%
+					[i:FargowiltasSouls/ValhallaKnightEnchant] Improves mounts and stats while mounted, mounts have a dash
 					'A mind of unbreakable determination'
 					'''
 			}
@@ -3197,10 +2859,11 @@ Mods: {
 					Allows flight, super fast running, and extra mobility on ice
 					The wearer can run even faster on sand
 					8% increased movement speed
-					Increases jump speed and allows auto-jump
+					Increases jump speed and height, allows double jump and auto-jump, and negates fall damage
+					Provides the ability to walk on water, honey and lava
+					Grants immunity to fire blocks and 7 seconds of immunity to lava
+					Reduces damage from touching lava
 					Flowers grow on the grass you walk on
-					Allows the holder to double jump
-					Increases jump height and negates fall damage
 					'Back and better than ever'
 					'''
 			}
@@ -3243,9 +2906,35 @@ Mods: {
 					Summons a friendly rainbow slime
 					Certain enemies will drop potions when defeated
 					When attacking by manually clicking, increases non-summon damage by 30%
-					[c/00FFFF:Following effects work passively from inventory or vanity slots:]
+					[c/00FFFF:Following effects work passively from inventory or vanity slots (right click to disable in inventory):]
 					    Grants immunity to Mighty Wind, Suffocation, Chilled, and Guilty
-					    You have autofire and improved night vision
+					    You have improved night vision
+					    Automatically uses healing & mana potions when needed and increases pickup range for mana stars
+					    You respawn with more life and when no boss is alive, respawn faster
+					    Press the Frigid Spell key to cast Ice Rod
+					    Right click to zoom and drastically improves reforges
+					    Stabilizes gravity in space and in liquids
+					'The amalgamate born of a thousand common enemies'
+					'''
+			}
+
+			BionomicClusterInactive: {
+				DisplayName: Bionomic Cluster (Inactive)
+				Tooltip:
+					'''
+					Grants immunity to Frostburn, Shadowflame, and Squeaky Toy
+					Grants immunity to Flames of the Universe, Clipped Wings, Crippled, Webbed, and Purified
+					Grants immunity to Lovestruck, Stinky, Midas, and Hexed
+					Use to teleport to your last death point
+					Your attacks can inflict Clipped Wings and produce hearts
+					Attacks have a chance to squeak and deal 1 damage to you
+					While attacking, gain massively increased damage and shadowflame, but less move and defenses and attack speed bonuses
+					Summons a friendly rainbow slime
+					Certain enemies will drop potions when defeated
+					When attacking by manually clicking, increases non-summon damage by 30%
+					[c/00FFFF:Following effects work passively in vanity slots (right click to enable in inventory):]
+					    Grants immunity to Mighty Wind, Suffocation, Chilled, and Guilty
+					    You have improved night vision
 					    Automatically uses healing & mana potions when needed and increases pickup range for mana stars
 					    You respawn with more life and when no boss is alive, respawn faster
 					    Press the Frigid Spell key to cast Ice Rod
@@ -3358,6 +3047,19 @@ Mods: {
 				Tooltip:
 					'''
 					Works in your inventory
+					Right click to disable
+					Grants immunity to Frostburn and Chilled
+					Press the Frigid Spell key to cast Ice Rod
+					Your ice blocks inflict Frostburn
+					'A shard of ancient magical ice'
+					'''
+			}
+
+			FrigidGemstoneInactive: {
+				DisplayName: Frigid Gemstone (Inactive)
+				Tooltip:
+					'''
+					Currently inactive, Right click to activate
 					Grants immunity to Frostburn and Chilled
 					Press the Frigid Spell key to cast Ice Rod
 					Your ice blocks inflict Frostburn
@@ -3394,7 +3096,7 @@ Mods: {
 				DisplayName: Gelic Wings
 				Tooltip:
 					'''
-					Acts as wings
+					Allows flight and slow fall
 					Grants immunity to Flipped caused by the Underground Hallow
 					Allows the wearer to double jump
 					When you land after a jump, slime spikes shoot out to your sides
@@ -3536,6 +3238,20 @@ Mods: {
 				Tooltip:
 					'''
 					Works in your inventory
+					Right click to disable
+					Grants immunity to Suffocation
+					10% reduced magic damage
+					Automatically use mana potions when needed
+					Increases pickup range for mana stars
+					'The quietly muttering head of a defeated foe'
+					'''
+			}
+
+			MysticSkullInactive: {
+				DisplayName: Mystic Skull (Inactive)
+				Tooltip:
+					'''
+					Currently inactive, Right click to activate
 					Grants immunity to Suffocation
 					10% reduced magic damage
 					Automatically use mana potions when needed
@@ -3561,7 +3277,7 @@ Mods: {
 				Tooltip:
 					'''
 					Grants immunity to Lovestruck, Stinky, and Hexed
-					You respawn with more life
+					You respawn with more life, works from inventory
 					Your attacks occasionally produce hearts
 					'The scent is somewhat overpowering'
 					'''
@@ -3773,7 +3489,6 @@ Mods: {
 					'''
 					When attacking by manually clicking, increases non-summon damage by 30%
 					Grants immunity to Webbed and Purified
-					Grants autofire to all weapons (this effect also works in your inventory)
 					'An idol of the ancient jungle dwellers'
 					'''
 			}
@@ -3805,8 +3520,11 @@ Mods: {
 				DisplayName: Zephyr Boots
 				Tooltip:
 					'''
-					Allows flight and super fast running
+					Allows flight, super fast running, and extra mobility on ice
 					8% increased movement speed
+					Provides the ability to walk on water, honey and lava
+					Grants immunity to fire blocks and 7 seconds of immunity to lava
+					Reduces damage from touching lava
 					Allows the holder to double jump
 					Increases jump height and negates fall damage
 					'Run like the wind'
@@ -3846,7 +3564,7 @@ Mods: {
 					Increases HP by 100
 					15% damage reduction
 					Increases life regeneration by 5
-					Grants immunity to knockback, several debuffs, and fall damage
+					Grants immunity to knockback, several debuffs, Shimmering, and fall damage
 					Enemies are more likely to target you
 					Effects of Brain of Confusion, Star Veil, and Bee Cloak
 					Effects of Shiny Stone, Paladin's Shield, and Frozen Turtle Shell
@@ -3924,7 +3642,7 @@ Mods: {
 					Increases max life by 100%, damage for your current weapon class by 50%, and damage reduction by 10%
 					Increases life regen drastically, your cursor causes nearby enemies to take increased damage
 					Grants gravity control, fastfall, and immunity to knockback, almost all Eternity Mode debuffs, and more
-					Grants autofire to all weapons and you automatically use mana potions when needed
+					Uou automatically use mana potions when needed
 					Your attacks create additional attacks, hearts, and inflict a cocktail of Eternity Mode debuffs
 					Increased stats when inflicted with Cursed Inferno or Ichor
 					Press the Debuff Install key to debuff and buff yourself
@@ -3975,14 +3693,14 @@ Mods: {
 					'''
 					Summons fireballs, shadow orbs, icicles, leaf crystals, flameburst minion, hallowed sword and shield, and beetles
 					Right Click to Guard
-					Double tap down to spawn a sentry and portal, call a storm and arrow rain, toggle stealth, and direct your empowered guardian
+					Double tap down to spawn a sentry, a banner, and a portal, call a storm and arrow rain, toggle stealth, and direct your empowered guardian
 					Gold Key encases you in gold, Freeze Key freezes time for 5 seconds, minions spew scythes
 					Solar shield allows you to dash, Dash into any walls, to teleport through them
 					Throw a smoke bomb to teleport to it and gain the First Strike Buff
 					Attacks may spawn lightning, a storm cloud, flower petals, spectre orbs, a Dungeon Guardian, snowballs, spears, or buff boosters
 					Attacks cause increased life regen, shadow dodge, Flameburst shots, meteor showers, and reduced enemy immune frames
 					Critical chance is set to 25%, Crit to increase it by 5%, At 100% every 10th attack gains 4% life steal
-					Getting hit drops your crit back down, trigger a blood geyser, and reflects damage
+					Getting hit drops your crit back down, triggers a blood geyser, and reflects damage
 					Projectiles may split or shatter and spawn stars, item and projectile size increased, attract items from further away
 					Nearby enemies are ignited, You leave behind a trail of fire, jump to create a spore explosion
 					Grants Crimson regen, immunity to fire, fall damage, and lava, and doubled herb collection
@@ -4041,7 +3759,7 @@ Mods: {
 					'''
 					Increased block and wall placement speed by 50%
 					Near infinite block placement and mining reach
-					Mining speed tripled
+					Mining speed tripled, plus effect of Ancient Chisel
 					Shows the location of enemies, traps, and treasures
 					Auto paint and actuator effect
 					Provides light and allows gravity control
@@ -4049,7 +3767,7 @@ Mods: {
 					    Tiles and walls will not be consumed
 						Increased placement speed and range
 					Effect can be disabled in Soul Toggles menu
-					Effects of the Cell Phone and Royal Gel
+					Effects of the Cell Phone, Royal Gel and Treasure Magnet
 					Summons a pet Magic Lantern
 					'Limitless possibilities'
 					'''
@@ -4248,7 +3966,7 @@ Mods: {
 				DisplayName: Deer Sinew
 				Tooltip:
 					'''
-					Allows the ability to dash
+					Allows the ability to dash without a dash accessory
 					Double tap a direction
 					Taking damage may briefly freeze you
 					Reduces damage when your speed increases, down to 0.85x at max
@@ -4451,6 +4169,15 @@ Mods: {
 					'''
 					Summons the spawn of Mutant
 					'You think you're safe?'
+					'''
+			}
+
+			HokeyBall: {
+				DisplayName: Hokey Ball
+				Tooltip:
+					'''
+					Summons Nibble
+					'Show Nibble'
 					'''
 			}
 
@@ -5137,7 +4864,7 @@ Mods: {
 
 			PinkEskimoEnchant.DisplayName: Mods.FargowiltasSouls.Items.PinkEskimoEnchant.DisplayName
 
-			LifeChallengerBag: {
+			LifelightBag: {
 				DisplayName: Treasure Bag
 				Tooltip: Right click to open
 			}
@@ -5186,13 +4913,13 @@ Mods: {
 				Tooltip: Xi vs Sakuzyo 'Storia'
 			}
 
-			LifeChallengerRelic: {
-				DisplayName: Lieflight Relic
+			LifelightRelic: {
+				DisplayName: Lifelight Relic
 				Tooltip: ""
 			}
 
-			LifeChallengerTrophy: {
-				DisplayName: Lieflight Trophy
+			LifelightTrophy: {
+				DisplayName: Lifelight Trophy
 				Tooltip: ""
 			}
 
@@ -5205,7 +4932,7 @@ Mods: {
 				DisplayName: Crystalline Congregation
 				Tooltip:
 					'''
-					Summon up to 20 crystal balls near your mouse cursor that home towards you 
+					Summon up to 30 crystal balls near your mouse cursor that home towards you 
 					 Release the button to send them towards your cursor
 					'''
 			}
@@ -5217,7 +4944,7 @@ Mods: {
 
 			KamikazePixieStaff: {
 				DisplayName: Expixive Staff
-				Tooltip: Summons friendly pixies that fire shots for 3 seconds, then charge into enemies and explode
+				Tooltip: Summons friendly pixies that fire shots for a while, then charge into enemies and explode
 			}
 
 			Lightslinger: {
@@ -5231,6 +4958,128 @@ Mods: {
 			}
 
 			MostlyOrdinaryrock.Tooltip: Mods.FargowiltasSouls.ItemTooltip.MostlyOrdinaryrock
+
+			WiresPainting: {
+				DisplayName: Wires Painting
+				Tooltip: Look inside
+			}
+
+			PrismaRegalia: {
+				DisplayName: Prisma Regalia
+				Tooltip:
+					'''
+					Hitting with the tip of the spear releases homing stars
+					Hold to charge for more damage
+					While fully charged, all hits release additional stars
+					'The radiant power of a foe's pure essence...'
+					'''
+			}
+
+			MechLure: {
+				DisplayName: Mechanical Lure
+				Tooltip: Throw underwater at the Ocean to lure out a shrouded creature
+			}
+
+			TheBaronsTusk: {
+				DisplayName: The Baron's Tusk
+				Tooltip:
+					'''
+					Swings emit flying shrapnel, that can embed in enemies
+					Hitting enemies that have more than 15 embedded shrapnel with the tusk rips it out
+					The rip deals a large chunk of damage and is guaranteed to critically strike
+					Shrapnel is also ripped out when the enemy dies
+					'''
+			}
+
+			NavalRustrifle: {
+				DisplayName: Naval Rustrifle
+				Tooltip:
+					'''
+					Manually reload after each shot
+					Time the reload correctly to empower your next shot
+					Empowered shots deal double damage and are guaranteed to critically strike
+					'''
+			}
+
+			DecrepitAirstrikeRemote: {
+				DisplayName: Decrepit Airstrike Remote
+				Tooltip:
+					'''
+					Marks a location with a reticle, consuming all your sentry slots
+					In a few seconds, a massive airstrike explosion will hit it, dealing damage depending on sentry slots consumed
+					All your minions hit by the explosion are blown up into homing splinters
+					Splinters can critically strike
+					'''
+			}
+
+			BanishedBaronBag: {
+				DisplayName: Treasure Bag
+				Tooltip: Right click to open
+			}
+
+			RustedOxygenTank: {
+				DisplayName: Rusted Oxygen Tank
+				Tooltip:
+					'''
+					Works from your inventory
+					Right click to disable
+					You count as wet outside water
+					Grants floaty water movement outside of liquid
+					Increased movement speed while in any liquid
+					'Nobody knows how it works'
+					'''
+			}
+
+			RoseTintedVisor: {
+				DisplayName: Rose Tinted Visor
+				Tooltip:
+					'''
+					Fires up to 6 lasers on release, depending on charge time
+					Has extra critical strike chance depending on lasers charged, up to 100%
+					'''
+			}
+
+			BaronTrophy: {
+				DisplayName: Banished Baron Trophy
+				Tooltip: ""
+			}
+
+			BaronRelic: {
+				Tooltip: ""
+				DisplayName: Banished Baron Relic
+			}
+
+			HiveStaff: {
+				DisplayName: Hive Staff
+				Tooltip: "'The enslaved minions of a defeated foe..'"
+			}
+
+			ROBGyro: {
+				DisplayName: Sentient Gyro
+				Tooltip:
+					'''
+					'Has a mind of its own'
+					Summons a powerful robot that doesn't fight
+					'''
+			}
+
+			EulogistsDoomsdayScenario: {
+				DisplayName: Eulogist's Doomsday Scenario
+				Tooltip: Blow up a small area around you, killing all town npcs and yourself
+			}
+
+			RustedOxygenTankInactive: {
+				DisplayName: Rusted Oxygen Tank (Inactive)
+				Tooltip:
+					'''
+					Works from your inventory
+					Currently inactive, Right click to reactivate
+					You count as wet outside water
+					Grants floaty water movement outside of liquid
+					Increased movement speed while in any liquid
+					'Nobody knows how it works'
+					'''
+			}
 		}
 
 		NPCs: {
@@ -5402,7 +5251,7 @@ Mods: {
 			ShadowOrbNPC.DisplayName: Shadow Orb
 
 			LifeChallenger: {
-				DisplayName: Lieflight
+				DisplayName: Lifelight
 
 				BossChecklistIntegration: {
 					EntryName: "{$Mods.FargowiltasSouls.NPCs.LifeChallenger.DisplayName}"
@@ -5411,7 +5260,18 @@ Mods: {
 				}
 			}
 
+			BanishedBaron: {
+				DisplayName: Banished Baron
+
+				BossChecklistIntegration: {
+					EntryName: "{$Mods.FargowiltasSouls.NPCs.BanishedBaron.DisplayName}"
+					SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.BanishedBaronSpawnInfo}"
+					DespawnMessage: Mods.FargowiltasSouls.BossChecklist.BanishedBaronDespawn
+				}
+			}
+
 			DetonatingBubbleNPC.DisplayName: Detonating Bubble
+			StardustMinion.DisplayName: Stardust Minion
 		}
 
 		Tiles: {
@@ -6095,14 +5955,44 @@ Mods: {
 			MimicTitanGlove.DisplayName: Titan Glove
 			KamikazePixie.DisplayName: Pixie
 			BabyLifelight.DisplayName: Petlight
+			Nibble.DisplayName: Nibble
+			SolarMeteor.DisplayName: Solar Meteor
+			SolarFlamePillarSpawner.DisplayName: Solar Flame Pillar Spawner
+			SolarFlamePillar.DisplayName: Solar Flame Pillar
+			LightningTelegraph.DisplayName: Lightning Telegraph
+			PillarSpawner.DisplayName: Pillar Spawner
+			VortexVortex.DisplayName: Vortex Vortex
+			VortexVortexProjectile.DisplayName: Vortex Vortex Projectile
+			PillarNebulaBlaze.DisplayName: Pillar Nebula Blaze
+			NebulaDeathray.DisplayName: Nebula Deathray
+			NebulaPillarProj.DisplayName: Nebula Pillar Proj
+			NebulaTelegraph.DisplayName: Nebula Telegraph
+			PillarArcanum.DisplayName: Pillar Arcanum
+			BaronWhirlpool.DisplayName: Baron Whirlpool
+			BaronWhirlpoolBolt.DisplayName: Baron Whirlpool Bolt
+			BaronArenaWhirlpool.DisplayName: Baron Arena Whirlpool
+			BaronDeathray.DisplayName: Baron Deathray
+			BaronEyeFlash.DisplayName: Baron Eye Flash
+			BaronTuskShrapnel.DisplayName: Baron Tusk Shrapnel
+			DecrepitAirstrike.DisplayName: Decrepit Airstrike
+			DecrepitAirstrikeNuke.DisplayName: Decrepit Airstrike Nuke
+			DecrepitAirstrikeNukeSplinter.DisplayName: Decrepit Airstrike Nuke Splinter
+			MechLureProjectile.DisplayName: Mech Lure Projectile
+			RoseTintedVisorDeathray.DisplayName: Rose Tinted Visor Deathray
+			GladiatorStandard.DisplayName: Gladiator Standard
+			HiveSentry.DisplayName: Hive
+			ROB.DisplayName: R.O.B
+			MeteorFlame.DisplayName: Meteor Flame
+			RainUmbrella.DisplayName: Rain Umbrella
+			BeeFlower.DisplayName: Bee Flower
 		}
 
-		WoodHeader: "[i:FargowiltasSouls/TimberForce] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.WoodHeader}]"
-		BorealConfig: "[i:FargowiltasSouls/BorealWoodEnchant] [c/8B7464:{$Mods.FargowiltasSouls.Toggler.BorealConfig}]"
-		MahoganyConfig: "[i:FargowiltasSouls/RichMahoganyEnchant] [c/b56c64:{$Mods.FargowiltasSouls.Toggler.MahoganyConfig}]"
-		EbonConfig: "[i:FargowiltasSouls/EbonwoodEnchant] [c/645a8d:{$Mods.FargowiltasSouls.Toggler.EbonConfig}]"
-		ShadeConfig: "[i:FargowiltasSouls/ShadewoodEnchant] [c/586876:{$Mods.FargowiltasSouls.Toggler.ShadeConfig}]"
-		ShadeOnHitConfig: "[i:FargowiltasSouls/ShadewoodEnchant] [c/586876:{$Mods.FargowiltasSouls.Toggler.ShadeOnHitConfig}]"
+		WoodHeader: "[i:FargowiltasSouls/TimberForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WoodHeader}]"
+		BorealConfig: "[i:FargowiltasSouls/BorealWoodEnchant][c/8B7464:{$Mods.FargowiltasSouls.Toggler.BorealConfig}]"
+		MahoganyConfig: "[i:FargowiltasSouls/RichMahoganyEnchant][c/b56c64:{$Mods.FargowiltasSouls.Toggler.MahoganyConfig}]"
+		EbonConfig: "[i:FargowiltasSouls/EbonwoodEnchant][c/645a8d:{$Mods.FargowiltasSouls.Toggler.EbonConfig}]"
+		ShadeConfig: "[i:FargowiltasSouls/ShadewoodEnchant][c/586876:{$Mods.FargowiltasSouls.Toggler.ShadeConfig}]"
+		ShadeOnHitConfig: "[i:FargowiltasSouls/ShadewoodEnchant][c/586876:{$Mods.FargowiltasSouls.Toggler.ShadeOnHitConfig}]"
 		PalmConfig: "[i:FargowiltasSouls/PalmWoodEnchant][c/b78d56:{$Mods.FargowiltasSouls.Toggler.PalmConfig}]"
 		PearlConfig: "[i:FargowiltasSouls/PearlwoodEnchant][c/ad9a5f:{$Mods.FargowiltasSouls.Toggler.PearlConfig}]"
 		EarthHeader: "[i:FargowiltasSouls/EarthForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.EarthHeader}]"
@@ -6122,6 +6012,7 @@ Mods: {
 		TungstenConfig: "[i:FargowiltasSouls/TungstenEnchant][c/b0d2b2:{$Mods.FargowiltasSouls.Toggler.TungstenConfig}]"
 		TungstenProjConfig: "[i:FargowiltasSouls/TungstenEnchant][c/b0d2b2:{$Mods.FargowiltasSouls.Toggler.TungstenProjConfig}]"
 		ObsidianConfig: "[i:FargowiltasSouls/ObsidianEnchant][c/453e73:{$Mods.FargowiltasSouls.Toggler.ObsidianConfig}]"
+		AshWoodConfig: "[i:FargowiltasSouls/AshWoodEnchant][c/958083:{$Mods.FargowiltasSouls.Toggler.AshWoodConfig}]"
 		WillHeader: "[i:FargowiltasSouls/WillForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WillHeader}]"
 		GladiatorConfig: "[i:FargowiltasSouls/GladiatorEnchant][c/9c924e:{$Mods.FargowiltasSouls.Toggler.GladiatorConfig}]"
 		GoldConfig: "[i:FargowiltasSouls/GoldEnchant][c/e7b21c:{$Mods.FargowiltasSouls.Toggler.GoldConfig}]"
@@ -6129,6 +6020,8 @@ Mods: {
 		HuntressConfig: "[i:FargowiltasSouls/HuntressEnchant][c/7ac04c:{$Mods.FargowiltasSouls.Toggler.HuntressConfig}]"
 		RedRidingRainConfig: "[i:FargowiltasSouls/RedRidingEnchant][c/c01b3c:{$Mods.FargowiltasSouls.Toggler.RedRidingRainConfig}]"
 		ValhallaConfig: "[i:FargowiltasSouls/ValhallaKnightEnchant][c/93651e:{$Mods.FargowiltasSouls.Toggler.ValhallaConfig}]"
+		SquireMountSpeedConfig: "[i:FargowiltasSouls/SquireEnchant][c/948f8c:{$Mods.FargowiltasSouls.Toggler.SquireMountSpeedConfig}]"
+		SquireMountJumpConfig: "[i:FargowiltasSouls/SquireEnchant][c/948f8c:{$Mods.FargowiltasSouls.Toggler.SquireMountJumpConfig}]"
 		SquirePanicConfig: "[i:FargowiltasSouls/SquireEnchant][c/948f8c:{$Mods.FargowiltasSouls.Toggler.SquirePanicConfig}]"
 		LifeHeader: "[i:FargowiltasSouls/LifeForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.LifeHeader}]"
 		BeeConfig: "[i:FargowiltasSouls/BeeEnchant][c/FEF625:{$Mods.FargowiltasSouls.Toggler.BeeConfig}]"
@@ -6146,7 +6039,6 @@ Mods: {
 		JungleConfig: "[i:FargowiltasSouls/JungleEnchant][c/71971f:{$Mods.FargowiltasSouls.Toggler.JungleConfig}]"
 		JungleDashConfig: "[i:FargowiltasSouls/JungleEnchant][c/71971f:{$Mods.FargowiltasSouls.Toggler.JungleDashConfig}]"
 		MoltenConfig: "[i:FargowiltasSouls/MoltenEnchant][c/c12b2b:{$Mods.FargowiltasSouls.Toggler.MoltenConfig}]"
-		MoltenEConfig: "[i:FargowiltasSouls/MoltenEnchant][c/c12b2b:{$Mods.FargowiltasSouls.Toggler.MoltenEConfig}]"
 		ShroomiteConfig: "[i:FargowiltasSouls/ShroomiteEnchant][c/008cf4:{$Mods.FargowiltasSouls.Toggler.ShroomiteConfig}]"
 		ShroomiteShroomConfig: "[i:FargowiltasSouls/ShroomiteEnchant][c/008cf4:{$Mods.FargowiltasSouls.Toggler.ShroomiteShroomConfig}]"
 		ShadowHeader: "[i:FargowiltasSouls/ShadowEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ShadowHeader}]"
@@ -6166,11 +6058,11 @@ Mods: {
 		FossilConfig: "[i:FargowiltasSouls/FossilEnchant][c/8c5c3b:{$Mods.FargowiltasSouls.Toggler.FossilConfig}]"
 		ForbiddenConfig: "[i:FargowiltasSouls/ForbiddenEnchant][c/e7b21c:{$Mods.FargowiltasSouls.Toggler.ForbiddenConfig}]"
 		HallowDodgeConfig: "[i:FargowiltasSouls/HallowEnchant][c/968564:{$Mods.FargowiltasSouls.Toggler.HallowDodgeConfig}]"
-		HallowedConfig: "[i:FargowiltasSouls/HallowEnchant][c/968564:{$Mods.FargowiltasSouls.Toggler.HallowedConfig}]"
-		HallowSConfig: "[i:FargowiltasSouls/HallowEnchant][c/968564:{$Mods.FargowiltasSouls.Toggler.HallowSConfig}]"
+		AHallowedConfig: "[i:FargowiltasSouls/AncientHallowEnchant][c/968564:{$Mods.FargowiltasSouls.Toggler.AHallowedConfig}]"
 		SpectreConfig: "[i:FargowiltasSouls/SpectreEnchant][c/accdfc:{$Mods.FargowiltasSouls.Toggler.SpectreConfig}]"
 		TikiConfig: "[i:FargowiltasSouls/TikiEnchant][c/56A52B:{$Mods.FargowiltasSouls.Toggler.TikiConfig}]"
 		CosmoHeader: "[i:FargowiltasSouls/CosmoForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.CosmoHeader}]"
+		MeteorMomentumConfig: "[i:FargowiltasSouls/MeteorEnchant][c/5f4752:{$Mods.FargowiltasSouls.Toggler.MeteorMomentumConfig}]"
 		MeteorConfig: "[i:FargowiltasSouls/MeteorEnchant][c/5f4752:{$Mods.FargowiltasSouls.Toggler.MeteorConfig}]"
 		NebulaConfig: "[i:FargowiltasSouls/NebulaEnchant][c/fe7ee5:{$Mods.FargowiltasSouls.Toggler.NebulaConfig}]"
 		SolarConfig: "[i:FargowiltasSouls/SolarEnchant][c/fe9e23:{$Mods.FargowiltasSouls.Toggler.SolarConfig}]"
@@ -6185,6 +6077,7 @@ Mods: {
 		DeerSinewDashConfig: "[i:FargowiltasSouls/DeerSinew][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DeerSinewDashConfig}]"
 		MasoAeolusConfig: "[i:FargowiltasSouls/AeolusBoots][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAeolusConfig}]"
 		MasoAeolusFlowerConfig: "[i:FargowiltasSouls/AeolusBoots][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAeolusFlowerConfig}]"
+		MasoAeolusFrogConfig: "[i:FargowiltasSouls/AeolusBoots][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAeolusFrogConfig}]"
 		MasoIconConfig: "[i:FargowiltasSouls/SinisterIcon][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoIconConfig}]"
 		MasoIconDropsConfig: "[i:FargowiltasSouls/SinisterIcon][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoIconDropsConfig}]"
 		MasoGrazeConfig: "[i:FargowiltasSouls/SparklingAdoration][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGrazeConfig}]"
@@ -6208,7 +6101,6 @@ Mods: {
 		MasoPouchConfig: "[i:FargowiltasSouls/WretchedPouch][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPouchConfig}]"
 		MasoClippedConfig: "[i:FargowiltasSouls/WyvernFeather][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoClippedConfig}]"
 		MasoGrav2Config: "[i:FargowiltasSouls/WyvernFeather][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGrav2Config}]"
-		TribalCharmConfig: "[i:FargowiltasSouls/TribalCharm][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TribalCharmConfig}]"
 		TribalCharmClickBonusConfig: "[i:FargowiltasSouls/TribalCharm][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TribalCharmClickBonusConfig}]"
 		DubiousHeader: "[i:FargowiltasSouls/DubiousCircuitry][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DubiousHeader}]"
 		FusedLensInstallConfig: "[i:FargowiltasSouls/FusedLens][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FusedLensInstallConfig}]"
@@ -6248,7 +6140,7 @@ Mods: {
 		MoonCharmConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MoonCharmConfig}]"
 		NeptuneShellConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.NeptuneShellConfig}]"
 		SniperConfig: "[i:FargowiltasSouls/SnipersSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SniperConfig}]"
-		ManaFlowerConfig: "[i:FargowiltasSouls/SnipersSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ManaFlowerConfig}]"
+		ManaFlowerConfig: "[i:FargowiltasSouls/ArchWizardsSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ManaFlowerConfig}]"
 		UniverseConfig: "[i:FargowiltasSouls/UniverseSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.UniverseConfig}]"
 		WorldShaperHeader: "[i:FargowiltasSouls/WorldShaperSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WorldShaperHeader}]"
 		MiningHuntConfig: "[i:FargowiltasSouls/MinerEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MiningHuntConfig}]"
@@ -6264,6 +6156,7 @@ Mods: {
 		DefenseFleshKnuckleConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseFleshKnuckleConfig}]"
 		DefensePaladinConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefensePaladinConfig}]"
 		DefenseFrozenConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseFrozenConfig}]"
+		ShimmerImmunityConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ShimmerImmunityConfig}]"
 		FlightMasteryHeader: "[i:FargowiltasSouls/FlightMasterySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FlightMasteryHeader}]"
 		FlightMasteryInsigniaConfig: "[i:FargowiltasSouls/FlightMasterySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FlightMasteryInsigniaConfig}]"
 		FlightMasteryGravityConfig: "[i:FargowiltasSouls/FlightMasterySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FlightMasteryGravityConfig}]"
@@ -6286,79 +6179,79 @@ Mods: {
 		TrawlerGelConfig: "[i:FargowiltasSouls/TrawlerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TrawlerGelConfig}]"
 		EternityHeader: "[i:FargowiltasSouls/EternitySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.EternityHeader}]"
 		EternityConfig: "[i:FargowiltasSouls/EternitySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.EternityConfig}]"
-		PetHeader: "[i:2420] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeader}]"
-		PetDinoConfig: "[i:1242] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDinoConfig}]"
-		PetEaterConfig: "[i:994] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEaterConfig}]"
-		PetFaceMonsterConfig: "[i:3060] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetFaceMonsterConfig}]"
-		PetGrinchConfig: "[i:1959] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGrinchConfig}]"
-		PetHornetConfig: "[i:1170] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHornetConfig}]"
-		PetImpConfig: "[i:4551] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetImpConfig}]"
-		PetPenguinConfig: "[i:669] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPenguinConfig}]"
-		PetPandaConfig: "[i:4550] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPandaConfig}]"
-		PetDGConfig: "[i:1169] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDGConfig}]"
-		PetSnowmanConfig: "[i:1312] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSnowmanConfig}]"
-		PetShroomConfig: "[i:1181] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetShroomConfig}]"
-		PetWerewolfConfig: "[i:4736] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetWerewolfConfig}]"
-		PetBernieConfig: "[i:5088] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBernieConfig}]"
-		PetBlackCatConfig: "[i:1810] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBlackCatConfig}]"
-		PetChesterConfig: "[i:5098] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetChesterConfig}]"
-		PetCompanionCubeConfig: "[i:3628] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetCompanionCubeConfig}]"
-		PetCursedSaplingConfig: "[i:1837] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetCursedSaplingConfig}]"
-		PetKittenConfig: "[i:4735] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetKittenConfig}]"
-		PetEsteeConfig: "[i:4365] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEsteeConfig}]"
-		PetEyeSpringConfig: "[i:1311] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEyeSpringConfig}]"
-		PetFoxConfig: "[i:4604] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetFoxConfig}]"
-		PetButterflyConfig: "[i:4605] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetButterflyConfig}]"
-		PetGlommerConfig: "[i:5089] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGlommerConfig}]"
-		PetDragonConfig: "[i:3857] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDragonConfig}]"
-		PetHarpyConfig: "[i:4603] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHarpyConfig}]"
-		PetLizardConfig: "[i:1172] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetLizardConfig}]"
-		PetMinitaurConfig: "[i:2587] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMinitaurConfig}]"
-		PetParrotConfig: "[i:1180] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetParrotConfig}]"
-		PetPigmanConfig: "[i:5091] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPigmanConfig}]"
-		PetPlanteroConfig: "[i:4701] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPlanteroConfig}]"
-		PetGatoConfig: "[i:3855] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGatoConfig}]"
-		PetPupConfig: "[i:1927] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPupConfig}]"
-		PetSeedConfig: "[i:1182] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSeedConfig}]"
-		PetSpiderConfig: "[i:1798] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSpiderConfig}]"
-		PetMimicConfig: "[i:4737] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMimicConfig}]"
-		PetSharkConfig: "[i:4425] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSharkConfig}]"
-		PetSquashConfig: "[i:1799] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSquashConfig}]"
-		PetGliderConfig: "[i:4366] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGliderConfig}]"
-		PetTikiConfig: "[i:1171] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetTikiConfig}]"
-		PetTurtleConfig: "[i:753] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetTurtleConfig}]"
-		PetVoltConfig: "[i:4777] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetVoltConfig}]"
-		PetZephyrConfig: "[i:2420] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetZephyrConfig}]"
-		PetOrbConfig: "[i:115] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetOrbConfig}]"
-		PetHeartConfig: "[i:3062] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeartConfig}]"
-		PetLanternConfig: "[i:3043] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetLanternConfig}]"
-		PetNaviConfig: "[i:425] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetNaviConfig}]"
-		PetFlickerConfig: "[i:4816] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetFlickerConfig}]"
-		PetWispConfig: "[i:1183] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetWispConfig}]"
-		PetSuspEyeConfig: "[i:3577] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSuspEyeConfig}]"
-		PetKSConfig: "[i:4797] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetKSConfig}]"
-		PetEoCConfig: "[i:4798] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEoCConfig}]"
-		PetEoWConfig: "[i:4799] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEoWConfig}]"
-		PetBoCConfig: "[i:4800] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBoCConfig}]"
-		PetDeerConfig: "[i:5090] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDeerConfig}]"
-		PetQBConfig: "[i:4802] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetQBConfig}]"
-		PetSkeleConfig: "[i:4801] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSkeleConfig}]"
-		PetQSConfig: "[i:4960] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetQSConfig}]"
-		PetDestroyerConfig: "[i:4803] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDestroyerConfig}]"
-		PetTwinsConfig: "[i:4804] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetTwinsConfig}]"
-		PetSkelePrimeConfig: "[i:4805] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSkelePrimeConfig}]"
-		PetOgreConfig: "[i:4816] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetOgreConfig}]"
-		PetPlanteraConfig: "[i:4806] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPlanteraConfig}]"
-		PetPumpkingConfig: "[i:4812] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPumpkingConfig}]"
-		PetEverscreamConfig: "[i:4813] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEverscreamConfig}]"
-		PetIceQueenConfig: "[i:4814] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetIceQueenConfig}]"
-		PetDukeConfig: "[i:4808] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDukeConfig}]"
-		PetGolemConfig: "[i:4807] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGolemConfig}]"
-		PetEoLConfig: "[i:4811] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEoLConfig}]"
-		PetBetsyConfig: "[i:4817] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBetsyConfig}]"
-		PetMartianConfig: "[i:4815] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMartianConfig}]"
-		PetLCConfig: "[i:4809] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetLCConfig}]"
-		PetMLConfig: "[i:4810] [c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMLConfig}]"
+		PetHeader: "[i:2420][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeader}]"
+		PetDinoConfig: "[i:1242][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDinoConfig}]"
+		PetEaterConfig: "[i:994][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEaterConfig}]"
+		PetFaceMonsterConfig: "[i:3060][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetFaceMonsterConfig}]"
+		PetGrinchConfig: "[i:1959][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGrinchConfig}]"
+		PetHornetConfig: "[i:1170][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHornetConfig}]"
+		PetImpConfig: "[i:4551][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetImpConfig}]"
+		PetPenguinConfig: "[i:669][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPenguinConfig}]"
+		PetPandaConfig: "[i:4550][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPandaConfig}]"
+		PetDGConfig: "[i:1169][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDGConfig}]"
+		PetSnowmanConfig: "[i:1312][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSnowmanConfig}]"
+		PetShroomConfig: "[i:1181][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetShroomConfig}]"
+		PetWerewolfConfig: "[i:4736][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetWerewolfConfig}]"
+		PetBernieConfig: "[i:5088][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBernieConfig}]"
+		PetBlackCatConfig: "[i:1810][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBlackCatConfig}]"
+		PetChesterConfig: "[i:5098][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetChesterConfig}]"
+		PetCompanionCubeConfig: "[i:3628][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetCompanionCubeConfig}]"
+		PetCursedSaplingConfig: "[i:1837][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetCursedSaplingConfig}]"
+		PetKittenConfig: "[i:4735][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetKittenConfig}]"
+		PetEsteeConfig: "[i:4365][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEsteeConfig}]"
+		PetEyeSpringConfig: "[i:1311][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEyeSpringConfig}]"
+		PetFoxConfig: "[i:4604][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetFoxConfig}]"
+		PetButterflyConfig: "[i:4605][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetButterflyConfig}]"
+		PetGlommerConfig: "[i:5089][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGlommerConfig}]"
+		PetDragonConfig: "[i:3857][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDragonConfig}]"
+		PetHarpyConfig: "[i:4603][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHarpyConfig}]"
+		PetLizardConfig: "[i:1172][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetLizardConfig}]"
+		PetMinitaurConfig: "[i:2587][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMinitaurConfig}]"
+		PetParrotConfig: "[i:1180][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetParrotConfig}]"
+		PetPigmanConfig: "[i:5091][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPigmanConfig}]"
+		PetPlanteroConfig: "[i:4701][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPlanteroConfig}]"
+		PetGatoConfig: "[i:3855][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGatoConfig}]"
+		PetPupConfig: "[i:1927][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPupConfig}]"
+		PetSeedConfig: "[i:1182][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSeedConfig}]"
+		PetSpiderConfig: "[i:1798][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSpiderConfig}]"
+		PetMimicConfig: "[i:4737][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMimicConfig}]"
+		PetSharkConfig: "[i:4425][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSharkConfig}]"
+		PetSquashConfig: "[i:1799][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSquashConfig}]"
+		PetGliderConfig: "[i:4366][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGliderConfig}]"
+		PetTikiConfig: "[i:1171][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetTikiConfig}]"
+		PetTurtleConfig: "[i:753][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetTurtleConfig}]"
+		PetVoltConfig: "[i:4777][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetVoltConfig}]"
+		PetZephyrConfig: "[i:2420][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetZephyrConfig}]"
+		PetOrbConfig: "[i:115][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetOrbConfig}]"
+		PetHeartConfig: "[i:3062][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeartConfig}]"
+		PetLanternConfig: "[i:3043][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetLanternConfig}]"
+		PetNaviConfig: "[i:425][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetNaviConfig}]"
+		PetFlickerConfig: "[i:4816][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetFlickerConfig}]"
+		PetWispConfig: "[i:1183][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetWispConfig}]"
+		PetSuspEyeConfig: "[i:3577][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSuspEyeConfig}]"
+		PetKSConfig: "[i:4797][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetKSConfig}]"
+		PetEoCConfig: "[i:4798][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEoCConfig}]"
+		PetEoWConfig: "[i:4799][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEoWConfig}]"
+		PetBoCConfig: "[i:4800][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBoCConfig}]"
+		PetDeerConfig: "[i:5090][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDeerConfig}]"
+		PetQBConfig: "[i:4802][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetQBConfig}]"
+		PetSkeleConfig: "[i:4801][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSkeleConfig}]"
+		PetQSConfig: "[i:4960][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetQSConfig}]"
+		PetDestroyerConfig: "[i:4803][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDestroyerConfig}]"
+		PetTwinsConfig: "[i:4804][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetTwinsConfig}]"
+		PetSkelePrimeConfig: "[i:4805][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetSkelePrimeConfig}]"
+		PetOgreConfig: "[i:4816][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetOgreConfig}]"
+		PetPlanteraConfig: "[i:4806][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPlanteraConfig}]"
+		PetPumpkingConfig: "[i:4812][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetPumpkingConfig}]"
+		PetEverscreamConfig: "[i:4813][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEverscreamConfig}]"
+		PetIceQueenConfig: "[i:4814][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetIceQueenConfig}]"
+		PetDukeConfig: "[i:4808][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDukeConfig}]"
+		PetGolemConfig: "[i:4807][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetGolemConfig}]"
+		PetEoLConfig: "[i:4811][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEoLConfig}]"
+		PetBetsyConfig: "[i:4817][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBetsyConfig}]"
+		PetMartianConfig: "[i:4815][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMartianConfig}]"
+		PetLCConfig: "[i:4809][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetLCConfig}]"
+		PetMLConfig: "[i:4810][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMLConfig}]"
 		PatreonHeader: "[i:FargowiltasSouls/RoombaPet][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonHeader}]"
 		PatreonRoomba: "[i:FargowiltasSouls/RoombaPet][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonRoomba}]"
 		PatreonOrb: "[i:FargowiltasSouls/ComputationOrb][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonOrb}]"
@@ -6374,6 +6267,7 @@ Mods: {
 		PatreonPrime: "[i:FargowiltasSouls/PrimeStaff][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonPrime}]"
 		PatreonCrimetroid: "[i:FargowiltasSouls/CrimetroidEgg][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonCrimetroid}]"
 		PatreonNanoCore: "[i:FargowiltasSouls/NanoCore][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonNanoCore}]"
+		PatreonROB: "[i:FargowiltasSouls/ROBGyro][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonROB}]"
 
 		Keybinds: {
 			Freeze.DisplayName: Freeze
@@ -6387,17 +6281,6 @@ Mods: {
 			"Frigid Spell.DisplayName": Frigid  Spell
 			"Debuff Install.DisplayName": Debuff  Install
 			"Ammo Cycle.DisplayName": Ammo  Cycle
-			弹药切换.DisplayName: 弹药切换
-			减益负载.DisplayName: 减益负载
-			寒霜咒语.DisplayName: 寒霜咒语
-			魔法净化.DisplayName: 魔法净化
-			玲珑圣印精确模式.DisplayName: 玲珑圣印精确模式
-			打开魂石效果设置.DisplayName: 打开魂石效果设置
-			突变炸弹.DisplayName: 突变炸弹
-			特殊冲刺.DisplayName: 特殊冲刺
-			投掷烟雾弹.DisplayName: 投掷烟雾弹
-			金身.DisplayName: 金身
-			冻结.DisplayName: 冻结
 		}
 
 		Configs: {
@@ -6513,9 +6396,42 @@ Mods: {
 					Label: "{$Mods.FargowiltasSouls.PatreonNanoCore}"
 					Tooltip: ""
 				}
+
+				PatreonROB: {
+					Label: "{$Mods.FargowiltasSouls.PatreonROB}"
+					Tooltip: ""
+				}
+
+				DisplayTogglesRegardless: {
+					Label: Display Soul Toggles Always
+					Tooltip: Disable to only show soul toggles when you have the effect's accessory equipped. Enable to always show them.
+				}
 			}
 		}
 
 		Conditions.RoombaPetSold: Mods.FargowiltasSouls.Conditions.RoombaPetSold
+		AbyssalDivingSuitConfig: "[i:CalamityMod/AbyssalDivingSuit] Abyssal Diving Suit"
+		CalamityTrawlerHeader: "[i:FargowiltasSouls/TrawlerSoul] Calamity Trawler's Soul Toggles"
+		NucleogenesisConfig: "[i:CalamityMod/Nucleogenesis] Nucleogenesis"
+		CalamityConjuristHeader: "[i:FargowiltasSouls/ConjuristsSoul] Calamity Conjurist's Soul Toggles"
+		DynamoStemCellsConfig: "[i:CalamityMod/DynamoStemCells] Dynamo Stem Cells"
+		DaawnlightSpiritOriginConfig: "[i:CalamityMod/DaawnlightSpiritOrigin] Daawnlight Spirit Origin"
+		QuiverofNihilityConfig: "[i:CalamityMod/QuiverofNihility] Quiver of Nihility"
+		ElementalQuiverConfig: "[i:CalamityMod/ElementalQuiver] Elemental Quiver"
+		CalamitySniperHeader: "[i:FargowiltasSouls/SnipersSoul] Calamity Sniper's Soul Toggles"
+		EtherealTalismanConfig: "[i:CalamityMod/EtherealTalisman] Ethereal Talisman"
+		CalamityWizardHeader: "[i:FargowiltasSouls/ArchWizardsSoul] Calamity Arch Wizard's Soul Toggles"
+		ElementalGauntletConfig: "[i:CalamityMod/ElementalGauntlet] Elemental Gauntlet"
+		CalamityBerserkerHeader: "[i:FargowiltasSouls/BerserkerSoul] Calamity Berserker Soul Toggles"
+		PurityConfig: "[i:CalamityMod/Purity] Purity"
+		RampartofDeitiesConfig: "[i:CalamityMod/RampartofDeities] Rampart of Deities"
+		AsgardianAegisConfig: "[i:CalamityMod/AsgardianAegis] Asgardian Aegis"
+		AmalgamConfig: "[i:CalamityMod/TheAmalgam] The Amalgam"
+		CalamityColossusHeader: "[i:FargowiltasSouls/ColossusSoul] Calamity Colossus Soul Toggles"
+		VeneratedLocketConfig: "[i:CalamityMod/VeneratedLocket] Venerated Locket"
+		DragonScalesConfig: "[i:CalamityMod/DragonScales] Dragon Scales"
+		EclipseMirrorConfig: "[i:CalamityMod/EclipseMirror] Eclipse Mirror"
+		NanotechConfig: "[i:CalamityMod/Nanotech] Nanotech"
+		VagabondsSoulHeader: "[i:FargowiltasCrossmod/VagabondsSoul] Vagabond's Soul"
 	}
 }
