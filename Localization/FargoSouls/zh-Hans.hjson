@@ -13,7 +13,7 @@ Mods: {
 			Apprentice: 辅助武器的数量从1把提升至2把
 			AncientHallow: 剑的伤害增加，可反射的弹幕伤害上限提升至200
 			AncientShadow: 暗影珠数量增加
-			// AncientCobalt: No upgrade
+			AncientCobalt: 无加强
 			Angler: ""
 			Bee: 增强翅膀的各项数据与蜜蜂的伤害
 			Beetle: ""
@@ -34,12 +34,12 @@ Mods: {
 			Hallow: 药水治疗量加成从40%提升至70%
 			Huntress: 护甲穿透增加量提升至10，伤害增加量提升至5
 			Iron: 不消耗物品的概率增加至50%
-			// Jungle: Spore damage increased, cooldown decreased
+			Jungle: 孢子伤害增加，冷却时间缩短
 			Lead: 增加铅中毒伤害，持续伤害减免提升到60%
 			Meteor: 攻击时每过几秒便会召唤一次流星雨
 			Miner: 挖掘速度提升
 			Molten: 狱火圈伤害翻倍，易伤生效范围增加1.5倍 //for patch
-			// Monk: No upgrade
+			Monk: 无增强
 			Mythril: 增加最大攻速加成，延长持续时间 //for patch
 			Nebula: 增益堆叠上限增加至3层
 			Necro: ""
@@ -63,7 +63,7 @@ Mods: {
 			Spider: ""
 			Spooky: ""
 			Stardust: ""
-			// Snow: No upgrade
+			Snow: 无增强
 			Shadow: 骨堆可漂浮在空中
 			Squire: 使用坐骑时增加15点防御，坐骑速度和加速度从1.25倍提升至1.5倍，治疗增加量从25%提升至33%
 			Tiki: 鞭子攻击距离增加20%
@@ -559,7 +559,7 @@ Mods: {
 			DefenseFleshKnuckleConfig: 血肉指虎仇恨
 			DefensePaladinConfig: 圣骑士护盾
 			DefenseFrozenConfig: 冰冻海龟壳
-			// ShimmerImmunityConfig: Shimmer Immunity
+			ShimmerImmunityConfig: 免疫微光闪烁
 			FlightMasteryHeader: "{$Mods.FargowiltasSouls.Items.FlightMasterySoul.DisplayName}"
 			FlightMasteryInsigniaConfig: 翱翔徽章加速
 			FlightMasteryGravityConfig: 增加重力
@@ -1029,7 +1029,7 @@ Mods: {
 			ZenithHitRate: "造成伤害的频率大幅降低，通过击败下列Boss可提高其输出能力: "
 			VampireKnives: 生命值高于50%时削弱吸血能力
 			Zapinator: 无法堆叠弹幕伤害
-			// CoinGun: Damage of Platinum and Gold Coins heavily reduced, damage of Silver Coins slightly reduced, and damage of Copper Coins increased
+			CoinGun: 铂金币和金币的伤害大幅降低，银币的伤害略微降低，铜币的伤害增加
 			OOASet: 当你使用其他职业的武器攻击时，抵消部分召唤伤害降低惩罚
 			MiningHelmet: 提高不死矿工的刷新率
 			MoonsDrops: Boss和迷你Boss在{0}波前不会掉落物品
@@ -1122,8 +1122,8 @@ Mods: {
 			}
 
 			NibbleBuff: {
-				// DisplayName: Nibble
-				// Description: Just one tiny bite (please)
+				DisplayName: 圆陆鲨
+				Description: 只需轻轻一咬
 			}
 
 			BrokenShell: {
@@ -1245,7 +1245,7 @@ Mods: {
 
 			ChibiiRemiiBuff: {
 				DisplayName: 小不点蕾米
-				Description: 恶魔「蕾米莉亚·斯卡蕾特」
+				Description: 恶魔「Remilia Stretch」
 			}
 
 			PrimeMinionBuff: {
