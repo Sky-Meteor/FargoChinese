@@ -740,8 +740,9 @@ Mods: {
 				DisplayName: 死亡果实
 				Tooltip:
 					'''
-					永久性地降低20点最大生命值
-					对于用过其他模组中一次性的、增加最大生命值的物品的角色，效果不可逆
+					左键单击会永久性的减少20或5生命值上限（根据是否使用过生命果来决定）
+					生命上限最低不会低于20
+					生命上限低于100时右键单击可撤销该物品的上一次使用
 					'''
 			}
 
@@ -847,33 +848,32 @@ Mods: {
 			}
 
 			SnowRenewal: {
-				// DisplayName: Snow Renewal
-				// Tooltip: Snows a large radius
+				DisplayName: 冰雪领域
+				Tooltip: 使一大片区域变为雪原环境
 			}
 
 			SnowRenewalSupreme: {
-				// DisplayName: Snow Renewal Supreme
-				// Tooltip: Snows the entire world
+				DisplayName: 冰雪维度
+				Tooltip: Snows 使整个世界变为雪原环境
 			}
 
 			SandRenewal: {
-				// DisplayName: Desert Renewal
-				// Tooltip: Sands a large radius
+				DisplayName: 沙漠领域
+				Tooltip: 使一大片区域变为沙漠环境
 			}
 
 			SandRenewalSupreme: {
-				// DisplayName: Desert Renewal Supreme
-				// Tooltip: Sands the entire world
+				DisplayName: 沙漠维度
+				Tooltip: Snows 使整个世界变为沙漠环境
 			}
 
 			DirtRenewal: {
-				// DisplayName: Forest Renewal
-				// Tooltip: Dirts a large radius
-			}
+				DisplayName: 森林领域
+				Tooltip: 使一大片区域变为森林环境
 
 			DirtRenewalSupreme: {
-				// DisplayName: Forest Renewal Supreme
-				// Tooltip: Dirts the entire world
+				DisplayName: 森林维度
+				Tooltip: Snows 使整个世界变为森林环境
 			}
 
 			Abeemination2: {
@@ -2278,62 +2278,62 @@ Mods: {
 			}
 
 			HoneyRocketBox: {
+				DisplayName: 无尽蜂蜜火箭盒
 				// Tooltip: ""
-				// DisplayName: Endless Honey Rocket Box
 			}
 
 			DryRocketBox: {
+				DisplayName: 无尽干火箭盒
 				// Tooltip: ""
-				// DisplayName: Endless Dry Rocket Box
 			}
 
 			ClusterRocket2Box: {
+				DisplayName: 无尽二级集束火箭盒
 				// Tooltip: ""
-				// DisplayName: Endless Cluster Rocket II Box
 			}
 
 			ClusterRocket1Box: {
+				DisplayName: 无尽一级集束火箭盒
 				// Tooltip: ""
-				// DisplayName: Endless Cluster Rocket I Box
 			}
 
 			LavaRocketBox: {
-				// DisplayName: Endless Lava Rocket Box
+				DisplayName: 无尽熔岩火箭盒
 				// Tooltip: ""
 			}
 
 			MiniNuke1Box: {
-				// DisplayName: Endless Mini Nuke I Box
+				DisplayName: 无尽一级迷你核弹盒
 				// Tooltip: ""
 			}
 
 			MiniNuke2Box: {
-				// DisplayName: Endless Mini Nuke II Box
+				DisplayName: 无尽二级迷你核弹盒
 				// Tooltip: ""
 			}
 
 			Rocket1Box: {
-				// DisplayName: Endless Rocket I Box
+				DisplayName: 无尽一级火箭盒
 				// Tooltip: ""
 			}
 
 			Rocket2Box: {
-				// DisplayName: Endless Rocket II Box
+				DisplayName: 无尽二级火箭盒
 				// Tooltip: ""
 			}
 
 			Rocket3Box: {
-				// DisplayName: Endless Rocket III Box
+				DisplayName: 无尽三级火箭盒
 				// Tooltip: ""
 			}
 
 			Rocket4Box: {
-				// DisplayName: Endless Rocket IV Box
+				DisplayName: 无尽四级火箭盒
 				// Tooltip: ""
 			}
 
 			WetRocketBox: {
-				// DisplayName: Endless Wet Rocket Box
+				DisplayName: 无尽潮湿火箭盒
 				// Tooltip: ""
 			}
 
@@ -2503,12 +2503,12 @@ Mods: {
 			PurityNukeSupremeProj.DisplayName: 纯净维度
 			SpawnProj.DisplayName: 生成
 			SemiBridgifierProj.DisplayName: 多功能平台转化器
-			// DirtNukeProj.DisplayName: DirtRenewal
-			// DirtNukeSupremeProj.DisplayName: DirtRenewalSupreme
-			// SandNukeProj.DisplayName: SandRenewal
-			// SandNukeSupremeProj.DisplayName: SandRenewalSupreme
-			// SnowNukeProj.DisplayName: SnowRenewal
-			// SnowNukeSupremeProj.DisplayName: SnowRenewalSupreme
+			DirtNukeProj.DisplayName: 森林领域
+			DirtNukeSupremeProj.DisplayName: 森林维度
+			SandNukeProj.DisplayName: 沙漠领域
+			SandNukeSupremeProj.DisplayName: 沙漠维度
+			SnowNukeProj.DisplayName: 冰雪领域
+			SnowNukeSupremeProj.DisplayName: 冰雪维度
 			// WorldTokenProj.DisplayName: World Token Proj
 			// InstaPondProj.DisplayName: Insta Pond Proj
 		}
