@@ -38,23 +38,23 @@ Mods: {
 			Lead: 增加铅中毒伤害，持续伤害减免提升到60%
 			Meteor: 攻击时每过几秒便会召唤一次流星雨
 			Miner: 挖掘速度提升
-			Molten: 狱火圈伤害和易伤生效范围增加 
+			Molten: 狱火圈伤害和易伤生效范围增加
 			Monk: 无增强
-			Mythril: 增加最大攻速加成，延长持续时间 
+			Mythril: 增加最大攻速加成，延长持续时间
 			Nebula: 增益堆叠上限增加至3层
 			Necro: ""
 			Ninja: 最大伤害加成增加至30%，当效果激活时玩家的最大速度增加
-			Obsidian: 不再需要岩浆来引发爆炸或火球，减少冷却时间 
+			Obsidian: 不再需要岩浆来引发爆炸或火球，减少冷却时间
 			Orichalcum: 倍数提高到4
 			Palladium: 快速治疗总是持续5秒，增加钯金珠伤害
 			PalmWood: 增加攻击速度和伤害，可以额外召唤一个棕榈树哨兵
-			Pearlwood: 增加伤害，减少冷却时间 
+			Pearlwood: 增加伤害，减少冷却时间
 			Platinum: ""
 			Pumpkin: 南瓜在飞行时也可生长，治疗量翻倍，火焰伤害增加至45
 			Rain: 雨伞可抵挡伤害从200增加至1000，反射伤害增加三倍
 			RedRiding: 箭雨冷却时间更短并造成更高伤害
 			RichMahogany: 牵引速度×2.5，伤害减免和荆棘效果大幅提升
-			Shadewood: 增加光环大小和血液伤害，并附加灵液效果 
+			Shadewood: 增加光环大小和血液伤害，并附加灵液效果
 			Shinobi: ""
 			Shroomite: 蘑菇生成的频率加快
 			Silver: 格挡可以抵消至多200伤害，且会给予惊人一刻增益
@@ -417,7 +417,6 @@ Mods: {
 			AshWoodConfig: 灰烬木 火球
 			WillHeader: "{$Mods.FargowiltasSouls.Items.WillForce.DisplayName}"
 			GladiatorConfig: 角斗士 长矛雨
-			GladiatorBannerConfig: 角斗士 旗帜
 			GoldConfig: 金 幸运币
 			GoldToPiggyConfig: 金 自动将钱存进储蓄罐
 			HuntressConfig: 女猎人 相关效果
@@ -1883,7 +1882,7 @@ Mods: {
 
 			GladiatorBuff: {
 				DisplayName: 角斗士之力
-				// Description: +10防御，+5%伤害，免疫击退，增强长矛雨
+				Description: +10防御，+5%伤害，免疫击退，增强长矛雨
 			}
 
 			ROBBuff: {
@@ -4989,7 +4988,7 @@ Mods: {
 
 			NavalRustrifle: {
 				DisplayName: 锈蚀海军步枪
-				Tooltip: 
+				Tooltip:
 					'''
 					每次射击后需要手动重新装填弹药
 					在正确的时机装弹能加强下一次射击
@@ -4999,14 +4998,14 @@ Mods: {
 
 			DecrepitAirstrikeRemote: {
 				DisplayName: 老旧空袭装置
-				Tooltip: 
+				Tooltip:
 					'''
 					消耗所有的哨兵栏位标记光标处
 					几秒后，标记处将会被巨大的空袭爆炸击中
 					爆炸根据消耗的哨兵栏位数量对周围造成伤害
 					所有被爆炸击中的召唤物都会被炸成碎片
 					碎片会自动追踪敌人且可以造成暴击
-					'''	
+					'''
 			}
 
 			BanishedBaronBag: {
@@ -5029,7 +5028,7 @@ Mods: {
 
 			RoseTintedVisor: {
 				DisplayName: 玫瑰激光镜
-				Tooltip: 
+				Tooltip:
 					'''
 					根据蓄力时间释放出激光，最多释放出六道激光
 					根据蓄力时间获得额外的暴击率，最高可达100%
@@ -5038,12 +5037,12 @@ Mods: {
 
 			BaronTrophy: {
 				DisplayName: 放逐遗爵纪念章
-				//Tooltip: ""
+				// Tooltip: ""
 			}
 
 			BaronRelic: {
+				// Tooltip: ""
 				DisplayName: 放逐遗爵圣物
-				//Tooltip: ""
 			}
 
 			HiveStaff: {
@@ -6278,6 +6277,7 @@ Mods: {
 			"Frigid Spell.DisplayName": 寒霜咒语
 			"Debuff Install.DisplayName": 减益负载
 			"Ammo Cycle.DisplayName": 弹药切换
+<<<<<<< HEAD
 			"冻结.DisplayName": 冻结
 			"金身.DisplayName": 金身
 			"投掷烟雾弹.DisplayName": 投掷烟雾弹
@@ -6289,6 +6289,8 @@ Mods: {
 			"寒霜咒语.DisplayName": 寒霜咒语
 			"减益负载.DisplayName": 减益负载
 			"弹药切换.DisplayName": 弹药切换
+=======
+>>>>>>> 10a050569a3740ce2f633733fdc5ef80c982cfc4
 		}
 
 		Configs: {
