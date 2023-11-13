@@ -870,7 +870,7 @@ Mods: {
 			DirtRenewal: {
 				DisplayName: 森林领域
 				Tooltip: 使一大片区域变为森林环境
-
+			}
 			DirtRenewalSupreme: {
 				DisplayName: 森林维度
 				Tooltip: Snows 使整个世界变为森林环境
