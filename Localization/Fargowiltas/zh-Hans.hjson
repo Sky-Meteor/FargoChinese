@@ -325,7 +325,7 @@ Mods: {
 			EvilWood: 邪恶木头
 			CommonFish: 普通鱼
 			CaughtNPC: 被抓捕的城镇NPC
-			// ArmoredBonesBanner: Armored Bones Banner
+			ArmoredBonesBanner: 装甲骷髅旗帜
 		}
 
 		MessageInfo: {
@@ -602,6 +602,7 @@ Mods: {
 					'''
 					破坏所有自然生成的恶魔祭坛和猩红祭坛
 					会导致新三矿大量生成和幻灵大量生成等后果
+					“也叫幻灵制造者”
 					'''
 			}
 
@@ -870,7 +871,8 @@ Mods: {
 			DirtRenewal: {
 				DisplayName: 森林领域
 				Tooltip: 使一大片区域变为森林环境
-			}
+			}	
+
 			DirtRenewalSupreme: {
 				DisplayName: 森林维度
 				Tooltip: Snows 使整个世界变为森林环境
@@ -1354,7 +1356,11 @@ Mods: {
 
 			MutantVoodoo: {
 				DisplayName: 突变体巫毒娃娃
-				Tooltip: 召唤所有原版Boss
+				Tooltip: 
+					'''
+					召唤所有原版Boss
+					只能在夜晚使用
+					'''
 			}
 
 			PlanterasFruit: {
@@ -2338,12 +2344,13 @@ Mods: {
 			}
 
 			InstaPond: {
-				// DisplayName: Instalake
-				/* Tooltip:
+				DisplayName: 快速湖泊 
+				Tooltip:
 					'''
-					Drops a bomb that creates a 150x50 body of water below it
-					Do not use if any important building is below
-					''' */
+					投下一颗炸弹，在其下方形成一片150×50的水体
+					如果下方有重要建筑物，请勿使用
+					''' 
+					//for patch 原名：Instalake
 			}
 		}
 
