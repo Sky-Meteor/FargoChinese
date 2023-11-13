@@ -286,13 +286,13 @@ Mods: {
 				}
 
 				DoubleTapDashDisabled: {
-					// Label: "[i:3097] Disable double-tap for dashes"
-					// Tooltip: Prevent dashes from using the normal double-tap keybind. The Dash key is available regardless of this config.
+					Label: "[i:3097] 禁用双击冲刺
+					Tooltip: 禁用后双击方向键无法再触发冲刺。无论此配置开或关，单独设置的冲刺键都不会受到影响。
 				}
 
 				DoubleTapSetBonusDisabled: {
-					// Label: "[i:3776] Disable double-tap for Set Bonuses"
-					// Tooltip: Prevent set bonuses from using the normal double-tap keybind. The Set Bonus key is available regardless of this config.
+					Label: "[i:3776] 禁用双击触发效果"
+					Tooltip: 禁用后双击下键无法再触发套装或饰品效果。无论此配置开或关，单独设置的饰品/套装奖励键都不会受到影响。
 				}
 
 				DebuffOpacity: {
@@ -2586,8 +2586,8 @@ Mods: {
 		Keybinds: {
 			"Quick Recall/Mirror.DisplayName": 快速回家
 			"Open Stat Sheet.DisplayName": 打开属性统计表
-			// "Dash Key.DisplayName": Dash Key
-			// "Set Bonus (Double Tap Up/Down) Key.DisplayName": Set Bonus Key
+			"Dash Key.DisplayName": 单击冲刺
+			"Set Bonus (Double Tap Up/Down) Key.DisplayName": 套装/饰品效果
 		}
 	}
 }
