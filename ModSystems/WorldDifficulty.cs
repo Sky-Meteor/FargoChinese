@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using FargowiltasSouls.Common.Graphics.Shaders;
 using FargowiltasSouls.Core.Systems;
 using Terraria;
 using Terraria.GameContent.UI.Elements;
@@ -19,13 +20,16 @@ using Terraria.ModLoader.IO;
 namespace FargoChinese.ModSystems
 {
     [JITWhenModsEnabled("FargowiltasSouls")]
-    public class WorldDifficulty : PatchBase
+    public class WorldDifficulty : ModSystem
     {
         public override bool IsLoadingEnabled(Mod mod) => ModLoader.TryGetMod("FargowiltasSouls", out _) && ModContent.GetInstance<FCConfig>().EnableWorldDifficultyChange;
 
         private Preferences _saveWorldDifficulty;
         private static readonly string path = Path.Combine(Main.SavePath, "ModConfigs", "FargoChinese_WorldDifficulty.json");
 
+        /// <summary>
+        /// 1 => 永恒；2 => 受虐
+        /// </summary>
         private Dictionary<Guid, int> _worldMode;
         private FieldInfo _data;
         private bool _enableWorldDifficultyShader;
@@ -50,10 +54,8 @@ namespace FargoChinese.ModSystems
                 _worldMode.Remove(Main.ActiveWorldFileData.UniqueId);
                 return;
             }
-            if (_worldMode.ContainsKey(Main.ActiveWorldFileData.UniqueId))
-                _worldMode[Main.ActiveWorldFileData.UniqueId] = difficulty;
-            else
-                _worldMode.Add(Main.ActiveWorldFileData.UniqueId, difficulty);
+            _worldMode[Main.ActiveWorldFileData.UniqueId] = difficulty;
+
             _saveWorldDifficulty.Put("WorldDifficulty", _worldMode);
             _saveWorldDifficulty.Save();
         }
@@ -71,51 +73,46 @@ namespace FargoChinese.ModSystems
         }
         #endregion
         #region Difficulty names
-        private void UIWorldListItem_DrawSelf(ILContext il)
+        private void AWorldListItem_GetDifficulty(On_AWorldListItem.orig_GetDifficulty orig, AWorldListItem self, out string expertText, out Color gameModeColor)
         {
-            var c = new ILCursor(il);
-            if (!c.TryGotoNext(i => i.MatchLdstr("UI.Expert")))
+            orig.Invoke(self, out expertText, out gameModeColor);
+            WorldFileData data = self.Data;
+            if (!_worldMode.ContainsKey(self.Data.UniqueId))
                 return;
-            c.Index++;
-            c.Emit(OpCodes.Ldarg_0);
-
-            c.EmitDelegate<Func<string, UIWorldListItem, string>>((difficultyKey, self) => _worldMode.TryGetValue(((WorldFileData)_data.GetValue(self))!.UniqueId, out int difficulty) && difficulty == 1 ? "永恒" : difficultyKey);
-
-            if (!c.TryGotoNext(i => i.MatchLdstr("UI.Master")))
-                return;
-            c.Index++;
-            c.Emit(OpCodes.Ldarg_0);
-            c.EmitDelegate<Func<string, UIWorldListItem, string>>((difficultyKey, self) =>
+            int gameMode = data.GameMode;
+            int num = 1;
+            if (gameMode != 1)
             {
-                if (!_worldMode.TryGetValue(((WorldFileData)_data.GetValue(self))!.UniqueId, out int difficulty))
-                    return difficultyKey;
+                if (gameMode == 2) 
+                    num = 3;
+            }
+            else
+                num = 2;
+            if (data.ForTheWorthy) 
+                num++;
 
-                return difficulty switch
+            if (_worldMode[self.Data.UniqueId] == 1)
+            {
+                expertText = "永恒";
+            }
+            else if (_worldMode[self.Data.UniqueId] == 2)
+            {
+                if (num != 4)
                 {
-                    1 => "永恒",
-                    2 => "受虐",
-                    _ => difficultyKey
-                };
-            });
-
-            if (!c.TryGotoNext(i => i.MatchLdsfld(typeof(Main).GetField(nameof(Main.hcColor), BindingFlags.Static | BindingFlags.Public))))
-                return;
-            c.Index++;
-            c.Emit(OpCodes.Ldarg_0);
-            c.EmitDelegate<Func<Color, UIWorldListItem, Color>>((hcColor, self) => !_enableWorldDifficultyShader && _worldMode.TryGetValue(((WorldFileData)_data.GetValue(self))!.UniqueId, out int difficulty) && difficulty == 2 ? new Color(0, 255, 255) : hcColor);
+                    expertText = "受虐";
+                    gameModeColor = ModContent.GetInstance<FCConfig>().EnableWorldDifficultyShader ? Color.White : new Color(0, 255, 255);
+                }
+            }
         }
         #endregion
         #region Shader
         private void UIWorldListItem_DrawSelf_Shader(ILContext il)
         {
             var c = new ILCursor(il);
-            if (!c.TryGotoNext(i => i.MatchLdsfld(typeof(Main).GetField(nameof(Main.hcColor), BindingFlags.Static | BindingFlags.Public))))
-                return;
-            c.Index++;
-            c.Emit(OpCodes.Ldarg_0);
-            c.EmitDelegate<Func<Color, UIWorldListItem, Color>>((hcColor, self) => _worldMode.TryGetValue(((WorldFileData)_data.GetValue(self))!.UniqueId, out int difficulty) && difficulty == 2 ? Color.White : hcColor);
 
             if (!c.TryGotoNext(i => i.MatchCall(typeof(Utils).GetMethod("DrawBorderString"))))
+                return;
+            if (!c.TryGotoNext(i => i.MatchCall(typeof(Utils).GetMethod("DrawBorderString")))) // to the second
                 return;
             c.Index -= 12;
             c.Emit(OpCodes.Ldarg_0);
@@ -124,11 +121,11 @@ namespace FargoChinese.ModSystems
             {
                 if (!_worldMode.TryGetValue(((WorldFileData)_data.GetValue(self))!.UniqueId, out int difficulty) || difficulty < 1)
                     return;
-
-                MiscShaderData shader = difficulty switch
+                
+                Shader shader = difficulty switch
                 {
-                    1 => GameShaders.Misc["PulseDiagonal"].UseColor(new Color(255, 170, 12)).UseSecondaryColor(new Color(210, 69, 203)),
-                    2 => GameShaders.Misc["PulseUpwards"].UseColor(new Color(28, 222, 152)).UseSecondaryColor(new Color(168, 245, 228)),
+                    1 => ShaderManager.GetShaderIfExists("Text").SetMainColor(new Color(255, 170, 12)).SetSecondaryColor(new Color(210, 69, 203)),
+                    2 => ShaderManager.GetShaderIfExists("Text").SetMainColor(new Color(28, 222, 152)).SetSecondaryColor(new Color(168, 245, 228)),
                     _ => null
                 };
                 if (shader == null)
@@ -136,8 +133,8 @@ namespace FargoChinese.ModSystems
 
                 spriteBatch.End();
                 spriteBatch.Begin(SpriteSortMode.Immediate, spriteBatch.GraphicsDevice.BlendState, spriteBatch.GraphicsDevice.SamplerStates[0],
-                    spriteBatch.GraphicsDevice.DepthStencilState, spriteBatch.GraphicsDevice.RasterizerState, shader.Shader, Main.UIScaleMatrix);
-                shader.Apply();
+                    spriteBatch.GraphicsDevice.DepthStencilState, spriteBatch.GraphicsDevice.RasterizerState, shader.WrappedEffect, Main.UIScaleMatrix);
+                shader.Apply(true, difficulty == 1 ? "PulseDiagonal" : "PulseUpwards");
             });
 
             if (!c.TryGotoNext(i => i.MatchCall(typeof(Utils).GetMethod("DrawBorderString"))))
@@ -157,6 +154,7 @@ namespace FargoChinese.ModSystems
         }
         #endregion
         #region Load & Unload
+
         public override void Load()
         {
             _saveWorldDifficulty = new Preferences(path);
@@ -169,7 +167,8 @@ namespace FargoChinese.ModSystems
             _enableWorldDifficultyShader = ModContent.GetInstance<FCConfig>().EnableWorldDifficultyShader;
 
             On_Main.EraseWorld += Main_EraseWorld;
-            IL_UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf;
+            On_AWorldListItem.GetDifficulty += AWorldListItem_GetDifficulty;
+            
             if (ModContent.GetInstance<FCConfig>().EnableWorldDifficultyShader)
                 IL_UIWorldListItem.DrawSelf += UIWorldListItem_DrawSelf_Shader;
         }
@@ -183,7 +182,8 @@ namespace FargoChinese.ModSystems
 
             // _data = null;
             On_Main.EraseWorld -= Main_EraseWorld;
-            IL_UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf;
+            On_AWorldListItem.GetDifficulty -= AWorldListItem_GetDifficulty;
+            
             IL_UIWorldListItem.DrawSelf -= UIWorldListItem_DrawSelf_Shader;
         }
         #endregion

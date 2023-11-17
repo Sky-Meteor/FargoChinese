@@ -2,7 +2,7 @@
 using ReLogic.Content;
 using Terraria.ModLoader;
 
-namespace FargoChinese.ModSystems
+namespace FargoChinese.BuildIgnore.ObsoleteSystems
 {
     public class FargoMenu : ModMenu
     {

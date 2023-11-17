@@ -10,7 +10,7 @@ namespace FargoChinese.Patch.Fargowiltas
 {
     public class ChatButtonsTranslate : PatchBase
     {
-        protected override Dictionary<Type, Tuple<string, BindingFlags, bool, Delegate>> MethodInfos =>
+        public override Dictionary<Type, Tuple<string, BindingFlags, bool, Delegate>> MethodInfos =>
             new()
             {
                 {typeof(Abominationn), new Tuple<string, BindingFlags, bool, Delegate>("SetChatButtons", BindingFlags.Public | BindingFlags.Instance, true, AbomButton)},

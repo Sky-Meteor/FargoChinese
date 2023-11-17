@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.ModLoader;
 
-namespace FargoChinese.Items
+namespace FargoChinese.BuildIgnore.Items
 {
     public class EchBeGoneSheet : EchPaintingSheet
     {

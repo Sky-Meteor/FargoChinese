@@ -1,7 +1,7 @@
 using Fargowiltas.Items.Tiles;
 using Terraria.ModLoader;
 
-namespace FargoChinese.Items
+namespace FargoChinese.BuildIgnore.Items
 {
     public class EchBeGone : EchPainting
     {

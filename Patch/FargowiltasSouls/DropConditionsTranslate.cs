@@ -8,7 +8,7 @@ namespace FargoChinese.Patch.FargowiltasSouls
     [JITWhenModsEnabled("FargowiltasSouls")]
     public class DropConditionsTranslate : PatchBase
     {
-        protected override bool LoadWithFargoSouls => true;
+        public override bool IsLoadingEnabled() => LoadWithFargoSouls();
 
         public override void Load()
         {
@@ -40,7 +40,7 @@ namespace FargoChinese.Patch.FargowiltasSouls
 
         public override void Unload()
         {
-            Terraria.GameContent.UI.Elements.IL_UIBestiaryInfoItemLine.SetBestiaryNotesOnItemCache += UIBestiaryInfoItemLine_SetBestiaryNotesOnItemCache;
+            Terraria.GameContent.UI.Elements.IL_UIBestiaryInfoItemLine.SetBestiaryNotesOnItemCache -= UIBestiaryInfoItemLine_SetBestiaryNotesOnItemCache;
         }
     }
 }

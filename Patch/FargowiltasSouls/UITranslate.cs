@@ -7,11 +7,11 @@ namespace FargoChinese.Patch.FargowiltasSouls
     [JITWhenModsEnabled("FargowiltasSouls")]
     public class UITranslate : PatchBase
     {
-        protected override bool LoadWithFargoSouls => true;
+        public override bool IsLoadingEnabled() => LoadWithFargoSouls();
 
         public override void Load()
         {
-            Terraria.UI.Chat.On_ChatManager.ParseMessage += ChatManager_ParseMessage;
+            On_ChatManager.ParseMessage += ChatManager_ParseMessage;
         }
 
         private static List<TextSnippet> ChatManager_ParseMessage(Terraria.UI.Chat.On_ChatManager.orig_ParseMessage orig, string text, Microsoft.Xna.Framework.Color baseColor)
@@ -29,7 +29,7 @@ namespace FargoChinese.Patch.FargowiltasSouls
 
         public override void Unload()
         {
-            Terraria.UI.Chat.On_ChatManager.ParseMessage -= ChatManager_ParseMessage;
+            On_ChatManager.ParseMessage -= ChatManager_ParseMessage;
         }
     }
 }

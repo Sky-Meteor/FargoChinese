@@ -3,8 +3,8 @@ Configs: {
 		DisplayName: Fargo汉化补丁配置
 
 		Headers: {
-			地图难度特殊显示效果: 地图难度特殊显示效果（1.4.4暂时摆了）
-			额外物品信息: 额外物品信息
+			ExtraTooltip: 额外物品信息
+			WorldDifficulty: 地图难度特殊显示效果
 		}
 
 		EnableWorldDifficultyChange: {

@@ -13,7 +13,7 @@ namespace FargoChinese.Patch.Fargowiltas
 {
     public class StatSheetTranslate : PatchBase
     {
-        protected override Dictionary<Type, Tuple<string, BindingFlags, bool, Delegate>> MethodInfos =>
+        public override Dictionary<Type, Tuple<string, BindingFlags, bool, Delegate>> MethodInfos =>
             new()
             {
                 {typeof(StatSheetUI), new Tuple<string, BindingFlags, bool, Delegate>("RebuildStatList", BindingFlags.Public | BindingFlags.Instance, true, RebuildStatList)},
@@ -22,13 +22,11 @@ namespace FargoChinese.Patch.Fargowiltas
 
         public override void Load()
         {
-            base.Load();
             Terraria.On_Main.DrawInterface_33_MouseText += Main_DrawInterface_33_MouseText;
         }
 
         public override void Unload()
         {
-            base.Unload();
             Terraria.On_Main.DrawInterface_33_MouseText -= Main_DrawInterface_33_MouseText;
         }
 

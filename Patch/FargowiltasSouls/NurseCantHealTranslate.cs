@@ -12,9 +12,9 @@ namespace FargoChinese.Patch.FargowiltasSouls
     [JITWhenModsEnabled("FargowiltasSouls")]
     public class NurseCantHealTranslate : PatchBase
     {
-        protected override bool LoadWithFargoSouls => true;
+        public override bool IsLoadingEnabled() => LoadWithFargoSouls();
 
-        protected override Dictionary<Type, Tuple<string, BindingFlags, bool, Delegate>> MethodInfos =>
+        public override Dictionary<Type, Tuple<string, BindingFlags, bool, Delegate>> MethodInfos =>
             new()
             {
                 {typeof(EModePlayer), new Tuple<string, BindingFlags, bool, Delegate>("ModifyNurseHeal", BindingFlags.Public | BindingFlags.Instance, true, ModifyNurseHeal)}
