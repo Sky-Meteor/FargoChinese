@@ -2914,7 +2914,7 @@ Mods: {
 					[c/00FFFF:当该饰品放在背包中或时装栏时，下列效果也会生效（右键点击以禁用）：]
 					    免疫[i:FargowiltasSouls/SandsofTime]强风、[i:FargowiltasSouls/MysticSkull]窒息、[i:FargowiltasSouls/FrigidGemstone]冷冻、[i:FargowiltasSouls/SqueakyToy]内疚减益
 					    [i:FargowiltasSouls/OrdinaryCarrot]获得夜视效果，[i:FargowiltasSouls/SecurityWallet]并改善重铸结果
-						[i:FargowiltasSouls/ConcentratedRainbowMatter][i:FargowiltasSouls/MysticSkull]需要时自动使用治疗和魔力药水，并增大自动拾取魔力星的范围
+					    [i:FargowiltasSouls/ConcentratedRainbowMatter][i:FargowiltasSouls/MysticSkull]需要时自动使用治疗和魔力药水，并增大自动拾取魔力星的范围
 					    [i:FargowiltasSouls/NymphsPerfume]你会以满生命值重生，[i:FargowiltasSouls/SandsofTime]没有Boss在场时加快重生速度
 					    [i:FargowiltasSouls/FrigidGemstone]按下“寒霜咒语”键放置冰雪魔杖之冰
 					    [i:FargowiltasSouls/OrdinaryCarrot]右键可改变视野范围
@@ -2964,7 +2964,7 @@ Mods: {
 				Tooltip:
 					'''
 					[i:FargowiltasSouls/ChaliceoftheMoon]免疫蜂群、萎缩、卡壳、魔力逆流和社恐减益
-					免疫[i:FargowiltasSouls/MagicalBulb]毒液、常春藤毒素、[i:FargowiltasSouls/LihzahrdTreasureBox]燃烧、导火索、下陷和[i:FargowiltasSouls/CelestialRune]死亡标记减益					
+					免疫[i:FargowiltasSouls/MagicalBulb]毒液、常春藤毒素、[i:FargowiltasSouls/LihzahrdTreasureBox]燃烧、导火索、下陷和[i:FargowiltasSouls/CelestialRune]死亡标记减益
 					[i:FargowiltasSouls/MagicalBulb]按下“魔法净化”键治愈你
 					[i:FargowiltasSouls/MagicalBulb]根据你受到的光照增加生命恢复速度
 					[i:FargowiltasSouls/LihzahrdTreasureBox]在空中双击“下”键快速下落
@@ -3026,7 +3026,7 @@ Mods: {
 				DisplayName: 可疑电路
 				Tooltip:
 					'''
-					免疫[i:FargowiltasSouls/FusedLens]诅咒狱火、灵液、[i:FargowiltasSouls/GroundStick]避雷针、[i:FargowiltasSouls/ReinforcedPlating]毫无防御、昏迷、纳米灌注减益和击退					
+					免疫[i:FargowiltasSouls/FusedLens]诅咒狱火、灵液、[i:FargowiltasSouls/GroundStick]避雷针、[i:FargowiltasSouls/ReinforcedPlating]毫无防御、昏迷、纳米灌注减益和击退
 					[i:FargowiltasSouls/FusedLens]按下“减益负载”键对你自己造成诅咒狱火和灵液，再次按下时取消
 					[i:FargowiltasSouls/FusedLens]当被诅咒狱火和灵液影响时，增加15%攻击速度，15暴击率
 					[i:FargowiltasSouls/GroundStick]攻击小概率造成避雷针减益
@@ -3186,7 +3186,7 @@ Mods: {
 					[i:FargowiltasSouls/PungentEyeball]你的光标会导致附近的敌怪受到的伤害增加15%
 					[i:FargowiltasSouls/DreadShell]右键点击可进行时间判定极其严格的受伤反击
 					[i:FargowiltasSouls/DreadShell]防护时和防护后短时间内，防御力和伤害减免大幅下降
-					[i:FargowiltasSouls/Deerclawps]冲刺会留下一串血刺					
+					[i:FargowiltasSouls/Deerclawps]冲刺会留下一串血刺
 					[i:FargowiltasSouls/SkullCharm]降低敌人以你为目标的可能性
 					“它在生长”
 					'''
@@ -3333,7 +3333,7 @@ Mods: {
 					'''
 					[i:FargowiltasSouls/PureHeart]免疫生物群落带来的减益
 					[i:FargowiltasSouls/PureHeart]增加10%最大生命值
-					免疫[i:FargowiltasSouls/DarkenedHeart]腐败和[i:FargowiltasSouls/GuttedHeart]嗜血减益				
+					免疫[i:FargowiltasSouls/DarkenedHeart]腐败和[i:FargowiltasSouls/GuttedHeart]嗜血减益
 					[i:FargowiltasSouls/DarkenedHeart]增加10%移动速度和转向速度
 					[i:FargowiltasSouls/DarkenedHeart]每攻击几次，你就会产生几个追踪敌人的迷你噬魂者
 					[i:FargowiltasSouls/GuttedHeart]召唤阻挡伤害的飞眼怪，不移动时飞眼怪生成速度加快
@@ -3460,15 +3460,15 @@ Mods: {
 				DisplayName: 至高告死精灵
 				Tooltip:
 					'''
-					免疫[i:FargowiltasSouls/SlimyShield]史莱姆、[i:FargowiltasSouls/AgitatingLens]狂暴、[i:FargowiltasSouls/NecromanticBrew]昏昏欲睡和[i:FargowiltasSouls/QueenStinger]感染减益					
+					免疫[i:FargowiltasSouls/SlimyShield]史莱姆、[i:FargowiltasSouls/AgitatingLens]狂暴、[i:FargowiltasSouls/NecromanticBrew]昏昏欲睡和[i:FargowiltasSouls/QueenStinger]感染减益
 					[i:FargowiltasSouls/SlimyShield]增加下落速度
-					[i:FargowiltasSouls/SlimyShield]落地时召唤从天而降的凝胶球，掉落至光标位置				
+					[i:FargowiltasSouls/SlimyShield]落地时召唤从天而降的凝胶球，掉落至光标位置
 					[i:FargowiltasSouls/AgitatingLens]冲刺或奔跑时会在身后留下一串鲜血镰刀
 					[i:FargowiltasSouls/AgitatingLens]按住“上”“下”的同时按下“减益负载”键进入狂暴状态
 					[i:FargowiltasSouls/QueenStinger]蜂蜜增益会增加10点护甲穿透，蜜蜂和较弱的黄蜂变得友好
 					[i:FargowiltasSouls/QueenStinger]按下“特殊冲刺”键后会进行短距离的快速蜜蜂冲刺
 					[i:FargowiltasSouls/NecromanticBrew]增加50%冲刺速度
-					[i:FargowiltasSouls/NecromanticBrew]冲刺时只会受到25%接触伤害，并且会对攻击者反弹全部接触伤害				
+					[i:FargowiltasSouls/NecromanticBrew]冲刺时只会受到25%接触伤害，并且会对攻击者反弹全部接触伤害
 					[i:FargowiltasSouls/NecromanticBrew]召唤两个骷髅王手臂重击敌人
 					“霸权难保”
 					'''
