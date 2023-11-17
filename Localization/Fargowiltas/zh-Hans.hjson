@@ -871,7 +871,7 @@ Mods: {
 			DirtRenewal: {
 				DisplayName: 森林领域
 				Tooltip: 使一大片区域变为森林环境
-			}	
+			}
 
 			DirtRenewalSupreme: {
 				DisplayName: 森林维度
@@ -1356,7 +1356,7 @@ Mods: {
 
 			MutantVoodoo: {
 				DisplayName: 突变体巫毒娃娃
-				Tooltip: 
+				Tooltip:
 					'''
 					召唤所有原版Boss
 					只能在夜晚使用
@@ -2284,23 +2284,23 @@ Mods: {
 			}
 
 			HoneyRocketBox: {
-				DisplayName: 无尽蜂蜜火箭盒
 				// Tooltip: ""
+				DisplayName: 无尽蜂蜜火箭盒
 			}
 
 			DryRocketBox: {
-				DisplayName: 无尽干火箭盒
 				// Tooltip: ""
+				DisplayName: 无尽干火箭盒
 			}
 
 			ClusterRocket2Box: {
-				DisplayName: 无尽二级集束火箭盒
 				// Tooltip: ""
+				DisplayName: 无尽二级集束火箭盒
 			}
 
 			ClusterRocket1Box: {
-				DisplayName: 无尽一级集束火箭盒
 				// Tooltip: ""
+				DisplayName: 无尽一级集束火箭盒
 			}
 
 			LavaRocketBox: {
@@ -2344,13 +2344,12 @@ Mods: {
 			}
 
 			InstaPond: {
-				DisplayName: 快速湖泊 
+				DisplayName: 快速湖泊
 				Tooltip:
 					'''
 					投下一颗炸弹，在其下方形成一片150×50的水体
 					如果下方有重要建筑物，请勿使用
-					''' 
-					//for patch 原名：Instalake
+					'''
 			}
 		}
 

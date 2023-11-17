@@ -417,7 +417,6 @@ Mods: {
 			AshWoodConfig: 灰烬木 火球
 			WillHeader: "{$Mods.FargowiltasSouls.Items.WillForce.DisplayName}"
 			GladiatorConfig: 角斗士 长矛雨
-			GladiatorBannerConfig: 角斗士 旗帜
 			GoldConfig: 金 幸运币
 			GoldToPiggyConfig: 金 自动将钱存进储蓄罐
 			HuntressConfig: 女猎人 相关效果
