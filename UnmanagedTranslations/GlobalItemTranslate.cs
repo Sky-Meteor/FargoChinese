@@ -7,6 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using Fargowiltas.Common.Configs;
+using Fargowiltas.Items;
 using FargowiltasSouls.Content.Items.Accessories.Enchantments;
 using FargowiltasSouls.Content.Items.Accessories.Forces;
 using Terraria;
@@ -58,12 +59,17 @@ namespace FargoChinese.UnmanagedTranslations
                     }
                 }
             }
-
+            
             var fargoClientConfig = GetInstance<FargoClientConfig>();
             var fargoServerConfig = GetInstance<FargoServerConfig>();
 
             if (fargoClientConfig.ExpandedTooltips)
             {
+                /*if (tooltips.Find(t => t.Name == "TooltipNPCSold" && t.Text.StartsWith("Sold By ")))
+                {
+
+                }*/
+
                 void ModifyFountainTooltip(string zhBiome, string enBiome)
                 {
                     for (int i = 0; i < tooltips.Count; i++)
@@ -162,13 +168,19 @@ namespace FargoChinese.UnmanagedTranslations
                 if (fargoServerConfig.UnlimitedPotionBuffsOn120 && item.maxStack > 1)
                 {
                     if (item.buffType != 0)
+                    {
                         ModifyTooltip("[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠30个时获得无尽增益]", "[i:87] [c/AAAAAA:Unlimited buff at 30 stack in inventory, Piggy Bank, or Safe]");
-                    else if (item.type == ItemID.SharpeningStation
-                            || item.type == ItemID.AmmoBox
-                            || item.type == ItemID.CrystalBall
-                            || item.type == ItemID.BewitchingTable
-                            || item.type == ItemID.SliceOfCake)
-                        ModifyTooltip("[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠3个时获得无尽增益]", "[i:87] [c/AAAAAA:Unlimited buff at 3 stack in inventory, Piggy Bank, or Safe]");
+                    }
+                    else if (item.bait > 0)
+                    {
+                        ModifyTooltip("[i:5139] [c/AAAAAA:堆叠30个以上时不消耗]", "[i:5139] [c/AAAAAA:Unlimited use at 30 stack]");
+                    }
+
+                    else if (FargoGlobalItem.BuffStations.Contains(item.type))
+                    {
+                        ModifyTooltip("[i:87] [c/AAAAAA:为附近的玩家提供永久性增益]", "[i:87] [c/AAAAAA:Permanently provides effect to nearby players]");
+                    }
+
                 }
 
                 if (fargoServerConfig.PiggyBankAcc)

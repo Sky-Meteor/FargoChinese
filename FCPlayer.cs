@@ -1,5 +1,6 @@
 ﻿using FargoChinese.UnmanagedTranslations;
 using Fargowiltas;
+using Fargowiltas.Common.Configs;
 using Fargowiltas.Items.Weapons;
 using Microsoft.Xna.Framework;
 using Terraria;
@@ -39,9 +40,9 @@ namespace FargoChinese
             // Main.changeTheTitle = true;
         }
 
-        /*public override void UpdateEquips()
+        public override void UpdateEquips()
         {
-            if (ModContent.GetInstance<FargoConfig>().PiggyBankAcc)
+            if (ModContent.GetInstance<FargoServerConfig>().PiggyBankAcc)
             {
                 foreach (Item item in Player.bank.item)
                 {
@@ -53,6 +54,6 @@ namespace FargoChinese
                     GlobalItemTranslate.TryPiggyBankAcc(item, Player);
                 }
             }
-        }*/
+        }
     }
 }
