@@ -1896,7 +1896,7 @@ Mods: {
 					可以被无限次重复使用
 					拥有部分原版增益站的效果
 					接触时给予蜂蜜增益
-					在附近时大幅提高运气
+					在附近时大幅提高运气并提供糖果冲刺增益
 					'''
 			}
 
@@ -1994,8 +1994,8 @@ Mods: {
 			}
 
 			WiresPainting: {
-				// DisplayName: Wires Painting
-				// Tooltip: "'Look inside'"
+				DisplayName: Wires绘画
+				// Tooltip: "“看那边！”"
 			}
 
 			WoodenToken: {
@@ -2375,7 +2375,7 @@ Mods: {
 					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Abominationn}"
 				}
 
-				// Census.SpawnCondition: Conditions unknown
+				Census.SpawnCondition: 未知条件
 			}
 
 			Deviantt: {
@@ -2400,7 +2400,7 @@ Mods: {
 					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Deviantt}"
 				}
 
-				// Census.SpawnCondition: Conditions unknown
+				Census.SpawnCondition: 未知条件
 			}
 
 			LumberJack: {
@@ -2422,7 +2422,7 @@ Mods: {
 					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/LumberJack}"
 				}
 
-				// Census.SpawnCondition: Conditions unknown
+				Census.SpawnCondition: 未知条件
 			}
 
 			Mutant: {
@@ -2446,7 +2446,7 @@ Mods: {
 					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Mutant}"
 				}
 
-				// Census.SpawnCondition: Conditions unknown
+				Census.SpawnCondition: 未知条件
 			}
 
 			Squirrel: {
@@ -2466,7 +2466,7 @@ Mods: {
 					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Squirrel}"
 				}
 
-				// Census.SpawnCondition: Conditions unknown
+				Census.SpawnCondition: 未知条件
 			}
 
 			SuperDummy.DisplayName: 超级假人
@@ -2515,8 +2515,8 @@ Mods: {
 			SandNukeSupremeProj.DisplayName: 沙漠维度
 			SnowNukeProj.DisplayName: 冰雪领域
 			SnowNukeSupremeProj.DisplayName: 冰雪维度
-			// WorldTokenProj.DisplayName: World Token Proj
-			// InstaPondProj.DisplayName: Insta Pond Proj
+			WorldTokenProj.DisplayName: 世界令牌
+			InstaPondProj.DisplayName: 快速湖泊
 		}
 
 		Tiles: {
@@ -2535,51 +2535,51 @@ Mods: {
 		}
 
 		Conditions: {
-			// DownedBoss: After defeating any boss
-			// DutchmanDown: After defeating a Flying Dutchman
-			// MageDown: After defeating a Dark Mage
-			// OgreDown: After defeating an Ogre
-			// BetsyDown: After defeating Betsy
-			// HorsemanDown: After defeating a Headless Horseman
-			// PillarsDown: After defeating the Celestial Pillars
-			// Downed: After defeating
-			// WormDown: After defeating a Giant Worm or Digger
-			// PinkyDown: After defeating a Pinky
-			// ScoutDown: After defeating a Goblin Scout
-			// DoctorDown: After defeating Doctor Bones
-			// MinerDown: After defeating an Undead Miner
-			// TimDown: After defeating Tim
-			// GnomeDown: After defeating a Gnome
-			// GoldSlimeDown: After defeating a Gold Slime
-			// DungeonSlimeDown: After defeating a Dungeon Slime and Skeletron
-			// MedusaDown: After defeating a Medusa, In hardmode
-			// ClownDown: After defeating a Clown, In hardmode
-			// NymphDown: After defeating a Nymph
-			// MothDown: After defeating a Moth, In hardmode
-			// RainbowSlimeDown: After defeating a Rainbow Slime, In hardmode
-			// WyvernDown: After defeating a Wyvern, In hardmode
-			// RuneDown: After defeating a Rune Wizard, In hardmode
-			// MimicDown: After defeating a Mimic, In hardmode
-			// MimicHallowDown: After defeating a Hallowed Mimic, In hardmode
-			// MimicCorruptDown: After defeating a Corrupt Mimic, In hardmode
-			// MimicCrimsonDown: After defeating a Crimson Mimic, In hardmode
-			// MimicJungleDown: After defeating a Jungle Mimic, In hardmode
-			// IceGolemDown: After defeating a Ice Golem, In hardmode
-			// SandDown: After defeating a Sand Elemental, In hardmode
-			// DevilDown: After defeating a Red Devil, In hardmode
-			// BloodFishDown: After defeating a Wandering Eye Fish or Zombie Merman
-			// BloodEelDown: After defeating a Blood Eel, In hardmode
-			// BloodGoblinDown: After defeating a Hemogoblin Shark, In hardmode
-			// BloodNautDown: After defeating Dreadnautilus, In hardmode
-			// SummonerDown: After defeating a Goblin Summoner and the Goblin Army, In hardmode
-			// PirateDown: After defeating a Pirate Captain and the Pirate Invasion, In hardmode
-			// NailheadDown: After defeating a Nailhead and all Mechanical Bosses
-			// MothronDown: After defeating a Mothron and all Mechanical Bosses
-			// LeeDown: After defeating a Bone Lee and Plantera
-			// PaladinDown: After defeating a Paladin and Plantera
-			// SkeleGunDown: After defeating a Necromancer, Diabloist or Ragged Caster, After defeating Plantera
-			// SiblingPylon: If all siblings are present
-			// BossDown: After defeating any boss
+			DownedBoss: 击败任意boss后
+			DutchmanDown: 击败海盗船后
+			MageDown: 击败暗黑魔法师后
+			OgreDown: 击败食人魔后
+			BetsyDown: 击败双足翼龙后
+			HorsemanDown:  击败无头骑士后
+			PillarsDown: 击败天界柱后
+			Downed: 击败
+			WormDown: 击败巨型蠕虫或挖掘怪后
+			PinkyDown: 击败粉史莱姆后
+			ScoutDown: 击败哥布林侦察兵后
+			DoctorDown: 击败骷髅博士后
+			MinerDown: 击败不死矿工后
+			TimDown: 击败蒂姆后
+			GnomeDown: 击败侏儒后
+			GoldSlimeDown: 击败金史莱姆后
+			DungeonSlimeDown: 击败地牢史莱姆和骷髅王后
+			MedusaDown: 困难模式下击败美杜莎后
+			ClownDown: 困难模式下击败小丑后
+			NymphDown: 击败宁芙后
+			MothDown: 困难模式下击败蛾后
+			RainbowSlimeDown: 困难模式下击败彩虹史莱姆后
+			WyvernDown: 困难模式下击败飞龙后
+			RuneDown: 困难模式下击败符文巫师后
+			MimicDown: 困难模式下击败宝箱怪后
+			MimicHallowDown: 困难模式下击败神圣宝箱怪后
+			MimicCorruptDown: 困难模式下击败腐化宝箱怪后
+			MimicCrimsonDown: 困难模式下击败猩红宝箱怪后
+			MimicJungleDown: 困难模式下击败丛林宝箱怪后
+			IceGolemDown: 困难模式下击败冰雪巨人后
+			SandDown: 困难模式下击败沙尘精后
+			DevilDown: 困难模式下击败红魔鬼后
+			BloodFishDown: 击败游荡眼球怪鱼或僵尸人鱼后
+			BloodEelDown: 困难模式下击败血鳗鱼后
+			BloodGoblinDown: 困难模式下击败血浆哥布林鲨鱼后
+			BloodNautDown: 困难模式下击败恐惧鹦鹉螺后
+			SummonerDown: 困难模式下在哥布林入侵中击败哥布林术士后
+			PirateDown: 困难模式下在海盗入侵中击败海盗船长后
+			NailheadDown: 在所有机械Boss被击败后击败钉头
+			MothronDown: 在所有机械Boss被击败后击败蛾怪
+			LeeDown: 在世纪之花被击败后击败骷髅李
+			PaladinDown: 在世纪之花被击败后击败圣骑士
+			SkeleGunDown: 在世纪之花被击败后击败死灵法师、魔教徒或褴褛邪教徒法师 
+			SiblingPylon: 所有血亲都存活时
+			BossDown: 击败任意boss后
 		}
 
 		Keybinds: {
@@ -2593,9 +2593,9 @@ Mods: {
 
 # this doesnt work rn
 TownNPCMood_Princess: {
-	// LoveNPC_Fargowiltas/Abominationn: "{NPCName} tells great stories about his battles!"
-	// LoveNPC_Fargowiltas/Deviantt: "{NPCName} is so fun, we could talk for hours!"
-	// LoveNPC_Fargowiltas/Mutant: "{NPCName} has some amazing items, they're great for meeting new friends!"
-	// LoveNPC_Fargowiltas/Squirrel: "{NPCName} is really adorable!"
-	// LoveNPC_Fargowiltas/LumberJack: "{NPCName} is so strong, I want to try chopping wood some time!"
+	LoveNPC_Fargowiltas/Abominationn: "{NPCName}正在讲述他精彩的冒险故事！"
+	// LoveNPC_Fargowiltas/Deviantt: "{NPCName}非常令人愉快，我们能在一起聊几个小时都不厌倦！"
+	// LoveNPC_Fargowiltas/Mutant: "{NPCName}有一些很奇特的东西，他很适合当朋友！"
+	// LoveNPC_Fargowiltas/Squirrel: "{NPCName}真的真的真的好可爱！！"
+	// LoveNPC_Fargowiltas/LumberJack: "{NPCName}非常有力，有空想和他一起砍树！"
 }
