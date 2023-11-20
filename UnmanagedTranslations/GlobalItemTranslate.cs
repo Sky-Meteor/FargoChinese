@@ -124,10 +124,10 @@ namespace FargoChinese.UnmanagedTranslations
                     case ItemID.BugNet:
                     case ItemID.GoldenBugNet:
                     case ItemID.FireproofBugNet:
-                        if (fargoServerConfig.CatchNPCs)
-                        {
-                            ModifyTooltip("[i:1991] [c/AAAAAA:可以抓城镇NPC]", "[i:1991] [c/AAAAAA:Can also catch townsfolk]");
-                        }
+                         if (fargoServerConfig.CatchNPCs)
+                         {
+                            // ModifyTooltip("[i:1991] [c/AAAAAA:可以抓城镇NPC]", "[i:1991] [c/AAAAAA:Can also catch townsfolk]");
+                         }
                         break;
                 }
 
@@ -136,7 +136,7 @@ namespace FargoChinese.UnmanagedTranslations
                     switch (item.type)
                     {
                         case ItemID.FishingPotion:
-                            ModifyTooltip("[i:2373] [c/AAAAAA:多抛出一条鱼线]", "[i:2373] [c/AAAAAA:Also grants one extra lure]", false);
+                         //  ModifyTooltip("[i:2373] [c/AAAAAA:多抛出一条鱼线]", "[i:2373] [c/AAAAAA:Also grants one extra lure]", false);
                             break;
 
                         case ItemID.FiberglassFishingPole:
@@ -144,49 +144,49 @@ namespace FargoChinese.UnmanagedTranslations
                         case ItemID.Fleshcatcher:
                         case ItemID.ScarabFishingRod:
                         case ItemID.BloodFishingRod:
-                            ModifyTooltip("[i:2373] [c/AAAAAA:能抛出两条鱼线]", "[i:2373] [c/AAAAAA:This rod fires 2 lures]", false);
+                         //   ModifyTooltip("[i:2373] [c/AAAAAA:能抛出两条鱼线]", "[i:2373] [c/AAAAAA:This rod fires 2 lures]", false);
                             break;
 
                         case ItemID.MechanicsRod:
                         case ItemID.SittingDucksFishingRod:
-                            ModifyTooltip("[i:2373] [c/AAAAAA:能抛出三条鱼线]", "[i:2373] [c/AAAAAA:This rod fires 3 lures]", false);
+                         //   ModifyTooltip("[i:2373] [c/AAAAAA:能抛出三条鱼线]", "[i:2373] [c/AAAAAA:This rod fires 3 lures]", false);
                             break;
 
                         case ItemID.GoldenFishingRod:
                         case ItemID.HotlineFishingHook:
-                            ModifyTooltip("[i:2373] [c/AAAAAA:能抛出五条鱼线]", "[i:2373] [c/AAAAAA:This rod fires 5 lures]", false);
+                         //   ModifyTooltip("[i:2373] [c/AAAAAA:能抛出五条鱼线]", "[i:2373] [c/AAAAAA:This rod fires 5 lures]", false);
                             break;
                     }
                 }
 
                 if (fargoServerConfig.TorchGodEX && item.type == ItemID.TorchGodsFavor)
                 {
-                    ModifyTooltip("[i:5043] [c/AAAAAA:自动替换已放置的火把来增加运气]", "[i:5043] [c/AAAAAA:Automatically swaps placed torches to boost luck]");
-                    ModifyTooltip("[i:5043] [c/AAAAAA:替换火把遵循火把运气，可能会与默认的选择有不同]", "[i:5043] [c/AAAAAA:Obeys true torch luck when replacing torches, which may differ from default choices]");
+                  //  ModifyTooltip("[i:5043] [c/AAAAAA:自动替换已放置的火把来增加运气]", "[i:5043] [c/AAAAAA:Automatically swaps placed torches to boost luck]");
+                  //  ModifyTooltip("[i:5043] [c/AAAAAA:替换火把遵循火把运气，可能会与默认的选择有不同]", "[i:5043] [c/AAAAAA:Obeys true torch luck when replacing torches, which may differ from default choices]");
                 }
 
                 if (fargoServerConfig.UnlimitedPotionBuffsOn120 && item.maxStack > 1)
                 {
                     if (item.buffType != 0)
                     {
-                        ModifyTooltip("[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠30个时获得无尽增益]", "[i:87] [c/AAAAAA:Unlimited buff at 30 stack in inventory, Piggy Bank, or Safe]");
+                  //      ModifyTooltip("[i:87] [c/AAAAAA:物品栏，猪猪存钱罐或保险箱中的此物品堆叠30个时获得无尽增益]", "[i:87] [c/AAAAAA:Unlimited buff at 30 stack in inventory, Piggy Bank, or Safe]");
                     }
                     else if (item.bait > 0)
                     {
-                        ModifyTooltip("[i:5139] [c/AAAAAA:堆叠30个以上时不消耗]", "[i:5139] [c/AAAAAA:Unlimited use at 30 stack]");
+                  //      ModifyTooltip("[i:5139] [c/AAAAAA:堆叠30个以上时不消耗]", "[i:5139] [c/AAAAAA:Unlimited use at 30 stack]");
                     }
 
                     else if (FargoGlobalItem.BuffStations.Contains(item.type))
                     {
-                        ModifyTooltip("[i:87] [c/AAAAAA:为附近的玩家提供永久性增益]", "[i:87] [c/AAAAAA:Permanently provides effect to nearby players]");
+                  //      ModifyTooltip("[i:87] [c/AAAAAA:为附近的玩家提供永久性增益]", "[i:87] [c/AAAAAA:Permanently provides effect to nearby players]");
                     }
 
                 }
 
                 if (fargoServerConfig.PiggyBankAcc)
                 {
-                    if (informational.Contains(item.type) || construction.Contains(item.type))
-                        ModifyTooltip("[i:87] [c/AAAAAA:在猪猪存钱罐和保险箱中同样生效]", "[i:87] [c/AAAAAA:Works from Piggy Bank and Safe]");
+                   // if (informational.Contains(item.type) || construction.Contains(item.type))
+                   //     ModifyTooltip("[i:87] [c/AAAAAA:在猪猪存钱罐和保险箱中同样生效]", "[i:87] [c/AAAAAA:Works from Piggy Bank and Safe]");
                 }
 
                 if (Squirrel.SquirrelSells(item, out SquirrelSellType sellType) != SquirrelShopGroup.End)

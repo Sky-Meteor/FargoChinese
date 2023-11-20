@@ -764,6 +764,10 @@ Mods: {
 			ModeToggle: {
 				DisplayName: 世界令牌
 				Tooltip: 切换世界难度
+				Journey: 旅行模式已开启！
+				Normal: 经典模式已开启！
+				Expert: 专家模式已开启！
+				Master: 大师模式已开启！
 			}
 
 			PortableSundial: {
@@ -1995,7 +1999,7 @@ Mods: {
 
 			WiresPainting: {
 				DisplayName: Wires绘画
-				// Tooltip: "“看那边！”"
+				Tooltip: “看那边！”
 			}
 
 			WoodenToken: {
@@ -2376,6 +2380,7 @@ Mods: {
 				}
 
 				Census.SpawnCondition: 未知条件
+				CancelEvent: 取消事件
 			}
 
 			Deviantt: {
@@ -2401,6 +2406,7 @@ Mods: {
 				}
 
 				Census.SpawnCondition: 未知条件
+				HelpButton: 帮助
 			}
 
 			LumberJack: {
@@ -2423,6 +2429,7 @@ Mods: {
 				}
 
 				Census.SpawnCondition: 未知条件
+				TreeTreasures: 树木宝藏
 			}
 
 			Mutant: {
@@ -2447,6 +2454,10 @@ Mods: {
 				}
 
 				Census.SpawnCondition: 未知条件
+				CycleShop: 切换商店
+				PreHM: 困难模式前
+				HM: 困难模式
+				PostML: 月亮领主后
 			}
 
 			Squirrel: {
@@ -2540,7 +2551,7 @@ Mods: {
 			MageDown: 击败暗黑魔法师后
 			OgreDown: 击败食人魔后
 			BetsyDown: 击败双足翼龙后
-			HorsemanDown:  击败无头骑士后
+			HorsemanDown: 击败无头骑士后
 			PillarsDown: 击败天界柱后
 			Downed: 击败
 			WormDown: 击败巨型蠕虫或挖掘怪后
@@ -2577,7 +2588,7 @@ Mods: {
 			MothronDown: 在所有机械Boss被击败后击败蛾怪
 			LeeDown: 在世纪之花被击败后击败骷髅李
 			PaladinDown: 在世纪之花被击败后击败圣骑士
-			SkeleGunDown: 在世纪之花被击败后击败死灵法师、魔教徒或褴褛邪教徒法师 
+			SkeleGunDown: 在世纪之花被击败后击败死灵法师、魔教徒或褴褛邪教徒法师
 			SiblingPylon: 所有血亲都存活时
 			BossDown: 击败任意boss后
 		}
@@ -2588,14 +2599,30 @@ Mods: {
 			"Dash Key.DisplayName": 单击冲刺
 			"Set Bonus (Double Tap Up/Down) Key.DisplayName": 套装/饰品效果
 		}
+
+		ExpandedTooltips: {
+			CatchNPCs: 城镇NPC可被抓捕
+			ExtraLure1: 多抛出一条鱼线
+			Lures2: 能抛出两条鱼线
+			Lures3: 能抛出三条鱼线
+			Lures5: 能抛出五条鱼线
+			AutoTorch: 自动替换已放置的火把来增加运气
+			TrueTorchLuck: 替换火把遵循火把运气，可能会与默认的选择有不同
+			UnlimitedBuff30: 物品栏，猪猪存钱罐或保险箱中的此物品堆叠30个时获得无尽增益
+			UnlimitedUse30: 堆叠30个以上时不消耗
+			PermanentEffectNearby: 为附近的玩家提供永久性增益
+			WorksFromBanks: 在猪猪存钱罐和保险箱中同样生效
+			SoldBy: 售卖于
+			SeveralVendors: several vendors // for patch
+		}
 	}
 }
 
 # this doesnt work rn
 TownNPCMood_Princess: {
 	LoveNPC_Fargowiltas/Abominationn: "{NPCName}正在讲述他精彩的冒险故事！"
-	// LoveNPC_Fargowiltas/Deviantt: "{NPCName}非常令人愉快，我们能在一起聊几个小时都不厌倦！"
-	// LoveNPC_Fargowiltas/Mutant: "{NPCName}有一些很奇特的东西，他很适合当朋友！"
-	// LoveNPC_Fargowiltas/Squirrel: "{NPCName}真的真的真的好可爱！！"
-	// LoveNPC_Fargowiltas/LumberJack: "{NPCName}非常有力，有空想和他一起砍树！"
+	LoveNPC_Fargowiltas/Deviantt: "{NPCName}非常令人愉快，我们能在一起聊几个小时都不厌倦！"
+	LoveNPC_Fargowiltas/Mutant: "{NPCName}有一些很奇特的东西，他很适合当朋友！"
+	LoveNPC_Fargowiltas/Squirrel: "{NPCName}真的真的真的好可爱！！"
+	LoveNPC_Fargowiltas/LumberJack: "{NPCName}非常有力，有空想和他一起砍树！"
 }

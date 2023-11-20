@@ -41,14 +41,14 @@ namespace FargoChinese.Patch
                     }
                 }
             }
-            else if (newText == "Expert mode is now enabled!" && R == 175 && G == 75 && B == 255)
+           /* else if (newText == "Expert mode is now enabled!" && R == 175 && G == 75 && B == 255)
                 orig.Invoke("专家模式已开启！", R, G, B);
             else if (newText == "Master mode is now enabled!" && R == 175 && G == 75 && B == 255)
                 orig.Invoke("大师模式已开启！", R, G, B);
             else if (newText == "Journey mode is now enabled!" && R == 175 && G == 75 && B == 255)
                 orig.Invoke("旅行模式已开启！", R, G, B);
             else if (newText == "Normal mode is now enabled!" && R == 175 && G == 75 && B == 255)
-                orig.Invoke("经典模式已开启！", R, G, B);
+                orig.Invoke("经典模式已开启！", R, G, B);*/
             #region Summons
             else if ((newText.EndsWith(" has awoken!") || newText.EndsWith(" have awoken!")) && R == 175 && G == 75 && B == 255)
             {
@@ -389,7 +389,7 @@ namespace FargoChinese.Patch
             #endregion
             #endregion
             #region FargowiltasSouls
-            else if (newText == "Toggles saved to custom set 1!")
+            /*else if (newText == "Toggles saved to custom set 1!")
                 orig.Invoke("已将饰品效果设置保存至自定义效果配置1！", R, G, B);
             else if (newText == "Toggles saved to custom set 2!")
                 orig.Invoke("已将饰品效果设置保存至自定义效果配置2！", R, G, B);
@@ -400,8 +400,8 @@ namespace FargoChinese.Patch
             else if (newText == "No toggles found in custom set 2.")
                 orig.Invoke("在自定义效果配置2中未找到饰品效果设置。", R, G, B);
             else if (newText == "No toggles found in custom set 3.")
-                orig.Invoke("在自定义效果配置3中未找到饰品效果设置。", R, G, B);
-            else if (newText == "Hand it over. That thing, your soul toggles.")
+                orig.Invoke("在自定义效果配置3中未找到饰品效果设置。", R, G, B);*/
+           /* else if (newText == "Hand it over. That thing, your soul toggles.")
                 orig.Invoke("交出你的灵魂吧。", R, G, B);
             else if (newText == "I hope you're ready to embrace suffering.")
                 orig.Invoke("希望你已经做好了拥抱痛苦的准备。", R, G, B);
@@ -414,7 +414,7 @@ namespace FargoChinese.Patch
             else if (newText == "I have not a single regret in my existence!")
                 orig.Invoke("毫无遗憾！这就是我存在的意义！", R, G, B);
             else if (newText == "Oh, right... my revive...")
-                orig.Invoke("期待我的重生吧......", R, G, B);
+                orig.Invoke("期待我的重生吧......", R, G, B);*/
             #endregion
             else
                 orig.Invoke(newText, R, G, B);
@@ -466,14 +466,14 @@ namespace FargoChinese.Patch
                     }
                 }
             }
-            else if (text == "Expert mode is now enabled!" && c == new Color(175, 75, 255))
+           /* else if (text == "Expert mode is now enabled!" && c == new Color(175, 75, 255))
                 orig.Invoke("专家模式已开启！", force, c, WidthLimit);
             else if (text == "Master mode is now enabled!" && c == new Color(175, 75, 255))
                 orig.Invoke("大师模式已开启！", force, c, WidthLimit);
             else if (text == "Journey mode is now enabled!" && c == new Color(175, 75, 255))
                 orig.Invoke("旅行模式已开启！", force, c, WidthLimit);
             else if (text == "Normal mode is now enabled!" && c == new Color(175, 75, 255))
-                orig.Invoke("经典模式已开启！", force, c, WidthLimit);
+                orig.Invoke("经典模式已开启！", force, c, WidthLimit);*/
             #region Summons
             else if ((text.EndsWith(" has awoken!") || text.EndsWith(" have awoken!")) && c == new Color(175, 75, 255))
             {
@@ -812,7 +812,7 @@ namespace FargoChinese.Patch
             #endregion
             #endregion
             #region FargowiltasSouls
-            else if (text == "Hand it over. That thing, your soul toggles.")
+           /* else if (text == "Hand it over. That thing, your soul toggles.")
                 orig.Invoke("交出你的灵魂吧。", force, c, WidthLimit);
             else if (text == "I hope you're ready to embrace suffering.")
                 orig.Invoke("希望你已经做好了拥抱痛苦的准备。", force, c, WidthLimit);
@@ -825,7 +825,7 @@ namespace FargoChinese.Patch
             else if (text == "I have not a single regret in my existence!")
                 orig.Invoke("毫无遗憾！这就是我存在的意义！", force, c, WidthLimit);
             else if (text == "Oh, right... my revive...")
-                orig.Invoke("期待我的重生吧......", force, c, WidthLimit);
+                orig.Invoke("期待我的重生吧......", force, c, WidthLimit);*/
             #endregion
             else
                 orig.Invoke(text, force, c, WidthLimit);
