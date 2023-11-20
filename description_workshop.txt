@@ -1,5 +1,5 @@
 [h1]这是[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2570931073]Fargo突变[/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2815540735]Fargo魂石[/url]的汉化补丁，使用时必须开启Fargo突变，Fargo魂石为可选开启
-适用版本：Fargo突变v2.8.7，Fargo魂石v1.4.1.2（均为最新版）[/h1]
+适用版本：Fargo突变v3.2.1.1，Fargo魂石v1.6.1.1（均为最新版）[/h1]
 
 Fargo突变&魂石汉化补丁
 使用时请将游戏语言设置为中文，其他语言会出现问题！
@@ -7,3 +7,9 @@ Fargo突变&魂石汉化补丁
 目前汉化已完工，如果有没汉化或汉化错误的部分也请留言指出
 特别感谢：灾厄维基汉化组，@SweelLong
 Fargo太鸽了，先用着这个罢（
+
+[h1]汉化更新日志[/h1]
+v321.1611.1
+ · 同步Fargo突变3.2.1.1与魂石1.6.1.1的部分文本更新
+ · 更新gfb世界突变体巨量的对话文本内容
+ · Fargo魂石饰品效果开关的UI界面相关文本内容失效（不是汉化的问题，等Fargo's soul那边修复）
