@@ -16,7 +16,6 @@ namespace FargoChinese
         public override void OnEnterWorld()
         {
             Color c = Color.Orange;
-            Main.NewText("2023.11.18：Fargo汉化项目重启 不定期更新——第二更", c);
             /*Main.NewText("- Fargo突变 V 3.0.0 更新 -", c);
             string text = @"-添加了[i:Fargowiltas/PurityTotem] 纯净图腾
 -更新到tModLoader 1.4.4";
