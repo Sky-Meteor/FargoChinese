@@ -1258,7 +1258,7 @@ Mods: {
 			}
 
 			SlimyLockBox: {
-				DisplayName: 黏黏的上锁箱子
+				DisplayName: 黏黏的锁
 				Tooltip: 召唤地牢史莱姆
 			}
 
