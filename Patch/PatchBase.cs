@@ -15,7 +15,7 @@ namespace FargoChinese.Patch
         protected static bool LoadWithFargoSouls() => ModLoader.TryGetMod("FargowiltasSouls", out _);
 
         public virtual bool IsLoadingEnabled() => true;
-        
+
         /// <summary>
         /// 原版On和IL写这里
         /// </summary>

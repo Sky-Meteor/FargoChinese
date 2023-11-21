@@ -59,6 +59,9 @@ public static class PatchManager
 
     public static void Unload()
     {
+        if (FargoChinese.Instance == null)
+            return;
+
         foreach (var type in FargoChinese.Instance.Code.GetTypes())
         {
             if (type.IsSubclassOf(typeof(PatchBase)))
