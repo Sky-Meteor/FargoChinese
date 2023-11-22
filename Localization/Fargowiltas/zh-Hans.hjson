@@ -2613,7 +2613,7 @@ Mods: {
 			PermanentEffectNearby: 为附近的玩家提供永久性增益
 			WorksFromBanks: 在猪猪存钱罐和保险箱中同样生效
 			SoldBy: 售卖于
-			SeveralVendors: several vendors // for patch
+			SeveralVendors: 多个商人
 		}
 	}
 }
