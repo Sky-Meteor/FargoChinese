@@ -330,9 +330,9 @@ Mods: {
 			CaughtNPC: 被抓捕的城镇NPC
 			ArmoredBonesBanner: 装甲骷髅旗帜
 		}
-		
+
 		UI: {
-			StatButton: Stat Sheet	// for patch
+			StatButton: Stat Sheet
 			SearchText: Search...
 			// Stat Sheet Elements
 			MeleeDamage: Melee Damage: {0}%
