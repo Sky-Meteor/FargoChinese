@@ -17,7 +17,7 @@ Mods: {
 		}
 
 		// Used for TownNPCMood "{BiomeName}" Format (unused now)
-		Biome.Sky: Sky  // for patch
+		Biome.Sky: 天空
 
 		#This is what displays during all of an NPC's happiness levels. Note that the localization key for these should always be "TownNPCMood.*NPCName*.*Mood*" or else it won't display properly.
 		TownNPCMood: {
@@ -332,112 +332,112 @@ Mods: {
 		}
 
 		UI: {
-			StatButton: Stat Sheet
-			SearchText: Search...
+			StatButton: 属性统计表
+			SearchText: 搜索......
 			// Stat Sheet Elements
-			MeleeDamage: Melee Damage: {0}%
-			MeleeCritical: Melee Critical: {0}%
-			MeleeSpeed: Melee Speed: {0}%
-			RangedDamage: Ranged Damage: {0}%
-			RangedCritical: Ranged Critical: {0}%
-			MagicDamage: Magic Damage: {0}%
-			MagicCritical: Magic Critical: {0}%
-			ManaCostReduction: Mana Cost Reduction: {0}%
-			SummonDamage: Summon Damage: {0}%
-			SummonCritical: Summon Critical: {0}%
-			MaxMinions: Max Minions: {0}
-			MaxSentries: Max Sentries: {0}
-			ArmorPenetration: Armor Penetration: {0}
-			Aggro: Aggro: {0}
-			Life: Life: {0}
-			LifeRegen: Life Regen: {0}/sec
-			Mana: Mana: {0}
-			ManaRegen: Mana Regen: {0}/sec
-			Defense: Defense: {0}
-			DRCap: " (cap {0}%)"
-			DamageReduction: Damage Reduction: {0}%{1}
-			Luck: Luck: {0}
-			FishingQuests: Fishing Quests: {0}
-			BattleCry: Battle Cry: {0}
+			MeleeDamage: 近战伤害：{0}%
+			MeleeCritical: 近战暴击率：{0}%
+			MeleeSpeed: 近战攻速：{0}%
+			RangedDamage: 远程伤害：{0}%
+			RangedCritical: 远程暴击率：{0}%
+			MagicDamage: 魔法伤害：{0}%
+			MagicCritical: 魔法暴击率：{0}%
+			ManaCostReduction: 魔力消耗降低：{0}%
+			SummonDamage: 召唤伤害：{0}%
+			SummonCritical: 召唤暴击率：{0}%
+			MaxMinions: 仆从数量上限：{0}
+			MaxSentries: 哨兵数量上限：{0}
+			ArmorPenetration: 护甲穿透：: {0}
+			Aggro: 仇恨：{0}
+			Life: 生命值上限：{0}
+			LifeRegen: 生命再生：{0}/每秒
+			Mana: 魔力值上限：{0}
+			ManaRegen: 魔力再生：{0}/每秒
+			Defense: 防御力：{0}
+			DRCap: "（上限{0}%）"
+			DamageReduction: 伤害减免：{0}%{1}
+			Luck: 运气：{0}
+			FishingQuests: 已完成钓鱼任务：{0}
+			BattleCry: 战争号角状态：{0}
 			// Battle & Calming are in Items.BattleCry
-			BattleCryNone: None
-			MaxSpeed: Max Speed: {0} mph
-			WingNull: ???
-			WingTime: Wing Time: {0}
-			WingTimeMoreThan60Sec: Yes
-			WingTimeActual: "{0} sec"
-			WingMaxSpeed: Wing Max Speed: {0} mph
-			WingAscentModifier: Wing Ascent Modifier: {0}%
-			WingHover: Wing Can Hover: {0}
-			WingHoverTrue: True
-			WingHoverFalse: False
+			BattleCryNone: 关闭
+			MaxSpeed: 最大速度：{0}mph
+			WingNull: ？？？
+			WingTime: 飞行时间：{0}秒
+			WingTimeMoreThan60Sec: 无限
+			WingTimeActual: "{0}秒"
+			WingMaxSpeed: 最大飞行速度：{0}mph
+			WingAscentModifier: 翅膀上升速度：{0}%
+			WingHover: 翅膀是否可水平悬停：{0}
+			WingHoverTrue: 是
+			WingHoverFalse: 否
 		}
 
 		MessageInfo: {
 			Common: {
-				Exclamation: !
-				Period: .
+				Exclamation: ！
+				Period: 。
 			}
 
 			SiblingPylonNotNearSiblings: 目标晶塔需要三兄妹在附近才能使用
 			NearbySiblingPylonNotNearSiblings: 当前晶塔需要三兄妹在附近才能使用
-			NewItemUnlocked: A new item has been unlocked in {0}'s shop!
-			HaveAwoken: "{0} have awoken!"
+			NewItemUnlocked: {0}解锁了新商品！
+			HaveAwoken: "{0}已苏醒！"
 			// Cancel Event
-			CancelEvent: The invaders have left!
-			CancelPumpkinMoon: The Pumpkin Moon is lowering...
-			CancelFrostMoon: The Frost Moon is lowering...
-			CancelEclipse: A solar eclipse is not happening!
-			CancelBloodMoon: The blood moon is descending...
-			CancelWindyDay: The wind has ended!
-			CancelOOA: The Old One's Army is leaving!
-			CancelSandstorm: The sandstorm has ended!
-			CancelLunarEvent: Celestial creatures are not invading!
-			CancelRain: The rain has ended!
+			CancelEvent: 入侵者已离开！
+			CancelPumpkinMoon: 南瓜月正在降下……
+			CancelFrostMoon: 霜月正在降下……
+			CancelEclipse: 日食停止发生！
+			CancelBloodMoon: 血月正在降下……
+			CancelWindyDay: 狂风已经平息！
+			CancelOOA: 旧日军团正在离开！
+			CancelSandstorm: 沙尘暴已结束！
+			CancelLunarEvent: 天界生物停止入侵！
+			CancelRain: 雨停了！
 			// Summons
-			StartWindyDay: The wind begins howling.
-			StartSandStorm: A sandstorm has begun.
-			StartLanternNight: Lantern Night rate increased!
-			StopLanternNight: Lantern Night rate restored to default.
-			StartLunarEvent: The Celestial Pillars have awoken!
-			StartRain: Rain clouds cover the sky.
-			AncientSeal: Every boss has awoken!
-			SeveralBossesAwoken: Several bosses have awoken!
+			StartWindyDay: 狂风开始怒号。
+			StartSandStorm: 沙尘暴开始了。
+			StartLanternNight: 出现灯笼夜的概率提高了！
+			StopLanternNight: 出现灯笼夜的概率恢复正常。
+			StartLunarEvent: 天界柱已苏醒！
+			StartRain: 雨云遮住了天空。
+			AncientSeal: 所有Boss已苏醒！
+			SeveralBossesAwoken: 数个Boss已苏醒！
 			// Swarm Summons
-			OverloadBee: A deafening buzz pierces through you!
-			OverloadBetsy: The real Old One's Army is attacking!
-			OverloadBrain: You feel dumb among so many brains!
-			OverloadCultist: Deafening chants fill your ears!
-			OverloadDarkMage: You feel like you're in a library!
-			OverloadDeer: The Constant takes over!
-			OverloadDestroyer: The planet trembles from the core!
-			OverloadEmpress: Bullet heaven is descending!
-			OverloadEye: Countless eyes pierce the veil staring in your direction!
-			OverloadFish: The ocean swells with ferocious pigs!
-			OverloadGolem: Ancient automatons come crashing down!
-			OverloadMoon: The wind whispers of death's approach!
-			OverloadPlant: The jungle beats as one!
-			OverloadPrime: A sickly chill envelops the world!
-			OverloadQueenSlime: Welcome to the truer slime rain!
-			OverloadSkele: A great clammering of bones rises from the dungeon!
-			OverloadSlimeCrown: Welcome to the true slime rain!
-			OverloadTwins: A legion of glowing iris sing a dreadful song!
-			OverloadWall: A fortress of flesh arises from the depths!
-			OverloadWorm: The ground shifts with formulated precision!
+			OverloadBee: 震耳欲聋的嗡嗡声穿透了你！
+			OverloadBetsy: 真正的撒旦大军来袭！
+			OverloadBrain: 在这么多聪颖的大脑中间，你觉得自己很笨！
+			OverloadCultist: 反抗的圣歌回响在你的耳畔！
+			OverloadDarkMage: 你感觉你身在图书馆！
+			OverloadDeer: 永恒领域的生物大肆入侵！
+			OverloadDestroyer: 整颗星球从核心开始颤抖！
+			OverloadEmpress: 弹幕的天堂正在降临！
+			OverloadEye: 无数眼睛刺破面纱看透了你！
+			OverloadFish: 海洋被凶猛的猪们搅的天翻地覆！
+			OverloadGolem: 古老的机器人接连从天上落下！
+			OverloadMoon: 逼近死亡之风呢喃不已……
+			OverloadPlant: 丛林万物的心跳合而为一！
+			OverloadPrime: 一股恶心的寒气笼罩着整个世界！
+			OverloadQueenSlime: 欢迎来到名副其实的史莱姆雨！
+			OverloadSkele: 骨头的碰撞声从地牢中升腾而起！
+			OverloadSlimeCrown: 欢迎来到真正的史莱姆雨！
+			OverloadTwins: 一群发光的虹膜唱着可怕的歌！
+			OverloadWall: 一个血肉堡垒从深处升起！
+			OverloadWorm: 地面以公式化的精度颤动！
 			// Swarm Events
-			OverloadFrostMoonStop: The Frost Moon fades away!
-			OverloadFrostMoonStart: The Frost Moon is rising...
-			OverloadFrostMoonWave20: Wave: 20: Everything
-			OverloadPumpkinMoonStop: The Pumpkin Moon fades away!
-			OverloadPumpkinMoonStart: The Pumpkin Moon is rising...
-			OverloadPumpkinMoonWave15: Wave: 15: Everything
-			OverloadGoblinsStop: The goblins have calmed down!
-			OverloadMartiansStop: The martians have calmed down!
-			OverloadPiratesStop: The pirates have calmed down!
+			OverloadFrostMoonStop: 霜月消逝……
+			OverloadFrostMoonStart: 霜月正在升起……
+			OverloadFrostMoonWave20: 波数：20：一切
+			OverloadPumpkinMoonStop: 南瓜月消逝……
+			OverloadPumpkinMoonStart: 南瓜月正在升起……
+			OverloadPumpkinMoonWave15: 波数：15：一切
+			OverloadGoblinsStop: 哥布林们冷静下来了！
+			OverloadMartiansStop: 火星人们冷静下来了！
+			OverloadPiratesStop: 海盗们冷静下来了！
 			// Swarm Misc
-			SwarmKilled: Killed: {0}
-			SwarmTotal: Total: {0}
-			SwarmDefeated: The swarm has been defeated!
+			SwarmKilled: 击杀数：{0}
+			SwarmTotal: 总计：{0}
+			SwarmDefeated: 这群怪物已被打败！
 		}
 
 		Buffs: {
@@ -842,12 +842,12 @@ Mods: {
 					左键使用使刷怪率提高 10 倍
 					右键使用使刷怪率降低 10 倍
 					'''
-				Battle: Battle
-				Calming: Calming
-				Activated: activated
-				Deactivated: deactivated
+				Battle: 战争
+				Calming: 镇静
+				Activated: 生效
+				Deactivated: 停止生效
 				// {Battle / Calming} Cry {activated / deactivated} for {playerName}{punctuation}
-				CryText: "{0} Cry {1} for {2}{3}"
+				CryText: "{0}号角已对{2}{1}{3}"
 			}
 
 			DeathFruit: {
@@ -867,12 +867,12 @@ Mods: {
 					调 试 用 物 品
 					研究所有物品
 					'''
-				ResearchText: researched {0} items //for patch
+				ResearchText: 已研究{0}个物品
 			}
 
 			MapViewer: {
 				DisplayName: 失落的王之地图
-				// Tooltip: Reveals the map
+				Tooltip: 点亮整个地图
 			}
 
 			ModeToggle: {
@@ -2003,7 +2003,7 @@ Mods: {
 					可以被无限次重复使用
 					拥有部分原版增益站的效果
 					接触时给予蜂蜜增益
-					在附近时大幅提高运气
+					在附近时大幅提高运气并提供糖果冲刺增益
 					'''
 			}
 
@@ -2494,40 +2494,40 @@ Mods: {
 				}
 
 				Chat: {
-					Defeat: You really defeated me... not bad. Now do it again without getting hit. Oh, and Copper Shortsword only.
-					MutantShimmer: He turned into a squirrel. Funniest thing I've ever seen.
-					StyxArmor: What nostalgic armor you're wearing... No, it doesn't fit on me anymore. And its battery takes too long to charge.
-					Graveyard: I hope all these graves lying around don't belong to you.
-					Mechanic: Can you please ask {0} to stop touching my laser arm please.
-					Normal1: Where'd I get my scythe from? {0}
-					Normal1PHM: Ask me later.
-					Normal1HM: You'll figure it out.
-					Normal2: I have defeated everything in this land... nothing can beat me.
-					Normal3: Have you ever had a weapon stuck to your hand? It's not very handy.
-					Normal4: What happened to Yoramur? No idea who you're talking about.
-					Normal5: You wish you could dress like me? Ha! Actually yea.. you can.
-					Normal6: You ever read the ancient classics, I love all the fighting in them.
-					Normal7: I'm a world class poet, ever read my piece about impending doom?
-					Normal8: You want swarm summons? Maybe next year.
-					Normal9: Like my wings? Thanks, the thing I got them from didn't like it much.
-					Normal10: Heroism has no place in this world, instead let's just play ping pong.
-					Normal11: Why are you looking at me like that? Your fashion sense isn't going to be winning you any awards either.
-					Normal12: No, you can't have my hat.
-					Normal13: Embrace suffering... Wait what do you mean that's already taken?
-					Normal14: Your attempt to exploit my anger is admirable, but I cannot be angered.
-					Normal15: Is it really a crime if everyone else does it.
-					Normal16: Inflicting suffering upon others is the most amusing thing there is.
-					Normal17: Irony is the best kind of humor, isn't that ironic?
-					Normal18: I like Cat... What do you mean who's Cat?
-					Normal19: Check the wiki if you need anything, the kirb is slowly getting it up to par.
-					Normal20: I've heard tales of a legendary Diver... Anyway what was that about a giant jellyfish?
-					Normal21: Overloaded events...? Yeah, they're pretty cool.
-					Normal22: It's not like I don't enjoy your company, but can you buy something?
-					Normal23: I have slain one thousand humans! Huh? You're a human? There's so much blood on your hands..
+					Defeat: 你真的打败了我......不错。现在来试试无伤我吧。哦对了，只能用铜短剑。
+					MutantShimmer: 这家伙变成松鼠了，没想到还能看见这么有趣的事情......
+					StyxArmor: 你穿的这套盔甲可真是怀旧……不，它不再合我身了。而且充满它的电池需要太长时间。
+					Graveyard: 我希望周围所有的这些墓碑不是你的。
+					Mechanic: 你能去跟{0}说让她别再碰我的激光胳膊了吗？
+					Normal1: 我的镰刀是从哪里弄来的？{0}
+					Normal1PHM: 稍后问我吧。
+					Normal1HM: 你会明白的。
+					Normal2: 我已经打败了这片土地上的一切……没有什么能打败我。
+					Normal3: 你可曾有一把粘在你手上的武器？它不是很方便。
+					Normal4: Yoramur怎么了？不知道你在说谁。
+					Normal5: 你想穿得像我一样吗？哈！实际上……你可以。
+					Normal6: 你曾经读过古代经典，我喜欢里面所有的战斗。
+					Normal7: 我是世界级的诗人，有没有读过我关于即将到来的末日的诗作？
+					Normal8: 你想要集群召唤物？也许明年吧。
+					Normal9: 喜欢我的翅膀？谢谢，我从一个不太喜欢它的人那得到的。
+					Normal10: 这个世界没有英雄主义的容身之处，不如打乒乓球吧。
+					Normal11: 你为什么那样看着我？你的时尚感也不会为你赢得任何奖项。
+					Normal12: 不，你不能戴我的帽子。
+					Normal13: 拥抱痛苦……等等，你说这句话已经被占用了是什么意思？
+					Normal14: 你利用我的愤怒的企图令人钦佩，但我不会被激怒。
+					Normal15: 如果每个人都这样做，这真的是犯罪吗？
+					Normal16: 让别人受苦是最有趣的事情。
+					Normal17: 讽刺是最好的幽默，这不是讽刺吗？
+					Normal18: 我喜欢猫……什么？你问我谁是猫？
+					Normal19: 如果您需要任何指导，请查看wiki，不过可能并不够准确。
+					Normal20: 我听说过一位传奇潜水员的故事……但无论如何，巨型水母是什么？？
+					Normal21: 过载事件？那可太酷了。
+					Normal22: 我不是不喜欢你的陪伴，但你能买点东西吗！？
+					Normal23: 我已经杀了一千人了……什么？？你还是人？你手上的鲜血有那么多……
 					// Cancel Event
-					Canceled: Hocus pocus, the event is over.
-					CancelCD: I'm not feeling it right now, come back in {0} seconds.
-					NoEvent: I don't think there's an event right now.
+					Canceled: 天灵灵地灵灵，事件结束了！
+					CancelCD: 我现在没有力气，{0}秒之后再来吧。
+					NoEvent: 我认为现在没有事件。
 				}
 
 				Census.SpawnCondition: 击败过哥布林入侵。
