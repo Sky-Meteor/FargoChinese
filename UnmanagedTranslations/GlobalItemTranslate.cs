@@ -1,4 +1,4 @@
-﻿/*
+﻿
 using Fargowiltas;
 using Fargowiltas.Items.CaughtNPCs;
 using Fargowiltas.Items.Misc;
@@ -20,7 +20,7 @@ namespace FargoChinese.UnmanagedTranslations
 {
     public class GlobalItemTranslate : GlobalItem
     {
-       // private TooltipLine FountainTooltip(string biome) => new(Mod, "Tooltip_zh", $"[i:909] [c/AAAAAA:激活时使周围的生物群落变为{biome}]");
+        private TooltipLine FountainTooltip(string biome) => new(Mod, "Tooltip_zh", $"[i:909] [c/AAAAAA:激活时使周围的生物群落变为{biome}]");
         private static string FountainTooltipEN(string biome) => $"[i:909] [c/AAAAAA:Forces surrounding biome state to {biome} upon activation]";
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
@@ -33,12 +33,12 @@ namespace FargoChinese.UnmanagedTranslations
                         tooltips.Remove(tooltips[i]);
                         if (Main.netMode != NetmodeID.MultiplayerClient)
                         {
-                         //   tooltips.Insert(1, new TooltipLine(Mod, "MapViewerTooltip", "显示整个地图"));
+                            tooltips.Insert(1, new TooltipLine(Mod, "MapViewerTooltip", "显示整个地图"));
                             break;
                         }
                         else
                         {
-                      //      tooltips.Insert(1, new TooltipLine(Mod, "MapViewerTooltip", "显示你周围的地图区域"));
+                            tooltips.Insert(1, new TooltipLine(Mod, "MapViewerTooltip", "显示你周围的地图区域"));
                             break;
                         }
                     }
@@ -66,10 +66,10 @@ namespace FargoChinese.UnmanagedTranslations
 
             if (fargoClientConfig.ExpandedTooltips)
             {
-                if (tooltips.Find(t => t.Name == "TooltipNPCSold" && t.Text.StartsWith("Sold By ")))
+                /*if (tooltips.Find(t => t.Name == "TooltipNPCSold" && t.Text.StartsWith("Sold By ")))
                 {
 
-                }
+                }*/
 
                 void ModifyFountainTooltip(string zhBiome, string enBiome)
                 {
@@ -88,38 +88,38 @@ namespace FargoChinese.UnmanagedTranslations
                 {
                     case ItemID.PureWaterFountain:
                         if (fargoServerConfig.Fountains)
-                    //        ModifyFountainTooltip("海洋", "Ocean");
+                            ModifyFountainTooltip("海洋", "Ocean");
                         break;
 
                     case ItemID.OasisFountain:
                     case ItemID.DesertWaterFountain:
                         if (fargoServerConfig.Fountains)
-                 //           ModifyFountainTooltip("沙漠", "Desert");
+                            ModifyFountainTooltip("沙漠", "Desert");
                         break;
 
                     case ItemID.JungleWaterFountain:
                         if (fargoServerConfig.Fountains)
-                    //        ModifyFountainTooltip("丛林", "Jungle");
+                            ModifyFountainTooltip("丛林", "Jungle");
                         break;
 
                     case ItemID.IcyWaterFountain:
                         if (fargoServerConfig.Fountains)
-                 //           ModifyFountainTooltip("雪原", "Snow");
+                            ModifyFountainTooltip("雪原", "Snow");
                         break;
 
                     case ItemID.CorruptWaterFountain:
                         if (fargoServerConfig.Fountains)
-                 //           ModifyFountainTooltip("腐化之地", "Corruption");
+                            ModifyFountainTooltip("腐化之地", "Corruption");
                         break;
 
                     case ItemID.CrimsonWaterFountain:
                         if (fargoServerConfig.Fountains)
-                 //           ModifyFountainTooltip("猩红之地", "Crimson");
+                            ModifyFountainTooltip("猩红之地", "Crimson");
                         break;
 
                     case ItemID.HallowedWaterFountain:
                         if (fargoServerConfig.Fountains)
-                 //           ModifyFountainTooltip("神圣之地（在困难模式中生效）", "Hallow (in hardmode only)");
+                            ModifyFountainTooltip("神圣之地（在困难模式中生效）", "Hallow (in hardmode only)");
                         break;
 
                     case ItemID.BugNet:
@@ -279,4 +279,4 @@ namespace FargoChinese.UnmanagedTranslations
         }
 
     }
-}*/
+}

@@ -390,7 +390,7 @@ Mods: {
 			PrecisionTooltip: 如果关闭，你不再需要一直按住热键以开启精度模式。不在精度模式时，按下热键可以激活，再按一次即可取消。
 			PreBossNightGlow: Boss前敌人可发光
 			PreBossNightGlowTooltip: 在永恒模式中敌人会在任何Boss被击败前发光
-			HideTogglerTooltip: Mods.FargowiltasSouls.Config.HideTogglerTooltip 
+			HideTogglerTooltip: Mods.FargowiltasSouls.Config.HideTogglerTooltip
 		}
 
 		Toggler: {

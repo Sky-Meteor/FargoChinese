@@ -1,4 +1,4 @@
-﻿/*
+﻿
 using Microsoft.Xna.Framework;
 using Terraria;
 
@@ -20,16 +20,16 @@ namespace FargoChinese.Patch
             if (newText.StartsWith("Battle Cry ") && newText.Contains(Main.player[0].name) && newText.EndsWith("!") && R == 255 && G == 0 && B == 0)
             {
                 if (!newText.Contains("deactivated"))
-           //         orig.Invoke($"战争号角已对{Main.player[0].name}生效！", R, G, B);
+                    orig.Invoke($"战争号角已对{Main.player[0].name}生效！", R, G, B);
                 else
-           //         orig.Invoke($"战争号角已对{Main.player[0].name}停止生效！", R, G, B);
+                   orig.Invoke($"战争号角已对{Main.player[0].name}停止生效！", R, G, B);
             }
             else if (newText.StartsWith("Calming Cry ") && newText.Contains(Main.player[0].name) && newText.EndsWith(".") && R == 0 && G == 255 && B == 255)
             {
                 if (!newText.Contains("deactivated"))
-            //        orig.Invoke($"镇静号角已对{Main.player[0].name}生效。", R, G, B);
+                    orig.Invoke($"镇静号角已对{Main.player[0].name}生效。", R, G, B);
                 else
-           //         orig.Invoke($"镇静号角已对{Main.player[0].name}停止生效。", R, G, B);
+                    orig.Invoke($"镇静号角已对{Main.player[0].name}停止生效。", R, G, B);
             }
             else if (newText.StartsWith("researched ") && newText.EndsWith(" items"))
             {
@@ -37,7 +37,7 @@ namespace FargoChinese.Patch
                 {
                     if (newText == $"researched {i} items")
                     {
-                 //       orig.Invoke($"已研究{i}个物品", R, G, B);
+                        orig.Invoke($"已研究{i}个物品", R, G, B);
                         break;
                     }
                 }
@@ -789,4 +789,4 @@ namespace FargoChinese.Patch
             Terraria.On_Main.NewTextMultiline -= NewTextMultiline;
         }
     }
-}*/
+}
