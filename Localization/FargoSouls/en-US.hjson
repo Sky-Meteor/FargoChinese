@@ -257,7 +257,7 @@ Mods: {
 			NoMusic2: Please install Fargo's Music Mod for the full experience!!
 			NoDLC1: We detected that you're playing Fargo's Souls Mod together with {0}.
 			NoDLC2: It's recommended to use the "Fargo's Souls DLC" mod for compatibility and content between these mods!
-			Wiki: Check out the official Fargo's Wiki at [c/3989FF:terrariamods.wiki.gg/wiki/Fargo%27s_Mod]!
+			Wiki: Check out the official Fargo's Wiki at [c/3989FF:terrariamods.wiki.gg/wiki/Fargo's Mod]!
 
 			DeviBribe: {
 				Line1: Wait a second...
@@ -301,6 +301,7 @@ Mods: {
 			Nutcracker: "{0} had his nuts cracked."
 			Derpling: "{0} was sucked dry."
 			Snatchers: "{0} became a man eaten by Man Eater."
+			Parrots: "{0} was killed by the Trans-Affirming Misogynist Parrot."
 		}
 
 		DeviChatter: {
@@ -6042,6 +6043,7 @@ Mods: {
 			SpectralEoC.DisplayName: Spectral Eye of Cthulhu
 			MonkDashSlash.DisplayName: Monk Dash Slash
 			ObsidianExplosion.DisplayName: Obsidian Explosion
+			DeviGuardianHarmless.DisplayName: Devi Guardian Harmless
 		}
 
 		WoodHeader: "[i:FargowiltasSouls/TimberForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WoodHeader}]"
@@ -6476,6 +6478,11 @@ Mods: {
 				DisplayTogglesRegardless: {
 					Label: Display Soul Toggles Always
 					Tooltip: Disable to only show soul toggles when you have the effect's accessory equipped. Enable to always show them.
+				}
+
+				PreBossNightGlow: {
+					Label: "{$Mods.FargowiltasSouls.Config.PreBossNightGlow}"
+					Tooltip: "{$Mods.FargowiltasSouls.Config.PreBossNightGlowTooltip}"
 				}
 			}
 		}

@@ -257,7 +257,7 @@ Mods: {
 			NoMusic2: 请加载Fargo的音乐Mod以获得完整的游戏体验！！
 			NoDLC1: 您正在同时游玩Fargo's Souls与{0}。
 			NoDLC2: 建议加载Fargo's Souls DLC模组，以保证这些模组之间的兼容性和内容！
-			Wiki: 查看Fargo官方英文wiki：[c/3989FF:terrariamods.wiki.gg/wiki/Fargo%27s_Mod]（中文wiki因为种种原因现在信息十分过时老旧）
+			Wiki: 查看Fargo官方英文wiki：[c/3989FF:terrariamods.wiki.gg/wiki/Fargo's Mod]（中文wiki因为种种原因现在信息十分过时老旧）
 
 			DeviBribe: {
 				Line1: 等一下……
@@ -301,6 +301,7 @@ Mods: {
 			Nutcracker: "{0}的“坚果”裂开了。"
 			Derpling: "{0}被吸干了。"
 			Snatchers: "{0}人被食了，凶手是食人怪。"
+			Parrots: "{0}被一只讨厌女孩子的跨性别鹦鹉击杀了。"
 		}
 
 		DeviChatter: {
@@ -6050,7 +6051,8 @@ Mods: {
 			VortexLightningDeathray.DisplayName: 星旋闪电死亡射线
 			SpectralEoC.DisplayName: 克苏鲁幽灵眼
 			MonkDashSlash.DisplayName: 武僧冲刺斩
-			// ObsidianExplosion.DisplayName: Obsidian Explosion
+			ObsidianExplosion.DisplayName: 黑曜石爆炸
+			DeviGuardianHarmless.DisplayName: 戴薇安守护
 		}
 
 		// WoodHeader: "[i:FargowiltasSouls/TimberForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WoodHeader}]"
@@ -6485,6 +6487,11 @@ Mods: {
 				DisplayTogglesRegardless: {
 					Label: 始终显示魂石饰品效果开关
 					Tooltip: 禁用后仅会在玩家装备了对应饰品后才可开关饰品效果，启用后总是会显示所有饰品效果开关
+				}
+
+				PreBossNightGlow: {
+					Label: "{$Mods.FargowiltasSouls.Config.PreBossNightGlow}"
+					Tooltip: "{$Mods.FargowiltasSouls.Config.PreBossNightGlowTooltip}"
 				}
 			}
 		}
