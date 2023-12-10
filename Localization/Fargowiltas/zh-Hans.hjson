@@ -354,7 +354,7 @@ Mods: {
 			Mana: 魔力值上限：{0}
 			ManaRegen: 魔力再生：{0}/每秒
 			Defense: 防御力：{0}
-			DRCap: "（上限{0}%）"
+			DRCap: （上限{0}%）
 			DamageReduction: 伤害减免：{0}%{1}
 			Luck: 运气：{0}
 			FishingQuests: 已完成钓鱼任务：{0}
@@ -381,7 +381,7 @@ Mods: {
 
 			SiblingPylonNotNearSiblings: 目标晶塔需要三兄妹在附近才能使用
 			NearbySiblingPylonNotNearSiblings: 当前晶塔需要三兄妹在附近才能使用
-			NewItemUnlocked: {0}解锁了新商品！
+			NewItemUnlocked: "{0}解锁了新商品！"
 			HaveAwoken: "{0}已苏醒！"
 			// Cancel Event
 			CancelEvent: 入侵者已离开！
@@ -2557,79 +2557,79 @@ Mods: {
 				}
 
 				Chat: {
-					GiveGifts: This world looks tougher than usual, so you can have these on the house just this once! Talk to me if you need any tips, yeah?
-					NTB: IT'S THE FUNNY BEE WORLD!
-					NTBHA: " HA"
-					NTBHEE: " HEE"
-					NTBHOO: " HOO"
-					NTBHEH: " HEH"
-					NTBHAH: " HAH"
-					EridanusArmor: UWAH! Please don't hurt... wait, it's just you. Don't scare me like that! And why is that THING following you?!
-					NekomiArmor: Ooh, that's my hoodie! So how is it? Comfy and great for gaming, right? Maybe you'll even go beat a boss without taking damage!
-					Defeat: Good work getting one over on me! Hope I didn't make you sweat too much. Keep at the grind - I wanna see how far you can go!
-					Stinky: Wow, you smell rancid. When's the last time you took a shower, stinky?
-					LoveStruck: You're making too many hearts at me! Sorry, we're only at bond level {0} right now!
-					BloodMoon: The blood moon's effects? I'm not human anymore, so nope!
-					HM: Shower thought. If I put you in a meat grinder and all that's left is two Dye... I'd probably be rich! Not that I would, not to you, specifically, I mean... never mind!
-					Mutant1: Can you tell {0} to put some clothes on?
-					Mutant2: One day, I'll sell a summon for myself! ...Just kidding. That's {0}'s job.
-					Lumber: What's that? You want to fight {0}? ...even I know better than to try.
-					EternityMode: Embrace suffering... and while you're at it, embrace another purchase!
-					Normal1: "{0}! I saw something rodent-y just now! You don't have a hamster infestation, right? Right!?"
-					Normal2: Did you know? The only real music genres are death metal and artcore.
-					Normal3: I'll have you know I'm over a hundred Fargo years old! Don't ask me how long a Fargo year is.
-					Normal4: I might be able to afford a taller body if you keep buying!
-					Normal5: Where's that screm cat?
-					Normal6: You're the Terrarian? Honestly, I was expecting someone a little... taller.
-					Normal7: Don't look at me like that! The only thing I've deviated from is my humanity.
-					Normal8: Rip and tear and buy from me for more things to rip and tear!
-					Normal9: What's a chee-bee doe-goe?
-					Normal10: Wait a second. Are you sure this house isn't what they call 'prison?'
-					Normal11: Deviantt has awoken! Quick, give her all your money to defeat her!
-					Normal12: One day, I'll sell a summon for myself! ...Just kidding.
-					Normal13: Hmm, I can tell! You've killed a lot, but you haven't killed enough!
-					Normal14: Why the extra letter, you ask? Only the strongest sibling is allowed to remove their own!
-					Normal15: The more rare things you kill, the more stuff I sell! Simple, right?
-					Normal16: Oh, hi! I, uh, definitely don't have any Stink Potions on me right now! Not that I normally would!
-					Normal17: No, I'm totally not throwing Love Potions while you're not looking! Um, I mean... oh, just buy something!
+					GiveGifts: 这个世界看起来比平时更艰难，所以我免费给你提供这些，仅此一次！如果你需要任何提示，请告诉我，好吗？
+					NTB: 这里是有趣的蜜蜂世界！
+					NTBHA: 哈
+					NTBHEE: 嘻
+					NTBHOO: 呼
+					NTBHEH: 嘿
+					NTBHAH: 呀
+					EridanusArmor: 呜哇！别伤害我……等等，是你啊……不要这样吓我！还有，为什么那东西在跟着你？！
+					NekomiArmor: 哦，那是我的连帽衫！所以感觉如何？舒适、很适合打游戏，对吧？也许你甚至能无伤打败一个Boss！
+					Defeat: 不错，你战胜了我！希望我没有让你太辛苦。坚持到底吧——我想要看看你能前行多远！
+					Stinky: 哇，你闻起来像是变质了。你上次洗澡是什么时候？你身上太臭了。
+					LoveStruck: 你对我冒出太多爱心了！对不起，我们现在的亲密等级只有{0}！
+					BloodMoon: 血月的影响？我早就不是人类了，所以不会影响到我啦！
+					HM: 我突然有个想法。如果我把你放进绞肉机，绞碎到只剩下两个染料……我一定会发财！我不会那样做的，至少不会对你……我的意思是……不要多想。
+					Mutant1: 你能让{0}把衣服穿上吗？
+					Mutant2: 总有一天，我会卖自己的召唤物！……开玩笑的。那是{0}的工作。
+					Lumber: 什么？你想和{0}打一架？......嗯，我建议你最好别去尝试。
+					EternityMode: 拥抱痛苦吧……受虐时别忘了来我这买新东西！
+					Normal1: "{0}！我刚才看到了一些啮齿类动物！你没有被仓鼠感染吧？对吧！？"
+					Normal2: 你知道吗？唯一真正的音乐类型是死亡金属和艺术核心。
+					Normal3: 我要让你知道我已经度过了一百多Fargo年了！别问我一Fargo年有多长。
+					Normal4: 如果你继续买，我可能承担得起更高的身体！
+					Normal5: 那只尖叫猫呢？
+					Normal6: 你就是泰拉瑞亚人？老实说，我在期待一个稍微……高一点的人。
+					Normal7: 别用那种眼神看我！我唯一背离的就是我的人性。
+					Normal8: 撕裂并流下眼泪，再从我这买点东西，再流下眼泪，这是个轮回......
+					Normal9: 什么是 chee-bee doe-goe？
+					Normal10: 等一下，你确定这房子不是传说中的“监狱”？
+					Normal11: 戴薇安已苏醒！快，把你所有的钱都给她就能打败她！
+					Normal12: 总有一天我会卖自己的召唤物！……开玩笑的。
+					Normal13: 嗯，我看得出来！你屠杀了很多东西......但是还不够！
+					Normal14: 你问我为什么要多出一个字母？只有我们中的最强者才被允许删除他们多出来的字母！
+					Normal15: 你杀的稀有的东西越多，我卖的东西就越多！就是这么简单。
+					Normal16: 哦，嗨！我……呃，千万不要现在给我丢臭味药水！我平时也不会那样！
+					Normal17: 呃......我不会趁你不注意往你身上扔爱情药水的啦，嗯......我是说，买点东西吧！
 				}
 
 				HelpDialogue: {
 					// About Bosses & Events
-					DownedMutant: What's that? You want to fight me for real? ...nah, I can't put up a good fight on my own.
-					DownedAbom: Hey, you've almost made it to the end! Got all your Soul accessories ready? What's that? You want to fight my big brother? ...maybe if he had a reason to.
-					DownedEridanus: Ready to fight my big brother? Remember how you've learned to learn. Stay focused, look for patterns, and don't panic. Good luck!
-					PostML: Wanna craft Forces, but missing Enchantments? Craft the Sigil of Champions and they'll give you what you want, so long as you earn it.
-					MoonLord: Only a specific type of weapon will work against each specific pillar. As for that moon guy, his weakness will keep changing.
-					Cultist: Some powerful enemies like that dungeon guy can create their own arenas. You won't be able to escape, so make full use of the room you do have.
-					Fishron: Did you beat that fish pig dragon yet? He reduces your maximum life a little on every hit. He's also strong enough to break defenses in one hit. Too bad you don't have any reinforced plating to prevent that, right?
-					Betsy: Now's a good time to go for Betsy! Don't worry. If you reach the last wave and lose, you won't have to retry the event for more attempts at her. Careful not to slip up before then, and mind her debuffs!
-					Golem: That temple? Reach the altar to regain wire control! The golem gets upset when you leave, so fighting in there is best. Platforms won't work, but a Lihzahrd Instactuation Bomb can help clear space!
-					Plantera: That overgrown plant inflicts a special venom that works her into an enraged frenzy if she stacks enough hits on you. She also has a ring of crystal leaves, but minions go through it.
-					Destroyer: That metal worm has a few upgrades, but its probes were downgraded to compensate. It'll start shooting homing dark stars and flying. When it coils around you, don't try to escape!
-					Twins: I saw that metal eye spinning while firing a huge laser the other day. Also, even if you kill them, they won't die until they're both killed!
-					Prime: Focus on taking down that metal skull, not its limbs. Don't try to outrun its spinning limbs! Keep your eyes open and learn to recognize what's doing what.
-					WOF: That thing's mouth is as good as immune to damage, so you'll have to aim for the eye. Only one of them is vulnerable at a time, though. What thing? You know, that thing!
-					Deviantt: Next up is me! Make sure you can recognize whatever attack I'll throw at you. Blocks and turning away can nullify petrification!
-					Skeletron: The master of the dungeon can use its babies to attack! Which attack it uses depends on whether or not it's spinning. It'll also take a last stand, so be ready to run when you make the kill!
-					QueenBee: The queen bee will summon her progeny for backup. She's harder to hurt while they're there, so take them out first. Oh, and her swarm can't hit right above or below her!
-					Brain: Focus on how the ichor moves and don't get overwhelmed! When the brain gets mad, it'll confuse you every few seconds. Four rings to confuse you, one ring when it wears off!
-					Eater: The more the world eater splits, the more worms can rush you at once. The head is extra sturdy now, but don't let them pile up too much!
-					GoblinsCrimson: Watch out when you break your second Crimson Heart! It might attract the goblins, so prepare before you do it.
-					GoblinsCorruption: Watch out when you break your second Shadow Orb! It might attract the goblins, so prepare before you do it.
-					EOC: That big eyeball has the power of the moon, but it's too flashy for its own good! Learn to notice and focus only on the bits that threaten to hurt you.
-					Slime: Gonna fight that slime king soon? Crafting a Mini Instabridge or two might help, and mind the spike rain. Don't stay up and out of his range or he'll get mad, though!
+					DownedMutant: 啥？你想和我来真的？……啊这，我自己一个人不太会打架。
+					DownedAbom: 嘿，你已经快到最后了！准备好所有的魂石了吗？啊，你想和我大哥打？……应该能吧，如果他有理由这么做。
+					DownedEridanus: 准备打我大哥了？回想你是如何学会洞察战斗的。保持专注，寻找规律，不要惊慌。祝好运！
+					PostML: 想合成九大力，但是缺少魔石？去做一个唤灵魔符。你想要的东西，只要你证明了自己的实力，他们就会给你。
+					MoonLord: 只有特定类型的武器能够有效对付每根特定的天界柱。至于那个没腿的大章鱼，它要求你不断变换手中的武器。
+					Cultist: 一些强大的敌人——例如那个地牢门口的家伙——可以创造自己的战斗区域。你无法逃出来，所以充分利用你掌握的空间。
+					Fishron: 你打过那个猪龙鱼了吗？每次你被击中，它都会降低你的最大生命值。它的力量强到足以一下破除你的防御，要是你没有强化钢板的话。这十分糟糕，是吧？
+					Betsy: 现在是去打双足翼龙的好时机！别担心。如果你撑到了最后一波但输掉了，你不需要从头来过。注意不要在最后一波前失误，并注意她对你造成的减益！
+					Golem: 那座神庙？碰一下祭坛来重新控制电线！石巨人会在你离开神庙时狂暴，所以最好在那里战斗。平台在这场战斗中不起作用，但丛林神庙炸弹可以帮助清理空间！
+					Plantera: 那株长得飞快的植物会造成一种特殊的毒液，如果你被她连续击中很多次，她就会进入狂暴状态。她还有一圈叶状水晶来保护自己，但召唤物能穿过它们。
+					Destroyer: 那条金属蠕虫经过了一些升级，但它的探针被削弱了以维持平衡。它会射出满天的暗星并试图撞你。当它盘旋在你身边时，不要试图逃跑！
+					Twins: 前几天我看到了那个金属眼球一边旋转一边射出一道巨大的激光。并且，即使你击败它们中的一个，它们也不会立即死亡，直到它们都被杀死！
+					Prime: 专注于拿下那个大铁骷髅头，而不是它的四肢。不要试图跑出它旋转的四肢！睁大你的眼睛，学会分析它的行动。
+					WOF: 那东西的嘴几乎免疫伤害，所以你必须瞄准它们的眼睛，而且同一时间两个眼睛中只有一个能受到伤害。哪个东西？你知道的，那个东西！
+					Deviantt: 下一个是我！确保你能躲开我向你丢出的任何攻击。用方块挡住或者转身别看我就能使石化失效！
+					Skeletron: 地牢之主可以操纵它的宝宝来攻击！它使用哪种攻击取决于它的头是否在旋转。在即将被杀死时它会疯狂的旋转，所以当你快杀死它时准备好开跑！
+					QueenBee: 蜂后会召唤它的后代作为后援。它们存在时她更难被伤害，所以先灭了它们。对了，它的蜂群不能打到她的正上方和下方！
+					Brain: 注意灵液如何移动，不要惊慌失措！当大脑变得疯狂时，它每几秒钟就会让你感到困惑。四个环出现时你会感到困惑，一个环出现后它会消失并冲刺！
+					Eater: 世界吞噬怪吐出越多魔唾液，就会有越多虫子会向你冲来。它的头部现在非常结实，不要让它们堆积太多！
+					GoblinsCrimson: 当你打破第二颗猩红心脏时要小心！这也许会引来哥布林，所以在你打破前请做好应对的准备。
+					GoblinsCorruption: 当你打破第二颗暗影珠时要小心！这也许会引来哥布林，所以在你打破前请做好应对的准备。
+					EOC: 那个大眼珠子有一点月亮之力，但是其实全都是花里胡哨！只要注意关注那些可能会打到你的弹幕就行了。
+					Slime: 马上要和史莱姆王战斗了吗？造一两个速建平台也许会有帮助，并且注意从天而降的刺。不要待在它的上方，也不要离它太远，不然它会狂暴的！
 					// Other
-					Auras: Seems like everyone's learning to project auras these days. If you look at the particles, you can see whether it'll affect you at close range or a distance!
-					Debuffs: There's probably a thousand items to protect against all these debuffs. It's a shame you don't have a thousand hands to carry them all at once!
-					SoulToggle: Don't forget you can turn off your soul toggles! They're all in that little wrench button right below your inventory. Those small buttons at the very bottom of the list include a recommended low-lag preset!
-					LifeCrystals: I don't have any Life Crystals for you, but I think my big brother left some in the fat slime king. Maybe he'll share if you beat it up!
-					Fish: Watch out for those fish! Sharks will leave you alone if you leave them alone, but piranhas go wild when they smell blood. They can jump out of water to get you!
-					Underwater: The water is bogging you down? Never had an issue with it, personally... Have you tried breathing water instead of air?
-					Underworld: The underworld has gotten a lot hotter since the last time I visited. I hear an obsidian skull is a good luck charm against burning alive, though!
-					SpaceSuffocation: Want to have a breath-holding contest? The empty vacuum of space would be perfect. No, I won't cheat by breathing water instead of air!
-					UndergroundHallow: That's a funny face you're making... Is the underground Hallow too disorienting? Try controlling gravity on your own and maybe it can't flip you by force!
-					LifeFruit: If you ask me, Plantera is really letting herself go. A diet of Chlorophyte Ore and Life Fruit isn't THAT healthy! Why don't you help her slim down?
+					Auras: 看起来每个人这几天都在学习如何发出光环。如果你细看那些粒子，你可以看出它会在圈内还是圈外生效！
+					Debuffs: 可能有上千件物品来免疫这些减益。可惜你并没有一千只手来把它们一次全带上！
+					SoulToggle: 不要忘记你可以开关你的魂石饰品效果！它们都在你物品栏右下角的小扳手里。列表最底部的那些小按钮包含了一套推荐的低卡顿预设！
+					LifeCrystals: 我没有更多的生命水晶给你了，但我想我大哥在那只肥胖的史莱姆王里留了一些。如果你击败了它，他也许会分享这些水晶！
+					Fish: 小心那些鱼！鲨鱼会在你离开它们时离开你，但食人鱼一旦闻到血腥味就会立刻变得狂野。它们可以跳出水面来抓你！
+					Underwater: 水让你陷入了困境？就我而言，从来没遇到过这个问题……你试过在水里而不是空气里呼吸吗？
+					Underworld: 较我上次参观，地狱变得更热了。不过，我听说黑曜石骷髅头是个防止被烧死的好东西！
+					SpaceSuffocation: 想来一场憋气大赛吗？太空的真空环境会是个完美的场地。不，我不会通过呼吸水而非空气来作弊！
+					UndergroundHallow: 你这副样子真滑稽……地下神圣让你搞不清东南西北？试试自己控制重力，它不能强行翻转你！
+					LifeFruit: 你要是问我的话，世纪之花实在是太放纵自己了。叶绿矿和生命果并不是一套那么好的饮食！为什么你不帮帮她减肥？
 				}
 
 				Census.SpawnCondition: 击败过稀有敌怪或世界处于永恒模式。
@@ -2656,45 +2656,45 @@ Mods: {
 				}
 
 				Chat: {
-					Nurse: I always see {0} looking at my biceps when I'm working. Wonder if she wants some of my wood.
-					LucyTheAxe: Lucy from that universe.. Interesting things await you.
-					Normal1: Dynasty wood? Between you and me, that stuff ain't real wood!
-					Normal2: Sure cactus isn't wood, but I can still chop it with me trusty axe.
-					Normal3: You wouldn't by chance have any fantasies about me... right?
-					Normal4: I eat a bowl of woodchips for breakfast... without any milk.
-					Normal5: TIIIIIIIIIMMMBEEEEEEEERRR!
-					Normal6: I'm a lumberjack and I'm okay, I sleep all night and I work all day!
-					Normal7: You won't ever need an axe again with me around.
-					Normal8: I have heard of people cutting trees with fish, who does that?
-					Normal9: You wanna see me work without my shirt on? Maybe in 2030.
-					Normal10: You ever seen the world tree?
-					Normal11: You want what? ...Sorry that's not the kind of wood I'm selling.
-					Normal12: Why don't I sell acorns? ...I replant all the trees I chop, don't you?
-					Normal13: What's the best kind of tree? ... Any if I can chop it.
-					Normal14: Can I axe you a question?
-					Normal15: Might take a nap under a tree later, care to join me?
-					Normal16: I'm an expert in all wood types.
-					Normal17: I'm glad there's more trees to chop here at journey's end.
-					Normal18: Red is one of my favourite colors, right after wood.
-					Normal19: It's always flannel season.
-					Normal20: I'm glad my wood put such a big smile on your face.
+					Nurse: 我总是看见{0}在我砍树的时候盯着我的二头肌。不知道她是不是想要一些我的木头。
+					LucyTheAxe: 来自那个宇宙的露西……有趣的东西正等着你呢。
+					Normal1: 王朝木？这话我就跟你说，那东西不是真木头！
+					Normal2: 仙人掌当然不是木头，但我仍然可以用我可靠的斧头砍了它。
+					Normal3: 你对我不会有任何幻想……对吧？
+					Normal4: 我早餐吃了一碗木片……不带牛奶。
+					Normal5: 砍木木木木木木木木木木木木木木木木木木木头！
+					Normal6: 我是伐木工，我没事，我整夜睡觉，整天工作！
+					Normal7: 有我在，你再也不需要斧头了。
+					Normal8: 我听说有人用鱼砍树，谁那么干？
+					Normal9: 你想看我不穿衬衫工作吗？也许在2030年可以。
+					Normal10: 你见过世界树吗？
+					Normal11: 你想要什么？……对不起，那种木材不是我卖的。
+					Normal12: 我为什么不卖橡实？……我每次都重新种植所有我砍的树，难道你不是吗？
+					Normal13: 最好的树是什么树？……任何我砍得掉的树。
+					Normal14: 能让你砍砍我的问题吗？
+					Normal15: 我待会儿也许会在树下小睡一会儿，愿意和我一起吗？
+					Normal16: 我是所有木材类型的专家。
+					Normal17: 我很高兴处在旅途的终点，又有更多树可以砍了。
+					Normal18: 红色是我最喜欢的颜色之一，仅次于木材色。
+					Normal19: 这儿一直是法兰绒的季节。
+					Normal20: 我很高兴我的木头让你脸上露出如此灿烂的笑容。
 					// Tree Treasures
-					Desert: While I was chopping down a cactus these things leaped at me, why don't you take care of them?
-					Jungle: These mahogany trees are full of life, but a tree only has one purpose: to be chopped. Oh yea these fell out of the last one.
-					Hallow: This place is a bit fanciful for my tastes, but the wood's as choppable as any. Nighttime has these cool bugs though, take a few.
-					GlowshroomHM: Whatever causes these to glow is beyond me, you're probably gonna eat them anyway so have this while you're at it.
-					Evil: The trees here are probably the toughest in this branch of reality.. Sorry, just tree puns. I found these for you here.
-					Snow: This neck of the woods is pretty eh? Here I've got some of my favorite wood for you.
-					Beach: Even on vacation, I always fit in a little chopping. A couple annoying birds fell out of a palm tree. Take them off my hands.. maybe cook them up?
-					Underworld: I looked around here for a while and eventually found some weird, ashy trees. Very fragile. I also found these little guys. Please take them, they're hot to hold.
-					DirtRockGem: I certainly didn't expect to find such wonderful trees down here. Check this out.
-					DirtRockMouse: Went for a long haul today, but there were only so many of those strange trees to go around. I did find a lot of these, why don't you give some of them a new home?
-					CommonDayTimeWindy: Seems like the wind brought a bunch of these out of hiding. Some people say they're good luck. All I know is, the only luck I need is a sharp axe!
-					CommonDayTimeButterfly: Back in the day, people used to forge butterflies into powerful gear. We try to forget those days... but here have one.
-					CommonDayTimeEucaluptusSap: I found this, but I'm not a sappy person. You can have it instead.
-					CommonDayTimeCritter: These little critters are always falling out of the trees I cut down. Maybe you can find a use for them?
-					CommonNightTime: Chopping trees at night is always relaxing... well except for the flying eyeballs. Have one of these little guys to keep you company.
-					Rest: I'm resting after a good day of chopping, come back tomorrow and maybe I'll have something else for you.
+					Desert: 我在砍仙人掌的时候，这些东西向我扑过来，你为什么不好好处理它们？
+					Jungle: 这些红木树充满了生机，但一棵树只有一个意义：被砍掉。哦，是的，这些是从上一棵树上掉下来的。
+					Hallow: 这个地方对我的风格来说有点异想天开，还好这里的木头和其他任何地方一样砍得动。不过，夜间有这些很酷的虫子，拿一点吧。
+					GlowshroomHM: 无论是什么使这些东西发光，我都无法理解，反正你可能会吃掉它们，所以你要吃的时候就吃这个吧。
+					Evil: 这里的树可能是这个现实分支中最坚固的……抱歉，只是些树的双关语。我在这里找到了这些东西给你。
+					Snow: 这个树林的脖子很漂亮吧？在这里，我给你搞了些我最喜欢的木头。
+					Beach: 即使在度假，我也总会抽出时间来砍一小点树。几对恼人的鸟从一棵棕榈树上掉了下来，把它们从我手中拿走……也许可以把它们煮了吃？
+					Underworld: 我在周围转了转，发现了一些奇怪的灰色木头，这些木头很脆弱。还找到了一些小家伙，把它们拿走吧，小心点，这些玩意相当烫。
+					DirtRockGem: 我真没想到我能在这里找到这么让人惊讶的树。看看这个。
+					DirtRockMouse: 今天我走了很远，但周围只有许多那种奇怪的树。我找到了这些，为什么不给他们一个新家呢？
+					CommonDayTimeWindy: 看上去风把这些虫子从藏身地带了出来。有些人说他们代表着好运。我只知道，我需要的所有好运就是一把锋利的斧头！
+					CommonDayTimeButterfly: 过去的日子里，人们常常将蝴蝶锻造成强大的装备。我们试图忘记那些日子……但这里有一只。
+					CommonDayTimeEucaluptusSap: 我找到了这玩意儿，但我一点也不“美汁汁”的，还是给你吧。
+					CommonDayTimeCritter: 这些小动物总是从我砍倒的树上掉下来。也许你可以找到它们的用途？
+					CommonNightTime: 晚上砍树总是很放松的……好吧，除了这些飞来飞去的眼球。让这些小家伙中的一个陪陪你。
+					Rest: 我砍了一天的好东西，现在正在休息呢。明天再来，也许我会给你点别的东西。
 				}
 
 				Census.SpawnCondition: 所有玩家通过砍树总共获得过500个木材。
@@ -2723,78 +2723,78 @@ Mods: {
 				}
 
 				Chat: {
-					EternityDefeat: Congratulations. You truly embraced eternity... at least, I think you did? So what happens next? Ascend from this plane of existence? Fight a transcendent cat-like entity? Destroy the world? All the power's in your hands now.
-					Defeat: Good work beating me, I guess. I still feel like stretching my wings... Why don't we go at it for real next time?
-					MutantArmor: Nice armor you have, very realistic skin. As a matter of fact, mind if I borrow it? Your skin, that is.
-					SoulsPostML: Now that you've defeated the big guy, I'd say it's time to start collecting those materials! // for patch
-					DefeatCommon: What's that? You want to fight me? ...sure, I guess.
-					DefeatAbom: What's that? You want to fight me? ...maybe if I had a reason.
-					SoulsModDisabled: What's that? You want to fight me? ...you're not worthy you rat.
-					PumpkinMoon: A bit spooky tonight, isn't it.
-					FrostMoon: I'd ask for a coat, but I don't think you have any my size.
-					SlimeRain: Weather seems odd today, wouldn't you agree?
-					BloodMoon1: Lovely night, isn't it?
-					BloodMoon2: I hope the constant arguing I'm hearing isn't my fault.
-					NightTime: I'd follow and help, but I'd much rather sit around right now.
-					Party: "{0} is the one who invited me, I don't understand why though."
-					PartyWithoutPartyGirl: I don't know what everyone's so happy about, but as long as nobody mistakes me for a Pigronata, I'm happy too.
-					Nurse: Whenever we're alone, {0} keeps throwing syringes at me, no matter how many times I tell her to stop!
-					WitchDoctor: Please go tell {0} to drop the 'mystical' shtick, I mean, come on! I get it, you make tainted water or something.
-					Dryad: Why does {0}'s outfit make my wings flutter?
-					Stylist: "{0} once gave me a wig... I look hideous with long hair."
-					Truffle: That mutated mushroom seems like my type of fella.
-					TaxCollector: "{0} keeps asking me for money, but he won't accept my spawners!"
-					Guide: Any idea why {0} is always cowering in fear when I get near him?
-					WitchDoctorTruffleCyborg: If any of us could play instruments, I'd totally start a band with {0}, {1}, and {2}.
-					PartyGirl: Man, {0}'s confetti keeps getting stuck to my wings.
-					Demolitionist: I'm surprised {0} hasn't blown a hole in the floor yet, on second thought that sounds fun.
-					Tavernkeep: "{0} keeps suggesting I drink some beer, something tells me he wouldn't like me when I'm drunk though."
-					DyeTrader: "{0} wants to see what I would look like in blue... I don't know how to feel."
-					Normal1: Savagery, barbarism, bloodthirst, that's what I like seeing in people.
-					Normal2: The stronger you get, the more stuff I sell. Makes sense, right?
-					Normal3: There's something all of you have that I don't... Death perception, I think it's called?
-					Normal4: It would be pretty cool if I sold a summon for myself...
-					Normal5: The only way to get stronger is to keep buying from me and in bulk too!
-					Normal6: Why are you looking at me like that, all I did was eat an apple.
-					Normal7: Don't bother with anyone else, all you'll ever need is right here.
-					Normal8: You're lucky I'm on your side.
-					Normal9: Why yes I would love a ham and swiss sandwich.
-					Normal10: Should I start wearing clothes? ...Nah.
-					Normal11: It's not like I can actually use all the gold you're spending.
-					Normal12: Violence for violence is the law of the beast.
-					Normal13: Those guys really need to get more creative. All of their first bosses are desert themed!
-					Normal14: You say you want to know how a Mutant and Abominationn are brothers? You're better off not knowing.
-					Normal15: I'm all you need for a calamity.
-					Normal16: Everything shall bow before me! ...after you make this purchase.
-					Normal17: It's clear that I'm helping you out, but uh.. what's in this for me? A house you say? I eat zombies for breakfast.
-					Normal18: Can I jump? No, I don't have something called a 'spacebar'.
-					Normal19: Got your nose, I needed one to replace mine.
-					Normal20: What's a Terry?
-					Normal21: Why do so many creatures carry around a weird looking blue doll? The world may never know.
-					Normal22: Impending doom approaches. ...If you don't buy anything of course.
-					Normal23: I've heard of a '3rd dimension', I wonder what that looks like.
-					Normal24: Boy don't I look fabulous today.
-					Normal25: You have fewer friends than I do eyes.
-					Normal26: The ocean is a dangerous place, I wonder where Diver is?
-					Normal27: Do you know what an Ee-arth is?
-					Normal28: I can't even spell 'apotheosis', do you expect me to know what it is?
-					Normal29: Where do monsters get their gold from? ...I don't have pockets you know.
-					Normal30: Dogs are cool and all, but cats don't try to bite my brain.
-					Normal31: Beware the green dragon... What's that face mean?
-					Normal32: Where is this O-hi-o I keep hearing about.
-					Normal33: I've told you 56 times already, I'm busy... Oh wait you want to buy something, I suppose I have time.
-					Normal34: I've heard of a 'Soul of Souls' that only exists in 2015.
-					Normal35: Adding EX after everything makes it way more difficult.
-					Normal36: I think that all modern art looks great, especially the bloody stuff.
-					Normal37: How many guides does it take to change a lightbulb? ... I don't know, how about you ask him.
-					Normal38: Good thing I don't have a bed, I'd probably never leave it.
-					Normal39: What's this about an update? Sounds rare.
-					Normal40: If you need me I'll be slacking off somewhere.
-					Normal41: What do you mean who is Fargo!
-					Normal42: Have you seen the ech cat?
-					Normal43: I don't understand music nowadays, I prefer some smooth jazz... or the dying screams of monsters.
-					Normal44: Cthulhu's got nothing on me!
-					Normal45: I heard of a rumor of infinite use boss summons. Makes me sick..
+					EternityDefeat: 恭喜。你真正地拥抱了永恒……至少，我认为你做到过？那么之后会发生什么？从这种无聊的境界飞升？与一只超凡的猫形生物战斗？毁灭世界？所有力量现在都掌握在你的手里。
+					Defeat: 打得不错，我感觉。不过我还想更充分的伸展我的翅膀……我们下次认真打一场吧？
+					MutantArmor: 你这套盔甲很好，有非常逼真的皮肤。事实上，你介意我借用一下吗？我说的是你的皮肤。
+					SoulsPostML: 既然打败了那个大家伙，是时候开始收集材料了！
+					DefeatCommon: 啥？你想和我战斗？……好吧。
+					DefeatAbom: 啥？你想和我战斗？……得有足够的理由说服我。
+					SoulsModDisabled: 啥？你想和我战斗？……你这个老鼠不配。
+					PumpkinMoon: 今晚有点吓人，不是吗？
+					FrostMoon: 我想要一件外套，但我认为你没有我的尺码。
+					SlimeRain: 今天的天气似乎很奇怪，你不觉得吗？
+					BloodMoon1: 美好的夜晚，不是吗？
+					BloodMoon2: 我希望我听到的不断争论不是我的错。
+					NightTime: 我会跟随并提供帮助，但我现在更想袖手旁观。
+					Party: "{0}邀请了我，但我不明白为什么。"
+					PartyWithoutPartyGirl: 我不知道怎么大家都这么开心。不过只要没人把我当成笨蛋，那我就也很开心。
+					Nurse: 每当我们独自一人时，{0}都一直向我扔注射器！无论我叫她停下多少次！
+					WitchDoctor: 请让{0}放弃“神秘”的技巧，我的意思是，哦！我明白了，你也制造了被污染的水什么的。
+					Dryad: 为什么{0}的穿着让我翅膀扇动？
+					Stylist: "{0}曾经给了我一顶假发……不过我戴长发看起来很丑。"
+					Truffle: 那个变异蘑菇似乎是我喜欢的类型。
+					TaxCollector: "{0}一直向我要钱，但他不要我的召唤物！"
+					Guide: 为什么当我靠近{0}时他总是害怕？
+					WitchDoctorTruffleCyborg: 如果我们中有人会演奏乐器，我会叫上{0}，{1}，和{2}来组建一支乐队。
+					PartyGirl: 哥们，{0}的五彩纸屑总是粘在我的翅膀上。
+					Demolitionist: "{0}暂时还没有在地板上炸个洞，不过仔细想想感觉这也挺有趣的。"
+					Tavernkeep: "{0}一直建议我喝啤酒，但我喝醉了他也不会喜欢我。"
+					DyeTrader: "{0}想看看我穿蓝色衣服会是什么样子……我不知道什么感觉。"
+					Normal1: 残暴、野蛮、嗜血，这就是我喜欢在人们身上看到的。
+					Normal2: 你越强大，我卖的东西就越多。不难理解，对吧？
+					Normal3: 你们所有人都有一些我没有的东西……死亡感知，是叫这个来着吧？
+					Normal4: 我觉得卖个自己的召唤物是个挺酷的事儿……
+					Normal5: 变得更强大的唯一方法是继续从我这里购买东西，大量地购买东西！
+					Normal6: 你为什么那样看着我，我只是吃了一个苹果。
+					Normal7: 不要打扰其他人，你所需要的就在这里。
+					Normal8: 你很幸运，我站在你这边。
+					Normal9: 我在想为什么我会喜欢火腿和瑞士三明治。
+					Normal10: 我应该开始穿衣服吗？啊这……
+					Normal11: 你花的所有金币我其实用不完。
+					Normal12: 以暴制暴是野兽的法则。
+					Normal13: 那些家伙真的需要变得更有创意。他们所有的第一个Boss都是沙漠主题！
+					Normal14: 你说你想知道突变体和憎恶是怎样的兄弟关系？你最好别问。
+					Normal15: 在灾厄中，我就是你需要的一切。
+					Normal16: 我将拥有整个世界！……在你购买我东西之后。
+					Normal17: 很明显我是在帮助你，但是呃……这对我有什么好处？你认为是房子？我早餐吃僵尸。
+					Normal18: 我可以跳吗？不，我没有叫做“空格键”的东西。
+					Normal19: 摸到你的鼻子了，我需要一个东西把我的鼻子换掉。
+					Normal20: Terry是啥？
+					Normal21: 为什么这么多生物带着一个看起来很奇怪的蓝色娃娃？这个问题的答案可能永远不会被知晓。
+					Normal22: 末日即将来临……如果你不买我东西的话。
+					Normal23: 我听说过“三维”，我想知道它是什么样子的。
+					Normal24: 小子，我今天看起来不是很好。
+					Normal25: 你的朋友比我的眼睛还少。
+					Normal26: 海洋是一个危险的地方，我想知道潜水员在哪里？
+					Normal27: 你知道Ee-arth是什么吗？
+					Normal28: 我连“巅峰”都不会拼写，你希望我知道它是什么吗？
+					Normal29: 怪物从哪里得到的金币？……你知道我没有口袋。
+					Normal30: 狗很酷，但猫不会试图咬我的大脑。
+					Normal31: 小心绿龙……你这张脸是什么意思？
+					Normal32: 我一直听说的O-hi-o在哪？
+					Normal33: 我已经跟你说过56次了，我很忙……哦，等等你想买东西？我想我有时间。
+					Normal34: 我听说过一个只存在于2015年的“灵魂之魂
+					Normal35: 在事物之后添加EX会让它变得更加困难。
+					Normal36: 我认为所有现代艺术看起来都很棒，尤其是血腥的东西。
+					Normal37: 换一个灯泡需要几个向导？……我不知道，你问问他怎么样。
+					Normal38: 还好我没有床，有的话我可能永远不会离开它。
+					Normal39: 这更新的是什么？听起来很罕见。
+					Normal40: 如果你需要我，我会在某个地方偷懒。
+					Normal41: 你是什么意思，谁是Fargo！
+					Normal42: 你见过Ech猫吗？
+					Normal43: 我不懂现在的音乐，我更喜欢一些流畅的爵士乐……或者怪物垂死的尖叫声。
+					Normal44: 克苏鲁在我身上得不到任何东西！
+					Normal45: 我听到一个关于无限召唤物的传言。这让我很难受……
 				}
 
 				Census.SpawnCondition: 击败过任意Boss。
@@ -2822,10 +2822,10 @@ Mods: {
 				}
 
 				Chat: {
-					BloodMoon: "[c/FF0000:You will suffer.]"
-					Normal1: *squeak*
-					Normal2: *chitter*
-					Normal3: *crunch crunch*
+					BloodMoon: "[c/FF0000:你会受苦的。]"
+					Normal1: *吱吱*
+					Normal2: *啾啾*
+					Normal3: *嘎吱嘎吱*
 				}
 
 				Census.SpawnCondition: 松鼠来到过城镇，或未加载Fargo魂石时击败过史莱姆王，或加载Fargo魂石时任意玩家背包中有高顶礼帽松鼠。
@@ -2942,29 +2942,29 @@ Mods: {
 			SkeleGunDown: 在世纪之花被击败后击败死灵法师、魔教徒或褴褛邪教徒法师
 			SiblingPylon: 所有血亲都存活时
 			BossDown: 击败任意boss后
-			DownedTheBoss: After the boss has been defeated //for patch
-			Angler5: Finish 5 angler quests
-			Angler10: Finish 10 angler quests
-			Angler15: Finish 15 angler quests
-			Angler20: Finish 20 angler quests
-			Angler25: Finish 25 angler quests
-			Angler30: Finish 30 angler quests
-			InRockOrDirtLayerHeight: While underground
-			BrittleBone: Have a weapon that uses Brittle Bones as ammunition in your inventory
-			Seeds: Have a weapon that uses seeds as ammunition in your inventory
-			RedHusk: After having picked up a Red Husk
-			OrangeBloodroot: After having picked up an Orange Bloodroot
-			YellowMarigold: After having picked up a Yellow Marigold
-			LimeKelp: After having picked up a Lime Kelp
-			GreenMushroom: After having picked up a Green Mushroom
-			TealMushroom: After having picked up a Teal Mushroom
-			CyanHusk: After having picked up a Cyan Husk
-			SkyBlueFlower: After having picked up a Sky Blue Flower
-			BlueBerries: After having picked up Blueberries
-			PurpleMucos: After having picked up Purple Mucos
-			VioletHusk: After having picked up a Violet Husk
-			PinkPricklyPear: After having picked up a Pink Prickly Pear
-			BlackInk: After having picked up Black Ink
+			DownedTheBoss: 在对应boss被击败后
+			Angler5: 完成5个渔夫任务
+			Angler10: 完成10个渔夫任务
+			Angler15: 完成15个渔夫任务
+			Angler20: 完成20个渔夫任务
+			Angler25: 完成25个渔夫任务
+			Angler30: 完成30个渔夫任务
+			InRockOrDirtLayerHeight: 在地下时
+			BrittleBone: 在背包里有一把使用骨头作为弹药的武器
+			Seeds: 在背包里有一把使用种子作为弹药的武器
+			RedHusk: 获得一个红外壳后
+			OrangeBloodroot: 获得一个橙血根草后
+			YellowMarigold: 获得一个黄万寿菊后
+			LimeKelp: 获得一个橙绿海藻后
+			GreenMushroom: 获得一个绿蘑菇后
+			TealMushroom: 获得一个青绿蘑菇后
+			CyanHusk: 获得一个青外壳后
+			SkyBlueFlower: 获得一个天蓝花朵后
+			BlueBerries: 获得一个蓝浆果后
+			PurpleMucos: 获得一个紫粘液后
+			VioletHusk: 获得一个蓝紫外壳后
+			PinkPricklyPear: 获得一个粉仙人掌果后
+			BlackInk: 获得一个黑墨水后
 		}
 
 		Keybinds: {
@@ -2979,13 +2979,13 @@ Mods: {
 		}
 
 		ExpandedTooltips: {
-			FountainOcean: Forces surrounding biome state to Ocean upon activation
-			FountainDesert: Forces surrounding biome state to Desert upon activation
-			FountainJungle: Forces surrounding biome state to Jungle upon activation
-			FountainSnow: Forces surrounding biome state to Snow upon activation
-			FountainCorruption: Forces surrounding biome state to Corruption upon activation
-			FountainCrimson: Forces surrounding biome state to Crimson upon activation
-			FountainHallow: Forces surrounding biome state to Hallow (in hardmode only) upon activation //for patch
+			FountainOcean: 激活后将周围的生物群落环境变为海洋
+			FountainDesert: 激活后将周围的生物群落环境变为沙漠
+			FountainJungle: 激活后将周围的生物群落环境变为丛林
+			FountainSnow: 激活后将周围的生物群落环境变为冰雪
+			FountainCorruption: 激活后将周围的生物群落环境变为腐化
+			FountainCrimson: 激活后将周围的生物群落环境变为猩红
+			FountainHallow: 激活后将周围的生物群落环境变为神圣
 			CatchNPCs: 城镇NPC可被抓捕
 			ExtraLure1: 多抛出一条鱼线
 			Lures2: 能抛出两条鱼线
@@ -2997,10 +2997,10 @@ Mods: {
 			UnlimitedUse30: 堆叠30个以上时不消耗
 			PermanentEffectNearby: 为附近的玩家提供永久性增益
 			WorksFromBanks: 在猪猪存钱罐和保险箱中同样生效
-			SoldBySquirrel: Sold By Squirrel
-			SomeMaterialsSold: Some Materials Sold
-			CraftableMaterialsSold: Craftable Materials Sold
-			SoldAtThirtyStack: Sold At Thirty Stack
+			SoldBySquirrel: 高顶礼帽松鼠售卖
+			SomeMaterialsSold: 售卖部分材料
+			CraftableMaterialsSold: 售卖可合成材料
+			SoldAtThirtyStack: 堆叠30个时售卖
 			SoldBy: 售卖于
 			SeveralVendors: 多个商人
 		}

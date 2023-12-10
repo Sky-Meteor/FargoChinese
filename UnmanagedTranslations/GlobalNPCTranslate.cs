@@ -1,4 +1,5 @@
-﻿using Fargowiltas.NPCs;
+﻿/*
+using Fargowiltas.NPCs;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -544,4 +545,4 @@ namespace FargoChinese.UnmanagedTranslations
             #endregion
         }
     }
-}
+}*/

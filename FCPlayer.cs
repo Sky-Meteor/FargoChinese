@@ -1,4 +1,4 @@
-﻿using FargoChinese.UnmanagedTranslations;
+﻿//using FargoChinese.UnmanagedTranslations;
 using Fargowiltas;
 using Fargowiltas.Common.Configs;
 using Fargowiltas.Items.Weapons;
@@ -45,12 +45,12 @@ namespace FargoChinese
             {
                 foreach (Item item in Player.bank.item)
                 {
-                    GlobalItemTranslate.TryPiggyBankAcc(item, Player);
+              //      GlobalItemTranslate.TryPiggyBankAcc(item, Player);
                 }
 
                 foreach (Item item in Player.bank2.item)
                 {
-                    GlobalItemTranslate.TryPiggyBankAcc(item, Player);
+             //       GlobalItemTranslate.TryPiggyBankAcc(item, Player);
                 }
             }
         }
