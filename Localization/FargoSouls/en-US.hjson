@@ -189,7 +189,7 @@ Mods: {
 			BanishedBaronDespawn: The Banished Baron dives deeper into the ocean...
 			DeviBossSpawnInfo: Spawn by using [i:FargowiltasSouls/DevisCurse]
 			AbomBossSpawnInfo: Spawn by using [i:FargowiltasSouls/AbomsCurse]
-			MutantBossSpawnInfo: Throw [i:FargowiltasSouls/MutantsCurse] into a pool of lava while Abominationn is alive in Mutant's presence.
+			MutantBossSpawnInfo: Throw [i:FargowiltasSouls/AbominationnVoodooDoll] into a pool of lava while Abominationn is alive in Mutant's presence.
 			TimberChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] on the surface during day.
 			TerraChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] underground.
 			EarthChampionSpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in the underworld.
@@ -2947,24 +2947,22 @@ Mods: {
 				DisplayName: Bionomic Cluster (Inactive)
 				Tooltip:
 					'''
-					Grants immunity to Frostburn, Shadowflame, and Squeaky Toy
-					Grants immunity to Flames of the Universe, Clipped Wings, Crippled, Webbed, and Purified
-					Grants immunity to Lovestruck, Stinky, Midas, and Hexed
-					Use to teleport to your last death point
-					Your attacks can inflict Clipped Wings and produce hearts
-					Attacks have a chance to squeak and deal 1 damage to you
-					While attacking, gain massively increased damage and shadowflame, but less move and defenses and attack speed bonuses
-					Summons a friendly rainbow slime
-					Certain enemies will drop potions when defeated
-					When attacking by manually clicking, increases non-summon damage by 30%
-					[c/00FFFF:Following effects work passively in vanity slots (right click to enable in inventory):]
-					    Grants immunity to Mighty Wind, Suffocation, Chilled, and Guilty
-					    You have improved night vision
-					    Automatically uses healing & mana potions when needed and increases pickup range for mana stars
-					    You respawn with more life and when no boss is alive, respawn faster
-					    Press the Frigid Spell key to cast Ice Rod
-					    Right click to zoom and drastically improves reforges
-					    Stabilizes gravity in space and in liquids
+					Grants immunity to [i:FargowiltasSouls/FrigidGemstone] Frostburn, [i:FargowiltasSouls/WretchedPouch] Shadowflame, [i:FargowiltasSouls/SqueakyToy] Squeaky Toy, [i:FargowiltasSouls/ConcentratedRainbowMatter] Flames of the Universe, 
+					[i:FargowiltasSouls/WyvernFeather] Clipped Wings, Crippled, [i:FargowiltasSouls/TribalCharm] Webbed, Purified, [i:FargowiltasSouls/NymphsPerfume] Lovestruck, Stinky, Hexed, and [i:FargowiltasSouls/SecurityWallet] Midas
+					[i:FargowiltasSouls/SandsofTime] Use to teleport to your last death point
+					[i:FargowiltasSouls/WyvernFeather] Your attacks can inflict Clipped Wings [i:FargowiltasSouls/NymphsPerfume] and produce hearts
+					[i:FargowiltasSouls/SqueakyToy] Attacks have a chance to squeak and deal 1 damage to you
+					[i:FargowiltasSouls/WretchedPouch] While attacking, gain massively increased damage and shadowflame, but less move and defenses and attack speed bonuses
+					[i:FargowiltasSouls/ConcentratedRainbowMatter] Summons a friendly rainbow slime
+					[i:FargowiltasSouls/TimsConcoction] Certain enemies will drop potions when defeated
+					[i:FargowiltasSouls/TribalCharm] When attacking by manually clicking, increases non-summon damage by 30%
+					[c/00FFFF:Following effects are currently disabled (right click to enable in inventory):]
+					    Grants immunity to [i:FargowiltasSouls/SandsofTime] Mighty Wind, [i:FargowiltasSouls/MysticSkull] Suffocation, [i:FargowiltasSouls/FrigidGemstone] Chilled, [i:FargowiltasSouls/SqueakyToy] and Guilty
+					    [i:FargowiltasSouls/WyvernFeather] Stabilizes gravity in space and in liquid, [i:FargowiltasSouls/OrdinaryCarrot] improves your nightvision, [i:FargowiltasSouls/SecurityWallet] and drastically improves reforges
+					    [i:FargowiltasSouls/ConcentratedRainbowMatter] Automatically uses healing & [i:FargowiltasSouls/MysticSkull] mana potions when needed and increases pickup range for mana stars
+					    [i:FargowiltasSouls/NymphsPerfume] You respawn with more life [i:FargowiltasSouls/SandsofTime] and when no boss is alive, respawn faster
+					    [i:FargowiltasSouls/FrigidGemstone] Press the Frigid Spell key to cast Ice Rod
+					    [i:FargowiltasSouls/OrdinaryCarrot] Press right click to zoom in
 					'The amalgamate born of a thousand common enemies'
 					'''
 			}
@@ -2989,7 +2987,7 @@ Mods: {
 					[i:FargowiltasSouls/MagicalBulb] Press the Magical Cleanse key to cure yourself of most debuffs
 					[i:FargowiltasSouls/MagicalBulb] Increases life regeneration based on how much light you receive
 					[i:FargowiltasSouls/LihzahrdTreasureBox] Double tap DOWN in the air to fastfall, creating an explosion on landing after falling a certain distance
-					[i:FargowiltasSouls/ChaliceoftheMoon] You fire additional attacks depending on weapon type and erupt into Ancient Visions when injured
+					[i:FargowiltasSouls/CelestialRune] You fire additional attacks depending on weapon type and erupt into Ancient Visions when injured
 					Summons a friendly [i:FargowiltasSouls/ChaliceoftheMoon] Cultist and [i:FargowiltasSouls/MagicalBulb] plant to fight at your side
 					'Consume it'
 					'''
@@ -3154,17 +3152,17 @@ Mods: {
 				DisplayName: Heart of the Master
 				Tooltip:
 					'''
-					Grants immunity to [i:FargowiltasSouls/PumpkingsCape] Living Wasteland, [i:FargowiltasSouls/IceQueensCrown] Hypothermia, [i:FargowiltasSouls/SaucerControlConsole] Electrified, Distorted, [i:FargowiltasSouls/BetsysHeart] Oozed, Withered Weapon, Withered Armor, 
+					Grants immunity to [i:FargowiltasSouls/PumpkingsCape] Living Wasteland, [i:FargowiltasSouls/IceQueensCrown] Hypothermia, [i:FargowiltasSouls/SaucerControlConsole] Electrified, Distorted, [i:FargowiltasSouls/BetsysHeart] Oozed, Withered Weapon, Withered Armor
 					[i:FargowiltasSouls/MutantAntibodies] Wet, Feral Bite, Mutant Nibble, Oceanic Maul, water debuffs, [i:FargowiltasSouls/PrecisionSeal] Smite, [i:FargowiltasSouls/GalacticGlobe] Nullification Curse, Flipped, Unstable, and Curse of the Moon	
 					[i:FargowiltasSouls/PumpkingsCape] [i:FargowiltasSouls/MutantAntibodies] [i:FargowiltasSouls/IceQueensCrown] Increases damage and crit chance by 10%, current class damage by 20%, and damage reduction by 5%
-					[i:FargowiltasSouls/PumpkingsCape] Right Click to guard and parry attacks. Parries heali you based on damage. While guarding, gain an aura of Rotting
-					[i:FargowiltasSouls/IceQueensCrown] Graze attacks to charge up a bomb. When it's charged, press Bomb Key to freeze all projectiles and enemies for a short time.
+					[i:FargowiltasSouls/PumpkingsCape] Right Click to guard and parry attacks. Parries heal you based on damage. While guarding, gain an aura of Rotting
+					[i:FargowiltasSouls/IceQueensCrown] Graze attacks to charge up a bomb. When it's charged, press Bomb Key to freeze all projectiles and enemies for a short time
 					[i:FargowiltasSouls/SaucerControlConsole] Summons a friendly Mini Saucer which slows enemies it hits
 					[i:FargowiltasSouls/BetsysHeart] Press the Special Dash key to perform a short invincible fireball dash which inflicts Betsy's Curse
 					[i:FargowiltasSouls/MutantAntibodies] Submerging yourself in water refreshes your flight time, and gives improved speed and max flight time
 					[i:FargowiltasSouls/MutantAntibodies] Riding Cute Fishron gives you the Wet debuff
 					[i:FargowiltasSouls/PrecisionSeal] Hold Precision Seal key to disable dashes and double jumps, and show your hurtbox
-					[i:FargowiltasSouls/PrecisionSeal] Decreases hurtbox for projectiles, even when it isnt shown
+					[i:FargowiltasSouls/PrecisionSeal] Decreases hurtbox for projectiles, even when it isn't shown
 					[i:FargowiltasSouls/GalacticGlobe] Allows you to control gravity, increases flight time, and summons mini True Eyes of Cthulhu
 					[i:FargowiltasSouls/SaucerControlConsole] Press Ammo Cycle key to cycle ammos (works passively in inventory)
 					'Warm, beating, and no body needed'
@@ -3953,27 +3951,27 @@ Mods: {
 			}
 
 			AbomBag: {
-				DisplayName: Treasure Bag
+				DisplayName: Treasure Bag (Abominationn)
 				Tooltip: Right click to open
 			}
 
 			CosmosBag: {
-				DisplayName: Treasure Bag
+				DisplayName: Treasure Bag (Eridanus)
 				Tooltip: Right click to open
 			}
 
 			DeviBag: {
-				DisplayName: Treasure Bag
+				DisplayName: Treasure Bag (Deviantt)
 				Tooltip: Right click to open
 			}
 
 			MutantBag: {
-				DisplayName: Treasure Bag
+				DisplayName: Treasure Bag (Mutant)
 				Tooltip: Right click to open
 			}
 
 			TrojanSquirrelBag: {
-				DisplayName: Treasure Bag
+				DisplayName: Treasure Bag (Trojan Squirrel)
 				Tooltip: Right click to open
 			}
 
@@ -4892,7 +4890,7 @@ Mods: {
 			PinkEskimoEnchant.DisplayName: Mods.FargowiltasSouls.Items.PinkEskimoEnchant.DisplayName
 
 			LifelightBag: {
-				DisplayName: Treasure Bag
+				DisplayName: Treasure Bag (Lifelight)
 				Tooltip: Right click to open
 			}
 
@@ -5040,7 +5038,7 @@ Mods: {
 			}
 
 			BanishedBaronBag: {
-				DisplayName: Treasure Bag
+				DisplayName: Treasure Bag (Banished Baron)
 				Tooltip: Right click to open
 			}
 

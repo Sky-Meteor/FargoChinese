@@ -189,7 +189,7 @@ Mods: {
 			BanishedBaronDespawn: The Banished Baron dives deeper into the ocean...//for patch
 			DeviBossSpawnInfo: 通过使用[i:FargowiltasSouls/DevisCurse]来召唤
 			AbomBossSpawnInfo: 通过使用[i:FargowiltasSouls/AbomsCure]来召唤
-			MutantBossSpawnInfo: 当憎恶在突变体在场的情况下存活时，将[i:FargowiltasSouls/MutantsCurse]扔进岩浆中
+			MutantBossSpawnInfo: 当憎恶在突变体在场的情况下存活时，将[i:FargowiltasSouls/AbominationnVoodooDoll]扔进岩浆中
 			TimberChampionSpawnInfo: 白天在地表森林环境使用[i:FargowiltasSouls/SigilOfChampions]
 			TerraChampionSpawnInfo: 在地下使用[i:FargowiltasSouls/SigilOfChampions]召唤
 			EarthChampionSpawnInfo: 在地狱中使用[i:FargowiltasSouls/SigilOfChampions]召唤
@@ -2949,23 +2949,24 @@ Mods: {
 				DisplayName: 生态球（未启用）
 				Tooltip:
 					'''
-					免疫霜冻、暗影焰、吱吱响的玩具减益
-					免疫宇宙之火、折翼、跛足、被网住和净化减益
-					免疫热恋、恶臭、迈达斯和着魔减益
-					使用以传送到你上一次死亡的地点
-					攻击会造成折翼减益，并生成红心
-					你受到伤害时有几率发出吱吱声，并使这次受到的伤害降至1点
-					攻击时获得120%伤害加成并释放暗影焰触手，但降低20%伤害减免且大幅降低移动速度，受到的攻速加成更少
-					召唤一只友好的彩虹史莱姆
-					某些敌人在死亡时会掉落药水
-					手动点击攻击时，增加30%非召唤伤害
+					免疫[i:FargowiltasSouls/FrigidGemstone]霜冻、[i:FargowiltasSouls/WretchedPouch]暗影焰、[i:FargowiltasSouls/SqueakyToy]吱吱响的玩具、[i:FargowiltasSouls/ConcentratedRainbowMatter]宇宙之焰减益
+					免疫[i:FargowiltasSouls/WyvernFeather]折翼、跛足、[i:FargowiltasSouls/TribalCharm]被网住和净化减益
+					免疫[i:FargowiltasSouls/NymphsPerfume]热恋、恶臭、[i:FargowiltasSouls/SecurityWallet]迈达斯和着魔减益
+					[i:FargowiltasSouls/SandsofTime]使用以传送到你上一次死亡的地点
+					[i:FargowiltasSouls/WyvernFeather]攻击会造成折翼减益，[i:FargowiltasSouls/NymphsPerfume]并生成红心
+					[i:FargowiltasSouls/SqueakyToy]你受到伤害时有几率发出吱吱声，并使这次受到的伤害降至1点
+					[i:FargowiltasSouls/WretchedPouch]攻击时获得120%伤害加成并释放暗影焰触手，但降低20%伤害减免且大幅降低移动速度，受到的攻速加成更少
+					[i:FargowiltasSouls/ConcentratedRainbowMatter]召唤一只友好的彩虹史莱姆
+					[i:FargowiltasSouls/TimsConcoction]某些敌人在死亡时会掉落药水
+					[i:FargowiltasSouls/TribalCharm]手动点击攻击时，增加30%非召唤伤害
 					[c/00FFFF:当该饰品放在背包中或时装栏时，下列效果也会生效（右键点击以启用）：]
-					    免疫强风、窒息、冷冻减益
-					    获得夜视效果，需要时自动使用治疗和魔力药水
-					    你会以满生命值重生，没有Boss在场时加快重生速度
-					    按下“寒霜咒语”键放置冰雪魔杖之冰
-					    右键可改变视野范围，减少50%重铸价格
-					    在太空和液体中恢复正常重力作用
+					    免疫[i:FargowiltasSouls/SandsofTime]强风、[i:FargowiltasSouls/MysticSkull]窒息、[i:FargowiltasSouls/FrigidGemstone]冷冻、[i:FargowiltasSouls/SqueakyToy]内疚减益
+					    [i:FargowiltasSouls/OrdinaryCarrot]获得夜视效果，[i:FargowiltasSouls/SecurityWallet]并改善重铸结果
+					    [i:FargowiltasSouls/ConcentratedRainbowMatter][i:FargowiltasSouls/MysticSkull]需要时自动使用治疗和魔力药水，并增大自动拾取魔力星的范围
+					    [i:FargowiltasSouls/NymphsPerfume]你会以满生命值重生，[i:FargowiltasSouls/SandsofTime]没有Boss在场时加快重生速度
+					    [i:FargowiltasSouls/FrigidGemstone]按下“寒霜咒语”键放置冰雪魔杖之冰
+					    [i:FargowiltasSouls/OrdinaryCarrot]右键可改变视野范围
+					    [i:FargowiltasSouls/WyvernFeather]在太空和液体中恢复正常重力作用
 					“由上千普通敌人融合而成”
 					'''
 			}
@@ -2992,7 +2993,7 @@ Mods: {
 					[i:FargowiltasSouls/LihzahrdTreasureBox]在空中双击“下”键快速下落
 					在一定高度使用快速下落，撞击地面时会产生猛烈的火焰喷发
 					落地时生成一连串巨石
-					[i:FargowiltasSouls/ChaliceoftheMoon]根据武器类型，定期发动额外的攻击，受伤时召唤远古幻影妖攻击敌人
+					[i:FargowiltasSouls/CelestialRune]根据武器类型，定期发动额外的攻击，受伤时召唤远古幻影妖攻击敌人
 					[i:FargowiltasSouls/ChaliceoftheMoon][i:FargowiltasSouls/MagicalBulb]召唤友善的邪教徒和植物幼株为你而战
 					“喝了它”
 					'''
