@@ -16,6 +16,9 @@ Mods: {
 			Squirrel: 当这个矮小利落的小动物注意到你的背包中有价值的物品时，它会售卖它的的复制品。它不会告诉你它从哪得到的这些东西，不过这基本上是因为它不会说话。
 		}
 
+		// Used for TownNPCMood "{BiomeName}" Format (unused now)
+		Biome.Sky: 天空
+
 		#This is what displays during all of an NPC's happiness levels. Note that the localization key for these should always be "TownNPCMood.*NPCName*.*Mood*" or else it won't display properly.
 		TownNPCMood: {
 			Deviantt: {
@@ -328,9 +331,113 @@ Mods: {
 			ArmoredBonesBanner: 装甲骷髅旗帜
 		}
 
+		UI: {
+			StatButton: 属性统计表
+			SearchText: 搜索......
+			// Stat Sheet Elements
+			MeleeDamage: 近战伤害：{0}%
+			MeleeCritical: 近战暴击率：{0}%
+			MeleeSpeed: 近战攻速：{0}%
+			RangedDamage: 远程伤害：{0}%
+			RangedCritical: 远程暴击率：{0}%
+			MagicDamage: 魔法伤害：{0}%
+			MagicCritical: 魔法暴击率：{0}%
+			ManaCostReduction: 魔力消耗降低：{0}%
+			SummonDamage: 召唤伤害：{0}%
+			SummonCritical: 召唤暴击率：{0}%
+			MaxMinions: 仆从数量上限：{0}
+			MaxSentries: 哨兵数量上限：{0}
+			ArmorPenetration: 护甲穿透：: {0}
+			Aggro: 仇恨：{0}
+			Life: 生命值上限：{0}
+			LifeRegen: 生命再生：{0}/每秒
+			Mana: 魔力值上限：{0}
+			ManaRegen: 魔力再生：{0}/每秒
+			Defense: 防御力：{0}
+			DRCap: （上限{0}%）
+			DamageReduction: 伤害减免：{0}%{1}
+			Luck: 运气：{0}
+			FishingQuests: 已完成钓鱼任务：{0}
+			BattleCry: 战争号角状态：{0}
+			// Battle & Calming are in Items.BattleCry
+			BattleCryNone: 关闭
+			MaxSpeed: 最大速度：{0}mph
+			WingNull: ？？？
+			WingTime: 飞行时间：{0}秒
+			WingTimeMoreThan60Sec: 无限
+			WingTimeActual: "{0}秒"
+			WingMaxSpeed: 最大飞行速度：{0}mph
+			WingAscentModifier: 翅膀上升速度：{0}%
+			WingHover: 翅膀是否可水平悬停：{0}
+			WingHoverTrue: 是
+			WingHoverFalse: 否
+		}
+
 		MessageInfo: {
+			Common: {
+				Exclamation: ！
+				Period: 。
+			}
+
 			SiblingPylonNotNearSiblings: 目标晶塔需要三兄妹在附近才能使用
 			NearbySiblingPylonNotNearSiblings: 当前晶塔需要三兄妹在附近才能使用
+			NewItemUnlocked: "{0}解锁了新商品！"
+			HaveAwoken: "{0}已苏醒！"
+			// Cancel Event
+			CancelEvent: 入侵者已离开！
+			CancelPumpkinMoon: 南瓜月正在降下……
+			CancelFrostMoon: 霜月正在降下……
+			CancelEclipse: 日食停止发生！
+			CancelBloodMoon: 血月正在降下……
+			CancelWindyDay: 狂风已经平息！
+			CancelOOA: 旧日军团正在离开！
+			CancelSandstorm: 沙尘暴已结束！
+			CancelLunarEvent: 天界生物停止入侵！
+			CancelRain: 雨停了！
+			// Summons
+			StartWindyDay: 狂风开始怒号。
+			StartSandStorm: 沙尘暴开始了。
+			StartLanternNight: 出现灯笼夜的概率提高了！
+			StopLanternNight: 出现灯笼夜的概率恢复正常。
+			StartLunarEvent: 天界柱已苏醒！
+			StartRain: 雨云遮住了天空。
+			AncientSeal: 所有Boss已苏醒！
+			SeveralBossesAwoken: 数个Boss已苏醒！
+			// Swarm Summons
+			OverloadBee: 震耳欲聋的嗡嗡声穿透了你！
+			OverloadBetsy: 真正的撒旦大军来袭！
+			OverloadBrain: 在这么多聪颖的大脑中间，你觉得自己很笨！
+			OverloadCultist: 反抗的圣歌回响在你的耳畔！
+			OverloadDarkMage: 你感觉你身在图书馆！
+			OverloadDeer: 永恒领域的生物大肆入侵！
+			OverloadDestroyer: 整颗星球从核心开始颤抖！
+			OverloadEmpress: 弹幕的天堂正在降临！
+			OverloadEye: 无数眼睛刺破面纱看透了你！
+			OverloadFish: 海洋被凶猛的猪们搅的天翻地覆！
+			OverloadGolem: 古老的机器人接连从天上落下！
+			OverloadMoon: 逼近死亡之风呢喃不已……
+			OverloadPlant: 丛林万物的心跳合而为一！
+			OverloadPrime: 一股恶心的寒气笼罩着整个世界！
+			OverloadQueenSlime: 欢迎来到名副其实的史莱姆雨！
+			OverloadSkele: 骨头的碰撞声从地牢中升腾而起！
+			OverloadSlimeCrown: 欢迎来到真正的史莱姆雨！
+			OverloadTwins: 一群发光的虹膜唱着可怕的歌！
+			OverloadWall: 一个血肉堡垒从深处升起！
+			OverloadWorm: 地面以公式化的精度颤动！
+			// Swarm Events
+			OverloadFrostMoonStop: 霜月消逝……
+			OverloadFrostMoonStart: 霜月正在升起……
+			OverloadFrostMoonWave20: 波数：20：一切
+			OverloadPumpkinMoonStop: 南瓜月消逝……
+			OverloadPumpkinMoonStart: 南瓜月正在升起……
+			OverloadPumpkinMoonWave15: 波数：15：一切
+			OverloadGoblinsStop: 哥布林们冷静下来了！
+			OverloadMartiansStop: 火星人们冷静下来了！
+			OverloadPiratesStop: 海盗们冷静下来了！
+			// Swarm Misc
+			SwarmKilled: 击杀数：{0}
+			SwarmTotal: 总计：{0}
+			SwarmDefeated: 这群怪物已被打败！
 		}
 
 		Buffs: {
@@ -735,6 +842,12 @@ Mods: {
 					左键使用使刷怪率提高 10 倍
 					右键使用使刷怪率降低 10 倍
 					'''
+				Battle: 战争
+				Calming: 镇静
+				Activated: 生效
+				Deactivated: 停止生效
+				// {Battle / Calming} Cry {activated / deactivated} for {playerName}{punctuation}
+				CryText: "{0}号角已对{2}{1}{3}"
 			}
 
 			DeathFruit: {
@@ -754,11 +867,12 @@ Mods: {
 					调 试 用 物 品
 					研究所有物品
 					'''
+				ResearchText: 已研究{0}个物品
 			}
 
 			MapViewer: {
 				DisplayName: 失落的王之地图
-				// Tooltip: Reveals the map
+				Tooltip: 点亮整个地图
 			}
 
 			ModeToggle: {
@@ -1889,7 +2003,7 @@ Mods: {
 					可以被无限次重复使用
 					拥有部分原版增益站的效果
 					接触时给予蜂蜜增益
-					在附近时大幅提高运气
+					在附近时大幅提高运气并提供糖果冲刺增益
 					'''
 			}
 
@@ -2379,6 +2493,43 @@ Mods: {
 					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Abominationn}"
 				}
 
+				Chat: {
+					Defeat: 你真的打败了我......不错。现在来试试无伤我吧。哦对了，只能用铜短剑。
+					MutantShimmer: 这家伙变成松鼠了，没想到还能看见这么有趣的事情......
+					StyxArmor: 你穿的这套盔甲可真是怀旧……不，它不再合我身了。而且它蓄满能量需要太长时间了。
+					Graveyard: 我希望周围所有的这些墓碑不是你的。
+					Mechanic: 你能去跟{0}说让她别再碰我的激光胳膊了吗？
+					Normal1: 我的镰刀是从哪里弄来的？{0}
+					Normal1PHM: 稍后问我吧。
+					Normal1HM: 你会明白的。
+					Normal2: 我已经打败了这片土地上的一切……没有什么能打败我。
+					Normal3: 你可曾有一把粘在你手上的武器？它不是很方便。
+					Normal4: Yoramur怎么了？不知道你在说谁。
+					Normal5: 你想穿得像我一样吗？哈！实际上……你可以。
+					Normal6: 你曾经读过古代经典，我喜欢里面所有的战斗。
+					Normal7: 我是世界级的诗人，有没有读过我关于即将到来的末日的诗作？
+					Normal8: 你想要集群召唤物？也许明年吧。
+					Normal9: 喜欢我的翅膀？谢谢，我从一个不太喜欢它的人那得到的。
+					Normal10: 这个世界没有英雄主义的容身之处，不如打乒乓球吧。
+					Normal11: 你为什么那样看着我？你的时尚感也不会为你赢得任何奖项。
+					Normal12: 不，你不能戴我的帽子。
+					Normal13: 拥抱痛苦……等等，你说这句话已经被占用了是什么意思？
+					Normal14: 你利用我的愤怒的企图令人钦佩，但我不会被激怒。
+					Normal15: 如果每个人都这样做，这真的是犯罪吗？
+					Normal16: 让别人受苦是最有趣的事情。
+					Normal17: 讽刺是最好的幽默，这不是讽刺吗？
+					Normal18: 我喜欢猫……什么？你问我谁是猫？
+					Normal19: 如果您需要任何指导，请查看wiki，不过可能并不够准确。
+					Normal20: 我听说过一位传奇潜水员的故事……但无论如何，巨型水母是什么？？
+					Normal21: 过载事件？那可太酷了。
+					Normal22: 我不是不喜欢你的陪伴，但你能买点东西吗！？
+					Normal23: 我已经杀了一千人了……什么？？你还是人？你手上的鲜血有那么多……
+					// Cancel Event
+					Canceled: 天灵灵地灵灵，事件结束了！
+					CancelCD: 我现在没有力气，{0}秒之后再来吧。
+					NoEvent: 我认为现在没有事件。
+				}
+
 				Census.SpawnCondition: 击败过哥布林入侵。
 				CancelEvent: 取消事件
 			}
@@ -2405,6 +2556,82 @@ Mods: {
 					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Deviantt}"
 				}
 
+				Chat: {
+					GiveGifts: 这个世界看起来比平时更艰难，所以我免费给你提供这些，仅此一次！如果你需要任何提示，请告诉我，好吗？
+					NTB: 这里是有趣的蜜蜂世界！
+					NTBHA: 哈
+					NTBHEE: 嘻
+					NTBHOO: 呼
+					NTBHEH: 嘿
+					NTBHAH: 呀
+					EridanusArmor: 呜哇！别伤害我……等等，是你啊……不要这样吓我！还有，为什么那东西在跟着你？！
+					NekomiArmor: 哦，那是我的连帽衫！所以感觉如何？舒适、很适合打游戏，对吧？也许你甚至能无伤打败一个Boss！
+					Defeat: 不错，你战胜了我！希望我没有让你太辛苦。坚持到底吧——我想要看看你能前行多远！
+					Stinky: 哇，你闻起来像是变质了。你上次洗澡是什么时候？你身上太臭了。
+					LoveStruck: 你对我冒出太多爱心了！对不起，我们现在的亲密等级只有{0}！
+					BloodMoon: 血月的影响？我早就不是人类了，所以不会影响到我啦！
+					HM: 我突然有个想法。如果我把你放进绞肉机，绞碎到只剩下两个染料……我一定会发财！我不会那样做的，至少不会对你……我的意思是……不要多想。
+					Mutant1: 你能让{0}把衣服穿上吗？
+					Mutant2: 总有一天，我会卖自己的召唤物！……开玩笑的。那是{0}的工作。
+					Lumber: 什么？你想和{0}打一架？......嗯，我建议你最好别去尝试。
+					EternityMode: 拥抱痛苦吧……受虐时别忘了来我这买新东西！
+					Normal1: "{0}！我刚才看到了一些啮齿类动物！你没有被仓鼠感染吧？对吧！？"
+					Normal2: 你知道吗？唯一真正的音乐类型是死亡金属和艺术核心。
+					Normal3: 我要让你知道我已经度过了一百多Fargo年了！别问我一Fargo年有多长。
+					Normal4: 如果你继续买，我可能承担得起更高的身体！
+					Normal5: 那只尖叫猫呢？
+					Normal6: 你就是泰拉瑞亚人？老实说，我在期待一个稍微……高一点的人。
+					Normal7: 别用那种眼神看我！我唯一背离的就是我的人性。
+					Normal8: 撕裂并流下眼泪，再从我这买点东西，再流下眼泪，这是个轮回......
+					Normal9: 什么是 chee-bee doe-goe？
+					Normal10: 等一下，你确定这房子不是传说中的“监狱”？
+					Normal11: 戴薇安已苏醒！快，把你所有的钱都给她就能打败她！
+					Normal12: 总有一天我会卖自己的召唤物！……开玩笑的。
+					Normal13: 嗯，我看得出来！你屠杀了很多东西......但是还不够！
+					Normal14: 你问我为什么要多出一个字母？只有我们中的最强者才被允许删除他们多出来的字母！
+					Normal15: 你杀的稀有的东西越多，我卖的东西就越多！就是这么简单。
+					Normal16: 哦，嗨！我……呃，千万不要现在给我丢臭味药水！我平时也不会那样！
+					Normal17: 呃......我不会趁你不注意往你身上扔爱情药水的啦，嗯......我是说，买点东西吧！
+				}
+
+				HelpDialogue: {
+					// About Bosses & Events
+					DownedMutant: 啥？你想和我来真的？……啊这，我自己一个人不太会打架。
+					DownedAbom: 嘿，你已经快到最后了！准备好所有的魂石了吗？啊，你想和我大哥打？……应该能吧，如果他有理由这么做。
+					DownedEridanus: 准备打我大哥了？回想你是如何学会洞察战斗的。保持专注，寻找规律，不要惊慌。祝好运！
+					PostML: 想合成九大力，但是缺少魔石？去做一个唤灵魔符。你想要的东西，只要你证明了自己的实力，他们就会给你。
+					MoonLord: 只有特定类型的武器能够有效对付每根特定的天界柱。至于那个没腿的大章鱼，它要求你不断变换手中的武器。
+					Cultist: 一些强大的敌人——例如那个地牢门口的家伙——可以创造自己的战斗区域。你无法逃出来，所以充分利用你掌握的空间。
+					Fishron: 你打过那个猪龙鱼了吗？每次你被击中，它都会降低你的最大生命值。它的力量强到足以一下破除你的防御，要是你没有强化钢板的话。这十分糟糕，是吧？
+					Betsy: 现在是去打双足翼龙的好时机！别担心。如果你撑到了最后一波但输掉了，你不需要从头来过。注意不要在最后一波前失误，并注意她对你造成的减益！
+					Golem: 那座神庙？碰一下祭坛来重新控制电线！石巨人会在你离开神庙时狂暴，所以最好在那里战斗。平台在这场战斗中不起作用，但丛林神庙炸弹可以帮助清理空间！
+					Plantera: 那株长得飞快的植物会造成一种特殊的毒液，如果你被她连续击中很多次，她就会进入狂暴状态。她还有一圈叶状水晶来保护自己，但召唤物能穿过它们。
+					Destroyer: 那条金属蠕虫经过了一些升级，但它的探针被削弱了以维持平衡。它会射出满天的暗星并试图撞你。当它盘旋在你身边时，不要试图逃跑！
+					Twins: 前几天我看到了那个金属眼球一边旋转一边射出一道巨大的激光。并且，即使你击败它们中的一个，它们也不会立即死亡，直到它们都被杀死！
+					Prime: 专注于拿下那个大铁骷髅头，而不是它的四肢。不要试图跑出它旋转的四肢！睁大你的眼睛，学会分析它的行动。
+					WOF: 那东西的嘴几乎免疫伤害，所以你必须瞄准它们的眼睛，而且同一时间两个眼睛中只有一个能受到伤害。哪个东西？你知道的，那个东西！
+					Deviantt: 下一个是我！确保你能躲开我向你丢出的任何攻击。用方块挡住或者转身别看我就能使石化失效！
+					Skeletron: 地牢之主可以操纵它的宝宝来攻击！它使用哪种攻击取决于它的头是否在旋转。在即将被杀死时它会疯狂的旋转，所以当你快杀死它时准备好开跑！
+					QueenBee: 蜂后会召唤它的后代作为后援。它们存在时她更难被伤害，所以先灭了它们。对了，它的蜂群不能打到她的正上方和下方！
+					Brain: 注意灵液如何移动，不要惊慌失措！当大脑变得疯狂时，它每几秒钟就会让你感到困惑。四个环出现时你会感到困惑，一个环出现后它会消失并冲刺！
+					Eater: 世界吞噬怪吐出越多魔唾液，就会有越多虫子会向你冲来。它的头部现在非常结实，不要让它们堆积太多！
+					GoblinsCrimson: 当你打破第二颗猩红心脏时要小心！这也许会引来哥布林，所以在你打破前请做好应对的准备。
+					GoblinsCorruption: 当你打破第二颗暗影珠时要小心！这也许会引来哥布林，所以在你打破前请做好应对的准备。
+					EOC: 那个大眼珠子有一点月亮之力，但是其实全都是花里胡哨！只要注意关注那些可能会打到你的弹幕就行了。
+					Slime: 马上要和史莱姆王战斗了吗？造一两个速建平台也许会有帮助，并且注意从天而降的刺。不要待在它的上方，也不要离它太远，不然它会狂暴的！
+					// Other
+					Auras: 看起来每个人这几天都在学习如何发出光环。如果你细看那些粒子，你可以看出它会在圈内还是圈外生效！
+					Debuffs: 可能有上千件物品来免疫这些减益。可惜你并没有一千只手来把它们一次全带上！
+					SoulToggle: 不要忘记你可以开关你的魂石饰品效果！它们都在你物品栏右下角的小扳手里。列表最底部的那些小按钮包含了一套推荐的低卡顿预设！
+					LifeCrystals: 我没有更多的生命水晶给你了，但我想我大哥在那只肥胖的史莱姆王里留了一些。如果你击败了它，他也许会分享这些水晶！
+					Fish: 小心那些鱼！鲨鱼会在你离开它们时离开你，但食人鱼一旦闻到血腥味就会立刻变得狂野。它们可以跳出水面来抓你！
+					Underwater: 水让你陷入了困境？就我而言，从来没遇到过这个问题……你试过在水里而不是空气里呼吸吗？
+					Underworld: 较我上次参观，地狱变得更热了。不过，我听说黑曜石骷髅头是个防止被烧死的好东西！
+					SpaceSuffocation: 想来一场憋气大赛吗？太空的真空环境会是个完美的场地。不，我不会通过呼吸水而非空气来作弊！
+					UndergroundHallow: 你这副样子真滑稽……地下神圣让你搞不清东南西北？试试自己控制重力，它不能强行翻转你！
+					LifeFruit: 你要是问我的话，世纪之花实在是太放纵自己了。叶绿矿和生命果并不是一套那么好的饮食！为什么你不帮帮她减肥？
+				}
+
 				Census.SpawnCondition: 击败过稀有敌怪或世界处于永恒模式。
 				HelpButton: 帮助
 			}
@@ -2426,6 +2653,48 @@ Mods: {
 					// HateNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateNPC}"
 					// LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LikeNPC_Princess}"
 					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/LumberJack}"
+				}
+
+				Chat: {
+					Nurse: 我总是看见{0}在我砍树的时候盯着我的二头肌。不知道她是不是想要一些我的木头。
+					LucyTheAxe: 来自那个宇宙的露西……有趣的东西正等着你呢。
+					Normal1: 王朝木？这话我就跟你说，那东西不是真木头！
+					Normal2: 仙人掌当然不是木头，但我仍然可以用我可靠的斧头砍了它。
+					Normal3: 你对我不会有任何幻想……对吧？
+					Normal4: 我早餐吃了一碗木片……不带牛奶。
+					Normal5: 砍木木木木木木木木木木木木木木木木木木木头！
+					Normal6: 我是伐木工，我没事，我整夜睡觉，整天工作！
+					Normal7: 有我在，你再也不需要斧头了。
+					Normal8: 我听说有人用鱼砍树，谁那么干？
+					Normal9: 你想看我不穿衬衫工作吗？也许在2030年可以。
+					Normal10: 你见过世界树吗？
+					Normal11: 你想要什么？……对不起，那种木材不是我卖的。
+					Normal12: 我为什么不卖橡实？……我每次都重新种植所有我砍的树，难道你不是吗？
+					Normal13: 最好的树是什么树？……任何我砍得掉的树。
+					Normal14: 能让你砍砍我的问题吗？
+					Normal15: 我待会儿也许会在树下小睡一会儿，愿意和我一起吗？
+					Normal16: 我是所有木材类型的专家。
+					Normal17: 我很高兴处在旅途的终点，又有更多树可以砍了。
+					Normal18: 红色是我最喜欢的颜色之一，仅次于木材色。
+					Normal19: 这儿一直是法兰绒的季节。
+					Normal20: 我很高兴我的木头让你脸上露出如此灿烂的笑容。
+					// Tree Treasures
+					Desert: 我在砍仙人掌的时候，这些东西向我扑过来，你为什么不好好处理它们？
+					Jungle: 这些红木树充满了生机，但一棵树只有一个意义：被砍掉。哦，是的，这些是从上一棵树上掉下来的。
+					Hallow: 这个地方对我的风格来说有点异想天开，还好这里的木头和其他任何地方一样砍得动。不过，夜间有这些很酷的虫子，拿一点吧。
+					GlowshroomHM: 无论是什么使这些东西发光，我都无法理解，反正你可能会吃掉它们，所以你要吃的时候就吃这个吧。
+					Evil: 这里的树可能是这个现实分支中最坚固的……抱歉，只是些树的双关语。我在这里找到了这些东西给你。
+					Snow: 这个树林的脖子很漂亮吧？在这里，我给你搞了些我最喜欢的木头。
+					Beach: 即使在度假，我也总会抽出时间来砍一小点树。几对恼人的鸟从一棵棕榈树上掉了下来，把它们从我手中拿走……也许可以把它们煮了吃？
+					Underworld: 我在周围转了转，发现了一些奇怪的灰色木头，这些木头很脆弱。还找到了一些小家伙，把它们拿走吧，小心点，这些玩意相当烫。
+					DirtRockGem: 我真没想到我能在这里找到这么让人惊讶的树。看看这个。
+					DirtRockMouse: 今天我走了很远，但周围只有许多那种奇怪的树。我找到了这些，为什么不给他们一个新家呢？
+					CommonDayTimeWindy: 看上去风把这些虫子从藏身地带了出来。有些人说他们代表着好运。我只知道，我需要的所有好运就是一把锋利的斧头！
+					CommonDayTimeButterfly: 过去的日子里，人们常常将蝴蝶锻造成强大的装备。我们试图忘记那些日子……但这里有一只。
+					CommonDayTimeEucaluptusSap: 我找到了这玩意儿，但我一点也不“美汁汁”的，还是给你吧。
+					CommonDayTimeCritter: 这些小动物总是从我砍倒的树上掉下来。也许你可以找到它们的用途？
+					CommonNightTime: 晚上砍树总是很放松的……好吧，除了这些飞来飞去的眼球。让这些小家伙中的一个陪陪你。
+					Rest: 我砍了一天的好东西，现在正在休息呢。明天再来，也许我会给你点别的东西。
 				}
 
 				Census.SpawnCondition: 所有玩家通过砍树总共获得过500个木材。
@@ -2453,6 +2722,81 @@ Mods: {
 					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Mutant}"
 				}
 
+				Chat: {
+					EternityDefeat: 恭喜。你真正地拥抱了永恒……至少，我认为你做到过？那么之后会发生什么？从这种无聊的境界飞升？与一只超凡的猫形生物战斗？毁灭世界？所有力量现在都掌握在你的手里。
+					Defeat: 打得不错，我感觉。不过我还想更充分的伸展我的翅膀……我们下次认真打一场吧？
+					MutantArmor: 你这套盔甲很好，有非常逼真的皮肤。事实上，你介意我借用一下吗？我说的是你的皮肤。
+					SoulsPostML: 既然打败了那个大家伙，是时候开始收集材料了！
+					DefeatCommon: 啥？你想和我战斗？……好吧。
+					DefeatAbom: 啥？你想和我战斗？……得有足够的理由说服我。
+					SoulsModDisabled: 啥？你想和我战斗？……你这个老鼠不配。
+					PumpkinMoon: 今晚有点吓人，不是吗？
+					FrostMoon: 我想要一件外套，但我认为你没有我的尺码。
+					SlimeRain: 今天的天气似乎很奇怪，你不觉得吗？
+					BloodMoon1: 美好的夜晚，不是吗？
+					BloodMoon2: 我希望我听到的不断争论不是我的错。
+					NightTime: 我会跟随并提供帮助，但我现在更想袖手旁观。
+					Party: "{0}邀请了我，但我不明白为什么。"
+					PartyWithoutPartyGirl: 我不知道怎么大家都这么开心。不过只要没人把我当成笨蛋，那我就也很开心。
+					Nurse: 每当我们独自一人时，{0}都一直向我扔注射器！无论我叫她停下多少次！
+					WitchDoctor: 请让{0}放弃“神秘”的技巧，我的意思是，哦！我明白了，你也制造了被污染的水什么的。
+					Dryad: 为什么{0}的穿着让我翅膀扇动？
+					Stylist: "{0}曾经给了我一顶假发……不过我戴长发看起来很丑。"
+					Truffle: 那个变异蘑菇似乎是我喜欢的类型。
+					TaxCollector: "{0}一直向我要钱，但他不要我的召唤物！"
+					Guide: 为什么当我靠近{0}时他总是害怕？
+					WitchDoctorTruffleCyborg: 如果我们中有人会演奏乐器，我会叫上{0}，{1}，和{2}来组建一支乐队。
+					PartyGirl: 哥们，{0}的五彩纸屑总是粘在我的翅膀上。
+					Demolitionist: "{0}暂时还没有在地板上炸个洞，不过仔细想想感觉这也挺有趣的。"
+					Tavernkeep: "{0}一直建议我喝啤酒，但我喝醉了他也不会喜欢我。"
+					DyeTrader: "{0}想看看我穿蓝色衣服会是什么样子……我不知道什么感觉。"
+					Normal1: 残暴、野蛮、嗜血，这就是我喜欢在人们身上看到的。
+					Normal2: 你越强大，我卖的东西就越多。不难理解，对吧？
+					Normal3: 你们所有人都有一些我没有的东西……死亡感知，是叫这个来着吧？
+					Normal4: 我觉得卖个自己的召唤物是个挺酷的事儿……
+					Normal5: 变得更强大的唯一方法是继续从我这里购买东西，大量地购买东西！
+					Normal6: 你为什么那样看着我，我只是吃了一个苹果。
+					Normal7: 不要打扰其他人，你所需要的就在这里。
+					Normal8: 你很幸运，我站在你这边。
+					Normal9: 我在想为什么我会喜欢火腿和瑞士三明治。
+					Normal10: 我应该开始穿衣服吗？啊这……
+					Normal11: 你花的所有金币我其实用不完。
+					Normal12: 以暴制暴是野兽的法则。
+					Normal13: 那些家伙真的需要变得更有创意。他们所有的第一个Boss都是沙漠主题！
+					Normal14: 你说你想知道突变体和憎恶是怎样的兄弟关系？你最好别问。
+					Normal15: 在灾厄中，我就是你需要的一切。
+					Normal16: 我将拥有整个世界！……在你购买我东西之后。
+					Normal17: 很明显我是在帮助你，但是呃……这对我有什么好处？你认为是房子？我早餐吃僵尸。
+					Normal18: 我可以跳吗？不，我没有叫做“空格键”的东西。
+					Normal19: 摸到你的鼻子了，我需要一个东西把我的鼻子换掉。
+					Normal20: Terry是啥？
+					Normal21: 为什么这么多生物带着一个看起来很奇怪的蓝色娃娃？这个问题的答案可能永远不会被知晓。
+					Normal22: 末日即将来临……如果你不买我东西的话。
+					Normal23: 我听说过“三维”，我想知道它是什么样子的。
+					Normal24: 小子，我今天看起来不是很好。
+					Normal25: 你的朋友比我的眼睛还少。
+					Normal26: 海洋是一个危险的地方，我想知道潜水员在哪里？
+					Normal27: 你知道Ee-arth是什么吗？
+					Normal28: 我连“巅峰”都不会拼写，你希望我知道它是什么吗？
+					Normal29: 怪物从哪里得到的金币？……你知道我没有口袋。
+					Normal30: 狗很酷，但猫不会试图咬我的大脑。
+					Normal31: 小心绿龙……你这张脸是什么意思？
+					Normal32: 我一直听说的O-hi-o在哪？
+					Normal33: 我已经跟你说过56次了，我很忙……哦，等等你想买东西？我想我有时间。
+					Normal34: 我听说过一个只存在于2015年的“灵魂之魂
+					Normal35: 在事物之后添加EX会让它变得更加困难。
+					Normal36: 我认为所有现代艺术看起来都很棒，尤其是血腥的东西。
+					Normal37: 换一个灯泡需要几个向导？……我不知道，你问问他怎么样。
+					Normal38: 还好我没有床，有的话我可能永远不会离开它。
+					Normal39: 这更新的是什么？听起来很罕见。
+					Normal40: 如果你需要我，我会在某个地方偷懒。
+					Normal41: 你是什么意思，谁是Fargo！
+					Normal42: 你见过Ech猫吗？
+					Normal43: 我不懂现在的音乐，我更喜欢一些流畅的爵士乐……或者怪物垂死的尖叫声。
+					Normal44: 克苏鲁在我身上得不到任何东西！
+					Normal45: 我听到一个关于无限召唤物的传言。这让我很难受……
+				}
+
 				Census.SpawnCondition: 击败过任意Boss。
 				CycleShop: 切换商店
 				PreHM: 困难模式前
@@ -2475,6 +2819,13 @@ Mods: {
 					// LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LikeNPC}"
 					// LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LikeNPC_Princess}"
 					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Squirrel}"
+				}
+
+				Chat: {
+					BloodMoon: "[c/FF0000:你会受苦的。]"
+					Normal1: *吱吱*
+					Normal2: *啾啾*
+					Normal3: *嘎吱嘎吱*
 				}
 
 				Census.SpawnCondition: 松鼠来到过城镇，或未加载Fargo魂石时击败过史莱姆王，或加载Fargo魂石时任意玩家背包中有高顶礼帽松鼠。
@@ -2591,9 +2942,36 @@ Mods: {
 			SkeleGunDown: 在世纪之花被击败后击败死灵法师、魔教徒或褴褛邪教徒法师
 			SiblingPylon: 所有血亲都存活时
 			BossDown: 击败任意boss后
+			DownedTheBoss: 在对应boss被击败后
+			Angler5: 完成5个渔夫任务
+			Angler10: 完成10个渔夫任务
+			Angler15: 完成15个渔夫任务
+			Angler20: 完成20个渔夫任务
+			Angler25: 完成25个渔夫任务
+			Angler30: 完成30个渔夫任务
+			InRockOrDirtLayerHeight: 在地下时
+			BrittleBone: 在背包里有一把使用骨头作为弹药的武器
+			Seeds: 在背包里有一把使用种子作为弹药的武器
+			RedHusk: 获得一个红外壳后
+			OrangeBloodroot: 获得一个橙血根草后
+			YellowMarigold: 获得一个黄万寿菊后
+			LimeKelp: 获得一个橙绿海藻后
+			GreenMushroom: 获得一个绿蘑菇后
+			TealMushroom: 获得一个青绿蘑菇后
+			CyanHusk: 获得一个青外壳后
+			SkyBlueFlower: 获得一个天蓝花朵后
+			BlueBerries: 获得一个蓝浆果后
+			PurpleMucos: 获得一个紫粘液后
+			VioletHusk: 获得一个蓝紫外壳后
+			PinkPricklyPear: 获得一个粉仙人掌果后
+			BlackInk: 获得一个黑墨水后
 		}
 
 		Keybinds: {
+			Home.DisplayName: 快速回家
+			Stat.DisplayName: 打开属性统计表
+			Dash.DisplayName: 单击冲刺
+			SetBonus.DisplayName: 套装/饰品效果
 			"Quick Recall/Mirror.DisplayName": 快速回家
 			"Open Stat Sheet.DisplayName": 打开属性统计表
 			"Dash Key.DisplayName": 单击冲刺
@@ -2601,6 +2979,13 @@ Mods: {
 		}
 
 		ExpandedTooltips: {
+			FountainOcean: 激活后将周围的生物群落环境变为海洋
+			FountainDesert: 激活后将周围的生物群落环境变为沙漠
+			FountainJungle: 激活后将周围的生物群落环境变为丛林
+			FountainSnow: 激活后将周围的生物群落环境变为冰雪
+			FountainCorruption: 激活后将周围的生物群落环境变为腐化
+			FountainCrimson: 激活后将周围的生物群落环境变为猩红
+			FountainHallow: 激活后将周围的生物群落环境变为神圣
 			CatchNPCs: 城镇NPC可被抓捕
 			ExtraLure1: 多抛出一条鱼线
 			Lures2: 能抛出两条鱼线
@@ -2612,8 +2997,12 @@ Mods: {
 			UnlimitedUse30: 堆叠30个以上时不消耗
 			PermanentEffectNearby: 为附近的玩家提供永久性增益
 			WorksFromBanks: 在猪猪存钱罐和保险箱中同样生效
+			SoldBySquirrel: 高顶礼帽松鼠售卖
+			SomeMaterialsSold: 售卖部分材料
+			CraftableMaterialsSold: 售卖可合成材料
+			SoldAtThirtyStack: 堆叠30个时售卖
 			SoldBy: 售卖于
-			SeveralVendors: several vendors // for patch
+			SeveralVendors: 多个商人
 		}
 	}
 }

@@ -1,4 +1,5 @@
-﻿using Fargowiltas;
+﻿
+using Fargowiltas;
 using Fargowiltas.Items.CaughtNPCs;
 using Fargowiltas.Items.Misc;
 using Fargowiltas.NPCs;
