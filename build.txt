@@ -6,3 +6,5 @@ weakReferences = FargowiltasSouls
 includeSource = true
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, lib\*, .git\*, *.sln, BuildIgnore\*
 side = client
+
+translationMod = true
