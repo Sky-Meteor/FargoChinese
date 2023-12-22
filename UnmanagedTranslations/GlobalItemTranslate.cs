@@ -9,6 +9,7 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 using Fargowiltas.Common.Configs;
 using Fargowiltas.Items;
+using static FargowiltasSouls.Content.Items.EModeGlobalItem;
 using FargowiltasSouls.Content.Items.Accessories.Enchantments;
 using FargowiltasSouls.Content.Items.Accessories.Forces;
 using Terraria;
@@ -24,6 +25,10 @@ namespace FargoChinese.UnmanagedTranslations
         private static string FountainTooltipEN(string biome) => $"[i:909] [c/AAAAAA:Forces surrounding biome state to {biome} upon activation]";
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
+            foreach (TooltipLine tooltipLine in tooltips)
+            {
+                tooltipLine.Text = tooltipLine.Text.Replace("max life", "最大生命值");
+            }
             if (item.type == ItemType<MapViewer>())
             {
                 for (int i = 0; i < tooltips.Count; i++)
