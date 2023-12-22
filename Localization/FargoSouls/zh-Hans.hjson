@@ -1052,7 +1052,7 @@ Mods: {
 			MoonsWaves: 死亡会降低当前波数
 			WhipSpeed: 不接受近战攻速加成
 			WhipStack: 鞭子的增益/减益不能堆叠
-			DefensePrefix: 调整饰品前缀: 困难模式前降低防御，+5最大生命值
+			DefensePrefix: 词缀效果调整：+5最大生命值，但困难模式前从词缀获得的防御-1
 			ManaPots: 魔力疾病期间无法使用，但是恢复速度提升50%
 			MinionStack: 同时召唤超过3个相同召唤物时，它们的伤害会降低（超过12个后不再降低）
 			SummonMulticlass: 当你使用其他职业的武器攻击时，召唤伤害降低（在撒旦军队中除外）
