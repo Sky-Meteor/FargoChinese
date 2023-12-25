@@ -263,7 +263,7 @@ namespace FargoChinese.UnmanagedTranslations
                     tooltips[startIndex + 5].Replace(nebula, stardust);
                 }
             }
-            else if (item.type == ItemType<EarthForce>())
+            /*else if (item.type == ItemType<EarthForce>())
             {
                 tooltips.FindAndReplace("你发射的所有弹幕都会分裂成三个，造成50%伤害且伤害频率翻倍，弹幕增加与其一半伤害相等的护甲穿透", "你发射的所有弹幕都会分裂成三个，造成33%伤害且伤害频率提升到3倍，增加与其一半伤害相等的护甲穿透");
             }
@@ -280,7 +280,7 @@ namespace FargoChinese.UnmanagedTranslations
             else if (item.type == ItemType<SpiritForce>())
             {
                 tooltips.FindAndReplace("召唤栏位用光后你仍可以召唤临时的哨兵和仆从", "鞭打你的召唤物可以让它们更勤奋");
-            }
+            }*/
         }
 
     }

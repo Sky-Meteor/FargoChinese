@@ -2740,7 +2740,7 @@ Mods: {
 				DisplayName: 大地之力
 				Tooltip:
 					'''
-					[i:FargowiltasSouls/CobaltEnchant] 额外获得一次爆炸二段跳，受击时你会剧烈爆炸（译者注：大地之力只有受击爆炸效果，没有爆炸跳跃效果）
+					[i:FargowiltasSouls/CobaltEnchant] 额外获得一次爆炸二段跳，受击时你会剧烈爆炸
 					[i:FargowiltasSouls/MythrilEnchant] 停止攻击以逐渐增加攻击速度，最多持续5秒
 					[i:FargowiltasSouls/PalladiumEnchant] 暴击敌人会快速治疗，基于回复的血量放出生命能量球
 					[i:FargowiltasSouls/OrichalcumEnchant] 攻击生成花瓣，伤害性减益造成4倍伤害
@@ -5119,7 +5119,7 @@ Mods: {
 			}
 
 			EaterLauncherJr: {
-				DisplayName: 爆裂者
+				DisplayName: 爆裂噬魂者
 				Tooltip:
 					'''
 					使用腐肉作为弹药
