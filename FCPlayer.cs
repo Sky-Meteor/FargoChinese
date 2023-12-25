@@ -24,6 +24,7 @@ namespace FargoChinese
                 Main.NewText("-" + textLines[i].Trim(), c);
             Main.NewText("更详细的消息见Bilibili @小小法师的大决心 & @Furgo_", c);*/
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
+            Main.NewText("v321.1622.2更新：爆裂者更名为爆裂噬魂者", Color.LightGreen);
             Main.NewText($"[i:{ItemID.UndergroundReward}] 查看模组配置（FCConfig）以调整部分内容！", new Color(255, 51, 51));
             if (Main.netMode == NetmodeID.MultiplayerClient)
             {
