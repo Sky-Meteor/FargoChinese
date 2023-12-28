@@ -12,6 +12,7 @@ using Fargowiltas.Items;
 using static FargowiltasSouls.Content.Items.EModeGlobalItem;
 using FargowiltasSouls.Content.Items.Accessories.Enchantments;
 using FargowiltasSouls.Content.Items.Accessories.Forces;
+using FargowiltasSouls.Content.Items.Summons;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -28,6 +29,8 @@ namespace FargoChinese.UnmanagedTranslations
             foreach (TooltipLine tooltipLine in tooltips)
             {
                 tooltipLine.Text = tooltipLine.Text.Replace("max life", "最大生命值");
+                tooltipLine.Text = tooltipLine.Text.Replace("After the boss has been defeated", "在对应boss被击败后");
+                tooltipLine.Text = tooltipLine.Text.Replace("Can be sold by the Travelling Merchant", "旅商可售卖");
             }
             if (item.type == ItemType<MapViewer>())
             {

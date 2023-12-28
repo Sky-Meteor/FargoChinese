@@ -188,7 +188,7 @@ Mods: {
 			CursedCoffinDespawn: The Cursed Coffin returns to its slumber...//for patch
 			BanishedBaronDespawn: The Banished Baron dives deeper into the ocean...//for patch
 			DeviBossSpawnInfo: 通过使用[i:FargowiltasSouls/DevisCurse]来召唤
-			AbomBossSpawnInfo: 通过使用[i:FargowiltasSouls/AbomsCure]来召唤
+			AbomBossSpawnInfo: 通过使用[i:FargowiltasSouls/AbomsCurse]来召唤
 			MutantBossSpawnInfo: 当憎恶在突变体在场的情况下存活时，将[i:FargowiltasSouls/AbominationnVoodooDoll]扔进岩浆中
 			TimberChampionSpawnInfo: 白天在地表森林环境使用[i:FargowiltasSouls/SigilOfChampions]
 			TerraChampionSpawnInfo: 在地下使用[i:FargowiltasSouls/SigilOfChampions]召唤
