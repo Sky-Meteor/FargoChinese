@@ -1,0 +1,494 @@
+Mods: {
+	FargowiltasCrossmod: {
+		EternityRevDifficulty: {
+			Name: 永恒-复仇
+			ShortDescription: "[c/00FFFF:以Fargo的永恒模式为主并包含了部分][c/880808:复仇模式][c/00FFFF:更改的更具挑战性的难度。]"
+			ExpandedDescription:
+				'''
+				融合了[c/00FFFF:永恒模式]与[c/880808:复仇模式]，Boss会掉落大师模式专属物品。
+				部分灾厄Boss获得了新的[c/00FFFF:永恒模式]AI。
+				默认[c/00FFFF:永恒模式]AI优先于[c/880808:复仇模式]，可在模组配置设定中更改。
+
+				-戴薇安会提供初始礼包
+				-提升玩家的部分基础数据
+				-玩家不攻击时身上的减益会更快消失
+				[i:1612][c/00ff00:建议打开Fargo突变的头顶显示减益相关效果（在模组的客户端配置设定中）]
+				'''
+			Activation: 永恒-复仇模式已开启！
+			Deactivation: 永恒-复仇模式已关闭。
+		}
+
+		EternityDeathDifficulty: {
+			Name: 永恒-死亡
+			ShortDescription: "[c/00FFFF:以Fargo的永恒模式为主并包含了部分] [c/800080:死亡模式] [c/00FFFF:更改的更具挑战性的难度。]"
+			ExpandedDescription:
+				'''
+				融合了[c/00FFFF:永恒模式]与[c/880808:死亡模式]，Boss会掉落大师模式专属物品。
+				部分灾厄Boss获得了新的[c/00FFFF:永恒模式]AI。
+				为一些原版Boss的[c/00FFFF:永恒模式]AI添加了部分[c/880808:死亡模式]的攻击方式。
+				默认[c/00FFFF:永恒模式]AI优先于[c/880808:死亡模式]，可在模组配置设定中更改。
+
+				-戴薇安会提供初始礼包
+				-提升玩家的部分基础数据
+				-玩家不攻击时身上的减益会更快消失
+				[i:1612][c/00ff00:建议打开Fargo突变的头顶显示减益相关效果（在模组的客户端配置设定中）]
+				'''
+			Activation: 永恒-死亡模式已开启！
+			Deactivation: 永恒-死亡模式已关闭。
+		}
+
+		Configs: {
+			DLCCalamityConfig: {
+				DisplayName: 灾厄相关配置
+
+				Headers: {
+					Modes: 模式
+					Balance: 平衡
+				}
+
+				BalanceRework: {
+					Label: 适配灾厄的魂石平衡重制
+					Tooltip:
+						'''
+						改变部分魂石的合成配方以保持与灾厄的内容之间的平衡（主要在游戏的月亮领主后阶段）。
+						修改了部分灾厄与Fargo魂石中武器饰品与Boss的数值以获取更平衡更出色的游戏体验。
+						使Fargo魂石的部分内容适配灾厄的一些机制（例如防御损伤）。
+						[c/00FF00:建议保持启用状态。]
+						'''
+				}
+
+				EternityPriorityOverRev: {
+					Label: 永恒模式优先级高于复仇/死亡模式
+					Tooltip:
+						'''
+						使Boss的永恒模式AI优先于复仇/死亡模式或其它灾厄难度的AI。
+						启用此配置选项后部分灾厄Boss会获得全新的永恒模式AI更改。
+						禁用此配置选项后灾厄的难度模式优先级会高于永恒模式。
+						'''
+				}
+
+				InfernumDisablesEternity: {
+					Label: 炼狱模式下禁用永恒模式Infernum Mode Disables Eternity Mode
+					Tooltip:
+						'''
+						仅当启用炼狱模式时生效
+						开启此配置选项后炼狱模式会完全禁用永恒模式
+						关闭此配置选项后开启炼狱模式时会同时开启永恒模式，但除非启用上一条配置选项，否则Boss将采用炼狱模式的AI。
+						'''
+				}
+			}
+		}
+
+		Items: {
+			AddedEffects: {
+				AngelTreads: 拥有天使之靴效果
+				AeolusBoots: 拥有风神之靴效果
+				ThoriumSuperSonic: 拥有履空靴、求生家之飞鞋和举足轻重靴效果
+				CalamityColossus: 拥有聚合之脑、阿斯加德之庇护和神之壁垒效果
+				ThoriumColossus:
+					'''
+					拥有甜蜜的复仇、黑曜石鳞片、界元之庇佑、
+					魂匣、岩石之心和刺甲贝效果
+					'''
+				CalamityBerserker: 拥有猎魂鲨齿项链、勇气勋章和元素之握效果
+				ThoriumBerserker: 拥有长剑徽章的效果
+				CalamityWizard: 拥有空灵护符的效果
+				ThoriumWizard: 拥有暗影催化剂的效果
+				CalamitySniper: 拥有元素箭袋、虚无箭袋和痴愚金龙干细胞效果
+				Vagabond:
+					'''
+					拥有纳米核心和日蚀魔镜效果
+					拥有浴火龙鳞和敬天神盗盒效果
+					'''
+				ThoriumSniper: 拥有震荡弹头的效果
+				CalamityConjurist: 拥有核子之源的效果
+				ThoriumConjurist: 拥有云玛垂饰和水晶蝎效果
+				CalamityTrawler: 拥有深渊潜游服的效果
+				ThoriumUniverse:
+					'''
+					增加15%投掷速度
+					拥有投手大师指南：卷三，美人鱼水壶盒和亡者眼罩效果
+					'''
+			}
+
+			OutlawsEssence: {
+				DisplayName: 狂徒精华
+				Tooltip:
+					'''
+					增加18%盗贼伤害
+					增加5%盗贼弹幕速度
+					增加5%盗贼暴击率
+					“这只是个开始......”
+					'''
+			}
+
+			VagabondsSoul: {
+				DisplayName: 浪客之魂
+				Tooltip:
+					'''
+					增加30%盗贼伤害
+					增加15%盗贼弹幕速度
+					增加15%盗贼暴击率
+					拥有纳米核心和日蚀魔镜效果
+					拥有浴火龙鳞和敬天神盗盒效果
+					'''
+			}
+
+			ABombInMyNation: {
+				DisplayName: 蜜蜂奴役装置
+				Tooltip: 召唤瘟疫使者歌莉娅
+			}
+
+			AstrumCor: {
+				DisplayName: 星幻核
+				Tooltip: 召唤星神游龙
+			}
+
+			BirbPheromones: {
+				DisplayName: 癫痫信息素
+				Tooltip: 召唤痴愚金龙
+			}
+
+			BlightedEye: {
+				DisplayName: 枯萎之眼
+				Tooltip: 召唤灾厄之影
+			}
+
+			BloodyWorm: {
+				DisplayName: 血腥蠕虫
+				Tooltip: 召唤硫海遗爵
+			}
+
+			ChunkyStardust: {
+				DisplayName: 碎屑星尘
+				Tooltip: 召唤白金星舰
+			}
+
+			CryingKey: {
+				DisplayName: 泣寒之匙
+				Tooltip: 召唤极地之灵
+			}
+
+			DefiledCore: {
+				DisplayName: 神殇晶核
+				Tooltip: 召唤亵渎天神
+			}
+
+			DefiledShard: {
+				DisplayName: 神殇碎片
+				Tooltip: 召唤亵渎守卫
+			}
+
+			DragonEgg: {
+				DisplayName: 犽戎蛋
+				Tooltip: 召唤重生之龙，犽戎
+			}
+
+			ExoBattery: {
+				DisplayName: 星流电池
+				Tooltip: 召唤星流巨械
+			}
+
+			EyeofExtinction: {
+				DisplayName: 灭世之眼
+				Tooltip: 召唤至尊女巫，灾厄
+			}
+
+			FriedDoll: {
+				DisplayName: 焦炭娃娃
+				Tooltip: 召唤硫磺火元素
+			}
+
+			HiveTumor: {
+				DisplayName: 腐化肿瘤
+				Tooltip: 召唤腐巢意志
+			}
+
+			LetterofKos: {
+				DisplayName: 宇宙信函
+				Tooltip: 召唤神之使徒西格纳斯
+			}
+
+			MedallionoftheDesert: {
+				DisplayName: 荒漠勋章
+				Tooltip: 召唤荒漠灾虫
+			}
+
+			MurkySludge: {
+				DisplayName: 污浊淤泥
+				Tooltip: 召唤史莱姆之神
+			}
+
+			NoisyWhistle: {
+				DisplayName: 毁灭哨笛
+				Tooltip: 召唤毁灭魔像
+			}
+
+			OphiocordycipitaceaeSprout: {
+				DisplayName: 真菌生物芽孢
+				Tooltip: 召唤菌生蟹
+			}
+
+			PolterplasmicBeacon: {
+				DisplayName: 灵质魂炬
+				Tooltip: 召唤噬魂幽花
+			}
+
+			RedStainedWormFood: {
+				DisplayName: 血蠕虫食物
+				Tooltip: 召唤血肉宿主
+			}
+
+			RiftofKos: {
+				DisplayName: 宇宙裂隙
+				Tooltip: 召唤无尽虚空
+			}
+
+			SeeFood: {
+				DisplayName: 河鲜饵料
+				Tooltip: 召唤渊海灾虫
+			}
+
+			SirensPearl: {
+				DisplayName: 海妖珍珠
+				Tooltip: 召唤阿娜希塔
+			}
+
+			SomeKindofSpaceWorm: {
+				DisplayName: 某种宇宙蠕虫
+				Tooltip: 召唤神明吞噬者
+			}
+
+			WormFoodofKos: {
+				DisplayName: 宇宙蠕虫食物
+				Tooltip: 召唤风暴编织者
+			}
+
+			AbandonedRemote: {
+				DisplayName: 废弃遥控装置
+				Tooltip:
+					'''
+					召唤装甲掘地虫
+					只能在地下使用
+					'''
+			}
+
+			ClamPearl: {
+				DisplayName: 蛤蜊珍珠
+				Tooltip:
+					'''
+					召唤巨像蛤
+					只能在沉沦之海使用
+					'''
+			}
+
+			ColossalTentacle: {
+				DisplayName: 巨型触手
+				Tooltip:
+					'''
+					召唤巨像乌贼
+					只能在深渊使用
+					'''
+			}
+
+			DeepseaProteinShake: {
+				DisplayName: 深海蛋白奶昔
+				Tooltip:
+					'''
+					召唤猎魂鲨
+					只能在深渊使用
+					'''
+			}
+
+			MaulerSkull: {
+				DisplayName: 狂鲨之颅
+				Tooltip:
+					'''
+					召唤渊海狂鲨
+					只能在硫磺海使用
+					'''
+			}
+
+			NuclearChunk: {
+				DisplayName: 辐核之物
+				Tooltip:
+					'''
+					召唤辐核骇兽
+					只能在硫磺海使用
+					'''
+			}
+
+			PlaguedWalkieTalkie: {
+				DisplayName: 瘟疫对讲机
+				Tooltip:
+					'''
+					召唤瘟疫使者
+					只能在丛林使用
+					'''
+			}
+
+			QuakeIdol: {
+				DisplayName: 地震玩偶
+				Tooltip:
+					'''
+					召唤大地元素
+					只能在地下使用
+					'''
+			}
+
+			StormIdol: {
+				DisplayName: 风暴玩偶
+				Tooltip: 召唤雨云元素
+			}
+
+			SulphurBearTrap: {
+				DisplayName: 硫磺捕兽夹
+				Tooltip:
+					'''
+					召唤峭咽潭
+					只能在硫磺海使用
+					'''
+			}
+
+			WyrmTablet: {
+				DisplayName: 妖龙石板
+				Tooltip:
+					'''
+					召唤幻海妖龙
+					只能在深渊使用
+					'''
+			}
+
+			BrandoftheBrimstoneWitch: {
+				DisplayName: 硫火女巫的烙印
+				Tooltip:
+					'''
+					拥有元灵之心、玄秘颅冠、无瑕粹魂晶、化绵留香石、血神圣杯效果
+					拥有星云之核、寻神者之礼、嘉登之心、灾厄效果
+					'''
+			}
+		}
+
+		NPCs: {
+			FungalClump.DisplayName: 真菌菌落
+			LargePerforatorBody.DisplayName: 大号血肉宿主
+			LargePerforatorBody2.DisplayName: 大号血肉宿主
+			LargePerforatorHead.DisplayName: 大号血肉宿主
+			LargePerforatorTail.DisplayName: 大号血肉宿主
+			PermafrostBoss.DisplayName: 永冻
+		}
+
+		Projectiles: {
+			FungusBall.DisplayName: Fungus Ball
+			MushroomSpear.DisplayName: Mushroom Spear
+			ShroomGas.DisplayName: Shroom Gas
+			SandChunk.DisplayName: Sand Chunk
+			SuckedSandBlast.DisplayName: Sand Blast
+			CursedLightning.DisplayName: Cursed Lightning
+			CurvingCursedFlames.DisplayName: Curving Cursed Flames
+			MovingCorruptCloud.DisplayName: Moving Corrupt Cloud
+			ShadeLightningCloud.DisplayName: Shade Lightning Cloud
+			ToothBall.DisplayName: Tooth Ball
+			HomingRocket.DisplayName: Homing Rocket
+			HomingSickle.DisplayName: Homing Sickle
+			HallowedSlimeSpike.DisplayName: Hallowed Slime Spike
+			BouncingFireball.DisplayName: Bouncing Fireball
+			BigLight.DisplayName: Big Light
+			DestructionBolt.DisplayName: Destruction Bolt
+			StarofDestruction.DisplayName: Star of Destruction
+
+			Boss: {
+				AcceleratingEbonianGlob.DisplayName: Ebonian Glob
+				AcceleratingCrimulanGlob.DisplayName: Crimulan Glob
+				SlimeHomingEbonianGlob.DisplayName: Ebonian Glob
+				SlimeHomingCrimuleanGlob.DisplayName: Crimulean Glob
+				MutantYharonVortex.DisplayName: The Sun
+			}
+
+			SlamTelegraph.DisplayName: Slam Telegraph
+			IceBomb.DisplayName: Ice Bomb
+			IceCrystal.DisplayName: Ice Crystal
+			IceChain.DisplayName: Ice Chain
+			IceTrident.DisplayName: Ice Trident
+			CrimsonPaladinSpike.DisplayName: Crimson Spike
+			PermafrostHeldWeapon.DisplayName: Permafrost Held Weapon
+			MutantOldDuke.DisplayName: Old Duke
+			DLCMutantSpearSpin.DisplayName: Mutant's Atlantis
+			DLCMutantSpearDash.DisplayName: Mutant's Atlantis
+			MutantAresNuke.DisplayName: Mutant's Gauss Nuke
+			MutantAresBomb.DisplayName: Mutant's Gauss Nuke
+			DLCMutantFishronRitual.DisplayName: Mutant Gauss Ritual
+			MutantSlimeGod.DisplayName: Slime God
+			DLCBloomLine.DisplayName: Telegraph Line
+			MutantSCal.DisplayName: Calamitas' Skullshield
+			MutantPBG.DisplayName: Plaguebringer Goliath
+			MutantAureusSpawn.DisplayName: Aureus Spawn
+			MutantHolyRay.DisplayName: Holy Ray
+			MutantDoGBody.DisplayName: The Devourer of Gods
+			MutantDoGHead.DisplayName: The Devourer of Gods
+			MutantDoGTail.DisplayName: The Devourer of Gods
+			MutantPolter.DisplayName: Necroplasm
+			ArcticPaw.DisplayName: Arctic Paw
+			Blizzard.DisplayName: Blizzard
+			DarkIceCrystal.DisplayName: Dark Ice Crystal
+			FrostFlare.DisplayName: Frost Flare
+			FrostShard.DisplayName: Frost Shard
+			IceArrow.DisplayName: Ice Arrow
+			IceShot.DisplayName: Ice Shot
+			IceStar.DisplayName: Ice Star
+			CryogenRitual.DisplayName: Cryogen Ritual
+			PermafrostRitual.DisplayName: Permafrost Ritual
+			IceCloud.DisplayName: Chilling Snow
+			BrimstoneDebris.DisplayName: Brimstone Debris
+		}
+
+		Buffs: {
+			CalamitousPresenceBuff: {
+				Description: 防御、伤害减免和生命再生降低；月蛭效果；缩小擦弹范围
+				DisplayName: 灾厄驾到
+			}
+
+			ArcticPaw.DisplayName: 北极之爪
+			Blizzard.DisplayName: 暴风雪
+			CrystalShard.DisplayName: 水晶碎片
+			DarkIceCrystal.DisplayName: 暗影冰晶
+			IceShot.DisplayName: 冰霜射击
+			FrostShard.DisplayName: 冰霜碎片
+			FrostFlare.DisplayName: 冰霜耀斑
+			IceArrow.DisplayName: 寒冰矢
+			IceStar.DisplayName: 寒冰之星
+		}
+
+		VagabondsSoulHeader: "[i:FargowiltasCrossmod/VagabondsSoul] 浪客之魂"
+		NanotechConfig: "[i:CalamityMod/Nanotech] 纳米核心"
+		EclipseMirrorConfig: "[i:CalamityMod/EclipseMirror] 日蚀魔镜"
+		DragonScalesConfig: "[i:CalamityMod/DragonScales] 浴火龙鳞"
+		VeneratedLocketConfig: "[i:CalamityMod/VeneratedLocket] 敬天神盗盒"
+		CalamityColossusHeader: "[i:FargowiltasSouls/ColossusSoul] 灾厄 巨像之魂"
+		AmalgamConfig: "[i:CalamityMod/TheAmalgam] 聚合之脑"
+		AsgardianAegisConfig: "[i:CalamityMod/AsgardianAegis] 阿斯加德之庇护"
+		RampartofDeitiesConfig: "[i:CalamityMod/RampartofDeities] 神之壁垒"
+		CalamityBerserkerHeader: "[i:FargowiltasSouls/BerserkerSoul] 灾厄 狂战士之魂"
+		ElementalGauntletConfig: "[i:CalamityMod/ElementalGauntlet] 元素之握"
+		CalamityWizardHeader: "[i:FargowiltasSouls/ArchWizardsSoul] 灾厄 巫师之魂"
+		EtherealTalismanConfig: "[i:CalamityMod/EtherealTalisman] 空灵护符"
+		CalamitySniperHeader: "[i:FargowiltasSouls/SnipersSoul] 灾厄 神枪手之魂"
+		ElementalQuiverConfig: "[i:CalamityMod/ElementalQuiver] 元素箭袋"
+		QuiverofNihilityConfig: "[i:CalamityMod/QuiverofNihility] 虚无箭袋"
+		DynamoStemCellsConfig: "[i:CalamityMod/DynamoStemCells] 痴愚金龙干细胞"
+		CalamityConjuristHeader: "[i:FargowiltasSouls/ConjuristsSoul] 灾厄 召唤之魂"
+		NucleogenesisConfig: "[i:CalamityMod/Nucleogenesis] 核子之源"
+		CalamityTrawlerHeader: "[i:FargowiltasSouls/TrawlerSoul] 灾厄 捕鱼之魂"
+		AbyssalDivingSuitConfig: "[i:CalamityMod/AbyssalDivingSuit] 深渊潜游服"
+		BrandoftheBrimstoneWitchHeader: "[i:FargowiltasCrossmod/BrandoftheBrimstoneWitch] {$Mods.FargowiltasCrossmod.Items.BrandoftheBrimstoneWitch.DisplayName}"
+		HeartoftheElementsConfig: "[i:CalamityMod/HeartoftheElements] 元灵之心"
+		OccultSkullCrownConfig: "[i:CalamityMod/OccultSkullCrown] 玄秘颅冠"
+		PurityConfig: "[i:CalamityMod/Purity] 无瑕粹魂晶"
+		TheSpongeConfig: "[i:CalamityMod/TheSponge] 化绵留香石"
+		ChaliceOfTheBloodGodConfig: "[i:CalamityMod/ChaliceOfTheBloodGod] 血神圣杯"
+		NebulousCoreConfig: "[i:CalamityMod/NebulousCore] 星云之核"
+		YharimsGiftConfig: "[i:CalamityMod/YharimsGift] {$Mods.CalamityMod.Items.Accessories.YharimsGift.DisplayName}"
+		DraedonsHeartConfig: "[i:CalamityMod/DraedonsHeart] 嘉登之心"
+		CalamityConfig: "[i:CalamityMod/Calamity] {$Mods.CalamityMod.Items.Accessories.Calamity.DisplayName}"
+	}
+}

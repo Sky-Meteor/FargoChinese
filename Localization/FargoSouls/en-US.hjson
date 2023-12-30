@@ -6594,27 +6594,5 @@ Mods: {
 		}
 
 		Conditions.RoombaPetSold: When the Roomba config is enabled
-		AbyssalDivingSuitConfig: "[i:CalamityMod/AbyssalDivingSuit] Abyssal Diving Suit"
-		CalamityTrawlerHeader: "[i:FargowiltasSouls/TrawlerSoul] Calamity Trawler's Soul Toggles"
-		NucleogenesisConfig: "[i:CalamityMod/Nucleogenesis] Nucleogenesis"
-		CalamityConjuristHeader: "[i:FargowiltasSouls/ConjuristsSoul] Calamity Conjurist's Soul Toggles"
-		DynamoStemCellsConfig: "[i:CalamityMod/DynamoStemCells] Dynamo Stem Cells"
-		QuiverofNihilityConfig: "[i:CalamityMod/QuiverofNihility] Quiver of Nihility"
-		ElementalQuiverConfig: "[i:CalamityMod/ElementalQuiver] Elemental Quiver"
-		CalamitySniperHeader: "[i:FargowiltasSouls/SnipersSoul] Calamity Sniper's Soul Toggles"
-		EtherealTalismanConfig: "[i:CalamityMod/EtherealTalisman] Ethereal Talisman"
-		CalamityWizardHeader: "[i:FargowiltasSouls/ArchWizardsSoul] Calamity Arch Wizard's Soul Toggles"
-		ElementalGauntletConfig: "[i:CalamityMod/ElementalGauntlet] Elemental Gauntlet"
-		CalamityBerserkerHeader: "[i:FargowiltasSouls/BerserkerSoul] Calamity Berserker Soul Toggles"
-		PurityConfig: "[i:CalamityMod/Purity] Purity"
-		RampartofDeitiesConfig: "[i:CalamityMod/RampartofDeities] Rampart of Deities"
-		AsgardianAegisConfig: "[i:CalamityMod/AsgardianAegis] Asgardian Aegis"
-		AmalgamConfig: "[i:CalamityMod/TheAmalgam] The Amalgam"
-		CalamityColossusHeader: "[i:FargowiltasSouls/ColossusSoul] Calamity Colossus Soul Toggles"
-		VeneratedLocketConfig: "[i:CalamityMod/VeneratedLocket] Venerated Locket"
-		DragonScalesConfig: "[i:CalamityMod/DragonScales] Dragon Scales"
-		EclipseMirrorConfig: "[i:CalamityMod/EclipseMirror] Eclipse Mirror"
-		VagabondsSoulHeader: "[i:FargowiltasCrossmod/VagabondsSoul] Vagabond's Soul"
-		NanotechConfig: "[i:CalamityMod/Nanotech] Nanotech"
 	}
 }

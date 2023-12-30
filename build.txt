@@ -3,6 +3,7 @@ author = Furgo_ & FallingLeaf落叶 & @马达达马达（B站同名）
 version = 321.1622.4
 modReferences = Fargowiltas
 weakReferences = FargowiltasSouls
+weakReferences = FargowiltasCrossmod
 includeSource = true
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, lib\*, .git\*, *.sln, BuildIgnore\*
 side = client

@@ -6645,27 +6645,5 @@ Mods: {
 		}
 
 		Conditions.RoombaPetSold: 启用扫地机器人配置时
-		AbyssalDivingSuitConfig: "[i:CalamityMod/AbyssalDivingSuit] 深渊潜游服"
-		CalamityTrawlerHeader: "[i:FargowiltasSouls/TrawlerSoul] 灾厄 捕鱼之魂 相关效果"
-		NucleogenesisConfig: "[i:CalamityMod/Nucleogenesis] 核子之源"
-		CalamityConjuristHeader: "[i:FargowiltasSouls/ConjuristsSoul] 灾厄 召唤之魂 相关效果"
-		DynamoStemCellsConfig: "[i:CalamityMod/DynamoStemCells] 痴愚金龙干细胞"
-		QuiverofNihilityConfig: "[i:CalamityMod/QuiverofNihility] 虚无箭袋"
-		ElementalQuiverConfig: "[i:CalamityMod/ElementalQuiver] 元素箭袋"
-		CalamitySniperHeader: "[i:FargowiltasSouls/SnipersSoul] 灾厄 神射手之魂 相关效果"
-		EtherealTalismanConfig: "[i:CalamityMod/EtherealTalisman] 空灵护符"
-		CalamityWizardHeader: "[i:FargowiltasSouls/ArchWizardsSoul] 灾厄 巫师之魂 相关效果"
-		ElementalGauntletConfig: "[i:CalamityMod/ElementalGauntlet] 元素之握"
-		CalamityBerserkerHeader: "[i:FargowiltasSouls/BerserkerSoul] 灾厄 狂战士之魂 相关效果"
-		PurityConfig: "[i:CalamityMod/Purity] 无瑕粹魂晶"
-		RampartofDeitiesConfig: "[i:CalamityMod/RampartofDeities] 神之壁垒"
-		AsgardianAegisConfig: "[i:CalamityMod/AsgardianAegis] 阿斯加德之庇护"
-		AmalgamConfig: "[i:CalamityMod/TheAmalgam] 聚合之脑"
-		CalamityColossusHeader: "[i:FargowiltasSouls/ColossusSoul] 灾厄 巨像之魂 相关效果"
-		VeneratedLocketConfig: "[i:CalamityMod/VeneratedLocket] 敬天神盗盒"
-		DragonScalesConfig: "[i:CalamityMod/DragonScales] 浴火龙鳞"
-		EclipseMirrorConfig: "[i:CalamityMod/EclipseMirror] 日蚀魔镜"
-		VagabondsSoulHeader: "[i:FargowiltasCrossmod/VagabondsSoul] 灾厄 盗贼之魂 相关效果"
-		NanotechConfig: "[i:CalamityMod/Nanotech] 纳米技术"
 	}
 }
