@@ -68,7 +68,7 @@ Mods: {
 				}
 
 				InfernumDisablesEternity: {
-					Label: 炼狱模式下禁用永恒模式Infernum Mode Disables Eternity Mode
+					Label: 炼狱模式下禁用永恒模式
 					Tooltip:
 						'''
 						仅当启用炼狱模式时生效
@@ -220,7 +220,7 @@ Mods: {
 			}
 
 			NoisyWhistle: {
-				DisplayName: 毁灭哨笛
+				DisplayName: 吵死哨笛
 				Tooltip: 召唤毁灭魔像
 			}
 
