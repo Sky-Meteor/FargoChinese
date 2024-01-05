@@ -200,7 +200,7 @@ Mods: {
 			WillChampionSpawnInfo: 在海洋使用[i:FargowiltasSouls/SigilOfChampions]召唤
 			CosmosChampionSpawnInfo: 在太空使用[i:FargowiltasSouls/SigilOfChampions]召唤
 			TrojanSquirrelSpawnInfo: 通过使用 [i:FargowiltasSouls/SquirrelCoatofArms]召唤
-			LifeChallengerSpawnInfo: 白天在神圣环境使用[i:FargowiltasSouls/SigilOfChampions]召唤
+			LifeChallengerSpawnInfo: 白天在神圣环境使用[i:FargowiltasSouls/FragilePixieLamp]召唤
 			BanishedBaronSpawnInfo: 在海洋的水下区域使用[i:FargowiltasSouls/MechLure]召唤
 		}
 
