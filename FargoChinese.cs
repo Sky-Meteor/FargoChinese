@@ -15,7 +15,6 @@ namespace FargoChinese
 
         public override void Unload()
         {
-            PatchManager.Unload();
             Instance = null;
         }
     }
