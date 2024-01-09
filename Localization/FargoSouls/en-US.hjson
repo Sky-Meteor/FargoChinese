@@ -2207,6 +2207,7 @@ Mods: {
 					Works in vanity and inventory slots
 					The first time you craft an item, each material has a 33% chance to not be consumed
 					Does not work on Crucible of the Cosmos items
+					You attract items from a larger range
 					'Strike while the iron is hot'
 					'''
 			}
@@ -2826,6 +2827,7 @@ Mods: {
 					[i:FargowiltasSouls/CopperEnchant][i:FargowiltasSouls/ObsidianEnchant][i:FargowiltasSouls/LeadEnchant] Attacks spawn lightning, explosions, and inflict Lead Poisoning
 					[i:FargowiltasSouls/TinEnchant] Sets Tin crit chance to 10%, increasing up to double your original crit chance or 50%
 					[i:FargowiltasSouls/IronEnchant] 50% chance to not consume each item on first craft
+					[i:FargowiltasSouls/IronEnchant] You attract items from a larger range
 					[i:FargowiltasSouls/LeadEnchant] You take 60% less from damage over time
 					[i:FargowiltasSouls/SilverEnchant] Right Click to guard with your shield
 					[i:FargowiltasSouls/TungstenEnchant] Weapon size increased to 300% and projectile size every quarter second

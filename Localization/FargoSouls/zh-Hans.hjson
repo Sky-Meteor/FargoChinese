@@ -2206,6 +2206,7 @@ Mods: {
 					在物品栏中即可生效
 					第一次制作物品时有33%概率不消耗材料
 					不适用于在宇宙坩埚上制作的物品
+					物品的吸附范围扩大
 					“趁热打铁”
 					'''
 			}
@@ -2825,6 +2826,7 @@ Mods: {
 					[i:FargowiltasSouls/CopperEnchant][i:FargowiltasSouls/ObsidianEnchant][i:FargowiltasSouls/LeadEnchant] 攻击释放闪电，引发爆炸，造成铅中毒
 					[i:FargowiltasSouls/TinEnchant] 将你的基础暴击率设为10%，暴击率最多提升至你目前暴击率的两倍（至少50%）
 					[i:FargowiltasSouls/IronEnchant] 第一次合成物品时50%的几率不消耗制作材料
+					[i:FargowiltasSouls/IronEnchant] 物品的吸附范围扩大
 					[i:FargowiltasSouls/LeadEnchant] 受到的持续伤害降低60%
 					[i:FargowiltasSouls/SilverEnchant] 右键进行盾牌格挡
 					[i:FargowiltasSouls/TungstenEnchant] 每过0.25秒剑和弹幕的大小增加300%
