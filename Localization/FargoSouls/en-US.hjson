@@ -394,201 +394,188 @@ Mods: {
 		}
 
 		Toggler: {
-			WoodHeader: "{$Mods.FargowiltasSouls.Items.TimberForce.DisplayName}"
-			BorealConfig: Boreal Snowballs
-			MahoganyConfig: Mahogany Hook Speed
-			EbonConfig: Ebonwood Shadowflame
-			ShadeConfig: Blood Geyser On Hit
-			ShadeOnHitConfig: Proximity Triggers On Hit Effects
-			PalmConfig: Palmwood Sentry
-			PearlConfig: Pearlwood Star
+			TimberHeader: "{$Mods.FargowiltasSouls.Items.TimberForce.DisplayName}"
+			BorealEffect: Boreal Snowballs
+			MahoganyEffect: Mahogany Hook Speed
+			EbonwoodEffect: Ebonwood Shadowflame
+			ShadewoodEffect: Blood Geyser On Hit
+			PalmwoodEffect: Palmwood Sentry
+			PearlwoodEffect: Pearlwood Star
 			EarthHeader: "{$Mods.FargowiltasSouls.Items.EarthForce.DisplayName}"
-			AdamantiteConfig: Adamantite Projectile Splitting
-			CobaltConfig: Cobalt Hit Explosion
-			AncientCobaltConfig: Ancient Cobalt Explosion Jump
-			MythrilConfig: Mythril Weapon Speed
-			OrichalcumConfig: Orichalcum Petals
-			PalladiumConfig: Palladium Healing
-			PalladiumOrbConfig: Palladium Orbs
-			TitaniumConfig: Titanium Shards
+			AdamantiteEffect: Adamantite Projectile Splitting
+			CobaltEffect: Cobalt Hit Explosion
+			AncientCobaltEffect: Ancient Cobalt Explosion Jump
+			MythrilEffect: Mythril Weapon Speed
+			OrichalcumEffect: Orichalcum Petals
+			PalladiumHealing: Palladium Healing
+			PalladiumEffect: Palladium Orbs
+			TitaniumEffect: Titanium Shards
 			TerraHeader: "{$Mods.FargowiltasSouls.Items.TerraForce.DisplayName}"
-			CopperConfig: Copper Lightning
-			IronMConfig: Iron Magnet
-			SilverSConfig: Silver Parry
-			TinConfig: Tin Crits
-			TungstenConfig: Tungsten Item Effect
-			TungstenProjConfig: Tungsten Projectile Effect
-			ObsidianConfig: Obsidian Explosions
-			AshWoodConfig: Ash Fireballs
+			CopperEffect: Copper Lightning
+			IronEffect: Iron Magnet
+			LeadPoisonEffect: Lead Poison
+			SilverEffect: Silver Parry
+			TinEffect: Tin Crits
+			TungstenEffect: Tungsten Effect
+			ObsidianProcEffect: Obsidian Explosions
+			AshWoodFireballs: Ash Fireballs
 			WillHeader: "{$Mods.FargowiltasSouls.Items.WillForce.DisplayName}"
-			GladiatorConfig: Gladiator Rain
-			GladiatorBannerConfig: Gladiator Banner
-			GoldConfig: Gold Lucky Coin
-			GoldToPiggyConfig: Gold To Piggy Bank
-			HuntressConfig: Huntress Ability
-			RedRidingRainConfig: Red Riding Arrow Rain
-			ValhallaConfig: Valhalla Mount Dash
-			SquireMountJumpConfig: Squire Mount Jump
-			SquireMountSpeedConfig: Squire Mount Speed
-			SquirePanicConfig: Ballista Panic On Hit
+			GladiatorSpears: Gladiator Spears
+			GladiatorBanner: Gladiator Banner
+			GoldEffect: Gold Lucky Coin
+			GoldToPiggy: Gold To Piggy Bank
+			HuntressEffect: Huntress Ability
+			RedRidingEffect: Red Riding Arrow Rain
+			ValhallaDash: Valhalla Mount Dash
+			SquireMountJump: Squire Mount Jump
+			SquireMountSpeed: Squire Mount Speed
 			LifeHeader: "{$Mods.FargowiltasSouls.Items.LifeForce.DisplayName}"
-			BeeConfig: Bee Flowers
-			BeetleConfig: Beetles
-			CactusConfig: Cactus Needles
-			PumpkinConfig: Grow Pumpkins
-			SpiderConfig: Spider Crits
-			TurtleConfig: Turtle Shell Buff
+			BeeEffect: Bee Flowers
+			BeetleEffect: Beetles
+			CactusEffect: Cactus Needles
+			PumpkinEffect: Grow Pumpkins
+			SpiderEffect: Spider Crits
+			TurtleEffect: Turtle Shell Buff
 			NatureHeader: "{$Mods.FargowiltasSouls.Items.NatureForce.DisplayName}"
-			ChlorophyteConfig: Chlorophyte Leaf Crystal
-			CrimsonConfig: Crimson Healing
-			RainConfig: Rain Umbrella
-			RainInnerTubeConfig: Inner Tube
-			FrostConfig: Frost Icicles
-			JungleConfig: Jungle Spores
-			JungleDashConfig: Jungle Dash
-			MoltenConfig: Molten Inferno Buff
-			ShroomiteConfig: Shroomite Stealth
-			ShroomiteShroomConfig: Shroomite Mushrooms
+			ChloroMinion: Chlorophyte Leaf Crystal
+			CrimsonEffect: Crimson Healing
+			RainUmbrellaEffect: Rain Umbrella
+			RainInnerTubeEffect: Inner Tube
+			FrostEffect: Frost Icicles
+			JungleJump: Jungle Jump and Spores
+			JungleDashEffect: Jungle Dash
+			MoltenEffect: Molten Inferno Buff
+			ShroomiteStealthEffect: Shroomite Stealth
+			ShroomiteShroomEffect: Shroomite Mushrooms
 			ShadowHeader: "{$Mods.FargowiltasSouls.Items.ShadowForce.DisplayName}"
-			DarkArtConfig: Flameburst Minion
-			ApprenticeConfig: Apprentice Effect
-			NecroConfig: Necro Graves
-			NecroGloveConfig: Necro Bone Glove
-			ShadowConfig: Shadow Orbs
-			AncientShadowConfig: Ancient Shadow Darkness
-			MonkConfig: Monk Dash
-			ShinobiDashConfig: Shinobi Teleport Dash
-			ShinobiConfig: Shinobi Through Walls
-			SpookyConfig: Spooky Scythes
-			CrystalDashConfig: Crystal Assassin Dash
+			DarkArtistMinion: Flameburst Minion
+			ApprenticeSupport: Apprentice Effect
+			NecroEffect: Necro Graves
+			ShadowBalls: Shadow Orbs
+			AncientShadowDarkness: Ancient Shadow Darkness
+			MonkDashEffect: Monk Dash
+			ShinobiDashEffect: Shinobi Monk Dash Upgrade
+			ShinobiThroughWalls: Shinobi Through Walls
+			SpookyEffect: Spooky Scythes
+			NinjaEffect: Ninja Speed
+			CrystalAssassinDash: Crystal Assassin Dash
 			SpiritHeader: "{$Mods.FargowiltasSouls.Items.SpiritForce.DisplayName}"
-			FossilConfig: Fossil Bones On Hit
-			ForbiddenConfig: Forbidden Storm
-			HallowDodgeConfig: Hallowed Healing Potions
-			AHallowedConfig: Ancient Hallowed Terraprisma familiar
-			NinjaSpeedConfig: Ninja Speed
-			SpectreConfig: Spectre Orbs
-			TikiConfig: Tiki Minions
+			FossilBones: Fossil Bones On Hit
+			HallowEffect: Hallowed Healing Potions
+			AncientHallowMinion: Ancient Hallowed Blade
+			SpectreEffect: Spectre Orbs
+			TikiEffect: Tiki Minions
 			CosmoHeader: "{$Mods.FargowiltasSouls.Items.CosmoForce.DisplayName}"
-			MeteorMomentumConfig: Meteor Speed
-			MeteorConfig: Meteor Shower
-			NebulaConfig: Nebula Boosters
-			SolarConfig: Solar Shield
-			SolarFlareConfig: Inflict Solar Flare
-			StardustConfig: Stardust Guardian
-			VortexSConfig: Vortex Stealth
-			VortexVConfig: Vortex Voids
+			MeteorMomentumEffect: Meteor Speed
+			MeteorEffect: Meteor Shower
+			NebulaEffect: Nebula Boosters
+			SolarEffect: Solar Shield
+			SolarFlareEffect: Inflict Solar Flare
+			StardustMinionEffect: Stardust Guardian
+			VortexStealthEffect: Vortex Stealth
+			VortexVortexEffect: Vortex Voids
 			MasoHeader: Eternity Mode
 			MasoBossRecolors: Boss Recolors
 			MasoCanPlay: Masochist Mode Available
-			MasoHeader2: Eternity Mode Accessories
-			DeerSinewDashConfig: Deer Sinew Dash
-			MasoAeolusConfig: Aeolus Jump
-			MasoAeolusFlowerConfig: Flower Boots
-			MasoAeolusFrogConfig: Frog Jump
-			MasoIconConfig: Sinister Icon Spawn Rates
-			MasoIconDropsConfig: Sinister Icon Drops
-			MasoGrazeConfig: Graze
-			MasoGrazeRingConfig: Graze Radius Visual
-			MasoDevianttHeartsConfig: Homing Hearts On Hit
-			PrecisionSealHurtboxConfig: Reduced Hurtbox Size
+			DeviEnergyHeader: Eternity Mode Accessories
+			DeerSinewEffect: Deer Sinew Dash
+			ZephyrJump: Fart Jump
+			MasoAeolusFlower: Flower Boots
+			MasoAeolusFrog: Frog Jump
+			SinisterIconEffect: Sinister Icon Spawn Rates
+			SinisterIconDropsEffect: Sinister Icon Drops
+			MasoGraze: Graze
+			MasoGrazeRing: Graze Radius Visual
+			DevianttHearts: Homing Hearts On Hit
+			AbomWandCrit: Spectral Abominationn Support
 			SupremeFairyHeader: "{$Mods.FargowiltasSouls.Items.SupremeDeathbringerFairy.DisplayName}"
-			MasoSlimeConfig: Slimy Balls
-			SlimeFallingConfig: Increased Fall Speed
-			MasoEyeConfig: Scythes When Dashing
-			MasoEyeInstallConfig: Berserker Install
-			MasoSkeleConfig: Skeletron Arms Minion
-			MasoSkeleSpinConfig: Skeletron Spin Dash
+			SlimyShieldEffect: Slimy Balls
+			SlimeFallEffect: Increased Fall Speed
+			AgitatingLensEffect: Scythes When Dashing
+			AgitatingLensInstall: Berserker Install
+			SkeleMinionEffect: Skeletron Arms Minion
+			NecroBrewSpin: Skeletron Spin Dash
 			BionomicHeader: "{$Mods.FargowiltasSouls.Items.BionomicCluster.DisplayName}"
-			MasoConcoctionConfig: Tim's Concoction
-			MasoCarrotConfig: Carrot Zoom
-			MasoRainbowConfig: Rainbow Slime Minion
-			MasoHealingPotionConfig: Auto-Use Healing Potions
-			MasoNymphConfig: Attacks Spawn Hearts
-			MasoSqueakConfig: Squeaky Toy On Hit
-			MasoPouchConfig: Stronger Slower Shadowflame Attacks
-			MasoClippedConfig: Inflict Clipped Wings
-			TribalCharmClickBonusConfig: Tribal Charm Click Bonus
+			TimsConcoctionEffect: Tim's Concoction
+			MasoCarrotEffect: Carrot Zoom
+			RainbowSlimeMinion: Rainbow Slime Minion
+			RainbowHealEffect: Auto-Use Healing Potions
+			NymphPerfumeEffect: Attacks Spawn Hearts
+			SqueakEffect: Squeaky Toy On Hit
+			WretchedPouchEffect: Wretched Pouch Slowdown Attack
+			ClippedEffect: Inflict Clipped Wings
+			TribalCharmClickBonus: Tribal Charm Click Bonus
+			StabilizedGravity: Stabilized Gravity
 			DubiousHeader: "{$Mods.FargowiltasSouls.Items.DubiousCircuitry.DisplayName}"
-			FusedLensInstallConfig: Twins Install
-			MasoLightningConfig: Supercharge When Hit
-			MasoProbeConfig: Probes Minion
+			FusedLensInstall: Twins Install
+			GroundStickDR: Supercharge When Hit
+			ProbeMinionEffect: Probes Minion
 			PureHeartHeader: "{$Mods.FargowiltasSouls.Items.PureHeart.DisplayName}"
-			MasoEaterConfig: Tiny Eaters
-			MasoBrainConfig: Creeper Shield
-			MasoQueenConfig: Slimy Spikes
-			MasoQueenJumpConfig: Gelic Jump
+			DarkenedHeartEaters: Tiny Eaters
+			GuttedHeartMinions: Creeper Shield
+			GelicWingSpikes: Gelic Spikes
+			GelicWingJump: Gelic Jump
 			LumpofFleshHeader: "{$Mods.FargowiltasSouls.Items.LumpOfFlesh.DisplayName}"
-			MasoPungentCursorConfig: Pungent Eye Cursor
-			MasoPugentConfig: Lump of Flesh Minion
-			DeerclawpsConfig: Deerclawps Spike Dash Trail
-			DreadShellParryConfig: Dread Shell Parry
+			PungentEyeballCursor: Pungent Eye Cursor
+			PungentMinion: Lump of Flesh Minion
+			DeerclawpsEffect: Deerclawps Spike Dash Trail
+			DreadShellEffect: Dread Shell Parry
 			ChaliceHeader: "{$Mods.FargowiltasSouls.Items.ChaliceoftheMoon.DisplayName}"
-			MasoCultistConfig: Cultist Minion
-			MasoPlantConfig: Plantera Minion
-			MasoGolemConfig: Lihzahrd Fastfall
-			MasoBoulderConfig: Ground Pound Spray
-			MasoCelestConfig: Celestial Rune Support
-			MasoVisionConfig: Ancient Visions On Hit
+			CultistMinionEffect: Cultist Minion
+			PlantMinionEffect: Plantera Minion
+			LihzahrdGroundPound: Lihzahrd Fastfall
+			LihzahrdBoulders: Ground Pound Spray
+			CelestialRuneAttacks: Celestial Rune Support
 			HeartHeader: "{$Mods.FargowiltasSouls.Items.HeartoftheMasochist.DisplayName}"
-			MasoPumpConfig: Pumpking's Cape Parry
-			IceQueensCrownConfig: Graze
-			MasoUfoConfig: Saucer Minion
-			MasoGravConfig: Gravity Control
-			MasoGrav2Config: Stabilized Gravity
-			MasoTrueEyeConfig: True Eyes Minion
-			CyclonicHeader: "{$Mods.FargowiltasSouls.Items.AbominableWand.DisplayName}"
-			MasoFishronConfig: Spectral Abominationn
+			PrecisionSealHurtbox: Reduced Hurtbox Size
+			PumpkingsCapeEffect: Pumpking's Cape Parry
+			IceQueenGraze: Graze
+			UfoMinionEffect: Saucer Minion
+			MasoGravEffect: Gravity Control
+			MasoTrueEyeMinion: True Eyes Minion
 			MutantArmorHeader: True Mutant Armor
-			MasoAbomConfig: Abominationn Minion
-			MasoRingConfig: Phantasmal Ring Minion
-			MasoReviveDeathrayConfig: Deathray When Revived
+			MasoAbom: Abominationn Minion
+			MasoRing: Phantasmal Ring Minion
 			UniverseHeader: "{$Mods.FargowiltasSouls.Items.UniverseSoul.DisplayName}"
-			MeleeConfig: Melee Speed
-			MagmaStoneConfig: Magma Stone
-			YoyoBagConfig: Yoyo Bag
-			MoonCharmConfig: Moon Charm
-			NeptuneShellConfig: Neptune's Shell
-			SniperConfig: Sniper Scope
-			ManaFlowerConfig: Mana Flower
-			UniverseConfig: Universe Attack Speed
+			MeleeSpeedEffect: Melee Speed
+			MagmaStoneEffect: Magma Stone
+			SniperScopeEffect: Sniper Scope
+			UniverseSpeedEffect: Universe Attack Speed
 			WorldShaperHeader: "{$Mods.FargowiltasSouls.Items.WorldShaperSoul.DisplayName}"
-			MiningHuntConfig: Mining Hunter Buff
-			MiningDangerConfig: Mining Dangersense Buff
-			MiningSpelunkConfig: Mining Spelunker Buff
-			MiningShineConfig: Mining Shine Buff
-			BuilderConfig: Builder Mode
+			MiningHunt: Mining Hunter Buff
+			MiningDanger: Mining Dangersense Buff
+			MiningSpelunk: Mining Spelunker Buff
+			MiningShine: Mining Shine Buff
+			BuilderEffect: Builder Mode
 			ColossusHeader: "{$Mods.FargowiltasSouls.Items.ColossusSoul.DisplayName}"
-			DefenseStarConfig: Stars On Hit
-			DefenseBrainConfig: Brain of Confusion
-			DefenseBeeConfig: Bees On Hit
-			DefensePanicConfig: Panic On Hit
-			DefenseFleshKnuckleConfig: Flesh Knuckles Aggro
-			DefensePaladinConfig: Paladin's Shield
-			DefenseFrozenConfig: Frozen Turtle Shell
-			ShimmerImmunityConfig: Shimmer Immunity
+			DefenseStarEffect: Stars On Hit
+			DefenseBrainEffect: Brain of Confusion
+			DefenseBeeEffect: Bees On Hit
+			FleshKnuckleEffect: Flesh Knuckles Aggro
+			PaladinShieldEffect: Paladin's Shield
+			FrozenTurtleEffect: Frozen Turtle Shell
+			ShimmerImmunityEffect: Shimmer Immunity
 			FlightMasteryHeader: "{$Mods.FargowiltasSouls.Items.FlightMasterySoul.DisplayName}"
-			FlightMasteryInsigniaConfig: Soaring Insignia Acceleration
-			FlightMasteryGravityConfig: Amplified Gravity
+			FlightMasteryInsignia: Soaring Insignia Acceleration
+			FlightMasteryGravity: Amplified Gravity
 			SupersonicHeader: "{$Mods.FargowiltasSouls.Items.SupersonicSoul.DisplayName}"
-			RunSpeedConfig: Higher Base Run Speed
-			MomentumConfig: No Momentum
-			SupersonicTabiConfig: Tabi Dash
-			SupersonicClimbingConfig: Tiger Climbing Gear
-			SupersonicConfig: Supersonic Speed Boosts
-			SupersonicJumpsConfig: Supersonic Jumps
-			SupersonicRocketBootsConfig: Supersonic Rocket Boots
-			SupersonicCarpetConfig: Supersonic Carpet
-			SupersonicFlowerConfig: Supersonic Flower Boots
-			CthulhuShieldConfig: Shield of Cthulhu
-			BlackBeltConfig: Black Belt
+			RunSpeed: Higher Base Run Speed
+			NoMomentum: No Momentum
+			SupersonicTabi: Tabi Dash
+			SupersonicClimbing: Tiger Climbing Gear
+			SupersonicSpeedEffect: Supersonic Speed Boosts
+			SupersonicJumps: Supersonic Jumps
+			SupersonicRocketBoots: Supersonic Rocket Boots
+			SupersonicCarpet: Supersonic Carpet
+			CthulhuShield: Shield of Cthulhu
+			BlackBelt: Black Belt
+			SupersonicPanic: Panic On Hit
 			TrawlerHeader: "{$Mods.FargowiltasSouls.Items.TrawlerSoul.DisplayName}"
-			TrawlerSporeConfig: Spore Sac
-			TrawlerConfig: Trawler Extra Lures
-			TrawlerJumpConfig: Trawler Jump
-			TrawlerGelConfig: Volatile Gelatin
+			TrawlerSporeSac: Spore Sac
+			TrawlerJump: Trawler Jump
+			TrawlerGel: Volatile Gelatin
 			EternityHeader: "{$Mods.FargowiltasSouls.Items.EternitySoul.DisplayName}"
-			EternityConfig: Eternity Stacking
+			EternityTin: Eternity Crit Effect Stacking
 			PetHeader: Pets
 			PetDinoConfig: Dino Pet
 			PetEaterConfig: Eater Pet
@@ -696,6 +683,8 @@ Mods: {
 			MinimalEffectsPreset: Minimal effects preset
 			CustomPreset: Custom preset {0} (right click to save)
 			ReloadToggles: Reload Toggles (right click to reset)
+			DisplayAll: Display All
+			DisplayEquipped: Display Equipped
 			SearchText: Search...
 		}
 
@@ -2274,7 +2263,7 @@ Mods: {
 					Double tap a direction
 					You are immune to damage and debuffs for half a second after dashing
 					Dash through an enemy to deal massive damage
-					Dash cooldown is longer than normal dashes
+					Dash cooldown is much longer than normal dashes
 					Lightning Aura can now crit and strikes faster
 					'Return to Monk'
 					'''
@@ -2454,9 +2443,13 @@ Mods: {
 				DisplayName: Shinobi Infiltrator Enchantment
 				Tooltip:
 					'''
-					Dash into any walls, to teleport through them to the next opening
 					Allows the ability to dash
 					Double tap a direction
+					You are immune to damage and debuffs for half a second after dashing
+					Dash through an enemy to deal massive damage
+					Dash cooldown is longer than normal dashes
+					Dash is longer and deals more damage
+					Dash into any walls to teleport through them to the next opening
 					Greatly enhances Lightning Aura effectiveness
 					'Village Hidden in the Wall'
 					'''
@@ -2934,7 +2927,7 @@ Mods: {
 					[i:FargowiltasSouls/ConcentratedRainbowMatter] Summons a friendly rainbow slime
 					[i:FargowiltasSouls/TimsConcoction] Certain enemies will drop potions when defeated
 					[i:FargowiltasSouls/TribalCharm] When attacking by manually clicking, increases non-summon damage by 30%
-					[c/00FFFF:Following effects work passively from inventory or vanity slots (right click to disable in inventory):]
+					[c/00FFFF:Following effects also work passively from inventory or vanity slots (right click to disable in inventory):]
 					    Grants immunity to [i:FargowiltasSouls/SandsofTime] Mighty Wind, [i:FargowiltasSouls/MysticSkull] Suffocation, [i:FargowiltasSouls/FrigidGemstone] Chilled, [i:FargowiltasSouls/SqueakyToy] and Guilty
 					    [i:FargowiltasSouls/WyvernFeather] Stabilizes gravity in space and in liquid, [i:FargowiltasSouls/OrdinaryCarrot] improves your nightvision, [i:FargowiltasSouls/SecurityWallet] and drastically improves reforges
 					    [i:FargowiltasSouls/ConcentratedRainbowMatter] Automatically uses healing & [i:FargowiltasSouls/MysticSkull] mana potions when needed and increases pickup range for mana stars
@@ -2958,7 +2951,7 @@ Mods: {
 					[i:FargowiltasSouls/ConcentratedRainbowMatter] Summons a friendly rainbow slime
 					[i:FargowiltasSouls/TimsConcoction] Certain enemies will drop potions when defeated
 					[i:FargowiltasSouls/TribalCharm] When attacking by manually clicking, increases non-summon damage by 30%
-					[c/00FFFF:Following effects are currently disabled (right click to enable in inventory):]
+					[c/00FFFF:Following effects are currently disabled in inventory (right click to enable):]
 					    Grants immunity to [i:FargowiltasSouls/SandsofTime] Mighty Wind, [i:FargowiltasSouls/MysticSkull] Suffocation, [i:FargowiltasSouls/FrigidGemstone] Chilled, [i:FargowiltasSouls/SqueakyToy] and Guilty
 					    [i:FargowiltasSouls/WyvernFeather] Stabilizes gravity in space and in liquid, [i:FargowiltasSouls/OrdinaryCarrot] improves your nightvision, [i:FargowiltasSouls/SecurityWallet] and drastically improves reforges
 					    [i:FargowiltasSouls/ConcentratedRainbowMatter] Automatically uses healing & [i:FargowiltasSouls/MysticSkull] mana potions when needed and increases pickup range for mana stars
@@ -5130,6 +5123,21 @@ Mods: {
 					'The Queen's unwavering swarm..'
 					'''
 			}
+
+			TestAccessory: {
+				DisplayName: Test Accessory
+				Tooltip: ""
+			}
+
+			PrimeSoul: {
+				DisplayName: Prime Soul
+				Tooltip: ""
+			}
+
+			OncomingMutantItem: {
+				DisplayName: Oncoming Mutant Icon
+				Tooltip: Exists solely to be displayed in the Toggler UI when you have Mutant's Presence
+			}
 		}
 
 		NPCs: {
@@ -5323,6 +5331,7 @@ Mods: {
 			DetonatingBubbleNPC.DisplayName: Detonating Bubble
 			StardustMinion.DisplayName: Stardust Minion
 			SlimeSwarm.DisplayName: Slime Swarm
+			Magmaw.DisplayName: Magmaw
 		}
 
 		Tiles: {
@@ -6044,203 +6053,16 @@ Mods: {
 			MonkDashSlash.DisplayName: Monk Dash Slash
 			ObsidianExplosion.DisplayName: Obsidian Explosion
 			DeviGuardianHarmless.DisplayName: Devi Guardian Harmless
+			MagmawJaw.DisplayName: Magmaw Jaw
+			MagmawHand.DisplayName: Magmaw Hand
+			PungentEyeballMinion.DisplayName: Pungent Eyeball Minion
+			MinosPrime.DisplayName: Minos Prime
 		}
 
-		WoodHeader: "[i:FargowiltasSouls/TimberForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WoodHeader}]"
-		BorealConfig: "[i:FargowiltasSouls/BorealWoodEnchant][c/8B7464:{$Mods.FargowiltasSouls.Toggler.BorealConfig}]"
-		MahoganyConfig: "[i:FargowiltasSouls/RichMahoganyEnchant][c/b56c64:{$Mods.FargowiltasSouls.Toggler.MahoganyConfig}]"
-		EbonConfig: "[i:FargowiltasSouls/EbonwoodEnchant][c/645a8d:{$Mods.FargowiltasSouls.Toggler.EbonConfig}]"
-		ShadeConfig: "[i:FargowiltasSouls/ShadewoodEnchant][c/586876:{$Mods.FargowiltasSouls.Toggler.ShadeConfig}]"
-		ShadeOnHitConfig: "[i:FargowiltasSouls/ShadewoodEnchant][c/586876:{$Mods.FargowiltasSouls.Toggler.ShadeOnHitConfig}]"
-		PalmConfig: "[i:FargowiltasSouls/PalmWoodEnchant][c/b78d56:{$Mods.FargowiltasSouls.Toggler.PalmConfig}]"
-		PearlConfig: "[i:FargowiltasSouls/PearlwoodEnchant][c/ad9a5f:{$Mods.FargowiltasSouls.Toggler.PearlConfig}]"
-		EarthHeader: "[i:FargowiltasSouls/EarthForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.EarthHeader}]"
-		AdamantiteConfig: "[i:FargowiltasSouls/AdamantiteEnchant][c/dd557d:{$Mods.FargowiltasSouls.Toggler.AdamantiteConfig}]"
-		CobaltConfig: "[i:FargowiltasSouls/CobaltEnchant][c/3da4c4:{$Mods.FargowiltasSouls.Toggler.CobaltConfig}]"
-		AncientCobaltConfig: "[i:FargowiltasSouls/AncientCobaltEnchant][c/354c74:{$Mods.FargowiltasSouls.Toggler.AncientCobaltConfig}]"
-		MythrilConfig: "[i:FargowiltasSouls/MythrilEnchant][c/9dd290:{$Mods.FargowiltasSouls.Toggler.MythrilConfig}]"
-		OrichalcumConfig: "[i:FargowiltasSouls/OrichalcumEnchant][c/eb3291:{$Mods.FargowiltasSouls.Toggler.OrichalcumConfig}]"
-		PalladiumConfig: "[i:FargowiltasSouls/PalladiumEnchant][c/f5ac28:{$Mods.FargowiltasSouls.Toggler.PalladiumConfig}]"
-		PalladiumOrbConfig: "[i:FargowiltasSouls/PalladiumEnchant][c/f5ac28:{$Mods.FargowiltasSouls.Toggler.PalladiumOrbConfig}]"
-		TitaniumConfig: "[i:FargowiltasSouls/TitaniumEnchant][c/828c88:{$Mods.FargowiltasSouls.Toggler.TitaniumConfig}]"
-		TerraHeader: "[i:FargowiltasSouls/TerraForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TerraHeader}]"
-		CopperConfig: "[i:FargowiltasSouls/CopperEnchant][c/d56617:{$Mods.FargowiltasSouls.Toggler.CopperConfig}]"
-		IronMConfig: "[i:FargowiltasSouls/IronEnchant][c/988e83:{$Mods.FargowiltasSouls.Toggler.IronMConfig}]"
-		SilverSConfig: "[i:FargowiltasSouls/SilverEnchant][c/b4b4cc:{$Mods.FargowiltasSouls.Toggler.SilverSConfig}]"
-		TinConfig: "[i:FargowiltasSouls/TinEnchant][c/a28b4e:{$Mods.FargowiltasSouls.Toggler.TinConfig}]"
-		TungstenConfig: "[i:FargowiltasSouls/TungstenEnchant][c/b0d2b2:{$Mods.FargowiltasSouls.Toggler.TungstenConfig}]"
-		TungstenProjConfig: "[i:FargowiltasSouls/TungstenEnchant][c/b0d2b2:{$Mods.FargowiltasSouls.Toggler.TungstenProjConfig}]"
-		ObsidianConfig: "[i:FargowiltasSouls/ObsidianEnchant][c/453e73:{$Mods.FargowiltasSouls.Toggler.ObsidianConfig}]"
-		AshWoodConfig: "[i:FargowiltasSouls/AshWoodEnchant][c/958083:{$Mods.FargowiltasSouls.Toggler.AshWoodConfig}]"
-		WillHeader: "[i:FargowiltasSouls/WillForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WillHeader}]"
-		GladiatorConfig: "[i:FargowiltasSouls/GladiatorEnchant][c/9c924e:{$Mods.FargowiltasSouls.Toggler.GladiatorConfig}]"
-		GladiatorBannerConfig: "[i:FargowiltasSouls/GladiatorEnchant][c/9c924e:{$Mods.FargowiltasSouls.Toggler.GladiatorBannerConfig}]"
-		GoldConfig: "[i:FargowiltasSouls/GoldEnchant][c/e7b21c:{$Mods.FargowiltasSouls.Toggler.GoldConfig}]"
-		GoldToPiggyConfig: "[i:FargowiltasSouls/GoldEnchant][c/e7b21c:{$Mods.FargowiltasSouls.Toggler.GoldToPiggyConfig}]"
-		HuntressConfig: "[i:FargowiltasSouls/HuntressEnchant][c/7ac04c:{$Mods.FargowiltasSouls.Toggler.HuntressConfig}]"
-		RedRidingRainConfig: "[i:FargowiltasSouls/RedRidingEnchant][c/c01b3c:{$Mods.FargowiltasSouls.Toggler.RedRidingRainConfig}]"
-		ValhallaConfig: "[i:FargowiltasSouls/ValhallaKnightEnchant][c/93651e:{$Mods.FargowiltasSouls.Toggler.ValhallaConfig}]"
-		SquireMountSpeedConfig: "[i:FargowiltasSouls/SquireEnchant][c/948f8c:{$Mods.FargowiltasSouls.Toggler.SquireMountSpeedConfig}]"
-		SquireMountJumpConfig: "[i:FargowiltasSouls/SquireEnchant][c/948f8c:{$Mods.FargowiltasSouls.Toggler.SquireMountJumpConfig}]"
-		SquirePanicConfig: "[i:FargowiltasSouls/SquireEnchant][c/948f8c:{$Mods.FargowiltasSouls.Toggler.SquirePanicConfig}]"
-		LifeHeader: "[i:FargowiltasSouls/LifeForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.LifeHeader}]"
-		BeeConfig: "[i:FargowiltasSouls/BeeEnchant][c/FEF625:{$Mods.FargowiltasSouls.Toggler.BeeConfig}]"
-		BeetleConfig: "[i:FargowiltasSouls/BeetleEnchant][c/6D5C85:{$Mods.FargowiltasSouls.Toggler.BeetleConfig}]"
-		CactusConfig: "[i:FargowiltasSouls/CactusEnchant][c/799e1d:{$Mods.FargowiltasSouls.Toggler.CactusConfig}]"
-		PumpkinConfig: "[i:FargowiltasSouls/PumpkinEnchant][c/e3651c:{$Mods.FargowiltasSouls.Toggler.PumpkinConfig}]"
-		SpiderConfig: "[i:FargowiltasSouls/SpiderEnchant][c/6d4e45:{$Mods.FargowiltasSouls.Toggler.SpiderConfig}]"
-		TurtleConfig: "[i:FargowiltasSouls/TurtleEnchant][c/f89c5c:{$Mods.FargowiltasSouls.Toggler.TurtleConfig}]"
-		NatureHeader: "[i:FargowiltasSouls/NatureForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.NatureHeader}]"
-		ChlorophyteConfig: "[i:FargowiltasSouls/ChlorophyteEnchant][c/248900:{$Mods.FargowiltasSouls.Toggler.ChlorophyteConfig}]"
-		CrimsonConfig: "[i:FargowiltasSouls/CrimsonEnchant][c/C8364B:{$Mods.FargowiltasSouls.Toggler.CrimsonConfig}]"
-		RainConfig: "[i:FargowiltasSouls/RainEnchant][c/ffec00:{$Mods.FargowiltasSouls.Toggler.RainConfig}]"
-		RainInnerTubeConfig: "[i:FargowiltasSouls/RainEnchant][c/ffec00:{$Mods.FargowiltasSouls.Toggler.RainInnerTubeConfig}]"
-		FrostConfig: "[i:FargowiltasSouls/FrostEnchant][c/7abdb9:{$Mods.FargowiltasSouls.Toggler.FrostConfig}]"
-		JungleConfig: "[i:FargowiltasSouls/JungleEnchant][c/71971f:{$Mods.FargowiltasSouls.Toggler.JungleConfig}]"
-		JungleDashConfig: "[i:FargowiltasSouls/JungleEnchant][c/71971f:{$Mods.FargowiltasSouls.Toggler.JungleDashConfig}]"
-		MoltenConfig: "[i:FargowiltasSouls/MoltenEnchant][c/c12b2b:{$Mods.FargowiltasSouls.Toggler.MoltenConfig}]"
-		ShroomiteConfig: "[i:FargowiltasSouls/ShroomiteEnchant][c/008cf4:{$Mods.FargowiltasSouls.Toggler.ShroomiteConfig}]"
-		ShroomiteShroomConfig: "[i:FargowiltasSouls/ShroomiteEnchant][c/008cf4:{$Mods.FargowiltasSouls.Toggler.ShroomiteShroomConfig}]"
-		ShadowHeader: "[i:FargowiltasSouls/ShadowEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ShadowHeader}]"
-		DarkArtConfig: "[i:FargowiltasSouls/DarkArtistEnchant][c/9b5cb0:{$Mods.FargowiltasSouls.Toggler.DarkArtConfig}]"
-		ApprenticeConfig: "[i:FargowiltasSouls/ApprenticeEnchant][c/5d86a6:{$Mods.FargowiltasSouls.Toggler.ApprenticeConfig}]"
-		NecroConfig: "[i:FargowiltasSouls/NecroEnchant][c/565643:{$Mods.FargowiltasSouls.Toggler.NecroConfig}]"
-		NecroGloveConfig: "[i:FargowiltasSouls/NecroEnchant][c/565643:{$Mods.FargowiltasSouls.Toggler.NecroGloveConfig}]"
-		ShadowConfig: "[i:FargowiltasSouls/ShadowEnchant][c/42356f:{$Mods.FargowiltasSouls.Toggler.ShadowConfig}]"
-		AncientShadowConfig: "[i:FargowiltasSouls/AncientShadowEnchant][c/42356f:{$Mods.FargowiltasSouls.Toggler.AncientShadowConfig}]"
-		MonkConfig: "[i:FargowiltasSouls/MonkEnchant][c/920520:{$Mods.FargowiltasSouls.Toggler.MonkConfig}]"
-		ShinobiDashConfig: "[i:FargowiltasSouls/ShinobiEnchant][c/935b18:{$Mods.FargowiltasSouls.Toggler.ShinobiDashConfig}]"
-		ShinobiConfig: "[i:FargowiltasSouls/ShinobiEnchant][c/935b18:{$Mods.FargowiltasSouls.Toggler.ShinobiConfig}]"
-		SpookyConfig: "[i:FargowiltasSouls/SpookyEnchant][c/644e74:{$Mods.FargowiltasSouls.Toggler.SpookyConfig}]"
-		NinjaSpeedConfig: "[i:FargowiltasSouls/NinjaEnchant][c/565643:{$Mods.FargowiltasSouls.Toggler.NinjaSpeedConfig}]"
-		CrystalDashConfig: "[i:FargowiltasSouls/CrystalAssassinEnchant][c/249dcf:{$Mods.FargowiltasSouls.Toggler.CrystalDashConfig}]"
-		SpiritHeader: "[i:FargowiltasSouls/SpiritForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SpiritHeader}]"
-		FossilConfig: "[i:FargowiltasSouls/FossilEnchant][c/8c5c3b:{$Mods.FargowiltasSouls.Toggler.FossilConfig}]"
-		ForbiddenConfig: "[i:FargowiltasSouls/ForbiddenEnchant][c/e7b21c:{$Mods.FargowiltasSouls.Toggler.ForbiddenConfig}]"
-		HallowDodgeConfig: "[i:FargowiltasSouls/HallowEnchant][c/968564:{$Mods.FargowiltasSouls.Toggler.HallowDodgeConfig}]"
-		AHallowedConfig: "[i:FargowiltasSouls/AncientHallowEnchant][c/968564:{$Mods.FargowiltasSouls.Toggler.AHallowedConfig}]"
-		SpectreConfig: "[i:FargowiltasSouls/SpectreEnchant][c/accdfc:{$Mods.FargowiltasSouls.Toggler.SpectreConfig}]"
-		TikiConfig: "[i:FargowiltasSouls/TikiEnchant][c/56A52B:{$Mods.FargowiltasSouls.Toggler.TikiConfig}]"
-		CosmoHeader: "[i:FargowiltasSouls/CosmoForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.CosmoHeader}]"
-		MeteorMomentumConfig: "[i:FargowiltasSouls/MeteorEnchant][c/5f4752:{$Mods.FargowiltasSouls.Toggler.MeteorMomentumConfig}]"
-		MeteorConfig: "[i:FargowiltasSouls/MeteorEnchant][c/5f4752:{$Mods.FargowiltasSouls.Toggler.MeteorConfig}]"
-		NebulaConfig: "[i:FargowiltasSouls/NebulaEnchant][c/fe7ee5:{$Mods.FargowiltasSouls.Toggler.NebulaConfig}]"
-		SolarConfig: "[i:FargowiltasSouls/SolarEnchant][c/fe9e23:{$Mods.FargowiltasSouls.Toggler.SolarConfig}]"
-		SolarFlareConfig: "[i:FargowiltasSouls/SolarEnchant][c/fe9e23:{$Mods.FargowiltasSouls.Toggler.SolarFlareConfig}]"
-		StardustConfig: "[i:FargowiltasSouls/StardustEnchant][c/00aeee:{$Mods.FargowiltasSouls.Toggler.StardustConfig}]"
-		VortexSConfig: "[i:FargowiltasSouls/VortexEnchant][c/00f2aa:{$Mods.FargowiltasSouls.Toggler.VortexSConfig}]"
-		VortexVConfig: "[i:FargowiltasSouls/VortexEnchant][c/00f2aa:{$Mods.FargowiltasSouls.Toggler.VortexVConfig}]"
 		MasoHeader: "[i:FargowiltasSouls/MutantStatue][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoHeader}]"
 		MasoBossRecolors: "[i:FargowiltasSouls/Masochist][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoBossRecolors}]"
 		MasoCanPlay: "[i:FargowiltasSouls/Masochist][c/ff0000:{$Mods.FargowiltasSouls.Toggler.MasoCanPlay}]"
-		MasoHeader2: "[i:FargowiltasSouls/DeviatingEnergy][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoHeader2}]"
-		DeerSinewDashConfig: "[i:FargowiltasSouls/DeerSinew][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DeerSinewDashConfig}]"
-		MasoAeolusConfig: "[i:FargowiltasSouls/AeolusBoots][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAeolusConfig}]"
-		MasoAeolusFlowerConfig: "[i:FargowiltasSouls/AeolusBoots][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAeolusFlowerConfig}]"
-		MasoAeolusFrogConfig: "[i:FargowiltasSouls/AeolusBoots][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAeolusFrogConfig}]"
-		MasoIconConfig: "[i:FargowiltasSouls/SinisterIcon][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoIconConfig}]"
-		MasoIconDropsConfig: "[i:FargowiltasSouls/SinisterIcon][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoIconDropsConfig}]"
-		MasoGrazeConfig: "[i:FargowiltasSouls/SparklingAdoration][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGrazeConfig}]"
-		MasoGrazeRingConfig: "[i:FargowiltasSouls/SparklingAdoration][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGrazeRingConfig}]"
-		MasoDevianttHeartsConfig: "[i:FargowiltasSouls/SparklingAdoration][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoDevianttHeartsConfig}]"
-		PrecisionSealHurtboxConfig: "[i:FargowiltasSouls/PrecisionSeal][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PrecisionSealHurtboxConfig}]"
-		SupremeFairyHeader: "[i:FargowiltasSouls/SupremeDeathbringerFairy][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupremeFairyHeader}]"
-		MasoSlimeConfig: "[i:FargowiltasSouls/SlimyShield][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoSlimeConfig}]"
-		SlimeFallingConfig: "[i:FargowiltasSouls/SlimyShield][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SlimeFallingConfig}]"
-		MasoEyeConfig: "[i:FargowiltasSouls/AgitatingLens][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoEyeConfig}]"
-		MasoEyeInstallConfig: "[i:FargowiltasSouls/AgitatingLens][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoEyeInstallConfig}]"
-		MasoSkeleConfig: "[i:FargowiltasSouls/NecromanticBrew][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoSkeleConfig}]"
-		MasoSkeleSpinConfig: "[i:FargowiltasSouls/NecromanticBrew][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoSkeleSpinConfig}]"
-		BionomicHeader: "[i:FargowiltasSouls/BionomicCluster][c/ffffff:{$Mods.FargowiltasSouls.Toggler.BionomicHeader}]"
-		MasoConcoctionConfig: "[i:FargowiltasSouls/TimsConcoction][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoConcoctionConfig}]"
-		MasoCarrotConfig: "[i:FargowiltasSouls/OrdinaryCarrot][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoCarrotConfig}]"
-		MasoRainbowConfig: "[i:FargowiltasSouls/ConcentratedRainbowMatter][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoRainbowConfig}]"
-		MasoHealingPotionConfig: "[i:FargowiltasSouls/ConcentratedRainbowMatter][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoHealingPotionConfig}]"
-		MasoNymphConfig: "[i:FargowiltasSouls/NymphsPerfume][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoNymphConfig}]"
-		MasoSqueakConfig: "[i:FargowiltasSouls/SqueakyToy][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoSqueakConfig}]"
-		MasoPouchConfig: "[i:FargowiltasSouls/WretchedPouch][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPouchConfig}]"
-		MasoClippedConfig: "[i:FargowiltasSouls/WyvernFeather][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoClippedConfig}]"
-		MasoGrav2Config: "[i:FargowiltasSouls/WyvernFeather][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGrav2Config}]"
-		TribalCharmClickBonusConfig: "[i:FargowiltasSouls/TribalCharm][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TribalCharmClickBonusConfig}]"
-		DubiousHeader: "[i:FargowiltasSouls/DubiousCircuitry][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DubiousHeader}]"
-		FusedLensInstallConfig: "[i:FargowiltasSouls/FusedLens][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FusedLensInstallConfig}]"
-		MasoLightningConfig: "[i:FargowiltasSouls/GroundStick][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoLightningConfig}]"
-		MasoProbeConfig: "[i:FargowiltasSouls/GroundStick][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoProbeConfig}]"
-		PureHeartHeader: "[i:FargowiltasSouls/PureHeart][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PureHeartHeader}]"
-		MasoEaterConfig: "[i:FargowiltasSouls/DarkenedHeart][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoEaterConfig}]"
-		MasoBrainConfig: "[i:FargowiltasSouls/GuttedHeart][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoBrainConfig}]"
-		MasoQueenConfig: "[i:FargowiltasSouls/GelicWings][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoQueenConfig}]"
-		MasoQueenJumpConfig: "[i:FargowiltasSouls/GelicWings][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoQueenJumpConfig}]"
-		LumpofFleshHeader: "[i:FargowiltasSouls/LumpOfFlesh][c/ffffff:{$Mods.FargowiltasSouls.Toggler.LumpofFleshHeader}]"
-		MasoPungentCursorConfig: "[i:FargowiltasSouls/PungentEyeball][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPungentCursorConfig}]"
-		MasoPugentConfig: "[i:FargowiltasSouls/LumpOfFlesh][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPugentConfig}]"
-		DreadShellParryConfig: "[i:FargowiltasSouls/DreadShell][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DreadShellParryConfig}]"
-		DeerclawpsConfig: "[i:FargowiltasSouls/Deerclawps][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DeerclawpsConfig}]"
-		ChaliceHeader: "[i:FargowiltasSouls/ChaliceoftheMoon][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ChaliceHeader}]"
-		MasoCultistConfig: "[i:FargowiltasSouls/ChaliceoftheMoon][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoCultistConfig}]"
-		MasoPlantConfig: "[i:FargowiltasSouls/MagicalBulb][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPlantConfig}]"
-		MasoGolemConfig: "[i:FargowiltasSouls/LihzahrdTreasureBox][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGolemConfig}]"
-		MasoBoulderConfig: "[i:FargowiltasSouls/LihzahrdTreasureBox][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoBoulderConfig}]"
-		MasoCelestConfig: "[i:FargowiltasSouls/CelestialRune][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoCelestConfig}]"
-		MasoVisionConfig: "[i:FargowiltasSouls/CelestialRune][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoVisionConfig}]"
-		HeartHeader: "[i:FargowiltasSouls/HeartoftheMasochist][c/ffffff:{$Mods.FargowiltasSouls.Toggler.HeartHeader}]"
-		MasoPumpConfig: "[i:FargowiltasSouls/PumpkingsCape][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPumpConfig}]"
-		IceQueensCrownConfig: "[i:FargowiltasSouls/IceQueensCrown][c/ffffff:{$Mods.FargowiltasSouls.Toggler.IceQueensCrownConfig}]"
-		MasoUfoConfig: "[i:FargowiltasSouls/SaucerControlConsole][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoUfoConfig}]"
-		MasoGravConfig: "[i:FargowiltasSouls/GalacticGlobe][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGravConfig}]"
-		MasoTrueEyeConfig: "[i:FargowiltasSouls/GalacticGlobe][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoTrueEyeConfig}]"
-		CyclonicHeader: "[i:FargowiltasSouls/AbominableWand][c/ffffff:{$Mods.FargowiltasSouls.Toggler.CyclonicHeader}]"
-		MasoFishronConfig: "[i:FargowiltasSouls/AbominableWand][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoFishronConfig}]"
-		MutantArmorHeader: "[i:FargowiltasSouls/HeartoftheMasochist][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MutantArmorHeader}]"
-		MasoAbomConfig: "[i:FargowiltasSouls/MutantMask][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAbomConfig}]"
-		MasoRingConfig: "[i:FargowiltasSouls/MutantMask][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoRingConfig}]"
-		MasoReviveDeathrayConfig: "[i:FargowiltasSouls/MutantMask][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoReviveDeathrayConfig}]"
-		UniverseHeader: "[i:FargowiltasSouls/UniverseSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.UniverseHeader}]"
-		MeleeConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MeleeConfig}]"
-		MagmaStoneConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MagmaStoneConfig}]"
-		YoyoBagConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.YoyoBagConfig}]"
-		MoonCharmConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MoonCharmConfig}]"
-		NeptuneShellConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.NeptuneShellConfig}]"
-		SniperConfig: "[i:FargowiltasSouls/SnipersSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SniperConfig}]"
-		ManaFlowerConfig: "[i:FargowiltasSouls/ArchWizardsSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ManaFlowerConfig}]"
-		UniverseConfig: "[i:FargowiltasSouls/UniverseSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.UniverseConfig}]"
-		WorldShaperHeader: "[i:FargowiltasSouls/WorldShaperSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WorldShaperHeader}]"
-		MiningHuntConfig: "[i:FargowiltasSouls/MinerEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MiningHuntConfig}]"
-		MiningDangerConfig: "[i:FargowiltasSouls/MinerEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MiningDangerConfig}]"
-		MiningSpelunkConfig: "[i:FargowiltasSouls/MinerEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MiningSpelunkConfig}]"
-		MiningShineConfig: "[i:FargowiltasSouls/MinerEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MiningShineConfig}]"
-		BuilderConfig: "[i:FargowiltasSouls/WorldShaperSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.BuilderConfig}]"
-		ColossusHeader: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ColossusHeader}]"
-		DefenseStarConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseStarConfig}]"
-		DefenseBrainConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseBrainConfig}]"
-		DefenseBeeConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseBeeConfig}]"
-		DefensePanicConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefensePanicConfig}]"
-		DefenseFleshKnuckleConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseFleshKnuckleConfig}]"
-		DefensePaladinConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefensePaladinConfig}]"
-		DefenseFrozenConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseFrozenConfig}]"
-		ShimmerImmunityConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ShimmerImmunityConfig}]"
-		FlightMasteryHeader: "[i:FargowiltasSouls/FlightMasterySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FlightMasteryHeader}]"
-		FlightMasteryInsigniaConfig: "[i:FargowiltasSouls/FlightMasterySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FlightMasteryInsigniaConfig}]"
-		FlightMasteryGravityConfig: "[i:FargowiltasSouls/FlightMasterySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FlightMasteryGravityConfig}]"
-		SupersonicHeader: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicHeader}]"
-		RunSpeedConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.RunSpeedConfig}]"
-		MomentumConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MomentumConfig}]"
-		SupersonicTabiConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicTabiConfig}]"
-		SupersonicClimbingConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicClimbingConfig}]"
-		SupersonicConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicConfig}]"
-		SupersonicJumpsConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicJumpsConfig}]"
-		SupersonicRocketBootsConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicRocketBootsConfig}]"
-		SupersonicCarpetConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicCarpetConfig}]"
-		SupersonicFlowerConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicFlowerConfig}]"
-		CthulhuShieldConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.CthulhuShieldConfig}]"
-		BlackBeltConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.BlackBeltConfig}]"
-		TrawlerHeader: "[i:FargowiltasSouls/TrawlerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TrawlerHeader}]"
-		TrawlerSporeConfig: "[i:FargowiltasSouls/TrawlerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TrawlerSporeConfig}]"
-		TrawlerConfig: "[i:FargowiltasSouls/TrawlerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TrawlerConfig}]"
-		TrawlerJumpConfig: "[i:FargowiltasSouls/TrawlerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TrawlerJumpConfig}]"
-		TrawlerGelConfig: "[i:FargowiltasSouls/TrawlerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TrawlerGelConfig}]"
-		EternityHeader: "[i:FargowiltasSouls/EternitySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.EternityHeader}]"
-		EternityConfig: "[i:FargowiltasSouls/EternitySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.EternityConfig}]"
+                      
 		PetHeader: "[i:2420][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeader}]"
 		PetDinoConfig: "[i:1242][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDinoConfig}]"
 		PetEaterConfig: "[i:994][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEaterConfig}]"
@@ -6473,11 +6295,6 @@ Mods: {
 				PatreonROB: {
 					Label: "{$Mods.FargowiltasSouls.PatreonROB}"
 					Tooltip: ""
-				}
-
-				DisplayTogglesRegardless: {
-					Label: Display Soul Toggles Always
-					Tooltip: Disable to only show soul toggles when you have the effect's accessory equipped. Enable to always show them.
 				}
 
 				PreBossNightGlow: {

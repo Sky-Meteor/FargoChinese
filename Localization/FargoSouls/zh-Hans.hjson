@@ -394,201 +394,188 @@ Mods: {
 		}
 
 		Toggler: {
-			WoodHeader: "{$Mods.FargowiltasSouls.Items.TimberForce.DisplayName}"
-			BorealConfig: 针叶木 雪球
-			MahoganyConfig: 红木 钩爪加成
-			EbonConfig: 乌木 暗影焰光环
-			ShadeConfig: 阴影木 鲜血喷溅
-			ShadeOnHitConfig: 敌怪接近你时，你就会触发受伤效果
-			PalmConfig: 棕榈木 召唤物
-			PearlConfig: 珍珠木 星星
+			TimberHeader: "{$Mods.FargowiltasSouls.Items.TimberForce.DisplayName}"
+			BorealEffect: 针叶木 雪球
+			MahoganyEffect: 红木 钩爪加成
+			EbonwoodEffect: 乌木 暗影焰光环
+			ShadewoodEffect: 阴影木 鲜血喷溅
+			PalmwoodEffect: 棕榈木 召唤物
+			PearlwoodEffect: 珍珠木 星星
 			EarthHeader: "{$Mods.FargowiltasSouls.Items.EarthForce.DisplayName}"
-			AdamantiteConfig: 精金 弹幕分裂
-			CobaltConfig: 钴蓝 受击爆炸
-			AncientCobaltConfig: 远古钴蓝 爆炸跳跃
-			MythrilConfig: 秘银 速度加成
-			OrichalcumConfig: 山铜 花瓣
-			PalladiumConfig: 钯金 生命恢复
-			PalladiumOrbConfig: 钯金 伤害珠
-			TitaniumConfig: 钛金 碎片
+			AdamantiteEffect: 精金 弹幕分裂
+			CobaltEffect: 钴蓝 受击爆炸
+			AncientCobaltEffect: 远古钴蓝 爆炸跳跃
+			MythrilEffect: 秘银 速度加成
+			OrichalcumEffect: 山铜 花瓣
+			PalladiumHealing: 钯金 生命恢复
+			PalladiumEffect: 钯金 伤害珠
+			TitaniumEffect: 钛金 碎片
 			TerraHeader: "{$Mods.FargowiltasSouls.Items.TerraForce.DisplayName}"
-			CopperConfig: 铜 闪电
-			IronMConfig: 铁 吸引掉落物
-			SilverSConfig: 银 护盾
-			TinConfig: 锡 暴击
-			TungstenConfig: 钨 物品变大
-			TungstenProjConfig: 钨 弹幕变大
-			ObsidianConfig: 黑曜石 爆炸
-			AshWoodConfig: 灰烬木 火球
+			CopperEffect: 铜 闪电
+			IronEffect: 铁 吸引掉落物
+			LeadPoisonEffect: 铅 中毒
+			SilverEffect: 银 护盾
+			TinEffect: 锡 暴击
+			TungstenEffect: 钨 变大
+			ObsidianProcEffect: 黑曜石 爆炸
+			AshWoodFireballs: 灰烬木 火球
 			WillHeader: "{$Mods.FargowiltasSouls.Items.WillForce.DisplayName}"
-			GladiatorConfig: 角斗士 长矛雨
-			GladiatorBannerConfig: 角斗士 旗帜
-			GoldConfig: 金 幸运币
-			GoldToPiggyConfig: 金 自动将钱存进储蓄罐
-			HuntressConfig: 女猎人 相关效果
-			RedRidingRainConfig: 红色骑术 箭雨
-			ValhallaConfig: 英灵殿骑士 坐骑冲刺
-			SquireMountJumpConfig: 侍卫 坐骑跳跃高度
-			SquireMountSpeedConfig: 侍卫 坐骑速度
-			SquirePanicConfig: “弩车恐慌！”效果
+			GladiatorSpears: 角斗士 长矛雨
+			GladiatorBanner: 角斗士 旗帜
+			GoldEffect: 金 幸运币
+			GoldToPiggy: 金 自动将钱存进储蓄罐
+			HuntressEffect: 女猎人 相关效果
+			RedRidingEffect: 红色骑术 箭雨
+			ValhallaDash: 英灵殿骑士 坐骑冲刺
+			SquireMountJump: 侍卫 坐骑跳跃高度
+			SquireMountSpeed: 侍卫 坐骑速度
 			LifeHeader: "{$Mods.FargowiltasSouls.Items.LifeForce.DisplayName}"
-			BeeConfig: 蜜蜂 花朵
-			BeetleConfig: 甲虫 相关效果
-			CactusConfig: 仙人掌 针刺
-			PumpkinConfig: 南瓜 种植南瓜
-			SpiderConfig: 蜘蛛 召唤物暴击
-			TurtleConfig: 乌龟 缩壳减伤
+			BeeEffect: 蜜蜂 花朵
+			BeetleEffect: 甲虫 相关效果
+			CactusEffect: 仙人掌 针刺
+			PumpkinEffect: 南瓜 种植南瓜
+			SpiderEffect: 蜘蛛 召唤物暴击
+			TurtleEffect: 乌龟 缩壳减伤
 			NatureHeader: "{$Mods.FargowiltasSouls.Items.NatureForce.DisplayName}"
-			ChlorophyteConfig: 叶绿 水晶
-			CrimsonConfig: 猩红 治愈
-			RainConfig: 雨云 雨伞
-			RainInnerTubeConfig: 游泳圈效果
-			FrostConfig: 寒霜 冰锥
-			JungleConfig: 丛林 跳跃孢子
-			JungleDashConfig: 丛林 冲刺
-			MoltenConfig: 熔岩 狱火增益
-			ShroomiteConfig: 蘑菇 潜行
-			ShroomiteShroomConfig: 蘑菇 蘑菇尾迹
+			ChloroMinion: 叶绿 水晶
+			CrimsonEffect: 猩红 治愈
+			RainUmbrellaEffect: 雨云 雨伞
+			RainInnerTubeEffect: 游泳圈效果
+			FrostEffect: 寒霜 冰锥
+			JungleJump: 丛林 跳跃孢子
+			JungleDashEffect: 丛林 冲刺
+			MoltenEffect: 熔岩 狱火增益
+			ShroomiteStealthEffect: 蘑菇 潜行
+			ShroomiteShroomEffect: 蘑菇 蘑菇尾迹
 			ShadowHeader: "{$Mods.FargowiltasSouls.Items.ShadowForce.DisplayName}"
-			DarkArtConfig: 暗黑艺术家 爆炸烈焰召唤物
-			ApprenticeConfig: 学徒 相关效果
-			NecroConfig: 死灵 骨堆
-			NecroGloveConfig: 死灵 骨头手套
-			ShadowConfig: 暗影 暗影珠
-			AncientShadowConfig: 远古暗影 黑暗减益
-			MonkConfig: 武僧 武僧冲刺
-			ShinobiDashConfig: 渗透忍者 传送冲刺
-			ShinobiConfig: 渗透忍者 穿墙冲刺
-			SpookyConfig: 阴森 镰刀攻击
-			CrystalDashConfig: 水晶刺客冲刺
+			DarkArtistMinion: 暗黑艺术家 爆炸烈焰召唤物
+			ApprenticeSupport: 学徒 相关效果
+			NecroEffect: 死灵 骨堆
+			ShadowBalls: 暗影 暗影珠
+			AncientShadowDarkness: 远古暗影 黑暗减益
+			MonkDashEffect: 武僧 武僧冲刺
+			ShinobiDashEffect: 渗透忍者 武僧冲刺升级
+			ShinobiThroughWalls: 渗透忍者 穿墙冲刺
+			SpookyEffect: 阴森 镰刀攻击
+			NinjaEffect: 忍者 弹幕速度
+			CrystalAssassinDash: 水晶刺客冲刺
 			SpiritHeader: "{$Mods.FargowiltasSouls.Items.SpiritForce.DisplayName}"
-			FossilConfig: 化石 受击释放骨头
-			ForbiddenConfig: 禁戒 远古风暴
-			HallowDodgeConfig: 神圣 治疗药水
-			AHallowedConfig: 远古神圣 泰拉棱镜
-			NinjaSpeedConfig: 忍者 弹幕、攻击速度加成
-			SpectreConfig: 幽魂 幽魂珠
-			TikiConfig: 提基 鞭打召唤物
+			FossilBones: 化石 受击释放骨头
+			HallowEffect: 神圣 治疗药水
+			AncientHallowMinion: 远古神圣 泰拉棱镜
+			SpectreEffect: 幽魂 幽魂珠
+			TikiEffect: 提基 鞭打召唤物
 			CosmoHeader: "{$Mods.FargowiltasSouls.Items.CosmoForce.DisplayName}"
-			MeteorMomentumConfig: 流星 速度
-			MeteorConfig: 流星 流星雨
-			NebulaConfig: 星云 强化焰
-			SolarConfig: 耀斑 护盾
-			SolarFlareConfig: 耀斑 太阳耀斑减益
-			StardustConfig: 星尘 星尘守卫
-			VortexSConfig: 星旋 潜行
-			VortexVConfig: 星旋 星旋旋涡
+			MeteorMomentumEffect: 流星 速度
+			MeteorEffect: 流星 流星雨
+			NebulaEffect: 星云 强化焰
+			SolarEffect: 耀斑 护盾
+			SolarFlareEffect: 耀斑 太阳耀斑减益
+			StardustMinionEffect: 星尘 星尘守卫
+			VortexStealthEffect: 星旋 潜行
+			VortexVortexEffect: 星旋 星旋旋涡
 			MasoHeader: 永恒模式
 			MasoBossRecolors: Boss重绘
 			MasoCanPlay: 是否能激活受虐模式
-			MasoHeader2: 永恒模式饰品
-			DeerSinewDashConfig: 鹿筋冲刺
-			MasoAeolusConfig: 风神跳跃
-			MasoAeolusFlowerConfig: 花靴
-			MasoAeolusFrogConfig: 水陆两栖靴 跳跃
-			MasoIconConfig: 刷怪率提升
-			MasoIconDropsConfig: 战利品掉落
-			MasoGrazeConfig: 擦弹
-			MasoGrazeRingConfig: 擦弹范围可视化
-			MasoDevianttHeartsConfig: 追踪红心攻击
-			PrecisionSealHurtboxConfig: 缩小碰撞箱
+			DeviEnergyHeader: 永恒模式饰品
+			DeerSinewEffect: 鹿筋冲刺
+			ZephyrJump: 风神跳跃
+			MasoAeolusFlower: 花靴
+			MasoAeolusFrog: 水陆两栖靴 跳跃
+			SinisterIconEffect: 刷怪率提升
+			SinisterIconDropsEffect: 战利品掉落
+			MasoGraze: 擦弹
+			MasoGrazeRing: 擦弹范围可视化
+			DevianttHearts: 追踪红心攻击
+			AbomWandCrit: 幽灵憎恶攻击
 			SupremeFairyHeader: "{$Mods.FargowiltasSouls.Items.SupremeDeathbringerFairy.DisplayName}"
-			MasoSlimeConfig: 凝胶球
-			SlimeFallingConfig: 提高下落速度
-			MasoEyeConfig: 鲜血镰刀
-			MasoEyeInstallConfig: 狂暴负载
-			MasoSkeleConfig: 骷髅王手臂
-			MasoSkeleSpinConfig: 骷髅王旋转冲刺
+			SlimyShieldEffect: 凝胶球
+			SlimeFallEffect: 提高下落速度
+			AgitatingLensEffect: 鲜血镰刀
+			AgitatingLensInstall 狂暴负载
+			SkeleMinionEffect: 骷髅王手臂
+			NecroBrewSpin: 骷髅王旋转冲刺
 			BionomicHeader: "{$Mods.FargowiltasSouls.Items.BionomicCluster.DisplayName}"
-			MasoConcoctionConfig: 蒂姆的秘药
-			MasoCarrotConfig: 狙击镜效果
-			MasoRainbowConfig: 彩虹史莱姆召唤物
-			MasoHealingPotionConfig: 自动使用治疗药水
-			MasoNymphConfig: 攻击生成心
-			MasoSqueakConfig: 击中发出吱吱声
-			MasoPouchConfig: 更强更慢的暗影焰攻击
-			MasoClippedConfig: 造成折翼减益
-			TribalCharmClickBonusConfig: 部落挂坠点击加成
+			TimsConcoctionEffect: 蒂姆的秘药
+			MasoCarrotEffect: 狙击镜效果
+			RainbowSlimeMinion: 彩虹史莱姆召唤物
+			RainbowHealEffect: 自动使用治疗药水
+			NymphPerfumeEffect: 攻击生成心
+			SqueakEffect: 击中发出吱吱声
+			WretchedPouchEffect: 更强更慢的暗影焰攻击
+			ClippedEffect: 造成折翼减益
+			TribalCharmClickBonus: 部落挂坠点击加成
+			StabilizedGravity: 重力稳定
 			DubiousHeader: "{$Mods.FargowiltasSouls.Items.DubiousCircuitry.DisplayName}"
-			FusedLensInstallConfig: 双子负载
-			MasoLightningConfig: 受击超级充能
-			MasoProbeConfig: 探测器召唤物
+			FusedLensInstall: 双子负载
+			GroundStickDR: 受击超级充能
+			ProbeMinionEffect: 探测器召唤物
 			PureHeartHeader: "{$Mods.FargowiltasSouls.Items.PureHeart.DisplayName}"
-			MasoEaterConfig: 迷你噬魂者
-			MasoBrainConfig: 飞眼怪
-			MasoQueenConfig: 史莱姆尖刺
-			MasoQueenJumpConfig: 明胶羽翼跳跃
+			DarkenedHeartEaters: 迷你噬魂者
+			GuttedHeartMinions: 飞眼怪
+			GelicWingSpikes: 明胶尖刺
+			GelicWingJump: 明胶羽翼跳跃
 			LumpofFleshHeader: "{$Mods.FargowiltasSouls.Items.LumpOfFlesh.DisplayName}"
-			MasoPungentCursorConfig: 易伤区域光标
-			MasoPugentConfig: 眼球召唤物
-			DeerclawpsConfig: 冲刺留下冰刺
-			DreadShellParryConfig: 恐惧螺壳格挡
+			PungentEyeballCursor: 易伤区域光标
+			PungentMinion: 眼球召唤物
+			DeerclawpsEffect: 冲刺留下冰刺
+			DreadShellEffect: 恐惧螺壳格挡
 			ChaliceHeader: "{$Mods.FargowiltasSouls.Items.ChaliceoftheMoon.DisplayName}"
-			MasoCultistConfig: 拜月教徒召唤物
-			MasoPlantConfig: 世纪之花召唤物
-			MasoGolemConfig: 蜥蜴快速下落
-			MasoBoulderConfig: 下落坠地火焰
-			MasoCelestConfig: 天界符文额外攻击
-			MasoVisionConfig: 受伤释放远古幻影妖
+			CultistMinionEffect: 拜月教徒召唤物
+			PlantMinionEffec: 世纪之花召唤物
+			LihzahrdGroundPound: 蜥蜴快速下落
+			LihzahrdBoulders: 下落坠地火焰
+			CelestialRuneAttacks: 天界符文额外攻击
 			HeartHeader: "{$Mods.FargowiltasSouls.Items.HeartoftheMasochist.DisplayName}"
-			MasoPumpConfig: 南瓜王披肩格挡
-			IceQueensCrownConfig: 擦弹
-			MasoUfoConfig: 迷你飞碟召唤物
-			MasoGravConfig: 重力控制
-			MasoGrav2Config: 重力稳定
-			MasoTrueEyeConfig: 克苏鲁真眼召唤物
-			CyclonicHeader: "{$Mods.FargowiltasSouls.Items.AbominableWand.DisplayName}"
-			MasoFishronConfig: 幽灵憎恶
+			PrecisionSealHurtbox: 缩小碰撞箱
+			PumpkingsCapeEffect: 南瓜王披肩格挡
+			IceQueenGraze: 擦弹
+			UfoMinionEffect: 迷你飞碟召唤物
+			MasoGravEffect: 重力控制
+			MasoTrueEyeMinion: 克苏鲁真眼召唤物
 			MutantArmorHeader: 真·突变体套装
-			MasoAbomConfig: 幽灵憎恶
-			MasoRingConfig: 幻影球召唤物
-			MasoReviveDeathrayConfig: 复活死亡射线
+			MasoAbom: 幽灵憎恶
+			MasoRing: 幻影球召唤物
 			UniverseHeader: "{$Mods.FargowiltasSouls.Items.UniverseSoul.DisplayName}"
-			MeleeConfig: 近战攻速加成
-			MagmaStoneConfig: 岩浆石
-			YoyoBagConfig: 悠悠球袋
-			MoonCharmConfig: 月光护身符
-			NeptuneShellConfig: 海神贝壳
-			SniperConfig: 狙击镜
-			ManaFlowerConfig: 魔力花
-			UniverseConfig: 寰宇之魂攻击速度加成
+			MeleeSpeedEffect: 近战攻速加成
+			MagmaStoneEffect: 岩浆石
+			SniperScopeEffect: 狙击镜
+			UniverseSpeedEffect: 寰宇之魂攻击速度加成
 			WorldShaperHeader: "{$Mods.FargowiltasSouls.Items.WorldShaperSoul.DisplayName}"
-			MiningHuntConfig: 狩猎药水效果
-			MiningDangerConfig: 危险感药水效果
-			MiningSpelunkConfig: 洞穴探险药水效果
-			MiningShineConfig: 光芒药水效果
-			BuilderConfig: 建筑师模式
+			MiningHunt: 狩猎药水效果
+			MiningDanger: 危险感药水效果
+			MiningSpelunk: 洞穴探险药水效果
+			MiningShine: 光芒药水效果
+			BuilderEffect: 建筑师模式
 			ColossusHeader: "{$Mods.FargowiltasSouls.Items.ColossusSoul.DisplayName}"
-			DefenseStarConfig: 受伤产生落星
-			DefenseBrainConfig: 混乱之脑受伤效果
-			DefenseBeeConfig: 受伤产生蜜蜂
-			DefensePanicConfig: 受伤获得恐慌效果
-			DefenseFleshKnuckleConfig: 血肉指虎仇恨
-			DefensePaladinConfig: 圣骑士护盾
-			DefenseFrozenConfig: 冰冻海龟壳
-			ShimmerImmunityConfig: 免疫微光闪烁
+			DefenseStarEffect: 受伤产生落星
+			DefenseBrainEffect: 混乱之脑受伤效果
+			DefenseBeeEffect : 受伤产生蜜蜂 
+			FleshKnuckleEffect: 血肉指虎仇恨
+			PaladinShieldEffect: 圣骑士护盾
+			FrozenTurtleEffect: 冰冻海龟壳
+			ShimmerImmunityEffect: 免疫微光闪烁
 			FlightMasteryHeader: "{$Mods.FargowiltasSouls.Items.FlightMasterySoul.DisplayName}"
-			FlightMasteryInsigniaConfig: 翱翔徽章加速
-			FlightMasteryGravityConfig: 增加重力
+			FlightMasteryInsignia: 翱翔徽章加速
+			FlightMasteryGravity: 增加重力
 			SupersonicHeader: "{$Mods.FargowiltasSouls.Items.SupersonicSoul.DisplayName}"
-			RunSpeedConfig: 提高基础奔跑速度
-			MomentumConfig: 不计算动量
-			SupersonicTabiConfig: 分趾厚底袜冲刺
-			SupersonicClimbingConfig: 猛虎攀爬装备
-			SupersonicConfig: 超音速之魂速度提升
-			SupersonicJumpsConfig: 超音速之魂五段跳
-			SupersonicRocketBootsConfig: 超音速之魂火箭靴
-			SupersonicCarpetConfig: 超音速之魂飞毯
-			SupersonicFlowerConfig: 超音速之魂花靴
-			CthulhuShieldConfig: 克苏鲁护盾
-			BlackBeltConfig: 黑腰带闪避
+			RunSpeed: 提高基础奔跑速度
+			NoMomentum: 不计算动量
+			SupersonicTabi: 分趾厚底袜冲刺
+			SupersonicClimbing: 猛虎攀爬装备
+			SupersonicSpeedEffect: 超音速之魂速度提升
+			SupersonicJumps: 超音速之魂五段跳
+			SupersonicRocketBoots: 超音速之魂火箭靴
+			SupersonicCarpet: 超音速之魂飞毯
+			CthulhuShield: 克苏鲁护盾
+			BlackBelt: 黑腰带闪避
+			SupersonicPanic: 受伤获得恐慌效果
 			TrawlerHeader: "{$Mods.FargowiltasSouls.Items.TrawlerSoul.DisplayName}"
-			TrawlerSporeConfig: 孢子囊
-			TrawlerConfig: 额外鱼线
-			TrawlerJumpConfig: 捕鱼之魂跳跃
-			TrawlerGelConfig: 挥发明胶
+			TrawlerSporeSac: 孢子囊
+			TrawlerJump: 捕鱼之魂跳跃
+			TrawlerGel: 挥发明胶
 			EternityHeader: "{$Mods.FargowiltasSouls.Items.EternitySoul.DisplayName}"
-			EternityConfig: 永恒之魂属性叠加
+			EternityTin: 永恒之魂属性叠加
 			PetHeader: 宠物
 			PetDinoConfig: 恐龙宝宝
 			PetEaterConfig: 吞噬怪宝宝
@@ -696,6 +683,8 @@ Mods: {
 			MinimalEffectsPreset: 最小化影响预设
 			CustomPreset: 自定义效果配置{0}（右键点击以保存）
 			ReloadToggles: 重新加载饰品效果（右键点击以重新加载）
+			DisplayAll: 显示全部饰品效果
+			DisplayEquipped: 显示已装备的饰品效果
 			SearchText: 搜索......
 		}
 
@@ -2270,9 +2259,9 @@ Mods: {
 					'''
 					使你获得冲刺能力
 					双击“左”或“右”键进行冲刺
-					在冲刺后的0.5秒内你免疫伤害和减益
-					冲刺撞击敌人可造成巨大伤害
-					冲刺冷却比普通冲刺更长
+					冲刺后的0.5秒内免疫伤害和减益
+					冲刺撞击敌人可对敌人造成巨大伤害
+					冲刺冷却比普通冲刺长得多
 					闪电光环现在可以暴击且攻击速度更快
 					“返本还僧”
 					'''
@@ -2453,9 +2442,13 @@ Mods: {
 				DisplayName: 渗透忍者魔石
 				Tooltip:
 					'''
-					朝墙壁冲刺时会直接穿过去
 					使你获得冲刺能力
 					大幅强化闪电光环的效果
+					冲刺后半秒内免疫一切伤害和减益
+					冲刺撞击敌人可对敌人造成巨大伤害
+					冲刺冷却比普通冲刺更长
+					冲刺距离更长且造成的伤害更高
+					朝墙壁冲刺时会直接穿过去
 					“藏匿于墙中的村庄”
 					'''
 			}
@@ -5142,6 +5135,21 @@ Mods: {
 					“蜂王矢志不渝的蜂群......”
 					'''
 			}
+
+			TestAccessory: {
+				DisplayName: 测试饰品
+				Tooltip: ""
+			}
+
+			PrimeSoul: {
+				DisplayName: 原始之魂
+				Tooltip: ""
+			}
+
+			OncomingMutantItem: {
+				DisplayName: 未完成的突变体图标
+				Tooltip: 只有在玩家身上有突变驾到减益时出现在饰品效果切换UI里
+			}
 		}
 
 		NPCs: {
@@ -5335,6 +5343,7 @@ Mods: {
 			DetonatingBubbleNPC.DisplayName: 爆炸泡泡
 			StardustMinion.DisplayName: 星尘仆从
 			SlimeSwarm.DisplayName: 集群史莱姆
+			Magmaw.DisplayName: Magmaw（这是什么？如果有玩家看见这行字，请告诉我这是什么玩意）//for patch
 		}
 
 		Tiles: {
@@ -6056,203 +6065,17 @@ Mods: {
 			MonkDashSlash.DisplayName: 武僧冲刺斩
 			ObsidianExplosion.DisplayName: 黑曜石爆炸
 			DeviGuardianHarmless.DisplayName: 戴薇安守护
+			MagmawJaw.DisplayName: Magmaw Jaw（这是什么？）//for patch
+			MagmawHand.DisplayName: Magmaw Hand（这是什么？）//for patch
+			PungentEyeballMinion.DisplayName: Pungent Eyeball Minion（这是什么？）//for patch
+			MinosPrime.DisplayName: Minos Prime（这是什么？）//for patch
 		}
 
-		// WoodHeader: "[i:FargowiltasSouls/TimberForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WoodHeader}]"
-		// BorealConfig: "[i:FargowiltasSouls/BorealWoodEnchant][c/8B7464:{$Mods.FargowiltasSouls.Toggler.BorealConfig}]"
-		// MahoganyConfig: "[i:FargowiltasSouls/RichMahoganyEnchant][c/b56c64:{$Mods.FargowiltasSouls.Toggler.MahoganyConfig}]"
-		// EbonConfig: "[i:FargowiltasSouls/EbonwoodEnchant][c/645a8d:{$Mods.FargowiltasSouls.Toggler.EbonConfig}]"
-		// ShadeConfig: "[i:FargowiltasSouls/ShadewoodEnchant][c/586876:{$Mods.FargowiltasSouls.Toggler.ShadeConfig}]"
-		// ShadeOnHitConfig: "[i:FargowiltasSouls/ShadewoodEnchant][c/586876:{$Mods.FargowiltasSouls.Toggler.ShadeOnHitConfig}]"
-		// PalmConfig: "[i:FargowiltasSouls/PalmWoodEnchant][c/b78d56:{$Mods.FargowiltasSouls.Toggler.PalmConfig}]"
-		// PearlConfig: "[i:FargowiltasSouls/PearlwoodEnchant][c/ad9a5f:{$Mods.FargowiltasSouls.Toggler.PearlConfig}]"
-		// EarthHeader: "[i:FargowiltasSouls/EarthForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.EarthHeader}]"
-		// AdamantiteConfig: "[i:FargowiltasSouls/AdamantiteEnchant][c/dd557d:{$Mods.FargowiltasSouls.Toggler.AdamantiteConfig}]"
-		// CobaltConfig: "[i:FargowiltasSouls/CobaltEnchant][c/3da4c4:{$Mods.FargowiltasSouls.Toggler.CobaltConfig}]"
-		// AncientCobaltConfig: "[i:FargowiltasSouls/AncientCobaltEnchant][c/354c74:{$Mods.FargowiltasSouls.Toggler.AncientCobaltConfig}]"
-		// MythrilConfig: "[i:FargowiltasSouls/MythrilEnchant][c/9dd290:{$Mods.FargowiltasSouls.Toggler.MythrilConfig}]"
-		// OrichalcumConfig: "[i:FargowiltasSouls/OrichalcumEnchant][c/eb3291:{$Mods.FargowiltasSouls.Toggler.OrichalcumConfig}]"
-		// PalladiumConfig: "[i:FargowiltasSouls/PalladiumEnchant][c/f5ac28:{$Mods.FargowiltasSouls.Toggler.PalladiumConfig}]"
-		// PalladiumOrbConfig: "[i:FargowiltasSouls/PalladiumEnchant][c/f5ac28:{$Mods.FargowiltasSouls.Toggler.PalladiumOrbConfig}]"
-		// TitaniumConfig: "[i:FargowiltasSouls/TitaniumEnchant][c/828c88:{$Mods.FargowiltasSouls.Toggler.TitaniumConfig}]"
-		// TerraHeader: "[i:FargowiltasSouls/TerraForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TerraHeader}]"
-		// CopperConfig: "[i:FargowiltasSouls/CopperEnchant][c/d56617:{$Mods.FargowiltasSouls.Toggler.CopperConfig}]"
-		// IronMConfig: "[i:FargowiltasSouls/IronEnchant][c/988e83:{$Mods.FargowiltasSouls.Toggler.IronMConfig}]"
-		// SilverSConfig: "[i:FargowiltasSouls/SilverEnchant][c/b4b4cc:{$Mods.FargowiltasSouls.Toggler.SilverSConfig}]"
-		// TinConfig: "[i:FargowiltasSouls/TinEnchant][c/a28b4e:{$Mods.FargowiltasSouls.Toggler.TinConfig}]"
-		// TungstenConfig: "[i:FargowiltasSouls/TungstenEnchant][c/b0d2b2:{$Mods.FargowiltasSouls.Toggler.TungstenConfig}]"
-		// TungstenProjConfig: "[i:FargowiltasSouls/TungstenEnchant][c/b0d2b2:{$Mods.FargowiltasSouls.Toggler.TungstenProjConfig}]"
-		// ObsidianConfig: "[i:FargowiltasSouls/ObsidianEnchant][c/453e73:{$Mods.FargowiltasSouls.Toggler.ObsidianConfig}]"
-		// AshWoodConfig: "[i:FargowiltasSouls/AshWoodEnchant][c/958083:{$Mods.FargowiltasSouls.Toggler.AshWoodConfig}]"
-		// WillHeader: "[i:FargowiltasSouls/WillForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WillHeader}]"
-		// GladiatorConfig: "[i:FargowiltasSouls/GladiatorEnchant][c/9c924e:{$Mods.FargowiltasSouls.Toggler.GladiatorConfig}]"
-		// GladiatorBannerConfig: "[i:FargowiltasSouls/GladiatorEnchant][c/9c924e:{$Mods.FargowiltasSouls.Toggler.GladiatorBannerConfig}]"
-		// GoldConfig: "[i:FargowiltasSouls/GoldEnchant][c/e7b21c:{$Mods.FargowiltasSouls.Toggler.GoldConfig}]"
-		// GoldToPiggyConfig: "[i:FargowiltasSouls/GoldEnchant][c/e7b21c:{$Mods.FargowiltasSouls.Toggler.GoldToPiggyConfig}]"
-		// HuntressConfig: "[i:FargowiltasSouls/HuntressEnchant][c/7ac04c:{$Mods.FargowiltasSouls.Toggler.HuntressConfig}]"
-		// RedRidingRainConfig: "[i:FargowiltasSouls/RedRidingEnchant][c/c01b3c:{$Mods.FargowiltasSouls.Toggler.RedRidingRainConfig}]"
-		// ValhallaConfig: "[i:FargowiltasSouls/ValhallaKnightEnchant][c/93651e:{$Mods.FargowiltasSouls.Toggler.ValhallaConfig}]"
-		// SquireMountSpeedConfig: "[i:FargowiltasSouls/SquireEnchant][c/948f8c:{$Mods.FargowiltasSouls.Toggler.SquireMountSpeedConfig}]"
-		// SquireMountJumpConfig: "[i:FargowiltasSouls/SquireEnchant][c/948f8c:{$Mods.FargowiltasSouls.Toggler.SquireMountJumpConfig}]"
-		// SquirePanicConfig: "[i:FargowiltasSouls/SquireEnchant][c/948f8c:{$Mods.FargowiltasSouls.Toggler.SquirePanicConfig}]"
-		// LifeHeader: "[i:FargowiltasSouls/LifeForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.LifeHeader}]"
-		// BeeConfig: "[i:FargowiltasSouls/BeeEnchant][c/FEF625:{$Mods.FargowiltasSouls.Toggler.BeeConfig}]"
-		// BeetleConfig: "[i:FargowiltasSouls/BeetleEnchant][c/6D5C85:{$Mods.FargowiltasSouls.Toggler.BeetleConfig}]"
-		// CactusConfig: "[i:FargowiltasSouls/CactusEnchant][c/799e1d:{$Mods.FargowiltasSouls.Toggler.CactusConfig}]"
-		// PumpkinConfig: "[i:FargowiltasSouls/PumpkinEnchant][c/e3651c:{$Mods.FargowiltasSouls.Toggler.PumpkinConfig}]"
-		// SpiderConfig: "[i:FargowiltasSouls/SpiderEnchant][c/6d4e45:{$Mods.FargowiltasSouls.Toggler.SpiderConfig}]"
-		// TurtleConfig: "[i:FargowiltasSouls/TurtleEnchant][c/f89c5c:{$Mods.FargowiltasSouls.Toggler.TurtleConfig}]"
-		// NatureHeader: "[i:FargowiltasSouls/NatureForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.NatureHeader}]"
-		// ChlorophyteConfig: "[i:FargowiltasSouls/ChlorophyteEnchant][c/248900:{$Mods.FargowiltasSouls.Toggler.ChlorophyteConfig}]"
-		// CrimsonConfig: "[i:FargowiltasSouls/CrimsonEnchant][c/C8364B:{$Mods.FargowiltasSouls.Toggler.CrimsonConfig}]"
-		// RainConfig: "[i:FargowiltasSouls/RainEnchant][c/ffec00:{$Mods.FargowiltasSouls.Toggler.RainConfig}]"
-		// RainInnerTubeConfig: "[i:FargowiltasSouls/RainEnchant][c/ffec00:{$Mods.FargowiltasSouls.Toggler.RainInnerTubeConfig}]"
-		// FrostConfig: "[i:FargowiltasSouls/FrostEnchant][c/7abdb9:{$Mods.FargowiltasSouls.Toggler.FrostConfig}]"
-		// JungleConfig: "[i:FargowiltasSouls/JungleEnchant][c/71971f:{$Mods.FargowiltasSouls.Toggler.JungleConfig}]"
-		// JungleDashConfig: "[i:FargowiltasSouls/JungleEnchant][c/71971f:{$Mods.FargowiltasSouls.Toggler.JungleDashConfig}]"
-		// MoltenConfig: "[i:FargowiltasSouls/MoltenEnchant][c/c12b2b:{$Mods.FargowiltasSouls.Toggler.MoltenConfig}]"
-		// ShroomiteConfig: "[i:FargowiltasSouls/ShroomiteEnchant][c/008cf4:{$Mods.FargowiltasSouls.Toggler.ShroomiteConfig}]"
-		// ShroomiteShroomConfig: "[i:FargowiltasSouls/ShroomiteEnchant][c/008cf4:{$Mods.FargowiltasSouls.Toggler.ShroomiteShroomConfig}]"
-		// ShadowHeader: "[i:FargowiltasSouls/ShadowEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ShadowHeader}]"
-		// DarkArtConfig: "[i:FargowiltasSouls/DarkArtistEnchant][c/9b5cb0:{$Mods.FargowiltasSouls.Toggler.DarkArtConfig}]"
-		// ApprenticeConfig: "[i:FargowiltasSouls/ApprenticeEnchant][c/5d86a6:{$Mods.FargowiltasSouls.Toggler.ApprenticeConfig}]"
-		// NecroConfig: "[i:FargowiltasSouls/NecroEnchant][c/565643:{$Mods.FargowiltasSouls.Toggler.NecroConfig}]"
-		// NecroGloveConfig: "[i:FargowiltasSouls/NecroEnchant][c/565643:{$Mods.FargowiltasSouls.Toggler.NecroGloveConfig}]"
-		// ShadowConfig: "[i:FargowiltasSouls/ShadowEnchant][c/42356f:{$Mods.FargowiltasSouls.Toggler.ShadowConfig}]"
-		// AncientShadowConfig: "[i:FargowiltasSouls/AncientShadowEnchant][c/42356f:{$Mods.FargowiltasSouls.Toggler.AncientShadowConfig}]"
-		// MonkConfig: "[i:FargowiltasSouls/MonkEnchant][c/920520:{$Mods.FargowiltasSouls.Toggler.MonkConfig}]"
-		// ShinobiDashConfig: "[i:FargowiltasSouls/ShinobiEnchant][c/935b18:{$Mods.FargowiltasSouls.Toggler.ShinobiDashConfig}]"
-		// ShinobiConfig: "[i:FargowiltasSouls/ShinobiEnchant][c/935b18:{$Mods.FargowiltasSouls.Toggler.ShinobiConfig}]"
-		// SpookyConfig: "[i:FargowiltasSouls/SpookyEnchant][c/644e74:{$Mods.FargowiltasSouls.Toggler.SpookyConfig}]"
-		// NinjaSpeedConfig: "[i:FargowiltasSouls/NinjaEnchant][c/565643:{$Mods.FargowiltasSouls.Toggler.NinjaSpeedConfig}]"
-		// CrystalDashConfig: "[i:FargowiltasSouls/CrystalAssassinEnchant][c/249dcf:{$Mods.FargowiltasSouls.Toggler.CrystalDashConfig}]"
-		// SpiritHeader: "[i:FargowiltasSouls/SpiritForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SpiritHeader}]"
-		// FossilConfig: "[i:FargowiltasSouls/FossilEnchant][c/8c5c3b:{$Mods.FargowiltasSouls.Toggler.FossilConfig}]"
-		// ForbiddenConfig: "[i:FargowiltasSouls/ForbiddenEnchant][c/e7b21c:{$Mods.FargowiltasSouls.Toggler.ForbiddenConfig}]"
-		// HallowDodgeConfig: "[i:FargowiltasSouls/HallowEnchant][c/968564:{$Mods.FargowiltasSouls.Toggler.HallowDodgeConfig}]"
-		// AHallowedConfig: "[i:FargowiltasSouls/AncientHallowEnchant][c/968564:{$Mods.FargowiltasSouls.Toggler.AHallowedConfig}]"
-		// SpectreConfig: "[i:FargowiltasSouls/SpectreEnchant][c/accdfc:{$Mods.FargowiltasSouls.Toggler.SpectreConfig}]"
-		// TikiConfig: "[i:FargowiltasSouls/TikiEnchant][c/56A52B:{$Mods.FargowiltasSouls.Toggler.TikiConfig}]"
-		// CosmoHeader: "[i:FargowiltasSouls/CosmoForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.CosmoHeader}]"
-		// MeteorMomentumConfig: "[i:FargowiltasSouls/MeteorEnchant][c/5f4752:{$Mods.FargowiltasSouls.Toggler.MeteorMomentumConfig}]"
-		// MeteorConfig: "[i:FargowiltasSouls/MeteorEnchant][c/5f4752:{$Mods.FargowiltasSouls.Toggler.MeteorConfig}]"
-		// NebulaConfig: "[i:FargowiltasSouls/NebulaEnchant][c/fe7ee5:{$Mods.FargowiltasSouls.Toggler.NebulaConfig}]"
-		// SolarConfig: "[i:FargowiltasSouls/SolarEnchant][c/fe9e23:{$Mods.FargowiltasSouls.Toggler.SolarConfig}]"
-		// SolarFlareConfig: "[i:FargowiltasSouls/SolarEnchant][c/fe9e23:{$Mods.FargowiltasSouls.Toggler.SolarFlareConfig}]"
-		// StardustConfig: "[i:FargowiltasSouls/StardustEnchant][c/00aeee:{$Mods.FargowiltasSouls.Toggler.StardustConfig}]"
-		// VortexSConfig: "[i:FargowiltasSouls/VortexEnchant][c/00f2aa:{$Mods.FargowiltasSouls.Toggler.VortexSConfig}]"
-		// VortexVConfig: "[i:FargowiltasSouls/VortexEnchant][c/00f2aa:{$Mods.FargowiltasSouls.Toggler.VortexVConfig}]"
-		// MasoHeader: "[i:FargowiltasSouls/MutantStatue][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoHeader}]"
-		// MasoBossRecolors: "[i:FargowiltasSouls/Masochist][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoBossRecolors}]"
-		// MasoCanPlay: "[i:FargowiltasSouls/Masochist][c/ff0000:{$Mods.FargowiltasSouls.Toggler.MasoCanPlay}]"
-		// MasoHeader2: "[i:FargowiltasSouls/DeviatingEnergy][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoHeader2}]"
-		// DeerSinewDashConfig: "[i:FargowiltasSouls/DeerSinew][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DeerSinewDashConfig}]"
-		// MasoAeolusConfig: "[i:FargowiltasSouls/AeolusBoots][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAeolusConfig}]"
-		// MasoAeolusFlowerConfig: "[i:FargowiltasSouls/AeolusBoots][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAeolusFlowerConfig}]"
-		// MasoAeolusFrogConfig: "[i:FargowiltasSouls/AeolusBoots][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAeolusFrogConfig}]"
-		// MasoIconConfig: "[i:FargowiltasSouls/SinisterIcon][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoIconConfig}]"
-		// MasoIconDropsConfig: "[i:FargowiltasSouls/SinisterIcon][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoIconDropsConfig}]"
-		// MasoGrazeConfig: "[i:FargowiltasSouls/SparklingAdoration][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGrazeConfig}]"
-		// MasoGrazeRingConfig: "[i:FargowiltasSouls/SparklingAdoration][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGrazeRingConfig}]"
-		// MasoDevianttHeartsConfig: "[i:FargowiltasSouls/SparklingAdoration][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoDevianttHeartsConfig}]"
-		// PrecisionSealHurtboxConfig: "[i:FargowiltasSouls/PrecisionSeal][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PrecisionSealHurtboxConfig}]"
-		// SupremeFairyHeader: "[i:FargowiltasSouls/SupremeDeathbringerFairy][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupremeFairyHeader}]"
-		// MasoSlimeConfig: "[i:FargowiltasSouls/SlimyShield][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoSlimeConfig}]"
-		// SlimeFallingConfig: "[i:FargowiltasSouls/SlimyShield][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SlimeFallingConfig}]"
-		// MasoEyeConfig: "[i:FargowiltasSouls/AgitatingLens][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoEyeConfig}]"
-		// MasoEyeInstallConfig: "[i:FargowiltasSouls/AgitatingLens][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoEyeInstallConfig}]"
-		// MasoSkeleConfig: "[i:FargowiltasSouls/NecromanticBrew][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoSkeleConfig}]"
-		// MasoSkeleSpinConfig: "[i:FargowiltasSouls/NecromanticBrew][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoSkeleSpinConfig}]"
-		// BionomicHeader: "[i:FargowiltasSouls/BionomicCluster][c/ffffff:{$Mods.FargowiltasSouls.Toggler.BionomicHeader}]"
-		// MasoConcoctionConfig: "[i:FargowiltasSouls/TimsConcoction][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoConcoctionConfig}]"
-		// MasoCarrotConfig: "[i:FargowiltasSouls/OrdinaryCarrot][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoCarrotConfig}]"
-		// MasoRainbowConfig: "[i:FargowiltasSouls/ConcentratedRainbowMatter][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoRainbowConfig}]"
-		// MasoHealingPotionConfig: "[i:FargowiltasSouls/ConcentratedRainbowMatter][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoHealingPotionConfig}]"
-		// MasoNymphConfig: "[i:FargowiltasSouls/NymphsPerfume][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoNymphConfig}]"
-		// MasoSqueakConfig: "[i:FargowiltasSouls/SqueakyToy][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoSqueakConfig}]"
-		// MasoPouchConfig: "[i:FargowiltasSouls/WretchedPouch][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPouchConfig}]"
-		// MasoClippedConfig: "[i:FargowiltasSouls/WyvernFeather][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoClippedConfig}]"
-		// MasoGrav2Config: "[i:FargowiltasSouls/WyvernFeather][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGrav2Config}]"
-		// TribalCharmClickBonusConfig: "[i:FargowiltasSouls/TribalCharm][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TribalCharmClickBonusConfig}]"
-		// DubiousHeader: "[i:FargowiltasSouls/DubiousCircuitry][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DubiousHeader}]"
-		// FusedLensInstallConfig: "[i:FargowiltasSouls/FusedLens][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FusedLensInstallConfig}]"
-		// MasoLightningConfig: "[i:FargowiltasSouls/GroundStick][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoLightningConfig}]"
-		// MasoProbeConfig: "[i:FargowiltasSouls/GroundStick][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoProbeConfig}]"
-		// PureHeartHeader: "[i:FargowiltasSouls/PureHeart][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PureHeartHeader}]"
-		// MasoEaterConfig: "[i:FargowiltasSouls/DarkenedHeart][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoEaterConfig}]"
-		// MasoBrainConfig: "[i:FargowiltasSouls/GuttedHeart][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoBrainConfig}]"
-		// MasoQueenConfig: "[i:FargowiltasSouls/GelicWings][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoQueenConfig}]"
-		// MasoQueenJumpConfig: "[i:FargowiltasSouls/GelicWings][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoQueenJumpConfig}]"
-		// LumpofFleshHeader: "[i:FargowiltasSouls/LumpOfFlesh][c/ffffff:{$Mods.FargowiltasSouls.Toggler.LumpofFleshHeader}]"
-		// MasoPungentCursorConfig: "[i:FargowiltasSouls/PungentEyeball][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPungentCursorConfig}]"
-		// MasoPugentConfig: "[i:FargowiltasSouls/LumpOfFlesh][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPugentConfig}]"
-		// DreadShellParryConfig: "[i:FargowiltasSouls/DreadShell][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DreadShellParryConfig}]"
-		// DeerclawpsConfig: "[i:FargowiltasSouls/Deerclawps][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DeerclawpsConfig}]"
-		// ChaliceHeader: "[i:FargowiltasSouls/ChaliceoftheMoon][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ChaliceHeader}]"
-		// MasoCultistConfig: "[i:FargowiltasSouls/ChaliceoftheMoon][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoCultistConfig}]"
-		// MasoPlantConfig: "[i:FargowiltasSouls/MagicalBulb][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPlantConfig}]"
-		// MasoGolemConfig: "[i:FargowiltasSouls/LihzahrdTreasureBox][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGolemConfig}]"
-		// MasoBoulderConfig: "[i:FargowiltasSouls/LihzahrdTreasureBox][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoBoulderConfig}]"
-		// MasoCelestConfig: "[i:FargowiltasSouls/CelestialRune][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoCelestConfig}]"
-		// MasoVisionConfig: "[i:FargowiltasSouls/CelestialRune][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoVisionConfig}]"
-		// HeartHeader: "[i:FargowiltasSouls/HeartoftheMasochist][c/ffffff:{$Mods.FargowiltasSouls.Toggler.HeartHeader}]"
-		// MasoPumpConfig: "[i:FargowiltasSouls/PumpkingsCape][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPumpConfig}]"
-		// IceQueensCrownConfig: "[i:FargowiltasSouls/IceQueensCrown][c/ffffff:{$Mods.FargowiltasSouls.Toggler.IceQueensCrownConfig}]"
-		// MasoUfoConfig: "[i:FargowiltasSouls/SaucerControlConsole][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoUfoConfig}]"
-		// MasoGravConfig: "[i:FargowiltasSouls/GalacticGlobe][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoGravConfig}]"
-		// MasoTrueEyeConfig: "[i:FargowiltasSouls/GalacticGlobe][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoTrueEyeConfig}]"
-		// CyclonicHeader: "[i:FargowiltasSouls/AbominableWand][c/ffffff:{$Mods.FargowiltasSouls.Toggler.CyclonicHeader}]"
-		// MasoFishronConfig: "[i:FargowiltasSouls/AbominableWand][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoFishronConfig}]"
-		// MutantArmorHeader: "[i:FargowiltasSouls/HeartoftheMasochist][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MutantArmorHeader}]"
-		// MasoAbomConfig: "[i:FargowiltasSouls/MutantMask][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoAbomConfig}]"
-		// MasoRingConfig: "[i:FargowiltasSouls/MutantMask][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoRingConfig}]"
-		// MasoReviveDeathrayConfig: "[i:FargowiltasSouls/MutantMask][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoReviveDeathrayConfig}]"
-		// UniverseHeader: "[i:FargowiltasSouls/UniverseSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.UniverseHeader}]"
-		// MeleeConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MeleeConfig}]"
-		// MagmaStoneConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MagmaStoneConfig}]"
-		// YoyoBagConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.YoyoBagConfig}]"
-		// MoonCharmConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MoonCharmConfig}]"
-		// NeptuneShellConfig: "[i:FargowiltasSouls/BerserkerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.NeptuneShellConfig}]"
-		// SniperConfig: "[i:FargowiltasSouls/SnipersSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SniperConfig}]"
-		// ManaFlowerConfig: "[i:FargowiltasSouls/ArchWizardsSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ManaFlowerConfig}]"
-		// UniverseConfig: "[i:FargowiltasSouls/UniverseSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.UniverseConfig}]"
-		// WorldShaperHeader: "[i:FargowiltasSouls/WorldShaperSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WorldShaperHeader}]"
-		// MiningHuntConfig: "[i:FargowiltasSouls/MinerEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MiningHuntConfig}]"
-		// MiningDangerConfig: "[i:FargowiltasSouls/MinerEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MiningDangerConfig}]"
-		// MiningSpelunkConfig: "[i:FargowiltasSouls/MinerEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MiningSpelunkConfig}]"
-		// MiningShineConfig: "[i:FargowiltasSouls/MinerEnchant][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MiningShineConfig}]"
-		// BuilderConfig: "[i:FargowiltasSouls/WorldShaperSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.BuilderConfig}]"
-		// ColossusHeader: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ColossusHeader}]"
-		// DefenseStarConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseStarConfig}]"
-		// DefenseBrainConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseBrainConfig}]"
-		// DefenseBeeConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseBeeConfig}]"
-		// DefensePanicConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefensePanicConfig}]"
-		// DefenseFleshKnuckleConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseFleshKnuckleConfig}]"
-		// DefensePaladinConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefensePaladinConfig}]"
-		// DefenseFrozenConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.DefenseFrozenConfig}]"
-		// ShimmerImmunityConfig: "[i:FargowiltasSouls/ColossusSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.ShimmerImmunityConfig}]"
-		// FlightMasteryHeader: "[i:FargowiltasSouls/FlightMasterySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FlightMasteryHeader}]"
-		// FlightMasteryInsigniaConfig: "[i:FargowiltasSouls/FlightMasterySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FlightMasteryInsigniaConfig}]"
-		// FlightMasteryGravityConfig: "[i:FargowiltasSouls/FlightMasterySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.FlightMasteryGravityConfig}]"
-		// SupersonicHeader: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicHeader}]"
-		// RunSpeedConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.RunSpeedConfig}]"
-		// MomentumConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MomentumConfig}]"
-		// SupersonicTabiConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicTabiConfig}]"
-		// SupersonicClimbingConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicClimbingConfig}]"
-		// SupersonicConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicConfig}]"
-		// SupersonicJumpsConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicJumpsConfig}]"
-		// SupersonicRocketBootsConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicRocketBootsConfig}]"
-		// SupersonicCarpetConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicCarpetConfig}]"
-		// SupersonicFlowerConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.SupersonicFlowerConfig}]"
-		// CthulhuShieldConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.CthulhuShieldConfig}]"
-		// BlackBeltConfig: "[i:FargowiltasSouls/SupersonicSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.BlackBeltConfig}]"
-		// TrawlerHeader: "[i:FargowiltasSouls/TrawlerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TrawlerHeader}]"
-		// TrawlerSporeConfig: "[i:FargowiltasSouls/TrawlerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TrawlerSporeConfig}]"
-		// TrawlerConfig: "[i:FargowiltasSouls/TrawlerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TrawlerConfig}]"
-		// TrawlerJumpConfig: "[i:FargowiltasSouls/TrawlerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TrawlerJumpConfig}]"
-		// TrawlerGelConfig: "[i:FargowiltasSouls/TrawlerSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.TrawlerGelConfig}]"
-		// EternityHeader: "[i:FargowiltasSouls/EternitySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.EternityHeader}]"
-		// EternityConfig: "[i:FargowiltasSouls/EternitySoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.EternityConfig}]"
+		
+		MasoHeader: "[i:FargowiltasSouls/MutantStatue][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoHeader}]"
+		MasoBossRecolors: "[i:FargowiltasSouls/Masochist][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoBossRecolors}]"
+		MasoCanPlay: "[i:FargowiltasSouls/Masochist][c/ff0000:{$Mods.FargowiltasSouls.Toggler.MasoCanPlay}]"
+		
 		// PetHeader: "[i:2420][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeader}]"
 		// PetDinoConfig: "[i:1242][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDinoConfig}]"
 		// PetEaterConfig: "[i:994][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEaterConfig}]"
@@ -6485,11 +6308,6 @@ Mods: {
 				PatreonROB: {
 					// Label: "{$Mods.FargowiltasSouls.PatreonROB}"
 					// Tooltip: ""
-				}
-
-				DisplayTogglesRegardless: {
-					Label: 始终显示魂石饰品效果开关
-					Tooltip: 禁用后仅会在玩家装备了对应饰品后才可开关饰品效果，启用后总是会显示所有饰品效果开关
 				}
 
 				PreBossNightGlow: {
