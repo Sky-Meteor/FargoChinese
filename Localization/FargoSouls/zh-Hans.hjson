@@ -522,7 +522,7 @@ Mods: {
 			DreadShellEffect: 恐惧螺壳格挡
 			ChaliceHeader: "{$Mods.FargowiltasSouls.Items.ChaliceoftheMoon.DisplayName}"
 			CultistMinionEffect: 拜月教徒召唤物
-			PlantMinionEffec: 世纪之花召唤物
+			PlantMinionEffect: 世纪之花召唤物
 			LihzahrdGroundPound: 蜥蜴快速下落
 			LihzahrdBoulders: 下落坠地火焰
 			CelestialRuneAttacks: 天界符文额外攻击
@@ -550,7 +550,7 @@ Mods: {
 			ColossusHeader: "{$Mods.FargowiltasSouls.Items.ColossusSoul.DisplayName}"
 			DefenseStarEffect: 受伤产生落星
 			DefenseBrainEffect: 混乱之脑受伤效果
-			DefenseBeeEffect : 受伤产生蜜蜂 
+			DefenseBeeEffect: 受伤产生蜜蜂
 			FleshKnuckleEffect: 血肉指虎仇恨
 			PaladinShieldEffect: 圣骑士护盾
 			FrozenTurtleEffect: 冰冻海龟壳
