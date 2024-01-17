@@ -492,7 +492,7 @@ Mods: {
 			SlimyShieldEffect: 凝胶球
 			SlimeFallEffect: 提高下落速度
 			AgitatingLensEffect: 鲜血镰刀
-			AgitatingLensInstall 狂暴负载
+			AgitatingLensInstall: 狂暴负载
 			SkeleMinionEffect: 骷髅王手臂
 			NecroBrewSpin: 骷髅王旋转冲刺
 			BionomicHeader: "{$Mods.FargowiltasSouls.Items.BionomicCluster.DisplayName}"
