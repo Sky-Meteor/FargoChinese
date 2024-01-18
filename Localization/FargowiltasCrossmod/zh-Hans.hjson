@@ -184,8 +184,8 @@ Mods: {
 				Tooltip: 召唤重生之龙，犽戎
 			}
 
-			ExoBattery: {
-				DisplayName: 星流电池
+			PortableCodebreaker: {
+				DisplayName: 便携密码破译器
 				Tooltip: 召唤星流巨械
 			}
 
@@ -459,36 +459,33 @@ Mods: {
 			IceStar.DisplayName: 寒冰之星
 		}
 
-		VagabondsSoulHeader: "[i:FargowiltasCrossmod/VagabondsSoul] 浪客之魂"
-		NanotechConfig: "[i:CalamityMod/Nanotech] 纳米核心"
-		EclipseMirrorConfig: "[i:CalamityMod/EclipseMirror] 日蚀魔镜"
-		DragonScalesConfig: "[i:CalamityMod/DragonScales] 浴火龙鳞"
-		VeneratedLocketConfig: "[i:CalamityMod/VeneratedLocket] 敬天神盗盒"
-		CalamityColossusHeader: "[i:FargowiltasSouls/ColossusSoul] 灾厄 巨像之魂"
-		AmalgamConfig: "[i:CalamityMod/TheAmalgam] 聚合之脑"
-		AsgardianAegisConfig: "[i:CalamityMod/AsgardianAegis] 阿斯加德之庇护"
-		RampartofDeitiesConfig: "[i:CalamityMod/RampartofDeities] 神之壁垒"
-		CalamityBerserkerHeader: "[i:FargowiltasSouls/BerserkerSoul] 灾厄 狂战士之魂"
-		ElementalGauntletConfig: "[i:CalamityMod/ElementalGauntlet] 元素之握"
-		CalamityWizardHeader: "[i:FargowiltasSouls/ArchWizardsSoul] 灾厄 巫师之魂"
-		EtherealTalismanConfig: "[i:CalamityMod/EtherealTalisman] 空灵护符"
-		CalamitySniperHeader: "[i:FargowiltasSouls/SnipersSoul] 灾厄 神枪手之魂"
-		ElementalQuiverConfig: "[i:CalamityMod/ElementalQuiver] 元素箭袋"
-		QuiverofNihilityConfig: "[i:CalamityMod/QuiverofNihility] 虚无箭袋"
-		DynamoStemCellsConfig: "[i:CalamityMod/DynamoStemCells] 痴愚金龙干细胞"
-		CalamityConjuristHeader: "[i:FargowiltasSouls/ConjuristsSoul] 灾厄 召唤之魂"
-		NucleogenesisConfig: "[i:CalamityMod/Nucleogenesis] 核子之源"
-		CalamityTrawlerHeader: "[i:FargowiltasSouls/TrawlerSoul] 灾厄 捕鱼之魂"
-		AbyssalDivingSuitConfig: "[i:CalamityMod/AbyssalDivingSuit] 深渊潜游服"
-		BrandoftheBrimstoneWitchHeader: "[i:FargowiltasCrossmod/BrandoftheBrimstoneWitch] {$Mods.FargowiltasCrossmod.Items.BrandoftheBrimstoneWitch.DisplayName}"
-		HeartoftheElementsConfig: "[i:CalamityMod/HeartoftheElements] 元灵之心"
-		OccultSkullCrownConfig: "[i:CalamityMod/OccultSkullCrown] 玄秘颅冠"
-		PurityConfig: "[i:CalamityMod/Purity] 无瑕粹魂晶"
-		TheSpongeConfig: "[i:CalamityMod/TheSponge] 化绵留香石"
-		ChaliceOfTheBloodGodConfig: "[i:CalamityMod/ChaliceOfTheBloodGod] 血神圣杯"
-		NebulousCoreConfig: "[i:CalamityMod/NebulousCore] 星云之核"
-		YharimsGiftConfig: "[i:CalamityMod/YharimsGift] {$Mods.CalamityMod.Items.Accessories.YharimsGift.DisplayName}"
-		DraedonsHeartConfig: "[i:CalamityMod/DraedonsHeart] 嘉登之心"
-		CalamityConfig: "[i:CalamityMod/Calamity] {$Mods.CalamityMod.Items.Accessories.Calamity.DisplayName}"
+		Toggler: {
+			VagabondsSoulHeader: 浪客之魂
+			NanotechEffect: 纳米核心
+			EclipseMirrorEffect: 日蚀魔镜
+			DragonScalesEffect: 浴火龙鳞
+			VeneratedLocketEffect: 敬天神盗盒
+			AmalgamEffect: 聚合之脑
+			AsgardianAegisEffect: 阿斯加德之庇护
+			RampartofDeitiesEffect: 神之壁垒
+			ElementalGauntletEffect: 元素之握
+			EtherealTalismanEffect: 空灵护符
+			CalamitySniperHeader: 灾厄 神枪手之魂
+			ElementalQuiverEffect: 元素箭袋
+			QuiverofNihilityEffect: 虚无箭袋
+			DynamoStemCellsEffect: 痴愚金龙干细胞
+			NucleogenesisEffect: 核子之源
+			AbyssalDivingSuitEffect: 深渊潜游服
+			BrandoftheBrimstoneWitchHeader: "{$Mods.FargowiltasCrossmod.Items.BrandoftheBrimstoneWitch.DisplayName}"
+			HeartoftheElementsEffect: 元灵之心
+			OccultSkullCrownEffect: 玄秘颅冠
+			PurityEffect: 无瑕粹魂晶
+			TheSpongeEffect: 化绵留香石
+			ChaliceOfTheBloodGodEffect: 血神圣杯
+			NebulousCoreEffect: 星云之核
+			YharimsGiftEffect: "{$Mods.CalamityMod.Items.Accessories.YharimsGift.DisplayName}"
+			DraedonsHeartEffect: 嘉登之心
+			CalamityEffect: "{$Mods.CalamityMod.Items.Accessories.Calamity.DisplayName}"
+		}
 	}
 }

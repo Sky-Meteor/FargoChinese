@@ -1,2 +1,2 @@
-v321.1640.1 update
-同步更新Fargo‘s soul1.6.4
+v321.1640.2 update
+同步更新Fargo‘s Souls1.6.4与Fargo's Souls DLC1.0.5.4
