@@ -6071,11 +6071,9 @@ Mods: {
 			MinosPrime.DisplayName: Minos Prime（这是什么？）//for patch
 		}
 
-		
 		MasoHeader: "[i:FargowiltasSouls/MutantStatue][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoHeader}]"
 		MasoBossRecolors: "[i:FargowiltasSouls/Masochist][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoBossRecolors}]"
 		MasoCanPlay: "[i:FargowiltasSouls/Masochist][c/ff0000:{$Mods.FargowiltasSouls.Toggler.MasoCanPlay}]"
-		
 		// PetHeader: "[i:2420][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeader}]"
 		// PetDinoConfig: "[i:1242][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDinoConfig}]"
 		// PetEaterConfig: "[i:994][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEaterConfig}]"
