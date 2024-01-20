@@ -695,6 +695,7 @@ Mods: {
 			TinCritReset: -{0}% crit
 			ROBPatreon: The friend you've never left since Brawl
 			ROBNonPatreon: He's finally a top tier!
+			StarlightTungsten: Unaffected by Tungsten Enchantment
 
 			EternitySoul: {
 				Additional: Additionally grants:
@@ -1024,6 +1025,7 @@ Mods: {
 			Split: Reduced split frequency
 			ChlorophyteBullet: Reduced speed and duration
 			WaterBolt: Cannot be used until Skeletron is defeated
+			DemonScythe: Reduced damage and speed by 40% until an evil boss is defeated
 			HolyDodge: Holy Dodge activation will temporarily reduce your attack speed
 			FrozenTurtleShell: Frozen barrier slightly reduces your damage dealt
 			BrainOfConfusion: Lowers your damage output on successful dodge
@@ -1469,7 +1471,7 @@ Mods: {
 
 			HypothermiaBuff: {
 				DisplayName: Hypothermia
-				Description: Increased damage taken from cold attacks
+				Description: Friendly projectiles are slowed down and you take increased damage from cold attacks
 			}
 
 			InfestedBuff: {
@@ -2194,7 +2196,8 @@ Mods: {
 				Tooltip:
 					'''
 					Works in vanity and inventory slots
-					The first time you craft an item, each material has a 33% chance to not be consumed
+					When crafting an item, each material has a 33% chance to not be consumed
+					Works once per material type, ever
 					Does not work on Crucible of the Cosmos items
 					You attract items from a larger range
 					'Strike while the iron is hot'
@@ -3251,7 +3254,6 @@ Mods: {
 					Works in your inventory
 					Right click to disable
 					Grants immunity to Suffocation
-					10% reduced magic damage
 					Automatically use mana potions when needed
 					Increases pickup range for mana stars
 					'The quietly muttering head of a defeated foe'
@@ -3264,7 +3266,6 @@ Mods: {
 					'''
 					Currently inactive, Right click to activate
 					Grants immunity to Suffocation
-					10% reduced magic damage
 					Automatically use mana potions when needed
 					Increases pickup range for mana stars
 					'The quietly muttering head of a defeated foe'
@@ -6057,6 +6058,7 @@ Mods: {
 			MagmawHand.DisplayName: Magmaw Hand
 			PungentEyeballMinion.DisplayName: Pungent Eyeball Minion
 			MinosPrime.DisplayName: Minos Prime
+			RainLightning.DisplayName: Rain Lightning
 		}
 
 		MasoHeader: "[i:FargowiltasSouls/MutantStatue][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoHeader}]"

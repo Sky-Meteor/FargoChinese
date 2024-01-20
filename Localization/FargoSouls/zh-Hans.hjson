@@ -695,6 +695,7 @@ Mods: {
 			TinCritReset: -{0}%暴击率
 			ROBPatreon: 自从开始战斗以来从未离开你的朋友
 			ROBNonPatreon: 它终于跻身顶级了！
+			StarlightTungsten: 无法被钨魔石强化
 
 			EternitySoul: {
 				Additional: 额外加成：
@@ -1027,6 +1028,7 @@ Mods: {
 			Split: 降低分裂频率
 			ChlorophyteBullet: 速度减慢，存在时间降低
 			WaterBolt: 在骷髅王被击败前无法使用
+			DemonScythe: 任意邪恶Boss被击败前伤害和攻速会降低40%
 			HolyDodge: 神圣防护激活后，一段时间内你的攻击速度会降低
 			FrozenTurtleShell: 冰盾会略微降低你的攻击伤害
 			BrainOfConfusion: 成功躲避后，你的伤害会降低
@@ -1472,7 +1474,7 @@ Mods: {
 
 			HypothermiaBuff: {
 				DisplayName: 恐寒症
-				Description: 你会多承受10%来自冷系攻击的伤害
+				Description: 友方弹幕速度会减慢，你会承受更多来自冷系攻击的伤害
 			}
 
 			InfestedBuff: {
@@ -2193,7 +2195,7 @@ Mods: {
 				Tooltip:
 					'''
 					在物品栏中即可生效
-					第一次制作物品时有33%概率不消耗材料
+					制作物品时每种材料都有33%概率不消耗
 					不适用于在宇宙坩埚上制作的物品
 					物品的吸附范围扩大
 					“趁热打铁”
@@ -3258,7 +3260,6 @@ Mods: {
 					放在物品栏中即可生效
 					右键点击以禁用
 					免疫窒息减益
-					魔法伤害降低10%
 					需要时自动使用魔力药水
 					扩大魔力星的拾取范围
 					“被打败敌人的喃喃自语的脑袋”
@@ -3271,7 +3272,6 @@ Mods: {
 					'''
 					当前未启用，右键点击以启用
 					免疫窒息减益
-					魔法伤害降低10%
 					需要时自动使用魔力药水
 					扩大魔力星的拾取范围
 					“被打败敌人的喃喃自语的脑袋”
@@ -6069,6 +6069,7 @@ Mods: {
 			MagmawHand.DisplayName: Magmaw Hand（这是什么？）//for patch
 			PungentEyeballMinion.DisplayName: Pungent Eyeball Minion（这是什么？）//for patch
 			MinosPrime.DisplayName: Minos Prime（这是什么？）//for patch
+			RainLightning.DisplayName: 雷暴雨
 		}
 
 		MasoHeader: "[i:FargowiltasSouls/MutantStatue][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoHeader}]"
