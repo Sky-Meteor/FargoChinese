@@ -1,2 +1,2 @@
-v321.1641.1 update
-同步更新Fargo‘s Souls1.6.4.1
+v321.1641.2 update
+弹幕名字的小小修补
