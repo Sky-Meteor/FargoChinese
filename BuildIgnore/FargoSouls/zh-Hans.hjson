@@ -5318,7 +5318,7 @@ Mods: {
 				}
 			}
 
-			// ShadowOrbNPC.DisplayName: Shadow Orb
+			ShadowOrbNPC.DisplayName: 暗影珠
 
 			LifeChallenger: {
 				DisplayName: 飘渺游光
@@ -5353,12 +5353,12 @@ Mods: {
 			SquidwardDoorClosed.MapEntry: 章鱼哥的大门
 			SquidwardDoorOpen.MapEntry: 章鱼哥的大门
 			LifeRevitalizerPlaced.MapEntry: 生命复苏站
-			AbomMusicBoxSheet.MapEntry: 音乐盒
-			ChampionMusicBoxSheet.MapEntry: 音乐盒
-			DeviMusicBoxSheet.MapEntry: 音乐盒
-			MutantMusicBoxSheet.MapEntry: 音乐盒
-			RePrologueMusicBoxSheet.MapEntry: 音乐盒
-			StoriaMusicBoxSheet.MapEntry: 音乐盒
+			AbomMusicBoxSheet.MapEntry: 音乐盒（憎恶）
+			ChampionMusicBoxSheet.MapEntry: 音乐盒（英灵）
+			DeviMusicBoxSheet.MapEntry: 音乐盒（戴薇安）
+			MutantMusicBoxSheet.MapEntry: 音乐盒（突变体）
+			RePrologueMusicBoxSheet.MapEntry: 音乐盒（突变体Ⅱ）
+			StoriaMusicBoxSheet.MapEntry: 音乐盒（突变体Ⅲ）
 		}
 
 		Projectiles: {
@@ -5392,17 +5392,17 @@ Mods: {
 			BigSting22.DisplayName: 大螯刺工蜂
 			BigStinger.DisplayName: 大螯刺
 			BeeDash.DisplayName: 冲刺
-			BlenderOrbital.DisplayName: 绞肉机
-			BlenderPetal.DisplayName: 绞肉机
-			BlenderProj3.DisplayName: 绞肉机
-			// BlenderSpray.DisplayName: Blender Spray
+			BlenderOrbital.DisplayName: 绞肉机尾迹
+			BlenderPetal.DisplayName: 绞肉机花瓣
+			BlenderProj3.DisplayName: 绞肉机触手
+			BlenderSpray.DisplayName: 绞肉机4
 			BlenderYoyoProj.DisplayName: 绞肉机
 			Bonez.DisplayName: 骸骨
 			DarkStarFriendly.DisplayName: 暗星
-			// Dash.DisplayName: Dash
-			// Dash2.DisplayName: Dash2
-			// DicerMine.DisplayName: Dicer Mine
-			// DicerSpray.DisplayName: Dicer Spray
+			Dash.DisplayName: 冲刺
+			Dash2.DisplayName: 冲刺2
+			DicerMine.DisplayName: 切肉机雷
+			DicerSpray.DisplayName: 切肉机2
 			DicerYoyo.DisplayName: 切肉机
 			DragonBreathProj.DisplayName: 巨龙之息
 			DragonFireball.DisplayName: 火球
@@ -5557,7 +5557,7 @@ Mods: {
 			TimberPalmTree.DisplayName: 棕榈树
 			TimberSnowball.DisplayName: 雪球
 			TimberSnowball2.DisplayName: 雪球
-			// TimberSquirrel.DisplayName: Timber Squirrel
+			TimberSquirrel.DisplayName: 松鼠
 			TimberTree.DisplayName: 树
 			TimberTreeAcorn.DisplayName: 橡实
 			WillBomb.DisplayName: 意志英灵炸弹
@@ -5612,7 +5612,7 @@ Mods: {
 			AcornProjectileExplosion.DisplayName: 橡实爆炸
 			JungleMimicSummon.DisplayName: 丛林宝箱怪
 			JungleMimicSummonCoin.DisplayName: 钱币
-			// MahogunyLeafProjectile.DisplayName: Mahoguny Leaf Projectile
+			MahogunyLeafProjectile.DisplayName: 树叶
 			VineslingerBall.DisplayName: 藤蔓抛环
 			VineslingerProjectileFriendly.DisplayName: 活树叶
 			AncientVision.DisplayName: 远古幻影妖
@@ -5651,9 +5651,9 @@ Mods: {
 			// CuresedFlameHostile2.DisplayName: Mods.FargowiltasSouls.Projectiles.CuresedFlameHostile2.DisplayName
 			CursedFlamethrower.DisplayName: 魔眼烈火
 			DarkStar.DisplayName: 暗星
-			DarkStarDestroyer.DisplayName: 暗星
-			DarkStarHoming.DisplayName: 暗星
-			DarkStarTwins.DisplayName: 暗星
+			DarkStarDestroyer.DisplayName: 毁灭者暗星
+			DarkStarHoming.DisplayName: 追踪暗星
+			DarkStarTwins.DisplayName: 双子暗星
 			DeathSkull.DisplayName: 死亡标记头骨
 			DeerclopsHand.DisplayName: 暗影之手
 			DestroyerLaser.DisplayName: 死亡激光
@@ -5976,19 +5976,19 @@ Mods: {
 			VenomSpit.DisplayName: 毒唾沫
 			RainbowSlimeSpikeFriendly.DisplayName: 彩虹史莱姆尖刺
 			PlasmaDeathRay.DisplayName: 等离子死亡射线
-			// AbomBossProjectile.DisplayName: Abominationn
-			// BaronMine.DisplayName: Banished Baron's Mine
-			// BaronNuke.DisplayName: Banished Baron's Spicy Beeping Nuclear Torpedo of Death and Destruction
-			// BaronRocket.DisplayName: Banished Baron's Rocket
-			// BaronScrap.DisplayName: Banished Baron Scrap
-			// BaronShrapnel.DisplayName: Banished Baron Mine Shrapnel
-			// ShadowOrbProjectile.DisplayName: Shadow Orb
+			AbomBossProjectile.DisplayName: 憎恶
+			BaronMine.DisplayName: 遗爵空雷
+			BaronNuke.DisplayName: 放逐遗爵的满荷爆鸣死亡毁灭之核子鱼雷
+			BaronRocket.DisplayName: 遗爵火箭
+			BaronScrap.DisplayName: 遗爵废料
+			BaronShrapnel.DisplayName: 遗爵空雷弹片
+			ShadowOrbProjectile.DisplayName: 暗影珠
 			WillDeathrayBig.DisplayName: 意志死亡射线
-			// DeviBossProjectile.DisplayName: Deviantt
+			DeviBossProjectile.DisplayName: 戴薇安
 			JevilScar.DisplayName: 附魔光之剑
 			LifeBlaster.DisplayName: 生命湮灭炮
 			LifeBomb.DisplayName: 生命雷
-			// LifeTransitionBomb.DisplayName: Life Mine
+			LifeTransitionBomb.DisplayName: 生命空雷
 			LifeBombExplosion.DisplayName: 生命雷
 			LifeCageExplosion.DisplayName: 囚笼爆炸
 			LifeCageProjectile.DisplayName: 生命囚笼
@@ -6008,7 +6008,7 @@ Mods: {
 			LifeTpTelegraph.DisplayName: 传送预警
 			LifeWave.DisplayName: 生命涌波
 			MutantBossProjectile.DisplayName: 突变体
-			ArcTelegraph.DisplayName: Arc Telegraph
+			// ArcTelegraph.DisplayName: Arc Telegraph
 			BloomLine.DisplayName: 预警光线
 			FishStickProjTornado.DisplayName: 鱼杖
 			PrismaRegaliaProj.DisplayName: 晶霞华枪
@@ -6069,7 +6069,7 @@ Mods: {
 			MagmawHand.DisplayName: Magmaw Hand（这是什么？）//for patch
 			PungentEyeballMinion.DisplayName: Pungent Eyeball Minion（这是什么？）//for patch
 			MinosPrime.DisplayName: Minos Prime（这是什么？）//for patch
-			RainLightning.DisplayName: 雷暴雨
+			RainLightning.DisplayName: 闪电
 		}
 
 		MasoHeader: "[i:FargowiltasSouls/MutantStatue][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoHeader}]"
@@ -6376,7 +6376,7 @@ Mods: {
 			Random56: 如同尘土般灰飞烟灭吧！
 			Random57: 有抑郁症那你怎么不去死啊？
 			Random58: 期待听你死亡时凄惨的哭喊声呢......
-			Random59: 我是无上源初之神明！！
+			Random59: 我是无上原初之神明！！
 			Random60: 要不要再添加一个魔鬼模式？
 			Random61: Furgo的力量在我面前如烛火般渺小！
 			Random62: 我觉得你一直用假币在欺骗我，需要狠狠惩罚呢......

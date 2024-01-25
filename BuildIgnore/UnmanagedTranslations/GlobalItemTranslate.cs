@@ -29,6 +29,20 @@ namespace FargoChinese.UnmanagedTranslations
                 tooltipLine.Text = tooltipLine.Text.Replace("max life", "最大生命值");
                 tooltipLine.Text = tooltipLine.Text.Replace("After the boss has been defeated", "在对应boss被击败后");
                 tooltipLine.Text = tooltipLine.Text.Replace("Can be sold by the Travelling Merchant", "旅商可售卖");
+                tooltipLine.Text = tooltipLine.Text.Replace("Cross-mod Balance:", "多开平衡调整：");
+                tooltipLine.Text = tooltipLine.Text.Replace("Damage increased by", "伤害增加");
+                if (item.type == ItemID.MagicDagger)
+                {
+                    tooltipLine.Text = tooltipLine.Text.Replace("Damage decreased by 50% in Pre-Hardmode.", "困难模式前伤害降低50%。");
+                }
+                tooltipLine.Text = tooltipLine.Text.Replace("Damage decreased by", "伤害降低");
+                tooltipLine.Text = tooltipLine.Text.Replace("Massively reduced damage with any minions active", "大幅降低仆从伤害");
+                tooltipLine.Text = tooltipLine.Text.Replace("Less effective on true melee weapons", "对真近战武器加成减少");
+                tooltipLine.Text = tooltipLine.Text.Replace("Less effective on rogue weapons", "对盗贼武器加成减少");
+                tooltipLine.Text = tooltipLine.Text.Replace("Reduced effectiveness", "效果削弱");
+                tooltipLine.Text = tooltipLine.Text.Replace("Effect disabled while Tin Enchantment effect is active", "锡魔石生效时失效");
+                tooltipLine.Text = tooltipLine.Text.Replace("Does not inflict Oiled", "不会造成涂油减益");
+                tooltipLine.Text = tooltipLine.Text.Replace("Accumulated damage capped at 500.000", "累计伤害上限为500");
             }
             if (item.type == ItemType<MapViewer>())
             {
