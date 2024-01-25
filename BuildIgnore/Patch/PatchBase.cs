@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using Terraria.ModLoader;
 
-namespace FargoChinese.Patch
+namespace FargoChinese.BuildIgnore.Patch
 {
     public abstract class PatchBase
     {

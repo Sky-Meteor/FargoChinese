@@ -1,4 +1,5 @@
-﻿using Fargowiltas;
+﻿using FargoChinese.BuildIgnore.Patch;
+using Fargowiltas;
 using Fargowiltas.Items.Misc;
 using Fargowiltas.UI;
 using MonoMod.Cil;
@@ -9,7 +10,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace FargoChinese.Patch.Fargowiltas
+namespace FargoChinese.BuildIgnore.Patch.Fargowiltas
 {
     public class StatSheetTranslate : PatchBase
     {
@@ -22,15 +23,15 @@ namespace FargoChinese.Patch.Fargowiltas
 
         public override void Load()
         {
-            Terraria.On_Main.DrawInterface_33_MouseText += Main_DrawInterface_33_MouseText;
+            On_Main.DrawInterface_33_MouseText += Main_DrawInterface_33_MouseText;
         }
 
         public override void Unload()
         {
-            Terraria.On_Main.DrawInterface_33_MouseText -= Main_DrawInterface_33_MouseText;
+            On_Main.DrawInterface_33_MouseText -= Main_DrawInterface_33_MouseText;
         }
 
-        private static void Main_DrawInterface_33_MouseText(Terraria.On_Main.orig_DrawInterface_33_MouseText orig, Main self)
+        private static void Main_DrawInterface_33_MouseText(On_Main.orig_DrawInterface_33_MouseText orig, Main self)
         {
             if (Main.hoverItemName == "Stat Sheet")
                 Main.hoverItemName = "属性统计表";

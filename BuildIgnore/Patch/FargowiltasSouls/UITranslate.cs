@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using FargoChinese.BuildIgnore.Patch;
 using Terraria.ModLoader;
 using Terraria.UI.Chat;
 
-namespace FargoChinese.Patch.FargowiltasSouls
+namespace FargoChinese.BuildIgnore.Patch.FargowiltasSouls
 {
     [JITWhenModsEnabled("FargowiltasSouls")]
     public class UITranslate : PatchBase
@@ -14,7 +15,7 @@ namespace FargoChinese.Patch.FargowiltasSouls
             On_ChatManager.ParseMessage += ChatManager_ParseMessage;
         }
 
-        private static List<TextSnippet> ChatManager_ParseMessage(Terraria.UI.Chat.On_ChatManager.orig_ParseMessage orig, string text, Microsoft.Xna.Framework.Color baseColor)
+        private static List<TextSnippet> ChatManager_ParseMessage(On_ChatManager.orig_ParseMessage orig, string text, Microsoft.Xna.Framework.Color baseColor)
         {
             if (text == null)
                 return new List<TextSnippet>();

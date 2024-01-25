@@ -1,9 +1,10 @@
-﻿using Mono.Cecil.Cil;
+﻿using FargoChinese.BuildIgnore.Patch;
+using Mono.Cecil.Cil;
 using MonoMod.Cil;
 using System.Collections.Generic;
 using Terraria.ModLoader;
 
-namespace FargoChinese.Patch.FargowiltasSouls
+namespace FargoChinese.BuildIgnore.Patch.FargowiltasSouls
 {
     [JITWhenModsEnabled("FargowiltasSouls")]
     public class DropConditionsTranslate : PatchBase

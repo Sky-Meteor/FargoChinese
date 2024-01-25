@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using MonoMod.RuntimeDetour;
 
-namespace FargoChinese.Patch;
+namespace FargoChinese.BuildIgnore.Patch;
 
 public static class PatchManager
 {
@@ -49,9 +49,9 @@ public static class PatchManager
                 }
             }
 
-            foreach (var hook in Hooks) 
+            foreach (var hook in Hooks)
                 hook.Apply();
-            foreach (var ilHook in ILHooks) 
+            foreach (var ilHook in ILHooks)
                 ilHook.Apply();
         }
     }

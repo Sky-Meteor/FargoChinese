@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
+using FargoChinese.BuildIgnore.Patch;
 using FargowiltasSouls.Content.Buffs.Masomode;
 using FargowiltasSouls.Core.ModPlayers;
 using FargowiltasSouls.Core.Systems;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace FargoChinese.Patch.FargowiltasSouls
+namespace FargoChinese.BuildIgnore.Patch.FargowiltasSouls
 {
     [JITWhenModsEnabled("FargowiltasSouls")]
     public class NurseCantHealTranslate : PatchBase

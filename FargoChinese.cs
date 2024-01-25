@@ -1,5 +1,4 @@
-﻿using FargoChinese.Patch;
-using Terraria.ModLoader;
+﻿using Terraria.ModLoader;
 
 namespace FargoChinese
 {
