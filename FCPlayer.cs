@@ -1,7 +1,5 @@
-﻿using FargoChinese.UnmanagedTranslations;
-using Fargowiltas;
+﻿using System.Linq;
 using Fargowiltas.Common.Configs;
-using Fargowiltas.Items.Weapons;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.Chat;
@@ -16,13 +14,13 @@ namespace FargoChinese
         public override void OnEnterWorld()
         {
             Color c = Color.Orange;
-            Main.NewText("- Fargo突变 V 3.0.0 更新 -", c);
+            /*Main.NewText("- Fargo突变 V 3.0.0 更新 -", c);
             string text = @"-v321.1622.2更新：爆裂者更名为爆裂噬魂者
 -v321.1622.8更新：尝试解决卸载模组报错的问题";
             string[] textLines = text.Split("-");
             for (int i = 1; i < textLines.Length; i++)
                 Main.NewText("-" + textLines[i].Trim(), c);
-
+            */
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
             Main.NewText("", Color.LightGreen);
             Main.NewText($"[i:{ItemID.UndergroundReward}] 查看模组配置（FCConfig）以调整部分内容！", new Color(255, 51, 51));
@@ -43,14 +41,25 @@ namespace FargoChinese
             {
                 foreach (Item item in Player.bank.item)
                 {
-                    GlobalItemTranslate.TryPiggyBankAcc(item, Player);
+                    TryPiggyBankAcc(item, Player);
                 }
 
                 foreach (Item item in Player.bank2.item)
                 {
-                    GlobalItemTranslate.TryPiggyBankAcc(item, Player);
+                    TryPiggyBankAcc(item, Player);
                 }
             }
         }
+
+        public static void TryPiggyBankAcc(Item item, Player player)
+        {
+            if (item.IsAir || item.maxStack > 1)
+                return;
+            if (Construction.Contains(item.type))
+            {
+                player.ApplyEquipFunctional(item, true);
+            }
+        }
+        private static readonly int[] Construction = { ItemID.Toolbelt, ItemID.Toolbox, ItemID.ExtendoGrip, ItemID.PaintSprayer, ItemID.BrickLayer, ItemID.PortableCementMixer, ItemID.ActuationAccessory, ItemID.ArchitectGizmoPack };
     }
 }
