@@ -8,9 +8,6 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Localization\FargoSouls\en-US.hjson" />
-  </ItemGroup>
-  <ItemGroup>
     <AdditionalFiles Include="BuildIgnore\MutantMod-zh-Hans.hjson.old" />
   </ItemGroup>
   <ItemGroup>

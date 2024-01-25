@@ -19,9 +19,6 @@ namespace FargoChinese
         public bool EnableWorldDifficultyShader;
 
         [Header("ExtraTooltip")]
-        [DefaultValue(true)]
-        // ReSharper disable once UnassignedField.Global
-        public bool PainterTip;
         
         [DefaultValue(true)]
         // ReSharper disable once UnassignedField.Global
@@ -29,20 +26,8 @@ namespace FargoChinese
         
         [DefaultValue(true)]
         // ReSharper disable once UnassignedField.Global
-        public bool FishingTip;
-        
-        [DefaultValue(true)]
-        // ReSharper disable once UnassignedField.Global
-        public bool DyeTip;
-        
-        [DefaultValue(true)]
-        // ReSharper disable once UnassignedField.Global
         public bool KeyBindTip;
 
-        [DefaultValue(true)]
-        // ReSharper disable once UnassignedField.Global
-        public bool CustomKeyBindTip;
-        
         [DefaultValue(true)]
         // ReSharper disable once UnassignedField.Global
         public bool SoulsKeyBindTip;
@@ -50,17 +35,13 @@ namespace FargoChinese
         [DefaultValue(false)]
         public bool AllTipsOn
         {
-            get => PainterTip && FruitTip && FishingTip && DyeTip && KeyBindTip && CustomKeyBindTip && SoulsKeyBindTip;
+            get => FruitTip && KeyBindTip && SoulsKeyBindTip;
             set
             {
                 if (value)
                 {
-                    PainterTip = true;
                     FruitTip = true;
-                    FishingTip = true;
-                    DyeTip = true;
                     KeyBindTip = true;
-                    CustomKeyBindTip = true;
                     SoulsKeyBindTip = true;
                     AllTipsOff = false;
                 }
@@ -70,17 +51,13 @@ namespace FargoChinese
         [DefaultValue(false)]
         public bool AllTipsOff
         {
-            get => !PainterTip && !FruitTip && !FishingTip && !DyeTip && !KeyBindTip && !CustomKeyBindTip && !SoulsKeyBindTip;
+            get => !FruitTip && !KeyBindTip && !SoulsKeyBindTip;
             set
             {
                 if (value)
                 {
-                    PainterTip = false;
                     FruitTip = false;
-                    FishingTip = false;
-                    DyeTip = false;
                     KeyBindTip = false;
-                    CustomKeyBindTip =false;
                     SoulsKeyBindTip = false;
                     AllTipsOn = false;
                 }

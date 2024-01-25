@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Reflection;
-using Newtonsoft.Json;
+﻿using System.Collections.Generic;
 using Fargowiltas;
-using Fargowiltas.Common.Configs;
 using Terraria;
 using Terraria.GameInput;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.UI;
 using static FargoChinese.GameCommentSystem.CommentSystemUtils;
 
 namespace FargoChinese.GameCommentSystem
@@ -20,7 +14,7 @@ namespace FargoChinese.GameCommentSystem
         {
             Player player = Main.LocalPlayer;
             var fargoPlayer = player.GetModPlayer<FargoPlayer>();
-            #region Painter
+            /*#region Painter
             if (!ModContent.GetInstance<FCConfig>().PainterTip)
                 goto Fruit;
             switch (item.type)
@@ -157,11 +151,11 @@ namespace FargoChinese.GameCommentSystem
                 if (condition && ModContent.GetInstance<FargoServerConfig>().NPCSales && (player.ZoneDungeon || player.ZoneRockLayerHeight || player.ZoneDirtLayerHeight || player.ZoneUnderworldHeight))
                     tooltips.Add(new TooltipLine(Mod, "FCPaintingTipExtra", $"[i:Fargowiltas/Painter] [c/{defaultColor}:如果没有找到预期的画作，可能是因为Fargo突变的配置（NPC卖额外商品）导致原画作被覆盖]"));
             }
-            #endregion
+            #endregion*/
             #region Fruit
             Fruit:
             if (!ModContent.GetInstance<FCConfig>().FruitTip)
-                goto Fishing;
+                goto KeyBind;
             bool condition;
             switch (item.type)
             {
@@ -235,7 +229,7 @@ namespace FargoChinese.GameCommentSystem
                 tooltips.Add(new TooltipLine(Mod, "FCLumberTip", $"[i:Fargowiltas/LumberJack] [c/{color}:在{biome}通过树木宝藏概率获得]"));
             }
             #endregion
-            #region Fishing
+            /* #region Fishing
             Fishing:
             if (!ModContent.GetInstance<FCConfig>().FishingTip)
                 goto Dye;
@@ -340,11 +334,11 @@ namespace FargoChinese.GameCommentSystem
                 string color = firstDyeIngredients[dye] ? achievedColor : defaultColor;
                 tooltips.Add(new TooltipLine(Mod, "FCDyeTip", $"[i:Fargowiltas/DyeTrader] [c/{color}:获得一次后，在染料商处售卖]"));
             }
-            #endregion
+            #endregion*/
             #region KeyBind
             KeyBind:
             if (!ModContent.GetInstance<FCConfig>().KeyBindTip)
-                goto NextTip;
+                return;
             switch (item.type)
             {
                 case ItemID.PotionOfReturn:
@@ -365,13 +359,6 @@ namespace FargoChinese.GameCommentSystem
                     ? new TooltipLine(Mod, "FCKeyBindTip", $"[i:{item.type}] [c/{color}:按下“{key[0]}”键{tip}]")
                     : new TooltipLine(Mod, "FCKeyBindTip", $"[i:{item.type}] [c/{color}:“{tipWhenDisabled}”键未绑定]"));
             }
-            #endregion
-
-            NextTip:
-                
-            #region Other
-            if (item.useAmmo == ItemID.Bone)
-                tooltips.Add(new TooltipLine(Mod, "FCBoneAmmoTip", "[i:Fargowiltas/Clothier] [c/808080:裁缝在骷髅王后售卖弹药]"));
             #endregion
         }
     }

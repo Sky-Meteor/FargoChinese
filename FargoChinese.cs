@@ -10,7 +10,7 @@ namespace FargoChinese
         public override void Load()
         {
             Instance = this;
-            PatchManager.Load();
+            // PatchManager.Load();
         }
 
         public override void Unload()

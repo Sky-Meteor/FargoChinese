@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using MonoMod.Cil;
 using MonoMod.RuntimeDetour;
 
 namespace FargoChinese.Patch;

@@ -1,6 +1,4 @@
-﻿using FargoChinese.Patch;
-using FargowiltasSouls;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Mono.Cecil.Cil;
 using MonoMod.Cil;
@@ -12,7 +10,6 @@ using FargowiltasSouls.Common.Graphics.Shaders;
 using FargowiltasSouls.Core.Systems;
 using Terraria;
 using Terraria.GameContent.UI.Elements;
-using Terraria.Graphics.Shaders;
 using Terraria.IO;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
@@ -20,8 +17,13 @@ using Terraria.ModLoader.IO;
 namespace FargoChinese.ModSystems
 {
     [JITWhenModsEnabled("FargowiltasSouls")]
-    public class WorldDifficulty : ModSystem
+    public class WorldDifficulty : ModSystem // TODO: save it in SaveWorldHeader
     {
+        public override void SaveWorldHeader(TagCompound tag)
+        {
+            base.SaveWorldHeader(tag);
+        }
+
         public override bool IsLoadingEnabled(Mod mod) => ModLoader.TryGetMod("FargowiltasSouls", out _) && ModContent.GetInstance<FCConfig>().EnableWorldDifficultyChange;
 
         private Preferences _saveWorldDifficulty;

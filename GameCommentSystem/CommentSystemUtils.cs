@@ -29,10 +29,7 @@ namespace FargoChinese.GameCommentSystem
         public const string PearlwoodTree = "珍珠木树";
         public const string PalmTree = "棕榈树";
         public const string A = "";
-
-        public const string EnableFargosNPCSale = "开启Fargo突变的配置（NPC卖额外商品）时，";
-
-
+        
         public static string Not(string tip) => $"非{tip}";
 
         public static string And(string tip) => $"且{tip}";

@@ -1,2 +1,4 @@
 v321.1641.1 update
-同步更新Fargo‘s Souls1.6.4.1
+移除Fargo魂石汉化，因为Fargo魂石汉化已经内置在Fargo魂石Mod中
+更新Fargo突变汉化
+移除部分关于NPC售卖的Tooltip，因为Fargo突变已经可以显示
