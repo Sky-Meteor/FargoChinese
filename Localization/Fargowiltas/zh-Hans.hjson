@@ -60,10 +60,10 @@ Mods: {
 			Mutant: {
 				Content: 谢谢你的房子，我想。
 				NoHome: 房子没什么坏处，但我不介意。
-				LoveSpace: Boss战之间的休息时间很不错。周围有很多人，我不明白这一点。
+				LoveSpace: Boss战之间的休息时间很不错，前提是周围没有很多人。
 				FarFromHome: 我会吃史莱姆和僵尸，但在家吃人类的食物也不错。
 				DislikeCrowded: 这里人太多了。他们似乎很沮丧，因为我一直在赢得我们的对视比赛。
-				HateCrowded: 如果在这个拥挤的小镇上再多一个人撞上我的脑子……不要介意。
+				HateCrowded: 如果在这个拥挤的城镇上再多一个人撞上我的脑子……不管它了。
 				LikeBiome: 我们都从{BiomeName}开始，这是个好地方。
 				LoveBiome: 住在这儿很舒服，但是你什么时候能找到我的神殿？
 				DislikeBiome: "{BiomeName}应该给我留下深刻印象吗？大仙灵不会，这是肯定的。"
@@ -72,7 +72,7 @@ Mods: {
 				LikeNPC_Princess: "{NPCName}看起来很友好。"
 				LoveNPC: "{NPCName}和我打了很多次仗，可惜没有机会再打了。"
 				DislikeNPC: 为什么{NPCName}在这儿？那好吧，不要直视他的眼睛，他不会吓到你的……
-				HateNPC: "{NPCName}需要在我用我的洞察者之前离开。"
+				HateNPC: "{NPCName}最好在我用我的洞察者之前离开。"
 			}
 
 			LumberJack: {
@@ -973,7 +973,7 @@ Mods: {
 
 			SnowRenewalSupreme: {
 				DisplayName: 冰雪维度
-				Tooltip: Snows 使整个世界变为雪原环境
+				Tooltip: 使整个世界变为雪原环境
 			}
 
 			SandRenewal: {
@@ -983,7 +983,7 @@ Mods: {
 
 			SandRenewalSupreme: {
 				DisplayName: 沙漠维度
-				Tooltip: Snows 使整个世界变为沙漠环境
+				Tooltip: 使整个世界变为沙漠环境
 			}
 
 			DirtRenewal: {
@@ -993,7 +993,7 @@ Mods: {
 
 			DirtRenewalSupreme: {
 				DisplayName: 森林维度
-				Tooltip: Snows 使整个世界变为森林环境
+				Tooltip: 使整个世界变为森林环境
 			}
 
 			Abeemination2: {
@@ -2113,7 +2113,7 @@ Mods: {
 
 			WiresPainting: {
 				DisplayName: Wires绘画
-				Tooltip: “看那边！”
+				Tooltip: “向内看……”
 			}
 
 			WoodenToken: {

@@ -346,7 +346,7 @@ namespace FargoChinese.GameCommentSystem
                 case ItemID.MagicMirror:
                 case ItemID.IceMirror:
                 case ItemID.CellPhone:
-                    AddKeyBindTip("快速回家", "Fargowiltas/Quick Recall/Mirror", "0CA3C0");
+                    AddKeyBindTip("快速回家", "Fargowiltas/Home", "0CA3C0");
                     break;
             }
 
