@@ -1,4 +1,2 @@
-v321.1641.1 update
-移除Fargo魂石汉化，因为Fargo魂石汉化已经内置在Fargo魂石Mod中
+v330.1660.1
 更新Fargo突变汉化
-移除部分关于NPC售卖的Tooltip，因为Fargo突变已经可以显示

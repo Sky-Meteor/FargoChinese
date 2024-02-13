@@ -194,7 +194,7 @@ Mods: {
 
 				BossHealth: {
 					Label: "[i:29] Boss生命值"
-					Tooltip: 
+					Tooltip:
 						'''
 						将所有Boss生命值按该倍率提升
 						此值与上一项之间只会采用一个最高的倍率
@@ -208,7 +208,7 @@ Mods: {
 
 				BossDamage: {
 					Label: "[i:3507] Boss伤害"
-					Tooltip: 
+					Tooltip:
 						'''
 						将所有Boss的伤害在计算伤害减免后按该倍率提升
 						此值与上一项之间只会采用一个最高的倍率
@@ -2496,6 +2496,7 @@ Mods: {
 				}
 
 				Chat: {
+					// Special
 					GiveGifts: 这个世界看起来比平时更艰难，所以我免费给你提供这些，仅此一次！如果你需要任何提示，请告诉我，好吗？
 					NTB: 这里是有趣的蜜蜂世界！
 					NTBHA: 哈
@@ -2661,7 +2662,7 @@ Mods: {
 					LoveBiome: 住在这儿很舒服，但是你什么时候能找到我的神殿？
 					DislikeBiome: "{BiomeName}应该给我留下深刻印象吗？大仙灵不会，这是肯定的。"
 					HateBiome: 你想要更昂贵的召唤物吗？让我住在{BiomeName}意味着更贵的召唤物。
-					LikeNPC: 我忘了{NPCName}是什么时候加入这个家庭的，但她已经赢得了她的位置。		
+					LikeNPC: 我忘了{NPCName}是什么时候加入这个家庭的，但她已经赢得了她的位置。
 					LoveNPC: "{NPCName}和我打了很多次仗，可惜没有机会再打了。"
 					DislikeNPC: 为什么{NPCName}在这儿？那好吧，不要直视他的眼睛，他不会吓到你的……
 					HateNPC: "{NPCName}最好在我用我的洞察者之前离开。"
@@ -2768,7 +2769,6 @@ Mods: {
 					DislikeBiome: *对{BiomeName}悲哀的吱吱声*
 					HateBiome: *对{BiomeName}非常悲哀的吱吱声*
 					LikeNPC: *对{NPCName}快乐的吱吱声*
-					
 					LoveNPC: *对{NPCName}非常快乐的吱吱声*
 					DislikeNPC: *对{NPCName}愤怒的吱吱声*
 					HateNPC: *对{NPCName}非常愤怒的吱吱声*
@@ -2959,13 +2959,4 @@ Mods: {
 			SeveralVendors: 多个商人
 		}
 	}
-}
-
-# this doesnt work rn
-TownNPCMood_Princess: {
-	LoveNPC_Fargowiltas/Abominationn: "{NPCName}正在讲述他精彩的冒险故事！"
-	LoveNPC_Fargowiltas/Deviantt: "{NPCName}非常令人愉快，我们能在一起聊几个小时都不厌倦！"
-	LoveNPC_Fargowiltas/Mutant: "{NPCName}有一些很奇特的东西，他很适合当朋友！"
-	LoveNPC_Fargowiltas/Squirrel: "{NPCName}真的真的真的好可爱！！"
-	LoveNPC_Fargowiltas/LumberJack: "{NPCName}非常有力，有空想和他一起砍树！"
 }

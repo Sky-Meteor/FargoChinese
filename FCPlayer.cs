@@ -22,8 +22,8 @@ namespace FargoChinese
                 Main.NewText("-" + textLines[i].Trim(), c);
             */
             Main.NewText("感谢使用Fargo汉化补丁！", Color.LightGreen);
-            Main.NewText("", Color.LightGreen);
-            Main.NewText($"[i:{ItemID.UndergroundReward}] 查看模组配置（FCConfig）以调整部分内容！", new Color(255, 51, 51));
+            // Main.NewText("", Color.LightGreen);
+            Main.NewText($"[i:{ItemID.UndergroundReward}] 查看模组配置以调整部分内容！", new Color(255, 51, 51));
             if (Main.netMode == NetmodeID.MultiplayerClient)
             {
                 ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral("注意，现在的Fargo汉化是客户端模组，不会参与服务器的自动同步，若需要开启汉化请提醒你的朋友订阅并在模组列表自行开启！！！"), Color.LightGreen);
