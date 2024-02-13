@@ -19,99 +19,6 @@ Mods: {
 		// Used for TownNPCMood "{BiomeName}" Format (unused now)
 		Biome.Sky: 天空
 
-		#This is what displays during all of an NPC's happiness levels. Note that the localization key for these should always be "TownNPCMood.*NPCName*.*Mood*" or else it won't display properly.
-		TownNPCMood: {
-			Deviantt: {
-				Content: 我感觉很好！
-				NoHome: 请问你有空的房间吗？任何房间？即使是监狱也没问题！
-				LoveSpace: 和平与宁静意味着我可以尽情享受！
-				FarFromHome: 我想我的房子就在那边……除非你正带我去什么地方？
-				DislikeCrowded: 人越多越好，但我开始觉得有点挤了。
-				HateCrowded: 我甚至不能把腿踢出去而不碰到别人。
-				LikeBiome: 哈哈哈，关于{BiomeName}的一些东西只是出于某种原因让我无法控制地笑了起来！
-				LoveBiome: 天上的星星太美了，我很喜欢看它们划过天空！
-				DislikeBiome: 我们能去比这儿暖和的地方吗？
-				HateBiome: 我想住在别的地方！这太可怕了，我正冒着暴风雨！
-				LikeNPC: "{NPCName}是我的大哥，但不是最大的。他酷毙了！"
-				LikeNPC_Princess: 我要找时间再去看看{NPCName}，这儿有个女孩钩住了我！
-				LoveNPC: "{NPCName}在这！那是我的老大哥，他不是最酷的吗？！"
-				DislikeNPC: 我受不了像{NPCName}那样的女孩，感觉她到这儿来只是为某个特定的观众。
-				HateNPC: 就在我们之间。你有没有想过把{NPCName}扔回你找到他的地方？
-			}
-
-			Abominationn: {
-				Content: 我很满意。
-				NoHome: 给我一个住所，我会降低价格。
-				LoveSpace: 不用挤在一起针不戳。
-				FarFromHome: 我可以飞回我家，但我真的不想被人看到。
-				DislikeCrowded: 周围的人太多了，他们一直在戳我的脸。
-				HateCrowded: 你知道在周围这么多人的情况下，拿着镰刀不割伤任何人有多难吗？
-				LikeBiome: 我喜欢{BiomeName}，这是一个拥有我兄弟翅膀的好对手的家。
-				LoveBiome: 我非常喜欢太空，我们在着陆前先到达了这里。
-				DislikeBiome: 这儿有太多弱小的敌人生活在{BiomeName}。
-				HateBiome: 我很讨厌{BiomeName}。
-				LikeNPC: 那个女孩，{NPCName}，她是我妹妹……我击败过的事件比她多，但是她很不错。
-				LikeNPC_Princess: "{NPCName}看起来真棒。"
-				LoveNPC: 那个家伙，{NPCName}，他是我哥哥……我击败过的Boss比他多，但是他很强大。
-				DislikeNPC: 我不喜欢{NPCName}。
-				HateNPC: "{NPCName}毁了战斗的荣耀，我不想让她靠近我。"
-			}
-
-			Mutant: {
-				Content: 谢谢你的房子，我想。
-				NoHome: 房子没什么坏处，但我不介意。
-				LoveSpace: Boss战之间的休息时间很不错，前提是周围没有很多人。
-				FarFromHome: 我会吃史莱姆和僵尸，但在家吃人类的食物也不错。
-				DislikeCrowded: 这里人太多了。他们似乎很沮丧，因为我一直在赢得我们的对视比赛。
-				HateCrowded: 如果在这个拥挤的城镇上再多一个人撞上我的脑子……不管它了。
-				LikeBiome: 我们都从{BiomeName}开始，这是个好地方。
-				LoveBiome: 住在这儿很舒服，但是你什么时候能找到我的神殿？
-				DislikeBiome: "{BiomeName}应该给我留下深刻印象吗？大仙灵不会，这是肯定的。"
-				HateBiome: 你想要更昂贵的召唤物吗？让我住在{BiomeName}意味着更贵的召唤物。
-				LikeNPC: 我忘了{NPCName}是什么时候加入这个家庭的，但她已经赢得了她的位置。
-				LikeNPC_Princess: "{NPCName}看起来很友好。"
-				LoveNPC: "{NPCName}和我打了很多次仗，可惜没有机会再打了。"
-				DislikeNPC: 为什么{NPCName}在这儿？那好吧，不要直视他的眼睛，他不会吓到你的……
-				HateNPC: "{NPCName}最好在我用我的洞察者之前离开。"
-			}
-
-			LumberJack: {
-				Content: 我很高兴只要世界上有需要砍伐的木头。
-				NoHome: 没有一个小木屋可以回家的伐木工人是不完整的！
-				LoveSpace: 周围人少了，这意味着我可以随心所欲地挥动斧头，没有人挡道。
-				FarFromHome: 这儿离我的小木屋太远了。我应该回去磨一磨我的斧子。
-				DislikeCrowded: 我觉得这里越来越挤了。
-				HateCrowded: 周围人太多了。没什么会比砍掉一个人更能破坏一个砍树的好心情。
-				LikeBiome: "{BiomeName}里大量的树让人成为一个快乐的伐木工人。"
-				LoveBiome: 在{BiomeName}没有什么能比得上老式的伐木工了！
-				DislikeBiome: 在{BiomeName}没什么能砍的!
-				HateBiome: 在{BiomeName}什么都砍不了!
-				LikeNPC: 我砍倒了树，{NPCName}种了更多，我们是完美的搭档。
-				LikeNPC_Princess: "{NPCName}用斧头比我想象中要更好！"
-				LoveNPC: 我很高兴{NPCName}了解砍倒大树的美妙之处。
-				DislikeNPC: "{NPCName}告诉我要开始拥抱树木……所以我教会了我的斧头为我拥抱树木。"
-				HateNPC: "{NPCName}一点也不懂我的意思。炸掉森林不是伐木！"
-			}
-
-			Squirrel: {
-				Content: *表达满足的吱吱声*
-				NoHome: *因无家可归而悲哀的吱吱声*
-				LoveSpace: *因不拥挤而快乐的吱吱声*
-				FarFromHome: *因迷路而悲哀的吱吱声*
-				DislikeCrowded: *因拥挤而悲哀的吱吱声*
-				HateCrowded: *因拥挤不堪而非常悲哀的吱吱声*
-				LikeBiome: *对{BiomeName}开心的吱吱声*
-				LoveBiome: *对{BiomeName}非常开心的吱吱声*
-				DislikeBiome: *对{BiomeName}悲哀的吱吱声*
-				HateBiome: *对{BiomeName}非常悲哀的吱吱声*
-				LikeNPC: *对{NPCName}快乐的吱吱声*
-				LikeNPC_Princess: *对{NPCName}快乐的吱吱声*
-				LoveNPC: *对{NPCName}非常快乐的吱吱声*
-				DislikeNPC: *对{NPCName}愤怒的吱吱声*
-				HateNPC: *对{NPCName}非常愤怒的吱吱声*
-			}
-		}
-
 		Configs: {
 			FargoServerConfig: {
 				DisplayName: 服务器端配置
@@ -276,7 +183,41 @@ Mods: {
 					Seasons: 季节性事件
 					Seeds: 秘密世界种子
 					Unlimited: 无限效果
+					StatMultipliers: 数据倍率
 					Misc: 杂项
+				}
+
+				EnemyHealth: {
+					Label: "[i:29] 敌怪生命值"
+					Tooltip: 将所有敌怪生命值按该倍率提升
+				}
+
+				BossHealth: {
+					Label: "[i:29] Boss生命值"
+					Tooltip: 
+						'''
+						将所有Boss生命值按该倍率提升
+						此值与上一项之间只会采用一个最高的倍率
+						'''
+				}
+
+				EnemyDamage: {
+					Label: "[i:3507] 敌怪伤害"
+					Tooltip: 将所有敌怪和敌对弹幕造成的伤害在计算伤害减免后按该倍率提升
+				}
+
+				BossDamage: {
+					Label: "[i:3507] Boss伤害"
+					Tooltip: 
+						'''
+						将所有Boss的伤害在计算伤害减免后按该倍率提升
+						此值与上一项之间只会采用一个最高的倍率
+						'''
+				}
+
+				BossApplyToAllWhenAlive: {
+					Label: Boss相关数据倍率适用范围扩大
+					Tooltip: Boss生命值和伤害倍率除了对Boss生效外，也对Boss存活时的所有敌怪生效
 				}
 			}
 
@@ -2111,11 +2052,6 @@ Mods: {
 				// Tooltip: "'Kien R. Oco'"
 			}
 
-			WiresPainting: {
-				DisplayName: Wires绘画
-				Tooltip: “向内看……”
-			}
-
 			WoodenToken: {
 				DisplayName: 木牌
 				Tooltip: “真正的木材爱好者的标志”
@@ -2476,32 +2412,36 @@ Mods: {
 				DisplayName: 憎恶
 
 				TownNPCMood: {
-					// Content: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.Content}"
-					// NoHome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.NoHome}"
-					// FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.FarFromHome}"
-					// LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LoveSpace}"
-					// DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.DislikeCrowded}"
-					// HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.HateCrowded}"
-					// LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LoveBiome}"
-					// LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LikeBiome}"
-					// DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.DislikeBiome}"
-					// HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.HateBiome}"
-					// LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LoveNPC}"
-					// LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LikeNPC}"
-					// HateNPC: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.HateNPC}"
-					// LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LikeNPC_Princess}"
-					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Abominationn}"
+					Content: 我很满意。
+					NoHome: 给我一个住所，我会降低价格。
+					LoveSpace: 不用挤在一起针不戳。
+					FarFromHome: 我可以飞回我家，但我真的不想被人看到。
+					DislikeCrowded: 周围的人太多了，他们一直在戳我的脸。
+					HateCrowded: 你知道在周围这么多人的情况下，拿着镰刀不割伤任何人有多难吗？
+					LikeBiome: 我喜欢{BiomeName}，这是一个拥有我兄弟翅膀的好对手的家。
+					LoveBiome: 我非常喜欢太空，我们在着陆前先到达了这里。
+					DislikeBiome: 这儿有太多弱小的敌人生活在{BiomeName}。
+					HateBiome: 我很讨厌{BiomeName}。
+					LikeNPC: 那个女孩，{NPCName}，她是我妹妹……我击败过的事件比她多，但是她很不错。
+					LoveNPC: 那个家伙，{NPCName}，他是我哥哥……我击败过的Boss比他多，但是他很强大。
+					DislikeNPC: 我不喜欢{NPCName}。
+					HateNPC: "{NPCName}毁了战斗的荣耀，我不想让她靠近我。"
+					LikeNPC_Princess: "{NPCName}看起来真棒。"
+					Princess_LovesNPC: "{NPCName}正在讲述他精彩的冒险故事！"
 				}
 
 				Chat: {
+					// Special
 					Defeat: 你真的打败了我……不错。现在来试试无伤我吧。哦对了，只能用铜短剑。
 					MutantShimmer: 这家伙变成松鼠了，没想到还能看见这么有趣的事情……
 					StyxArmor: 你穿的这套盔甲可真是怀旧……不，它不再合我身了。而且它蓄满能量需要太长时间了。
 					Graveyard: 我希望周围所有的这些墓碑不是你的。
 					Mechanic: 你能去跟{0}说让她别再碰我的激光胳膊了吗？
-					Normal1: 我的镰刀是从哪里弄来的？{0}
-					Normal1PHM: 稍后问我吧。
-					Normal1HM: 你会明白的。
+					// Normal
+					Formattable1: 我的镰刀是从哪里弄来的？{0}
+					Formatter1PHM: 稍后问我吧。
+					Formatter1HM: 你会明白的。
+					Normal1: 我已经杀了一千人了……什么？？你还是人？你手上的鲜血有那么多……
 					Normal2: 我已经打败了这片土地上的一切……没有什么能打败我。
 					Normal3: 你可曾有一把粘在你手上的武器？它不是很方便。
 					Normal4: Yoramur怎么了？不知道你在说谁。
@@ -2523,7 +2463,6 @@ Mods: {
 					Normal20: 我听说过一位传奇潜水员的故事……但无论如何，巨型水母是什么？？
 					Normal21: 过载事件？那可太酷了。
 					Normal22: 我不是不喜欢你的陪伴，但你能买点东西吗！？
-					Normal23: 我已经杀了一千人了……什么？？你还是人？你手上的鲜血有那么多……
 					// Cancel Event
 					Canceled: 天灵灵地灵灵，事件结束了！
 					CancelCD: 我现在没有力气，{0}秒之后再来吧。
@@ -2538,22 +2477,22 @@ Mods: {
 				DisplayName: 戴薇安
 
 				TownNPCMood: {
-					// Content: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.Content}"
-					// NoHome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.NoHome}"
-					// FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.FarFromHome}"
-					// LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LoveSpace}"
-					// DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.DislikeCrowded}"
-					// HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.HateCrowded}"
-					// LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LoveBiome}"
-					// LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LikeBiome}"
-					// DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.DislikeBiome}"
-					// HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.HateBiome}"
-					// LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LoveNPC}"
-					// LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LikeNPC}"
-					// DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.DislikeNPC}"
-					// HateNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.HateNPC}"
-					// LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LikeNPC_Princess}"
-					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Deviantt}"
+					Content: 我感觉很好！
+					NoHome: 请问你有空的房间吗？任何房间？即使是监狱也没问题！
+					LoveSpace: 和平与宁静意味着我可以尽情享受！
+					FarFromHome: 我想我的房子就在那边……除非你正带我去什么地方？
+					DislikeCrowded: 人越多越好，但我开始觉得有点挤了。
+					HateCrowded: 我甚至不能把腿踢出去而不碰到别人。
+					LikeBiome: 哈哈哈，关于{BiomeName}的一些东西只是出于某种原因让我无法控制地笑了起来！
+					LoveBiome: 天上的星星太美了，我很喜欢看它们划过天空！
+					DislikeBiome: 我们能去比这儿暖和的地方吗？
+					HateBiome: 我想住在别的地方！这太可怕了，我正冒着暴风雨！
+					LikeNPC: "{NPCName}是我的大哥，但不是最大的。他酷毙了！"
+					LoveNPC: "{NPCName}在这！那是我的老大哥，他不是最酷的吗？！"
+					DislikeNPC: 我受不了像{NPCName}那样的女孩，感觉她到这儿来只是为某个特定的观众。
+					HateNPC: 就在我们之间。你有没有想过把{NPCName}扔回你找到他的地方？
+					LikeNPC_Princess: 我要找时间再去看看{NPCName}，这儿有个女孩钩住了我！
+					Princess_LovesNPC: "{NPCName}非常令人愉快，我们能在一起聊几个小时都不厌倦！"
 				}
 
 				Chat: {
@@ -2575,7 +2514,9 @@ Mods: {
 					Mutant2: 总有一天，我会卖自己的召唤物！……开玩笑的。那是{0}的工作。
 					Lumber: 什么？你想和{0}打一架？……嗯，我建议你最好别去尝试。
 					EternityMode: 拥抱痛苦吧……受虐时别忘了来我这买新东西！
-					Normal1: "{0}！我刚才看到了一些啮齿类动物！你没有被仓鼠感染吧？对吧！？"
+					// Normal
+					Formattable1: "{0}！我刚才看到了一些啮齿类动物！你没有被仓鼠感染吧？对吧！？"
+					Normal1: 呃……我不会趁你不注意往你身上扔爱情药水的啦，嗯……我是说，买点东西吧！
 					Normal2: 你知道吗？唯一真正的音乐类型是死亡金属和艺术核心。
 					Normal3: 我要让你知道我已经度过了一百多Fargo年了！别问我一Fargo年有多长。
 					Normal4: 如果你继续买，我可能承担得起更高的身体！
@@ -2591,7 +2532,6 @@ Mods: {
 					Normal14: 你问我为什么要多出一个字母？只有我们中的最强者才被允许删除他们多出来的字母！
 					Normal15: 你杀的稀有的东西越多，我卖的东西就越多！就是这么简单。
 					Normal16: 哦，嗨！我……呃，千万不要现在给我丢臭味药水！我平时也不会那样！
-					Normal17: 呃……我不会趁你不注意往你身上扔爱情药水的啦，嗯……我是说，买点东西吧！
 				}
 
 				HelpDialogue: {
@@ -2642,24 +2582,29 @@ Mods: {
 				DisplayName: 伐木工
 
 				TownNPCMood: {
-					// Content: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.Content}"
-					// NoHome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.NoHome}"
-					// FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.FarFromHome}"
-					// LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LoveSpace}"
-					// DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.DislikeCrowded}"
-					// HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateCrowded}"
-					// LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LoveBiome}"
-					// HateBiome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateBiome}"
-					// LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LikeNPC}"
-					// DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.DislikeNPC}"
-					// HateNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateNPC}"
-					// LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LikeNPC_Princess}"
-					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/LumberJack}"
+					Content: 我很高兴只要世界上有需要砍伐的木头。
+					NoHome: 没有一个小木屋可以回家的伐木工人是不完整的！
+					LoveSpace: 周围人少了，这意味着我可以随心所欲地挥动斧头，没有人挡道。
+					FarFromHome: 这儿离我的小木屋太远了。我应该回去磨一磨我的斧子。
+					DislikeCrowded: 我觉得这里越来越挤了。
+					HateCrowded: 周围人太多了。没什么会比砍掉一个人更能破坏一个砍树的好心情。
+					LikeBiome: "{BiomeName}里大量的树让人成为一个快乐的伐木工人。"
+					LoveBiome: 在{BiomeName}没有什么能比得上老式的伐木工了！
+					DislikeBiome: 在{BiomeName}没什么能砍的!
+					HateBiome: 在{BiomeName}什么都砍不了!
+					LikeNPC: 我砍倒了树，{NPCName}种了更多，我们是完美的搭档。
+					LoveNPC: 我很高兴{NPCName}了解砍倒大树的美妙之处。
+					DislikeNPC: "{NPCName}告诉我要开始拥抱树木……所以我教会了我的斧头为我拥抱树木。"
+					HateNPC: "{NPCName}一点也不懂我的意思。炸掉森林不是伐木！"
+					LikeNPC_Princess: "{NPCName}用斧头比我想象中要更好！"
+					Princess_LovesNPC: "{NPCName}非常有力，有空想和他一起砍树！"
 				}
 
 				Chat: {
+					// Special
 					Nurse: 我总是看见{0}在我砍树的时候盯着我的二头肌。不知道她是不是想要一些我的木头。
 					LucyTheAxe: 来自那个宇宙的露西……有趣的东西正等着你呢。
+					// Normal
 					Normal1: 王朝木？这话我就跟你说，那东西不是真木头！
 					Normal2: 仙人掌当然不是木头，但我仍然可以用我可靠的斧头砍了它。
 					Normal3: 你对我不会有任何幻想……对吧？
@@ -2706,24 +2651,26 @@ Mods: {
 				DisplayName: 突变体
 
 				TownNPCMood: {
-					// Content: "{$Mods.Fargowiltas.TownNPCMood.Mutant.Content}"
-					// NoHome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.NoHome}"
-					// FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.FarFromHome}"
-					// LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveSpace}"
-					// DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeCrowded}"
-					// HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Mutant.HateCrowded}"
-					// LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveBiome}"
-					// LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeBiome}"
-					// DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeBiome}"
-					// HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.HateBiome}"
-					// LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveNPC}"
-					// LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeNPC}"
-					// DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeNPC}"
-					// LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeNPC_Princess}"
-					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Mutant}"
+					Content: 谢谢你的房子，我想。
+					NoHome: 房子没什么坏处，但我不介意。
+					LoveSpace: Boss战之间的休息时间很不错，前提是周围没有很多人。
+					FarFromHome: 我会吃史莱姆和僵尸，但在家吃人类的食物也不错。
+					DislikeCrowded: 这里人太多了。他们似乎很沮丧，因为我一直在赢得我们的对视比赛。
+					HateCrowded: 如果在这个拥挤的城镇上再多一个人撞上我的脑子……不管它了。
+					LikeBiome: 我们都从{BiomeName}开始，这是个好地方。
+					LoveBiome: 住在这儿很舒服，但是你什么时候能找到我的神殿？
+					DislikeBiome: "{BiomeName}应该给我留下深刻印象吗？大仙灵不会，这是肯定的。"
+					HateBiome: 你想要更昂贵的召唤物吗？让我住在{BiomeName}意味着更贵的召唤物。
+					LikeNPC: 我忘了{NPCName}是什么时候加入这个家庭的，但她已经赢得了她的位置。		
+					LoveNPC: "{NPCName}和我打了很多次仗，可惜没有机会再打了。"
+					DislikeNPC: 为什么{NPCName}在这儿？那好吧，不要直视他的眼睛，他不会吓到你的……
+					HateNPC: "{NPCName}最好在我用我的洞察者之前离开。"
+					LikeNPC_Princess: "{NPCName}看起来很友好。"
+					Princess_LovesNPC: "{NPCName}有一些很奇特的东西，他很适合当朋友！"
 				}
 
 				Chat: {
+					// Special
 					EternityDefeat: 恭喜。你真正地拥抱了永恒……至少，我认为你做到过？那么之后会发生什么？从这种无聊的境界飞升？与一只超凡的猫形生物战斗？毁灭世界？所有力量现在都掌握在你的手里。
 					Defeat: 打得不错，我感觉。不过我还想更充分的伸展我的翅膀……我们下次认真打一场吧？
 					MutantArmor: 你这套盔甲很好，有非常逼真的皮肤。事实上，你介意我借用一下吗？我说的是你的皮肤。
@@ -2751,6 +2698,7 @@ Mods: {
 					Demolitionist: "{0}暂时还没有在地板上炸个洞，不过仔细想想感觉这也挺有趣的。"
 					Tavernkeep: "{0}一直建议我喝啤酒，但我喝醉了他也不会喜欢我。"
 					DyeTrader: "{0}想看看我穿蓝色衣服会是什么样子……我不知道什么感觉。"
+					// Normal
 					Normal1: 残暴、野蛮、嗜血，这就是我喜欢在人们身上看到的。
 					Normal2: 你越强大，我卖的东西就越多。不难理解，对吧？
 					Normal3: 你们所有人都有一些我没有的东西……死亡感知，是叫这个来着吧？
@@ -2809,21 +2757,29 @@ Mods: {
 				DisplayName: 松鼠
 
 				TownNPCMood: {
-					// Content: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.Content}"
-					// NoHome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.NoHome}"
-					// FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.FarFromHome}"
-					// LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LoveSpace}"
-					// DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.DislikeCrowded}"
-					// HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.HateCrowded}"
-					// LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LoveBiome}"
-					// HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.HateBiome}"
-					// LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LikeNPC}"
-					// LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LikeNPC_Princess}"
-					// Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Squirrel}"
+					Content: *表达满足的吱吱声*
+					NoHome: *因无家可归而悲哀的吱吱声*
+					LoveSpace: *因不拥挤而快乐的吱吱声*
+					FarFromHome: *因迷路而悲哀的吱吱声*
+					DislikeCrowded: *因拥挤而悲哀的吱吱声*
+					HateCrowded: *因拥挤不堪而非常悲哀的吱吱声*
+					LikeBiome: *对{BiomeName}开心的吱吱声*
+					LoveBiome: *对{BiomeName}非常开心的吱吱声*
+					DislikeBiome: *对{BiomeName}悲哀的吱吱声*
+					HateBiome: *对{BiomeName}非常悲哀的吱吱声*
+					LikeNPC: *对{NPCName}快乐的吱吱声*
+					
+					LoveNPC: *对{NPCName}非常快乐的吱吱声*
+					DislikeNPC: *对{NPCName}愤怒的吱吱声*
+					HateNPC: *对{NPCName}非常愤怒的吱吱声*
+					LikeNPC_Princess: *对{NPCName}快乐的吱吱声*
+					Princess_LovesNPC: "{NPCName}真的真的真的好可爱！！"
 				}
 
 				Chat: {
+					// Special
 					BloodMoon: "[c/FF0000:你会受苦的。]"
+					// Normal
 					Normal1: *吱吱*
 					Normal2: *啾啾*
 					Normal3: *嘎吱嘎吱*
