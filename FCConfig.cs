@@ -5,6 +5,13 @@ namespace FargoChinese
 {
     public class FCConfig : ModConfig
     {
+        public static FCConfig Instance;
+        
+        public override void OnLoaded()
+        {
+            Instance = this;
+        }
+
         public override ConfigScope Mode => ConfigScope.ClientSide;
 
         [Header("WorldDifficulty")]

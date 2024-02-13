@@ -154,7 +154,7 @@ namespace FargoChinese.GameCommentSystem
             #endregion*/
             #region Fruit
             Fruit:
-            if (!ModContent.GetInstance<FCConfig>().FruitTip)
+            if (!FCConfig.Instance.FruitTip)
                 goto KeyBind;
             bool condition;
             switch (item.type)
@@ -337,7 +337,7 @@ namespace FargoChinese.GameCommentSystem
             #endregion*/
             #region KeyBind
             KeyBind:
-            if (!ModContent.GetInstance<FCConfig>().KeyBindTip)
+            if (!FCConfig.Instance.KeyBindTip)
                 return;
             switch (item.type)
             {

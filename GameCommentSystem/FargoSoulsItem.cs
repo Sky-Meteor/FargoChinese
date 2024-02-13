@@ -21,7 +21,7 @@ namespace FargoChinese.GameCommentSystem
             Player player = Main.LocalPlayer;
             var fargoPlayer = player.GetModPlayer<FargoPlayer>();
             #region KeyBind
-            if (!GetInstance<FCConfig>().SoulsKeyBindTip)
+            if (!FCConfig.Instance.SoulsKeyBindTip)
                 goto NextTip;
             if (item.type == ItemType<StardustEnchant>() || item.type == ItemType<SnowEnchant>() || item.type == ItemType<FrostEnchant>() || item.type == ItemType<CosmoForce>() || item.type == ItemType<NatureForce>())
                 AddKeyBindTip("按下“冻结”键", "FargowiltasSouls/Freeze", "77DEFF");
