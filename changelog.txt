@@ -1,2 +1,2 @@
-v330.1660.1
-更新Fargo突变汉化
+v330.1661.1
+add a translationMod tag
