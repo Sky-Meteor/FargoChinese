@@ -9,9 +9,12 @@ using Terraria.GameContent.Achievements;
 using Terraria.ModLoader;
 using FargowiltasSouls.Content.Items.Accessories.Enchantments;
 using Terraria.ID;
+using FargowiltasSouls.Content.Items.Accessories.Forces;
+using FargowiltasSouls.Content.Items.Accessories.Souls;
 
 namespace FargoChinese.ModSystems
 {
+    [JITWhenModsEnabled("FargowiltasSouls")]
     public class KillByPearl : ModPlayer
     {
         public bool MakeSureFirst;
@@ -21,7 +24,7 @@ namespace FargoChinese.ModSystems
         }
         public override void Kill(double damage, int hitDirection, bool pvp, PlayerDeathReason damageSource)
         {
-            if (damageSource.SourceProjectileType == 931 && !MakeSureFirst && Main.projectile[damageSource.SourceProjectileLocalIndex].GetGlobalProjectile<PearlWoodTipProjectile>().IsSpawnByPearl)
+            if (ModLoader.HasMod("FargowiltasSouls") && damageSource.SourceProjectileType == 931 && !MakeSureFirst && Main.projectile[damageSource.SourceProjectileLocalIndex].GetGlobalProjectile<PearlWoodTipProjectile>().IsSpawnByPearl)
             {
                 Main.NewText("汉化组的提示：一直扣血是珍珠木魔石的效果，请仔细阅读珍珠木魔石的饰品效果说明。", 255, 204, 204);
                 Main.NewText("可在背包右下角的[i:FargowiltasSouls/TogglerIconItem]饰品效果切换菜单中选择关闭饰品效果。", 255, 204, 204);
@@ -30,6 +33,7 @@ namespace FargoChinese.ModSystems
         }
     }
 
+    [JITWhenModsEnabled("FargowiltasSouls")]
     public class PearlWoodTipProjectile : GlobalProjectile
     {
         public override bool AppliesToEntity(Projectile entity, bool lateInstantiation)
@@ -41,14 +45,18 @@ namespace FargoChinese.ModSystems
         public bool IsSpawnByPearl;
         public override void OnSpawn(Projectile projectile, IEntitySource source)
         {
-            if (source is IEntitySource_WithStatsFromItem s && s.Item.type == ModContent.ItemType<PearlwoodEnchant>())
+            Mod FargowiltasSouls = ModLoader.GetMod("FargowiltasSouls");
+            if (FargowiltasSouls != null && source is IEntitySource_WithStatsFromItem s )
             {
-                IsSpawnByPearl = true;
+                if(s.Item.type == ModContent.ItemType<PearlwoodEnchant>() || s.Item.type == ModContent.ItemType<TimberForce>() || s.Item.type == ModContent.ItemType<TerrariaSoul>())
+                {
+                    IsSpawnByPearl = true;
+                }               
             };
         }
     }
 
-    public class GlobalItemTranslate : GlobalItem
+    public class ItemTranslate : GlobalItem
     {
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
