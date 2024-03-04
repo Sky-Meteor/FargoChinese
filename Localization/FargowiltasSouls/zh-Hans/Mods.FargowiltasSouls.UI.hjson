@@ -1,0 +1,17 @@
+SoulTogglerButton: 饰品效果配置
+EternityEnabled: 永恒模式已开启
+MasochistEnabled: 受虐模式已开启
+SavedToSlot: 已将饰品效果设置保存至自定义效果配置{0}！
+NoTogglesFound: 未找到自定义效果配置{0}
+TurnAllTogglesOff: 关闭全部饰品效果
+TurnAllTogglesOn: 打开全部饰品效果
+SomeEffectsPreset: 部分效果预设
+MinimalEffectsPreset: 最小化影响预设
+CustomPreset: 自定义效果配置{0}（右键点击以保存）
+// Reload button is currently removed
+ReloadToggles: 重新加载饰品效果（右键点击以重新加载）
+NoToggles: 未装备可调整效果的饰品！
+DisplayAll: 显示全部饰品效果
+DisplayEquipped: 显示已装备的饰品效果
+SearchText: 搜索……
+MainMenu: Fargo's

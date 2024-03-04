@@ -1,0 +1,20 @@
+MasochistModeUnlocked: "{$Mods.FargowiltasSouls.Items.Masochist.DisplayName} 随着新涌现的能量而波动……！"
+
+WorldUpdatingSystem: {
+	EternityOn: 永恒模式已开启!
+	EternityOff: 永恒模式已关闭。
+	EternityWrongDifficulty: 难度过低，永恒模式已关闭……
+	MasochistOn: 大师模式与永恒模式结合：受虐模式已开启！！
+	MasochistOnZenith: 大师模式与天顶种子结合：受虐模式已开启！！
+	MasochistOff: 受虐模式已关闭。
+	BloodMoonCancel: 血月改变了主意，溜了溜了……
+}
+
+Revived: 你复活了！
+NoMusic1: 未加载Fargo的音乐Mod（Fargo's Music Mod）！
+NoMusic2: 请加载Fargo的音乐Mod以获得完整的游戏体验！！
+NoDLC1: 您正在同时游玩Fargo's Souls与{0}。
+NoDLC2: 建议加载Fargo's Souls DLC模组，以保证这些模组之间的兼容性和内容！
+Wiki: 查看Fargo官方英文wiki：[c/3989FF:https://fargosmods.wiki.gg]（中文wiki因为种种原因现在信息十分过时老旧）
+PatreonNameEffect: 你的特殊捐赠者效果已激活！
+MoonsDeathPenalty: 事件回溯，波数倒退！

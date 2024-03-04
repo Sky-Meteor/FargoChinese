@@ -1,0 +1,14 @@
+// Conditions (used in recipes, NPC shop, etc)
+RoombaPetSold: 启用扫地机器人配置时
+// ItemDropRuleConditions (used in NPC loot, etc)
+DownedEvilBoss: 在任意邪恶Boss被击败后
+EMode: "[i:FargowiltasSouls/Masochist] 在永恒模式下的掉落率"
+EModeEarlyBirdHM: "[i:FargowiltasSouls/Masochist] 在困难模式下的永恒模式下的的掉落率"
+EModeEarlyBirdPHM: "[i:FargowiltasSouls/Masochist] 在困难模式之前的永恒模式下的掉落率"
+EModeNotMaster: 这是大师或永恒模式下的掉落率
+NotEMode: "[i:FargowiltasSouls/Masochist] 在非永恒模式下的掉落率"
+TimsConcoction: "[i:FargowiltasSouls/TimsConcoction] 佩戴蒂姆的秘药时的掉落率"
+Patreon: "[i:FargowiltasSouls/RoombaPet] 作为捐赠者物品的掉落率"
+PatreonEMode: "[i:FargowiltasSouls/RoombaPet] 在永恒模式下作为捐赠者物品的掉落率"
+PatreonPlant: "[i:FargowiltasSouls/RoombaPet] 在血月的丛林作为捐赠者物品的掉落率"
+FirstKill: 在永恒模式中首次击败时掉落

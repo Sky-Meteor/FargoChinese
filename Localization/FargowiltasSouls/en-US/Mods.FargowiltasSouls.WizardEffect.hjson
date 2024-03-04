@@ -1,0 +1,68 @@
+// Maybe move into entries of each enchant
+Adamantite: Projectiles now split into 3, damage reduced from 70/60% to 50/37.5%
+Apprentice: The next 2 weapons are used instead of 1
+AncientHallow: Sword damage increased, projectile damage cap increased to 200
+AncientShadow: Number of Shadow Orbs increased
+AncientCobalt: No upgrade
+Angler: No upgrade
+Bee: Increased wing strength and bee swarm damage
+Beetle: No upgrade
+BorealWood: Fires more snowballs more often
+Cactus: Number of needles and damage increased
+Chlorophyte: Damage of ring and spores increased, cooldown of spores reduced
+Cobalt: On-hit explosion damage increased
+Copper: Lightning damage increased to 200, cooldown reduced
+Crimson: Timer doubled, but the heal triggers twice. Once in the middle, and once at the end
+CrystalAssassin: No upgrade
+DarkArtist: The next 3 weapons are used instead of 2
+Ebonwood: Aura size increased, defense reduction increased to 40
+Forbidden: Damage boost increased from 30 to 60%
+Fossil: Revive heal increased to 200 and revive bone count doubled
+Frost: Icicle damage doubled
+Gladiator: Increased banner aura size, decreased spear rain cooldown
+Gold: No upgrade
+Hallow: Potion heal bonus increased from 40 to 70%
+Huntress: Armor penetration and flat damage increased to 10 and 5 respectively
+Iron: Increases chance not to consume to 50%
+Jungle: Spore damage increased, cooldown decreased
+Lead: Lead Poisoning damage increased, DoT resistance increased to 60%
+Meteor: A meteor shower initiates every few seconds while attacking
+Miner: Increased mining speed
+Molten: Inferno ring does more damage and can affect enemies in slightly larger range
+Monk: Increased dash damage
+Mythril: Max attack speed bonus increased and lasts longer
+Nebula: Buff booster stack cap increased to 3
+Necro: Graves have increased size, float, and slightly home in on you when you're close
+Ninja: Maximum damage bonus increased to 30%, maximum player speed where effect activates increased
+Obsidian: You no longer need lava to spawn explosions or fireballs, cooldown reduced
+Orichalcum: Increases multiplier to 4x
+Palladium: Rapid Healing always lasts 5 seconds, increases orb damage
+PalmWood: Attack speed, damage, and size increased
+Pearlwood: Star can hit enemies, your attacks have 2 extra chances to crit
+Platinum: No upgrade
+Pumpkin: Pumpkins can grow while flying, heal for twice as much, and flame damage is increased to 45
+Rain: Umbrella can block up to 400 damage and reflected damage is tripled
+RedRiding: Arrow rain has less cooldown and deals more damage
+RichMahogany: Hooks pull 2.5x as fast, damage resistance and thorns increased greatly
+Shadewood: Aura size and blood damage increased, additionally applies Ichor
+Shinobi: Increased dash damage
+Shroomite: Mushrooms are spawned more often
+Silver: Parrying blocks up to 200 damage and always grants the Striking Moment buff
+Solar: No upgrade
+Spectre: Decreased cooldown and always spawns healing orb
+Spider: No upgrade
+Spooky: Decreased cooldown
+Stardust: Timestop cooldown decreased from 60 to 50
+Snow: No upgrade
+Shadow: Number of Shadow Orbs increased
+Squire: Mount defense increased from 10 to 15, speed and acceleration from 1.25x to 1.5x, heal bonus from 10% to 15%
+Tiki: Increases whip range by 20%
+Tin: Minimum crit increased to 10%, max crit is at least 50%, reduced proc cooldown
+Titanium: Shard damage increased, Titanium Shield duration increased to 5 seconds and damage resistance increased to 35%
+Tungsten: Weapon size tripled instead of doubled, damage bonus increased from 7% to 14%, and cooldown reduced
+Turtle: Occasionally recover a projectile block point, number of needles and damage increased
+ValhallaKnight: Mount defense increased from 15 to 20, acceleration from 1.5x to 2x, and heal bonus from 15% to 20%
+Vortex: No upgrade
+Wood: Bestiary and banner multiplier increased to 5
+AshWood: Fires balls of fire more often
+NoUpgrade: No upgrade

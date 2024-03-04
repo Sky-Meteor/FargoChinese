@@ -1,0 +1,53 @@
+Nekomi:
+	'''
+	7% increased damage and critical strike chance for your current weapon class
+	Increases Sparkling Adoration graze radius
+	Graze attacks to temporarily charge energy
+	Increases life regeneration when damaged at the cost of some energy
+	Double tap {0} to release energy as life-draining hearts
+	Wield a demon axe of love and justice when fully charged, becomes stronger in hardmode
+	'''
+Gaia:
+	'''
+	10% increased melee speed
+	Reduces mana usage by 10%
+	10% chance to not consume ammo
+	Increases max number of minions and sentries by 4
+	Double tap {0} to toggle offensive mode, which has the following effects:
+	30% increased damage and 15% increased critical strike chance for your current weapon class
+	Increases armor penetration by 20
+	Reduces defense by 20, max life by 10%, and damage reduction by 15%
+	'''
+EridanusOff:
+	'''
+	20% increased damage for your current weapon class
+	10% increased critical strike chance for your current weapon class
+	10% increased attack speed for your current weapon class
+	Double tap {0} to activate Eridanus' blessing
+	'''
+EridanusOn:
+	'''
+	Eridanus' blessing empowers a weapon class
+	The empowered class changes every 10 seconds
+	Eridanus fights alongside you when you use the empowered class
+	80% increased damage for the empowered class
+	30% increased critical strike chance for the empowered class
+	30% increased attack speed for the empowered class
+	Double tap {0} to deactivate Eridanus' blessing
+	'''
+Styx:
+	'''
+	20% increased damage for your current weapon class
+	Attack enemies to charge energy
+	Reduces damage taken at the cost of some energy
+	Double tap {0} to release energy as homing shots
+	Brandish a blade of infernal magic when fully charged
+	'''
+Mutant:
+	'''
+	Phantasmal Spheres shoot deathrays at nearby enemies
+	Abominationn's Visage fights alongside you
+	Your attacks inflict God Eater and Hellfire
+	You erupt into a massive deathray whenever revived
+	20% increased weapon use speed
+	'''
