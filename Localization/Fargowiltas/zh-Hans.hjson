@@ -178,6 +178,11 @@ Mods: {
 					Tooltip: 替换遵循火把运气，可能会和火把神的恩宠的默认选择有所不同
 				}
 
+				PylonsIgnoreEvents: {
+					Label: 事件期间可以使用晶塔
+					Tooltip: ""
+				}
+
 				Headers: {
 					TownNPCs: 城镇NPC
 					Seasons: 季节性事件
@@ -2404,6 +2409,11 @@ Mods: {
 					投下一颗炸弹，在其下方形成一片150×50的水体
 					如果下方有重要建筑物，请勿使用
 					'''
+			}
+
+			KohaCrystal: {
+				DisplayName: 祛魔水晶
+				Tooltip: 撤销一次魔力水晶的使用
 			}
 		}
 
