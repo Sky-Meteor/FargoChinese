@@ -234,6 +234,11 @@ Mods: {
 					Tooltip: ""
 				}
 
+				HideUnlimitedBuffs: {
+					Label: "[i:292] 隐藏无限增益图标"
+					Tooltip: ""
+				}
+
 				DoubleTapDashDisabled: {
 					Label: "[i:3097] 禁用双击冲刺"
 					Tooltip: 禁用后双击方向键无法再触发冲刺。无论此配置开或关，单独设置的冲刺键都不会受到影响。
@@ -400,6 +405,11 @@ Mods: {
 			WoodDrop: {
 				DisplayName: 掉落木头
 				// Description: Mods.Fargowiltas.BuffDescription.WoodDrop
+			}
+
+			BigSuckBuff: {
+				DisplayName: 超级黑洞
+				Description: 你正吞噬一切！
 			}
 		}
 
@@ -2414,6 +2424,11 @@ Mods: {
 			KohaCrystal: {
 				DisplayName: 祛魔水晶
 				Tooltip: 撤销一次魔力水晶的使用
+			}
+
+			BigSuckPotion: {
+				DisplayName: 超级黑洞药水
+				Tooltip: 使你将一切物品吸入囊中
 			}
 		}
 
