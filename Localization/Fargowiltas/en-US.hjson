@@ -178,6 +178,11 @@ Mods: {
 					Tooltip: Obeys true torch luck, which may differ from Torch God's Favor
 				}
 
+				PylonsIgnoreEvents: {
+					Label: Pylons Ignore Events
+					Tooltip: ""
+				}
+
 				Headers: {
 					TownNPCs: Town NPCs
 					Seasons: Seasons
@@ -218,6 +223,11 @@ Mods: {
 
 				ExpandedTooltips: {
 					Label: "[i:171] More tooltips indicate Mutant Mod changes"
+					Tooltip: ""
+				}
+
+				HideUnlimitedBuffs: {
+					Label: "[i:292] Hide unlimited buffs in tray"
 					Tooltip: ""
 				}
 
@@ -387,6 +397,11 @@ Mods: {
 			WoodDrop: {
 				DisplayName: Wood Drop
 				Description: Mods.Fargowiltas.BuffDescription.WoodDrop
+			}
+
+			BigSuckBuff: {
+				DisplayName: Big Suck
+				Description: You are sucking everything
 			}
 		}
 
@@ -2399,6 +2414,16 @@ Mods: {
 					Drops a bomb that creates a 150x50 body of water below it
 					Do not use if any important building is below
 					'''
+			}
+
+			KohaCrystal: {
+				DisplayName: Koha Crystal
+				Tooltip: Decreases the amount of Mana Crystals you have by 1
+			}
+
+			BigSuckPotion: {
+				DisplayName: Big Suck Potion
+				Tooltip: Makes you suck everything
 			}
 		}
 
