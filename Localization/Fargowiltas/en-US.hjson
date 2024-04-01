@@ -179,7 +179,7 @@ Mods: {
 				}
 
 				PylonsIgnoreEvents: {
-					Label: Pylons Ignore Events
+					Label: "[i:4876] Pylons Ignore Events"
 					Tooltip: ""
 				}
 
@@ -272,6 +272,9 @@ Mods: {
 			CommonFish: Common Fish
 			CaughtNPC: Caught Town NPC
 			ArmoredBonesBanner: Armored Bones Banner
+			FoodT2: Plenty Satisfying Food
+			FoodT3: Exquisitively Stuffing Food
+			GemRobe: Gem Robe
 		}
 
 		UI: {
@@ -838,6 +841,7 @@ Mods: {
 					Left click to instantly change time
 					Time cycles between dawn, noon, dusk, and midnight
 					Right click to activate the Enchanted Sundial effect
+					Slower use speed when a boss is alive
 					Cycling to dawn will reset travelling merchant's shops
 					'''
 			}
@@ -1019,8 +1023,8 @@ Mods: {
 					'''
 			}
 
-			PartyCone: {
-				DisplayName: Party Cone
+			PartyInvite: {
+				DisplayName: Party Invite
 				Tooltip:
 					'''
 					Starts a Party!
@@ -1927,6 +1931,11 @@ Mods: {
 				Tooltip: ""
 			}
 
+			MutantToilet: {
+				DisplayName: Mutant Toilet
+				Tooltip: Don't.
+			}
+
 			EchPainting: {
 				DisplayName: Ech Painting
 				Tooltip: "'Groalt W. Fai'"
@@ -2423,7 +2432,11 @@ Mods: {
 
 			BigSuckPotion: {
 				DisplayName: Big Suck Potion
-				Tooltip: Makes you suck everything
+				Tooltip:
+					'''
+					Makes you suck everything
+					Must be consumed manually
+					'''
 			}
 		}
 

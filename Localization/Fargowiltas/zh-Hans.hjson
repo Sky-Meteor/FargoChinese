@@ -179,7 +179,7 @@ Mods: {
 				}
 
 				PylonsIgnoreEvents: {
-					Label: 事件期间可以使用晶塔
+					Label: "[i:4876] 事件期间可以使用晶塔"
 					Tooltip: ""
 				}
 
@@ -280,6 +280,9 @@ Mods: {
 			CommonFish: 普通鱼
 			CaughtNPC: 被抓捕的城镇NPC
 			ArmoredBonesBanner: 装甲骷髅旗帜
+			FoodT2: 二级饱食食物
+			FoodT3: 三级饱食食物
+			GemRobe: 宝石长袍
 		}
 
 		UI: {
@@ -847,6 +850,7 @@ Mods: {
 					左键单击可立即切换时间
 					可以在黎明，中午，黄昏和午夜之间切换时间
 					右键点击可激活魔法日晷效果
+					有Boss存活时使用速度会变慢
 					切换到黎明会重置旅行商人的商店
 					'''
 			}
@@ -1028,8 +1032,8 @@ Mods: {
 					'''
 			}
 
-			PartyCone: {
-				DisplayName: 派对帽
+			PartyInvite: {
+				DisplayName: 派对邀请函
 				Tooltip:
 					'''
 					开派对吧！
@@ -1932,6 +1936,11 @@ Mods: {
 				// Tooltip: ""
 			}
 
+			MutantToilet: {
+				DisplayName: 突变体马桶
+				Tooltip: 不要这样……
+			}
+
 			EchPainting: {
 				DisplayName: Ech猫绘画
 				// Tooltip: "'Groalt W. Fai'"
@@ -2428,7 +2437,11 @@ Mods: {
 
 			BigSuckPotion: {
 				DisplayName: 超级黑洞药水
-				Tooltip: 使你将一切物品吸入囊中
+				Tooltip: 
+					'''
+					使你将一切物品吸入囊中
+					必须要手动使用消耗
+					'''
 			}
 		}
 
