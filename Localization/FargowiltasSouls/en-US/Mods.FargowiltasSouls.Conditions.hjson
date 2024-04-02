@@ -1,0 +1,14 @@
+// Conditions (used in recipes, NPC shop, etc)
+RoombaPetSold: When the Roomba config is enabled
+// ItemDropRuleConditions (used in NPC loot, etc)
+DownedEvilBoss: After any Evil Boss has been defeated
+EMode: "[i:FargowiltasSouls/Masochist] Eternity Mode drop rate"
+EModeEarlyBirdHM: "[i:FargowiltasSouls/Masochist] Hardmode Eternity Mode drop rate"
+EModeEarlyBirdPHM: "[i:FargowiltasSouls/Masochist] Pre-Hardmode Eternity Mode drop rate"
+EModeNotMaster: This is a Master/Eternity Mode drop rate
+NotEMode: "[i:FargowiltasSouls/Masochist] Non-Eternity Mode drop rate"
+TimsConcoction: "[i:FargowiltasSouls/TimsConcoction] Tim's Concoction drop rate"
+Patreon: "[i:FargowiltasSouls/RoombaPet] Patreon Drop"
+PatreonEMode: "[i:FargowiltasSouls/RoombaPet] Patreon Drop in Eternity Mode"
+PatreonPlant: "[i:FargowiltasSouls/RoombaPet] Patreon Drop in Jungle on Blood Moon"
+FirstKill: Dropped in Eternity Mode on first kill
