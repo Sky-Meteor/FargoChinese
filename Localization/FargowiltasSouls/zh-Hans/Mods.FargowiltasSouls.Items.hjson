@@ -441,8 +441,8 @@ PearlwoodEnchant: {
 	DisplayName: 珍珠木魔石
 	Tooltip:
 		'''
-		攻击有额外一次暴击机会
-		移动时一颗破坏之星会跟随玩家并试图对玩家造成伤害
+		按下“减益负载”键会召唤一颗破坏之星，它会跟随玩家并试图对玩家造成伤害
+		破坏之星存活时，你的攻击有额外一次暴击机会
 		“直面你自己吧……”
 		'''
 }
@@ -932,7 +932,7 @@ TimberForce: {
 		[i:FargowiltasSouls/RichMahoganyEnchant] 所有钩爪的抛出速度×2，牵引速度×2.5，回收速度×3
 		[i:FargowiltasSouls/EbonwoodEnchant][i:FargowiltasSouls/ShadewoodEnchant] 暗影焰、诅咒焰和鲜血光环环绕着你
 		[i:FargowiltasSouls/PalmWoodEnchant] 双击“下”键召唤两个会向敌人扔橡实的棕榈树哨兵
-		[i:FargowiltasSouls/PearlwoodEnchant] 攻击有额外两次暴击机会，你的倒影会跟着你并试图对你造成伤害
+		[i:FargowiltasSouls/PearlwoodEnchant] 按下“减益负载”键召唤试图伤害你的破坏之星，其存活时你的攻击有额外两次暴击机会
 		“很硬”
 		'''
 }
