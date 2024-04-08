@@ -21,6 +21,7 @@ namespace FargoChinese.ModSystems
         public override void OnEnterWorld()
         {
             MakeSureFirst = false;
+            Main.NewText("汉化组的提示：可在背包右下角的[i:FargowiltasSouls/TogglerIconItem]饰品效果切换菜单中选择关闭饰品效果。", 255, 255, 51);
         }
         public override void Kill(double damage, int hitDirection, bool pvp, PlayerDeathReason damageSource)
         {
