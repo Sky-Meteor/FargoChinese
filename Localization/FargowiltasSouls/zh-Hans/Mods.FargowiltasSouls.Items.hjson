@@ -242,7 +242,7 @@ GoldEnchant: {
 	Tooltip:
 		'''
 		攻击会造成迈达斯减益
-		捡起钱币时，自动将它们存进猪猪存钱罐中
+		捡起钱币时，自动将它们存进猪猪存钱罐中（这个效果放在在物品栏中也能生效）
 		按下“金身”键会将你包裹在一个黄金壳中
 		被包裹时你无法移动或攻击，但你免疫所有伤害
 		再次按下“金身”键会使你提前离开黄金壳
@@ -831,7 +831,7 @@ EarthForce: {
 		[i:FargowiltasSouls/CobaltEnchant] 额外获得一次爆炸二段跳，受击时你会剧烈爆炸
 		[i:FargowiltasSouls/MythrilEnchant] 停止攻击以逐渐增加攻击速度，最多持续5秒
 		[i:FargowiltasSouls/PalladiumEnchant] 暴击敌人会快速治疗，基于回复的血量放出生命能量球
-		[i:FargowiltasSouls/OrichalcumEnchant] 攻击生成花瓣，伤害性减益造成4倍伤害
+		[i:FargowiltasSouls/OrichalcumEnchant] 攻击生成花瓣，伤害性减益造成3.5倍伤害
 		[i:FargowiltasSouls/AdamantiteEnchant] 你发射的所有弹幕都会分裂成三个，每个造成50%伤害，并随着武器持续使用弹幕分散角度会逐渐增大
 		[i:FargowiltasSouls/TitaniumEnchant] 攻击生成钛金碎片防御屏障，达到最大个数获得钛金护盾
 		“盖亚的祝福照耀着你”
@@ -942,8 +942,8 @@ WillForce: {
 	Tooltip:
 		'''
 		[i:FargowiltasSouls/GoldEnchant] 按下“金身”键会将你包裹在一个黄金壳中
-		[i:FargowiltasSouls/GoldEnchant] 捡起钱币时，自动将它们存进猪猪存钱罐中
-		[i:FargowiltasSouls/PlatinumEnchant] 敌人死亡时有20%的几率获得五倍的战利品
+		[i:FargowiltasSouls/GoldEnchant] 捡起钱币时，自动将它们存进猪猪存钱罐中（这个效果放在物品栏中也能生效）
+		[i:FargowiltasSouls/PlatinumEnchant] 敌人死亡时有33%的几率获得五倍的战利品
 		[i:FargowiltasSouls/GladiatorEnchant] 双击下键召唤一个旗子，靠近旗子时获得增益
 		[i:FargowiltasSouls/GladiatorEnchant] 长矛将倾泄在被攻击的敌人身上
 		[i:FargowiltasSouls/RedRidingEnchant] 连续攻击命中会获得额外伤害加成
@@ -1935,7 +1935,7 @@ EridanusHat: {
 		增加5%伤害
 		增加5%暴击率
 		增加4个召唤栏位
-		增加2个哨兵栏位
+		增加1个哨兵栏位
 		'''
 }
 
@@ -1953,7 +1953,7 @@ GaiaGreaves: {
 	DisplayName: 盖亚护胫
 	Tooltip:
 		'''
-		增加10%你手持武器职业的伤害
+		增加10%伤害
 		增加5%暴击率
 		增加10%移动速度
 		'''
