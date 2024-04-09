@@ -48,3 +48,8 @@ Configs: {
 		}
 	}
 }
+
+WorldDifficulty: {
+	eternal: eternal
+	masochist: masochist
+}

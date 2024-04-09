@@ -13,6 +13,7 @@ using Terraria.GameContent.UI.Elements;
 using Terraria.IO;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
+using Terraria.Localization;
 
 namespace FargoChinese.ModSystems
 {
@@ -70,13 +71,13 @@ namespace FargoChinese.ModSystems
 
             if (difficulty == 1)
             {
-                expertText = "永恒";
+                expertText = Language.GetTextValue("Mods.FargoChinese.WorldDifficulty.eternal");
             }
             else if (difficulty == 2)
             {
                 if (num != 4)
                 {
-                    expertText = "受虐";
+                    expertText = Language.GetTextValue("Mods.FargoChinese.WorldDifficulty.masochist");
                     gameModeColor = FCConfig.Instance.EnableWorldDifficultyShader ? Color.White : new Color(0, 255, 255);
                 }
             }
