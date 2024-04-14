@@ -859,9 +859,9 @@ NatureForce: {
 		'''
 		[i:FargowiltasSouls/CrimsonEnchant] 受击后7秒内未再次受击则恢复损失的一半生命值，计算两次
 		[i:FargowiltasSouls/MoltenEnchant] 引燃你附近较大范围内的敌人
-		[i:FargowiltasSouls/MoltenEnchant] 狱火圈的伤害增加
+		[i:FargowiltasSouls/MoltenEnchant] 狱火圈的伤害增加，所有敌怪在狱火圈内会额外受到25%伤害
 		[i:FargowiltasSouls/RainEnchant] 召唤一把可反射上方弹幕的雨伞
-		[i:FargowiltasSouls/SnowEnchant] 你的周围会出现冰锥，按下“冻结”键后将一切冻结20秒，并造成霜冻减益
+		[i:FargowiltasSouls/SnowEnchant] 你的周围会出现冰锥，攻击敌人会造成霜冻减益
 		[i:FargowiltasSouls/ChlorophyteEnchant] 召唤一圈叶绿水晶攻击附近的敌人
 		[i:FargowiltasSouls/JungleEnchant] 使你获得孢子二段跳和孢子冲刺的能力
 		[i:FargowiltasSouls/ShroomiteEnchant] 站定不动时使你进入隐身状态
