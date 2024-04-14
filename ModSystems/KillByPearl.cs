@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Terraria;
 using Terraria.DataStructures;
-using Terraria.GameContent.Achievements;
 using Terraria.ModLoader;
 using FargowiltasSouls.Content.Items.Accessories.Enchantments;
 using Terraria.ID;

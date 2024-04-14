@@ -20,5 +20,8 @@
     <Reference Include="FargowiltasSouls">
       <HintPath>BuildIgnore\FargowiltasSouls.dll</HintPath>
     </Reference>
+    <Reference Include="Luminance">
+      <HintPath>BuildIgnore\Luminance.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
