@@ -1,11 +1,12 @@
 [h1]这是[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2570931073]Fargo突变[/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2815540735]Fargo魂石[/url]的汉化补丁，使用时必须开启Fargo突变，Fargo魂石为可选开启
-适用版本：Fargo突变v3.3.2，Fargo魂石v1.6.8（均为最新版）[/h1]
+适用版本：Fargo突变v3.3.2，Fargo魂石v1.6.90（均为最新版）[/h1]
 
 Fargo突变&魂石汉化补丁
 使用时请将游戏语言设置为中文，其他语言会出现问题！
 游戏中尤其是多人模式可能会出现一些异常，如果关闭此mod重启游戏不能解决（基本确定是此mod问题），请留言上报
 目前汉化已完工，如果有没汉化或汉化错误的部分也请留言指出
 特别感谢：灾厄维基汉化组，@SweelLong
+最新版Fargo's Souls加载出问题时需订阅[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3222493606&searchtext=luminance]luminance模组[/url]解决
 
 有汉化相关问题请加QQ群956434713反馈
 有意向参与汉化工作的玩家可以进灾厄维基汉化组QQ群：660392953（进群需要汉化考核，工作范围包括但不限于灾厄及各附属，Fargo，救赎，星海等等）
