@@ -37,18 +37,18 @@ namespace FargoChinese
 
         public override void UpdateEquips()
         {
-            if (ModContent.GetInstance<FargoServerConfig>().PiggyBankAcc)
-            {
-                foreach (Item item in Player.bank.item)
-                {
-                    TryPiggyBankAcc(item, Player);
-                }
+            //if (ModContent.GetInstance<FargoServerConfig>().PiggyBankAcc)
+            //{
+            //    foreach (Item item in Player.bank.item)
+            //    {
+            //        TryPiggyBankAcc(item, Player);
+            //    }
 
-                foreach (Item item in Player.bank2.item)
-                {
-                    TryPiggyBankAcc(item, Player);
-                }
-            }
+            //    foreach (Item item in Player.bank2.item)
+            //    {
+            //        TryPiggyBankAcc(item, Player);
+            //    }
+            //}
         }
 
         public static void TryPiggyBankAcc(Item item, Player player)
