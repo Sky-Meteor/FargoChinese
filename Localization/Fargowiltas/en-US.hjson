@@ -113,11 +113,6 @@ Mods: {
 					Tooltip: 30+ for potions and bait
 				}
 
-				ExtraBuffSlots: {
-					Label: "[i:3000] Additional Buff Slots"
-					Tooltip: ""
-				}
-
 				AnglerQuestInstantReset: {
 					Label: "[i:2374] Angler Quest Instant Reset"
 					Tooltip: ""
@@ -684,6 +679,7 @@ Mods: {
 					'''
 					Destroys a large area
 					Will not remove background walls
+					Avoids breaking areas denoted as important
 					Use at your own risk
 					'''
 			}
@@ -695,7 +691,8 @@ Mods: {
 					Creates 2 bridges of obsidian platforms across the whole world
 					Also clears the area between and above the platforms
 					The bottom bridge appears at your cursor
-					Do not use if any important building is nearby
+					Avoids breaking areas denoted as important
+					Use at your own risk
 					'''
 			}
 
@@ -710,7 +707,8 @@ Mods: {
 					'''
 					Drops a bomb that creates half a hellevator instantly
 					Will not dig below a certain depth
-					Do not use if any important building is below
+					Avoids breaking areas denoted as important
+					Use at your own risk
 					'''
 			}
 
@@ -721,7 +719,8 @@ Mods: {
 					Creates a bridge of platforms across the whole world
 					Also clears the area right above the platforms
 					The bridge appears at your cursor
-					Do not use if any important building is nearby
+					Avoids breaking areas denoted as important
+					Use at your own risk
 					'''
 			}
 
@@ -732,7 +731,8 @@ Mods: {
 					Creates a minecart track across the whole world
 					Also clears the area right above the tracks
 					The track appears at your cursor
-					Do not use if any important building is nearby
+					Avoids breaking areas denoted as important
+					Use at your own risk
 					'''
 			}
 
@@ -741,7 +741,8 @@ Mods: {
 				Tooltip:
 					'''
 					Drops a bomb that creates a hellevator instantly
-					Do not use if any important building is below
+					Avoids breaking areas denoted as important
+					Use at your own risk
 					'''
 			}
 
@@ -771,7 +772,8 @@ Mods: {
 					Creates a bridge of obsidian platforms across the whole world
 					Also clears the area right above the platforms
 					The bridge appears at your cursor
-					Do not use if any important building is nearby
+					Avoids breaking areas denoted as important
+					Use at your own risk
 					'''
 			}
 
@@ -827,7 +829,11 @@ Mods: {
 
 			ModeToggle: {
 				DisplayName: World Token
-				Tooltip: Cycles difficulty modes
+				Tooltip:
+					'''
+					Cycles difficulty modes with left click
+					Toggles Journey Mode with right click (can cause issues in multiplayer)
+					'''
 				Journey: Journey mode is now enabled!
 				Normal: Normal mode is now enabled!
 				Expert: Expert mode is now enabled!
@@ -2421,7 +2427,8 @@ Mods: {
 				Tooltip:
 					'''
 					Drops a bomb that creates a 150x50 body of water below it
-					Do not use if any important building is below
+					Avoids breaking areas denoted as important
+					Use at your own risk
 					'''
 			}
 
@@ -2982,7 +2989,7 @@ Mods: {
 			TrueTorchLuck: Obeys true torch luck when replacing torches, which may differ from default choices
 			UnlimitedBuff30: Unlimited buff at 30 stack in inventory, Piggy Bank, or Safe
 			UnlimitedUse30: Unlimited use at 30 stack
-			PermanentEffectNearby: Permanently provides effect to nearby players
+			PermanentEffectNearby: Permanently provides effect to nearby players when placed
 			WorksFromBanks: Works from Piggy Bank and Safe
 			SoldBySquirrel: Sold By Squirrel
 			SomeMaterialsSold: Some Materials Sold
