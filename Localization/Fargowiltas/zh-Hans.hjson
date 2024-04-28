@@ -1376,7 +1376,7 @@ Mods: {
 			}
 
 			GoreySpine: {
-				DisplayName: 红斑脊椎
+				DisplayName: 大脑物质
 				Tooltip: 在任何生物群落中召唤克苏鲁之脑
 			}
 
@@ -1425,7 +1425,7 @@ Mods: {
 			}
 
 			FleshyDoll: {
-				DisplayName: 血肉娃娃
+				DisplayName: 向导娃娃火柴套
 				Tooltip:
 					'''
 					召唤血肉之墙
@@ -1472,12 +1472,12 @@ Mods: {
 			}
 
 			SlimyCrown: {
-				DisplayName: 黏糊糊的王冠
+				DisplayName: 黏糊糊的诏书
 				Tooltip: 召唤史莱姆王
 			}
 
 			SuspiciousEye: {
-				DisplayName: 似乎可疑的眼球
+				DisplayName: 似乎可疑的眼药水
 				Tooltip: 召唤克苏鲁之眼
 			}
 
@@ -1924,7 +1924,7 @@ Mods: {
 			}
 
 			WormyFood: {
-				DisplayName: 蠕虫食物
+				DisplayName: 腐烂诱饵
 				Tooltip: 在任何生物群落中召唤世界吞噬怪
 			}
 
