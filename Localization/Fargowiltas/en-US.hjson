@@ -113,6 +113,11 @@ Mods: {
 					Tooltip: 30+ for potions and bait
 				}
 
+				ExtraBuffSlots: {
+					Label: "[i:3000] Additional Buff Slots"
+					Tooltip: ""
+				}
+
 				AnglerQuestInstantReset: {
 					Label: "[i:2374] Angler Quest Instant Reset"
 					Tooltip: ""
@@ -1362,7 +1367,7 @@ Mods: {
 			}
 
 			GoreySpine: {
-				DisplayName: Red Stained Spine
+				DisplayName: Brain Matter
 				Tooltip: Summons the Brain of Cthulhu in any biome
 			}
 
@@ -1411,7 +1416,7 @@ Mods: {
 			}
 
 			FleshyDoll: {
-				DisplayName: Fleshy Doll
+				DisplayName: Guide Doll and Match Kit
 				Tooltip:
 					'''
 					Summons the Wall of Flesh
@@ -1458,12 +1463,12 @@ Mods: {
 			}
 
 			SlimyCrown: {
-				DisplayName: Slimy Crown
+				DisplayName: Slimy Decree
 				Tooltip: Summons King Slime
 			}
 
 			SuspiciousEye: {
-				DisplayName: Eye That Could Be Seen As Suspicious
+				DisplayName: Suspicious Looking Eyedrops
 				Tooltip: Summons the Eye of Cthulhu
 			}
 
@@ -1915,7 +1920,7 @@ Mods: {
 
 			WormyFood: {
 				DisplayName: Wormy Food
-				Tooltip: Summons the Eater of Worlds in any biome
+				Tooltip: Rotting Bait
 			}
 
 			CrimsonAltar: {
