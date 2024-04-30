@@ -265,6 +265,7 @@ MutantBoss: {
 		Quote33: Oh, right... my revive...
 		Quote34: You're pretty good...
 		Quote35: BLUE
+		Quote36: I am Mutant, Blade of Fargo.
 	}
 }
 
@@ -372,3 +373,5 @@ EMode: {
 	GelatinSubjects: Gelatin Subjects have awoken!
 	QueenBeeEnrage: "{$NPCName.QueenBee} has enraged outside the underground jungle!"
 }
+
+RoyalSubjectVertical.DisplayName: Royal Subject Vertical

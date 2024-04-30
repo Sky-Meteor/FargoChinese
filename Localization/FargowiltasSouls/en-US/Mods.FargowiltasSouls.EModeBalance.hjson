@@ -33,7 +33,7 @@ IceBarrier: Eternity Mode: 10% reduced damage
 SpearRework: Reworked spear swing animation
 PalladiumPikeRework: Greatly increases life regeneration after striking an enemy
 CobaltNaginataRework: Causes a small explosion on striking enemies
-MythrilHalberdRework: After not attacking for 2 seconds, your next attack deals triple damage
+MythrilHalberdRework: After not attacking for 2 seconds, your next attack deals 8x damage, scaling with attack speed
 OrichalcumHalberdRework: Releases flower petals on swing
 SuperStarCannon: Decreased maximum pierce to 7
 WarmthPotionNerf: Halved damage reduction effect
@@ -41,3 +41,5 @@ CrossNecklaceNerf: Longer invincibility doesn't trigger on rapid successive hits
 IceBladeFrostburn: Projectile inflicts Frostburn on-hit
 JungleRose: Increases Plantera's Fruit drop rate from Snatcher-type enemies
 StarCloak: -50% star damage before Hardmode
+WeatherPain: Increased hit frequency and pierce
+HoundiusShootius: Increased fireball velocity
