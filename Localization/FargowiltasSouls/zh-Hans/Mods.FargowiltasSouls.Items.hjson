@@ -334,7 +334,7 @@ MoltenEnchant: {
 	Tooltip:
 		'''
 		引燃你附近的敌人
-		所有敌怪在狱火圈内时多受到25%伤害
+		所有敌怪在狱火圈内时多受到20%伤害
 		“他们将感受到地狱的愤怒”
 		'''
 }
@@ -932,7 +932,7 @@ TimberForce: {
 		[i:FargowiltasSouls/RichMahoganyEnchant] 所有钩爪的抛出速度×2，牵引速度×2.5，回收速度×3
 		[i:FargowiltasSouls/EbonwoodEnchant][i:FargowiltasSouls/ShadewoodEnchant] 暗影焰、诅咒焰和鲜血光环环绕着你
 		[i:FargowiltasSouls/PalmWoodEnchant] 双击“下”键召唤两个会向敌人扔橡实的棕榈树哨兵
-		[i:FargowiltasSouls/PearlwoodEnchant] 按下“减益负载”键召唤试图伤害你的破坏之星，其存活时你的攻击有额外两次暴击机会
+		[i:FargowiltasSouls/PearlwoodEnchant] 按下“减益负载”键召唤试图伤害你的破坏之星并使你的攻击获得额外两次暴击机会
 		“很硬”
 		'''
 }
@@ -992,7 +992,7 @@ AgitatingLens: {
 		冲刺或奔跑时会在身后留下一串鲜血镰刀
 		按住“上”“下”的同时按下“减益负载”键进入狂暴状态
 		狂暴时，大幅提升进攻能力，大幅降低防御能力，且你无法停止攻击或移动
-		狂暴状态持续7.5秒，结束后会被昏迷2.5秒
+		狂暴状态持续8秒，结束后会被昏迷2秒
 		“被打败的敌人的躁动残渣”
 		'''
 }

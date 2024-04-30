@@ -410,7 +410,7 @@ RottingBuff: {
 RushJobBuff: {
 	DisplayName: 急活
 	Description: 护士现在还不能再次治疗你
-	NurseChat: 我已经在这有限的时间内尽我所能了！
+	NurseChat: 那个可怕的家伙还在追杀你吗？先去把它杀了再来找我吧！
 }
 
 SadismBuff: {

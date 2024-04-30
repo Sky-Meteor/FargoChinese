@@ -412,3 +412,5 @@ EMode: {
 	GelatinSubjects: 圣凝史莱姆已苏醒！
 	QueenBeeEnrage: "{$NPCName.QueenBee}在地下丛林之外变得异常愤怒！"
 }
+
+RoyalSubjectVertical.DisplayName: 皇家工蜂
