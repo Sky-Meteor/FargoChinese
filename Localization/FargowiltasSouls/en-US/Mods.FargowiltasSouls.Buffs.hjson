@@ -410,7 +410,7 @@ RottingBuff: {
 RushJobBuff: {
 	DisplayName: Rush Job
 	Description: The Nurse cannot heal you again yet
-	NurseChat: I've done all I can in the time I have!
+	NurseChat: With THAT monstrous thing still chasing you? Go kill it first!
 }
 
 SadismBuff: {
@@ -728,4 +728,9 @@ HellFireMarkedBuff: {
 MagicalCurseBuff: {
 	DisplayName: Magical Curse Buff
 	Description: Mods.FargowiltasSouls.Buffs.MagicalCurseBuff.Description
+}
+
+PearlwoodStarBuff: {
+	DisplayName: Pearlwood Star Buff
+	Description: Mods.FargowiltasSouls.Buffs.PearlwoodStarBuff.Description
 }
