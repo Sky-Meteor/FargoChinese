@@ -6,6 +6,7 @@ using FargowiltasSouls.Content.Items.Accessories.Enchantments;
 using Terraria.ID;
 using FargowiltasSouls.Content.Items.Accessories.Forces;
 using FargowiltasSouls.Content.Items.Accessories.Souls;
+using Microsoft.Xna.Framework;
 
 namespace FargoChinese.ModSystems
 {
@@ -19,6 +20,7 @@ namespace FargoChinese.ModSystems
             {
                 MakeSureFirst = false;
                 Main.NewText("汉化组的提示：可在背包右下角的[i:FargowiltasSouls/TogglerIconItem]饰品效果切换菜单中选择关闭饰品效果。", 255, 255, 51);
+                Main.NewText("汉化组的提示：Luminamce的模组配置中可以调整屏幕震动强度", Color.LightPink);
             }           
         }
         public override void Kill(double damage, int hitDirection, bool pvp, PlayerDeathReason damageSource)

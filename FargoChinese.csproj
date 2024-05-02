@@ -1,4 +1,4 @@
-
+﻿
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\tModLoader.targets" />
   <PropertyGroup>
@@ -20,5 +20,8 @@
     <Reference Include="Luminance">
       <HintPath>BuildIgnore\Luminance.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="tModLoader.CodeAssist" Version="0.1.5" />
   </ItemGroup>
 </Project>
