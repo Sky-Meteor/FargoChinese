@@ -20,7 +20,7 @@ Mods: {
 
 		EternityDeathDifficulty: {
 			Name: 永恒-死亡
-			ShortDescription: "[c/00FFFF:以Fargo的永恒模式为主并包含了部分] [c/800080:死亡模式] [c/00FFFF:更改的更具挑战性的难度。]"
+			ShortDescription: "[c/00FFFF:以Fargo的永恒模式为主并包含了部分][c/800080:死亡模式][c/00FFFF:更改的更具挑战性的难度。]"
 			ExpandedDescription:
 				'''
 				融合了[c/00FFFF:永恒模式]与[c/880808:死亡模式]，Boss会掉落大师模式专属物品。
@@ -56,6 +56,19 @@ Mods: {
 						[c/00FF00:建议保持启用状态。]
 						'''
 				}
+
+				ConsumableSummons: {
+					Label: 永恒模式下召唤物可消耗
+					Tooltip:
+						'''
+						将原版和灾厄的召唤物改为可消耗，覆盖灾厄将它们改为不可消耗的更改
+						此改动完全是为了与下列功能相匹配：
+						- 永恒模式下未击败Boss时召唤Boss将会退回召唤物（实际上等同于不消耗召唤物）
+						- 突变体NPC在击败Boss后售卖Boss召唤物的功能
+						- Fargo's Mutant Mod为Boss添加的召唤物变种
+						'''
+				}
+
 
 				EternityPriorityOverRev: {
 					Label: 永恒模式优先级高于复仇/死亡模式
@@ -363,9 +376,146 @@ Mods: {
 				DisplayName: 硫火女巫的烙印
 				Tooltip:
 					'''
-					拥有元灵之心、玄秘颅冠、无瑕粹魂晶、化绵留香石、血神圣杯效果
+					拥有元灵之心、玄秘颅冠、无瑕粹魂晶（//这玩意改名了，灾基那边译名还没确定，回头记得改）、化绵留香石、血神圣杯效果
 					拥有星云之核、寻神者之礼、嘉登之心、灾厄效果
 					'''
+			}
+
+			AerospecEnchantment: {
+				DisplayName: 天蓝魔石
+				Tooltip:
+					'''
+					提供两次天蓝跳跃
+					每次使用二段跳后都会增加暴击率
+					对非该魔石提供的跳跃也生效
+					'''
+			}
+
+			MarniteEnchantment: {
+				DisplayName: 合成岩魔石
+				Tooltip:
+					'''
+					提高10%放置速度，放置距离+5
+					建造和采矿时会产生激光攻击附近敌人
+					'''
+			}
+
+			DesertProwlerEnchantment: {
+				DisplayName: 沙漠巡游者魔石
+				Tooltip: 用强大的带电跳跃代替正常跳跃并提升水平移速 // 他妈到底是带电还是充能还是冲锋
+			}
+
+			WulfrumEnchantment: {
+				DisplayName: 钨钢魔石
+				Tooltip: 召唤一架无人机，可为你带来远处的物品
+			}
+
+			ExplorationForce: {
+				DisplayName: 勘探之力
+				Tooltip:
+					'''
+					[i:FargowiltasCrossmod/MarniteEnchantment] 增加25%放置速度和10放置距离
+					[i:FargowiltasCrossmod/MarniteEnchantment] 建造和采矿时会产生激光攻击附近敌人
+					[i:FargowiltasCrossmod/WulfrumEnchantment] 一架钨钢无人机会为你收集物品
+					[i:FargowiltasCrossmod/DesertProwlerEnchantment] 用带电的沙暴跳跃代替正常跳跃并提升水平移速 // 他妈到底是沙暴还是沙尘
+					[i:FargowiltasCrossmod/AerospecEnchantment] 提供5次天蓝跳跃，每次跳跃都可提升暴击率
+					'''
+			}
+
+			SnowRuffianEnchantment: {
+				DisplayName: 雪境暴徒魔石
+				Tooltip:
+					'''
+					获得滑翔能力
+					加快翅膀滑翔速度
+					滑翔时按住上键可获得向上的动量
+					滑翔时按住下键可加快下降速度（//他吗的这到底是什么效果，等实装了再看吧）
+					'''
+			}
+
+			DaedalusEnchantment: {
+				DisplayName: 代达罗斯魔石
+				Tooltip:
+					'''
+					提供无限飞行，但飞的太高会使飞行时间归零
+					改进翅膀滑翔（// 你妈的你到底怎么改进的我草你吗）
+					'''
+			}
+
+			PlagueReaperEnchantment: {
+				DisplayName: 瘟疫死神魔石
+				Tooltip:
+					'''
+					所有攻击都会造成短时间的瘟疫
+					靠近受瘟疫减益影响的敌人会在玩家周围产生瘟疫云
+					瘟疫云在短暂充能后爆炸为巨大的残留云
+					'''
+			}
+
+			PlaguebringerEnchantment: {
+				DisplayName: 瘟疫使者魔石
+				Tooltip: 所有随时间推移造成伤害的减益效果都会在敌怪之间传播
+			}
+
+			ReaverEnchantment: {
+				DisplayName: 掠夺者魔石
+				Tooltip:
+					'''
+					给予玩家多项数据提升
+					被击中时，这些提升可能会降低甚至变为负值
+					降低的效果会随时间推移慢慢恢复
+					'''
+			}
+
+			HydrothermicEnchantment: {
+				DisplayName: 渊泉魔石
+				Tooltip:
+					'''
+					长时间攻击后武器会过热
+					过热时攻击速度增加，伤害减免降低，且无法停止攻击
+					'''
+			}
+
+			DevastationForce: {
+				DisplayName: 毁灭之力
+				Tooltip:
+					'''
+					[i:FargowiltasCrossmod/SnowRuffianEnchantment] Improves wing gliding
+					[i:FargowiltasCrossmod/DaedalusEnchantment] Flight is limited by a maximum height rather than flight time
+					[i:FargowiltasCrossmod/ReaverEnchantment] Several stats increased, but these stats decrease when hit
+					[i:FargowiltasCrossmod/HydrothermicEnchantment] After attacking for too long, your weapon overheats
+					[i:FargowiltasCrossmod/HydrothermicEnchantment] While overheated, attack speed is increased, DR is reduced, and you cannot stop attacking
+					[i:FargowiltasCrossmod/PlaguebringerEnchantment] Debuffs spread between enemies
+					'''
+			}
+
+			UmbraphileEnchantment: {
+				DisplayName: 日影魔石
+				Tooltip:
+					'''
+					使用治疗药水时会生成一群蝙蝠来替代治疗药水的效果
+					蝙蝠会从敌怪身上夺取生命值治疗玩家
+					'''
+			}
+
+			TitanHeartEnchantment: {
+				DisplayName: 泰坦之心魔石
+				Tooltip: ""
+			}
+
+			StatigelEnchantment: {
+				DisplayName: 斯塔提斯魔石
+				Tooltip: ""
+			}
+
+			SulphurEnchantment: {
+				DisplayName: 硫磺魔石
+				Tooltip: ""
+			}
+
+			VictideEnchantment: {
+				DisplayName: 胜潮魔石
+				Tooltip: ""
 			}
 		}
 
@@ -440,6 +590,24 @@ Mods: {
 			PermafrostRitual.DisplayName: Permafrost Ritual
 			IceCloud.DisplayName: Chilling Snow
 			BrimstoneDebris.DisplayName: Brimstone Debris
+			BrimstonePulse.DisplayName: Brimstone Pulse
+			BrimstoneClone.DisplayName: Brimstone Clone
+			BrimBeam.DisplayName: Brim Beam
+			BrimstoneChainExplosion.DisplayName: Brimstone Chain Explosion
+			BrimstoneTeleport.DisplayName: Brimstone Teleport
+			BrimstoneFireblast.DisplayName: Brimstone Fireblast
+			FeatherJumpFeather.DisplayName: Feather Jump Feather
+			MarniteDagger.DisplayName: Marnite Dagger
+			MarniteLaser.DisplayName: Marnite Laser
+			ProwlerTornado.DisplayName: Prowler Tornado
+			WulfrumCollector.DisplayName: Wulfrum Collector
+			WulfrumScanner.DisplayName: Wulfrum Scanner
+			CrystalPlatform.DisplayName: Crystal Platform
+			PlagueCloud.DisplayName: Plague Cloud
+			Eruption.DisplayName: Eruption
+			VampireBat.DisplayName: Vampire Bat
+			SulphurBubble.DisplayName: Sulphur Bubble
+			VictideSpike.DisplayName: Victide Spike
 		}
 
 		Buffs: {
@@ -479,13 +647,46 @@ Mods: {
 			BrandoftheBrimstoneWitchHeader: "{$Mods.FargowiltasCrossmod.Items.BrandoftheBrimstoneWitch.DisplayName}"
 			HeartoftheElementsEffect: 元灵之心
 			OccultSkullCrownEffect: 玄秘颅冠
-			PurityEffect: 无瑕粹魂晶
+			PurityEffect: 无瑕粹魂晶（//记得改名）
 			TheSpongeEffect: 化绵留香石
 			ChaliceOfTheBloodGodEffect: 血神圣杯
 			NebulousCoreEffect: 星云之核
 			YharimsGiftEffect: "{$Mods.CalamityMod.Items.Accessories.YharimsGift.DisplayName}"
 			DraedonsHeartEffect: 嘉登之心
 			CalamityEffect: "{$Mods.CalamityMod.Items.Accessories.Calamity.DisplayName}"
+			SplendorJamEffect: Splendor Jam
+			ExplorationHeader: Force of Exploration
+			AerospecJumpEffect: Aerospec Jumps
+			MarniteStatsEffect: Marnite Building
+			MarniteLasersEffect: Marnite Lasers
+			DesertProwlerEffect: Charge Jump
+			WulfrumEffect: Collector Drones
+			SnowRuffianEffect: Better Gliding
+			DaedalusEffect: Daedalus Flight Limit
+			ReaverEffect: Reaver Stats
+			HydrothermicEffect: Overheat
+			PlaguebringerEffect: Debuff Spread
+		}
+
+		Cooldowns.DaedalusPlatformCooldown: Daedalus Platform
+	}
+
+	FargowiltasSouls: {
+		WizardEffect: {
+			Aerospec: Total of 5 jumps, jumping grants more crit
+			Marnite: Stronger daggers, +15% placement speed and +5 placement range
+			DesertProwler: Stronger jumps
+			Wulfrum: The drone is faster and occasionally finds bonus items
+			Hydrothermic: Longer overheat charge, more attack speed increase
+			Daedalus: Grants wings if you don't have any, Can fly higher
+			SnowRuffian: Grants some flight time
+			Reaver: More drastic stat changes
+			Plaguebringer:
+				'''
+				Debuffs spread from farther 
+				Enemies are tagged to spread debuffs for longer
+				'''
+			Umbraphile: Bats do more damage and travel faster
 		}
 	}
 }
