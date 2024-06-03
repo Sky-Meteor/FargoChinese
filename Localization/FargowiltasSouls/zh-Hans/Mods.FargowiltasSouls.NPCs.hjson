@@ -1,0 +1,416 @@
+AbomBoss_April.DisplayName: Javyz Boss
+
+AbomBoss: {
+	DisplayName: 憎恶
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.AbomBoss.DisplayName}"
+		SpawnInfo: 使用[i:FargowiltasSouls/AbomsCurse]召唤。
+		DespawnMessage: 憎恶找不到有价值的对手……
+		KilledAllMessage: 憎恶摧毁了所有人。
+	}
+}
+
+AbomSaucer.DisplayName: 迷你飞碟
+
+TrojanSquirrel: {
+	DisplayName: 特洛伊松鼠
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.TrojanSquirrel.DisplayName}"
+		SpawnInfo: 使用[i:FargowiltasSouls/SquirrelCoatofArms]召唤。
+		DespawnMessage: 特洛伊松鼠回到了它的松鼠聚落中……
+	}
+}
+
+TrojanSquirrelArms.DisplayName: 特洛伊松鼠
+TrojanSquirrelHead.DisplayName: 特洛伊松鼠
+
+CosmosChampion: {
+	DisplayName: 厄里达诺斯，宇宙英灵
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.CosmosChampion.DisplayName}"
+		SpawnInfo: 在太空使用[i:FargowiltasSouls/SigilOfChampions]召唤。
+		DespawnMessage: 宇宙英灵回归群星之中……
+		KilledAllMessage: 宇宙英灵击败了每一个敌人。
+	}
+}
+
+EarthChampion: {
+	DisplayName: 大地英灵
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.EarthChampion.DisplayName}"
+		SpawnInfo: 在地狱使用[i:FargowiltasSouls/SigilOfChampions]召唤。
+		DespawnMessage: 大地英灵隐于熔岩烈火……
+	}
+}
+
+EarthChampionHand.DisplayName: 大地英灵
+LesserFairy.DisplayName: 小精灵
+LesserSquirrel.DisplayName: 小松鼠
+
+LifeChampion: {
+	DisplayName: 生命英灵
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.LifeChampion.DisplayName}"
+		SpawnInfo: 白天时在神圣之地使用[i:FargowiltasSouls/SigilOfChampions]召唤。
+		DespawnMessage: 生命英灵消失在辉光中……
+	}
+}
+
+NatureChampion: {
+	DisplayName: 自然英灵
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.NatureChampion.DisplayName}"
+		SpawnInfo: 在地下雪原使用[i:FargowiltasSouls/SigilOfChampions]召唤。
+		DespawnMessage: 自然英灵在它的巢穴沉沉睡去……
+	}
+}
+
+NatureChampionHead.DisplayName: 自然英灵
+
+ShadowChampion: {
+	DisplayName: 暗影英灵
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.ShadowChampion.DisplayName}"
+		SpawnInfo: 夜晚时在腐化之地或猩红之地使用[i:FargowiltasSouls/SigilOfChampions]召唤。
+		DespawnMessage: 暗影英灵消失在魔雾中……
+	}
+}
+
+ShadowOrb.DisplayName: 暗影珠
+
+SpiritChampion: {
+	DisplayName: 心灵英灵
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.SpiritChampion.DisplayName}"
+		SpawnInfo: 在地下沙漠使用[i:FargowiltasSouls/SigilOfChampions]召唤。
+		DespawnMessage: 心灵英灵消失在沙漠深处……
+	}
+}
+
+SpiritChampionHand.DisplayName: 心灵英灵
+
+TerraChampion: {
+	DisplayName: 泰拉英灵
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.TerraChampion.DisplayName}"
+		SpawnInfo: 在地下使用[i:FargowiltasSouls/SigilOfChampions]召唤。
+		DespawnMessage: 泰拉英灵消失在洞穴深处……
+	}
+}
+
+TerraChampionBody.DisplayName: 泰拉英灵
+TerraChampionTail.DisplayName: 泰拉英灵
+
+TimberChampion: {
+	DisplayName: 森林英灵
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.TimberChampion.DisplayName}"
+		SpawnInfo: 白天时在地表使用[i:FargowiltasSouls/SigilOfChampions]召唤。
+		DespawnMessage: 森林英灵回到了它的松鼠聚落中……
+	}
+}
+
+TimberChampionHead.DisplayName: 森林英灵
+
+WillChampion: {
+	DisplayName: 意志英灵
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.WillChampion.DisplayName}"
+		SpawnInfo: 在海洋使用[i:FargowiltasSouls/SigilOfChampions]召唤。
+		DespawnMessage: 意志英灵返回深渊……
+	}
+}
+
+TophatSquirrelCritter.DisplayName: 高顶礼帽松鼠
+BrainClone.DisplayName: 克苏鲁之脑
+BrainIllusion.DisplayName: 克苏鲁之脑
+BrainIllusion2.DisplayName: 克苏鲁之脑
+BrainIllusionAttack.DisplayName: 克苏鲁之脑
+CreeperGutted.DisplayName: 飞眼怪
+CrystalLeaf.DisplayName: 叶绿水晶
+DetonatingBubble.DisplayName: 爆炸泡泡
+DetonatingBubbleEX.DisplayName: 爆炸泡泡
+GelatinSlime.DisplayName: 水晶史莱姆
+GelatinSubject.DisplayName: 圣凝史莱姆
+RoyalSubject.DisplayName: 皇家工蜂
+MutantBoss_April.DisplayName: 弑神者，亚利姆
+
+MutantBoss: {
+	DisplayName: 突变体
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.MutantBoss.DisplayName}"
+		SpawnInfo: 在突变体和憎恶存活时将[i:FargowiltasSouls/AbominationnVoodooDoll]投入岩浆池中。
+		DespawnMessage: 突变体再次将自己的力量封印起来……
+		KilledAllMessage: 突变体肃清了他周围的每一个生灵。
+	}
+
+	SkipP1: 突变体不想再伪装下去了……
+
+	GFBText: {
+		Random0: 呵呵呵呵呵呵呵……
+		Random1: 你们很享受这场灾难吗？
+		Random2: 这种感觉……
+		Random3: 我将终结这一切！
+		Random4: 愚蠢至极，泰拉人。
+		Random5: 在你们的渺小的墓碑上铭刻着：被伟大的突变体所击败！
+		Random6: 没人能声称拥有着永恒的称号！
+		Random7: 永恒的痛苦……
+		Random8: 你不配拥有永恒之魂！
+		Random9: 在我的力量下颤抖吧！
+		Random10: 洞察者躁动不安……
+		Random11: 在真正的力量下化为齑粉吧！
+		Random12: 力量掌握在我的手中！我绝对的力量是不可磨灭的事实！
+		Random13: 见证一场真正的灾难吧。
+		Random14: 我可以在你击败我之前背下圆周率的所有的位数。
+		Random15: 这才刚刚开始……
+		Random16: 不要试图逃避！
+		Random17: 焚膏继晷数千载，仅为此一战……
+		Random18: 弱者不配活着。
+		Random19: 运气不再会有用了。
+		Random20: 我将用你的血来灌满整个圣杯！
+		Random21: 你们至始至终都很渺小，但我不一样。
+		Random22: 你将被碾为粉末！
+		Random23: 感受月亮之力吧！
+		Random24: 这些，我只用了一成力量罢了
+		Random25: 你的“力量”与我相比真是可笑。
+		Random26: 我每攻击一次，力量就会巨大提升！
+		Random27: 你觉得你能打败我吗？
+		Random28: 我是无与伦比的，我是不可战胜的。
+		Random29: 一切都将化为灰烬。
+		Random30: 你准备好承担这一切的后果了吗？
+		Random31: 你，无处可逃！
+		Random32: 上帝希望你经历苦难，因为我就是上帝！
+		Random33: 你不配活着！
+		Random34: 你的生命是短暂的，你唯一的使命就是死亡。
+		Random35: 泰拉宇宙的力量都在我手中！
+		Random36: 去死吧！
+		Random37: 你可真是如玻璃般易碎啊……
+		Random38: 如果你停止攻击，我可以考虑放过你……
+		Random39: 汝将灰飞烟灭，徒留永恒痛苦之回忆！
+		Random40: 汝之一切，终将被埋葬！
+		Random41: 超越地狱烈火的煎熬！
+		Random42: 感觉你的细胞之间距离太远了呢，让我帮你解决这个问题……
+		Random43: 构成你的每个原子都将被撕碎！
+		Random44: 在永恒之神面前如孩童般哭泣吧！
+		Random45: 用你的鲜血祭奠那些灵魂！
+		Random46: 吾乃泰拉之主，天地共证！
+		Random47: 诸天都向我俯首！
+		Random48: 在熊熊烈火中，我将取得胜利！
+		Random49: 别再妄想你的成神之梦了！
+		Random50: 你的每根骨头都会被折断。
+		Random51: 大灾难即将来临！
+		Random52: 不知你能否活着看到结局？
+		Random53: 很痛吗？
+		Random54: 你根本伤害不到我。
+		Random55: 如同玻璃般四分五裂吧！
+		Random56: 如同尘土般灰飞烟灭吧！
+		Random57: 有抑郁症那你怎么不去死啊？
+		Random58: 期待听你死亡时凄惨的哭喊声呢……
+		Random59: 我是无上原初之神明！！
+		Random60: 要不要再添加一个魔鬼模式？
+		Random61: Furgo的力量在我面前如烛火般渺小！
+		Random62: 我觉得你一直用假币在欺骗我，需要狠狠惩罚呢……
+		Random63: 东方是什么动漫？
+		Random64: 你给我的假币让我很恼火，有点生气了呢……
+		Random65: 别想从我的手中逃脱出去！
+		Random66: 所有的一切都会在今天结束……
+		Random67: 你的死亡即将来临，你这蛆虫！
+		Random68: 你这种毫无价值令人恶心的存在快从世上消失吧！
+		Random69: 真可惜，你活不了多久了，无法见证我们的故事了呢……
+		Random70:
+			'''
+			汝以何之勇挑战吾？吾乃万象的支配者，吾乃永恒本身！
+			死亡的神祇属我麾下 ，历史的丰碑由我撰写！
+			若吾乃苍穹高悬的太阳，汝即为荒瀚垂死的蝼蚁。
+			汝之存在将被崩解，仅剩随风而逝的齑粉与末路穷途的余晖。
+			你一切的行动都在吾永恒的洞察中。
+			吾以巨像之拳巍然伫立，以幻影之眼洞悉周遭，以蜿蜒之蔓裹束宿命，以憎恶之蜂贯穿终始，以天赐之脑解构万象，猎手之翼振翅九霄！
+			微不足道的虫豸，汝之名姓将没于历史长河！
+			'''
+		Quote1: 交出你的灵魂吧！
+		Quote2: 准备好感受痛苦了吗……
+		Quote3: 游戏到此结束了……
+		Quote4: 洞察者之怒……
+		Quote5: 冲刺！
+		Quote6: 死亡射线！
+		Quote7: 欣赏我残酷永恒之神的永恒力吧！
+		Quote8: 让我的剑切碎你！
+		Quote9: 去死吧去死吧去死吧去死吧去死吧去死吧！！
+		Quote10: 我即是永恒！
+		Quote11: 感受我的力量吧！
+		Quote12: 日耀、星旋、星云、星尘……以四柱之力，撕碎你吧！
+		Quote13: 凝视深渊吧！
+		Quote14: 洞察者真正的力量……
+		Quote15: 和蔼！
+		Quote16: 世界千疮百孔……
+		Quote17: 机械动乱？
+		Quote18: 猪鲨之荣耀！
+		Quote19: 这是你应得的！
+		Quote20: 用哪一招折磨你呢……？
+		Quote21: 还能坚持住吗？
+		Quote22:
+			'''
+			无论多少次你都不可能获胜！我是残酷永恒之神明！
+			我拥有诸神黄昏下世界树的枝条、灾厄的硫火漩涡、
+			圣域的无尽暗影、蓝染的魔法、奥术之地的神圣魂灵、
+			升腾阿瓦隆的飞升之力、超视者新星的全能祝福、
+			远古觉醒的失落精华、裂痕魂魄的光耀万丈、
+			更好的体验的法力与构造、以及足以追溯至旧神之猎的宇宙之融合！
+			'''
+		Quote23: 全世界的力量都在联合对抗你！
+		Quote24: 光之女皇之力！
+		Quote25: 还没完呢，小子！
+		Quote26: 与那些魂石中的灵魂相比，你一无是处！我将以无上之力摧毁一切愚昧无知之辈！你要打败我吗？渡过两次永恒再来吧！！
+		Quote27: 去死吧虫子！传说末日到来前有三名使者，但我就是第四位，现实的毁灭者！你这样的败类，连地狱都不会容纳！永远承受我无限力量的无尽攻击，永恒的潜力延伸到绝对最大的神化！
+		Quote28:
+			'''
+			寰宇终末之力，维度重构之力，泰拉瑞亚之力，天堂审判之力都运与我掌！
+			数个世纪以来，我修炼的目的只有一个：裂解庸俗的囊瘤，碾碎无能的蝼蚁，拣选真正的强者。
+			我的血亲镇于天界，统御着天堂的至高点！
+			不久之后，新世纪的曙光即将出现在这片大地上！
+			一个令人敬畏的新时代，一个只有绝对存在的黄金时代！
+			殒殁，孽狱，潮汐；吾乃万物的起始与终焉，自然的运转与停息。
+			无边之伟力，鸿蒙之天启。绝对之存在，无瑕之圣洁！
+			'''
+		Quote29:
+			'''
+			在愚昧凡世的无稽戏谑中，我攫取了遗落于群星尽头的力量。
+			吾乃灾厄，灾劫，灾变的使者；命运箴言绝对骇能的施洗者。
+			感知吾凌驾时空的怒火，敬受吾令众生屈膝的鞭笞。
+			如同万象的塑型者令世界演变为真实！
+			'''
+		Quote30:
+			'''
+			神枪手之魂在我感知现实的能力面前苍白无力！狂战士之怒的力量只不过是小菜一碟！
+			超音速也无法与我的速度媲美，而可怜的巫师之魂只不过是装腔作势罢了！
+			飞行大师，巨像之魂仅是最基础的最基本的概念……
+			戴个大魔法帽的那位只不过是一个推销她的魔法的小家伙，南瓜头的实力与我相比只是冰山一角！
+			无论是超音速还是光速都打不到我！辉煌的光芒将消灭你，你这个傻瓜！！
+			'''
+		Quote31: 死死死死死死死死死死死死死死死死死！！！
+		Quote32: 我！不！会！被！毁！灭！
+		Quote33: 期待我的重生吧……
+		Quote34: 你真的很出色……
+		Quote35: 蓝色
+		Quote36: 我突变体，身为Fargo的锋刃——
+	}
+}
+
+MutantIllusion.DisplayName: 突变体
+
+DeviBoss: {
+	DisplayName: 戴薇安
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.DeviBoss.DisplayName}"
+		SpawnInfo: 使用[i:FargowiltasSouls/DevisCurse]召唤。
+		DespawnMessage: 戴薇安对战斗感到厌倦了……
+		KilledAllMessage: 戴薇安对于她所展示的爱的表演感到很满意。
+	}
+
+	Bribe: {
+		Line1: 等一下……
+		Line2: 你在朝我丢钱！
+		Line3: 嚯，你居然敢贿赂我，胆子可真大！
+		Accept1: 再说一次，这是一“大”笔钱……
+		Accept2: 但我大哥说不应该这么做！怎么办，怎么办……？
+		Accept3: 啊，什么鬼！不管了！但这是我们的小秘密，好吗？
+		Reject1: 如果你证明过你足够强，那我不会介意收下它们……但你根本没有！
+		Reject2: 这，拿着你的钱走。
+		Reject3: 让我们回到战斗中吧！
+	}
+}
+
+ShadowOrbNPC.DisplayName: 暗影珠
+
+LifeChallenger: {
+	DisplayName: 飘渺游光
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.LifeChallenger.DisplayName}"
+		SpawnInfo: 白天在神圣之地使用[i:FargowiltasSouls/FragilePixieLamp]召唤。
+		DespawnMessage: 飘渺游光随辉光消逝……
+	}
+
+	FatherOfLies: 你来到这里真是个致命错误。
+}
+
+BanishedBaron: {
+	DisplayName: 放逐遗爵
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.BanishedBaron.DisplayName}"
+		SpawnInfo: 在海洋的水下区域使用[i:FargowiltasSouls/MechLure]召唤。
+		DespawnMessage: 放逐遗爵正回归深渊……
+	}
+
+	Slurp: 吸溜
+}
+
+CursedCoffin: {
+	DisplayName: 咒缚灵棺
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.CursedCoffin.DisplayName}"
+		SpawnInfo: 在地下沙漠使用[i:FargowiltasSouls/CoffinSummon]召唤。
+		DespawnMessage: 咒缚灵棺隐匿于沙漠深处……
+	}
+}
+
+CursedSpirit.DisplayName: 诅咒之灵
+DetonatingBubbleNPC.DisplayName: 爆炸泡泡
+StardustMinion.DisplayName: 星尘仆从
+StardustDragon.DisplayName: 星尘之龙
+SlimeSwarm.DisplayName: 集群史莱姆
+// Magmaw.DisplayName: Magmaw
+DukeFishronEX.DisplayName: 猪鲨EX
+
+EMode: {
+	Betsy1: 你怕了？
+	Betsy2: 乐不起来
+	Betsy3: 这就是Fargo开荒吗？
+	Betsy4: 你怎么开着无限飞行打这个Boss啊
+	Betsy5: 空中祸害牛逼
+	Betsy6: 啥时候打点真的Boss？
+	Betsy7: "#不是受虐模式#"
+	Betsy8: 额我的看法呢比较极端，我认为这是坏的，没有任何好处
+	Betsy9: 你行你上阿
+	Betsy10: 受虐开了
+	Betsy11: 受虐关了
+	Betsy12: 乐
+	Betsy13: 就这？
+	Betsy14: 看到的打个22
+	Betsy15: 灾基汉化垃圾东西
+	Betsy16: 什么时候灾厄开荒啊
+	Betsy17: 什么时候瑟银开荒啊
+	Betsy18: 什么时候打1血硬核
+	Betsy19: 用同志短剑打
+	Betsy20: 天顶悠悠球？
+	Betsy21: hxd们怎么打月总啊
+	Betsy22: hxd们我拿到泰拉棱镜了
+	Betsy23: xdm这汉化怎么装啊
+	Betsy24: 观前提示，请点赞，投币，转发
+	Betsy25: *本消息已被管理员删除*
+	Betsy26: <玩家{0}被踢出了世界>
+	Betsy27: <玩家{0}被禁言29天23小时59分钟>
+	RegrowArms: "{0}的手臂又长出来了！"
+	GuardianForm: "{0}进入了地牢守卫阶段！"
+	TwinsEndure: "{0}挺住了致命攻击，它还能帮着它的兄弟打三百回合！"
+	TwinsRevive: "{0}复活了！"
+	GelatinSubjects: 圣凝史莱姆已苏醒！
+	QueenBeeEnrage: "{$NPCName.QueenBee}在地下丛林之外变得异常愤怒！"
+}
+
+RoyalSubjectVertical.DisplayName: 皇家工蜂

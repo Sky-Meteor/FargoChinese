@@ -1,0 +1,143 @@
+SoulConfig: {
+	DisplayName: Fargo魂配置
+
+	Headers: {
+		Maso: 永恒模式
+		Patreon: "[i:FargowiltasSouls/RoombaPet] [c/ffffff:捐赠者物品]"
+	}
+
+	HideTogglerWhenInventoryIsClosed: {
+		Label: 只在开启物品栏时，才会显示饰品效果菜单
+		Tooltip: 如果开启，饰品效果菜单会在你关闭物品栏时自动隐藏
+	}
+
+	ItemDisabledTooltip: {
+		Label: 在物品信息中显示效果被禁用
+		Tooltip: 开启时，若饰品有效果被饰品效果配置禁用，会有一条物品信息提示你
+	}
+
+	DeviChatter: {
+		Label: 迷你戴薇安会和你聊天
+		Tooltip: ""
+	}
+
+	ToggleSearchReset: {
+		Label: 魂石效果开关界面被关闭时重置搜索栏
+		Tooltip: ""
+	}
+
+	BigTossMode: {
+		Label: 乱扔瞎甩模式，所有敌怪和弹幕都会把你撞飞
+		Tooltip: ""
+	}
+
+	ForcedFilters: {
+		Label: 当某些视觉效果激活时，强制开启水波质量（覆盖原版设置）
+		Tooltip: 开启后某些视觉效果可以正常作用
+	}
+
+	BossRecolors: {
+		Label: Boss贴图替换
+		Tooltip: ""
+	}
+
+	PrecisionSealIsHold: {
+		Label: 按住“玲珑圣印”键时开启精确模式
+		Tooltip: 如果关闭，你不再需要一直按住热键以开启精度模式。不在精度模式时，按下热键可以激活，再按一次即可取消。
+	}
+
+	PreBossNightGlow: {
+		Label: Boss前敌怪发光
+		Tooltip: 永恒模式中，如果你没有击败任何Boss，敌怪会在夜晚发光
+	}
+
+	OncomingMutantX: {
+		Label: 永恒模式图标水平位置
+		Tooltip: ""
+	}
+
+	OncomingMutantY: {
+		Label: 永恒模式图标竖直位置
+		Tooltip: ""
+	}
+
+	PatreonRoomba: {
+		Label: "[i:FargowiltasSouls/RoombaPet] [c/ffffff:{$Mods.FargowiltasSouls.Items.RoombaPet.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonOrb: {
+		Label: "[i:FargowiltasSouls/ComputationOrb] [c/ffffff:{$Mods.FargowiltasSouls.Items.ComputationOrb.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonFishingRod: {
+		Label: "[i:FargowiltasSouls/MissDrakovisFishingPole] [c/ffffff:{$Mods.FargowiltasSouls.Items.MissDrakovisFishingPole.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonDoor: {
+		Label: "[i:FargowiltasSouls/SquidwardDoor] [c/ffffff:{$Mods.FargowiltasSouls.Items.SquidwardDoor.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonWolf: {
+		Label: "[i:FargowiltasSouls/ParadoxWolfSoul] [c/ffffff:{$Mods.FargowiltasSouls.Items.ParadoxWolfSoul.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonDove: {
+		Label: "[i:FargowiltasSouls/FigBranch] [c/ffffff:{$Mods.FargowiltasSouls.Items.FigBranch.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonKingSlime: {
+		Label: "[i:FargowiltasSouls/MedallionoftheFallenKing] [c/ffffff:{$Mods.FargowiltasSouls.Items.MedallionoftheFallenKing.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonFishron: {
+		Label: "[i:FargowiltasSouls/StaffOfUnleashedOcean] [c/ffffff:{$Mods.FargowiltasSouls.Items.StaffOfUnleashedOcean.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonPlant: {
+		Label: "[i:FargowiltasSouls/PiranhaPlantVoodooDoll] [c/ffffff:{$Mods.FargowiltasSouls.Items.PiranhaPlantVoodooDoll.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonDevious: {
+		Label: "[i:FargowiltasSouls/DeviousAestheticus] [c/ffffff:{$Mods.FargowiltasSouls.Items.DeviousAestheticus.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonVortex: {
+		Label: "[i:FargowiltasSouls/VortexMagnetRitual] [c/ffffff:{$Mods.FargowiltasSouls.Items.VortexMagnetRitual.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonPrime: {
+		Label: "[i:FargowiltasSouls/PrimeStaff] [c/ffffff:{$Mods.FargowiltasSouls.Items.PrimeStaff.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonCrimetroid: {
+		Label: "[i:FargowiltasSouls/CrimetroidEgg] [c/ffffff:{$Mods.FargowiltasSouls.Items.CrimetroidEgg.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonNanoCore: {
+		Label: "[i:FargowiltasSouls/NanoCore] [c/ffffff:{$Mods.FargowiltasSouls.Items.NanoCore.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonROB: {
+		Label: "[i:FargowiltasSouls/ROBGyro] [c/ffffff:{$Mods.FargowiltasSouls.Items.ROBGyro.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PerformanceMode: {
+		Label: 性能模式
+		Tooltip: 禁用高性能要求的视觉效果。目前会禁用突变体幻影眼的拖尾绘制
+	}
+}

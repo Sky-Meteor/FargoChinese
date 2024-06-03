@@ -1,0 +1,260 @@
+DisableAllAttackEffects: 禁用所有额外攻击效果
+DisableAllMinionEffects: 禁用所有召唤物效果
+TimberHeader: "{$Mods.FargowiltasSouls.Items.TimberForce.DisplayName}"
+WoodCompletionEffect: 木 图鉴解锁加快
+BorealEffect: 针叶木 雪球
+MahoganyEffect: 红木 钩爪加成
+EbonwoodEffect: 乌木 暗影焰光环
+ShadewoodEffect: 阴影木 鲜血喷溅
+PalmwoodEffect: 棕榈木 召唤物
+PearlwoodEffect: 珍珠木 星星
+EarthHeader: "{$Mods.FargowiltasSouls.Items.EarthForce.DisplayName}"
+AdamantiteEffect: 精金 弹幕分裂
+CobaltEffect: 钴蓝 受击爆炸
+AncientCobaltEffect: 远古钴蓝 爆炸跳跃
+MythrilEffect: 秘银 速度加成
+OrichalcumEffect: 山铜 花瓣
+PalladiumHealing: 钯金 生命恢复
+PalladiumEffect: 钯金 伤害珠
+TitaniumEffect: 钛金 碎片
+TerraHeader: "{$Mods.FargowiltasSouls.Items.TerraForce.DisplayName}"
+CopperEffect: 铜 闪电
+IronEffect: 铁 吸引掉落物
+LeadPoisonEffect: 铅 中毒
+SilverEffect: 银 护盾
+TinEffect: 锡 暴击
+TungstenEffect: 钨 变大
+ObsidianProcEffect: 黑曜石 爆炸
+AshWoodFireballs: 灰烬木 火球
+WillHeader: "{$Mods.FargowiltasSouls.Items.WillForce.DisplayName}"
+GladiatorSpears: 角斗士 长矛雨
+GladiatorBanner: 角斗士 旗帜
+GoldEffect: 金 幸运币
+GoldToPiggy: 金 自动将钱存进储蓄罐
+HuntressEffect: 女猎人 相关效果
+RedRidingEffect: 红色骑术 箭雨
+ValhallaDash: 英灵殿骑士 坐骑冲刺
+SquireMountJump: 侍卫 坐骑跳跃高度
+SquireMountSpeed: 侍卫 坐骑速度
+LifeHeader: "{$Mods.FargowiltasSouls.Items.LifeForce.DisplayName}"
+BeeEffect: 蜜蜂 花朵
+BeetleEffect: 甲虫 相关效果
+CactusEffect: 仙人掌 针刺
+PumpkinEffect: 南瓜 种植南瓜
+SpiderEffect: 蜘蛛 召唤物暴击
+TurtleEffect: 乌龟 缩壳减伤
+NatureHeader: "{$Mods.FargowiltasSouls.Items.NatureForce.DisplayName}"
+ChloroMinion: 叶绿 水晶
+CrimsonEffect: 猩红 治愈
+RainUmbrellaEffect: 雨云 雨伞
+RainInnerTubeEffect: 游泳圈效果
+SnowEffect: 冰雪 雪球
+JungleJump: 丛林 跳跃孢子
+JungleDashEffect: 丛林 冲刺
+MoltenEffect: 熔岩 狱火增益
+ShroomiteStealthEffect: 蘑菇 潜行
+ShroomiteShroomEffect: 蘑菇 蘑菇尾迹
+ShadowHeader: "{$Mods.FargowiltasSouls.Items.ShadowForce.DisplayName}"
+DarkArtistMinion: 暗黑艺术家 爆炸烈焰召唤物
+ApprenticeSupport: 学徒 相关效果
+NecroEffect: 死灵 骨堆
+ShadowBalls: 暗影 暗影珠
+AncientShadowDarkness: 远古暗影 黑暗减益
+MonkDashEffect: 武僧 武僧冲刺
+ShinobiDashEffect: 渗透忍者 武僧冲刺升级
+ShinobiThroughWalls: 渗透忍者 穿墙冲刺
+SpookyEffect: 阴森 镰刀攻击
+NinjaEffect: 忍者 弹幕速度
+CrystalAssassinDash: 水晶刺客冲刺
+SpiritHeader: "{$Mods.FargowiltasSouls.Items.SpiritForce.DisplayName}"
+FossilBones: 化石 受击释放骨头
+HallowEffect: 神圣 治疗药水
+AncientHallowMinion: 远古神圣 泰拉棱镜
+SpectreEffect: 幽魂 幽魂珠
+ForbiddenEffect: 禁戒 风暴
+TikiEffect: 提基 鞭打召唤物
+CosmoHeader: "{$Mods.FargowiltasSouls.Items.CosmoForce.DisplayName}"
+MeteorMomentumEffect: 流星 速度
+MeteorEffect: 流星 流星雨
+MeteorTrailEffect: 流星 火焰尾迹
+NebulaEffect: 星云 强化焰
+SolarEffect: 耀斑 护盾冲撞
+SolarFlareEffect: 耀斑 太阳耀斑减益
+StardustMinionEffect: 星尘 星尘守卫
+VortexStealthEffect: 星旋 潜行
+VortexVortexEffect: 星旋 星旋旋涡
+DeviEnergyHeader: 永恒模式饰品
+DeerSinewEffect: 鹿筋冲刺
+ZephyrJump: 风神跳跃
+MasoAeolusFlower: 花靴
+MasoAeolusFrog: 水陆两栖靴 跳跃
+SinisterIconEffect: 刷怪率提升
+SinisterIconDropsEffect: 战利品掉落
+MasoGraze: 擦弹
+MasoGrazeRing: 擦弹范围可视化
+DevianttHearts: 追踪红心攻击
+AbomWandCrit: 幽灵憎恶攻击
+SupremeFairyHeader: "{$Mods.FargowiltasSouls.Items.SupremeDeathbringerFairy.DisplayName}"
+SlimyShieldEffect: 凝胶球
+SlimeFallEffect: 提高下落速度
+AgitatingLensEffect: 鲜血镰刀
+AgitatingLensInstall: 狂暴负载
+SkeleMinionEffect: 骷髅王手臂
+NecroBrewSpin: 骷髅王旋转冲刺
+BionomicHeader: "{$Mods.FargowiltasSouls.Items.BionomicCluster.DisplayName}"
+TimsConcoctionEffect: 蒂姆的秘药
+MasoCarrotEffect: 狙击镜效果
+RainbowSlimeMinion: 彩虹史莱姆召唤物
+RainbowHealEffect: 自动使用治疗药水
+NymphPerfumeEffect: 攻击生成心
+SqueakEffect: 击中发出吱吱声
+WretchedPouchEffect: 获得诅咒之魔
+ClippedEffect: 造成折翼减益
+WyvernBalls: 飞行光球
+TribalCharmClickBonus: 部落挂坠点击加成
+StabilizedGravity: 重力稳定
+DubiousHeader: "{$Mods.FargowiltasSouls.Items.DubiousCircuitry.DisplayName}"
+FusedLensInstall: 双子负载
+GroundStickDR: 受击超级充能
+ProbeMinionEffect: 探测器召唤物
+PureHeartHeader: "{$Mods.FargowiltasSouls.Items.PureHeart.DisplayName}"
+DarkenedHeartEaters: 迷你噬魂者
+GuttedHeartMinions: 飞眼怪
+GelicWingSpikes: 明胶尖刺
+GelicWingJump: 明胶羽翼跳跃
+LumpofFleshHeader: "{$Mods.FargowiltasSouls.Items.LumpOfFlesh.DisplayName}"
+PungentEyeballCursor: 易伤区域光标
+PungentMinion: 眼球召唤物
+DeerclawpsDive: 冰鹿爪快速下落
+DeerclawpsEffect: 冲刺留下冰刺
+DreadShellEffect: 恐惧螺壳格挡
+ChaliceHeader: "{$Mods.FargowiltasSouls.Items.ChaliceoftheMoon.DisplayName}"
+CultistMinionEffect: 拜月教徒召唤物
+PlantMinionEffect: 世纪之花召唤物
+LihzahrdGroundPound: 蜥蜴快速下落
+LihzahrdBoulders: 下落坠地火焰
+CelestialRuneAttacks: 天界符文额外攻击
+HeartHeader: "{$Mods.FargowiltasSouls.Items.HeartoftheMasochist.DisplayName}"
+PrecisionSealHurtbox: 缩小碰撞箱
+PumpkingsCapeEffect: 南瓜王披肩格挡
+IceQueenGraze: 擦弹
+UfoMinionEffect: 迷你飞碟召唤物
+MasoGravEffect: 重力控制
+MasoTrueEyeMinion: 克苏鲁真眼召唤物
+MutantArmorHeader: 真·突变体套装
+MasoAbom: 幽灵憎恶
+MasoRing: 幻影球召唤物
+UniverseHeader: "{$Mods.FargowiltasSouls.Items.UniverseSoul.DisplayName}"
+MeleeSpeedEffect: 近战攻速加成
+MagmaStoneEffect: 岩浆石
+SniperScopeEffect: 狙击镜
+UniverseSpeedEffect: 寰宇之魂攻击速度加成
+WorldShaperHeader: "{$Mods.FargowiltasSouls.Items.WorldShaperSoul.DisplayName}"
+MiningHunt: 狩猎药水效果
+MiningDanger: 危险感药水效果
+MiningSpelunk: 洞穴探险药水效果
+MiningShine: 光芒药水效果
+BuilderEffect: 建筑师模式
+ColossusHeader: "{$Mods.FargowiltasSouls.Items.ColossusSoul.DisplayName}"
+DefenseStarEffect: 受伤产生落星
+DefenseBrainEffect: 混乱之脑受伤效果
+DefenseBeeEffect: 受伤产生蜜蜂
+FleshKnuckleEffect: 血肉指虎仇恨
+PaladinShieldEffect: 圣骑士护盾
+FrozenTurtleEffect: 冰冻海龟壳
+ShimmerImmunityEffect: 免疫微光闪烁
+FlightMasteryHeader: "{$Mods.FargowiltasSouls.Items.FlightMasterySoul.DisplayName}"
+FlightMasteryInsignia: 翱翔徽章加速
+FlightMasteryGravity: 增加重力
+SupersonicHeader: "{$Mods.FargowiltasSouls.Items.SupersonicSoul.DisplayName}"
+RunSpeed: 提高基础奔跑速度
+NoMomentum: 不计算动量
+SupersonicTabi: 分趾厚底袜冲刺
+SupersonicClimbing: 猛虎攀爬装备
+SupersonicSpeedEffect: 超音速之魂速度提升
+SupersonicJumps: 超音速之魂五段跳
+SupersonicRocketBoots: 超音速之魂火箭靴
+SupersonicCarpet: 超音速之魂飞毯
+CthulhuShield: 克苏鲁护盾
+BlackBelt: 黑腰带闪避
+SupersonicPanic: 受伤获得恐慌效果
+TrawlerHeader: "{$Mods.FargowiltasSouls.Items.TrawlerSoul.DisplayName}"
+TrawlerSporeSac: 孢子囊
+TrawlerJump: 捕鱼之魂跳跃
+TrawlerGel: 挥发明胶
+EternityHeader: "{$Mods.FargowiltasSouls.Items.EternitySoul.DisplayName}"
+EternityTin: 永恒之魂属性叠加
+// the pets are no longer existing in game
+PetHeader: 宠物
+PetDinoConfig: 恐龙宝宝
+PetEaterConfig: 吞噬怪宝宝
+PetFaceMonsterConfig: 脸怪宝宝
+PetGrinchConfig: 格林奇宝宝
+PetHornetConfig: 黄蜂宝宝
+PetImpConfig: 小鬼宝宝
+PetPenguinConfig: 企鹅宝宝
+PetPandaConfig: 小熊猫宝宝
+PetDGConfig: 骷髅王头宝宝
+PetSnowmanConfig: 雪人宝宝
+PetShroomConfig: 松露人宝宝
+PetWerewolfConfig: 狼人宝宝
+PetBernieConfig: 伯尼
+PetBlackCatConfig: 黑猫
+PetChesterConfig: 切斯特
+PetCompanionCubeConfig: 同伴方块
+PetCursedSaplingConfig: 诅咒树苗
+PetKittenConfig: 雷管小猫
+PetEsteeConfig: 埃斯蒂
+PetEyeSpringConfig: 弹簧眼
+PetFoxConfig: 耳廓狐
+PetButterflyConfig: 宠物蝴蝶
+PetGlommerConfig: 咕噜咪
+PetDragonConfig: Hoardagron
+PetHarpyConfig: 鸟妖宝宝
+PetLizardConfig: 蜥蜴宝宝
+PetMinitaurConfig: 迷你牛头怪
+PetParrotConfig: 鹦鹉
+PetPigmanConfig: 小猪人
+PetPlanteroConfig: 小植物
+PetGatoConfig: 飞翔Gato
+PetPupConfig: 小狗
+PetSeedConfig: 幼苗
+PetSpiderConfig: 蜘蛛
+PetMimicConfig: 暗影宝箱怪
+PetSharkConfig: 小鲨鱼
+PetSquashConfig: 南瓜娃娃
+PetGliderConfig: 蜜袋鼯
+PetTikiConfig: 提基幽魂
+PetTurtleConfig: 龟
+PetVoltConfig: 伏特兔
+PetZephyrConfig: 和风鱼
+PetHeartConfig: 猩红之心
+PetNaviConfig: 仙灵
+PetFlickerConfig: 闪烁灯芯
+PetLanternConfig: 魔法灯笼
+PetOrbConfig: 暗影珠
+PetSuspEyeConfig: 可疑眼球
+PetWispConfig: 妖灵
+PetKSConfig: 史莱姆王子
+PetEoCConfig: 可疑眼睛
+PetEoWConfig: 蠕虫吞噬怪
+PetBoCConfig: 蜘蛛脑
+PetDeerConfig: 微小鹿角怪
+PetQBConfig: 蜜蜂
+PetSkeleConfig: 小骷髅王
+PetQSConfig: 史莱姆公主
+PetDestroyerConfig: 小型毁灭工具
+PetTwinsConfig: 小机械魔眼
+PetSkelePrimeConfig: 小机械骷髅王
+PetOgreConfig: 食人魔宝宝
+PetPlanteraConfig: 新发芽的世纪之花
+PetPumpkingConfig: 疯狂杰克南瓜灯
+PetEverscreamConfig: 常绿尖叫怪树苗
+PetIceQueenConfig: 小冰雪女王
+PetDukeConfig: 小猪龙鱼
+PetGolemConfig: 玩具石巨人
+PetEoLConfig: 仙灵公主
+PetBetsyConfig: 小双足翼龙
+PetMartianConfig: 异星滑板小子
+PetLCConfig: 幻影龙宝宝
+PetMLConfig: 月精灵

@@ -1,0 +1,741 @@
+TrojanSquirrelMountBuff: {
+	DisplayName: 特洛伊松鼠
+	Description: 你正驾驶着一架松鼠机甲
+}
+
+AccursedSarcophagusBuff: {
+	DisplayName: 被诅咒的石棺
+	Description: 它会把手拿开的
+}
+
+BabyAbomBuff: {
+	DisplayName: 憎恶宝宝
+	Description: 在镰刀上踢翻镰刀
+}
+
+BabySilhouetteBuff: {
+	DisplayName: 黑雾宝宝
+	Description: 见不到一点亮光，直到它成长完全
+}
+
+BiteSizeBaronBuff: {
+	DisplayName: 小小公爵
+	Description: 不包括EX阶段
+}
+
+ChibiDeviBuff: {
+	DisplayName: 小不点德薇
+	Description: 她对“你”很感兴趣
+}
+
+MutantSpawnBuff: {
+	DisplayName: 突变体的卵
+	Description: 突变体的卵
+}
+
+SeekerOfTreasuresBuff: {
+	DisplayName: 宝藏探索者
+	Description: 再给它几千年时间来长大
+}
+
+NibbleBuff: {
+	DisplayName: 圆陆鲨
+	Description: 只需轻轻一咬
+}
+
+MonkBuff: {
+	DisplayName: 冥想
+	Description: 你的武僧冲刺已就绪
+}
+
+ObsidianLavaWetBuff: {
+	DisplayName: 熔岩之润
+	Description: 你的身上滴着熔岩
+}
+
+TitaniumDRBuff: {
+	DisplayName: 钛金护盾
+	Description: 你获得了额外的伤害减免并免疫大多数减益
+}
+
+KingSlimeMinionBuff: {
+	DisplayName: 迷你史莱姆王
+	Description: 迷你史莱姆王将会保护你
+}
+
+DukeFishronBuff: {
+	DisplayName: 猪龙鱼公爵
+	Description: 猪龙鱼公爵将为你而战
+}
+
+RoombaPetBuff: {
+	DisplayName: 扫地机器人
+	Description: 这个扫地机器人在跟着你
+}
+
+DoveBuff: {
+	DisplayName: 鸽子
+	Description: 一只鸽子在跟着你
+}
+
+ChibiiRemiiBuff: {
+	DisplayName: 小不点蕾米
+	Description: 恶魔「Remilia Stretch」
+}
+
+PrimeMinionBuff: {
+	DisplayName: 迷你机械骷髅王
+	Description: 机械骷髅王将为你而战
+}
+
+FishMinionBuff: {
+	DisplayName: 鱼
+	Description: 这些鱼将为你而战
+}
+
+CrimetroidBuff: {
+	DisplayName: 宝宝血水母
+	Description: 宝宝血水母在跟着你
+}
+
+BerserkerInstallBuff: {
+	DisplayName: 狂暴负载
+	Description: “狂战士！干掉他们！”
+}
+
+BerserkerInstallCDBuff: {
+	DisplayName: 狂暴冷却
+	Description: 你还不能进入狂暴状态
+}
+
+BetsyDashBuff: {
+	DisplayName: 冲刺
+	Description: 你正在高速移动！
+}
+
+AbomFangBuff: {
+	DisplayName: 憎恶毒牙
+	Description: 永恒模式的力量压迫着你
+}
+
+AbomPresenceBuff: {
+	DisplayName: 憎恶驾到
+	Description: 减少防御力、伤害减免和生命恢复速度，附带月蛭凝块效果
+}
+
+BaronsBurdenBuff: {
+	DisplayName: 遗爵威压
+	Description:
+		'''
+		处于空气中时重力急剧增加
+		在空气中无法呼吸，在水中时可自由呼吸
+		提高水下移动力
+		'''
+}
+
+DeviPresenceBuff: {
+	DisplayName: 戴薇安驾到
+	Description: 大幅增加友方NPC受到的伤害
+}
+
+GrabbedBuff: {
+	DisplayName: 抓住你了！
+	Description: 狂敲你的移动键来逃离！
+}
+
+MutantFangBuff: {
+	DisplayName: 突变毒牙
+	Description: 永恒模式的力量压迫着你
+}
+
+MutantPresenceBuff: {
+	DisplayName: 突变驾到
+	Description: 减少防御力、伤害减免和生命恢复速度，关闭几乎所有魂的效果，减小擦弹范围
+}
+
+HellFireBuff: {
+	DisplayName: 地狱烈焰
+	Description: Mods.FargowiltasSouls.BuffDescription.HellFireBuff
+}
+
+MagicalCleanseCDBuff: {
+	DisplayName: 魔法净化冷却
+	Description: 你还不能净化减益
+}
+
+AbomCooldownBuff: {
+	DisplayName: 憎恶冷却
+	Description: 还不能承受另一次攻击
+}
+
+AbomRebirthBuff: {
+	DisplayName: 憎恶重生
+	Description: 除非受击，你无法死亡
+}
+
+AnticoagulationBuff: {
+	DisplayName: 凝血失效
+	Description: 生命流失，受伤时鲜血四溅，敌怪会吸收你溅出的鲜血并变得更强
+}
+
+AntisocialBuff: {
+	DisplayName: 社恐
+	Description: 你没有朋友，也无法造成召唤伤害
+}
+
+AtrophiedBuff: {
+	DisplayName: 萎缩
+	Description: 你的肌肉正在退化
+}
+
+BerserkedBuff: {
+	DisplayName: 狂暴
+	Description: 攻击欲望增强，防御力减少，你控几不住你记己
+}
+
+BloodDrinkerBuff: {
+	DisplayName: 饮血者
+	Description: 增加30%伤害
+}
+
+BloodthirstyBuff: {
+	DisplayName: 嗜血
+	Description: 极大提高刷怪速率
+}
+
+BrainOfConfusionBuff: {
+	DisplayName: 理智崩溃
+	Description: 造成的伤害降低30%
+}
+
+ClippedWingsBuff: {
+	DisplayName: 折翼
+	Description: 无法飞行或使用火箭靴
+}
+
+CrippledBuff: {
+	DisplayName: 跛足
+	Description: 你无法奔跑
+}
+
+CurseoftheMoonBuff: {
+	DisplayName: 月之诅咒
+	Description: 月亮的愤怒正在吞噬你
+}
+
+DefenselessBuff: {
+	DisplayName: 毫无防御
+	Description: 你的防御完全崩溃了
+}
+
+FlamesoftheUniverseBuff: {
+	DisplayName: 宇宙之焰
+	Description: 来自诸天的亲自审判
+}
+
+FlippedBuff: {
+	DisplayName: 翻转
+	Description: 你的重力被颠倒了
+}
+
+FlippedHallowBuff: {
+	DisplayName: 翻转
+	Description: 你的重力被颠倒了
+}
+
+FusedBuff: {
+	DisplayName: 导火线
+	Description: 你和爆炸有个约会
+}
+
+GodEaterBuff: {
+	DisplayName: 噬神者
+	Description: 你的灵魂被神明的忿怒所诅咒
+}
+
+GuiltyBuff: {
+	DisplayName: 内疚
+	Description: 杀害无辜动物产生的内疚使你的武器变得迟钝
+}
+
+HexedBuff: {
+	DisplayName: 着魔
+	Description: 你的攻击会治愈敌人
+}
+
+HolyPriceBuff: {
+	DisplayName: 神圣代价
+	Description: 减少30%攻击速度
+}
+
+HypothermiaBuff: {
+	DisplayName: 恐寒症
+	Description: 友方弹幕速度会减慢，你会承受更多来自冷系攻击的伤害
+}
+
+InfestedBuff: {
+	DisplayName: 感染
+	Description: 这只会变得更糟
+}
+
+IvyVenomBuff: {
+	DisplayName: 常春藤毒素
+	Description: 流失生命, 持续时间超过20秒时变为神经毒素
+	Transform: 你身上的常春藤毒素转变为了神经毒素！！
+}
+
+JammedBuff: {
+	DisplayName: 卡壳
+	Description: 你的远程武器出故障了
+}
+
+LethargicBuff: {
+	DisplayName: 昏昏欲睡
+	Description: 你感觉你的武器变得缓慢
+}
+
+LightningRodBuff: {
+	DisplayName: 避雷针
+	Description: 你会吸引雷电
+}
+
+LihzahrdBlessingBuff: {
+	DisplayName: 蜥蜴祝福
+	Description: 电线重新受你的掌控，降低丛林神庙内的刷怪速率
+	Message: 丛林蜥蜴祭坛发出的光芒照耀在你身上！
+}
+
+LihzahrdCurseBuff: {
+	DisplayName: 蜥蜴诅咒
+	Description: 丛林神庙内，你不能拆除或放置电线
+}
+
+LivingWastelandBuff: {
+	DisplayName: 人形废土
+	Description: 你周围的每个人都开始腐烂
+}
+
+LoosePocketsBuff: {
+	DisplayName: 晃动衣袋
+	Description: 你身上的一件物品也许会被拿走
+}
+
+LovestruckBuff: {
+	DisplayName: 热恋
+	Description: 坠入爱河！
+}
+
+LowGroundBuff: {
+	DisplayName: 下陷
+	Description: 钩爪被禁止，不能站在平台或液体上
+}
+
+MarkedforDeathBuff: {
+	DisplayName: 死亡标记
+	Description: 别被打到
+}
+
+MidasBuff: {
+	DisplayName: 迈达斯
+	Description: 受击时掉落钱币
+}
+
+MutantNibbleBuff: {
+	DisplayName: 突变啃啄
+	Description: 无法恢复生命
+}
+
+NanoInjectionBuff: {
+	DisplayName: 纳米灌注
+	Description: 降低生命恢复速度和综合属性
+}
+
+NeurotoxinBuff: {
+	DisplayName: 神经毒素
+	Description: 你的身体正在停歇关闭
+}
+
+NullificationCurseBuff: {
+	DisplayName: 无效诅咒
+	Description: 月亮领主正在循环他的伤害免疫类型！
+}
+
+OceanicMaulBuff: {
+	DisplayName: 海洋重击
+	Description: 防御力和最大生命值被大幅降低
+	LifeUp: +5最大生命值
+	LifeDown: -5最大生命值
+}
+
+OceanicSealBuff: {
+	DisplayName: 海洋印记
+	Description: 无法闪避，无法吸血，无法使用超音速之魂快速移动，无法逃脱
+}
+
+OiledBuff: {
+	DisplayName: 浸油
+	Description: 着火时受到更多伤害
+}
+
+PungentGazeBuff: {
+	DisplayName: 尖刻注视
+	Description: Mods.FargowiltasSouls.BuffDescription.PungentGazeBuff
+}
+
+PurgedBuff: {
+	DisplayName: 涤荡
+	Description: 闪避效果不会生效
+}
+
+PurifiedBuff: {
+	DisplayName: 净化
+	Description: 你被净化了
+}
+
+RefreshedBuff: {
+	DisplayName: 焕然一新
+	Description: 机动性提升，飞行时间延长
+}
+
+ReverseManaFlowBuff: {
+	DisplayName: 魔力逆流
+	Description: 你的魔法武器消耗生命而不是魔力
+}
+
+RottingBuff: {
+	DisplayName: 腐败
+	Description: 你的身体逐渐衰弱
+}
+
+RushJobBuff: {
+	DisplayName: 急活
+	Description: 护士现在还不能再次治疗你
+	NurseChat: 那个可怕的家伙还在追杀你吗？先去把它杀了再来找我吧！
+}
+
+SadismBuff: {
+	DisplayName: 永恒
+	Description: 永恒模式的力量与你同在
+}
+
+ShadowflameBuff: {
+	DisplayName: 暗影焰
+	Description: 流失生命
+}
+
+SmiteBuff: {
+	DisplayName: 惩戒
+	Description: 无法恢复生命，受到的伤害增加20%
+}
+
+SqueakyToyBuff: {
+	DisplayName: 吱吱响的玩具
+	Description: 你的攻击如同玩具一般作响！
+}
+
+StunnedBuff: {
+	DisplayName: 昏迷
+	Description: 你头晕目眩，动弹不得
+}
+
+SwarmingBuff: {
+	DisplayName: 蜂群
+	Description: 蜂群正从四面八方向你发起进攻！
+}
+
+ThiefCDBuff: {
+	DisplayName: 偷窃冷却
+	Description: 你的物品现在不会再次被偷了
+}
+
+UnluckyBuff: {
+	DisplayName: 霉运
+	Description: 你感觉你现在相当倒霉
+}
+
+UnstableBuff: {
+	DisplayName: 不稳定
+	Description: 现实似乎在排斥你
+}
+
+BigBrainMinionBuff: {
+	DisplayName: 克苏鲁大脑
+	Description: 克苏鲁的大脑将为你而战
+}
+
+BrainMinionBuff: {
+	DisplayName: 克苏鲁之脑
+	Description: 迷你克苏鲁之脑将为你而战
+}
+
+CrystalSkullBuff: {
+	DisplayName: 水晶头骨
+	Description: 水晶头骨将会保护你
+}
+
+EaterMinionBuff: {
+	DisplayName: 世界吞噬者
+	Description: 迷你世界吞噬者将为你而战
+}
+
+LunarCultistBuff: {
+	DisplayName: 拜月教徒
+	Description: 拜月教徒将会保护你
+}
+
+MutantPowerBuff: {
+	DisplayName: 突变之力
+	Description: 突变之力与你同在
+}
+
+PlanterasChildBuff: {
+	DisplayName: 世纪之花的孩子
+	Description: 世纪之花的孩子将会保护你
+}
+
+ProbesBuff: {
+	DisplayName: 探测器
+	Description: 探测器将会保护你
+}
+
+PungentEyeballBuff: {
+	DisplayName: 尖刻眼球
+	Description: 尖刻眼球将会保护你
+}
+
+RainbowSlimeBuff: {
+	DisplayName: 彩虹史莱姆
+	Description: 彩虹史莱姆将会保护你
+}
+
+SaucerMinionBuff: {
+	DisplayName: 迷你飞碟
+	Description: 迷你飞碟将会保护你
+}
+
+SkeletronArmsBuff: {
+	DisplayName: 骷髅王之手
+	Description: 骷髅王之手将会保护你
+}
+
+SouloftheMasochistBuff: {
+	DisplayName: 大师之魂
+	Description: 永恒模式的力量与你同在
+}
+
+TrueEyesBuff: {
+	DisplayName: 克苏鲁真眼
+	Description: 克苏鲁的几只眼睛将会保护你
+}
+
+TwinsEXBuff: {
+	DisplayName: 双子EX
+	Description: 真正的双子魔眼将为你而战
+}
+
+MutantRebirthBuff: {
+	DisplayName: 突变重生
+	Description: 复活死亡射线蓄力中
+}
+
+BabyLifelightBuff: {
+	DisplayName: 照明圣光
+	Description: 看哪，那天使的圣光
+}
+
+BrokenShellBuff: {
+	DisplayName: 破损龟壳
+	Description: 暂时无法缩壳
+}
+
+CrimsonRegenBuff: {
+	DisplayName: 猩红治愈
+	Description: 你上次的伤口即将恢复
+}
+
+FirstStrikeBuff: {
+	DisplayName: 先发制人
+	Description: 你的下一次攻击将会得到增强
+}
+
+FossilReviveCDBuff: {
+	DisplayName: 已复活
+	Description: 你无法再次复活
+}
+
+FrozenBuff: {
+	DisplayName: 冻结
+	Description: 你无法移动
+}
+
+GoldenStasisBuff: {
+	DisplayName: 不动金身
+	Description: 免疫所有伤害，但无法移动
+}
+
+GoldenStasisCDBuff: {
+	DisplayName: 金身冷却
+	Description: 你还不能进入金身
+}
+
+HallowCooldownBuff: {
+	DisplayName: 神圣之盾冷却
+	Description: 你的护盾现在无法反弹弹幕
+}
+
+HuntressBleedBuff: {
+	DisplayName: 女猎人冷却
+	Description: Mods.FargowiltasSouls.BuffDescription.HuntressBleedBuff
+}
+
+HuntressCDBuff: {
+	DisplayName: 箭雨冷却
+	Description: 你现在无法触发另一次箭雨
+}
+
+LeadPoisonBuff: {
+	DisplayName: 铅中毒
+	Description: Mods.FargowiltasSouls.BuffDescription.LeadPoisonBuff
+}
+
+MoltenAmplifyBuff: {
+	DisplayName: 熔岩增幅
+	Description: Mods.FargowiltasSouls.BuffDescription.MoltenAmplifyBuff
+}
+
+OriPoisonBuff: {
+	DisplayName: 山铜中毒
+	Description: Mods.FargowiltasSouls.BuffDescription.OriPoisonBuff
+}
+
+ShellHideBuff: {
+	DisplayName: 缩壳
+	Description: 阻挡弹幕
+}
+
+SnowstormCDBuff: {
+	DisplayName: 暴雪冷却
+	Description: 你现在不能冻结一切
+}
+
+SolarFlareBuff: {
+	DisplayName: 耀斑
+	Description: Mods.FargowiltasSouls.BuffDescription.SolarFlareBuff
+}
+
+SuperBleedBuff: {
+	DisplayName: 血如泉涌
+	Description: Mods.FargowiltasSouls.BuffDescription.SuperBleedBuff
+}
+
+CorruptingBuff: {
+	DisplayName: 腐化之力
+	Description: 你正在腐烂
+}
+
+TimeFrozenBuff: {
+	DisplayName: 时间冻结
+	Description: 你停止了时间
+}
+
+TimeStopCDBuff: {
+	DisplayName: 时停冷却
+	Description: 你现在不能停止时间
+}
+
+TitaniumCDBuff: {
+	DisplayName: 钛金护盾冷却
+	Description: 你正在为钛金护盾蓄力
+}
+
+VortexCDBuff: {
+	DisplayName: 星旋冷却
+	Description: 你现在不能生成另一个星旋旋涡
+}
+
+SuperchargedBuff: {
+	DisplayName: 超级充能
+	Description: 增加20%移动速度和10%攻击速度，你的攻击会造成带电和避雷针
+}
+
+MoonBowBuff: {
+	// DisplayName: Crescent Smile
+	// Description: Your bow is empowered by lunar magic
+}
+
+TribalCharmClickBuff: {
+	DisplayName: 部落挂坠
+	Description: 当你单击鼠标攻击时获得一瞬间的伤害加成
+}
+
+TwinsInstallBuff: {
+	DisplayName: 双子负载
+	Description: 诅咒狱火和灵液的效果
+}
+
+WretchedHexBuff: {
+	DisplayName: 诅咒之魔
+	Description: 暗影焰触手伤害大幅提升，但速度和防御大幅下降
+}
+
+CorruptedBuff: {
+	DisplayName: 腐化之蚀
+	Description: Mods.FargowiltasSouls.Buffs.CorruptedBuff.Description
+}
+
+CorruptedBuffForce: {
+	DisplayName: 腐化之蚀
+	Description: Mods.FargowiltasSouls.Buffs.CorruptedBuffForce.Description
+}
+
+JungleMimicSummonBuff: {
+	DisplayName: 丛林宝箱怪
+	Description: 丛林宝箱怪将为你而战
+}
+
+GladiatorBuff: {
+	DisplayName: 角斗士之力
+	Description: +5%伤害减免，+5%伤害，免疫击退，增强长矛雨
+}
+
+ROBBuff: {
+	DisplayName: R.O.B
+	DescPatreon: 自从开始战斗以来从未离开你的朋友
+	DescNonPatreon: 它终于跻身顶级了！
+	Description: ""
+}
+
+RainCDBuff: {
+	DisplayName: 雨云冷却
+	Description: 你的雨伞还没准备好
+}
+
+SublimationBuff: {
+	Description: Mods.FargowiltasSouls.Buffs.SublimationBuff.Description
+	DisplayName: 升华
+}
+
+CoffinTossBuff: {
+	DisplayName: 大力抛投
+	Description: ""
+}
+
+HellFireMarkedBuff: {
+	DisplayName: 地狱烈焰标记
+	Description: Mods.FargowiltasSouls.Buffs.HellFireMarked.Description
+}
+
+MagicalCurseBuff: {
+	DisplayName: 魔法诅咒
+	Description: Mods.FargowiltasSouls.Buffs.MagicalCurseBuff.Description
+}
+
+PearlwoodStarBuff: {
+	DisplayName: 破坏之星
+	Description: 破坏之星将会跟随你
+}
+
+MoonFangBuff: {
+	DisplayName: 月之毒牙
+	Description: 无法恢复生命
+}

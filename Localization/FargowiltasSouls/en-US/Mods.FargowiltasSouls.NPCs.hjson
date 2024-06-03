@@ -1,0 +1,377 @@
+AbomBoss_April.DisplayName: Javyz Boss
+
+AbomBoss: {
+	DisplayName: Abominationn
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.AbomBoss.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/AbomsCurse]
+		DespawnMessage: Abominationn sees no worthy opponent...
+		KilledAllMessage: Abominationn has destroyed everyone.
+	}
+}
+
+AbomSaucer.DisplayName: Mini Saucer
+
+TrojanSquirrel: {
+	DisplayName: Trojan Squirrel
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.TrojanSquirrel.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/SquirrelCoatofArms]
+		DespawnMessage: Trojan Squirrel returns to its squirrel clan...
+	}
+}
+
+TrojanSquirrelArms.DisplayName: Trojan Squirrel
+TrojanSquirrelHead.DisplayName: Trojan Squirrel
+
+CosmosChampion: {
+	DisplayName: Eridanus, Champion of Cosmos
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.CosmosChampion.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in space.
+		DespawnMessage: Eridanus, Champion of Cosmos returns to the stars...
+		KilledAllMessage: Eridanus, Champion of Cosmos has slain every foe.
+	}
+}
+
+EarthChampion: {
+	DisplayName: Champion of Earth
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.EarthChampion.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in the underworld.
+		DespawnMessage: Champion of Earth disappears beneath the magma...
+	}
+}
+
+EarthChampionHand.DisplayName: Champion of Earth
+LesserFairy.DisplayName: Lesser Fairy
+LesserSquirrel.DisplayName: Lesser Squirrel
+
+LifeChampion: {
+	DisplayName: Champion of Life
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.LifeChampion.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in the Hallow at day.
+		DespawnMessage: Champion of Life fades away...
+	}
+}
+
+NatureChampion: {
+	DisplayName: Champion of Nature
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.NatureChampion.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in underground snow.
+		DespawnMessage: Champion of Nature returns to its slumber...
+	}
+}
+
+NatureChampionHead.DisplayName: Champion of Nature
+
+ShadowChampion: {
+	DisplayName: Champion of Shadow
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.ShadowChampion.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in the Corruption or Crimson at night.
+		DespawnMessage: Champion of Shadow fades away...
+	}
+}
+
+ShadowOrb.DisplayName: Mods.FargowiltasSouls.NPCs.ShadowOrb.DisplayName
+
+SpiritChampion: {
+	DisplayName: Champion of Spirit
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.SpiritChampion.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in the underground desert.
+		DespawnMessage: Champion of Spirit vanishes into the desert...
+	}
+}
+
+SpiritChampionHand.DisplayName: Champion of Spirit
+
+TerraChampion: {
+	DisplayName: Champion of Terra
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.TerraChampion.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] underground.
+		DespawnMessage: Champion of Terra vanishes into the caverns...
+	}
+}
+
+TerraChampionBody.DisplayName: Champion of Terra
+TerraChampionTail.DisplayName: Champion of Terra
+
+TimberChampion: {
+	DisplayName: Champion of Timber
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.TimberChampion.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] on the surface during day.
+		DespawnMessage: Champion of Timber returns to its squirrel clan...
+	}
+}
+
+TimberChampionHead.DisplayName: Champion of Timber
+
+WillChampion: {
+	DisplayName: Champion of Will
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.WillChampion.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] at the ocean.
+		DespawnMessage: Champion of Will returns to the depths...
+	}
+}
+
+TophatSquirrelCritter.DisplayName: Top Hat Squirrel
+BrainClone.DisplayName: Brain of Cthulhu
+BrainIllusion.DisplayName: Brain of Cthulhu
+BrainIllusion2.DisplayName: Brain of Cthulhu
+BrainIllusionAttack.DisplayName: Brain of Cthulhu
+CreeperGutted.DisplayName: Gutted Creeper
+CrystalLeaf.DisplayName: Crystal Leaf
+DetonatingBubble.DisplayName: Mods.FargowiltasSouls.NPCs.DetonatingBubble.DisplayName
+DetonatingBubbleEX.DisplayName: Detonating Bubble
+GelatinSlime.DisplayName: Crystal Slime
+GelatinSubject.DisplayName: Gelatin Subject
+RoyalSubject.DisplayName: Royal Subject
+MutantBoss_April.DisplayName: Godkiller Yharim
+
+MutantBoss: {
+	DisplayName: Mutant
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.MutantBoss.DisplayName}"
+		SpawnInfo: Throw [i:FargowiltasSouls/AbominationnVoodooDoll] into a pool of lava while Abominationn is alive in Mutant's presence.
+		DespawnMessage: Mutant seals its power once more...
+		KilledAllMessage: Mutant has eviscerated everyone under its hands.
+	}
+
+	SkipP1: Mutant tires of the charade...
+
+	GFBText: {
+		Random0: Hehehehehe...
+		Random1: Do you enjoy this pain?
+		Random2: This feeling...
+		Random3: I will bring an end to this.
+		Random4: Foolish Terrarian...
+		Random5: Have it writ upon thy meagre grave: Felled by the Mutant.
+		Random6: None may claim the title of Eternal.
+		Random7: Eternal pain upon thee.
+		Random8: You are unfit of the Eternal Soul.
+		Random9: Cower before my power.
+		Random10: The Penetrator shivers...
+		Random11: Fall beneath true power!
+		Random12: Power is in the eye of the beholder. Absolute power is a fact.
+		Random13: Witness a true cataclysm.
+		Random14: I could recite all the digits of Pi before you beat me.
+		Random15: It has only begun.
+		Random16: Don't even try to dodge.
+		Random17: For centuries I have trained for a fight like this.
+		Random18: Purge the weak.
+		Random19: Luck won't help you here.
+		Random20: I will fill a chalice with your blood.
+		Random21: You're all so very small, in the end. Not me, though.
+		Random22: I'll sunder you into uncountable fragments!
+		Random23: Curse you with the power of the moon!
+		Random24: This is only a fraction of my power!
+		Random25: Your “power” is worthless compared to me.
+		Random26: Every hit you take grows my power more than you can imagine.
+		Random27: You think you can defeat me?
+		Random28: I am unmatched. I am unbeatable.
+		Random29: It all turns to dust in the end.
+		Random30: Are you prepared to take on the mantle?
+		Random31: THERE IS NO ESCAPE!
+		Random32: God wants you to suffer, and I am God.
+		Random33: I judge you unworthy to exist!
+		Random34: Your life is fleeting. Your only remaining purpose is to die.
+		Random35: The forces of terra are on my side.
+		Random36: I'll break you!
+		Random37: Shatter like glass.
+		Random38: If you stop attacking, maybe I'll spare you.
+		Random39: YOU WILL BECOME NAUGHT BUT MEMORIES!
+		Random40: I WILL MAKE SURE THERE IS NOTHING LEFT TO BURY!
+		Random41: THE VERY FIRES OF HELL CANNOT COMPARE!
+		Random42: I think your cells are a bit too far apart. How \'bout I fix that for you?
+		Random43: I will tear apart your very atoms.
+		Random44: You are like a child, braying before an eternal god.
+		Random45: I'll stain those souls with your blood.
+		Random46: Behold the might of Terraria!
+		Random47: Behold the strength of the Universe!
+		Random48: From refulgent flame, my victory rises!
+		Random49: Forget your dreams of divinity!
+		Random50: Your every paltry bone will break.
+		Random51: The great calamity, faithfully recreated!
+		Random52: Will you live to see the end?
+		Random53: That hurt!
+		Random54: You can't hurt me.
+		Random55: Shatter like glass.
+		Random56: Fade like ash.
+		Random57: Blinded by your own depression?
+		Random58: The screams of your future deaths can be heard.
+		Random59: They call me a Cruel Eternity God.
+		Random60: Also try Satanist Mode.
+		Random61: Not even Fargo holds a candle to my power.
+		Random62: You've been paying me with counterfeit money. This is your punishment.
+		Random63: Whats a Touhou?
+		Random64: All the money you gave me just made me stronger.
+		Random65: Circle this!!
+		Random66: IT ALL ENDS TODAY!
+		Random67: Your imminent death is fast approaching, maggot!
+		Random68: I will crush your worthless existence.
+		Random69: You won't live long enough to tell the tale!
+		Random70: DO YOU THINK YOU STAND A CHANCE, AGAINST I WHO AM ETERNAL? I WHO TURN THE TIDE AND WORLD? I AM THE ETERNAL, I AM THE IMMORTAL. YOU ARE LIKE AN ANT IN A DYING SANDHILL, AND I THE SEARING SUN. YOU WILL BE SPLIT AND TORN UNTIL NOTHING REMAINS BUT MOTES OF ASH AND LIGHT! YOUR EVERY DEED PALES IN COMPARISON TO MY ETERNITY! I BEAR THE GOLEM'S FIST, THE PHANTASMAL EYE, THE WINDING VINE, THE RELENTLESS BEE, THE GENIUS BRAIN, THE HUNTER'S WINGS! YOU WILL BE REMOVED FROM HISTORY,, INSIGNIFICANT WORM!
+		Quote1: Hand it over. That thing, your effect toggles.
+		Quote2: I hope you're ready to embrace suffering.
+		Quote3: Time to stop playing around.
+		Quote4: Feel the Penetrator's fury!
+		Quote5: Grah!
+		Quote6: Rays of Death!
+		Quote7: Feel my power.
+		Quote8: My blade will strike you down!
+		Quote9: Feel the Penetrator's wrath!
+		Quote10: Grrrah!
+		Quote11: Feel my power.
+		Quote12: Solar, Vortex, Nebula, Stardust... all united against you.
+		Quote13: I was the evil presence watching.
+		Quote14: The Penetrator's true power!
+		Quote15: Orah!
+		Quote16: The world is trembling..
+		Quote17: Mechanical fury...
+		Quote18: Fishron Flurry!
+		Quote19: If you don't dodge this, you deserve it.
+		Quote20: Why am I using this?
+		Quote21: Can you keep up?
+		Quote22: No matter how many times you fight this battle, you will never win! I am a cruel god of eternity. I wield the branches of Yggdrasil and Ragnorak, the swirling brimstone of Calamity, the ceaseless shadows of Sacred Tools, the blue-tinted Magicks, the hallowed Spirits of arcane lands, the soaring power of ascended Avalon, the all-powerful blessing of the Ultraseer's Nova, the awakened essence of lost Ancients, the all-searing light and shade of the radiant universal Split, the world warping machines and city shaping tools of Lui, and the cosmic convergence that harkens the Old God's Hunt!
+		Quote23: Nature unites against you.
+		Quote24: The Empress' Excel Assault!
+		Quote25: You thought I was done?
+		Quote26: YOU ARE NOTHING COMPARED TO THE ERODED SPIRITS! I BRING FORTH THE END UPON THE FOOLISH, THE UNWORTHY! YOU WANT TO DEFEAT ME? MAYBE IN TWO ETERNITIES!!
+		Quote27: DIE, FOOLISH TERRARIAN! THEY SAID THERE WAS 3 END BRINGERS, BUT I AM THE FOURTH, A BREAKER OF REALITY! HELL DOESN'T ACCEPT SCUM LIKE YOU, SO SUFFER FOREVER IN MY ENDLESS ONSLAUGHT OF INFINITE POWER, THE POTENTIAL OF ETERNITIES STRETCHED TO THE ABSOLUTE MAXIMUM APOTHEOSES! YOUR UNHOLY SOUL SHALL BE CONSUMED BY DEPTHS LOWER THAN THE DEEPEST REACHES OF HELL!
+		Quote28: I CONTROL THE POWER THAT HAS REACHED FROM THE FAR ENDS OF THE UNIVERSE, UNITING DIMENSIONS, MANIPULATING TERRARIA, SLAYING MASOCHISTS, AND JUDGING HEAVENS! FOR CENTURIES I HAVE TRAINED FOR ONE GOAL ONLY: PURGE THE WORLD OF THE UNWORTHY, SLAY THE WEAK, AND BRING FORTH TRUE POWER. IN THE HIGHEST REACHES OF HEAVEN, MY BROTHER RULES OVER THE SKY! SOON, ALL OF TERRARIA WILL BE PURGED OF THE UNWORTH AND A NEW AGE WILL START! A NEW AGE OF AWESOME! A GOLDEN AGE WHERE ONLY ABSOLUTE BEINGS EXIST!DEATH, INFERNO, TIDE; I AM THE OMEGA AND THE ALPHA, THE BEGINNING AND THE END! ALMIGHTY POWER; REVELATIONS.ABSOLUTE BEING, ABSOLUTE PURITY.
+		Quote29: WITHIN THE FOOLISH BANTERINGS OF THE MORTAL WORLD I HAVE ACHIEVED POWER THAT WAS ONCE BANISHED TO THE EDGE OF THE GALAXY! I BRING FORTH CALAMITIES, CATASTROPHES, AND CATACLYSM; ELDRITCH POWERS DERIVED FROM THE ABSOLUTE WORD OF FATE. FEEL MY UBIQUITOUS WRATH DRIVE YOU INTO THE GROUND AS A WORLD SHAPER DRIVES HIS WORLD INTO REALITY!
+		Quote30: THE SHARPSHOOTER'S EYE PALES IN COMPARISON OF MY PERCEPTION OF REALITY! BERSERKERS RAGE NAUGHT BUT A BUNNIES! OLYMPIANS A MINOR GOD, ARCH WIZARDS A POSER! A MASTERY OF FLIGHT, THE IRON WILL OF A COLOSSUS; BOTH ELEMENTARY CONCEPTS! A CONJUROR BUT A PEDDLING MAGICIAN, A TRAWLER, A SLIVER COMPARED TO MY LIFE MASTERY? SUPERSONIC SPEED, LIGHTSPEED TIME! GLORIOUS LIGHT SHALL ELIMINATE YOU, YOU FOOLISH BUFFOON!!
+		Quote31: AAAAAAAAAAAAAAAAAAAAAAAAAA
+		Quote32: I have not a single regret in my existence!
+		Quote33: Oh, right... my revive...
+		Quote34: You're pretty good...
+		Quote35: BLUE
+		Quote36: I am Mutant, Blade of Fargo.
+	}
+}
+
+MutantIllusion.DisplayName: Mutant
+
+DeviBoss: {
+	DisplayName: Deviantt
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.DeviBoss.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/DevisCurse]
+		DespawnMessage: Deviantt bores of the battle...
+		KilledAllMessage: Deviantt is satisfied with its show of love.
+	}
+
+	Bribe: {
+		Line1: Wait a second...
+		Line2: You're throwing money at me!
+		Line3: Trying to bribe me is pretty gutsy, you know!
+		Accept1: Then again, this is a LOT of money...
+		Accept2: But my big bro said not to! What to do, what to do...?
+		Accept3: Aw, what the heck! But this is our little secret, okay?
+		Reject1: Show you're tough enough and I won't mind, but not a second before!
+		Reject2: Here, you can have this back.
+		Reject3: Let's get this show back on the road!
+	}
+}
+
+ShadowOrbNPC.DisplayName: Shadow Orb
+
+LifeChallenger: {
+	DisplayName: Lifelight
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.LifeChallenger.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/FragilePixieLamp] in the Hallow at day.
+		DespawnMessage: Lifelight fades away...
+	}
+
+	FatherOfLies: It was a mistake to come here.
+}
+
+BanishedBaron: {
+	DisplayName: Banished Baron
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.BanishedBaron.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/MechLure] underwater at the Ocean.
+		DespawnMessage: The Banished Baron dives deeper into the ocean...
+	}
+
+	Slurp: slurp
+}
+
+CursedCoffin: {
+	DisplayName: Cursed Coffin
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.CursedCoffin.DisplayName}"
+		SpawnInfo: Spawn by using [i:FargowiltasSouls/CoffinSummon] underground in the Desert.
+		DespawnMessage: The Cursed Coffin burrows back into the sandy depths...
+	}
+}
+
+CursedSpirit.DisplayName: Cursed Spirit
+DetonatingBubbleNPC.DisplayName: Detonating Bubble
+StardustMinion.DisplayName: Stardust Minion
+StardustDragon.DisplayName: Stardust Dragon
+SlimeSwarm.DisplayName: Slime Swarm
+Magmaw.DisplayName: Magmaw
+DukeFishronEX.DisplayName: Duke Fishron EX
+
+EMode: {
+	Betsy1: CRINGE
+	Betsy2: NOT POGGERS
+	Betsy3: MONKAS
+	Betsy4: SHOW WINGS
+	Betsy5: AERIAL BANE POG
+	Betsy6: REAL BOSS WHEN?
+	Betsy7: "#NOTMYMASOMODE"
+	Betsy8: OOA BAD ANYWAY
+	Betsy9: COPE MALD SEETHE
+	Betsy10: GET REAL
+	Betsy11: GET FAKE
+	Betsy12: POGGERS
+	Betsy13: ResidentSleeper
+	Betsy14: If you can read this say 22
+	Betsy15: GuraSit
+	Betsy16: play calamity
+	Betsy17: play thorium
+	Betsy18: hardcore 1hp challenge when?
+	Betsy19: now do it with a copper shortsword
+	Betsy20: Zenith Yoyo?
+	Betsy21: guys how do i beat moon lord
+	Betsy22: GUYS I GOT TERRAPRISMA
+	Betsy23: how do i install this update
+	Betsy24: Hi YouTube!
+	Betsy25: <Message was deleted by staff>
+	Betsy26: <User {0} was banned>
+	Betsy27: <User {0} was muted>
+	RegrowArms: "{0} has regrown its arms!"
+	GuardianForm: "{0} has entered Dungeon Guardian form!"
+	TwinsEndure: "{0} endured the fatal blow to fight alongside its twin!"
+	TwinsRevive: "{0} has been revived!"
+	GelatinSubjects: Gelatin Subjects have awoken!
+	QueenBeeEnrage: "{$NPCName.QueenBee} has enraged outside the underground jungle!"
+}
+
+RoyalSubjectVertical.DisplayName: Royal Subject Vertical
