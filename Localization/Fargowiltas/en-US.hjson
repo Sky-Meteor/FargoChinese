@@ -158,6 +158,11 @@ Mods: {
 					Tooltip: ""
 				}
 
+				PermanentStationsNearby: {
+					Label: "[i:3198] Automatic Station Buffs When Nearby"
+					Tooltip: ""
+				}
+
 				BossZen: {
 					Label: "[i:3117] No enemies spawn during boss fights"
 					Tooltip: ""
@@ -3009,7 +3014,7 @@ Mods: {
 			UnlimitedBuff30: Unlimited buff at 30 stack in inventory, Piggy Bank, or Safe
 			UnlimitedUse30: Unlimited use at 30 stack
 			PermanentEffectNearby: Permanently provides effect to nearby players when placed
-			WorksFromBanks: Works from Piggy Bank and Safe
+			WorksFromBanks: Inventory effects also work from Piggy Bank and Safe
 			SoldBySquirrel: Sold By Squirrel
 			SomeMaterialsSold: Some Materials Sold
 			CraftableMaterialsSold: Craftable Materials Sold
