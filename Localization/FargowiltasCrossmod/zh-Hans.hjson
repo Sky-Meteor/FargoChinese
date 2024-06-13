@@ -480,12 +480,12 @@ Mods: {
 				DisplayName: 毁灭之力
 				Tooltip:
 					'''
-					[i:FargowiltasCrossmod/SnowRuffianEnchantment] Improves wing gliding
-					[i:FargowiltasCrossmod/DaedalusEnchantment] Flight is limited by a maximum height rather than flight time
-					[i:FargowiltasCrossmod/ReaverEnchantment] Several stats increased, but these stats decrease when hit
-					[i:FargowiltasCrossmod/HydrothermicEnchantment] After attacking for too long, your weapon overheats
-					[i:FargowiltasCrossmod/HydrothermicEnchantment] While overheated, attack speed is increased, DR is reduced, and you cannot stop attacking
-					[i:FargowiltasCrossmod/PlaguebringerEnchantment] Debuffs spread between enemies
+					[i:FargowiltasCrossmod/SnowRuffianEnchantment] 改进翅膀滑翔
+					[i:FargowiltasCrossmod/DaedalusEnchantment] 飞行不再受飞行时间的限制，但是会受到最大高度限制
+					[i:FargowiltasCrossmod/ReaverEnchantment] 给予玩家多项数据提升，被击中时这些提升会降低
+					[i:FargowiltasCrossmod/HydrothermicEnchantment] 长时间攻击后武器会过热
+					[i:FargowiltasCrossmod/HydrothermicEnchantment] 过热时攻击速度增加，伤害减免降低，且无法停止攻击
+					[i:FargowiltasCrossmod/PlaguebringerEnchantment] 减益效果会在敌怪之间传播
 					'''
 			}
 
@@ -647,7 +647,7 @@ Mods: {
 			BrandoftheBrimstoneWitchHeader: "{$Mods.FargowiltasCrossmod.Items.BrandoftheBrimstoneWitch.DisplayName}"
 			HeartoftheElementsEffect: 元灵之心
 			OccultSkullCrownEffect: 玄秘颅冠
-			PurityEffect: 无瑕粹魂晶（//记得改名）
+			PurityEffect: 辐辉
 			TheSpongeEffect: 化绵留香石
 			ChaliceOfTheBloodGodEffect: 血神圣杯
 			NebulousCoreEffect: 星云之核
