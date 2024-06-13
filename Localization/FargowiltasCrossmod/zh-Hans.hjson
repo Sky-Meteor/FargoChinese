@@ -376,7 +376,7 @@ Mods: {
 				DisplayName: 硫火女巫的烙印
 				Tooltip:
 					'''
-					拥有元灵之心、玄秘颅冠、无瑕粹魂晶（//这玩意改名了，灾基那边译名还没确定，回头记得改）、化绵留香石、血神圣杯效果
+					拥有元灵之心、玄秘颅冠、辐辉、化绵留香石、血神圣杯效果
 					拥有星云之核、寻神者之礼、嘉登之心、灾厄效果
 					'''
 			}
@@ -402,7 +402,7 @@ Mods: {
 
 			DesertProwlerEnchantment: {
 				DisplayName: 沙漠巡游者魔石
-				Tooltip: 用强大的带电跳跃代替正常跳跃并提升水平移速 // 他妈到底是带电还是充能还是冲锋
+				Tooltip: 用强大的冲锋跳跃代替正常跳跃并提升水平移速
 			}
 
 			WulfrumEnchantment: {
@@ -417,7 +417,7 @@ Mods: {
 					[i:FargowiltasCrossmod/MarniteEnchantment] 增加25%放置速度和10放置距离
 					[i:FargowiltasCrossmod/MarniteEnchantment] 建造和采矿时会产生激光攻击附近敌人
 					[i:FargowiltasCrossmod/WulfrumEnchantment] 一架钨钢无人机会为你收集物品
-					[i:FargowiltasCrossmod/DesertProwlerEnchantment] 用带电的沙暴跳跃代替正常跳跃并提升水平移速 // 他妈到底是沙暴还是沙尘
+					[i:FargowiltasCrossmod/DesertProwlerEnchantment] 用冲锋沙暴跳跃代替正常跳跃并提升水平移速
 					[i:FargowiltasCrossmod/AerospecEnchantment] 提供5次天蓝跳跃，每次跳跃都可提升暴击率
 					'''
 			}
@@ -429,7 +429,7 @@ Mods: {
 					获得滑翔能力
 					加快翅膀滑翔速度
 					滑翔时按住上键可获得向上的动量
-					滑翔时按住下键可加快下降速度（//他吗的这到底是什么效果，等实装了再看吧）
+					滑翔时按住下键可加快下降速度
 					'''
 			}
 
@@ -438,7 +438,7 @@ Mods: {
 				Tooltip:
 					'''
 					提供无限飞行，但飞的太高会使飞行时间归零
-					改进翅膀滑翔（// 你妈的你到底怎么改进的我草你吗）
+					改进翅膀滑翔
 					'''
 			}
 
