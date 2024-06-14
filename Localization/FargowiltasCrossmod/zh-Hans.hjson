@@ -38,23 +38,12 @@ Mods: {
 		}
 
 		Configs: {
-			DLCCalamityConfig: {
+			CalDLCConfig: {
 				DisplayName: 灾厄相关配置
 
 				Headers: {
 					Modes: 模式
 					Balance: 平衡
-				}
-
-				BalanceRework: {
-					Label: 适配灾厄的魂石平衡重制
-					Tooltip:
-						'''
-						改变部分魂石的合成配方以保持与灾厄的内容之间的平衡（主要在游戏的月亮领主后阶段）。
-						修改了部分灾厄与Fargo魂石中武器饰品与Boss的数值以获取更平衡更出色的游戏体验。
-						使Fargo魂石的部分内容适配灾厄的一些机制（例如防御损伤）。
-						[c/00FF00:建议保持启用状态。]
-						'''
 				}
 
 				ConsumableSummons: {
@@ -385,10 +374,11 @@ Mods: {
 				DisplayName: 天蓝魔石
 				Tooltip:
 					'''
-					提供两次天蓝跳跃
-					每次使用二段跳后都会增加暴击率
-					对非该魔石提供的跳跃也生效
+					每次跳跃或二段跳后都会增加5%暴击率和5%召唤伤害
+					跳跃次数重置时增益消失
 					'''
+				CritUp: +{0}% 暴击率
+				CritReset: -{0}% 暴击率
 			}
 
 			MarniteEnchantment: {
@@ -397,17 +387,25 @@ Mods: {
 					'''
 					提高10%放置速度，放置距离+5
 					建造和采矿时会产生激光攻击附近敌人
+					获得[i:CalamityMod/MarniteRepulsionShield]合成岩斥力盾的效果
 					'''
 			}
 
 			DesertProwlerEnchantment: {
 				DisplayName: 沙漠巡游者魔石
-				Tooltip: 用强大的冲锋跳跃代替正常跳跃并提升水平移速
+				Tooltip: 在实体方块平面上按住↑可进行强大的充能跳跃并提升水平移速
 			}
 
 			WulfrumEnchantment: {
 				DisplayName: 钨钢魔石
-				Tooltip: 召唤一架无人机，可为你带来远处的物品
+				Tooltip: 
+					'''
+					召唤一架跟随光标的钨钢无人机
+					无人机会扫描附近敌怪
+					扫描敌怪可得知敌怪对减益类型的弱性与抗性
+					绿色表示对该减益有弱性，红色表示对减益有抗性
+					被扫描的敌怪在受到减益时也会随时间推移受到额外伤害
+					'''
 			}
 
 			ExplorationForce: {
