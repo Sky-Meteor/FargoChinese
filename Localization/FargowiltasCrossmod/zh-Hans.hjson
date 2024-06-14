@@ -393,7 +393,7 @@ Mods: {
 
 			DesertProwlerEnchantment: {
 				DisplayName: 沙漠巡游者魔石
-				Tooltip: 在实体方块平面上按住↑可进行强大的充能跳跃并提升水平移速
+				Tooltip: 按住↑可进行强大的充能跳跃并提升水平移速
 			}
 
 			WulfrumEnchantment: {
@@ -414,9 +414,12 @@ Mods: {
 					'''
 					[i:FargowiltasCrossmod/MarniteEnchantment] 增加25%放置速度和10放置距离
 					[i:FargowiltasCrossmod/MarniteEnchantment] 建造和采矿时会产生激光攻击附近敌人
-					[i:FargowiltasCrossmod/WulfrumEnchantment] 一架钨钢无人机会为你收集物品
-					[i:FargowiltasCrossmod/DesertProwlerEnchantment] 用冲锋沙暴跳跃代替正常跳跃并提升水平移速
-					[i:FargowiltasCrossmod/AerospecEnchantment] 提供5次天蓝跳跃，每次跳跃都可提升暴击率
+					[i:FargowiltasCrossmod/WulfrumEnchantment] 一架钨钢无人机会告诉玩家敌怪的弱点并使敌怪受到额外的减益伤害
+					[i:FargowiltasCrossmod/DesertProwlerEnchantment] 按住↑可进行强大的充能跳跃并提升水平移速
+					[i:FargowiltasCrossmod/AerospecEnchantment] 跳跃和二段跳会增加暴击率和召唤伤害
+					[i:FargowiltasCrossmod/SulphurEnchantment] 获得一次额外的二段跳，二段跳时产生气泡，气泡受击时释放伤害性气体
+					[i:FargowiltasCrossmod/VictideEnchantment] 产生海胆尖刺，短暂攻击为其充能后尖刺会在攻击停止时向外发射
+					[i:CalamityMod/MarniteRepulsionShield] 合成岩斥力盾的效果
 					'''
 			}
 
@@ -503,17 +506,29 @@ Mods: {
 
 			StatigelEnchantment: {
 				DisplayName: 斯塔提斯魔石
-				Tooltip: ""
+				Tooltip: 
+					'''
+					提高最大移动速度但降低加速度
+					根据移动速度提升伤害，最多提升15%伤害
+					'''
 			}
 
 			SulphurEnchantment: {
 				DisplayName: 硫磺魔石
-				Tooltip: ""
+				Tooltip: 
+					'''
+					获得硫磺二段跳，二段跳时会产生硫磺泡泡
+					击中硫磺泡泡时泡泡会释放伤害性气体
+					'''
 			}
 
 			VictideEnchantment: {
 				DisplayName: 胜潮魔石
-				Tooltip: ""
+				Tooltip: 
+					'''
+					海胆尖刺会从玩家身体中伸出，伤害接触到的敌怪
+					攻击会为尖刺充能，充能完毕后停止攻击时尖刺会向外发射
+					'''
 			}
 		}
 
@@ -606,6 +621,15 @@ Mods: {
 			VampireBat.DisplayName: Vampire Bat
 			SulphurBubble.DisplayName: Sulphur Bubble
 			VictideSpike.DisplayName: Victide Spike
+			GoldenShowerShot.DisplayName: Golden Shower Shot
+			HiveMindFiretrail.DisplayName: Cursed Fire
+			BrainMassProjectile.DisplayName: Rotten Brainmass
+			GravityVileClot.DisplayName: Vile Clot
+			VileClotDrop.DisplayName: Vile Clot
+			SulphurCloud.DisplayName: Sulphur Cloud
+			PureGel.DisplayName: Pure Gel
+			HiveMindPulse.DisplayName: Hive Mind Pulse
+			ScourgeSandstream.DisplayName: Scourge Sandstream
 		}
 
 		Buffs: {
@@ -626,6 +650,7 @@ Mods: {
 		}
 
 		Toggler: {
+			CalamitySoulHeader: 灾厄之魂
 			VagabondsSoulHeader: 浪客之魂
 			NanotechEffect: 纳米核心
 			EclipseMirrorEffect: 日蚀魔镜
@@ -652,29 +677,30 @@ Mods: {
 			YharimsGiftEffect: "{$Mods.CalamityMod.Items.Accessories.YharimsGift.DisplayName}"
 			DraedonsHeartEffect: 嘉登之心
 			CalamityEffect: "{$Mods.CalamityMod.Items.Accessories.Calamity.DisplayName}"
-			SplendorJamEffect: Splendor Jam
-			ExplorationHeader: Force of Exploration
-			AerospecJumpEffect: Aerospec Jumps
-			MarniteStatsEffect: Marnite Building
-			MarniteLasersEffect: Marnite Lasers
-			DesertProwlerEffect: Charge Jump
-			WulfrumEffect: Collector Drones
+			SplendorJamEffect: 异彩果酱
+			ExplorationHeader: 勘探之力
+			AerospecJumpEffect: 天蓝 跳跃暴击
+			MarniteRepulsionEffect: 合成岩斥力盾
+			MarniteLasersEffect: 合成岩 激光
+			DesertProwlerEffect: 充能跳跃
+			WulfrumEffect: 钨钢无人机
 			SnowRuffianEffect: Better Gliding
 			DaedalusEffect: Daedalus Flight Limit
 			ReaverEffect: Reaver Stats
 			HydrothermicEffect: Overheat
 			PlaguebringerEffect: Debuff Spread
+			StatigelEffect: 斯塔提斯 速度和伤害
+			SulphurEffect: 硫磺 泡泡跳跃
+			VictideEffect: 胜潮 尖刺
+			TitanHeartEffect: Titan Size
+			UmbraphileEffect: Bat Healing
 		}
 
-		Cooldowns.DaedalusPlatformCooldown: Daedalus Platform
-	}
-
-	FargowiltasSouls: {
 		WizardEffect: {
-			Aerospec: Total of 5 jumps, jumping grants more crit
-			Marnite: Stronger daggers, +15% placement speed and +5 placement range
-			DesertProwler: Stronger jumps
-			Wulfrum: The drone is faster and occasionally finds bonus items
+			Aerospec: 暴击和伤害加成翻倍
+			Marnite: 更强的挖掘效果，增加15%放置速度和5放置范围
+			DesertProwler: 更强的充能跳跃
+			Wulfrum: 被扫描的敌人会受到更多的减益效果伤害
 			Hydrothermic: Longer overheat charge, more attack speed increase
 			Daedalus: Grants wings if you don't have any, Can fly higher
 			SnowRuffian: Grants some flight time
@@ -684,7 +710,10 @@ Mods: {
 				Debuffs spread from farther 
 				Enemies are tagged to spread debuffs for longer
 				'''
-			Umbraphile: Bats do more damage and travel faster
+			Umbraphile: Bats deal more damage and travel faster
+			Sulphur: 跳跃时会产生三个泡泡，造成的伤害增加
+			Victide: 尖刺不再受重力影响并会附带毒液效果
+			Statigel: 增大最大速度，伤害加成翻倍
 		}
 	}
 }
