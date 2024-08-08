@@ -92,16 +92,12 @@ Mods: {
 					拥有甜蜜的复仇、黑曜石鳞片、界元之庇佑、
 					魂匣、岩石之心和刺甲贝效果
 					'''
-				CalamityBerserker: 拥有猎魂鲨齿项链、勇气勋章和元素之握效果
+				CalamityBerserker: 拥有勇气勋章和元素之握效果
 				ThoriumBerserker: 拥有长剑徽章的效果
 				CalamityWizard: 拥有空灵护符的效果
 				ThoriumWizard: 拥有暗影催化剂的效果
-				CalamitySniper: 拥有元素箭袋、虚无箭袋和痴愚金龙干细胞效果
-				Vagabond:
-					'''
-					拥有纳米核心和日蚀魔镜效果
-					拥有浴火龙鳞和敬天神盗盒效果
-					'''
+				CalamitySniper: 拥有元素箭袋和虚无箭袋效果
+				Vagabond: 拥有纳米核心和日蚀魔镜效果
 				ThoriumSniper: 拥有震荡弹头的效果
 				CalamityConjurist: 拥有核子之源的效果
 				ThoriumConjurist: 拥有云玛垂饰和水晶蝎效果
@@ -370,7 +366,7 @@ Mods: {
 					'''
 			}
 
-			AerospecEnchantment: {
+			AerospecEnchant: {
 				DisplayName: 天蓝魔石
 				Tooltip:
 					'''
@@ -381,7 +377,7 @@ Mods: {
 				CritReset: -{0}% 暴击率
 			}
 
-			MarniteEnchantment: {
+			MarniteEnchant: {
 				DisplayName: 合成岩魔石
 				Tooltip:
 					'''
@@ -391,12 +387,12 @@ Mods: {
 					'''
 			}
 
-			DesertProwlerEnchantment: {
+			DesertProwlerEnchant: {
 				DisplayName: 沙漠巡游者魔石
 				Tooltip: 按住↑可进行强大的充能跳跃并提升水平移速
 			}
 
-			WulfrumEnchantment: {
+			WulfrumEnchant: {
 				DisplayName: 钨钢魔石
 				Tooltip: 
 					'''
@@ -412,18 +408,18 @@ Mods: {
 				DisplayName: 勘探之力
 				Tooltip:
 					'''
-					[i:FargowiltasCrossmod/MarniteEnchantment] 增加25%放置速度和10放置距离
-					[i:FargowiltasCrossmod/MarniteEnchantment] 建造和采矿时会产生激光攻击附近敌人
-					[i:FargowiltasCrossmod/WulfrumEnchantment] 一架钨钢无人机会告诉玩家敌怪的弱点并使敌怪受到额外的减益伤害
-					[i:FargowiltasCrossmod/DesertProwlerEnchantment] 按住↑可进行强大的充能跳跃并提升水平移速
-					[i:FargowiltasCrossmod/AerospecEnchantment] 跳跃和二段跳会增加暴击率和召唤伤害
-					[i:FargowiltasCrossmod/SulphurEnchantment] 获得一次额外的二段跳，二段跳时产生气泡，气泡受击时释放伤害性气体
-					[i:FargowiltasCrossmod/VictideEnchantment] 产生海胆尖刺，短暂攻击为其充能后尖刺会在攻击停止时向外发射
+					[i:FargowiltasCrossmod/MarniteEnchant] 增加25%放置速度和10放置距离
+					[i:FargowiltasCrossmod/MarniteEnchant] 建造和采矿时会产生激光攻击附近敌人
+					[i:FargowiltasCrossmod/WulfrumEnchant] 一架钨钢无人机会告诉玩家敌怪的弱点并使敌怪受到额外的减益伤害
+					[i:FargowiltasCrossmod/DesertProwlerEnchant] 按住↑可进行强大的充能跳跃并提升水平移速
+					[i:FargowiltasCrossmod/AerospecEnchant] 跳跃和二段跳会增加暴击率和召唤伤害
+					[i:FargowiltasCrossmod/SulphurEnchant] 获得一次额外的二段跳，二段跳时产生气泡，气泡受击时释放伤害性气体
+					[i:FargowiltasCrossmod/VictideEnchant] 产生海胆尖刺，短暂攻击为其充能后尖刺会在攻击停止时向外发射
 					[i:CalamityMod/MarniteRepulsionShield] 合成岩斥力盾的效果
 					'''
 			}
 
-			SnowRuffianEnchantment: {
+			SnowRuffianEnchant: {
 				DisplayName: 雪境暴徒魔石
 				Tooltip:
 					'''
@@ -434,7 +430,7 @@ Mods: {
 					'''
 			}
 
-			DaedalusEnchantment: {
+			DaedalusEnchant: {
 				DisplayName: 代达罗斯魔石
 				Tooltip:
 					'''
@@ -443,7 +439,7 @@ Mods: {
 					'''
 			}
 
-			PlagueReaperEnchantment: {
+			PlagueReaperEnchant: {
 				DisplayName: 瘟疫死神魔石
 				Tooltip:
 					'''
@@ -453,12 +449,12 @@ Mods: {
 					'''
 			}
 
-			PlaguebringerEnchantment: {
+			PlaguebringerEnchant: {
 				DisplayName: 瘟疫使者魔石
 				Tooltip: 所有随时间推移造成伤害的减益效果都会在敌怪之间传播
 			}
 
-			ReaverEnchantment: {
+			ReaverEnchant: {
 				DisplayName: 掠夺者魔石
 				Tooltip:
 					'''
@@ -468,7 +464,7 @@ Mods: {
 					'''
 			}
 
-			HydrothermicEnchantment: {
+			HydrothermicEnchant: {
 				DisplayName: 渊泉魔石
 				Tooltip:
 					'''
@@ -481,16 +477,16 @@ Mods: {
 				DisplayName: 毁灭之力
 				Tooltip:
 					'''
-					[i:FargowiltasCrossmod/SnowRuffianEnchantment] 改进翅膀滑翔
-					[i:FargowiltasCrossmod/DaedalusEnchantment] 飞行不再受飞行时间的限制，但是会受到最大高度限制
-					[i:FargowiltasCrossmod/ReaverEnchantment] 给予玩家多项数据提升，被击中时这些提升会降低
-					[i:FargowiltasCrossmod/HydrothermicEnchantment] 长时间攻击后武器会过热
-					[i:FargowiltasCrossmod/HydrothermicEnchantment] 过热时攻击速度增加，伤害减免降低，且无法停止攻击
-					[i:FargowiltasCrossmod/PlaguebringerEnchantment] 减益效果会在敌怪之间传播
+					[i:FargowiltasCrossmod/SnowRuffianEnchant] 改进翅膀滑翔
+					[i:FargowiltasCrossmod/DaedalusEnchant] 飞行不再受飞行时间的限制，但是会受到最大高度限制
+					[i:FargowiltasCrossmod/ReaverEnchant] 给予玩家多项数据提升，被击中时这些提升会降低
+					[i:FargowiltasCrossmod/HydrothermicEnchant] 长时间攻击后武器会过热
+					[i:FargowiltasCrossmod/HydrothermicEnchant] 过热时攻击速度增加，伤害减免降低，且无法停止攻击
+					[i:FargowiltasCrossmod/PlaguebringerEnchant] 减益效果会在敌怪之间传播
 					'''
 			}
 
-			UmbraphileEnchantment: {
+			UmbraphileEnchant: {
 				DisplayName: 日影魔石
 				Tooltip:
 					'''
@@ -499,12 +495,12 @@ Mods: {
 					'''
 			}
 
-			TitanHeartEnchantment: {
+			TitanHeartEnchant: {
 				DisplayName: 泰坦之心魔石
 				Tooltip: ""
 			}
 
-			StatigelEnchantment: {
+			StatigelEnchant: {
 				DisplayName: 斯塔提斯魔石
 				Tooltip: 
 					'''
@@ -513,7 +509,7 @@ Mods: {
 					'''
 			}
 
-			SulphurEnchantment: {
+			SulphurEnchant: {
 				DisplayName: 硫磺魔石
 				Tooltip: 
 					'''
@@ -522,7 +518,7 @@ Mods: {
 					'''
 			}
 
-			VictideEnchantment: {
+			VictideEnchant: {
 				DisplayName: 胜潮魔石
 				Tooltip: 
 					'''
@@ -654,8 +650,6 @@ Mods: {
 			VagabondsSoulHeader: 浪客之魂
 			NanotechEffect: 纳米核心
 			EclipseMirrorEffect: 日蚀魔镜
-			DragonScalesEffect: 浴火龙鳞
-			VeneratedLocketEffect: 敬天神盗盒
 			AmalgamEffect: 聚合之脑
 			AsgardianAegisEffect: 阿斯加德之庇护
 			RampartofDeitiesEffect: 神之壁垒
@@ -664,7 +658,6 @@ Mods: {
 			CalamitySniperHeader: 灾厄 神枪手之魂
 			ElementalQuiverEffect: 元素箭袋
 			QuiverofNihilityEffect: 虚无箭袋
-			DynamoStemCellsEffect: 痴愚金龙干细胞
 			NucleogenesisEffect: 核子之源
 			AbyssalDivingSuitEffect: 深渊潜游服
 			BrandoftheBrimstoneWitchHeader: "{$Mods.FargowiltasCrossmod.Items.BrandoftheBrimstoneWitch.DisplayName}"
