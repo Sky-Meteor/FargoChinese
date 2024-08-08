@@ -1120,7 +1120,7 @@ Mods: {
 			}
 
 			DeerThing2: {
-				DisplayName: 华鹿
+				DisplayName: 不寻常的鹿头骨
 				Tooltip: 在任何生物群落中召唤独眼巨鹿
 			}
 
@@ -1373,6 +1373,7 @@ Mods: {
 					召唤宝箱怪
 					在地下雪原中可召唤冰雪宝箱怪
 					'''
+				HardmodeLock: 只能在困难模式中使用
 			}
 
 			SuspiciousLookingLure: {
@@ -3020,10 +3021,10 @@ Mods: {
 			UnlimitedUse30: 堆叠30个以上时不消耗
 			PermanentEffectNearby: 放置后为附近的玩家提供永久性增益
 			WorksFromBanks: 物品栏生效效果在猪猪存钱罐和保险箱中同样生效
-			SoldBySquirrel: 高顶礼帽松鼠售卖
-			SomeMaterialsSold: 售卖部分材料
-			CraftableMaterialsSold: 售卖可合成材料
-			SoldAtThirtyStack: 堆叠30个时售卖
+			SoldBySquirrel: 获取后高顶礼帽松鼠售卖
+			SomeMaterialsSold: 获取后松鼠售卖部分材料
+			CraftableMaterialsSold: 获取后松鼠售卖可合成材料
+			SoldAtThirtyStack: 堆叠30个时松鼠售卖
 			SoldBy: 售卖于
 			SeveralVendors: 多个商人
 		}
