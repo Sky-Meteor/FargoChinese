@@ -374,4 +374,6 @@ EMode: {
 	QueenBeeEnrage: "{$NPCName.QueenBee} has enraged outside the underground jungle!"
 }
 
-RoyalSubjectVertical.DisplayName: Royal Subject Vertical
+RoyalSubjectVertical.DisplayName: Royal Subject
+GelatinBouncer.DisplayName: Bouncy Slime
+GelatinFlyer.DisplayName: Heavenly Slime

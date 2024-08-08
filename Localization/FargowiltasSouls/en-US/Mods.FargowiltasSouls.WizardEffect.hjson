@@ -38,7 +38,7 @@ Obsidian: Grants explosions and fireballs without being lava wet but with reduce
 Orichalcum: Increases multiplier to 3.5x
 Palladium: Rapid Healing always lasts 5 seconds, increases orb damage
 PalmWood: Attack speed, damage, and size increased
-Pearlwood: Star can hit enemies, your attacks have 2 extra chances to crit
+Pearlwood: Your crits reroll twice, increased star damage
 Platinum: Bonus replaced with 33% chance for enemies to drop 5x loot
 Pumpkin: Pumpkins can grow while flying, heal for twice as much, and flame damage is increased to 45
 Rain: Umbrella can block up to 400 damage and reflected damage is tripled
@@ -68,17 +68,3 @@ AshWood: Fireball cooldown reduced
 NoUpgrade: No upgrade
 Active: Active
 Inactive: Inactive
-Aerospec: Total of 5 jumps, jumping grants more crit
-Marnite: Stronger daggers, +15% placement speed and +5 placement range
-DesertProwler: Stronger jumps
-Wulfrum: The drone is faster and occasionally finds bonus items
-Hydrothermic: Longer overheat charge, more attack speed increase
-Daedalus: Grants wings if you don't have any, Can fly higher
-SnowRuffian: Grants some flight time
-Reaver: More drastic stat changes
-Plaguebringer:
-	'''
-	Debuffs spread from farther 
-	Enemies are tagged to spread debuffs for longer
-	'''
-Umbraphile: Bats do more damage and travel faster
