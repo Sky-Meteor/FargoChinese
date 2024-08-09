@@ -3508,6 +3508,6 @@ TimberBooster: {
 WillBooster: {
 	DisplayName: 意志强化焰
 	Tooltip: ""
-	Activate: +{0} flat damage
-	Deactivate: -{0} flat damage
+	Activate: +{0} 基础伤害
+	Deactivate: -{0} 基础伤害
 }
