@@ -180,7 +180,7 @@ AnticoagulationBuff: {
 
 AntisocialBuff: {
 	DisplayName: 社恐
-	Description: 你没有朋友，也无法造成召唤伤害
+	Description: 你朋友很少，鞭子伤害也很低
 }
 
 AtrophiedBuff: {
@@ -238,9 +238,13 @@ FlippedBuff: {
 	Description: 你的重力被颠倒了
 }
 
-FlippedHallowBuff: {
-	DisplayName: 翻转
-	Description: 你的重力被颠倒了
+HallowIlluminatedBuff: {
+	DisplayName: 灯火通明
+	Description:
+		'''
+		增加亮度和生成率
+		在明亮区域受到的伤害和造成的伤害都会增加
+		'''
 }
 
 FusedBuff: {
@@ -330,6 +334,11 @@ LowGroundBuff: {
 	Description: 钩爪被禁止，不能站在平台或液体上
 }
 
+LowGroundEridanusBuff: {
+	DisplayName: 下陷
+	Description: 不能站在平台上
+}
+
 MarkedforDeathBuff: {
 	DisplayName: 死亡标记
 	Description: 别被打到
@@ -399,7 +408,7 @@ RefreshedBuff: {
 
 ReverseManaFlowBuff: {
 	DisplayName: 魔力逆流
-	Description: 你的魔法武器消耗生命而不是魔力
+	Description: 你的魔法武器会锁定一段时间魔力 // for patch
 }
 
 RottingBuff: {
@@ -629,8 +638,8 @@ SuperBleedBuff: {
 }
 
 CorruptingBuff: {
-	DisplayName: 腐化之力
-	Description: 你正在腐烂
+	DisplayName: 凋零
+	Description: 你正在凋零
 }
 
 TimeFrozenBuff: {
@@ -678,14 +687,14 @@ WretchedHexBuff: {
 	Description: 暗影焰触手伤害大幅提升，但速度和防御大幅下降
 }
 
-WitheredBuff: {
+CorruptedBuff: {
 	DisplayName: 凋零
-	Description: Mods.FargowiltasSouls.Buffs.WithereddBuff.Description
+	Description: 你已凋零
 }
 
-WitheredWizardBuff: {
-	DisplayName: 凋零
-	Description: Mods.FargowiltasSouls.Buffs.WitheredWizardBuff.Description
+CorruptedBuffForce: {
+	DisplayName: 凋零（力级）
+	Description: 你已凋零
 }
 
 JungleMimicSummonBuff: {
@@ -695,7 +704,7 @@ JungleMimicSummonBuff: {
 
 GladiatorBuff: {
 	DisplayName: 角斗士之力
-	Description: +5%伤害减免，+5%伤害，免疫击退，增强长矛雨
+	Description: 增加伤害和伤害减免，免疫击退，增强长矛雨
 }
 
 GladiatorSpiritBuff: {
@@ -753,4 +762,49 @@ TimberBleedBuff: {
 EarthPoison: {
 	DisplayName: 大地毒药（什么玩意这是）
 	Description: Mods.FargowiltasSouls.Buffs.EarthPoison.Description
+}
+
+WitheredBuff: {
+	DisplayName: 凋零
+	Description: Mods.FargowiltasSouls.Buffs.WitheredBuff.Description
+}
+
+WitheredWizardBuff: {
+	DisplayName: 凋零（巫师）
+	Description: Mods.FargowiltasSouls.Buffs.WitheredWizardBuff.Description
+}
+
+MushroomPowerBuff: {
+	DisplayName: 蘑菇之力
+	Description: 增加伤害和暴击率
+}
+
+SolarBuff: {
+	DisplayName: 日耀之力
+	Description: 增加伤害减免
+}
+
+VortexBuff: {
+	DisplayName: 星旋之力
+	Description: 增加暴击率
+}
+
+NebulaBuff: {
+	DisplayName: 星云之力
+	Description: 增加生命再生
+}
+
+StardustBuff: {
+	DisplayName: 星尘之力
+	Description: 增加伤害
+}
+
+AmbrosiaBuff: {
+	DisplayName: 仙馔密酒
+	Description: +30%伤害，+30%近战攻速，+20%伤害减免，+5生命再生
+}
+
+MutantDesperationBuff: {
+	DisplayName: 幻影杀手
+	Description: 他的最后一搏。你会受到双倍伤害！
 }

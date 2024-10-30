@@ -74,12 +74,12 @@ NatureChampion: {
 NatureChampionHead.DisplayName: 自然英灵
 
 ShadowChampion: {
-	DisplayName: 暗影英灵
+	DisplayName: 死亡英灵
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.ShadowChampion.DisplayName}"
 		SpawnInfo: 夜晚时在腐化之地或猩红之地使用[i:FargowiltasSouls/SigilOfChampions]召唤。
-		DespawnMessage: 暗影英灵消失在魔雾中……
+		DespawnMessage: 死亡英灵消失在魔雾中……
 	}
 }
 
