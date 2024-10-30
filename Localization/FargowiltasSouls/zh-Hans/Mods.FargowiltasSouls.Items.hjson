@@ -994,7 +994,8 @@ WillForce: {
 		[i:FargowiltasSouls/GoldEnchant] 拾取钱币时自动将钱币存储进猪猪存钱罐（在背包和装饰栏中也会生效）
 		[i:FargowiltasSouls/PlatinumEnchant] 敌人有33%概率掉落5倍战利品
 		'''
-	VanityTooltip: "[i:FargowiltasSouls/GoldEnchant] 拾取钱币时自动将钱币存储进猪猪存钱罐
+	VanityTooltip: "[i:FargowiltasSouls/GoldEnchant] 拾取钱币时自动将钱币存储进猪猪存钱罐"
+}
 
 AbominableWand: {
 	DisplayName: 憎恶手杖
@@ -3660,6 +3661,7 @@ SisypheanFist: {
 		刺穿生命值较低的敌人
 		'''
 }
+
 EgyptianFlail: {
 	DisplayName: 奥西里斯之沃壤
 	Tooltip:
@@ -3668,6 +3670,7 @@ EgyptianFlail: {
 		偶尔会引发暗影焰爆炸
 		'''
 }
+
 SpiritLongbow: {
 	DisplayName: 灵魂长弓
 	Tooltip:
@@ -3677,18 +3680,22 @@ SpiritLongbow: {
 		刺穿生命值较低的敌人
 		'''
 }
+
 CursedCoffinBag: {
 	DisplayName: 宝藏袋（咒缚灵棺）
 	Tooltip: 右键点击可打开
 }
+
 CursedCoffinRelic: {
 	DisplayName: 咒缚灵棺圣物
 	Tooltip: ""
 }
+
 CursedCoffinTrophy: {
 	DisplayName: 咒缚灵棺纪念章
 	Tooltip: ""
 }
+
 UmbraRegalia: {
 	DisplayName: 宗室王权
 	Tooltip:
@@ -3700,10 +3707,12 @@ UmbraRegalia: {
 		“巅峰再战的奖励……”
 		'''
 }
+
 CoffinPainting: {
 	DisplayName: 棺材绘画
 	Tooltip: ""
 }
+
 ElectricWhip: {
 	DisplayName: 雷霆锁链
 	Tooltip:
@@ -3712,6 +3721,7 @@ ElectricWhip: {
 		“被击败敌人的奴役面孔……”
 		'''
 }
+
 TheDestroyer: {
 	DisplayName: 毁灭者
 	Tooltip:
@@ -3721,6 +3731,7 @@ TheDestroyer: {
 		“巅峰再战的奖励……”
 		'''
 }
+
 FallenStarDayItem: {
 	DisplayName: 落星
 	Tooltip: ""

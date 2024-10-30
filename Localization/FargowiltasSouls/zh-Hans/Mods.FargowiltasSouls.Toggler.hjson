@@ -59,10 +59,10 @@ RainFeatherfallEffect: 雨云 雨伞羽落效果
 SnowEffect: 冰雪 雪球
 JungleJump: 丛林 跳跃孢子
 JungleDashEffect: 丛林 冲刺
-MoltenEffect：熔岩 狱火增益
-ShroomiteHealEffect：蘑菇 蘑菇消耗增益
-ShroomiteMushroomPriority：蘑菇 使用药水优先级
-ShroomiteShroomEffect：蘑菇 蘑菇云
+MoltenEffect: 熔岩 狱火增益
+ShroomiteHealEffect: 蘑菇 蘑菇消耗增益
+ShroomiteMushroomPriority: 蘑菇 使用药水优先级
+ShroomiteShroomEffect: 蘑菇 蘑菇云
 NatureEffect: 简化自然之力
 ShadowHeader: "{$Mods.FargowiltasSouls.Items.ShadowForce.DisplayName}"
 DarkArtistMinion: 暗黑艺术家 爆炸烈焰召唤物
@@ -148,8 +148,8 @@ PlantMinionEffect: 世纪之花召唤物
 LihzahrdGroundPound: 蜥蜴快速下落
 LihzahrdBoulders: 下落坠地火焰
 CelestialRuneAttacks: 天界符文额外攻击
-CelestialRuneOnhit：攻击时附带远古幻象妖
-MinionsDeactivatedEffect：禁用仆从效果来造成伤害
+CelestialRuneOnhit: 攻击时附带远古幻象妖
+MinionsDeactivatedEffect: 禁用仆从效果来造成伤害
 HeartHeader: "{$Mods.FargowiltasSouls.Items.HeartoftheMasochist.DisplayName}"
 PrecisionSealHurtbox: 缩小碰撞箱
 PumpkingsCapeEffect: 南瓜王披肩格挡
