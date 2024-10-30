@@ -1,4 +1,4 @@
 AccessorySlot: {
-	EModeSlotFunctional: Enchantment, Force or Soul
-	EModeSlotVanity: Social Enchantment, Force or Soul
+	EModeSlotFunctional: Enchantment, Essence, Force or Soul
+	EModeSlotVanity: Social Enchantment, Essence, Force or Soul
 }
