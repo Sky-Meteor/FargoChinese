@@ -790,6 +790,7 @@ OccultistsEssence: {
 	DisplayName: 术士精华
 	Tooltip:
 		'''
+		增加18%召唤伤害
 		增加10%鞭子范围
 		增加1个召唤栏位
 		“这只是个开始……”
@@ -1375,7 +1376,7 @@ LumpOfFlesh: {
 		'''
 		免疫[i:FargowiltasSouls/DreadShell]击退、凝血失效、[i:FargowiltasSouls/PungentEyeball]黑视、遮蔽减益
 		免疫[i:FargowiltasSouls/SkullCharm]眩晕、[i:FargowiltasSouls/Deerclawps]缓慢、冰冻减益
-		[i:FargowiltasSouls/SkullCharm]造成1.15倍伤害，获得一个眼球召唤物，眼球会在你攻击时蓄能，蓄能完毕后发射激光
+		[i:FargowiltasSouls/SkullCharm]增加15%伤害，获得一个眼球召唤物，眼球会在你攻击时蓄能，蓄能完毕后发射激光
 		[i:FargowiltasSouls/PungentEyeball]增加稀有怪物的生成概率
 		[i:FargowiltasSouls/PungentEyeball]你的光标会导致附近的敌怪受到的伤害增加15%
 		[i:FargowiltasSouls/DreadShell]右键点击可进行格挡，最多格挡200点伤害，格挡成功会进行弹反
