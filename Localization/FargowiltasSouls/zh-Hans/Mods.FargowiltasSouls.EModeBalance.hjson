@@ -37,7 +37,7 @@ SpearRework: 重做长矛挥舞动画
 PalladiumPikeRework: 击中敌人后大幅增加生命恢复速度
 CobaltNaginataRework: 击中敌人会造成小范围爆炸
 MythrilHalberdRework: 不攻击持续2秒后下一击造成八倍伤害，受攻击速度加成
-OrichalcumHalberdRework: 对受减益伤害的敌人造成双倍伤害，并且会随减益数量增加而增加
+OrichalcumHalberdRework: 对受减益伤害的敌人造成最多两倍伤害，随敌人的减益伤害增加而增加
 SuperStarCannon: 最大穿透次数降低为7次
 WarmthPotionNerf: 伤害减免效果减半且在防御后计算
 CrossNecklaceNerf: 连续受击不会触发延长无敌时间的效果

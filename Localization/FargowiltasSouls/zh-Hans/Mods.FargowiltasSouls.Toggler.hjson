@@ -33,7 +33,7 @@ AshWoodFireballs: 灰烬木 火球
 TerraLightningEffect: 简化泰拉之力
 WillHeader: "{$Mods.FargowiltasSouls.Items.WillForce.DisplayName}"
 GladiatorSpears: 角斗士 长矛雨
-GladiatorBanner: 角斗士 区域
+GladiatorBanner: 角斗士 旗帜区域
 GoldEffect: 金 幸运币
 GoldToPiggy: 金 自动将钱存进储蓄罐
 HuntressEffect: 女猎人 相关效果
@@ -148,8 +148,8 @@ PlantMinionEffect: 世纪之花召唤物
 LihzahrdGroundPound: 蜥蜴快速下落
 LihzahrdBoulders: 下落坠地火焰
 CelestialRuneAttacks: 天界符文额外攻击
-CelestialRuneOnhit: 攻击时附带远古幻象妖
-MinionsDeactivatedEffect: 禁用仆从效果来造成伤害
+CelestialRuneOnhit: 受伤产生远古幻象妖
+MinionsDeactivatedEffect: 禁用仆从效果来提高伤害
 HeartHeader: "{$Mods.FargowiltasSouls.Items.HeartoftheMasochist.DisplayName}"
 PrecisionSealHurtbox: 缩小碰撞箱
 PumpkingsCapeEffect: 南瓜王披肩格挡

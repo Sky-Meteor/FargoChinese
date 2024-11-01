@@ -760,7 +760,7 @@ TimberBleedBuff: {
 }
 
 EarthPoison: {
-	DisplayName: 大地毒药（什么玩意这是）
+	DisplayName: 大地腐蚀
 	Description: Mods.FargowiltasSouls.Buffs.EarthPoison.Description
 }
 
