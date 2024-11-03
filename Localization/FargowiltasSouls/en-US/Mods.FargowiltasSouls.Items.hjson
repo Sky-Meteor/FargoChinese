@@ -232,7 +232,7 @@ GladiatorEnchant: {
 		Spears will rain down on struck enemies
 		Double tap down to place a banner that lasts 15 seconds
 		While close to the banner, spear rain is stronger
-		Being close to the banner also grants knockback immunity, +5% damage reduction and +5% damage
+		Being close to the banner also grants knockback immunity, +8% damage reduction and +8% damage
 		Banner can only be resummoned after it runs out
 		'Are you not entertained?'
 		'''
@@ -601,8 +601,7 @@ SpiderEnchant: {
 	DisplayName: Spider Enchantment
 	Tooltip:
 		'''
-		Your minions and sentries can crit
-		Minion and sentry crits deal x1.5 damage, instead of 2x
+		Your summon weapons can crit
 		'Arachnophobia is punishable by arachnid induced death'
 		'''
 }
@@ -644,7 +643,10 @@ TikiEnchant: {
 	DisplayName: Tiki Enchantment
 	Tooltip:
 		'''
-		Whip your summons to make them work harder
+		Summoner whips scale with your strongest class instead
+		+20% whip range
+		Whip your minions or projectiles to empower them for 1.2x damage on their next hit
+		In Eternity Mode, whips can benefit from melee speed again
 		'Aku Aku!'
 		'''
 }
@@ -950,6 +952,9 @@ WillForce: {
 		[i:FargowiltasSouls/RedRidingEnchant] Successive attacks gain bonus damage 
 		[i:FargowiltasSouls/ValhallaKnightEnchant] Increases the effectiveness of healing sources by 25%
 		[i:FargowiltasSouls/ValhallaKnightEnchant] Improves mounts and stats while mounted, mounts have a dash
+		[i:FargowiltasSouls/GoldEnchant] Press the Gold hotkey to be encased in a golden shell, your attacks inflict Midas
+		[i:FargowiltasSouls/GoldEnchant] Automatically sends coins to your piggy bank when picked up (works in inventory and vanity)
+		[i:FargowiltasSouls/PlatinumEnchant] 33% chance for enemies to drop 5x loot
 		'A mind of unbreakable determination'
 		'''
 }
@@ -1377,7 +1382,7 @@ NecromanticBrew: {
 	Tooltip:
 		'''
 		Grants immunity to Lethargic
-		Increases speed when dashing by 50%
+		Increases speed when dashing by 30%
 		When dashing, take 15% less damage and reflect 100% of contact damage on attacker
 		Summons 2 Skeletron arms to whack enemies
 		'The bone-growing solution of a defeated foe'
@@ -1810,25 +1815,24 @@ TerrariaSoul: {
 	DisplayName: Soul of Terraria
 	Tooltip:
 		'''
-		Summons fireballs, shadow orbs, icicles, leaf crystals, flameburst minion, hallowed sword and shield, and beetles
-		Right Click to Guard
-		Double tap down to spawn a sentry, a banner, and a portal, call a storm and arrow rain, toggle stealth, and direct your empowered guardian
-		Gold Key encases you in gold, Freeze Key freezes time for 5 seconds, minions spew scythes
-		Solar shield allows you to dash, Dash into any walls, to teleport through them
-		Throw a smoke bomb to teleport to it and gain the First Strike Buff
-		Attacks may spawn lightning, a storm cloud, flower petals, spectre orbs, a Dungeon Guardian, snowballs, spears, or buff boosters
-		Attacks cause increased life regen, shadow dodge, Flameburst shots, meteor showers, and reduced enemy immune frames
-		Critical chance is set to 25%, Crit to increase it by 5%, At 100% every 10th attack gains 4% life steal
-		Getting hit drops your crit back down, triggers a blood geyser, and reflects damage
-		Projectiles may split or shatter and spawn stars, item and projectile size increased, attract items from further away
-		Nearby enemies are ignited, You leave behind a trail of fire, jump to create a spore explosion
-		Grants Crimson healing, immunity to fire, fall damage, and lava, and doubled herb collection
-		Grants 50% chance for Mega Bees, 15% chance for minion crits, 20% chance for bonus loot
-		Critters have increased defense and their souls will aid you, You may summon temporary minions
-		All grappling hooks are more effective and fire homing shots, Greatly enhances all DD2 sentries
-		Your attacks inflict Midas, Enemies explode into needles
-		You violently explode to damage nearby enemies when hurt and revive with 200 HP when killed
-		Effects of Flower Boots
+		[i:FargowiltasSouls/TimberForce] Gain an aura that fires projectiles, improved hooks, and occasional mana stars on hit
+		[i:FargowiltasSouls/TimberForce] Gain crit rerolls when retreiving pickups, bestiary completion and discount
+		[i:FargowiltasSouls/TerraForce] Critical strikes fire powerful lightning, Right Click to guard and parry for up to 200 damage, you take less debuff damage and your swords are empowered
+		[i:FargowiltasSouls/TerraForce] 10% set critical strike chance increased on hit, further item grab range, and you sometimes don't consume crafting ingredients
+		[i:FargowiltasSouls/EarthForce] You gain defensive bonuses while not attacking and offensive bonuses while attacking
+		[i:FargowiltasSouls/EarthForce] 4x debuff damage and you explode on hit while not attacking
+		[i:FargowiltasSouls/NatureForce] You have an aura that siphons life, increases damage taken, and you fire leaf shots at nearby enemies
+		[i:FargowiltasSouls/NatureForce] Mushroom healing is improved and grants buffs, your attacks inflict several debuffs, and you have an umbrella
+		[i:FargowiltasSouls/LifeForce] Leave behind powerful flowers while flying and you have the effects of Hive Pack
+		[i:FargowiltasSouls/LifeForce] You reflect contact damage and your minions and sentries can crit
+		[i:FargowiltasSouls/SpiritForce] Double tap down to call an ancient tornado, healing potions restore more over time, and your whips are improved
+		[i:FargowiltasSouls/SpiritForce] If you reach zero HP you will revive with 300 HP and self-cleanse debuffs
+		[i:FargowiltasSouls/ShadowForce] Grants a shadow dash, and an invincible shade dash every 4 seconds, increased projectile stats based on speed
+		[i:FargowiltasSouls/ShadowForce] You fire an additional weapon as support, your minions get a scythe attack, and slain enemies may drop a pile of bones
+		[i:FargowiltasSouls/WillForce] Summons a gladiator spirit, increases your healing and mount stats, and successive attacks gain bonus damage, press the Gold hotkey to encase yourself
+		[i:FargowiltasSouls/WillForce] Automatically sends coins to your piggy bank when picked up (works from vanity and inventory), enemies may drop extra loot
+		[i:FargowiltasSouls/CosmoForce] Attacking occasionally launches moons at enemies that explode into Lunar Boosters
+		[i:FargowiltasSouls/CosmoForce] Increases your movement speed and acceleration and decreases your momentum, press the Freeze Key to freeze time for 6 seconds with a 60 second cooldown
 		'A true master of Terraria'
 		'''
 }
@@ -3401,5 +3405,201 @@ RazorContainer: {
 		Hit it with a sword to send it flying
 		While flying it always critically strikes and has increased armor penetration
 		'Some yellow fur is still stuck at the bottom' 
+		'''
+}
+
+NebulaBooster: {
+	DisplayName: Nebula Booster
+	Tooltip: ""
+	Activate: +{0} life regen
+	Deactivate: -{0} life regen
+}
+
+SolarBooster: {
+	DisplayName: Solar Booster
+	Tooltip: ""
+	Activate: +{0}% DR
+	Deactivate: -{0}% DR
+}
+
+StardustBooster: {
+	DisplayName: Stardust Booster
+	Tooltip: ""
+	Activate: +{0}% damage
+	Deactivate: -{0}% damage
+}
+
+VortexBooster: {
+	DisplayName: Vortex Booster
+	Tooltip: ""
+	Activate: +{0}% crit chance
+	Deactivate: -{0}% crit chance
+}
+
+CosmosBooster: {
+	DisplayName: Cosmos Booster
+	Tooltip: ""
+	Activate: +{0}% crit damage
+	Deactivate: -{0}% crit damage
+}
+
+DeathBooster: {
+	DisplayName: Death Booster
+	Tooltip: ""
+	Activate: +{0} armor pen
+	Deactivate: -{0} armor pen
+}
+
+EarthBooster: {
+	DisplayName: Earth Booster
+	Tooltip: ""
+	Activate: +{0}% DR
+	Deactivate: -{0}% DR
+}
+
+LifeBooster: {
+	DisplayName: Life Booster
+	Tooltip: ""
+	Activate: +{0} life regen
+	Deactivate: -{0} life regen
+}
+
+NatureBooster: {
+	DisplayName: Nature Booster
+	Tooltip: ""
+	Activate: +{0} defense
+	Deactivate: -{0} defense
+}
+
+SpiritBooster: {
+	DisplayName: Spirit Booster
+	Tooltip: ""
+	Activate: +{0} mana regen
+	Deactivate: -{0} mana regen
+}
+
+TerraBooster: {
+	DisplayName: Terra Booster
+	Tooltip: ""
+	Activate: +{0}% crit chance
+	Deactivate: -{0}% crit chance
+}
+
+TimberBooster: {
+	DisplayName: Timber Booster
+	Tooltip: ""
+	Activate: +{0}% damage
+	Deactivate: -{0}% damage
+}
+
+WillBooster: {
+	DisplayName: Will Booster
+	Tooltip: ""
+	Activate: +{0} flat damage
+	Deactivate: -{0} flat damage
+}
+
+CoffinRoominator: {
+	DisplayName: Coffin Roominator
+	Tooltip:
+		'''
+		Spawns a Cursed Coffin room on your cursor
+		Overrides existing Cursed Coffin rooms
+		'''
+}
+
+GildedSceptre: {
+	DisplayName: Gilded Sceptre
+	Tooltip:
+		'''
+		Draw a circle to activate projectiles
+		Activated projectiles chase after the nearest enemy
+		Activated projectiles deal more damage based on circle accuracy
+		'''
+}
+
+AccursedAnkh: {
+	DisplayName: Accursed Ankh
+	Tooltip: While held out, increases life regeneration and debuff depletion, but decreases defense by 10
+}
+
+SisypheanFist: {
+	DisplayName: Sisyphean Gauntlet
+	Tooltip:
+		'''
+		While grounded, grab a huge boulder from the earth
+		Release the button to hurl it towards your cursor
+		Boulder damage scales with its speed
+		Pierces enemies with low health
+		'''
+}
+
+EgyptianFlail: {
+	DisplayName: Nekhakha
+	Tooltip:
+		'''
+		Your summons will focus struck enemies
+		Occasionally causes shadowflame explosions
+		'''
+}
+
+SpiritLongbow: {
+	DisplayName: Spirit Longbow
+	Tooltip:
+		'''
+		Converts arrows to Spirit Arrows that release spirit flames behind them
+		Hold button to charge shots for more damage and higher speed
+		Pierces enemies with low health
+		'''
+}
+
+CursedCoffinBag: {
+	DisplayName: Treasure Bag (Cursed Coffin)
+	Tooltip: Right Click to open
+}
+
+CursedCoffinRelic: {
+	DisplayName: Cursed Coffin Relic
+	Tooltip: ""
+}
+
+CursedCoffinTrophy: {
+	DisplayName: Cursed Coffin Trophy
+	Tooltip: ""
+}
+
+UmbraRegalia: {
+	DisplayName: Umbra Regalia
+	Tooltip:
+		'''
+		Left Click to rapidly stab with the spear
+		Hold Right Click to charge a spear toss
+		Becomes stronger when fully charged
+		Can continue to gain damage for a while after full charge
+		'The reward for a mighty rematch...'
+		'''
+}
+
+CoffinPainting: {
+	DisplayName: Coffin Painting
+	Tooltip: ""
+}
+
+ElectricWhip: {
+	DisplayName: Voltaic Chain
+	Tooltip:
+		'''
+		Whip enemies to fire chain lightning from nearby minions, up to 4 times per swing
+		'The lifeblood of a defeated foe...'
+		'''
+}
+
+TheDestroyer: {
+	DisplayName: The Destroyer
+	Tooltip:
+		'''
+		Whip your minions to fire a laser at a nearby enemy, up to 6 times per swing
+		Every 20th swing, the destroyer breaks loose and tracks your mouse for 5 seconds
+		'The reward for a mighty rematch..'
 		'''
 }
