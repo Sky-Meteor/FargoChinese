@@ -55,7 +55,7 @@ ObsidianLavaWetBuff: {
 
 TitaniumDRBuff: {
 	DisplayName: Titanium Shield
-	Description: You have extra damage resistance in close range and resist most debuffs
+	Description: You have extra damage resistance and resist most debuffs
 }
 
 KingSlimeMinionBuff: {
@@ -150,7 +150,7 @@ MutantFangBuff: {
 
 MutantPresenceBuff: {
 	DisplayName: Mutant Presence
-	Description: Defense, damage reduction, and life regen reduced; almost all effect toggles disabled; reduced graze radius
+	Description: Defense, damage reduction, and healing reduced; reduced graze radius; some accessory effects disabled
 }
 
 HellFireBuff: {
@@ -180,7 +180,7 @@ AnticoagulationBuff: {
 
 AntisocialBuff: {
 	DisplayName: Antisocial
-	Description: You have no friends and no summon damage
+	Description: You have less friends and whip damage
 }
 
 AtrophiedBuff: {
@@ -229,7 +229,7 @@ DefenselessBuff: {
 }
 
 FlamesoftheUniverseBuff: {
-	DisplayName: Flames of the Universe
+	DisplayName: Flames of the Cosmos
 	Description: The heavens themselves have judged you
 }
 
@@ -238,9 +238,13 @@ FlippedBuff: {
 	Description: Your gravity is reversed
 }
 
-FlippedHallowBuff: {
-	DisplayName: Flipped
-	Description: Your gravity is reversed
+HallowIlluminatedBuff: {
+	DisplayName: Illuminated
+	Description:
+		'''
+		Increased brightness and spawn rate
+		Damage taken and dealt increased in bright areas
+		'''
 }
 
 FusedBuff: {
@@ -330,6 +334,11 @@ LowGroundBuff: {
 	Description: No hooks, cannot stand on platforms or liquids
 }
 
+LowGroundEridanusBuff: {
+	DisplayName: Low Ground
+	Description: Cannot stand on platforms
+}
+
 MarkedforDeathBuff: {
 	DisplayName: Marked for Death
 	Description: Just don't get hit
@@ -399,7 +408,7 @@ RefreshedBuff: {
 
 ReverseManaFlowBuff: {
 	DisplayName: Reverse Mana Flow
-	Description: Your magic weapons cost life instead of mana
+	Description: Your magic weapons lock your mana for a duration
 }
 
 RottingBuff: {
@@ -629,8 +638,8 @@ SuperBleedBuff: {
 }
 
 CorruptingBuff: {
-	DisplayName: Corrupting
-	Description: You are becoming corrupted
+	DisplayName: Withering
+	Description: You are withering
 }
 
 TimeFrozenBuff: {
@@ -679,13 +688,13 @@ WretchedHexBuff: {
 }
 
 CorruptedBuff: {
-	DisplayName: Corrupted Buff
-	Description: Mods.FargowiltasSouls.Buffs.CorruptedBuff.Description
+	DisplayName: Withered
+	Description: You have withered
 }
 
 CorruptedBuffForce: {
-	DisplayName: Corrupted Buff Force
-	Description: Mods.FargowiltasSouls.Buffs.CorruptedBuffForce.Description
+	DisplayName: Withered (Force)
+	Description: You have withered
 }
 
 JungleMimicSummonBuff: {
@@ -695,7 +704,12 @@ JungleMimicSummonBuff: {
 
 GladiatorBuff: {
 	DisplayName: Gladiator Strength
-	Description: +5% damage reduction, +5% damage, knockback immunity, improved spear rain
+	Description: Increased damage and damage resistance, knockback immunity, improved spear rain
+}
+
+GladiatorSpiritBuff: {
+	DisplayName: Gladiator Strength
+	Description: +15% damage reduction, +30% damage, knockback immunity, improved successive hit damage
 }
 
 ROBBuff: {
@@ -730,12 +744,67 @@ MagicalCurseBuff: {
 	Description: Mods.FargowiltasSouls.Buffs.MagicalCurseBuff.Description
 }
 
-PearlwoodStarBuff: {
-	DisplayName: Pearlwood Star Buff
-	Description: Mods.FargowiltasSouls.Buffs.PearlwoodStarBuff.Description
-}
-
 MoonFangBuff: {
 	DisplayName: Moon Fang
 	Description: Cannot regenerate life
+}
+
+WitheredForceBuff: {
+	DisplayName: Withered Force Buff
+	Description: Mods.FargowiltasSouls.Buffs.WitheredForceBuff.Description
+}
+
+TimberBleedBuff: {
+	DisplayName: Timber Bleed Buff
+	Description: Mods.FargowiltasSouls.Buffs.TimberBleedBuff.Description
+}
+
+EarthPoison: {
+	DisplayName: Earth Poison
+	Description: Mods.FargowiltasSouls.Buffs.EarthPoison.Description
+}
+
+WitheredBuff: {
+	DisplayName: Withered Buff
+	Description: Mods.FargowiltasSouls.Buffs.WitheredBuff.Description
+}
+
+WitheredWizardBuff: {
+	DisplayName: Withered Wizard Buff
+	Description: Mods.FargowiltasSouls.Buffs.WitheredWizardBuff.Description
+}
+
+MushroomPowerBuff: {
+	DisplayName: Mushroom Power
+	Description: Increased damage and critical strike chance
+}
+
+SolarBuff: {
+	DisplayName: Solar Buff
+	Description: Increased damage reduction
+}
+
+VortexBuff: {
+	DisplayName: Vortex Buff
+	Description: Increased critical strike chance
+}
+
+NebulaBuff: {
+	DisplayName: Nebula Buff
+	Description: Increased life regeneration
+}
+
+StardustBuff: {
+	DisplayName: Stardust Buff
+	Description: Increased damage
+}
+
+AmbrosiaBuff: {
+	DisplayName: Ambrosia Buff
+	Description: +30% damage, +30% melee speed, +20% damage reduction, +5 life regeneration
+}
+
+MutantDesperationBuff: {
+	DisplayName: Phantasmal Fury
+	Description: His final stand. You take double damage!
 }

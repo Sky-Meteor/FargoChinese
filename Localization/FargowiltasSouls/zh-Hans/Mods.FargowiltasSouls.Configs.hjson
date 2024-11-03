@@ -1,5 +1,5 @@
-SoulConfig: {
-	DisplayName: Fargo魂配置
+ClientConfig: {
+	DisplayName: 客户端配置
 
 	Headers: {
 		Maso: 永恒模式
@@ -14,6 +14,55 @@ SoulConfig: {
 	ItemDisabledTooltip: {
 		Label: 在物品信息中显示效果被禁用
 		Tooltip: 开启时，若饰品有效果被饰品效果配置禁用，会有一条物品信息提示你
+	}
+
+	ToggleSearchReset: {
+		Label: 饰品效果菜单关闭时重置搜索栏
+		Tooltip: ""
+	}
+
+	RainbowHealThreshold: {
+		Label: "[i:FargowiltasSouls/ConcentratedRainbowMatter] 自动使用治疗药水阈值"
+		Tooltip: ""
+	}
+
+	PrecisionSealIsHold: {
+		Label: "[i:FargowiltasSouls/PrecisionSeal] 按住“玲珑圣印”键时开启精确模式"
+		Tooltip: 如果关闭，你不再需要一直按住热键以开启精度模式。不在精度模式时，按下热键可以激活，再按一次即可取消。
+	}
+
+	OncomingMutantX: {
+		Label: 永恒模式图标水平位置
+		Tooltip: ""
+	}
+
+	OncomingMutantY: {
+		Label: 永恒模式图标竖直位置
+		Tooltip: ""
+	}
+
+	CooldownBars: {
+		Label: 冷却条
+		Tooltip: ""
+	}
+
+	CooldownBarsX: {
+		Label: 冷却条水平位置
+		Tooltip: ""
+	}
+
+	CooldownBarsY: {
+		Label: 冷却条竖直位置
+		Tooltip: ""
+	}
+}
+
+SoulConfig: {
+	DisplayName: 魂石设置
+
+	Headers: {
+		Maso: 永恒模式
+		Patreon: "[i:FargowiltasSouls/RoombaPet] [c/ffffff:捐赠者物品]"
 	}
 
 	DeviChatter: {
@@ -38,26 +87,6 @@ SoulConfig: {
 
 	BossRecolors: {
 		Label: Boss贴图替换
-		Tooltip: ""
-	}
-
-	PrecisionSealIsHold: {
-		Label: 按住“玲珑圣印”键时开启精确模式
-		Tooltip: 如果关闭，你不再需要一直按住热键以开启精度模式。不在精度模式时，按下热键可以激活，再按一次即可取消。
-	}
-
-	PreBossNightGlow: {
-		Label: Boss前敌怪发光
-		Tooltip: 永恒模式中，如果你没有击败任何Boss，敌怪会在夜晚发光
-	}
-
-	OncomingMutantX: {
-		Label: 永恒模式图标水平位置
-		Tooltip: ""
-	}
-
-	OncomingMutantY: {
-		Label: 永恒模式图标竖直位置
 		Tooltip: ""
 	}
 

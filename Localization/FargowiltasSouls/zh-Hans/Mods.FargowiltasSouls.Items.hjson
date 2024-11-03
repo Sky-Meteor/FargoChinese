@@ -23,7 +23,7 @@ AncientHallowEnchant: {
 	DisplayName: 远古神圣魔石
 	Tooltip:
 		'''
-		召唤一柄泰拉棱镜，其伤害接受召唤伤害加成
+		召唤一柄泰拉棱镜并占据一个召唤栏位，其伤害接受召唤伤害加成
 		剑会跟随鼠标的方向
 		右键可用剑攻击
 		用剑切割敌对弹幕会将其反射至敌人身上
@@ -37,8 +37,8 @@ AncientShadowEnchant: {
 	Tooltip:
 		'''
 		攻击有几率造成黑暗减益
-		身上带有黑暗减益的敌人偶尔会向其他敌人发射暗影焰触手
-		三颗暗影珠围绕着你旋转
+		身上带有黑暗减益的敌人偶尔会向其他敌人发射暗影焰触手，造成魔法伤害
+		三颗魔法暗影珠围绕着你旋转
 		“十分古老，却非常实用”
 		'''
 }
@@ -48,7 +48,7 @@ ApprenticeEnchant: {
 	Tooltip:
 		'''
 		攻击时，发射快捷栏位中的下一把武器的射弹作为辅助攻击
-		辅助武器的攻击频率是正常使用情况下的1/4，伤害为1/2
+		辅助武器的攻击频率是正常使用情况下的1/7
 		仅适用于快捷栏武器
 		辅助攻击会消耗弹药，魔力等
 		大幅增加爆炸烈焰哨兵的索敌范围和攻击距离
@@ -61,7 +61,7 @@ AshWoodEnchant: {
 	Tooltip:
 		'''
 		“着火了！”减益不再伤害你
-		当玩家身上有“着火了！”减益时，攻击会附带有火球
+		受到任何减益（非耐药性/魔力疾病/水蜡烛）时，攻击会附带有魔法火球
 		免疫浸油减益
 		降低岩浆的接触伤害
 		“你告诉我，这不是木头？”
@@ -96,7 +96,7 @@ BorealWoodEnchant: {
 	DisplayName: 针叶木魔石
 	Tooltip:
 		'''
-		攻击时定期释放几个雪球
+		攻击时定期释放几个雪球，造成远程伤害
 		“又冷又酷”
 		'''
 }
@@ -106,10 +106,11 @@ CactusEnchant: {
 	Tooltip:
 		'''
 		攻击时，你会释放出一圈针刺
-		被你的针刺扎死的敌人会爆裂出更多针刺
-		使你免受永恒模式的仙人掌伤害
+		敌人死亡后会爆裂出针刺
+		使你免受永恒模式的仙人掌伤害（在背包或时装栏也可生效）
 		“多汁解渴！”
 		'''
+	VanityTooltip: 永恒模式下免疫仙人掌伤害
 }
 
 ChlorophyteEnchant: {
@@ -117,7 +118,6 @@ ChlorophyteEnchant: {
 	Tooltip:
 		'''
 		召唤一圈叶绿水晶攻击附近的敌人
-		使你获得孢子二段跳能力
 		使用翅膀进行飞行时，你周围会不断生成孢子
 		你能进行短程冲刺
 		“丛林的精华在你周围凝结成晶体”
@@ -140,7 +140,7 @@ CopperEnchant: {
 		'''
 		暴击释放闪电攻击敌人，此效果有5秒冷却
 		命中有潮湿减益的敌人时不暴击也可能会释放闪电
-		“他们的音乐还是电音”
+		“他的音乐还是电音”
 		'''
 }
 
@@ -159,10 +159,11 @@ CrystalAssassinEnchant: {
 	Tooltip:
 		'''
 		获得冲刺能力
-		按下“投掷烟雾弹”键后会扔出一颗烟雾弹，再次按下该键时会将你传送至烟雾弹的位置并给予你先发制人增益
-		使用混沌传送杖时也会获得增益
+		冲刺会取消垂直移动速度并且可以斜着冲刺
+		冲刺时跳跃进入地面可以获得速度提升
+		使用混沌杖会获得先发制人增益
 		先发制人增益会使你下次攻击必定暴击且造成3倍伤害，并降低目标10点防御力
-		“你现在能看到我了。诶，你又看不到我了”
+		“登顶”
 		'''
 }
 
@@ -171,7 +172,8 @@ DarkArtistEnchant: {
 	Tooltip:
 		'''
 		召唤一个爆炸烈焰召唤物，在玩家攻击时也会随之攻击
-		攻击时，发射快捷栏位中的下两把武器的射弹作为辅助攻击
+		攻击时，发射快捷栏位中的下一把武器的射弹作为辅助攻击
+		辅助攻击武器的攻击频率为正常频率的1/5
 		大幅增加爆炸烈焰哨兵的索敌范围和攻击距离
 		“阴影蕴含之物远超其表象”
 		'''
@@ -182,8 +184,8 @@ EbonwoodEnchant: {
 	Tooltip:
 		'''
 		你被一圈腐化光环环绕
-		敌人在光环中停留3秒后会发生爆炸
-		爆炸将降低附近敌人的10点防御和20%的接触伤害
+		敌人在光环中停留3秒后会发生爆炸并逐渐凋零
+		凋零后敌人受到的所有伤害都额外增加5点固定伤害，接触伤害降低20%
 		“潜力未完全开发”
 		'''
 }
@@ -193,7 +195,8 @@ ForbiddenEnchant: {
 	Tooltip:
 		'''
 		双击“下”键会在光标位置召唤远古风暴
-		穿过风暴的弹幕会额外造成30%伤害
+		风暴造成魔法和召唤伤害受魔法和召唤伤害加成影响
+		穿过风暴的弹幕会造成1.2倍伤害
 		接触风暴可以恢复飞行时间
 		落地后才可重新召唤风暴
 		“走路像个埃及人”
@@ -217,7 +220,7 @@ FrostEnchant: {
 		'''
 		你的攻击造成短暂的霜冻减益
 		你的周围会出现冰锥
-		攻击时会将冰锥发射至光标位置
+		攻击时会将冰锥发射至光标位置，造成魔法伤害
 		冰锥击中敌人时会使其短暂冻结，并造成冻伤减益
 		“让我们给这个世界披上一层厚厚的冰衣”
 		'''
@@ -227,10 +230,10 @@ GladiatorEnchant: {
 	DisplayName: 角斗士魔石
 	Tooltip:
 		'''
-		长矛将倾泄在被攻击的敌人身上
+		长矛将倾泄在被攻击的敌人身上，造成远程伤害
 		双击下键召唤一个持续15秒的旗子
 		靠近旗子会增强长矛雨
-		靠近旗子时可免疫击退，获得5%伤害减免和5%伤害加成
+		靠近旗子时可免疫击退，获得8%伤害减免和8%伤害加成
 		旗子同时只能存在一个
 		“你不觉得刺激吗？！”
 		'''
@@ -257,6 +260,7 @@ HallowEnchant: {
 		使用治疗药水时会产生冲击波，可击退附近的敌对弹幕
 		《Hit me with your best shot》
 		'''
+	OverTime: 随时间推移
 }
 
 HuntressEnchant: {
@@ -282,6 +286,13 @@ IronEnchant: {
 		不适用于在宇宙坩埚上制作的物品
 		物品的吸附范围扩大
 		“趁热打铁”
+		'''
+	VanityTooltip:
+		'''
+		制作物品时每种材料都有33%概率不消耗
+		对于每种材料每个世界只生效一次
+		不适用于在宇宙坩埚上制作的物品
+		物品的吸附范围扩大
 		'''
 }
 
@@ -311,8 +322,8 @@ MeteorEnchant: {
 	Tooltip:
 		'''
 		大幅增加移动速度和加速度并降低动量影响
-		移动时会产生火焰尾迹
-		攻击时偶尔落下一阵流星雨
+		击中敌人时偶尔会落下一颗流星，造成魔法伤害
+		移动越频繁，流星的冷却时间减少越快
 		《Drop a draco on 'em》
 		'''
 }
@@ -321,6 +332,8 @@ MinerEnchant: {
 	DisplayName: 矿工魔石
 	Tooltip:
 		'''
+		免疫以下爆炸物：
+		[i:166][i:3196][i:3115][i:3547][i:4908][i:4827][i:167][i:4826][i:4825][i:4423][i:235][i:4909][i:2896][i:4824][i:580][i:Fargowiltas/BoomShuriken]
 		增加50%挖掘速度
 		高亮显示敌人、陷阱和宝藏
 		拥有夜猫子、洞穴探险、狩猎、光芒和危险感效果
@@ -333,7 +346,7 @@ MoltenEnchant: {
 	Tooltip:
 		'''
 		引燃你附近的敌人
-		所有敌怪在狱火圈内时多受到20%伤害
+		所有敌怪在狱火圈内时受到1.2倍伤害
 		“他们将感受到地狱的愤怒”
 		'''
 }
@@ -345,7 +358,7 @@ MonkEnchant: {
 		使你获得冲刺能力
 		双击“左”或“右”键进行冲刺
 		冲刺后的1/3秒内免疫伤害和减益
-		冲刺撞击敌人可对敌人造成巨大伤害
+		冲刺撞击敌人可对敌人造成大量近战伤害
 		冲刺冷却比普通冲刺长得多
 		闪电光环现在可以暴击且攻击速度更快
 		“返本还僧”
@@ -366,8 +379,9 @@ NebulaEnchant: {
 	DisplayName: 星云魔石
 	Tooltip:
 		'''
-		对敌人造成伤害时有几率生成强化焰
-		强化增益堆叠上限为2
+		每3秒攻击发射的弹幕会被星云射击替换，造成魔法伤害
+		星云射击会追踪敌人并产生星云强化焰
+		强化增益堆叠上限为2，并且不会产生魔力强化焰
 		“创生之柱照耀着你”
 		'''
 }
@@ -378,7 +392,7 @@ NecroEnchant: {
 		'''
 		击杀敌人时有几率爆出一个骨堆
 		玩家接触骨堆时会生成一个友好的地牢守卫
-		地牢守卫的伤害取决于被击杀的敌人的最大生命值
+		地牢守卫的伤害仅与敌人的最大生命值呈正比，上限为10000
 		Boss每损失10%生命值便会掉落骨堆
 		“欢迎来到骸骨领域”
 		'''
@@ -388,7 +402,7 @@ NinjaEnchant: {
 	DisplayName: 忍者魔石
 	Tooltip:
 		'''
-		弹幕会根据其速度获得增伤，最高可达20%
+		弹幕会根据其速度获得增伤，最高可达1.15倍
 		当玩家缓慢移动时弹幕速度大幅增加
 		“等待正确的时机……”
 		'''
@@ -400,9 +414,10 @@ ObsidianEnchant: {
 		'''
 		免疫火块与熔岩
 		你可以在熔岩中正常移动和游泳
-		在熔岩中会获得“熔岩之润”增益
-		拥有该增益时，你的攻击会引发爆炸且会附带火球
-		获得灰烬木魔石的全部效果
+		在熔岩中攻击会产生爆炸
+		受到任何减益影响或处于熔岩中时攻击会附带魔法火球
+		火系减益无法对你造成伤害
+		免疫涂油
 		“大地在呼唤”
 		'''
 }
@@ -412,7 +427,7 @@ OrichalcumEnchant: {
 	Tooltip:
 		'''
 		花瓣将落到你攻击的敌人的身上，造成额外伤害和山铜中毒减益
-		伤害性减益造成的伤害×2.5
+		伤害性减益造成的伤害增加150%
 		“自然祝福着你”
 		'''
 }
@@ -440,9 +455,10 @@ PearlwoodEnchant: {
 	DisplayName: 珍珠木魔石
 	Tooltip:
 		'''
-		按下“减益负载”键会召唤一颗破坏之星，它会跟随玩家并试图对玩家造成伤害
-		破坏之星存活时，你的攻击有额外一次暴击机会
-		“直面你自己吧……”
+		拾取心或星星时会向附近的敌人发射一颗星星并获得5秒暴击增益
+		增益期间暴击会额外计算一次，同时身后产生一条没有伤害的彩虹轨迹
+		攻击命中时偶尔会产生魔力星星
+		“太少了，太晚了……”
 		'''
 }
 
@@ -473,10 +489,11 @@ RainEnchant: {
 		召唤一把可反射上方射弹的雨伞
 		雨伞反射射弹的伤害合计超过200点后会破裂
 		获得羽落药水的效果
-		免疫潮湿减益，且所有攻击都会造成潮湿减益
+		永恒模式下免疫雷击（在背包和时装栏也可生效）
 		拥有浮游圈的效果
 		“改日再来”
 		'''
+	VanityTooltip: 永恒模式下免疫雷击
 }
 
 RedRidingEnchant: {
@@ -485,7 +502,7 @@ RedRidingEnchant: {
 		'''
 		攻击忽略10点敌怪防御力并额外造成5点伤害
 		每次连续攻击会额外忽略10点防御力并多造成5点伤害
-		在累计10次攻击后，生成一阵箭雨
+		在累计10次攻击后，生成一阵箭雨，造成远程伤害
 		箭的种类默认是毒液箭，如果背包内有箭那么选择物品栏中的第一个箭
 		追踪武器和召唤物不会增加这些加成
 		任何一次攻击没有击中都会重置加成
@@ -508,7 +525,7 @@ ShadewoodEnchant: {
 	Tooltip:
 		'''
 		召唤一圈鲜血光环
-		在鲜血光环内被攻击的敌人会喷出伤害性血液
+		在鲜血光环内被攻击的敌人会喷出伤害性血液，造成近战伤害
 		“出奇的干净”
 		'''
 }
@@ -517,8 +534,8 @@ ShadowEnchant: {
 	DisplayName: 暗影魔石
 	Tooltip:
 		'''
-		两颗暗影珠围绕着你旋转
-		攻击暗影珠会使其释放追踪暗影能量
+		两颗魔法暗影珠围绕着你旋转
+		攻击暗影珠会使其释放追踪暗影能量，造成魔法伤害
 		“你感觉你的身体堕入黑暗的深渊之中”
 		'''
 }
@@ -529,7 +546,7 @@ ShinobiEnchant: {
 		'''
 		使你获得传送冲刺能力
 		冲刺后1/3秒内免疫一切伤害和减益
-		冲刺穿过敌人可对敌人造成巨大伤害
+		冲刺穿过敌人可对敌人造成大量近战伤害
 		冲刺冷却比普通冲刺更长
 		冲刺距离更长且造成的伤害更高
 		朝墙壁冲刺时会直接穿过去
@@ -542,11 +559,12 @@ ShroomiteEnchant: {
 	DisplayName: 蘑菇魔石
 	Tooltip:
 		'''
-		所有攻击都会留下蘑菇尾迹
-		站定不动时使你进入隐身状态
-		处于隐身状态时，攻击会产生更多蘑菇
+		蘑菇能恢复50点生命值，食用蘑菇后获得蘑菇力量，持续20秒
+		蘑菇力量可增加20%伤害和暴击率
+		穿透弹幕在第一次击中敌人时生成一团蘑菇，造成远程伤害，冷却时间很短
 		“是用真的蘑菇做的！”
 		'''
+	AndMushroomPower: 并获得蘑菇力量增益
 }
 
 SilverEnchant: {
@@ -554,9 +572,8 @@ SilverEnchant: {
 	Tooltip:
 		'''
 		右键进行盾牌格挡
-		在受击前短时间内格挡可抵消这次伤害
+		在受击前短时间内格挡可抵消最多100点伤害
 		在受击的一刻完美格挡可获得惊人一刻增益
-		最多抵消100点伤害
 		“反射”
 		'''
 }
@@ -567,8 +584,7 @@ SnowEnchant: {
 		'''
 		你的攻击造成短暂的霜冻减益
 		你的周围会出现雪球
-		攻击时会将雪球发射至光标位置
-		雪球击中敌人时会使其短暂冻结，并造成冻伤减益
+		攻击时会将雪球发射至光标位置，造成魔法伤害
 		“冷的要死”
 		'''
 }
@@ -577,9 +593,10 @@ SolarEnchant: {
 	DisplayName: 耀斑魔石
 	Tooltip:
 		'''
-		召唤日耀护盾，让你能冲撞敌人
-		伤害减免会降低15%，但被击中时日耀护盾不会消耗
-		攻击有几率造成太阳耀斑减益
+		攻击时积攒日耀能量
+		日耀能量可提供最高20%伤害减免
+		攒满日耀能量后停止攻击会释放大型日耀喷发
+		日耀喷发会造成太阳耀斑减益并造成近战伤害
 		“烫手魔石”
 		'''
 }
@@ -588,8 +605,10 @@ SpectreEnchant: {
 	DisplayName: 幽魂魔石
 	Tooltip:
 		'''
-		对敌人造成伤害时有几率生成幽灵珠
-		暴击时有几率生成治疗珠
+		生命值降低至0时复活为一个100点生命值的幽灵，清除减益效果并产生多个灵魂
+		处于幽灵状态时你免疫伤害，移动速度更快，可以无限飞行并且无法攻击，持续5秒
+		每次受伤时会产生一些灵魂
+		收集灵魂可治疗20点生命值并使其飞向最近的敌人，造成魔法伤害
 		“他们的生命力将毁灭他们自己”
 		'''
 }
@@ -598,8 +617,7 @@ SpiderEnchant: {
 	DisplayName: 蜘蛛魔石
 	Tooltip:
 		'''
-		你的召唤物和哨兵可以造成暴击
-		召唤暴击造成1.5倍伤害而不是2倍
+		你的召唤武器可以造成暴击
 		“蜘蛛恐惧者？作为惩罚，让他被蜘蛛干掉吧！”
 		'''
 }
@@ -630,9 +648,9 @@ StardustEnchant: {
 	Tooltip:
 		'''
 		星尘守卫将保护你不受附近敌人的伤害
-		按下“冻结”键后会冻结时间，持续9秒
+		按下“冻结”键后会冻结时间，持续6秒
 		你的召唤物不受时间冻结影响
-		此效果有60秒冷却时间
+		此效果有90秒冷却时间
 		“你成为了替身使者”
 		'''
 }
@@ -641,7 +659,9 @@ TikiEnchant: {
 	DisplayName: 提基魔石
 	Tooltip:
 		'''
-		鞭打你的召唤物可以让它们更勤奋
+		鞭子伤害和暴击改为受最高职业伤害和暴击加成
+		增加20%鞭子范围
+		鞭打你的召唤物可以使它们下一次攻击造成1.2倍伤害
 		“Aku Aku!”
 		'''
 }
@@ -663,9 +683,11 @@ TitaniumEnchant: {
 	DisplayName: 钛金魔石
 	Tooltip:
 		'''
-		攻击生成钛金碎片防御屏障，最多有20个碎片
-		当你的碎片个数达到最大时，你会获得25%伤害减免，但你自身的减伤会被削减
-		效果生效时受击会导致该效果进入10秒冷却时间，在此期间你无法获得钛金碎片
+		攻击生成最多20个碎片的钛金防御屏障，可造成近战伤害
+		当你的碎片个数达到最大时，你会获得10-30%伤害减免并免疫大多数减益
+		离伤害源敌人越近，伤害减免越高
+		受击后伤害减免效果会持续几秒钟然后进入冷却
+		冷却时间为15秒，冷却时无法获得碎片
 		“有了绝对防御后，谁还需要躲避呢？”
 		'''
 }
@@ -686,15 +708,16 @@ TurtleEnchant: {
 	Tooltip:
 		'''
 		反弹100%接触伤害
-		站定不动时且不攻击时你会缩进壳里
+		站立在地面上、不按左右移动键且不攻击时你会缩进壳里
 		当你缩进壳里时，增加90%伤害减免
 		同时，你可以反弹来犯的敌对弹幕且反弹10倍接触伤害
 		壳至少能存在1秒，且能抵挡20次攻击
 		攻击时，你会释放出一圈针刺
 		被你的针刺扎死的敌人会爆裂出更多针刺
-		使你免受永恒模式的仙人掌伤害
+		使你免受永恒模式的仙人掌伤害（在背包和时装栏中也可生效）
 		“你突然有一种想躲进壳里的冲动”
 		'''
+	VanityTooltip: 永恒模式下免疫仙人掌伤害
 }
 
 ValhallaKnightEnchant: {
@@ -713,9 +736,8 @@ VortexEnchant: {
 	DisplayName: 星旋魔石
 	Tooltip:
 		'''
-		双击“下”键切换至隐形模式，减少敌人以你为目标的几率，但大幅降低移动速度
-		进入隐形状态时生成一个会吸引弹幕的旋涡
-		处于隐形状态时你的弹幕不会被旋涡吸引
+		攻击远距离敌人时会发射造成远程伤害的穿透激光
+		冷却时间为10秒
 		“撕裂现实”
 		'''
 }
@@ -724,7 +746,8 @@ WizardEnchant: {
 	DisplayName: 巫师魔石
 	Tooltip:
 		'''
-		正下方饰品栏位中的魔石会被强化至“力”等级饰品的效果
+		将此魔石正下方的饰品栏中的魔石升级
+		升级效果会显示在物品描述中
 		“我是啥？”
 		'''
 }
@@ -735,7 +758,7 @@ WoodEnchant: {
 		'''
 		怪物图鉴和旗帜解锁速度翻倍
 		商店价格会依据你的图鉴解锁度降低
-		在装饰栏和物品栏中，商店价格折扣效果同样生效
+		在时装栏和物品栏中，商店价格折扣效果同样生效
 		当前折扣：{0}%
 		“被店主们讨厌的诡计”
 		“卑微的开始……”
@@ -747,7 +770,7 @@ ApprenticesEssence: {
 	Tooltip:
 		'''
 		增加18%魔法伤害
-		增加5%魔法暴击率
+		增加8%魔法暴击率
 		增加50点最大魔力值
 		“这只是个开始……”
 		'''
@@ -759,7 +782,7 @@ BarbariansEssence: {
 		'''
 		增加18%近战伤害
 		增加10%近战攻速
-		增加5%近战暴击率
+		增加8%近战暴击率
 		“这只是个开始……”
 		'''
 }
@@ -768,9 +791,9 @@ OccultistsEssence: {
 	DisplayName: 术士精华
 	Tooltip:
 		'''
-		增加18%召唤伤害
+		增加20%召唤伤害
+		增加10%鞭子范围
 		增加1个召唤栏位
-		增加1个哨兵栏位
 		“这只是个开始……”
 		'''
 }
@@ -779,9 +802,9 @@ SharpshootersEssence: {
 	DisplayName: 神射手精华
 	Tooltip:
 		'''
-		增加18%远程伤害
+		增加20%远程伤害
 		10%几率不消耗弹药
-		增加5%远程暴击率
+		增加8%远程暴击率
 		“这只是个开始……”
 		'''
 }
@@ -791,6 +814,12 @@ BoxofGizmos: {
 	Tooltip:
 		'''
 		放在物品栏中即可生效
+		静止不动时显露附近的宝藏与敌人
+		敌怪在夜晚会发光
+		使非武器物品获得自动使用的效果
+		'''
+	VanityTooltip:
+		'''
 		静止不动时显露附近的宝藏与敌人
 		敌怪在夜晚会发光
 		使非武器物品获得自动使用的效果
@@ -812,14 +841,12 @@ CosmoForce: {
 	DisplayName: 宇宙之力
 	Tooltip:
 		'''
-		[i:FargowiltasSouls/MeteorEnchant] 攻击时每过几秒便会召唤一次流星雨
-		[i:FargowiltasSouls/MeteorEnchant] 移动加速度增加，并且移动时会留下火焰尾迹
-		[i:FargowiltasSouls/SolarEnchant] 允许你使用日耀护盾进行冲刺
-		[i:FargowiltasSouls/SolarEnchant] 攻击有几率造成太阳耀斑减益
-		[i:FargowiltasSouls/VortexEnchant] 双击“下”键切换至隐形模式，生成一个旋涡
-		[i:FargowiltasSouls/NebulaEnchant] 对敌人造成伤害时有几率生成强化焰
-		[i:FargowiltasSouls/StardustEnchant] 星尘守卫将保护你不受附近敌人的伤害
-		[i:FargowiltasSouls/StardustEnchant] 按下“冻结”键后会冻结时间，持续9秒，有50秒冷却时间
+		[i:FargowiltasSouls/SolarEnchant] 攻击会产生最多4颗围绕玩家旋转的月亮
+		[i:FargowiltasSouls/VortexEnchant] 停止攻击时月亮会向玩家鼠标处发射，飞行一段距离后爆炸产生月亮强化焰
+		[i:FargowiltasSouls/NebulaEnchant] 拾取月亮强化焰时会增加玩家的伤害、暴击、生命恢复或伤害减免
+		[i:FargowiltasSouls/StardustEnchant] 按下“冻结”键冻结时间6秒，冷却时间为75秒
+		[i:FargowiltasSouls/MeteorEnchant] 增加移动速度和加速度，降低动量
+		[i:FargowiltasSouls/WizardEnchant] 升级所有魔石的效果
 		“自宇宙大爆炸以来就一直存在”
 		'''
 }
@@ -828,13 +855,22 @@ EarthForce: {
 	DisplayName: 大地之力
 	Tooltip:
 		'''
+		[i:FargowiltasSouls/MythrilEnchant] 不攻击会积聚能量，攻击会消耗能量
+		[i:FargowiltasSouls/PalladiumEnchant] [i:FargowiltasSouls/TitaniumEnchant] 生命回复和伤害减免会随能量积攒而增加
+		[i:FargowiltasSouls/CobaltEnchant] 不攻击时你会在受到攻击时爆炸
+		[i:FargowiltasSouls/AdamantiteEnchant] 充能后一个射弹每3秒会分裂成三个，并增加武器攻击速度
+		[i:FargowiltasSouls/OrichalcumEnchant] 充能后攻击会施加大地腐蚀，造成攻击伤害一定比例的额外伤害
+		[i:FargowiltasSouls/OrichalcumEnchant] 敌人受到的减益伤害增加300%
+		“盖亚的祝福照耀着你”
+		'''
+	SaveOldTooltip:
+		'''
 		[i:FargowiltasSouls/CobaltEnchant] 额外获得一次爆炸二段跳，受击时你会剧烈爆炸
 		[i:FargowiltasSouls/MythrilEnchant] 停止攻击以逐渐增加攻击速度，最多持续5秒
 		[i:FargowiltasSouls/PalladiumEnchant] 暴击敌人会快速治疗，基于回复的血量放出生命能量球
 		[i:FargowiltasSouls/OrichalcumEnchant] 攻击生成花瓣，伤害性减益造成3.5倍伤害
 		[i:FargowiltasSouls/AdamantiteEnchant] 你发射的所有弹幕都会分裂成三个，每个造成50%伤害，并随着武器持续使用弹幕分散角度会逐渐增大
 		[i:FargowiltasSouls/TitaniumEnchant] 攻击生成钛金碎片防御屏障，达到最大个数获得钛金护盾
-		“盖亚的祝福照耀着你”
 		'''
 }
 
@@ -842,13 +878,14 @@ LifeForce: {
 	DisplayName: 生命之力
 	Tooltip:
 		'''
-		[i:FargowiltasSouls/PumpkinEnchant] 你移动时会种下南瓜
-		[i:FargowiltasSouls/CactusEnchant] 敌人死亡时有几率爆裂出针刺
-		[i:FargowiltasSouls/BeeEnchant] 飞行时在空中留下花朵
-		[i:FargowiltasSouls/BeeEnchant] 获得蜂巢背包的效果
-		[i:FargowiltasSouls/SpiderEnchant] 仆从和哨兵可以造成暴击，但暴击伤害只有1.5倍而不是2倍
-		[i:FargowiltasSouls/TurtleEnchant] 站定不动时且不攻击时你会缩进壳里
-		[i:FargowiltasSouls/BeetleEnchant] 甲虫会提高你的攻击能力和防御能力
+		[i:FargowiltasSouls/BeeEnchant] 提供强大的翅膀飞行能力
+		[i:FargowiltasSouls/BeeEnchant] 飞行时会产生花朵
+		[i:FargowiltasSouls/PumpkinEnchant] 触碰花朵时会回复血量，同时产生大量蜜蜂，获得仙馔密酒增益并刷新飞行时间
+		[i:FargowiltasSouls/BeetleEnchant] 仙馔密酒增益增加30%伤害和近战速度，增加20%伤害减免和5生命恢复
+		[i:FargowiltasSouls/TurtleEnchant] 反弹500%的接触伤害
+		[i:FargowiltasSouls/SpiderEnchant] 你的仆从和哨兵可以暴击
+		[i:FargowiltasSouls/SpiderEnchant] 召唤暴击率增加10%
+		[i:FargowiltasSouls/BeeEnchant] 获得蜜蜂背包效果
 		“罕有生灵敢违背你的意愿”
 		'''
 }
@@ -857,22 +894,35 @@ NatureForce: {
 	DisplayName: 自然之力
 	Tooltip:
 		'''
-		[i:FargowiltasSouls/CrimsonEnchant] 受击后7秒内未再次受击则恢复损失的一半生命值，计算两次
-		[i:FargowiltasSouls/MoltenEnchant] 引燃你附近较大范围内的敌人
-		[i:FargowiltasSouls/MoltenEnchant] 狱火圈的伤害增加，所有敌怪在狱火圈内会额外受到30%伤害
-		[i:FargowiltasSouls/RainEnchant] 召唤一把可反射上方弹幕的雨伞
-		[i:FargowiltasSouls/SnowEnchant] 你的周围会出现冰锥，攻击敌人会造成霜冻减益
-		[i:FargowiltasSouls/ChlorophyteEnchant] 召唤一圈叶绿水晶攻击附近的敌人
-		[i:FargowiltasSouls/JungleEnchant] 使你获得孢子二段跳和孢子冲刺的能力
-		[i:FargowiltasSouls/ShroomiteEnchant] 站定不动时使你进入隐身状态
-		[i:FargowiltasSouls/ShroomiteEnchant] 所有攻击都会留下蘑菇尾迹
+		[i:FargowiltasSouls/CrimsonEnchant] 你拥有一个可以吸取附近敌人生命值的光环
+		[i:FargowiltasSouls/CrimsonEnchant] 一段时间不受击会增强生命吸取效果
+		[i:FargowiltasSouls/MoltenEnchant] 光环内的敌人受到1.2倍伤害
+		[i:FargowiltasSouls/ChlorophyteEnchant] 偶尔会向光环内的敌人发射叶绿水晶
+		[i:FargowiltasSouls/ShroomiteEnchant] 叶绿水晶击中后会产生一团蘑菇
+		[i:FargowiltasSouls/ShroomiteEnchant] 蘑菇可恢复50点生命值，食用蘑菇可获得蘑菇力量，持续20秒
+		[i:FargowiltasSouls/ShroomiteEnchant]蘑菇力量增加30%的伤害和暴击率，并增加光环大小
+		[i:FargowiltasSouls/FrostEnchant] 你的攻击会造成短暂的霜冻和冻伤
+		[i:FargowiltasSouls/RainEnchant] 产生一把伞，可从上方抵挡最多200点伤害
 		“走遍荒野的每一个秘密角落”
 		'''
 }
 
 ShadowForce: {
-	DisplayName: 暗影之力
+	DisplayName: 死亡之力
 	Tooltip:
+		'''
+		[i:FargowiltasSouls/CrystalAssassinEnchant] 获得暗影冲刺，冲刺会取消垂直速度，并且可以进行斜向冲刺
+		[i:FargowiltasSouls/ShinobiEnchant] 冲刺会把玩家笼罩在阴影中，使你在冲刺期间无敌。这个效果有4秒冷却时间
+		[i:FargowiltasSouls/ShinobiEnchant] 使用阴影冲刺冲过敌人会对其造成伤害并造成死亡标记
+		[i:FargowiltasSouls/AncientShadowEnchant] 冲刺会向玩家周围发射一连串暗影焰弹幕
+		[i:FargowiltasSouls/NinjaEnchant] 根据弹幕速度增加弹幕伤害
+		[i:FargowiltasSouls/NinjaEnchant] 缓慢移动时增加弹幕速度
+		[i:FargowiltasSouls/NecroEnchant] 击杀敌人有概率掉落骨堆
+		[i:FargowiltasSouls/DarkArtistEnchant] 攻击时发射下一把武器的射弹作为辅助攻击
+		[i:FargowiltasSouls/SpookyEnchant] 你的所有召唤物都会获得额外的镰刀攻击
+		“黑暗，更黑暗，还是更黑暗”
+		'''
+	SavingOldTooltip:
 		'''
 		[i:FargowiltasSouls/ShadowEnchant] 四颗暗影珠绕着你旋转
 		[i:FargowiltasSouls/AncientShadowEnchant] 攻击有几率造成黑暗减益
@@ -886,7 +936,6 @@ ShadowForce: {
 		[i:FargowiltasSouls/ShinobiEnchant] 朝墙壁冲刺时会直接穿过去
 		[i:FargowiltasSouls/ApprenticeEnchant] 快捷栏中的下三把武器会随玩家攻击发射其弹幕作为辅助攻击
 		[i:FargowiltasSouls/DarkArtistEnchant] 召唤一个爆炸烈焰仆从随玩家的攻击而攻击
-		“黑暗，更黑暗，还是更黑暗”
 		'''
 }
 
@@ -894,14 +943,12 @@ SpiritForce: {
 	DisplayName: 心灵之力
 	Tooltip:
 		'''
-		[i:FargowiltasSouls/FossilEnchant] 受到致死伤害时会以200生命值重生，清除自身减益，并爆出几根骨头
-		[i:FargowiltasSouls/FossilEnchant] 接触停止移动的骨头时会回复20点生命值
-		[i:FargowiltasSouls/ForbiddenEnchant] 双击“下”键会在光标位置召唤远古风暴
-		[i:FargowiltasSouls/ForbiddenEnchant] 穿过远古风暴的弹幕会额外获得60%伤害
-		[i:FargowiltasSouls/AncientHallowEnchant] 使你获得一柄可以反射敌对弹幕的泰拉棱镜
-		[i:FargowiltasSouls/HallowEnchant] 治疗药水会随时间推移逐渐生效，使用治疗药水时产生推开敌对射弹的冲击波
-		[i:FargowiltasSouls/TikiEnchant] 鞭打你的召唤物可以让它们更勤奋，鞭子范围增加
-		[i:FargowiltasSouls/SpectreEnchant] 对敌人造成伤害时有几率生成幽灵珠
+		[i:FargowiltasSouls/ForbiddenEnchant] 双击下键召唤一个禁戒风暴，造成魔法和召唤伤害
+		[i:FargowiltasSouls/ForbiddenEnchant] 任何穿过风暴的弹幕都会造成1.4倍伤害
+		[i:FargowiltasSouls/AncientHallowEnchant] 风暴会轻微地跟踪鼠标
+		[i:FargowiltasSouls/HallowEnchant] 治疗药水可以恢复更多生命值，但会随着时间的推移而逐渐生效
+		[i:FargowiltasSouls/SpectreEnchant] 生命值降低至零时以200点生命值复活并清除减益效果
+		[i:FargowiltasSouls/TikiEnchant] 鞭子范围增加，鞭子伤害和暴击改为受最高职业伤害和暴击加成，并且能增强其击中的弹幕
 		“飘飘乎如遗世独立，羽化而登仙”
 		'''
 }
@@ -910,29 +957,28 @@ TerraForce: {
 	DisplayName: 泰拉之力
 	Tooltip:
 		'''
-		[i:FargowiltasSouls/CopperEnchant][i:FargowiltasSouls/ObsidianEnchant][i:FargowiltasSouls/LeadEnchant] 攻击释放闪电，引发爆炸，造成铅中毒
-		[i:FargowiltasSouls/TinEnchant] 将你的基础暴击率设为10%，暴击率最多提升至你目前暴击率的两倍（至少50%）
-		[i:FargowiltasSouls/IronEnchant] 第一次合成物品时50%的几率不消耗制作材料
-		[i:FargowiltasSouls/IronEnchant] 物品的吸附范围扩大
-		[i:FargowiltasSouls/LeadEnchant] 受到的持续伤害降低60%
-		[i:FargowiltasSouls/SilverEnchant] 右键进行盾牌格挡
-		[i:FargowiltasSouls/TungstenEnchant] 剑的大小增加200%，每过0.33秒弹幕的大小增加200%
-		[i:FargowiltasSouls/ObsidianEnchant] 使你免疫火块与熔岩
-		[i:FargowiltasSouls/AshWoodEnchant] 玩家攻击时会附带火球
+		[i:FargowiltasSouls/CopperEnchant] [i:FargowiltasSouls/ObsidianEnchant] [i:FargowiltasSouls/LeadEnchant] 暴击有概率发射一道闪电，闪电击中后会爆炸并造成强化的铅中毒减益
+		[i:FargowiltasSouls/SilverEnchant] 右键进行格挡，成功格挡会抵消至多200点伤害，并发射一道闪电
+		[i:FargowiltasSouls/LeadEnchant] 你受到的持续伤害降低60%
+		[i:FargowiltasSouls/TungstenEnchant] 你的剑类武器变大100%，其他手持武器变大50%
+		[i:FargowiltasSouls/TinEnchant] 锡初始暴击率为10%，最多可增加至原本暴击率的两倍或50%
+		[i:FargowiltasSouls/IronEnchant] 第一次制作时有50%的概率不消耗任何物品，你会吸引更大范围的物品（背包和时装栏中也可生效）
 		“大地赐予它力量”
 		'''
+	VanityTooltip: "[i:FargowiltasSouls/IronEnchant] 第一次制作时有50%的概率不消耗任何物品，你会吸引更大范围的物品"
 }
 
 TimberForce: {
 	DisplayName: 森林之力
 	Tooltip:
 		'''
-		[i:FargowiltasSouls/WoodEnchant] 商店价格会依据你的图鉴解锁度降低
-		[i:FargowiltasSouls/BorealWoodEnchant] 攻击时定期释放几个雪球
-		[i:FargowiltasSouls/RichMahoganyEnchant] 所有钩爪的抛出速度×2，牵引速度×2.5，回收速度×3
-		[i:FargowiltasSouls/EbonwoodEnchant][i:FargowiltasSouls/ShadewoodEnchant] 暗影焰、诅咒焰和鲜血光环环绕着你
-		[i:FargowiltasSouls/PalmWoodEnchant] 双击“下”键召唤两个会向敌人扔橡实的棕榈树哨兵
-		[i:FargowiltasSouls/PearlwoodEnchant] 按下“减益负载”键召唤试图伤害你的破坏之星并使你的攻击获得额外两次暴击机会
+		[i:FargowiltasSouls/EbonwoodEnchant] [i:FargowiltasSouls/ShadewoodEnchant] 你拥有会造成凋零和流血的光环
+		[i:FargowiltasSouls/BorealWoodEnchant] [i:FargowiltasSouls/PalmWoodEnchant] 击中光环内的敌人时会发射雪球和橡子
+		[i:FargowiltasSouls/RichMahoganyEnchant] 所有抓钩的发射、拉动和收回速度都快2.5倍
+		[i:FargowiltasSouls/PearlwoodEnchant] 拾取物品会为你提供增益，使你获得5秒的计算两次暴击的效果
+		[i:FargowiltasSouls/PearlwoodEnchant] 你的攻击偶尔会在击中时产生魔力星星
+		[i:FargowiltasSouls/WoodEnchant] 图鉴和旗帜解锁速度更快
+		[i:FargowiltasSouls/WoodEnchant] 根据图鉴完成情况获得商店折扣（在背包和装饰栏中也会生效）
 		“很硬”
 		'''
 }
@@ -941,16 +987,15 @@ WillForce: {
 	DisplayName: 意志之力
 	Tooltip:
 		'''
-		[i:FargowiltasSouls/GoldEnchant] 按下“金身”键会将你包裹在一个黄金壳中
-		[i:FargowiltasSouls/GoldEnchant] 捡起钱币时，自动将它们存进猪猪存钱罐中（这个效果放在物品栏中也能生效）
-		[i:FargowiltasSouls/PlatinumEnchant] 敌人死亡时有33%的几率获得五倍的战利品
-		[i:FargowiltasSouls/GladiatorEnchant] 双击下键召唤一个旗子，靠近旗子时获得增益
-		[i:FargowiltasSouls/GladiatorEnchant] 长矛将倾泄在被攻击的敌人身上
-		[i:FargowiltasSouls/RedRidingEnchant] 连续攻击命中会获得额外伤害加成
-		[i:FargowiltasSouls/ValhallaKnightEnchant] 回复生命值时，治疗量增加25%
-		[i:FargowiltasSouls/ValhallaKnightEnchant] 提升坐骑的各项数据，坐骑可以进行冲刺
-		“坚不可摧的决心”
+		[i:FargowiltasSouls/GladiatorEnchant] 获得一个角斗士灵魂仆从，接近仆从时会获得角斗士之力增益
+		[i:FargowiltasSouls/RedRidingEnchant] 连续攻击可获得额外伤害，受到角斗士之力增益时伤害会更高
+		[i:FargowiltasSouls/ValhallaKnightEnchant] 增加25%的治疗效果
+		[i:FargowiltasSouls/ValhallaKnightEnchant] 坐骑获得冲刺能力和属性提升
+		[i:FargowiltasSouls/GoldEnchant] 按下“金身”键会被被包裹在金色外壳中，你的攻击会造成迈达斯减益
+		[i:FargowiltasSouls/GoldEnchant] 拾取钱币时自动将钱币存储进猪猪存钱罐（在背包和装饰栏中也会生效）
+		[i:FargowiltasSouls/PlatinumEnchant] 敌人有33%概率掉落5倍战利品
 		'''
+	VanityTooltip: "[i:FargowiltasSouls/GoldEnchant] 拾取钱币时自动将钱币存储进猪猪存钱罐"
 }
 
 AbominableWand: {
@@ -989,7 +1034,7 @@ AgitatingLens: {
 	Tooltip:
 		'''
 		免疫狂暴减益
-		冲刺或奔跑时会在身后留下一串鲜血镰刀
+		冲刺或奔跑时会在身后留下一串鲜血镰刀，造成魔法伤害
 		按住“上”“下”的同时按下“减益负载”键进入狂暴状态
 		狂暴时，大幅提升进攻能力，大幅降低防御能力，且你无法停止攻击或移动
 		狂暴状态持续8秒，结束后会被昏迷2秒
@@ -1019,8 +1064,8 @@ BionomicCluster: {
 		[i:FargowiltasSouls/WyvernFeather]攻击会造成折翼减益，[i:FargowiltasSouls/NymphsPerfume]并生成红心
 		[i:FargowiltasSouls/WyvernFeather]你会定期释放光球，触碰光球可以恢复你的飞行时间
 		[i:FargowiltasSouls/SqueakyToy]你受到伤害时有几率发出吱吱声，并使这次受到的伤害降至1点
-		[i:FargowiltasSouls/WretchedPouch]按下“减益负载”键可获得诅咒之魔增益
-		[i:FargowiltasSouls/WretchedPouch]诅咒之魔会使攻击时获得120%伤害加成并释放暗影焰触手，但降低20%伤害减免且大幅降低移动速度，受到的攻速加成更少
+		[i:FargowiltasSouls/WretchedPouch]攻击时进行暗影焰充能并降低10%伤害减免
+		[i:FargowiltasSouls/WretchedPouch]停止攻击时释放暗影焰能量，爆发出一阵暗影触手，造成魔法伤害
 		[i:FargowiltasSouls/ConcentratedRainbowMatter]召唤一只友好的彩虹史莱姆
 		[i:FargowiltasSouls/TimsConcoction]某些敌人在死亡时会掉落药水
 		[i:FargowiltasSouls/TribalCharm]手动点击攻击时，增加30%非召唤伤害
@@ -1034,6 +1079,15 @@ BionomicCluster: {
 		    [i:FargowiltasSouls/WyvernFeather]在太空和液体中恢复正常重力作用
 		“由上千普通敌人融合而成”
 		'''
+	/* VanityTooltip:
+		'''
+		Grants immunity to [i:FargowiltasSouls/SandsofTime] Mighty Wind, cactus damage, [i:FargowiltasSouls/MysticSkull] Suffocation, [i:FargowiltasSouls/FrigidGemstone] Chilled, [i:FargowiltasSouls/SqueakyToy] and Guilty
+		[i:FargowiltasSouls/WyvernFeather] Stabilizes gravity in space and in liquid, [i:FargowiltasSouls/OrdinaryCarrot] improves your nightvision, [i:FargowiltasSouls/SecurityWallet] and drastically improves reforges
+		[i:FargowiltasSouls/ConcentratedRainbowMatter] Automatically uses healing & [i:FargowiltasSouls/MysticSkull] mana potions when needed and increases pickup range for mana stars
+		[i:FargowiltasSouls/NymphsPerfume] You respawn with more life [i:FargowiltasSouls/SandsofTime] and when no boss is alive, respawn faster
+		[i:FargowiltasSouls/FrigidGemstone] Press the Frigid Spell key to cast Ice Rod
+		[i:FargowiltasSouls/OrdinaryCarrot] Press right click to zoom in
+		''' */
 }
 
 BionomicClusterInactive: {
@@ -1045,9 +1099,10 @@ BionomicClusterInactive: {
 		免疫[i:FargowiltasSouls/NymphsPerfume]热恋、恶臭、[i:FargowiltasSouls/SecurityWallet]迈达斯和着魔减益
 		[i:FargowiltasSouls/SandsofTime]使用以传送到你上一次死亡的地点
 		[i:FargowiltasSouls/WyvernFeather]攻击会造成折翼减益，[i:FargowiltasSouls/NymphsPerfume]并生成红心
-		[i:FargowiltasSouls/SqueakyToy]你受到伤害时有几率发出吱吱声，并使这次受到的伤害降至1点
-		[i:FargowiltasSouls/WretchedPouch]按下“减益负载”键可获得诅咒之魔增益
-		[i:FargowiltasSouls/WretchedPouch]诅咒之魔会使攻击时获得120%伤害加成并释放暗影焰触手，但降低20%伤害减免且大幅降低移动速度，受到的攻速加成更少
+		[i:FargowiltasSouls/WyvernFeather]你会定期释放光球，触碰光球可以恢复你的飞行时间
+		[i:FargowiltasSouls/SqueakyToy]你受到伤害时有5%概率发出吱吱声，并使这次受到的伤害降至1点
+		[i:FargowiltasSouls/WretchedPouch]攻击时进行暗影焰充能并降低10%伤害减免
+		[i:FargowiltasSouls/WretchedPouch]停止攻击时释放暗影焰能量，爆发出一阵暗影触手，造成魔法伤害
 		[i:FargowiltasSouls/ConcentratedRainbowMatter]召唤一只友好的彩虹史莱姆
 		[i:FargowiltasSouls/TimsConcoction]某些敌人在死亡时会掉落药水
 		[i:FargowiltasSouls/TribalCharm]手动点击攻击时，增加30%非召唤伤害
@@ -1075,19 +1130,20 @@ CelestialRune: {
 }
 
 ChaliceoftheMoon: {
-	DisplayName: 月之圣杯
+	DisplayName: 银河球
 	Tooltip:
 		'''
 		[i:FargowiltasSouls/ChaliceoftheMoon]免疫蜂群、萎缩、卡壳、魔力逆流和社恐减益
 		免疫[i:FargowiltasSouls/MagicalBulb]毒液、常春藤毒素、[i:FargowiltasSouls/LihzahrdTreasureBox]燃烧、导火索、下陷、蜥蜴诅咒和[i:FargowiltasSouls/CelestialRune]死亡标记减益
-		[i:FargowiltasSouls/MagicalBulb]按下“魔法净化”键治愈你
+		[i:FargowiltasSouls/MagicalBulb]按下“魔法净化”键治愈你受到的减益，并在一定时间内使附近敌人受到的持续伤害增加100%
 		[i:FargowiltasSouls/MagicalBulb]根据你受到的光照增加生命恢复速度
 		[i:FargowiltasSouls/LihzahrdTreasureBox]在空中双击“下”键快速下落
 		在一定高度使用快速下落，撞击地面时会产生猛烈的火焰喷发
 		落地时生成一连串巨石
-		[i:FargowiltasSouls/CelestialRune] 根据武器类型，定期发动额外的攻击，受伤时召唤远古幻影妖攻击敌人
-		召唤友善的[i:FargowiltasSouls/MagicalBulb]植物幼株为你而战
-		“喝了它”
+		[i:FargowiltasSouls/CelestialRune]你根据武器类型发动额外攻击
+		[c/BC5252:将你所有附属仆从效果和空召唤栏位转换为+1%伤害（可切换）]
+		否则，[i:FargowiltasSouls/CelestialRune]受伤时爆发出远古幻象妖
+		“时刻凝视”
 		'''
 }
 
@@ -1096,10 +1152,11 @@ ConcentratedRainbowMatter: {
 	Tooltip:
 		'''
 		免疫宇宙之焰减益
-		需要时自动使用治疗药水
+		需要时自动使用治疗药水（在背包和时装栏也可生效）
 		召唤一个彩虹史莱姆宝宝
 		“遇上彩虹，吃定彩虹！”
 		'''
+	VanityTooltip: 需要时自动使用治疗药水
 }
 
 DarkenedHeart: {
@@ -1118,9 +1175,9 @@ Deerclawps: {
 	Tooltip:
 		'''
 		免疫缓慢和冰冻
-		冲刺会留下一串冰刺
+		冲刺会留下一串冰刺，在空中时冰刺会指向最近的敌人
 		在空中双击“下”键快速下落
-		在一定高度使用快速下落，撞击地面时会爆发冰刺
+		快速下落撞击地面时会爆发冰刺
 		“从被击败的敌人的脚上剪下来的指甲”
 		'''
 }
@@ -1130,9 +1187,9 @@ DreadShell: {
 	Tooltip:
 		'''
 		免疫凝血失效和击退
-		右键点击来用护盾防护
-		防护时和防护后短时间内，防御力和伤害减免大幅下降
-		如果你在防护时正好受到攻击，你会进行反击，反击有很长的冷却时间
+		右键点击来用护盾格挡
+		格挡时和格挡后短时间内，防御力和伤害减免大幅下降
+		格挡最多可阻挡200点伤害。格挡成功会进行反击，反击有很长的冷却时间
 		反击会造成巨量伤害，并造成凝血失效减益
 		吸收凝血失效的血凝块会增加30%伤害
 		“在这钓鱼是个错误”
@@ -1160,27 +1217,33 @@ EurusSock: {
 }
 
 FrigidGemstone: {
-	DisplayName: 寒玉
+	DisplayName: 霜寒之握
 	Tooltip:
 		'''
-		放在物品栏中即可生效
+		放在背包和时装栏中也可生效
 		右键点击以禁用
 		免疫霜冻和冷冻减益
 		按下“寒霜咒语”键放置冰雪魔杖之冰
 		你的冰块会造成霜冻减益
-		“一块古老的魔法冰碎片”
+		“古老的冰块留下的残肢”
+		'''
+	VanityTooltip:
+		'''
+		免疫霜冻和冷冻减益
+		按下“寒霜咒语”键放置冰雪魔杖之冰
+		你的冰块会造成霜冻减益
 		'''
 }
 
 FrigidGemstoneInactive: {
-	DisplayName: 寒玉 (未启用)
+	DisplayName: 霜寒之握 (未启用)
 	Tooltip:
 		'''
 		当前未启用，右键点击以启用
 		免疫霜冻和冷冻减益
 		按下“寒霜咒语”键放置冰雪魔杖之冰
 		你的冰块会造成霜冻减益
-		“一块古老的魔法冰碎片”
+		“古老的冰块留下的残肢”
 		'''
 }
 
@@ -1198,14 +1261,23 @@ FusedLens: {
 }
 
 GalacticGlobe: {
-	DisplayName: 银河球
+	DisplayName: 月之圣杯
 	Tooltip:
 		'''
-		免疫无效诅咒、翻转、不稳定和月之诅咒减益
-		允许玩家改变重力
+		免疫无效诅咒、翻转、灯火通明、不稳定和月之诅咒减益
+		提供大多数一般药水和增益站的效果（在背包和时装栏也可生效）
 		召唤克苏鲁真眼保护你
 		增加100%飞行时间
-		“时刻凝视”
+		“消耗它”
+		'''
+	VanityTooltip: 提供大多数一般药水和增益站的效果
+	HoldShift: "[c/ADD8E6:按住左Shift以查看全部增益效果]"
+	ExpandedTooltip:
+		'''
+		[c/ADD8E6:铁皮、再生、敏捷、魔力再生、魔能、弹药储备、箭术、]
+		[c/ADD8E6:建筑工、宝匣、耐力、钓鱼、鱼鳃、幸运、拾心、生命力、挖矿、黑曜石皮、]
+		[c/ADD8E6:愤怒、怒气、声呐、召唤、荆棘、泰坦、温暖、水上飘、酒足饭饱、]
+		[c/ADD8E6:锋利、弹药箱、灵视、着魔、战略家、蜂蜜]
 		'''
 }
 
@@ -1214,7 +1286,7 @@ GelicWings: {
 	Tooltip:
 		'''
 		可以飞行和缓慢下落
-		免疫由地下神圣之地造成的翻转减益
+		免疫由地下神圣之地造成的灯火通明减益
 		可让持有者二连跳
 		落地时向左右发射出史莱姆尖刺
 		“踩在我身上”
@@ -1251,20 +1323,28 @@ HeartoftheMasochist: {
 	DisplayName: 大师之心
 	Tooltip:
 		'''
-		免疫[i:FargowiltasSouls/PumpkingsCape]人形废土、[i:FargowiltasSouls/SaucerControlConsole]带电、扭曲、[i:FargowiltasSouls/BetsysHeart]分泌物、枯萎武器、枯萎盔甲减益
-		免疫[i:FargowiltasSouls/IceQueensCrown]恐寒症、[i:FargowiltasSouls/GalacticGlobe]无效诅咒、翻转、不稳定、月之诅咒减益
+		免疫[i:FargowiltasSouls/PumpkingsCape]人形废土、[i:FargowiltasSouls/SaucerControlConsole]带电、冰冻、扭曲、[i:FargowiltasSouls/BetsysHeart]分泌物、枯萎武器、枯萎盔甲减益
+		免疫[i:FargowiltasSouls/IceQueensCrown]恐寒症、[i:FargowiltasSouls/GalacticGlobe]无效诅咒、翻转、灯火通明、不稳定、月之诅咒减益
 		免疫[i:FargowiltasSouls/PrecisionSeal]惩戒、[i:FargowiltasSouls/MutantAntibodies]潮湿、野性咬噬、突变啃啄、海洋重击和由水造成的减益
 		[i:FargowiltasSouls/PumpkingsCape][i:FargowiltasSouls/MutantAntibodies][i:FargowiltasSouls/IceQueensCrown]伤害和暴击率增加10%，伤害减免增加5%
-		[i:FargowiltasSouls/PumpkingsCape]右键点击来用披肩防护
+		[i:FargowiltasSouls/PumpkingsCape]右键点击来用披肩格挡，最多格挡200点伤害，完美格挡会根据被格挡的伤害治疗你
+		[i:FargowiltasSouls/PumpkingsCape]格挡时你周边会生成一个腐败区域
 		[i:FargowiltasSouls/BetsysHeart]按下“特殊冲刺”键后会进行短距离的无敌火球冲刺
-		[i:FargowiltasSouls/SaucerControlConsole]按下“弹药切换”键循环切换弹药（这个效果放在物品栏中也被动生效）
+		[i:FargowiltasSouls/SaucerControlConsole]按下“弹药切换”键循环切换弹药（这个效果放在背包和时装栏中也可生效）
 		[i:FargowiltasSouls/MutantAntibodies]骑乘猪龙鱼坐骑时获得潮湿状态效果
 		[i:FargowiltasSouls/MutantAntibodies]浸在液体中重置飞行时间，增加最大飞行时间并增强移动力
 		[i:FargowiltasSouls/IceQueensCrown]擦弹可以积攒一颗能冻住几乎所有敌怪和射弹的炸弹
-		[i:FargowiltasSouls/PrecisionSeal]缩小你对于敌对弹幕的碰撞判定，按下“精确模式”键禁用冲刺和二段跳
-		[i:FargowiltasSouls/SaucerControlConsole]召唤友善的迷你飞碟，击中敌人时可以减缓敌人的速度
-		[i:FargowiltasSouls/GalacticGlobe]可以控制重力，增加100%飞行时间，召唤友善的克苏鲁真眼
+		[i:FargowiltasSouls/PrecisionSeal]即使未显示碰撞箱也会缩小你对于敌对弹幕的碰撞判定
+		[i:FargowiltasSouls/GalacticGlobe]增加飞行时间按下“精确模式”键禁用冲刺和二段跳
+		[i:FargowiltasSouls/GalacticGlobe]获得大多数一般药水和增益站效果（这个效果放在背包和时装栏中也可生效）
+		[c/BC5252:将所有附属仆从效果和空仆从槽转换为 +1% 伤害（可切换）]
+		否则，召唤[i:FargowiltasSouls/GalacticGlobe]迷你克苏鲁真眼和[i:FargowiltasSouls/SaucerControlConsole]一个迷你飞碟，减慢被击中的敌人的速度
 		“它还在跳动，很暖和，但没人想要”
+		'''
+	VanityTooltip:
+		'''
+		[i:FargowiltasSouls/SaucerControlConsole]按下“弹药切换”键循环切换弹药
+		[i:FargowiltasSouls/GalacticGlobe]获得大多数一般药水和增益站效果
 		'''
 }
 
@@ -1272,7 +1352,7 @@ IceQueensCrown: {
 	DisplayName: 冰雪女王的皇冠
 	Tooltip:
 		'''
-		免疫恐寒症减益
+		免疫恐寒症和冰冻减益
 		增加5%伤害减免
 		擦弹可以积攒一颗能冻住几乎所有敌怪和射弹的炸弹
 		按下“炸弹”键投掷炸弹
@@ -1297,15 +1377,15 @@ LumpOfFlesh: {
 		'''
 		免疫[i:FargowiltasSouls/DreadShell]击退、凝血失效、[i:FargowiltasSouls/PungentEyeball]黑视、遮蔽减益
 		免疫[i:FargowiltasSouls/SkullCharm]眩晕、[i:FargowiltasSouls/Deerclawps]缓慢、冰冻减益
-		[i:FargowiltasSouls/SkullCharm]攻击力增加15%，获得一个眼球召唤物，眼球会在你攻击时蓄能，蓄能完毕后发射激光
+		[i:FargowiltasSouls/SkullCharm]增加15%伤害，获得一个眼球召唤物，眼球会在你攻击时蓄能，蓄能完毕后发射激光
 		[i:FargowiltasSouls/PungentEyeball]增加稀有怪物的生成概率
 		[i:FargowiltasSouls/PungentEyeball]你的光标会导致附近的敌怪受到的伤害增加15%
-		[i:FargowiltasSouls/DreadShell]右键点击可进行时间判定极其严格的受伤反击
-		[i:FargowiltasSouls/DreadShell]防护时和防护后短时间内，防御力和伤害减免大幅下降
+		[i:FargowiltasSouls/DreadShell]右键点击可进行格挡，最多格挡200点伤害，格挡成功会进行弹反
+		[i:FargowiltasSouls/DreadShell]格挡时和格挡后短时间内，防御力和伤害减免大幅下降
 		[i:FargowiltasSouls/Deerclawps]冲刺会留下一串血刺
 		[i:FargowiltasSouls/SkullCharm]降低敌人以你为目标的可能性
 		[i:FargowiltasSouls/Deerclawps]在空中双击“下”键快速下落
-		[i:FargowiltasSouls/Deerclawps]在一定高度使用快速下落，撞击地面时会爆发冰刺
+		[i:FargowiltasSouls/Deerclawps]快速下落撞击地面时会爆发冰刺
 		“它在生长”
 		'''
 }
@@ -1316,7 +1396,7 @@ MagicalBulb: {
 		'''
 		免疫毒液、常春藤毒素和蜂群减益
 		按下“魔法净化”键治愈你身上绝大多数的减益，此效果有一定的冷却时间
-		魔法净化还会使附近的敌人因减益受到的伤害翻倍
+		魔法净化还会使附近的敌人受到的减益伤害增加100%
 		不攻击时，冷却速度更快
 		根据你受到的光照增加生命恢复速度
 		吸引一株传奇植物的幼株，其会在战斗中茁壮成长
@@ -1356,12 +1436,18 @@ MysticSkull: {
 	DisplayName: 神秘头骨
 	Tooltip:
 		'''
-		放在物品栏中即可生效
+		放在背包和时装栏中也可生效
 		右键点击以禁用
 		免疫窒息减益
 		需要时自动使用魔力药水
 		扩大魔力星的拾取范围
 		“被打败敌人的喃喃自语的脑袋”
+		'''
+	VanityTooltip:
+		'''
+		免疫窒息减益
+		需要时自动使用魔力药水
+		扩大魔力星的拾取范围
 		'''
 }
 
@@ -1382,7 +1468,7 @@ NecromanticBrew: {
 	Tooltip:
 		'''
 		免疫昏昏欲睡减益
-		增加50%冲刺速度
+		增加30%冲刺速度
 		冲刺时获得额外15%伤害减免，并且会对攻击者反弹4倍接触伤害
 		召唤两个骷髅王手臂重击敌人
 		“这液体来自被你打败的敌人，能促进骨头生长”
@@ -1398,6 +1484,7 @@ NymphsPerfume: {
 		你的攻击偶尔会生成心
 		“气味有点太浓了”
 		'''
+	VanityTooltip: 你会以满生命值重生
 }
 
 PrecisionSeal: {
@@ -1424,9 +1511,9 @@ PumpkingsCape: {
 		'''
 		免疫人形废土减益
 		增加5%伤害和暴击率
-		右键点击来用披肩防护
-		防护时你周边会出现一个腐败区域
-		如果你在防护时正好受到攻击，你会进行反击，反击有很长的冷却时间
+		右键点击用披肩格挡，最多格挡200点伤害
+		格挡时你周边会出现一个腐败区域
+		如果你在格挡时正好受到攻击，你会进行反击，反击有很长的冷却时间
 		反击会根据被格挡的伤害治疗你
 		“不知怎么，它的尺寸正好合适”
 		'''
@@ -1438,7 +1525,7 @@ PungentEyeball: {
 		'''
 		免疫黑视和遮蔽减益
 		增加稀有怪物的生成概率
-		你的光标会导致附近的敌怪受到更多伤害
+		你的光标会导致附近的敌怪受到最多1.15倍伤害
 		你的光标在敌怪身旁持续越久，敌怪受到的伤害就越多
 		“它在发酵”
 		'''
@@ -1487,11 +1574,17 @@ SandsofTime: {
 	DisplayName: 时之沙
 	Tooltip:
 		'''
-		放在物品栏中即可生效
+		放在背包和时装栏中也可生效
 		免疫强风减益和仙人掌伤害
 		没有Boss在场时重生速度加倍
 		使用以传送到你上一次死亡的地点
 		“无论你做什么，都不要丢下它”
+		'''
+	VanityTooltip:
+		'''
+		免疫强风减益和仙人掌伤害
+		没有Boss在场时重生速度加倍
+		使用以传送到你上一次死亡的地点
 		'''
 }
 
@@ -1501,20 +1594,26 @@ SaucerControlConsole: {
 		'''
 		免疫带电和扭曲减益
 		召唤一个友善的迷你飞碟
-		按下“弹药切换”键循环切换弹药（这个效果放在物品栏中也被动生效）
+		按下“弹药切换”键循环切换弹药（放在背包和时装栏中也可生效）
 		飞碟的死亡射线会减慢被击中敌人的速度
 		“请保持飞行模式”
 		'''
+	VanityTooltip: 按下“弹药切换”键循环切换弹药
 }
 
 SecurityWallet: {
 	DisplayName: 安全钱包
 	Tooltip:
 		'''
+		放在背包和时装栏中也可生效
 		免疫迈达斯减益
 		大幅改善重铸结果
-		放置在背包中即可生效
 		“无法完美保护尸体上的财物”
+		'''
+	VanityTooltip:
+		'''
+		免疫迈达斯减益
+		大幅改善重铸结果
 		'''
 }
 
@@ -1530,14 +1629,14 @@ SinisterIcon: {
 }
 
 SkullCharm: {
-	DisplayName: 头骨挂坠
+	DisplayName: 水晶头骨
 	Tooltip:
 		'''
 		免疫眩晕减益
 		攻击力增加15%，但受到的伤害增加10%
 		降低敌人以你为目标的可能性
 		水晶头骨会在你攻击时蓄能，蓄能完毕时会发射暗灵弹
-		“不在这个区域了”
+		“成为集体意识的一部分”
 		'''
 }
 
@@ -1560,7 +1659,7 @@ SparklingAdoration: {
 		免疫热恋减益和假心的伤害
 		擦弹（擦过弹幕和敌怪本体）能提高伤害，最高可增加25%
 		伤害加成会随时间流逝而减少，被击中时清零
-		你的攻击会周期性地生成能吸血的红心
+		你的攻击会周期性地生成能吸血的红心，造成魔法伤害
 		“饱含情感！”
 		'''
 }
@@ -1570,7 +1669,7 @@ SqueakyToy: {
 	Tooltip:
 		'''
 		免疫吱吱响的玩具减益和内疚减益
-		你受伤时有几率发出吱吱声，并只受到1点伤害
+		你受伤时有10%概率发出吱吱声，并只受到1点伤害
 		“被打败的敌人的心爱的玩具……？”
 		'''
 }
@@ -1617,9 +1716,8 @@ WretchedPouch: {
 	Tooltip:
 		'''
 		免疫暗影焰减益
-		按下“减益负载”键获得诅咒之魔增益，触发以下效果
-		攻击时获得120%伤害加成并释放暗影焰触手，但降低20%伤害减免且大幅降低移动速度
-		攻击速度加成只有一半生效
+		攻击时进行暗影焰充能但会降低10%伤害减免
+		停止攻击时会释放暗影焰能量，爆发出一阵暗影触手，造成魔法伤害
 		“被打败的敌人的诅咒燃烧火药”
 		'''
 }
@@ -1631,9 +1729,10 @@ WyvernFeather: {
 		免疫折翼和跛足减益
 		攻击有10%概率对非Boss敌怪造成折翼减益
 		你会定期释放光球，触碰光球可以恢复你的飞行时间
-		在太空和液体中恢复正常重力作用，在物品栏中同样生效
+		在太空和液体中恢复正常重力作用（在背包和时装栏中也可生效）
 		“摸起来很暖和”
 		'''
+	VanityTooltip: 在太空和液体中恢复正常重力作用
 }
 
 ZephyrBoots: {
@@ -1656,9 +1755,9 @@ ArchWizardsSoul: {
 	DisplayName: 巫师之魂
 	Tooltip:
 		'''
-		增加30%魔法伤害
+		增加22%魔法伤害
 		增加20%施法速度
-		增加15%魔法暴击率
+		增加10%魔法暴击率
 		增加200点最大法力值
 		拥有天界手铐和魔力花效果
 		“奥术之力，合核凝一”
@@ -1669,9 +1768,9 @@ BerserkerSoul: {
 	DisplayName: 狂战士之魂
 	Tooltip:
 		'''
-		增加30%近战伤害
+		增加22%近战伤害
 		增加20%近战攻速
-		增加15%近战暴击率
+		增加10%近战暴击率
 		增加近战击退
 		拥有烈火手套、悠悠球袋和天界壳效果
 		“吾之传说生者弗能传颂”
@@ -1682,11 +1781,12 @@ ColossusSoul: {
 	DisplayName: 巨像之魂
 	Tooltip:
 		'''
+		增加100点最大生命值
 		增加10%伤害减免
-		增加5点生命恢复速度
+		增加5点生命再生
 		免疫击退、一些减益和摔落伤害
 		增加敌人以你为目标的几率
-		拥有混乱之脑、星星面纱和蜜蜂斗篷效果
+		拥有混乱之脑、星星面纱、神话护身符和蜜蜂斗篷效果
 		拥有闪亮石、圣骑士护盾和冰冻海龟壳效果
 		“你无人可挡”
 		'''
@@ -1696,9 +1796,10 @@ ConjuristsSoul: {
 	DisplayName: 召唤之魂
 	Tooltip:
 		'''
-		增加30%召唤伤害
+		增加22%召唤伤害
+		增加15%鞭子范围
 		增加5个召唤栏位
-		增加2个哨兵栏位
+		增加1个哨兵栏位
 		增加召唤物击退
 		“一支听命于您的军队”
 		'''
@@ -1710,10 +1811,10 @@ DimensionSoul: {
 		'''
 		增加300点最大生命值
 		增加20%伤害减免
-		增加8点生命恢复速度
+		增加8点生命再生
 		免疫击退和一些减益
 		增加敌人以你为目标的几率
-		使你获得超音速奔跑和无限飞行能力
+		使你获得超音速奔跑和无限飞行能力[c/BC5252:并禁用所有跳跃（可切换）]
 		大幅增加渔力且钓竿会额外扔出10根鱼线
 		增加50%物块和墙壁的放置速度
 		近乎无限的放置和挖掘距离，挖掘速度x3
@@ -1757,7 +1858,7 @@ FlightMasterySoul: {
 		按住“下”和“跳跃”键悬停
 		按住“上”键可以更快加速
 		略微增加你的重力
-		允许你控制重力
+		[c/BC5252:禁用所有跳跃（可切换）]
 		“飞升”
 		'''
 }
@@ -1766,36 +1867,34 @@ MasochistSoul: {
 	DisplayName: 大师之魂
 	Tooltip:
 		'''
-		延长200%飞行时间，增加50点护甲穿透和20%移动速度
-		增加100%最大生命值和10%伤害减免，增加50%你手持武器职业的伤害
-		大幅增加生命恢复速度，你的光标会导致附近的敌怪受到更多伤害
-		允许你控制重力、快速下落，免疫击退、摔落伤害和近乎所有的永恒模式减益
-		在需要时自动使用魔力药水
-		你的攻击会进行额外攻击，额外生成心, 并造成混合的永恒模式减益
-		被诅咒狱火或灵液影响时增强属性
-		按下“减益负载”键对自己造成减益并加强自己
-		按下“特殊冲刺”键后会进行短距离无敌冲刺，右键缩放视域
-		按下“弹药切换”键循环切换弹药
-		大多敌人在死亡时会掉落随机的药水，大幅改善重铸结果，你会以满生命值重生
-		重生速度翻倍，增强夜视效果，受到伤害时进行超级充能并释放各种攻击
-		阻止Boss自然生成，增加刷怪率，敌人死亡后会掉落更多战利品，你在受到伤害时有几率发出吱吱声，并使这次受到的伤害降至1点
-		缩小你对于敌对弹幕的碰撞判定，按下“精确模式”键禁用冲刺和二段跳
-		右键以及其严格的时机格挡攻击
-		使用以传送到你上一次死亡的地点
-		召唤[i:FargowiltasSouls/NecromanticBrew]骷髅王手臂、[i:FargowiltasSouls/GuttedHeart]飞眼怪、[i:FargowiltasSouls/ConcentratedRainbowMatter]彩虹史莱姆、[i:FargowiltasSouls/GroundStick]两个探测器、[i:FargowiltasSouls/SkullCharm]眼球召唤物、
+		[i:FargowiltasSouls/GalacticGlobe]增加200%飞行时间，[i:FargowiltasSouls/QueenStinger]50护甲穿透和[i:FargowiltasSouls/GalacticGlobe]20%移动速度
+		[i:FargowiltasSouls/GuttedHeart]增加100%最大生命值，[i:FargowiltasSouls/MagicalBulb]大幅增加生命回复速度，[i:FargowiltasSouls/MutantAntibodies][i:FargowiltasSouls/SkullCharm][i:FargowiltasSouls/PumpkingsCape]增加50%手持武器职业的伤害，[i:FargowiltasSouls/ReinforcedPlating]获得10%伤害减免
+		[i:FargowiltasSouls/PungentEyeball]大幅增加稀有敌人的生成概率， [i:FargowiltasSouls/SinisterIcon]刷新率翻倍，非Boss敌人掉落双倍战利品，[i:FargowiltasSouls/TimsConcoction]某些敌人会掉落药水
+		获得[i:FargowiltasSouls/SlimyShield]快速下落，[i:FargowiltasSouls/ReinforcedPlating]击退免疫，[i:FargowiltasSouls/PureHeart]免疫生物群落减益，[i:FargowiltasSouls/GalacticGlobe]获得大多数一般药水和增益站效果（在背包和时装栏中也可生效），免疫几乎所有永恒模式减益
+		[i:FargowiltasSouls/BetsysHeart]按下“特殊冲刺”键后会进行短距离无敌冲刺，[i:FargowiltasSouls/PrecisionSeal]按下“精确模式”键禁用冲刺和二段跳，[i:FargowiltasSouls/AgitatingLens] [i:FargowiltasSouls/FusedLens]按下“减益负载”键对自己造成减益并加强自己
+		[i:FargowiltasSouls/FrigidGemstone]按下“寒霜咒语”键施放冰霜魔杖，[i:FargowiltasSouls/IceQueensCrown]擦弹积攒能量后按下“炸弹”键可冻结所有物体，右键点击[i:FargowiltasSouls/OrdinaryCarrot]缩放视野并[i:FargowiltasSouls/DreadShell][i:FargowiltasSouls/PumpkingsCape]进行格挡，最多格挡200点伤害
+		[i:FargowiltasSouls/Deerclawps][i:FargowiltasSouls/LihzahrdTreasureBox]双击“下”键快速坠落并产生爆炸，落地时产生冰刺
+		[i:FargowiltasSouls/PrecisionSeal]减少伤害判定框大小，[i:FargowiltasSouls/NecromanticBrew]增加冲刺距离，[i:FargowiltasSouls/PungentEyeball]使光标附近敌人受到最多1.15倍伤害
+		改善[i:FargowiltasSouls/SecurityWallet]重铸结果，获得[i:FargowiltasSouls/OrdinaryCarrot]夜视，提高[i:FargowiltasSouls/NymphsPerfume]重生生命值，缩短[i:FargowiltasSouls/SandsofTime]重生时间, 根据需要使用[i:FargowiltasSouls/ConcentratedRainbowMatter]治疗药水和[i:FargowiltasSouls/MysticSkull]魔力药水
+		[i:FargowiltasSouls/SqueakyToy]受击有5%概率发出吱吱声并只受到1点伤害，[i:FargowiltasSouls/NecromanticBrew]冲刺时会反弹伤害
+		[i:FargowiltasSouls/NymphsPerfume]你的攻击会产生爱心并造成一系列永恒模式减益
+		[c/BC5252:将你的所有附属仆从效果和召唤栏转化为+1%伤害（可切换）]
+		否则，召唤[i:FargowiltasSouls/NecromanticBrew]骷髅王手臂、[i:FargowiltasSouls/GuttedHeart]飞眼怪、[i:FargowiltasSouls/ConcentratedRainbowMatter]彩虹史莱姆、[i:FargowiltasSouls/GroundStick]两个探测器、[i:FargowiltasSouls/SkullCharm]眼球召唤物、
 		[i:FargowiltasSouls/SaucerControlConsole]迷你飞碟、[i:FargowiltasSouls/MagicalBulb]世纪之花和[i:FargowiltasSouls/GalacticGlobe]克苏鲁真眼为你而战
+		[i:FargowiltasSouls/SandsofTime]使用时传送到最后的死亡地点
 		“拥抱精通，拥抱永恒”
 		'''
+	VanityTooltip: "[i:FargowiltasSouls/GalacticGlobe]获得大部分一般药水和增益站效果"
 }
 
 SnipersSoul: {
 	DisplayName: 神枪手之魂
 	Tooltip:
 		'''
-		增加30%远程伤害
+		增加22%远程伤害
 		20%几率不消耗弹药
-		增加15%远程暴击率
-		拥有狙击镜效果
+		增加10%远程暴击率
+		拥有狙击镜和魔法箭袋效果
 		“预备，瞄准，开火”
 		'''
 }
@@ -1821,25 +1920,24 @@ TerrariaSoul: {
 	DisplayName: 泰拉之魂
 	Tooltip:
 		'''
-		召唤火球、暗影珠、冰锥、叶绿水晶、爆炸烈焰哨兵、神圣剑盾和甲虫
-		右键进行盾牌格挡
-		双击“下”键后会召唤一个哨兵、旗子、传送门、风暴并切换至隐形状态
-		按下“金身”键后会将你包裹在一个黄金壳中，按下“冻结”键后会冻结9秒时间，召唤物会释放镰刀
-		允许你使用日耀护盾进行冲刺，冲进墙壁时会直接穿过去
-		扔出烟雾弹后会将你传送至其落点的位置并使你获得先发制人增益
-		攻击有几率生成闪电、风暴云、花瓣、幽魂珠、地牢守卫、雪球、长矛或强化增益
-		攻击额外发射爆炸烈焰火球且会使流星雨从天而降，攻击敌人会降低其防御力、增加你的生命恢复速度并使你获得暗影闪避增益
-		将你的基础暴击率设为25%，每次暴击时都会增加5%暴击率，暴击率达到100%后每攻击10次会汲取4%生命值
-		被击中后会降低暴击率、喷出血液并反弹伤害
-		弹幕有几率分裂或爆裂成碎片并生成星星，增加物品和弹幕的尺寸，扩大你的物品拾取范围
-		引燃你附近的敌人，你的身后会留下一条火痕，跳跃会释放孢子爆炸
-		给予你猩红魔石的治愈效果，免疫岩浆、火和摔落伤害并使药草收获翻倍
-		普通蜜蜂有50%几率变成大蜜蜂，你的召唤物和哨兵现在可以造成暴击且有15%基础暴击率并增加30点护甲穿透，敌人死亡时有20%几率掉落更多战利品
-		增加小动物的防御力，小动物死亡后会释放它们的灵魂来帮助你，鞭打你的召唤物可以让它们更勤奋
-		强化钩爪的效果，钩爪会发射追踪弹幕，大幅强化旧日军团的塔防哨兵
-		你的攻击会造成迈达斯减益，敌人在死亡时会爆裂出针刺
-		你受到伤害时会剧烈爆炸并伤害附近的敌人，你在重生时以200点生命值重生
-		拥有花靴效果
+		[i:FargowiltasSouls/TimberForce] 获得一个可以发射各种弹幕、强化钩爪和攻击时偶尔产生魔力星星的光环
+		[i:FargowiltasSouls/TimberForce] 拾取物品时获得额外暴击，图鉴解锁加快和根据图鉴解锁进度商店提供折扣
+		[i:FargowiltasSouls/TerraForce] 暴击会发射强大的闪电，右键单击可格挡最多200点伤害，减少受到的减益伤害，强化剑类武器
+		[i:FargowiltasSouls/TerraForce] 攻击时增加10%暴击率，增加物品吸取范围，制作有几率不消耗制作材料
+		[i:FargowiltasSouls/EarthForce] 不攻击时获得防御增益，攻击时获得攻击增益
+		[i:FargowiltasSouls/EarthForce] 敌人受到的减益伤害增加300%，不攻击时受到攻击会爆炸
+		[i:FargowiltasSouls/NatureForce] 拥有吸取生命的光环，增加受到的伤害，向附近的敌人发射叶绿水晶
+		[i:FargowiltasSouls/NatureForce] 蘑菇治疗得到强化并提供增益，你的攻击造成多种减益，获得一把雨伞
+		[i:FargowiltasSouls/LifeForce] 飞行时留下强大的花朵，拥有蜜蜂背包的效果
+		[i:FargowiltasSouls/LifeForce] 反射接触伤害，你的召唤物和哨兵可以暴击
+		[i:FargowiltasSouls/SpiritForce] 双击下键召唤禁戒风暴，治疗药水会随着时间的推移恢复更多，强化你的鞭子
+		[i:FargowiltasSouls/SpiritForce] 生命值降低至0时以300生命值复活并净化减益
+		[i:FargowiltasSouls/ShadowForce] 每4秒获得一次无敌的暗影冲刺，根据移速增加射弹各种属性
+		[i:FargowiltasSouls/ShadowForce] 发射额外的武器作为辅助攻击，召唤物会进行镰刀辅助攻击，屠戮敌人可能会掉落骨堆
+		[i:FargowiltasSouls/WillForce] 召唤角斗士灵魂增加你的治疗和坐骑属性，连续攻击会获得额外伤害，按下“金身”键将自己包裹起来
+		[i:FargowiltasSouls/WillForce] 拾取时钱币自动将钱币储存到存钱罐（在背包和时装栏中也可生效），敌人可能会掉落额外的战利品
+		[i:FargowiltasSouls/CosmoForce] 攻击偶尔会向敌人发射月亮并爆炸产生月亮强化焰
+		[i:FargowiltasSouls/CosmoForce] 增加你的移动速度和加速度并降低你的动量，按下冻结键可冻结6秒时间，冷却时间为60秒		
 		“泰拉之主，天地共证”
 		'''
 }
@@ -1862,9 +1960,9 @@ UniverseSoul: {
 	DisplayName: 寰宇之魂
 	Tooltip:
 		'''
-		增加66%你手持武器职业的伤害以及25%该职业暴击率
-		增加50%武器使用速度
-		暴击伤害变为4倍而不是2倍，并造成宇宙之焰减益
+		增加50%%手持武器职业的伤害以及25%该职业暴击率
+		增加25%攻击速度和50%射速
+		暴击伤害翻倍，暴击会造成宇宙之焰减益
 		武器击退翻倍
 		增加300点最大法力值
 		增加2个召唤栏位
@@ -1879,6 +1977,8 @@ WorldShaperSoul: {
 	DisplayName: 铸世者之魂
 	Tooltip:
 		'''
+		免疫以下爆炸物：
+		[i:166][i:3196][i:3115][i:3547][i:4908][i:4827][i:167][i:4826][i:4825][i:4423][i:235][i:4909][i:2896][i:4824][i:580][i:Fargowiltas/BoomShuriken]
 		增加50%物块和墙壁的放置速度
 		增加放置和挖掘距离
 		挖掘速度x3并获得远古凿子的效果。
@@ -1965,7 +2065,7 @@ GaiaHelmet: {
 		'''
 		增加10%伤害
 		增加5%暴击率
-		增加1个召唤、哨兵栏位
+		增加1个召唤栏位
 		'''
 }
 
@@ -2092,7 +2192,7 @@ DeerSinew: {
 		获得冲刺能力
 		双击一个方向
 		受到伤害有几率会短暂地冻住你
-		随着你的速度增加而降低造成的伤害，最多降低15%伤害
+		速度增加时会降低造成的伤害，最多降低至0.85倍伤害
 		所有效果在被关闭或已经在使用另一个冲刺取消
 		“冰冷但抽搐着”
 		'''
@@ -2119,7 +2219,7 @@ MutantsDiscountCard: {
 
 MutantsPact: {
 	DisplayName: 突变体契约
-	Tooltip: 永久增加一个仅能容纳魔石，力或是魂的饰品栏。
+	Tooltip: 永久增加一个仅能容纳魔石，精华，力或是魂的饰品栏。
 }
 
 OrdinaryCarrot: {
@@ -2129,9 +2229,10 @@ OrdinaryCarrot: {
 		提高夜视能力
 		{$CommonItemTooltip.MinorStats}
 		1分钟持续时间
-		放在物品栏中时，右键点击可以增加视野
+		右键点击可以增加视野（在背包和时装栏中也可生效）
 		“从被打败的敌人的脸上拔下来的”
 		'''
+	VanityTooltip: 右键点击可以增加视野
 }
 
 RabiesShot: {
@@ -2203,7 +2304,6 @@ EternityAdvisor: {
 	Tooltip:
 		'''
 		基于当前进度，为你提供永恒模式的配装建议
-		[c/ff0000:注意，这些建议已经落后于当前版本，请对这些建议持谨慎的态度。]
 		'''
 	General: 常规推荐：{0}
 	ClassSpecific: 特殊类别：{0}
@@ -2424,7 +2524,7 @@ NatureChampionRelic: {
 }
 
 ShadowChampionRelic: {
-	DisplayName: 暗影英灵圣物
+	DisplayName: 死亡英灵圣物
 	Tooltip: ""
 }
 
@@ -2639,7 +2739,12 @@ LeashOfCthulhu: {
 
 RefractorBlaster: {
 	DisplayName: 变轨激光炮
-	Tooltip: “由一个被击败的敌人的手臂改装而来……”
+	Tooltip:
+		'''
+		发射两束成一定角度的激光
+		激光散开后后造成的伤害降低
+		“由一个被击败的敌人的手臂改装而来……”
+		'''
 }
 
 RockSlide: {
@@ -2649,7 +2754,12 @@ RockSlide: {
 
 SlimeKingsSlasher: {
 	DisplayName: 史莱姆王屠戮者
-	Tooltip: “撕裂被击败的敌人内部而得来的……”
+	Tooltip:
+		'''
+		对着火了的敌人造成的伤害增加20%
+		从钨魔石获得的尺寸增益会降低
+		“撕裂被击败的敌人内部而得来的……”
+		'''
 }
 
 TheSmallSting: {
@@ -2803,13 +2913,13 @@ BigBrainBuster: {
 		'''
 		重复召唤会增加召唤物的大小和伤害
 		上限为16个召唤栏
-		“屠戮众多的奖励……”
+		“巅峰再战的奖励……”
 		'''
 }
 
 Blender: {
 	DisplayName: 绞肉机
-	Tooltip: “屠戮众多的奖励……”
+	Tooltip: “巅峰再战的奖励……”
 }
 
 DestroyerGun2: {
@@ -2817,7 +2927,7 @@ DestroyerGun2: {
 	Tooltip:
 		'''
 		随着召唤栏数量提升而提升长度和速度，上限为5个召唤栏
-		“屠戮众多的奖励……”
+		“巅峰再战的奖励……”
 		'''
 }
 
@@ -2827,7 +2937,7 @@ DragonBreath2: {
 		'''
 		使用凝胶作为弹药
 		66%的几率不消耗弹药
-		“屠戮众多的奖励……”
+		“巅峰再战的奖励……”
 		'''
 }
 
@@ -2840,13 +2950,18 @@ EaterLauncher: {
 		右键单击可增加此范围
 		增加的范围会逐渐缩小至正常范围
 		50%的几率不消耗弹药
-		“屠戮众多的奖励……”
+		“巅峰再战的奖励……”
 		'''
 }
 
 FleshCannon: {
 	DisplayName: 反叛者
-	Tooltip: “被击败敌人的奴役面孔……”
+	Tooltip:
+		'''
+		攻击会积攒饥饿值
+		攒满时饿鬼会造成更多伤害
+		“被击败敌人的奴役面孔……”
+		'''
 }
 
 GeminiGlaives: {
@@ -2861,7 +2976,12 @@ GeminiGlaives: {
 
 GolemTome2: {
 	DisplayName: 山崩
-	Tooltip: “屠戮众多的奖励……”
+	Tooltip:
+		'''
+		一次发射多个头时造成更多伤害
+		头攒满时自动发射较弱的头
+		“巅峰再战的奖励……”
+		'''
 }
 
 GuardianTome: {
@@ -2877,14 +2997,14 @@ HellZone: {
 		80%的几率不消耗弹药
 		攻击对敌人造成地狱烈焰减益
 		右键攻击发射骷髅头标记敌人
-		被标记的敌人受到的地狱烈焰伤害×5
-		“屠戮众多的奖励……”
+		被标记的敌人受到5倍地狱烈焰伤害
+		“巅峰再战的奖励……”
 		'''
 }
 
 MechanicalLeashOfCthulhu: {
 	DisplayName: 机械克苏鲁连枷
-	Tooltip: “屠戮众多的奖励……”
+	Tooltip: “巅峰再战的奖励……”
 }
 
 NukeFishron: {
@@ -2902,18 +3022,18 @@ OpticStaffEX: {
 		'''
 		召唤真正的双子魔眼为你而战
 		需要3个召唤栏位
-		“屠戮众多的奖励……”
+		“巅峰再战的奖励……”
 		'''
 }
 
 RefractorBlaster2: {
 	DisplayName: 衍射暗星炮
-	Tooltip: “屠戮众多的奖励……”
+	Tooltip: “巅峰再战的奖励……”
 }
 
 SlimeSlingingSlasher: {
 	DisplayName: 史莱姆王抛射屠戮者
-	Tooltip: “屠戮众多的奖励……”
+	Tooltip: “巅峰再战的奖励……”
 }
 
 TheBigSting: {
@@ -2923,7 +3043,7 @@ TheBigSting: {
 		使用飞镖作为弹药
 		66%的几率不消耗弹药
 		伤害会受蜜蜂伤害与击退影响
-		“屠戮众多的奖励……”
+		“巅峰再战的奖励……”
 		'''
 }
 
@@ -2944,13 +3064,17 @@ Masochist: {
 	DisplayName: 突变体的礼物
 	Tooltip:
 		'''
-		世界必须为专家模式及以上
-		[c/ff0000:不]推荐在大师模式下开启！！！
+		世界必须处于专家模式或更高难度
 		开关永恒模式
-		在永恒模式下可以获得大师模式的掉落物
-		戴薇安会给予你一个新手礼包，并提供一些基于进度的建议
-		增强玩家的基础属性
-		玩家的伤害减免上限为75%
+		如果世界处于大师模式并且已在任何世界中击败永恒模式最终Boss，则启用受虐模式
+		效果包括：
+			- 重制的Boss和敌人，使其更加强大
+			- 启用大师模式掉落
+			- 新的永恒专属物品掉落
+			- 戴薇安提供新手礼包和一些基于进度的建议
+			- 增强玩家基础属性并将玩家伤害减免限制在75%以下
+			- 不攻击时减益效果会更快消失
+			- 调整某些物品的功能和强度
 		不能在任意Boss存活时使用
 		[i:1612][c/00ff00:推荐与Fargo突变模组的减益显示一起使用（在模组配置里打开）]
 		[c/ff0000:不推荐与其他内容型模组及其他模组难度同时开启！！！]
@@ -2981,7 +3105,7 @@ ComputationOrb: {
 	DisplayName: 演算宝珠
 	Tooltip:
 		'''
-		非魔法非召唤攻击将造成1.25倍伤害，但会被魔力病所影响
+		非魔法非召唤攻击将造成1.2倍伤害，但会被魔力病所影响
 		非魔法非召唤武器需要10魔力攻击
 		“在核心内，仍然闪烁着希望的火花。”
 		'''
@@ -3384,6 +3508,7 @@ OncomingMutantItem: {
 Extra: {
 	StarlightTungsten: 装备钨魔石时只造成40%伤害
 	DefensePrefixMaxLife: +{0} 最大生命值
+	ViolentPrefix: +{0}% 攻击速度
 	EternityItem: 永恒
 	DisabledEffects: 有效果被饰品效果配置禁用
 	PatreonItem: >> 捐赠者物品 <<
@@ -3397,8 +3522,8 @@ GravityTestItem: {
 }
 
 CoffinSummon: {
-	DisplayName: 失落之瓮
-	Tooltip: 在地下沙漠打碎会召唤咒缚灵棺
+	DisplayName: 灵魂瓮
+	Tooltip: 在金字塔深处的密室中打开，唤醒古老棺椁中的神秘存在
 }
 
 // Dummy Item
@@ -3412,8 +3537,205 @@ RazorContainer: {
 	Tooltip:
 		'''
 		生成一个悬停在你的光标周围的伤害性刀片
-		使用近战武器会使其飞出去
+		使用阔剑击打会使其飞出去
 		期间刀片具有额外护甲穿透且必定暴击
 		“底部还粘着一些黄色皮毛”
 		'''
+}
+
+NebulaBooster: {
+	DisplayName: 星云强化焰
+	Tooltip: ""
+	Activate: +{0} 生命再生
+	Deactivate: -{0} 生命再生
+}
+
+SolarBooster: {
+	DisplayName: 日耀强化焰
+	Tooltip: ""
+	Activate: +{0}% 伤害减免
+	Deactivate: -{0}% 伤害减免
+}
+
+StardustBooster: {
+	DisplayName: 星尘强化焰
+	Tooltip: ""
+	Activate: +{0}% 伤害
+	Deactivate: -{0}% 伤害
+}
+
+VortexBooster: {
+	DisplayName: 星旋强化焰
+	Tooltip: ""
+	Activate: +{0}% 暴击率
+	Deactivate: -{0}% 暴击率
+}
+
+CosmosBooster: {
+	DisplayName: 宇宙强化焰
+	Tooltip: ""
+	Activate: +{0}% 暴击率
+	Deactivate: -{0}% 暴击率
+}
+
+DeathBooster: {
+	DisplayName: 死亡强化焰
+	Tooltip: ""
+	Activate: +{0} 穿甲
+	Deactivate: -{0} 穿甲
+}
+
+EarthBooster: {
+	DisplayName: 大地强化焰
+	Tooltip: ""
+	Activate: +{0}% 伤害减免
+	Deactivate: -{0}% 伤害减免
+}
+
+LifeBooster: {
+	DisplayName: 生命强化焰
+	Tooltip: ""
+	Activate: +{0} 生命再生
+	Deactivate: -{0} 生命再生
+}
+
+NatureBooster: {
+	DisplayName: 自然强化焰
+	Tooltip: ""
+	Activate: +{0} 防御
+	Deactivate: -{0} 防御
+}
+
+SpiritBooster: {
+	DisplayName: 心灵强化焰
+	Tooltip: ""
+	Activate: +{0} 魔力再生
+	Deactivate: -{0} 魔力再生
+}
+
+TerraBooster: {
+	DisplayName: 泰拉强化焰
+	Tooltip: ""
+	Activate: +{0}% 暴击率
+	Deactivate: -{0}% 暴击率
+}
+
+TimberBooster: {
+	DisplayName: 森林强化焰
+	Tooltip: ""
+	Activate: +{0}% 伤害
+	Deactivate: -{0}% 伤害
+}
+
+WillBooster: {
+	DisplayName: 意志强化焰
+	Tooltip: ""
+	Activate: +{0} 最终基准伤害
+	Deactivate: -{0} 最终基准伤害
+}
+
+CoffinRoominator: {
+	DisplayName: 棺材停放室
+	Tooltip: ""
+}
+
+GildedSceptre: {
+	DisplayName: 鎏金权杖
+	Tooltip:
+		'''
+		画一个圆圈来激活弹幕
+		激活的弹幕会追逐最近的敌人
+		弹幕会根据圆圈的精确程度造成更多伤害
+		'''
+}
+
+AccursedAnkh: {
+	DisplayName: 诅咒十字章
+	Tooltip: 使用时增加生命再生和加速减益流逝，但降低10点防御
+}
+
+SisypheanFist: {
+	DisplayName: 西西弗斯的笞刑
+	Tooltip:
+		'''
+		位于地面上时，从地上抓起一块巨石
+		松开鼠标将其扔向光标处
+		巨石的伤害随其速度而变化
+		刺穿生命值较低的敌人
+		'''
+}
+
+EgyptianFlail: {
+	DisplayName: 奥西里斯之沃壤
+	Tooltip:
+		'''
+		你的召唤物会集中攻击被击中的敌人
+		偶尔会引发暗影焰爆炸
+		'''
+}
+
+SpiritLongbow: {
+	DisplayName: 灵魂长弓
+	Tooltip:
+		'''
+		将箭转换为灵魂箭，在箭后方释放灵魂火焰
+		长按可进行蓄力射击，造成更多伤害并提高弹幕速度
+		刺穿生命值较低的敌人
+		'''
+}
+
+CursedCoffinBag: {
+	DisplayName: 宝藏袋（咒缚灵棺）
+	Tooltip: 右键点击可打开
+}
+
+CursedCoffinRelic: {
+	DisplayName: 咒缚灵棺圣物
+	Tooltip: ""
+}
+
+CursedCoffinTrophy: {
+	DisplayName: 咒缚灵棺纪念章
+	Tooltip: ""
+}
+
+UmbraRegalia: {
+	DisplayName: 宗室王权
+	Tooltip:
+		'''
+		左键单击快速用长矛刺出
+		按住右键以蓄力投掷长矛
+		蓄满力量时会变得更强
+		蓄满力量后继续蓄力还会造成更高伤害
+		“巅峰再战的奖励……”
+		'''
+}
+
+CoffinPainting: {
+	DisplayName: 棺材绘画
+	Tooltip: ""
+}
+
+ElectricWhip: {
+	DisplayName: 雷霆锁链
+	Tooltip:
+		'''
+		鞭打敌人使附近召唤物发射连锁闪电，每次挥舞最多发射4次
+		“被击败敌人的奴役面孔……”
+		'''
+}
+
+TheDestroyer: {
+	DisplayName: 毁灭者
+	Tooltip:
+		'''
+		鞭打召唤物向附近敌人发射激光，每次挥舞最多发射6次
+		每挥舞20次，毁灭者就会挣脱出来并跟随鼠标5秒
+		“巅峰再战的奖励……”
+		'''
+}
+
+FallenStarDayItem: {
+	DisplayName: 落星
+	Tooltip: ""
 }

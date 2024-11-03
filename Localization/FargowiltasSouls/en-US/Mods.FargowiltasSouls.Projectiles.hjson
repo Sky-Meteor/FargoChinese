@@ -165,7 +165,7 @@ NatureExplosion.DisplayName: Nature Explosion
 NatureFireball.DisplayName: Fireball
 NatureIcicle.DisplayName: Nature Icicle
 NatureRain.DisplayName: Nature Rain
-ShadowClone.DisplayName: Champion of Shadow
+ShadowClone.DisplayName: Champion of Death
 ShadowDeathraySmall.DisplayName: Shadow Deathray
 ShadowGuardian.DisplayName: Dungeon Guardian
 SpiritCrossBone.DisplayName: Cross Bone
@@ -178,6 +178,7 @@ TerraFireball.DisplayName: Fireball
 TerraLightningOrb.DisplayName: Lightning Orb
 TerraLightningOrb2.DisplayName: Lightning Orb
 TerraLightningOrbDeathray.DisplayName: Lightning Deathray
+TerraLightning.DisplayName: Terra Lightning
 TimberAcorn.DisplayName: Acorn
 TimberHook.DisplayName: Squirrel Hook
 TimberHook2.DisplayName: Squirrel Hook
@@ -279,6 +280,7 @@ MechElectricOrb.DisplayName: Electric Orb
 MechElectricOrbDestroyer.DisplayName: Electric Orb
 MechElectricOrbHoming.DisplayName: Electric Orb
 MechElectricOrbTwins.DisplayName: Electric Orb
+MechElectricOrbSpaz.DisplayName: Electric Orb
 DeathSkull.DisplayName: Death Skull
 DeerclopsHand.DisplayName: Shadow Hand
 DestroyerLaser.DisplayName: Death Laser
@@ -616,7 +618,7 @@ LifeHomingProj.DisplayName: Lesser Fairy
 LifeNeggravProj.DisplayName: Cross
 LifeNuke.DisplayName: Life Bomb
 LifeProjLarge.DisplayName: Cross
-LifeProjSmall.DisplayName: Life Shot
+LifeProjSmall.DisplayName: Lifeshot
 LifeRuneHitbox.DisplayName: Life Rune
 LifeScar.DisplayName: Life Mine
 LifeSlurp.DisplayName: Gem
@@ -670,11 +672,10 @@ RoseTintedVisorDeathray.DisplayName: Rose-Tinted Visor Laser
 GladiatorStandard.DisplayName: Gladiator Standard
 HiveSentry.DisplayName: Hive
 ROB.DisplayName: R.O.B
-MeteorFlame.DisplayName: Meteor Flame
+MeteorEnchantMeatball.DisplayName: Massive Meteor
 RainUmbrella.DisplayName: Rain Umbrella
 BeeFlower.DisplayName: Bee Flower
 MonkDashDamage.DisplayName: Monk Dash
-PearlwoodStareline.DisplayName: Pearlwood Stareline
 EaterRocketJr.DisplayName: Rotten Chunk
 VortexLightningDeathray.DisplayName: Vortex Lightning Deathray
 SpectralEoC.DisplayName: Spectral Eye of Cthulhu
@@ -686,18 +687,18 @@ MagmawHand.DisplayName: Magmaw Hand
 PungentEyeballMinion.DisplayName: Pungent Eyeball Minion
 MinosPrime.DisplayName: Minos Prime
 RainLightning.DisplayName: Rain Lightning
-PlanteraThornChakram.DisplayName: Plantera Thorn Chakram
+PlanteraTooth.DisplayName: Plantera Tooth
 PlanteraRitual.DisplayName: Plantera Ritual
 PlanteraManEater.DisplayName: Plantera Man Eater
 PlanteraSnatcher.DisplayName: Plantera Snatcher
 PlanteraTrapper.DisplayName: Plantera Trapper
 PlanteraMushroomThing.DisplayName: Plantera Mushroom Thing
 RainExplosion.DisplayName: Rain Explosion
-CoffinSlamShockwave.DisplayName: Coffin Slam Shockwave
-CoffinWaveShot.DisplayName: Coffin Wave Shot
-CoffinDarkSouls.DisplayName: Coffin Dark Souls
-CoffinHand.DisplayName: Coffin Hand
-CoffinRandomStuff.DisplayName: Coffin Random Stuff
+CoffinSlamShockwave.DisplayName: Slam Shockwave
+CoffinWaveShot.DisplayName: Shadowflame Waveshot
+CoffinDarkSouls.DisplayName: Dark Soul
+CoffinHand.DisplayName: Cursed Coffin's Hand
+CoffinRandomStuff.DisplayName: Cursed Artillery
 FishStickWhirlpool.DisplayName: Fish Stick Whirlpool
 BetsyHomingFireball.DisplayName: Betsy Homing Fireball
 HellGuardian.DisplayName: Hell Guardian
@@ -712,8 +713,58 @@ MoonBowPortal.DisplayName: Moon Bow Portal
 FlightBall.DisplayName: Flight Ball
 AbomPhoenix.DisplayName: Phantom Phoenix
 FrostShardFriendly.DisplayName: Frost Shard Friendly
-HentaiSword.DisplayName: Hentai Sword
-HentaiSwordBlast.DisplayName: Hentai Sword Blast
-HentaiSphereOkuu.DisplayName: Hentai Sphere Okuu
-AbomRitualFTW.DisplayName: Abom Ritual F T W
-RoyalSubjectProjectile.DisplayName: Royal Subject Projectile
+HentaiSword.DisplayName: Mutant Sword
+HentaiSwordBlast.DisplayName: Mutant Sword Blast
+HentaiSphereOkuu.DisplayName: Mutant Sphere Okuu
+AbomRitualFTW.DisplayName: Abominationn Ritual
+FallingSandstone.DisplayName: Falling Sandstone
+CoffinPlayerSoul.DisplayName: Your Soul
+GildedSceptreProj.DisplayName: Shadowflame Sceptre Shot
+RoyalSubjectProjectile.DisplayName: Royal Subject
+SandstoneBoulder.DisplayName: Sandstone Boulder
+SandstoneShrapnel.DisplayName: Sandstone Shrapnel
+EgyptianFlailProjectile.DisplayName: Nekhakha
+SpiritBow.DisplayName: Spirit Bow
+TimberBranch.DisplayName: Timber Branch
+CosmosForceMoon.DisplayName: Cosmos Force Moon
+GladiatorSpirit.DisplayName: Gladiator Spirit
+ShadowDash.DisplayName: Shadow Dash
+SpiritTornado.DisplayName: Spirit Tornado
+TerrariaSoulMoon.DisplayName: Moon of Terraria
+DeviDevilScythe.DisplayName: Devil Scythe
+LifeHomingProjSmall.DisplayName: Lifeshot
+LifeRuneExplosion.DisplayName: Life Rune Explosion
+LifeRunespearHitbox.DisplayName: Life Runespear
+LifeRunespearExplosion.DisplayName: Life Runespear Explosion
+LifeRuneRetractHitbox.DisplayName: Life Rune
+Slimesplosion.DisplayName: Slimesplosion
+TwinsEyeFlash.DisplayName: Twins Eye Flash
+UmbraRegaliaProj.DisplayName: Umbra Regalia
+EffectVisual.DisplayName: Effect Visual
+SpectreGhostProj.DisplayName: Spectre Ghost
+SpectreSpirit.DisplayName: Spectre Spirit
+VortexLaser.DisplayName: Vortex Laser
+DicerPlanteraSeed.DisplayName: Dicer Bomb Seed
+MoltenAuraProj.DisplayName: Molten Aura
+LifelightEnvironmentStar.DisplayName: Star of Light
+NebulaShot.DisplayName: Nebula Shot
+SolarEnchFlare.DisplayName: Solar Flare
+DeerclopsDarknessHand.DisplayName: Hand of Shadow
+SlimeKingSlasherProj.DisplayName: Slime King's Slasher
+AbomStyxGazerDash.DisplayName: Styx Gazer
+EbonwoodAuraProj.DisplayName: Ebonwood Aura
+ShadewoodAuraProj.DisplayName: Shadewood Aura
+MeteorExplosion.DisplayName: Meteor Explosion
+SlimeSlingingSlasherProj.DisplayName: Slime Slinging Slasher
+PlanteraSpikevine.DisplayName: Plantera Spikevine
+ElectricWhipProj.DisplayName: Voltaic Lasher
+ElectricWhipLightning.DisplayName: Voltaic Lasher Lightning
+TheDestroyerProj.DisplayName: The Destroyer
+DestroyerBodyWhip.DisplayName: Destroyer Body
+DestroyerHeadWhip.DisplayName: Destroyer Head
+DestroyerTailWhip.DisplayName: Destroyer Tail
+DestroyerScanTelegraph.DisplayName: Destroyer Scan Telegraph
+PungentAuraProj.DisplayName: Pungent Aura Proj
+RockeaterAuraProj.DisplayName: Rockeater Aura Proj
+FallenStarDay.DisplayName: Fallen Star Day
+LightningRodLightning.DisplayName: Lightning Rod Lightning

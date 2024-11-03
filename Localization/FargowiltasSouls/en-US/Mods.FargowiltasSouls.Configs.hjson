@@ -1,5 +1,5 @@
-SoulConfig: {
-	DisplayName: Soul Config
+ClientConfig: {
+	DisplayName: Client Config
 
 	Headers: {
 		Maso: Eternity Mode
@@ -14,6 +14,55 @@ SoulConfig: {
 	ItemDisabledTooltip: {
 		Label: Disabled Effect Tooltip
 		Tooltip: If true, items with any effects disabled by the Effect Toggler will have a tooltip line stating this.
+	}
+
+	ToggleSearchReset: {
+		Label: Accessory Effects menu resets search bar when closed
+		Tooltip: ""
+	}
+
+	RainbowHealThreshold: {
+		Label: "[i:FargowiltasSouls/ConcentratedRainbowMatter] Automatic Heal Threshold"
+		Tooltip: ""
+	}
+
+	PrecisionSealIsHold: {
+		Label: "[i:FargowiltasSouls/PrecisionSeal] Precision Seal Key must be held"
+		Tooltip: If false, precision mode is instead toggled with the key.
+	}
+
+	OncomingMutantX: {
+		Label: Eternity Mode inventory icon X position
+		Tooltip: ""
+	}
+
+	OncomingMutantY: {
+		Label: Eternity Mode inventory icon Y position
+		Tooltip: ""
+	}
+
+	CooldownBars: {
+		Label: Cooldown Bars
+		Tooltip: ""
+	}
+
+	CooldownBarsX: {
+		Label: Cooldown Bars X
+		Tooltip: ""
+	}
+
+	CooldownBarsY: {
+		Label: Cooldown Bars Y
+		Tooltip: ""
+	}
+}
+
+SoulConfig: {
+	DisplayName: Soul Config
+
+	Headers: {
+		Maso: Eternity Mode
+		Patreon: "[i:FargowiltasSouls/RoombaPet] [c/ffffff:Patreon Items]"
 	}
 
 	DeviChatter: {
@@ -38,26 +87,6 @@ SoulConfig: {
 
 	BossRecolors: {
 		Label: Bosses use alternative sprites
-		Tooltip: ""
-	}
-
-	PrecisionSealIsHold: {
-		Label: Precision Seal Key must be held
-		Tooltip: If false, precision mode is instead toggled with the key.
-	}
-
-	PreBossNightGlow: {
-		Label: Pre-Boss Enemy Glow
-		Tooltip: In Eternity Mode, enemies glow at night before any boss has been killed
-	}
-
-	OncomingMutantX: {
-		Label: Eternity Mode inventory icon X position
-		Tooltip: ""
-	}
-
-	OncomingMutantY: {
-		Label: Eternity Mode inventory icon Y position
 		Tooltip: ""
 	}
 
