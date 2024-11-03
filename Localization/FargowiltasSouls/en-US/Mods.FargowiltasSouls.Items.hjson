@@ -235,7 +235,7 @@ GladiatorEnchant: {
 		Spears will rain down on struck enemies, dealing ranged damage
 		Double tap down to place a banner that lasts 15 seconds
 		While close to the banner, spear rain is stronger
-		Being close to the banner also grants knockback immunity, +5% damage reduction and +5% damage
+		Being close to the banner also grants knockback immunity, +8% damage reduction and +8% damage
 		Banner can only be resummoned after it runs out
 		'Are you not entertained?'
 		'''
@@ -622,7 +622,6 @@ SpiderEnchant: {
 	Tooltip:
 		'''
 		Your summon weapons can crit
-		+10% summon critical strike chance
 		'Arachnophobia is punishable by arachnid induced death'
 		'''
 }
@@ -667,6 +666,7 @@ TikiEnchant: {
 		Summoner whips scale with your strongest class instead
 		+20% whip range
 		Whip your minions or projectiles to empower them for 1.2x damage on their next hit
+		In Eternity Mode, whips can benefit from melee speed again
 		'Aku Aku!'
 		'''
 }
@@ -997,6 +997,7 @@ WillForce: {
 		[i:FargowiltasSouls/GoldEnchant] Press the Gold hotkey to be encased in a golden shell, your attacks inflict Midas
 		[i:FargowiltasSouls/GoldEnchant] Automatically sends coins to your piggy bank when picked up (works in inventory and vanity)
 		[i:FargowiltasSouls/PlatinumEnchant] 33% chance for enemies to drop 5x loot
+		'A mind of unbreakable determination'
 		'''
 	VanityTooltip: "[i:FargowiltasSouls/GoldEnchant] Automatically sends coins to your piggy bank when picked up"
 }
@@ -1456,7 +1457,7 @@ NecromanticBrew: {
 	Tooltip:
 		'''
 		Grants immunity to Lethargic
-		Increases speed when dashing by 50%
+		Increases speed when dashing by 30%
 		When dashing, take 15% less damage and reflect 100% of contact damage on attacker
 		Summons 2 Skeletron arms to whack enemies
 		'The bone-growing solution of a defeated foe'
@@ -1913,7 +1914,7 @@ TerrariaSoul: {
 		[i:FargowiltasSouls/SpiritForce] Double tap down to call an ancient tornado, healing potions restore more over time, and your whips are improved
 		[i:FargowiltasSouls/SpiritForce] If you reach zero HP you will revive with 300 HP and self-cleanse debuffs
 		[i:FargowiltasSouls/ShadowForce] Grants a shadow dash, and an invincible shade dash every 4 seconds, increased projectile stats based on speed
-		[i:FargowiltasSouls/ShadowForce] You fire additional weapons as support, your minions get a scythe attack, and slain enemies may drop a pile of bones
+		[i:FargowiltasSouls/ShadowForce] You fire an additional weapon as support, your minions get a scythe attack, and slain enemies may drop a pile of bones
 		[i:FargowiltasSouls/WillForce] Summons a gladiator spirit, increases your healing and mount stats, and successive attacks gain bonus damage, press the Gold hotkey to encase yourself
 		[i:FargowiltasSouls/WillForce] Automatically sends coins to your piggy bank when picked up (works from vanity and inventory), enemies may drop extra loot
 		[i:FargowiltasSouls/CosmoForce] Attacking occasionally launches moons at enemies that explode into Lunar Boosters
@@ -3614,7 +3615,11 @@ WillBooster: {
 
 CoffinRoominator: {
 	DisplayName: Coffin Roominator
-	Tooltip: ""
+	Tooltip:
+		'''
+		Spawns a Cursed Coffin room on your cursor
+		Overrides existing Cursed Coffin rooms
+		'''
 }
 
 GildedSceptre: {
