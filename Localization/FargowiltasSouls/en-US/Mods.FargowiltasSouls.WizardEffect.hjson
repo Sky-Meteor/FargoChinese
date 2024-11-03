@@ -1,44 +1,44 @@
 // Maybe move into entries of each enchant
 Adamantite: Projectiles now split into 3, damage reduced from 70/60% to 50/37.5%
-Apprentice: The next 2 weapons are used instead of 1
+Apprentice: Secondary weapon frequency increased to 1/5
 AncientHallow: Sword damage increased, projectile damage cap increased to 200
 AncientShadow: Number of Shadow Orbs increased
-AncientCobalt: No upgrade
-Angler: No upgrade
+AncientCobalt: Increased invunerability time and explosion damage
+Angler: All fishing rods have 5 extra lures
 Bee: Increased wing strength and bee swarm damage
-Beetle: No upgrade
+Beetle: Beetle buffs can reach tier 3
 BorealWood: Fires more snowballs more often
 Cactus: Number of needles and damage increased
 Chlorophyte: Damage of ring and spores increased, cooldown of spores reduced
 Cobalt: On-hit explosion damage increased
 Copper: Lightning damage increased to 200, cooldown reduced
 Crimson: Timer doubled, but the heal triggers twice. Once in the middle, and once at the end
-CrystalAssassin: No upgrade
-DarkArtist: The next 3 weapons are used instead of 2
-Ebonwood: Aura size increased, defense reduction increased to 40
-Forbidden: Damage boost increased from 30 to 60%
+CrystalAssassin: Reduced dash cooldown, dash grants First Strike (5s cooldown)
+DarkArtist: Secondary weapon frequency increased to 1/3
+Ebonwood: Aura size increased, flat damage increased to 20
+Forbidden: Damage boost increased from 1.2x to 1.4x
 Fossil: Revive heal increased to 200 and revive bone count doubled
 Frost: Icicle damage doubled
-Gladiator: Increased banner aura size, decreased spear rain cooldown
+Gladiator: Increased banner aura size and doubled stat buff, improved spear rain damage and cooldown
 Gold: Increased shell duration
 Hallow: Potion heal bonus increased from 40 to 70%
 Huntress: Armor penetration and flat damage increased to 10 and 5 respectively
 Iron: Increases chance not to consume to 50%
 Jungle: Spore damage increased, cooldown decreased
 Lead: Lead Poisoning damage increased, DoT resistance increased to 60%
-Meteor: Drastically buffed meteor shower
+Meteor: Increased meteor damage, size and frequency
 Miner: Increased mining speed
 Molten: Inferno ring is larger and more damaging, damage bonus increased from 20% to 30%
 Monk: Increased dash damage
 Mythril: Max attack speed bonus increased and lasts longer
-Nebula: Buff booster stack cap increased to 3
+Nebula: Nebula shots deal increased damage and spawn 2 nebula boosters
 Necro: Graves have increased size, float, and slightly home in on you when you're close
-Ninja: Maximum damage bonus increased to 30%, maximum player speed where effect activates increased
-Obsidian: Grants explosions and fireballs without being lava wet but with reduced damage, cooldown reduced
+Ninja: Maximum damage bonus increased to 1.225x, maximum player speed where effect activates increased
+Obsidian: Also grants explosions when afflicted with any debuff but with reduced damage, increased damage cap, reduced fireball cooldown
 Orichalcum: Increases multiplier to 3.5x
 Palladium: Rapid Healing always lasts 5 seconds, increases orb damage
 PalmWood: Attack speed, damage, and size increased
-Pearlwood: Star can hit enemies, your attacks have 2 extra chances to crit
+Pearlwood: Your crits reroll twice, increased star damage
 Platinum: Bonus replaced with 33% chance for enemies to drop 5x loot
 Pumpkin: Pumpkins can grow while flying, heal for twice as much, and flame damage is increased to 45
 Rain: Umbrella can block up to 400 damage and reflected damage is tripled
@@ -46,39 +46,25 @@ RedRiding: Arrow rain has less cooldown and deals more damage
 RichMahogany: Hooks pull 2.5x as fast, damage resistance and thorns increased greatly
 Shadewood: Aura size and blood damage increased, additionally applies Ichor
 Shinobi: Increased dash damage
-Shroomite: Mushrooms are spawned more often
+Shroomite: Mushroom Power stats increased to 30%, mushroom damage and count increased
 Silver: Parrying blocks up to 200 damage and always grants the Striking Moment buff
 Solar: Solar bursts deal increased damage in a larger radius
 Spectre: Revive heal increased to 200, revive spirit count doubled, spirit damage doubled
 Spider: 15% more increased summon critical strike chance
 Spooky: Decreased cooldown
-Stardust: Timestop cooldown decreased from 60 to 50
-Snow: No upgrade
+Stardust: Timestop cooldown decreased from 90 to 75
+Snow: Snowballs inflict Frostbite and freeze enemies solid
 Shadow: Number of Shadow Orbs increased
 Squire: Mount defense increased from 10 to 15, speed and acceleration from 1.25x to 1.5x, heal bonus from 10% to 15%
-Tiki: Increases whip range by 20%
+Tiki: Bonus whip range increased to 40%, projectile damage bonus increased to 1.4x
 Tin: Minimum crit increased to 10%, max crit is at least 50%, reduced proc cooldown
-Titanium: Shard damage increased, Titanium Shield duration increased to 5 seconds and damage resistance increased to 35%
+Titanium: Shard damage increased, Titanium Shield duration increased to 5 seconds and maximum damage resistance increased by 10%
 Tungsten: Weapon size tripled instead of doubled, damage bonus increased from 7% to 14%, and cooldown reduced
 Turtle: Occasionally recover a projectile block point, number of needles and damage increased
 ValhallaKnight: Mount defense increased from 15 to 20, acceleration from 1.5x to 2x, and heal bonus from 15% to 20%
-Vortex: No upgrade
+Vortex: Laser damage increased
 Wood: Bestiary and banner multiplier increased to 5
-AshWood: Fireball cooldown reduced
+AshWood: Reduced Fireball cooldown, increased fireball damage cap
 NoUpgrade: No upgrade
 Active: Active
 Inactive: Inactive
-Aerospec: Total of 5 jumps, jumping grants more crit
-Marnite: Stronger daggers, +15% placement speed and +5 placement range
-DesertProwler: Stronger jumps
-Wulfrum: The drone is faster and occasionally finds bonus items
-Hydrothermic: Longer overheat charge, more attack speed increase
-Daedalus: Grants wings if you don't have any, Can fly higher
-SnowRuffian: Grants some flight time
-Reaver: More drastic stat changes
-Plaguebringer:
-	'''
-	Debuffs spread from farther 
-	Enemies are tagged to spread debuffs for longer
-	'''
-Umbraphile: Bats do more damage and travel faster

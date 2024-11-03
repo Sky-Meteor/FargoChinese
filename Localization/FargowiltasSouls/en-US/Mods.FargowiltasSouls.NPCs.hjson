@@ -74,12 +74,12 @@ NatureChampion: {
 NatureChampionHead.DisplayName: Champion of Nature
 
 ShadowChampion: {
-	DisplayName: Champion of Shadow
+	DisplayName: Champion of Death
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.ShadowChampion.DisplayName}"
 		SpawnInfo: Spawn by using [i:FargowiltasSouls/SigilOfChampions] in the Corruption or Crimson at night.
-		DespawnMessage: Champion of Shadow fades away...
+		DespawnMessage: Champion of Death fades away...
 	}
 }
 
@@ -164,7 +164,7 @@ MutantBoss: {
 		Random2: This feeling...
 		Random3: I will bring an end to this.
 		Random4: Foolish Terrarian...
-		Random5: Have it writ upon thy meagre grave: Felled by the Mutant.
+		Random5: Have it writ upon thy meagre grave: Felled by Mutant.
 		Random6: None may claim the title of Eternal.
 		Random7: Eternal pain upon thee.
 		Random8: You are unfit of the Eternal Soul.
@@ -366,7 +366,7 @@ EMode: {
 	Betsy25: <Message was deleted by staff>
 	Betsy26: <User {0} was banned>
 	Betsy27: <User {0} was muted>
-	RegrowArms: "{0} has regrown its arms!"
+	RegrowArms: "{0} has grown new arms!"
 	GuardianForm: "{0} has entered Dungeon Guardian form!"
 	TwinsEndure: "{0} endured the fatal blow to fight alongside its twin!"
 	TwinsRevive: "{0} has been revived!"
@@ -374,4 +374,7 @@ EMode: {
 	QueenBeeEnrage: "{$NPCName.QueenBee} has enraged outside the underground jungle!"
 }
 
-RoyalSubjectVertical.DisplayName: Royal Subject Vertical
+RoyalSubjectVertical.DisplayName: Royal Subject
+GelatinBouncer.DisplayName: Bouncy Slime
+GelatinFlyer.DisplayName: Heavenly Slime
+CursedCoffinInactive.DisplayName: Mysterious Coffin

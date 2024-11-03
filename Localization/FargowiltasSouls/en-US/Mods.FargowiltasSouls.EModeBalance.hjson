@@ -9,6 +9,7 @@ RodofDiscord: During boss fights, every use takes life
 Split: Reduced split frequency
 ChlorophyteBullet: Reduced speed and duration
 WaterBolt: Cannot be used until Skeletron is defeated
+SpaceGun: Cannot be used until an evil boss is defeated
 DemonScythe: Reduced damage and speed by 40% until an evil boss is defeated
 HolyDodge: Holy Dodge activation will temporarily reduce your attack speed
 FrozenTurtleShell: Frozen barrier slightly reduces your damage dealt
@@ -25,6 +26,8 @@ MoonsWaves: Dying decreases wave progress
 WhipSpeed: Does not benefit from melee speed bonuses
 WhipStack: Whip buffs/debuffs can't stack
 DefensePrefix: Adjusted prefix stats: reduced defense before Hardmode, +5 max life
+DefensePrefix_HM: Adjusted prefix stats: +5 max life
+ViolentPrefix: Adjusted prefix stats: grants attack speed, not melee speed
 ManaPots: Cannot be used during Mana Sickness, but 50% increased restoration
 MinionStack: Damage of minions diminishes when summoning over 3 copies (effect caps at 12)
 SummonMulticlass: Summon damage decreases when you attack using other classes (except in OOA)
@@ -34,7 +37,7 @@ SpearRework: Reworked spear swing animation
 PalladiumPikeRework: Greatly increases life regeneration after striking an enemy
 CobaltNaginataRework: Causes a small explosion on striking enemies
 MythrilHalberdRework: After not attacking for 2 seconds, your next attack deals 8x damage, scaling with attack speed
-OrichalcumHalberdRework: Releases flower petals on swing
+OrichalcumHalberdRework: Deals up to double damage to enemies taking damage over time, scaling with amount
 SuperStarCannon: Decreased maximum pierce to 7
 WarmthPotionNerf: Halved damage reduction effect and now applies post-mitigation
 CrossNecklaceNerf: Longer invincibility doesn't trigger on rapid successive hits
@@ -43,3 +46,5 @@ JungleRose: Increases Plantera's Fruit drop rate from Snatcher-type enemies
 StarCloak: 33% star damage before Hardmode
 WeatherPain: Increased hit frequency and pierce
 HoundiusShootius: Increased fireball velocity
+SniperRifle: Deals up to double damage to enemies the further away they are
+ChlorophyteSaber: Faster projectiles that slow down on hit

@@ -1,6 +1,6 @@
 Freeze.DisplayName: Freeze
 Gold.DisplayName: Turn Gold
-SmokeBomb.DisplayName: Throw Smoke Bomb
+// SmokeBomb.DisplayName: Throw Smoke Bomb
 SpecialDash.DisplayName: Special Dash
 Bomb.DisplayName: Bomb
 EffectToggle.DisplayName: Open Effect Toggler

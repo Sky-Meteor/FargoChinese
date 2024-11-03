@@ -1,5 +1,5 @@
 [h1]这是[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2570931073]Fargo突变[/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2815540735]Fargo魂石[/url]的汉化补丁，使用时必须开启Fargo突变，Fargo魂石为可选开启
-适用版本：Fargo突变v3.3.2，Fargo魂石v1.6.90（均为最新版）[/h1]
+适用版本：Fargo突变v3.3.5，Fargo魂石v1.7.0.0（均为最新版）[/h1]
 
 Fargo突变&魂石汉化补丁
 使用时请将游戏语言设置为中文，其他语言会出现问题！
