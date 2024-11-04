@@ -1,6 +1,6 @@
 displayName = Fargo突变&魂石汉化补丁
 author = Furgo_ & FallingLeaf落叶 & @马达达马达（B站同名） & -ROH-
-version = 335.1704.1
+version = 335.1705.1
 modReferences = Fargowiltas
 weakReferences = FargowiltasSouls,Luminance
 includeSource = true
