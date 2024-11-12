@@ -12,3 +12,5 @@ Patreon: "[i:FargowiltasSouls/RoombaPet] 作为捐赠者物品的掉落率"
 PatreonEMode: "[i:FargowiltasSouls/RoombaPet] 在永恒模式下作为捐赠者物品的掉落率"
 PatreonPlant: "[i:FargowiltasSouls/RoombaPet] 在血月的丛林作为捐赠者物品的掉落率"
 FirstKill: 在永恒模式中首次击败时掉落
+DownedCursedCoffin: 在击败咒缚灵棺后
+PostEvilEternity: 永恒模式：在任何邪恶boss被击败后

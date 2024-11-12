@@ -9,6 +9,7 @@ RodofDiscord: 在Boss战中，每次使用都会消耗生命
 Split: 降低分裂频率
 ChlorophyteBullet: 速度减慢，存在时间降低
 WaterBolt: 在骷髅王被击败前无法使用
+SpaceGun: 在任意邪恶Boss被击败前无法使用
 DemonScythe: 任意邪恶Boss被击败前伤害和攻速会降低40%
 HolyDodge: 神圣防护激活后，一段时间内你的攻击速度会降低
 FrozenTurtleShell: 冰盾会略微降低你的攻击伤害
@@ -24,7 +25,9 @@ MoonsDrops: Boss和迷你Boss在{0}波前不会掉落物品
 MoonsWaves: 死亡会降低当前波数
 WhipSpeed: 不接受近战攻速加成
 WhipStack: 鞭子的增益/减益不能堆叠
-DefensePrefix: 词缀效果调整：+5最大生命值，但困难模式前从词缀获得的防御-1
+DefensePrefix: 词缀效果调整：+5 最大生命值，但困难模式前从词缀获得的防御-1
+DefensePrefix_HM: 词缀效果调整：+5 最大生命值
+ViolentPrefix: 词缀效果调整：不再增加近战攻速，但增加全职业攻速
 ManaPots: 魔力疾病期间无法使用，但是恢复速度提升50%
 MinionStack: 同时召唤超过3个相同召唤物时，它们的伤害会降低（超过12个后不再降低）
 SummonMulticlass: 当你使用其他职业的武器攻击时，召唤伤害降低（在撒旦军队中除外）
@@ -34,7 +37,7 @@ SpearRework: 重做长矛挥舞动画
 PalladiumPikeRework: 击中敌人后大幅增加生命恢复速度
 CobaltNaginataRework: 击中敌人会造成小范围爆炸
 MythrilHalberdRework: 不攻击持续2秒后下一击造成八倍伤害，受攻击速度加成
-OrichalcumHalberdRework: 挥舞时矛的顶端会释放花瓣
+OrichalcumHalberdRework: 对受减益伤害的敌人造成最多两倍伤害，随敌人的减益伤害增加而增加
 SuperStarCannon: 最大穿透次数降低为7次
 WarmthPotionNerf: 伤害减免效果减半且在防御后计算
 CrossNecklaceNerf: 连续受击不会触发延长无敌时间的效果
@@ -43,3 +46,5 @@ JungleRose: 增加抓人草类敌怪掉落世纪之果的几率
 StarCloak: 困难模式前星星伤害降低至33%
 WeatherPain: 伤害频率和最大穿透次数增加
 HoundiusShootius: 提高火球速度
+SniperRifle: 距离敌怪越远伤害越高，最高可翻倍
+ChlorophyteSaber: 弹幕速度更快，但命中后会减速

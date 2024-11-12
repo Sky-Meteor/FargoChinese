@@ -74,12 +74,12 @@ NatureChampion: {
 NatureChampionHead.DisplayName: 自然英灵
 
 ShadowChampion: {
-	DisplayName: 暗影英灵
+	DisplayName: 死亡英灵
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.ShadowChampion.DisplayName}"
 		SpawnInfo: 夜晚时在腐化之地或猩红之地使用[i:FargowiltasSouls/SigilOfChampions]召唤。
-		DespawnMessage: 暗影英灵消失在魔雾中……
+		DespawnMessage: 死亡英灵消失在魔雾中……
 	}
 }
 
@@ -405,7 +405,7 @@ EMode: {
 	Betsy25: *本消息已被管理员删除*
 	Betsy26: <玩家{0}被踢出了世界>
 	Betsy27: <玩家{0}被禁言29天23小时59分钟>
-	RegrowArms: "{0}的手臂又长出来了！"
+	RegrowArms: "{0}长出了新的手臂！"
 	GuardianForm: "{0}进入了地牢守卫阶段！"
 	TwinsEndure: "{0}挺住了致命攻击，它还能帮着它的兄弟打三百回合！"
 	TwinsRevive: "{0}复活了！"
@@ -414,3 +414,6 @@ EMode: {
 }
 
 RoyalSubjectVertical.DisplayName: 皇家工蜂
+GelatinBouncer.DisplayName: 弹力史莱姆
+GelatinFlyer.DisplayName: 飞翔史莱姆
+CursedCoffinInactive.DisplayName: 神秘的棺材

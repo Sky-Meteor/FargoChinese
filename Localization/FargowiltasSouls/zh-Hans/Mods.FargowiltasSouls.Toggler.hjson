@@ -4,10 +4,13 @@ TimberHeader: "{$Mods.FargowiltasSouls.Items.TimberForce.DisplayName}"
 WoodCompletionEffect: 木 图鉴解锁加快
 BorealEffect: 针叶木 雪球
 MahoganyEffect: 红木 钩爪加成
-EbonwoodEffect: 乌木 暗影焰光环
+EbonwoodEffect: 乌木 凋零
 ShadewoodEffect: 阴影木 鲜血喷溅
 PalmwoodEffect: 棕榈木 召唤物
-PearlwoodEffect: 珍珠木 星星
+PearlwoodStarEffect: 珍珠木 星星
+PearlwoodManaEffect: 珍珠木 魔力星掉落
+PearlwoodRainbowEffect: 珍珠木 彩虹轨迹
+TimberEffect: 简化森林之力
 EarthHeader: "{$Mods.FargowiltasSouls.Items.EarthForce.DisplayName}"
 AdamantiteEffect: 精金 弹幕分裂
 CobaltEffect: 钴蓝 受击爆炸
@@ -17,6 +20,7 @@ OrichalcumEffect: 山铜 花瓣
 PalladiumHealing: 钯金 生命恢复
 PalladiumEffect: 钯金 伤害珠
 TitaniumEffect: 钛金 碎片
+EarthForceEffect: 简化大地之力
 TerraHeader: "{$Mods.FargowiltasSouls.Items.TerraForce.DisplayName}"
 CopperEffect: 铜 闪电
 IronEffect: 铁 吸引掉落物
@@ -26,9 +30,10 @@ TinEffect: 锡 暴击
 TungstenEffect: 钨 变大
 ObsidianProcEffect: 黑曜石 爆炸
 AshWoodFireballs: 灰烬木 火球
+TerraLightningEffect: 简化泰拉之力
 WillHeader: "{$Mods.FargowiltasSouls.Items.WillForce.DisplayName}"
 GladiatorSpears: 角斗士 长矛雨
-GladiatorBanner: 角斗士 旗帜
+GladiatorBanner: 角斗士 旗帜区域
 GoldEffect: 金 幸运币
 GoldToPiggy: 金 自动将钱存进储蓄罐
 HuntressEffect: 女猎人 相关效果
@@ -36,6 +41,7 @@ RedRidingEffect: 红色骑术 箭雨
 ValhallaDash: 英灵殿骑士 坐骑冲刺
 SquireMountJump: 侍卫 坐骑跳跃高度
 SquireMountSpeed: 侍卫 坐骑速度
+WillEffect: 简化意志之力
 LifeHeader: "{$Mods.FargowiltasSouls.Items.LifeForce.DisplayName}"
 BeeEffect: 蜜蜂 花朵
 BeetleEffect: 甲虫 相关效果
@@ -43,17 +49,21 @@ CactusEffect: 仙人掌 针刺
 PumpkinEffect: 南瓜 种植南瓜
 SpiderEffect: 蜘蛛 召唤物暴击
 TurtleEffect: 乌龟 缩壳减伤
+LifeForceEffect: 简化生命之力
 NatureHeader: "{$Mods.FargowiltasSouls.Items.NatureForce.DisplayName}"
 ChloroMinion: 叶绿 水晶
 CrimsonEffect: 猩红 治愈
-RainUmbrellaEffect: 雨云 雨伞
-RainInnerTubeEffect: 游泳圈效果
+RainUmbrellaEffect: 雨云 雨伞盾牌
+RainInnerTubeEffect: 雨云 游泳圈效果
+RainFeatherfallEffect: 雨云 雨伞羽落效果
 SnowEffect: 冰雪 雪球
 JungleJump: 丛林 跳跃孢子
 JungleDashEffect: 丛林 冲刺
 MoltenEffect: 熔岩 狱火增益
-ShroomiteStealthEffect: 蘑菇 潜行
-ShroomiteShroomEffect: 蘑菇 蘑菇尾迹
+ShroomiteHealEffect: 蘑菇 蘑菇消耗增益
+ShroomiteMushroomPriority: 蘑菇 使用药水优先级
+ShroomiteShroomEffect: 蘑菇 蘑菇云
+NatureEffect: 简化自然之力
 ShadowHeader: "{$Mods.FargowiltasSouls.Items.ShadowForce.DisplayName}"
 DarkArtistMinion: 暗黑艺术家 爆炸烈焰召唤物
 ApprenticeSupport: 学徒 相关效果
@@ -66,23 +76,28 @@ ShinobiThroughWalls: 渗透忍者 穿墙冲刺
 SpookyEffect: 阴森 镰刀攻击
 NinjaEffect: 忍者 弹幕速度
 CrystalAssassinDash: 水晶刺客冲刺
+CrystalDiagonalDash: 水晶刺客斜向冲刺
+ShadowForceDashEffect: 暗影 冲刺
+ShadowForceEffect: 简化死亡之力
 SpiritHeader: "{$Mods.FargowiltasSouls.Items.SpiritForce.DisplayName}"
 FossilBones: 化石 受击释放骨头
 HallowEffect: 神圣 治疗药水
 AncientHallowMinion: 远古神圣 泰拉棱镜
-SpectreEffect: 幽魂 幽魂珠
+SpectreOnHitEffect: 幽魂 攻击产生灵魂
 ForbiddenEffect: 禁戒 风暴
 TikiEffect: 提基 鞭打召唤物
+SpiritTornadoEffect: 简化心灵之力
 CosmoHeader: "{$Mods.FargowiltasSouls.Items.CosmoForce.DisplayName}"
 MeteorMomentumEffect: 流星 速度
-MeteorEffect: 流星 流星雨
+MeteorEffect: 流星 流星撞击
 MeteorTrailEffect: 流星 火焰尾迹
-NebulaEffect: 星云 强化焰
+NebulaEffect: 星云 星云火焰
 SolarEffect: 耀斑 护盾冲撞
-SolarFlareEffect: 耀斑 太阳耀斑减益
+SolarFlareEffect: 耀斑 太阳耀斑
 StardustMinionEffect: 星尘 星尘守卫
-VortexStealthEffect: 星旋 潜行
-VortexVortexEffect: 星旋 星旋旋涡
+VortexEffect: 星旋 激光
+CosmosMoonEffect: 宇宙 月亮
+CosmoForceEffect: 简化宇宙之力
 DeviEnergyHeader: 永恒模式饰品
 DeerSinewEffect: 鹿筋冲刺
 ZephyrJump: 风神跳跃
@@ -129,24 +144,24 @@ DeerclawpsDive: 冰鹿爪快速下落
 DeerclawpsEffect: 冲刺留下冰刺
 DreadShellEffect: 恐惧螺壳格挡
 ChaliceHeader: "{$Mods.FargowiltasSouls.Items.ChaliceoftheMoon.DisplayName}"
-CultistMinionEffect: 拜月教徒召唤物
 PlantMinionEffect: 世纪之花召唤物
 LihzahrdGroundPound: 蜥蜴快速下落
 LihzahrdBoulders: 下落坠地火焰
 CelestialRuneAttacks: 天界符文额外攻击
+CelestialRuneOnhit: 受伤产生远古幻象妖
+MinionsDeactivatedEffect: 禁用仆从效果来提高伤害
 HeartHeader: "{$Mods.FargowiltasSouls.Items.HeartoftheMasochist.DisplayName}"
 PrecisionSealHurtbox: 缩小碰撞箱
 PumpkingsCapeEffect: 南瓜王披肩格挡
 IceQueenGraze: 擦弹
 UfoMinionEffect: 迷你飞碟召唤物
-MasoGravEffect: 重力控制
+ChalicePotionEffect: 药水增益
 MasoTrueEyeMinion: 克苏鲁真眼召唤物
 MutantArmorHeader: 真·突变体套装
 MasoAbom: 幽灵憎恶
 MasoRing: 幻影球召唤物
 UniverseHeader: "{$Mods.FargowiltasSouls.Items.UniverseSoul.DisplayName}"
 MeleeSpeedEffect: 近战攻速加成
-MagmaStoneEffect: 岩浆石
 SniperScopeEffect: 狙击镜
 UniverseSpeedEffect: 寰宇之魂攻击速度加成
 WorldShaperHeader: "{$Mods.FargowiltasSouls.Items.WorldShaperSoul.DisplayName}"
@@ -166,12 +181,12 @@ ShimmerImmunityEffect: 免疫微光闪烁
 FlightMasteryHeader: "{$Mods.FargowiltasSouls.Items.FlightMasterySoul.DisplayName}"
 FlightMasteryInsignia: 翱翔徽章加速
 FlightMasteryGravity: 增加重力
+JumpsDisabled: 禁用一切跳跃
 SupersonicHeader: "{$Mods.FargowiltasSouls.Items.SupersonicSoul.DisplayName}"
 RunSpeed: 提高基础奔跑速度
 NoMomentum: 不计算动量
 SupersonicTabi: 分趾厚底袜冲刺
 SupersonicClimbing: 猛虎攀爬装备
-SupersonicSpeedEffect: 超音速之魂速度提升
 SupersonicJumps: 超音速之魂五段跳
 SupersonicRocketBoots: 超音速之魂火箭靴
 SupersonicCarpet: 超音速之魂飞毯
@@ -184,8 +199,8 @@ TrawlerJump: 捕鱼之魂跳跃
 TrawlerGel: 挥发明胶
 EternityHeader: "{$Mods.FargowiltasSouls.Items.EternitySoul.DisplayName}"
 EternityTin: 永恒之魂属性叠加
-// the pets are no longer existing in game
 PetHeader: 宠物
+// the pets are no longer existing in game
 PetDinoConfig: 恐龙宝宝
 PetEaterConfig: 吞噬怪宝宝
 PetFaceMonsterConfig: 脸怪宝宝

@@ -1,6 +1,33 @@
 SoulTogglerButton: Effect Toggler
 EternityEnabled: Eternity Mode is enabled
 MasochistEnabled: Masochist Mode is enabled
+EternityDisabled: Eternity Mode is disabled
+RightClickToggle: Right Click to toggle
+HoldShift: Hold Shift to read more
+ExpandedEternity:
+	'''
+	[c/00FFFF:A new mode above Expert for Terraria veterans. The intended Fargo experience.]
+	World must be in Expert Mode or above
+	Enables Masochist Mode if world is in Master Mode and you've defeated the final Eternity boss in any world
+	'''
+ExpandedMasochist:
+	'''
+	[c/33ffbe:An intense post-Eternity bonus challenge mode.]
+	World must be in Master Mode or above
+	Enables Eternity if world is not in Master Mode or above
+	'''
+ExpandedFeatures:
+	'''
+	Eternity features include:
+
+	-Reworks bosses and enemies, making them stronger
+	-Enables Master Mode drops
+	-New Eternity-exclusive item drops
+	-Deviantt provides a starter pack and progress-based advice
+	-Improves base stats and caps player DR at 75%
+	-Debuffs wear off faster when not attacking
+	-Changes the functionality and strength of certain items
+	'''
 SavedToSlot: Toggles saved to custom set {0}!
 NoTogglesFound: No toggles found in custom set {0}.
 TurnAllTogglesOff: Turn all toggles off

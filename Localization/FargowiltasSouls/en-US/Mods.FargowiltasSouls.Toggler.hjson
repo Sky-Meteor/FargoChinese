@@ -4,10 +4,13 @@ TimberHeader: "{$Mods.FargowiltasSouls.Items.TimberForce.DisplayName}"
 WoodCompletionEffect: Wood Completion Speedup
 BorealEffect: Boreal Snowballs
 MahoganyEffect: Mahogany Hook Speed
-EbonwoodEffect: Ebonwood Shadowflame
-ShadewoodEffect: Blood Geyser On Hit
+EbonwoodEffect: Ebonwood Withering
+ShadewoodEffect: Shadewood Bleeding
 PalmwoodEffect: Palmwood Sentry
-PearlwoodEffect: Pearlwood Star
+PearlwoodStarEffect: Pearlwood Stars
+PearlwoodManaEffect: Pearlwood Mana Pickups
+PearlwoodRainbowEffect: Pearlwood Rainbow Trail
+TimberEffect: Concise Timber Force
 EarthHeader: "{$Mods.FargowiltasSouls.Items.EarthForce.DisplayName}"
 AdamantiteEffect: Adamantite Projectile Splitting
 CobaltEffect: Cobalt Hit Explosion
@@ -17,6 +20,7 @@ OrichalcumEffect: Orichalcum Petals
 PalladiumHealing: Palladium Healing
 PalladiumEffect: Palladium Orbs
 TitaniumEffect: Titanium Shards
+EarthForceEffect: Concise Earth Force
 TerraHeader: "{$Mods.FargowiltasSouls.Items.TerraForce.DisplayName}"
 CopperEffect: Copper Lightning
 IronEffect: Iron Magnet
@@ -26,9 +30,10 @@ TinEffect: Tin Crits
 TungstenEffect: Tungsten Effect
 ObsidianProcEffect: Obsidian Explosions
 AshWoodFireballs: Ash Fireballs
+TerraLightningEffect: Concise Terra Force
 WillHeader: "{$Mods.FargowiltasSouls.Items.WillForce.DisplayName}"
 GladiatorSpears: Gladiator Spears
-GladiatorBanner: Gladiator Banner
+GladiatorBanner: Gladiator Zone
 GoldEffect: Gold Lucky Coin
 GoldToPiggy: Gold To Piggy Bank
 HuntressEffect: Huntress Ability
@@ -36,6 +41,7 @@ RedRidingEffect: Red Riding Arrow Rain
 ValhallaDash: Valhalla Mount Dash
 SquireMountJump: Squire Mount Jump
 SquireMountSpeed: Squire Mount Speed
+WillEffect: Concise Will Force
 LifeHeader: "{$Mods.FargowiltasSouls.Items.LifeForce.DisplayName}"
 BeeEffect: Bee Flowers
 BeetleEffect: Beetles
@@ -43,17 +49,21 @@ CactusEffect: Cactus Needles
 PumpkinEffect: Grow Pumpkins
 SpiderEffect: Spider Crits
 TurtleEffect: Turtle Shell Buff
+LifeForceEffect: Concise Life Force
 NatureHeader: "{$Mods.FargowiltasSouls.Items.NatureForce.DisplayName}"
 ChloroMinion: Chlorophyte Leaf Crystal
 CrimsonEffect: Crimson Healing
-RainUmbrellaEffect: Rain Umbrella
+RainUmbrellaEffect: Umbrella Shield
 RainInnerTubeEffect: Inner Tube
+RainFeatherfallEffect: Umbrella Featherfall
 SnowEffect: Freezing Snowballs
 JungleJump: Jungle Jump and Spores
 JungleDashEffect: Jungle Dash
-MoltenEffect: Molten Inferno Buff
-ShroomiteStealthEffect: Shroomite Stealth
-ShroomiteShroomEffect: Shroomite Mushrooms
+MoltenEffect: Molten Inferno
+ShroomiteHealEffect: Shroomite Consumption Buff
+ShroomiteMushroomPriority: Mushrooms Take Potion Priority
+ShroomiteShroomEffect: Shroomite Mushroom Cloud
+NatureEffect: Concise Nature Force
 ShadowHeader: "{$Mods.FargowiltasSouls.Items.ShadowForce.DisplayName}"
 DarkArtistMinion: Flameburst Minion
 ApprenticeSupport: Apprentice Effect
@@ -66,23 +76,28 @@ ShinobiThroughWalls: Shinobi Through Walls
 SpookyEffect: Spooky Scythes
 NinjaEffect: Ninja Speed
 CrystalAssassinDash: Crystal Assassin Dash
+CrystalDiagonalDash: Diagonal Dash
+ShadowForceDashEffect: Shadow Dash
+ShadowForceEffect: Concise Death Force
 SpiritHeader: "{$Mods.FargowiltasSouls.Items.SpiritForce.DisplayName}"
 FossilBones: Fossil Bones On Hit
 HallowEffect: Hallowed Healing Potions
 AncientHallowMinion: Ancient Hallowed Blade
-SpectreEffect: Spectre Orbs
+SpectreOnHitEffect: Spirits On Hit
 ForbiddenEffect: Forbidden Storm
 TikiEffect: Tiki Minions
+SpiritTornadoEffect: Concise Spirit Force
 CosmoHeader: "{$Mods.FargowiltasSouls.Items.CosmoForce.DisplayName}"
 MeteorMomentumEffect: Meteor Speed
-MeteorEffect: Meteor Shower
+MeteorEffect: Meteor Strike
 MeteorTrailEffect: Meteor Spark Trail
-NebulaEffect: Nebula Boosters
+NebulaEffect: Nebula Blazes
 SolarEffect: Solar Shield & Dash
-SolarFlareEffect: Inflict Solar Flare
+SolarFlareEffect: Solar Flare
 StardustMinionEffect: Stardust Guardian
-VortexStealthEffect: Vortex Stealth
-VortexVortexEffect: Vortex Voids
+VortexEffect: Vortex Laser
+CosmosMoonEffect: Cosmic Moons
+CosmoForceEffect: Concise Cosmo Force
 DeviEnergyHeader: Eternity Mode Accessories
 DeerSinewEffect: Deer Sinew Dash
 ZephyrJump: Fart Jump
@@ -129,24 +144,24 @@ DeerclawpsDive: Deerclawps Dive
 DeerclawpsEffect: Deerclawps Spike Dash Trail
 DreadShellEffect: Dread Shell Parry
 ChaliceHeader: "{$Mods.FargowiltasSouls.Items.ChaliceoftheMoon.DisplayName}"
-CultistMinionEffect: Cultist Minion
 PlantMinionEffect: Plantera Minion
 LihzahrdGroundPound: Lihzahrd Fastfall
 LihzahrdBoulders: Ground Pound Spray
 CelestialRuneAttacks: Celestial Rune Support
+CelestialRuneOnhit: Ancient Visions On Hit
+MinionsDeactivatedEffect: Disabled Minion Effects for Damage
 HeartHeader: "{$Mods.FargowiltasSouls.Items.HeartoftheMasochist.DisplayName}"
 PrecisionSealHurtbox: Reduced Hurtbox Size
 PumpkingsCapeEffect: Pumpking's Cape Parry
 IceQueenGraze: Graze
 UfoMinionEffect: Saucer Minion
-MasoGravEffect: Gravity Control
-MasoTrueEyeMinion: True Eyes Minion
+ChalicePotionEffect: Free Potion Buffs
+MasoTrueEyeMinion: True Eye Minions
 MutantArmorHeader: True Mutant Armor
 MasoAbom: Abominationn Minion
 MasoRing: Phantasmal Ring Minion
 UniverseHeader: "{$Mods.FargowiltasSouls.Items.UniverseSoul.DisplayName}"
 MeleeSpeedEffect: Melee Speed
-MagmaStoneEffect: Magma Stone
 SniperScopeEffect: Sniper Scope
 UniverseSpeedEffect: Universe Attack Speed
 WorldShaperHeader: "{$Mods.FargowiltasSouls.Items.WorldShaperSoul.DisplayName}"
@@ -166,12 +181,12 @@ ShimmerImmunityEffect: Shimmer Immunity
 FlightMasteryHeader: "{$Mods.FargowiltasSouls.Items.FlightMasterySoul.DisplayName}"
 FlightMasteryInsignia: Soaring Insignia Acceleration
 FlightMasteryGravity: Amplified Gravity
+JumpsDisabled: Disable All Jumps
 SupersonicHeader: "{$Mods.FargowiltasSouls.Items.SupersonicSoul.DisplayName}"
-RunSpeed: Higher Base Run Speed
+RunSpeed: Higher Base Run Speede
 NoMomentum: No Momentum
 SupersonicTabi: Tabi Dash
 SupersonicClimbing: Tiger Climbing Gear
-SupersonicSpeedEffect: Supersonic Speed Boosts
 SupersonicJumps: Supersonic Jumps
 SupersonicRocketBoots: Supersonic Rocket Boots
 SupersonicCarpet: Supersonic Carpet
@@ -184,8 +199,8 @@ TrawlerJump: Trawler Jump
 TrawlerGel: Volatile Gelatin
 EternityHeader: "{$Mods.FargowiltasSouls.Items.EternitySoul.DisplayName}"
 EternityTin: Eternity Crit Effect Stacking
-// the pets are no longer existing in game
 PetHeader: Pets
+// the pets are no longer existing in game
 PetDinoConfig: Dino Pet
 PetEaterConfig: Eater Pet
 PetFaceMonsterConfig: Face Monster Pet
