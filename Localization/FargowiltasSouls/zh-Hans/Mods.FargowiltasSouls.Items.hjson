@@ -884,9 +884,9 @@ LifeForce: {
 		[i:FargowiltasSouls/BeeEnchant] 飞行时会产生花朵
 		[i:FargowiltasSouls/PumpkinEnchant] 触碰花朵时会回复血量，同时产生大量蜜蜂，获得仙馔密酒增益并刷新飞行时间
 		[i:FargowiltasSouls/BeetleEnchant] 仙馔密酒增益增加30%伤害和近战速度，增加20%伤害减免和5生命恢复
+		[i:FargowiltasSouls/BeetleEnchant] 仙馔密酒增益会使仆从和哨兵能够暴击
 		[i:FargowiltasSouls/TurtleEnchant] 反弹500%的接触伤害
-		[i:FargowiltasSouls/SpiderEnchant] 你的仆从和哨兵可以暴击
-		[i:FargowiltasSouls/SpiderEnchant] 召唤暴击率增加10%
+		[i:FargowiltasSouls/SpiderEnchant] 召唤暴击率增加15%
 		[i:FargowiltasSouls/BeeEnchant] 获得蜜蜂背包效果
 		“罕有生灵敢违背你的意愿”
 		'''
@@ -1817,7 +1817,7 @@ DimensionSoul: {
 		增加8点生命再生
 		免疫击退和一些减益
 		增加敌人以你为目标的几率
-		使你获得超音速奔跑和无限飞行能力[c/BC5252:并禁用所有跳跃（可切换）]
+		使你获得超音速奔跑和无限飞行能力[c/BC5252：并禁用所有跳跃（可切换）]
 		大幅增加渔力且钓竿会额外扔出10根鱼线
 		增加50%物块和墙壁的放置速度
 		近乎无限的放置和挖掘距离，挖掘速度x3
@@ -2307,6 +2307,7 @@ EternityAdvisor: {
 	Tooltip:
 		'''
 		基于当前进度，为你提供永恒模式的配装建议
+		[c/ff0000:注意，这些建议已经落后于当前版本，请对这些建议持谨慎的态度。]
 		'''
 	General: 常规推荐：{0}
 	ClassSpecific: 特殊类别：{0}

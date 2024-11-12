@@ -405,7 +405,7 @@ EMode: {
 	Betsy25: *本消息已被管理员删除*
 	Betsy26: <玩家{0}被踢出了世界>
 	Betsy27: <玩家{0}被禁言29天23小时59分钟>
-	RegrowArms: "{0}长出了新的手臂！"
+	RegrowArms: "{0}的手臂又长出来了！"
 	GuardianForm: "{0}进入了地牢守卫阶段！"
 	TwinsEndure: "{0}挺住了致命攻击，它还能帮着它的兄弟打三百回合！"
 	TwinsRevive: "{0}复活了！"
