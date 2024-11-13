@@ -235,7 +235,7 @@ GladiatorEnchant: {
 		Spears will rain down on struck enemies, dealing ranged damage
 		Double tap down to place a banner that lasts 15 seconds
 		While close to the banner, spear rain is stronger
-		Being close to the banner also grants knockback immunity, +8% damage reduction and +8% damage
+		Being close to the banner also grants knockback immunity, +5% damage reduction and +5% damage
 		Banner can only be resummoned after it runs out
 		'Are you not entertained?'
 		'''
@@ -622,7 +622,7 @@ SpiderEnchant: {
 	Tooltip:
 		'''
 		Your summon weapons can crit
-		Summon crits only deal 1.5x damage if you're holding a non-Summoner weapon
+		+10% summon critical strike chance
 		'Arachnophobia is punishable by arachnid induced death'
 		'''
 }
@@ -667,7 +667,6 @@ TikiEnchant: {
 		Summoner whips scale with your strongest class instead
 		+20% whip range
 		Whip your minions or projectiles to empower them for 1.2x damage on their next hit
-		In Eternity Mode, whips can benefit from melee speed again
 		'Aku Aku!'
 		'''
 }
@@ -887,9 +886,9 @@ LifeForce: {
 		[i:FargowiltasSouls/BeeEnchant] Leave behind powerful flowers while flying
 		[i:FargowiltasSouls/PumpkinEnchant] The flowers heal you, spawn a burst of bees, grant the Ambrosia buff, and refresh your flight time when touched
 		[i:FargowiltasSouls/BeetleEnchant] The Ambrosia buff provides +30% damage, melee speed, +20% damage reduction, and 5 life regeneration
-		[i:FargowiltasSouls/BeetleEnchant] The Ambrosia buff also makes your summon damage able to crit
-		[i:FargowiltasSouls/SpiderEnchant] +15% summon critical strike chance
 		[i:FargowiltasSouls/TurtleEnchant] 500% of contact damage is reflected
+		[i:FargowiltasSouls/SpiderEnchant] Your minions and sentries can crit
+		[i:FargowiltasSouls/SpiderEnchant] 10% increased summon critical strike chance
 		[i:FargowiltasSouls/BeeEnchant] Effects of Hive Pack
 		'Rare is a living thing that dare disobey your will'
 		'''
@@ -998,7 +997,6 @@ WillForce: {
 		[i:FargowiltasSouls/GoldEnchant] Press the Gold hotkey to be encased in a golden shell, your attacks inflict Midas
 		[i:FargowiltasSouls/GoldEnchant] Automatically sends coins to your piggy bank when picked up (works in inventory and vanity)
 		[i:FargowiltasSouls/PlatinumEnchant] 33% chance for enemies to drop 5x loot
-		'A mind of unbreakable determination'
 		'''
 	VanityTooltip: "[i:FargowiltasSouls/GoldEnchant] Automatically sends coins to your piggy bank when picked up"
 }
@@ -1458,7 +1456,7 @@ NecromanticBrew: {
 	Tooltip:
 		'''
 		Grants immunity to Lethargic
-		Increases speed when dashing by 30%
+		Increases speed when dashing by 50%
 		When dashing, take 15% less damage and reflect 100% of contact damage on attacker
 		Summons 2 Skeletron arms to whack enemies
 		'The bone-growing solution of a defeated foe'
@@ -1910,12 +1908,12 @@ TerrariaSoul: {
 		[i:FargowiltasSouls/EarthForce] 4x debuff damage and you explode on hit while not attacking
 		[i:FargowiltasSouls/NatureForce] You have an aura that siphons life, increases damage taken, and you fire leaf shots at nearby enemies
 		[i:FargowiltasSouls/NatureForce] Mushroom healing is improved and grants buffs, your attacks inflict several debuffs, and you have an umbrella
-		[i:FargowiltasSouls/LifeForce] Leave behind powerful flowers while flying that grant large bonuses when touched
-		[i:FargowiltasSouls/LifeForce] You reflect contact damage, effects of Hive Pack
+		[i:FargowiltasSouls/LifeForce] Leave behind powerful flowers while flying and you have the effects of Hive Pack
+		[i:FargowiltasSouls/LifeForce] You reflect contact damage and your minions and sentries can crit
 		[i:FargowiltasSouls/SpiritForce] Double tap down to call an ancient tornado, healing potions restore more over time, and your whips are improved
 		[i:FargowiltasSouls/SpiritForce] If you reach zero HP you will revive with 300 HP and self-cleanse debuffs
 		[i:FargowiltasSouls/ShadowForce] Grants a shadow dash, and an invincible shade dash every 4 seconds, increased projectile stats based on speed
-		[i:FargowiltasSouls/ShadowForce] You fire an additional weapon as support, your minions get a scythe attack, and slain enemies may drop a pile of bones
+		[i:FargowiltasSouls/ShadowForce] You fire additional weapons as support, your minions get a scythe attack, and slain enemies may drop a pile of bones
 		[i:FargowiltasSouls/WillForce] Summons a gladiator spirit, increases your healing and mount stats, and successive attacks gain bonus damage, press the Gold hotkey to encase yourself
 		[i:FargowiltasSouls/WillForce] Automatically sends coins to your piggy bank when picked up (works from vanity and inventory), enemies may drop extra loot
 		[i:FargowiltasSouls/CosmoForce] Attacking occasionally launches moons at enemies that explode into Lunar Boosters
@@ -3616,11 +3614,7 @@ WillBooster: {
 
 CoffinRoominator: {
 	DisplayName: Coffin Roominator
-	Tooltip:
-		'''
-		Spawns a Cursed Coffin room on your cursor
-		Overrides existing Cursed Coffin rooms
-		'''
+	Tooltip: ""
 }
 
 GildedSceptre: {
