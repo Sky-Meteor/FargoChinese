@@ -1,1 +1,3 @@
-﻿v335.1700.1
+﻿NEW UPDATE v{ModVersion}
+
+update cn loc
