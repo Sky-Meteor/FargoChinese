@@ -1,3 +1,2 @@
 ﻿NEW UPDATE v{ModVersion}
-
-update cn loc
+修复联机同步问题
