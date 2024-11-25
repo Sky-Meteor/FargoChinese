@@ -1,2 +1,2 @@
 ﻿NEW UPDATE v{ModVersion}
-修复联机同步问题
+修复提基和受虐难度文本
