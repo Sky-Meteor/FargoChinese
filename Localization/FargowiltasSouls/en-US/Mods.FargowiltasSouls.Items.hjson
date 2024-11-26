@@ -889,7 +889,7 @@ LifeForce: {
 		[i:FargowiltasSouls/PumpkinEnchant] The flowers heal you, spawn a burst of bees, grant the Ambrosia buff, and refresh your flight time when touched
 		[i:FargowiltasSouls/BeetleEnchant] The Ambrosia buff provides +30% damage, melee speed, +20% damage reduction, and 5 life regeneration
 		[i:FargowiltasSouls/BeetleEnchant] The Ambrosia buff also makes your summon damage able to crit
-		[i:FargowiltasSouls/SpiderEnchant] +15% summon critical strike chance
+		[i:FargowiltasSouls/SpiderEnchant] +15% critical strike chance
 		[i:FargowiltasSouls/TurtleEnchant] 500% of contact damage is reflected
 		[i:FargowiltasSouls/BeeEnchant] Effects of Hive Pack
 		'Rare is a living thing that dare disobey your will'

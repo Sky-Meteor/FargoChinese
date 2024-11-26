@@ -887,7 +887,7 @@ LifeForce: {
 		[i:FargowiltasSouls/BeetleEnchant] 仙馔密酒增益增加30%伤害和近战速度，增加20%伤害减免和5生命恢复
 		[i:FargowiltasSouls/BeetleEnchant] 仙馔密酒增益会使仆从和哨兵能够暴击
 		[i:FargowiltasSouls/TurtleEnchant] 反弹500%的接触伤害
-		[i:FargowiltasSouls/SpiderEnchant] 召唤暴击率增加15%
+		[i:FargowiltasSouls/SpiderEnchant] 增加15%暴击率
 		[i:FargowiltasSouls/BeeEnchant] 获得蜜蜂背包效果
 		“罕有生灵敢违背你的意愿”
 		'''
@@ -921,7 +921,7 @@ ShadowForce: {
 		[i:FargowiltasSouls/NinjaEnchant] 根据弹幕速度增加弹幕伤害
 		[i:FargowiltasSouls/NinjaEnchant] 缓慢移动时增加弹幕速度
 		[i:FargowiltasSouls/NecroEnchant] 击杀敌人有概率掉落骨堆
-		[i:FargowiltasSouls/DarkArtistEnchant] 攻击时发射下一把武器的射弹作为辅助攻击
+		[i:FargowiltasSouls/DarkArtistEnchant] 攻击时发射快捷栏中最近的武器的射弹作为辅助攻击
 		[i:FargowiltasSouls/SpookyEnchant] 你的所有召唤物都会获得额外的镰刀攻击
 		“黑暗，更黑暗，还是更黑暗”
 		'''
