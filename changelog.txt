@@ -1,2 +1,2 @@
 ﻿NEW UPDATE v{ModVersion}
-修复提基和受虐难度文本
+适配魂石1.7.0.9

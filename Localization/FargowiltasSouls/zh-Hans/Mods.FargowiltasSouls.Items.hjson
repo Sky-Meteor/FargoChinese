@@ -617,8 +617,9 @@ SpiderEnchant: {
 	DisplayName: 蜘蛛魔石
 	Tooltip:
 		'''
-		你的召唤武器可以造成暴击
-		手持非召唤武器时召唤伤害只能造成1.5倍暴击伤害
+		你的召唤武器可以造成暴击，召唤暴击只造成1.5倍伤害
+		手持非召唤武器时减少召唤暴击伤害
+		增加10%暴击率
 		“蜘蛛恐惧者？作为惩罚，让他被蜘蛛干掉吧！”
 		'''
 }
@@ -1227,14 +1228,14 @@ FrigidGemstone: {
 		右键点击以禁用
 		免疫霜冻和冷冻减益
 		按下“寒霜咒语”键放置冰雪魔杖之冰
-		你的冰块会造成霜冻减益
+		在困难模式中，你的冰块会造成霜冻减益
 		“古老的冰块留下的残肢”
 		'''
 	VanityTooltip:
 		'''
 		免疫霜冻和冷冻减益
 		按下“寒霜咒语”键放置冰雪魔杖之冰
-		你的冰块会造成霜冻减益
+		在困难模式中，你的冰块会造成霜冻减益
 		'''
 }
 
@@ -1539,12 +1540,13 @@ PureHeart: {
 	Tooltip:
 		'''
 		[i:FargowiltasSouls/PureHeart]免疫生物群落带来的减益
-		[i:FargowiltasSouls/PureHeart]增加10%最大生命值
 		免疫[i:FargowiltasSouls/DarkenedHeart]腐败和[i:FargowiltasSouls/GuttedHeart]嗜血减益
-		[i:FargowiltasSouls/DarkenedHeart]增加10%移动速度
+		[i:FargowiltasSouls/DarkenedHeart]增加转向速度和10%移动速度
 		[i:FargowiltasSouls/DarkenedHeart]每攻击几次，你就会产生几个追踪敌人的迷你噬魂者
+		[i:FargowiltasSouls/DarkenedHeart]迷你噬魂者会造成升华减益，持续造成伤害并降低敌人防御
 		[i:FargowiltasSouls/GuttedHeart]召唤阻挡伤害的飞眼怪，不移动时飞眼怪生成速度加快
 		[i:FargowiltasSouls/GuttedHeart]每10-15秒生成一个新的飞眼怪，最多同时存在5个
+		[i:FargowiltasSouls/GuttedHeart]增加10%最大生命值
 		[i:FargowiltasSouls/GelicWings] 可以进行二段跳，跳跃后落地时史莱姆尖刺会向两侧射出
 		[i:FargowiltasSouls/GelicWings] 增加30%飞行时间
 		“它充满活力地跳动着”

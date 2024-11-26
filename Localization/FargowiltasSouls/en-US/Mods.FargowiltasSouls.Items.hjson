@@ -621,8 +621,9 @@ SpiderEnchant: {
 	DisplayName: Spider Enchantment
 	Tooltip:
 		'''
-		Your summon weapons can crit
-		Summon crits only deal 1.5x damage if you're holding a non-Summoner weapon
+		Your summon weapons can crit for 1.5x damage
+		Summon crits deal reduced damage if you're holding a non-Summoner weapon
+		+10% critical strike chance
 		'Arachnophobia is punishable by arachnid induced death'
 		'''
 }
@@ -1222,7 +1223,7 @@ FrigidGemstone: {
 		Right click to disable
 		Grants immunity to Frostburn and Chilled
 		Press the Frigid Spell key to cast Ice Rod
-		Your ice blocks inflict Frostburn
+		Your ice blocks inflict Frostburn in Hardmode
 		'A torn off limb composed of ancient ice'
 		'''
 	VanityTooltip:
@@ -1240,7 +1241,7 @@ FrigidGemstoneInactive: {
 		Currently inactive, Right click to activate
 		Grants immunity to Frostburn and Chilled
 		Press the Frigid Spell key to cast Ice Rod
-		Your ice blocks inflict Frostburn
+		Your ice blocks inflict Frostburn in Hardmode
 		'A torn off limb composed of ancient ice'
 		'''
 }
@@ -1527,7 +1528,7 @@ PureHeart: {
 		[i:FargowiltasSouls/PureHeart] Grants immunity to biome debuffs
 		Grants immunity to [i:FargowiltasSouls/DarkenedHeart] Rotting and [i:FargowiltasSouls/GuttedHeart] Bloodthirsty
 		[i:FargowiltasSouls/DarkenedHeart] Increased movement speed and turnaround traction
-		[i:FargowiltasSouls/DarkenedHeart] You spawn mini eaters to seek out enemies every few attacks, inflicting DoT and defense reduction
+		[i:FargowiltasSouls/DarkenedHeart] You spawn mini eaters to seek out enemies every few attacks, inflicting Sublimation (DoT and defense reduction)
 		[i:FargowiltasSouls/GuttedHeart] Up to 5 creepers hover around you blocking some damage, respawning faster when not moving
 		[i:FargowiltasSouls/GuttedHeart] Gives 10% increased max life
 		[i:FargowiltasSouls/GelicWings] Allows the wearer to double jump
