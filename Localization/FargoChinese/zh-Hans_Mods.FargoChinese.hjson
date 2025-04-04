@@ -27,16 +27,6 @@ Configs: {
 			Tooltip: ""
 		}
 
-		CustomKeyBindTip: {
-			Label: 显示“快捷使用背包左下角物品”键位绑定提示
-			Tooltip: 单独添加了一个配置选项，避免觉得左下角物品总多一行物品信息烦人
-		}
-
-		SoulsKeyBindTip: {
-			Label: 显示Fargo魂石键位绑定提示
-			Tooltip: ""
-		}
-
 		AllTipsOn: {
 			Label: 开启全部
 			Tooltip: ""
