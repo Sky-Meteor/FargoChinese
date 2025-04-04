@@ -34,22 +34,17 @@ namespace FargoChinese
         [DefaultValue(true)]
         // ReSharper disable once UnassignedField.Global
         public bool KeyBindTip;
-
-        [DefaultValue(true)]
-        // ReSharper disable once UnassignedField.Global
-        public bool SoulsKeyBindTip;
         
         [DefaultValue(false)]
         public bool AllTipsOn
         {
-            get => FruitTip && KeyBindTip && SoulsKeyBindTip;
+            get => FruitTip && KeyBindTip;
             set
             {
                 if (value)
                 {
                     FruitTip = true;
                     KeyBindTip = true;
-                    SoulsKeyBindTip = true;
                     AllTipsOff = false;
                 }
             }
@@ -58,14 +53,13 @@ namespace FargoChinese
         [DefaultValue(false)]
         public bool AllTipsOff
         {
-            get => !FruitTip && !KeyBindTip && !SoulsKeyBindTip;
+            get => !FruitTip && !KeyBindTip;
             set
             {
                 if (value)
                 {
                     FruitTip = false;
                     KeyBindTip = false;
-                    SoulsKeyBindTip = false;
                     AllTipsOn = false;
                 }
             }
