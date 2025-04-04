@@ -1,2 +1,2 @@
 ﻿NEW UPDATE v{ModVersion}
-汉化补丁堂堂完结！
+改了下灾基审核群号

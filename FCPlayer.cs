@@ -29,7 +29,7 @@ namespace FargoChinese
                 ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral("注意，现在的Fargo汉化是客户端模组，不会参与服务器的自动同步，若需要开启汉化请提醒你的朋友订阅并在模组列表自行开启！！！"), Color.LightGreen);
             }
 
-            Main.NewText("有意向参与汉化工作的玩家可以进灾厄维基汉化组QQ群：660392953（进群需要汉化考核，工作范围包括但不限于灾厄及各附属，Fargo，救赎，星海等等）", Color.OrangeRed);
+            Main.NewText("有意向参与汉化工作的玩家可以进灾厄维基汉化组QQ群：1045330192（进群需要汉化考核，工作范围包括但不限于灾厄及各附属，Fargo，救赎，星海等等）", Color.OrangeRed);
 
             // april fools
             // Main.changeTheTitle = true;
